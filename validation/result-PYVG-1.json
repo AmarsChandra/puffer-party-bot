@@ -1,0 +1,322 @@
+{
+  "won": true,
+  "room": "PYVG",
+  "playerId": "08b853d6db",
+  "winnerId": "08b853d6db",
+  "gameNumber": 1,
+  "gameId": "party:PYVG-1792685962198-1",
+  "rated": false,
+  "player": {
+    "id": "08b853d6db",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 120,
+    "alive": true,
+    "answers": 2,
+    "pops": 0,
+    "best": "rare",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Menemen",
+      "tier": "rare"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name an egg dish"
+    },
+    {
+      "index": 2,
+      "text": "Name a type of shot in a sport (like a free throw)"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an egg dish",
+      "answer": "Çılbır",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Çılbır",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an egg dish",
+      "answer": "Menemen",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Menemen",
+        "tier": "rare"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 2,
+    "accepted": 2,
+    "reactionMs": [
+      82,
+      81
+    ],
+    "sources": {
+      "codex": 2
+    },
+    "unknownCategories": []
+  },
+  "finalRoom": {
+    "code": "PYVG",
+    "chatEnabled": true,
+    "version": 57,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "08b853d6db",
+    "players": [
+      {
+        "id": "08b853d6db",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 120,
+        "alive": true,
+        "answers": 2,
+        "pops": 0,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Menemen",
+          "tier": "rare"
+        },
+        "place": 1
+      },
+      {
+        "id": "edacc8fe50",
+        "chatMuted": false,
+        "removed": false,
+        "name": "danny",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 10,
+        "alive": false,
+        "answers": 1,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Scrambled eggs",
+          "tier": "plankton"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a type of shot in a sport (like a free throw)",
+      "threshold": 14,
+      "accepted": 0
+    },
+    "countdownEndsAt": null,
+    "winnerId": "08b853d6db",
+    "gameNumber": 1,
+    "gameId": "party:PYVG-1792685962198-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "08b853d6db",
+        "seq": 1,
+        "at": 1792685962198
+      },
+      {
+        "kind": "join",
+        "playerId": "edacc8fe50",
+        "seq": 2,
+        "at": 1792685963311
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792685966311,
+        "seq": 3,
+        "at": 1792685963311
+      },
+      {
+        "kind": "start",
+        "holderId": "edacc8fe50",
+        "seq": 4,
+        "at": 1792685966311
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "edacc8fe50",
+        "seq": 5,
+        "at": 1792685966311
+      },
+      {
+        "kind": "reject",
+        "playerId": "edacc8fe50",
+        "text": "hollandaise",
+        "why": "miss",
+        "seq": 6,
+        "at": 1792685972000
+      },
+      {
+        "kind": "reject",
+        "playerId": "edacc8fe50",
+        "text": "dried rice",
+        "why": "miss",
+        "seq": 7,
+        "at": 1792685977804
+      },
+      {
+        "kind": "reject",
+        "playerId": "edacc8fe50",
+        "text": "fried rice",
+        "why": "miss",
+        "seq": 8,
+        "at": 1792685981327
+      },
+      {
+        "kind": "pass",
+        "from": "edacc8fe50",
+        "to": "08b853d6db",
+        "answer": "Scrambled eggs",
+        "tier": "plankton",
+        "seq": 9,
+        "at": 1792685986900
+      },
+      {
+        "kind": "pass",
+        "from": "08b853d6db",
+        "to": "edacc8fe50",
+        "answer": "Çılbır",
+        "tier": "rare",
+        "seq": 10,
+        "at": 1792685987552
+      },
+      {
+        "kind": "pop",
+        "playerId": "edacc8fe50",
+        "livesLeft": 1,
+        "seq": 11,
+        "at": 1792685995552
+      },
+      {
+        "kind": "pass",
+        "from": "08b853d6db",
+        "to": "edacc8fe50",
+        "answer": "Menemen",
+        "tier": "rare",
+        "seq": 12,
+        "at": 1792685997690
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "edacc8fe50",
+        "seq": 13,
+        "at": 1792685997690
+      },
+      {
+        "kind": "reject",
+        "playerId": "edacc8fe50",
+        "text": "arrow",
+        "why": "miss",
+        "seq": 14,
+        "at": 1792686007286
+      },
+      {
+        "kind": "reject",
+        "playerId": "edacc8fe50",
+        "text": "skeet",
+        "why": "miss",
+        "seq": 15,
+        "at": 1792686013572
+      },
+      {
+        "kind": "pop",
+        "playerId": "edacc8fe50",
+        "livesLeft": 0,
+        "seq": 16,
+        "at": 1792686018052
+      },
+      {
+        "kind": "out",
+        "playerId": "edacc8fe50",
+        "place": 2,
+        "seq": 17,
+        "at": 1792686018052
+      },
+      {
+        "kind": "win",
+        "playerId": "08b853d6db",
+        "seq": 18,
+        "at": 1792686018052
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792685962198,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 2,
+        "at": 1792685963311,
+        "playerId": null,
+        "name": "danny",
+        "text": "danny joined"
+      },
+      {
+        "id": 3,
+        "at": 1792686018052,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792686018052
+  }
+}

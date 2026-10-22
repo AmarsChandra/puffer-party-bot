@@ -1,0 +1,37 @@
+{
+  "kind": "private-reconnect-test",
+  "publicWin": false,
+  "startedAt": "2026-10-22T18:41:48.469Z",
+  "checks": [
+    {
+      "kind": "forced-disconnect",
+      "recovered": true,
+      "elapsedMs": 1193,
+      "tokenUnchanged": true,
+      "sameGuest": true,
+      "samePlayer": true
+    },
+    {
+      "kind": "forced-disconnect",
+      "recovered": true,
+      "elapsedMs": 1138,
+      "tokenUnchanged": true,
+      "sameGuest": true,
+      "samePlayer": true
+    },
+    {
+      "kind": "forced-token-renewal",
+      "sameGuest": true,
+      "guestCookiePreserved": true
+    },
+    {
+      "kind": "reconnect-after-renewal",
+      "recovered": true,
+      "sameGuest": true,
+      "samePlayer": true
+    }
+  ],
+  "room": "KMYQ",
+  "passed": true,
+  "finishedAt": "2026-10-22T18:41:53.644Z"
+}

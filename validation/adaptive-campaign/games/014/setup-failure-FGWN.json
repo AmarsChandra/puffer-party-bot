@@ -1,0 +1,735 @@
+{
+  "kind": "joined-without-valid-seat",
+  "at": "2026-10-22T22:51:57.251819+00:00",
+  "sourceVersion": "0a3dc804b3cba3e9",
+  "room": "FGWN",
+  "assignedPlayerId": "6d05845c6c",
+  "lastRoom": {
+    "code": "FGWN",
+    "chatEnabled": true,
+    "version": 10683,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "2c5f861c6f",
+    "players": [
+      {
+        "id": "2b4150436b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Slaygathor",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 4
+      },
+      {
+        "id": "bf3940d55d",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Flowery",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 1,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 1
+      },
+      {
+        "id": "9074f2d9ca",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Fritztopher",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "9bc708a06a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Nathan",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 1,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 3
+      },
+      {
+        "id": "2c5f861c6f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 4,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "d1aa3b5a76",
+        "chatMuted": false,
+        "removed": false,
+        "name": "mike",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 20,
+        "alive": false,
+        "answers": 2,
+        "pops": 0,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Gandalf",
+          "tier": "plankton"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a character from The Lord of the Rings or The Hobbit movies",
+      "threshold": 17,
+      "accepted": 1
+    },
+    "countdownEndsAt": null,
+    "winnerId": "bf3940d55d",
+    "gameNumber": 2,
+    "gameId": "party:FGWN-1792708799652-2",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "reject",
+        "playerId": "3cd2aba67d",
+        "text": "Dicting",
+        "why": "miss",
+        "seq": 129,
+        "at": 1792709186704
+      },
+      {
+        "kind": "pass",
+        "from": "3cd2aba67d",
+        "to": "43310a6997",
+        "answer": "verdict",
+        "tier": "plankton",
+        "seq": 130,
+        "at": 1792709192939
+      },
+      {
+        "kind": "reject",
+        "playerId": "43310a6997",
+        "text": "ah im out",
+        "why": "miss",
+        "seq": 131,
+        "at": 1792709195243
+      },
+      {
+        "kind": "pop",
+        "playerId": "43310a6997",
+        "livesLeft": 0,
+        "seq": 132,
+        "at": 1792709200940
+      },
+      {
+        "kind": "out",
+        "playerId": "43310a6997",
+        "place": 2,
+        "seq": 133,
+        "at": 1792709200940
+      },
+      {
+        "kind": "win",
+        "playerId": "3cd2aba67d",
+        "seq": 134,
+        "at": 1792709200940
+      },
+      {
+        "kind": "lobby",
+        "seq": 135,
+        "at": 1792709206308
+      },
+      {
+        "kind": "host",
+        "playerId": "3cd2aba67d",
+        "seq": 136,
+        "at": 1792709206308
+      },
+      {
+        "kind": "join",
+        "playerId": "6d05845c6c",
+        "seq": 137,
+        "at": 1792709207147
+      },
+      {
+        "kind": "join",
+        "playerId": "c6302c8a1f",
+        "seq": 138,
+        "at": 1792709207235
+      },
+      {
+        "kind": "leave",
+        "playerId": "c6302c8a1f",
+        "seq": 139,
+        "at": 1792709213987
+      },
+      {
+        "kind": "leave",
+        "playerId": "6d05845c6c",
+        "seq": 140,
+        "at": 1792709215555
+      },
+      {
+        "kind": "join",
+        "playerId": "b425948e04",
+        "seq": 141,
+        "at": 1792709215918
+      },
+      {
+        "kind": "leave",
+        "playerId": "f07e84a1d5",
+        "seq": 142,
+        "at": 1792709215942
+      },
+      {
+        "kind": "join",
+        "playerId": "2c5f861c6f",
+        "seq": 143,
+        "at": 1792709217239
+      },
+      {
+        "kind": "join",
+        "playerId": "d1aa3b5a76",
+        "seq": 144,
+        "at": 1792709218349
+      },
+      {
+        "kind": "leave",
+        "playerId": "43310a6997",
+        "seq": 145,
+        "at": 1792709219483
+      },
+      {
+        "kind": "leave",
+        "playerId": "b425948e04",
+        "seq": 146,
+        "at": 1792709223184
+      },
+      {
+        "kind": "join",
+        "playerId": "2b4150436b",
+        "seq": 147,
+        "at": 1792709224817
+      },
+      {
+        "kind": "leave",
+        "playerId": "3cd2aba67d",
+        "seq": 148,
+        "at": 1792709237506
+      },
+      {
+        "kind": "host",
+        "playerId": "d1aa3b5a76",
+        "seq": 149,
+        "at": 1792709237506
+      },
+      {
+        "kind": "join",
+        "playerId": "bf3940d55d",
+        "seq": 150,
+        "at": 1792709239756
+      },
+      {
+        "kind": "join",
+        "playerId": "9bc708a06a",
+        "seq": 151,
+        "at": 1792709240156
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792709258157,
+        "seq": 152,
+        "at": 1792709255157
+      },
+      {
+        "kind": "start",
+        "holderId": "9bc708a06a",
+        "seq": 153,
+        "at": 1792709258159
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "9bc708a06a",
+        "seq": 154,
+        "at": 1792709258159
+      },
+      {
+        "kind": "leave",
+        "playerId": "9074f2d9ca",
+        "seq": 155,
+        "at": 1792709258504
+      },
+      {
+        "kind": "leave",
+        "playerId": "2b4150436b",
+        "seq": 156,
+        "at": 1792709270125
+      },
+      {
+        "kind": "pop",
+        "playerId": "9bc708a06a",
+        "livesLeft": 1,
+        "seq": 157,
+        "at": 1792709281958
+      },
+      {
+        "kind": "pass",
+        "from": "d1aa3b5a76",
+        "to": "bf3940d55d",
+        "answer": "Owl",
+        "tier": "plankton",
+        "seq": 158,
+        "at": 1792709285973
+      },
+      {
+        "kind": "leave",
+        "playerId": "9bc708a06a",
+        "seq": 159,
+        "at": 1792709286278
+      },
+      {
+        "kind": "reject",
+        "playerId": "bf3940d55d",
+        "text": "owl",
+        "why": "repeat",
+        "seq": 160,
+        "at": 1792709293542
+      },
+      {
+        "kind": "pop",
+        "playerId": "bf3940d55d",
+        "livesLeft": 1,
+        "seq": 161,
+        "at": 1792709300834
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "d1aa3b5a76",
+        "seq": 162,
+        "at": 1792709300834
+      },
+      {
+        "kind": "pass",
+        "from": "d1aa3b5a76",
+        "to": "bf3940d55d",
+        "answer": "Gandalf",
+        "tier": "plankton",
+        "seq": 163,
+        "at": 1792709310130
+      },
+      {
+        "kind": "leave",
+        "playerId": "d1aa3b5a76",
+        "seq": 10164,
+        "at": 1792709322385
+      },
+      {
+        "kind": "win",
+        "playerId": "bf3940d55d",
+        "seq": 10165,
+        "at": 1792709322385
+      },
+      {
+        "kind": "host",
+        "playerId": "bf3940d55d",
+        "seq": 10166,
+        "at": 1792709322385
+      },
+      {
+        "kind": "leave",
+        "playerId": "bf3940d55d",
+        "seq": 10167,
+        "at": 1792709345835
+      },
+      {
+        "kind": "host",
+        "playerId": "2c5f861c6f",
+        "seq": 10168,
+        "at": 1792709345835
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792708799652,
+        "playerId": null,
+        "name": "Collski",
+        "text": "Collski joined"
+      },
+      {
+        "id": 2,
+        "at": 1792708807482,
+        "playerId": null,
+        "name": "Magnus",
+        "text": "Magnus joined"
+      },
+      {
+        "id": 3,
+        "at": 1792708807744,
+        "playerId": null,
+        "name": "Fritztopher",
+        "text": "Fritztopher joined"
+      },
+      {
+        "id": 4,
+        "at": 1792708807832,
+        "playerId": null,
+        "name": "ligma",
+        "text": "ligma joined"
+      },
+      {
+        "id": 5,
+        "at": 1792708807838,
+        "playerId": null,
+        "name": "leshaun dinglnut",
+        "text": "leshaun dinglnut joined"
+      },
+      {
+        "id": 6,
+        "at": 1792708807886,
+        "playerId": null,
+        "name": "Ladiz Washerum",
+        "text": "Ladiz Washerum joined"
+      },
+      {
+        "id": 7,
+        "at": 1792708941915,
+        "playerId": "1d00c7ebab",
+        "name": "ligma",
+        "text": "what is ts"
+      },
+      {
+        "id": 8,
+        "at": 1792708944149,
+        "playerId": "3cd2aba67d",
+        "name": "Magnus",
+        "text": "Verizon"
+      },
+      {
+        "id": 9,
+        "at": 1792708944759,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "vell serve"
+      },
+      {
+        "id": 10,
+        "at": 1792708948361,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "cell service"
+      },
+      {
+        "id": 11,
+        "at": 1792709050546,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "gg"
+      },
+      {
+        "id": 12,
+        "at": 1792709051197,
+        "playerId": null,
+        "name": "leshaun dinglnut",
+        "text": "leshaun dinglnut left"
+      },
+      {
+        "id": 13,
+        "at": 1792709106321,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "nouns?"
+      },
+      {
+        "id": 14,
+        "at": 1792709118048,
+        "playerId": "3cd2aba67d",
+        "name": "Magnus",
+        "text": "goated"
+      },
+      {
+        "id": 15,
+        "at": 1792709144105,
+        "playerId": null,
+        "name": "ligma",
+        "text": "ligma left"
+      },
+      {
+        "id": 16,
+        "at": 1792709157099,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "subject"
+      },
+      {
+        "id": 17,
+        "at": 1792709162257,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "object"
+      },
+      {
+        "id": 18,
+        "at": 1792709167900,
+        "playerId": "3cd2aba67d",
+        "name": "Magnus",
+        "text": "holy you're my goat"
+      },
+      {
+        "id": 19,
+        "at": 1792709199468,
+        "playerId": "43310a6997",
+        "name": "Collski",
+        "text": "gg man"
+      },
+      {
+        "id": 20,
+        "at": 1792709200940,
+        "playerId": null,
+        "name": "Magnus",
+        "text": "Magnus won"
+      },
+      {
+        "id": 21,
+        "at": 1792709202316,
+        "playerId": "3cd2aba67d",
+        "name": "Magnus",
+        "text": "idk any more"
+      },
+      {
+        "id": 22,
+        "at": 1792709207147,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 23,
+        "at": 1792709207235,
+        "playerId": null,
+        "name": "I LUV JESUS",
+        "text": "I LUV JESUS joined"
+      },
+      {
+        "id": 24,
+        "at": 1792709213987,
+        "playerId": null,
+        "name": "I LUV JESUS",
+        "text": "I LUV JESUS left"
+      },
+      {
+        "id": 25,
+        "at": 1792709215555,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot left"
+      },
+      {
+        "id": 26,
+        "at": 1792709215918,
+        "playerId": null,
+        "name": "lola",
+        "text": "lola joined"
+      },
+      {
+        "id": 27,
+        "at": 1792709215942,
+        "playerId": null,
+        "name": "Ladiz Washerum",
+        "text": "Ladiz Washerum was kicked for being idle"
+      },
+      {
+        "id": 28,
+        "at": 1792709217239,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 29,
+        "at": 1792709218349,
+        "playerId": null,
+        "name": "mike",
+        "text": "mike joined"
+      },
+      {
+        "id": 30,
+        "at": 1792709219483,
+        "playerId": null,
+        "name": "Collski",
+        "text": "Collski left"
+      },
+      {
+        "id": 31,
+        "at": 1792709223184,
+        "playerId": null,
+        "name": "lola",
+        "text": "lola left"
+      },
+      {
+        "id": 32,
+        "at": 1792709224817,
+        "playerId": null,
+        "name": "Slaygathor",
+        "text": "Slaygathor joined"
+      },
+      {
+        "id": 33,
+        "at": 1792709237506,
+        "playerId": null,
+        "name": "Magnus",
+        "text": "Magnus left"
+      },
+      {
+        "id": 34,
+        "at": 1792709239756,
+        "playerId": null,
+        "name": "Flowery",
+        "text": "Flowery joined"
+      },
+      {
+        "id": 35,
+        "at": 1792709240156,
+        "playerId": null,
+        "name": "Nathan",
+        "text": "Nathan joined"
+      },
+      {
+        "id": 36,
+        "at": 1792709258504,
+        "playerId": null,
+        "name": "Fritztopher",
+        "text": "Fritztopher was kicked for being idle"
+      },
+      {
+        "id": 37,
+        "at": 1792709270125,
+        "playerId": null,
+        "name": "Slaygathor",
+        "text": "Slaygathor was kicked for being idle"
+      },
+      {
+        "id": 38,
+        "at": 1792709286278,
+        "playerId": null,
+        "name": "Nathan",
+        "text": "Nathan was kicked for being idle"
+      },
+      {
+        "id": 10039,
+        "at": 1792709322385,
+        "playerId": null,
+        "name": "mike",
+        "text": "mike left"
+      },
+      {
+        "id": 10040,
+        "at": 1792709322385,
+        "playerId": null,
+        "name": "Flowery",
+        "text": "Flowery won"
+      },
+      {
+        "id": 10041,
+        "at": 1792709345835,
+        "playerId": null,
+        "name": "Flowery",
+        "text": "Flowery was kicked for being idle"
+      }
+    ],
+    "now": 1792709345835
+  },
+  "participationObserved": false,
+  "firstObservedPhase": "lobby",
+  "serverMembershipCheck": {
+    "at": "2026-10-22T22:51:01.230Z",
+    "status": 403,
+    "ok": false,
+    "error": "You are not in this room.",
+    "seatPlayerId": "6d05845c6c",
+    "room": "FGWN"
+  },
+  "reason": "Assigned ID was absent from every observed room snapshot; authenticated ping returned 403. No submissions or played round were observed."
+}

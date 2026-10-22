@@ -1,0 +1,132 @@
+{
+  "room": "YWSS",
+  "gameId": "party:YWSS-1792710649559-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a term used in ice hockey",
+      "readyMs": 3173,
+      "firstTurnWaitMs": 80,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "schooler": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country with coastline south of the Equator",
+      "readyMs": 3775,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country that has nuclear weapons (constituent countries don't count)",
+      "readyMs": 7290,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1,
+          "schooler": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a device that helps people with an impairment or disability",
+      "readyMs": 4,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an Olivia Rodrigo song",
+      "readyMs": 3609,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "schooler": 2
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a gas station chain",
+      "readyMs": 4346,
+      "firstTurnWaitMs": 2843,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "rare": 1,
+          "schooler": 2
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.3333333333333333
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "schooler": 6,
+      "rare": 3,
+      "deepcut": 1
+    },
+    "rareOrBetter": 4,
+    "rareOrBetterRate": 0.4
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 12,
+    "ownAccepted": 10,
+    "retiredMisses": 0
+  },
+  "findings": [
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a country that has nuclear weapons (constituent countries don't count)",
+      "observedWaitMs": 7290
+    }
+  ]
+}

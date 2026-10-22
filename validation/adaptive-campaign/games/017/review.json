@@ -1,0 +1,266 @@
+{
+  "room": "SSFF",
+  "gameId": "party:SSFF-1792710485473-3",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a city in Europe with over 100,000 people",
+      "readyMs": 3142,
+      "firstTurnWaitMs": 81,
+      "accepted": 5,
+      "rarity": {
+        "tiers": {
+          "deepcut": 5
+        },
+        "rareOrBetter": 5,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a movie prominently featuring sharks",
+      "readyMs": 3469,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a device used to magnify things",
+      "readyMs": 3836,
+      "firstTurnWaitMs": 80,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "schooler": 1,
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a golf term",
+      "readyMs": 3573,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1,
+          "schooler": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word containing “work”",
+      "readyMs": 18,
+      "firstTurnWaitMs": 82,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "plankton": 4
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 64,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a boxing movie",
+      "readyMs": 5,
+      "firstTurnWaitMs": 82,
+      "accepted": 5,
+      "rarity": {
+        "tiers": {
+          "krillion": 2,
+          "deepcut": 3
+        },
+        "rareOrBetter": 5,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 34,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "readyMs": 4080,
+      "firstTurnWaitMs": 4074,
+      "accepted": 6,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 2,
+          "rare": 3
+        },
+        "rareOrBetter": 6,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a slang word for money",
+      "readyMs": 4,
+      "firstTurnWaitMs": 82,
+      "accepted": 5,
+      "rarity": {
+        "tiers": {
+          "rare": 2,
+          "deepcut": 3
+        },
+        "rareOrBetter": 5,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a landmark in New York City",
+      "readyMs": 4865,
+      "firstTurnWaitMs": 80,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 1,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a phone accessory",
+      "readyMs": 5398,
+      "firstTurnWaitMs": 83,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "schooler": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a standard type of tax (currently levied in at least one country)",
+      "readyMs": 3092,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country with a high-speed rail network",
+      "readyMs": 8,
+      "firstTurnWaitMs": 81,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 3
+        },
+        "rareOrBetter": 4,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "readyMs": 3468,
+      "firstTurnWaitMs": 81,
+      "accepted": 6,
+      "rarity": {
+        "tiers": {
+          "schooler": 3,
+          "deepcut": 2,
+          "rare": 1
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "deepcut": 23,
+      "rare": 8,
+      "schooler": 6,
+      "plankton": 4,
+      "krillion": 4
+    },
+    "rareOrBetter": 35,
+    "rareOrBetterRate": 0.7777777777777778
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 25,
+    "ownAccepted": 45,
+    "retiredMisses": 1
+  },
+  "findings": [
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a phone accessory",
+      "observedWaitMs": 5398
+    },
+    {
+      "kind": "answer-quality",
+      "question": "Name a landmark in New York City",
+      "misses": 1,
+      "repeats": 0
+    }
+  ]
+}

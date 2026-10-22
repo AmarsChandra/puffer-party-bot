@@ -1,0 +1,1623 @@
+{
+  "won": true,
+  "room": "SEDU",
+  "playerId": "44dc848299",
+  "winnerId": "44dc848299",
+  "gameNumber": 3,
+  "gameId": "party:SEDU-1792690889368-3",
+  "rated": false,
+  "player": {
+    "id": "44dc848299",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 180,
+    "alive": true,
+    "answers": 10,
+    "pops": 0,
+    "best": "schooler",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Prince Philip",
+      "tier": "schooler"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a type of shop or store"
+    },
+    {
+      "index": 2,
+      "text": "Name a city in Japan"
+    },
+    {
+      "index": 3,
+      "text": "Name an English word ending in “-ware”"
+    },
+    {
+      "index": 4,
+      "text": "Name a shade of brown"
+    },
+    {
+      "index": 5,
+      "text": "Name a character from The Legend of Zelda"
+    },
+    {
+      "index": 6,
+      "text": "Name a member of the British royal family from the past century"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a city in Japan",
+      "answer": "Kyoto",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Kyoto",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a city in Japan",
+      "answer": "Yokohama",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Yokohama",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-ware”",
+      "answer": "tableware",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "tableware",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a shade of brown",
+      "answer": "Chocolate",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Chocolate",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a character from The Legend of Zelda",
+      "answer": "Link",
+      "source": "codex",
+      "reactionMs": 1934,
+      "submit": {
+        "accepted": true,
+        "answer": "Link",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a character from The Legend of Zelda",
+      "answer": "Ganondorf",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Ganon",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a character from The Legend of Zelda",
+      "answer": "Impa",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Impa",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a member of the British royal family from the past century",
+      "answer": "King Charles III",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "King Charles III",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a member of the British royal family from the past century",
+      "answer": "Prince William",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Prince William",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a member of the British royal family from the past century",
+      "answer": "Prince Philip",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Prince Philip",
+        "tier": "schooler"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 10,
+    "accepted": 10,
+    "reactionMs": [
+      84,
+      84,
+      83,
+      82,
+      1934,
+      83,
+      82,
+      84,
+      82,
+      81
+    ],
+    "sources": {
+      "codex": 10
+    },
+    "unknownCategories": [
+      "Name a character from The Legend of Zelda"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 3,
+        "index": 1,
+        "question": "Name a type of shop or store",
+        "observedAt": 1792691406807,
+        "readyMs": 3928,
+        "firstTurnAt": null,
+        "firstSubmitMs": null,
+        "firstTurnWaitMs": null,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 2,
+        "question": "Name a city in Japan",
+        "observedAt": 1792691446696,
+        "readyMs": 3778,
+        "firstTurnAt": 1792691466911,
+        "firstSubmitMs": 20298,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 3,
+        "question": "Name an English word ending in “-ware”",
+        "observedAt": 1792691504829,
+        "readyMs": 3762,
+        "firstTurnAt": 1792691533436,
+        "firstSubmitMs": 28689,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 4,
+        "question": "Name a shade of brown",
+        "observedAt": 1792691557892,
+        "readyMs": 4504,
+        "firstTurnAt": 1792691575196,
+        "firstSubmitMs": 17386,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 5,
+        "question": "Name a character from The Legend of Zelda",
+        "observedAt": 1792691596379,
+        "readyMs": 3431,
+        "firstTurnAt": 1792691597879,
+        "firstSubmitMs": 3431,
+        "firstTurnWaitMs": 1931,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 6,
+        "question": "Name a member of the British royal family from the past century",
+        "observedAt": 1792691616615,
+        "readyMs": 3906,
+        "firstTurnAt": 1792691624424,
+        "firstSubmitMs": 7892,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "SEDU",
+    "chatEnabled": true,
+    "version": 10523,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "edbad0c433",
+    "players": [
+      {
+        "id": "44dc848299",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "0cc3a1c5a8",
+        "chatMuted": false,
+        "removed": false,
+        "name": "huddy",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "38bf56b69e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "dawg",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "e8800e8f40",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Eaaston",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "edbad0c433",
+        "chatMuted": false,
+        "removed": false,
+        "name": "renoxx",
+        "character": "krill",
+        "seat": 4,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "4eb7724704",
+        "chatMuted": false,
+        "removed": false,
+        "name": "nfm525",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792691406797,
+    "winnerId": null,
+    "gameNumber": 3,
+    "gameId": "party:SEDU-1792690889368-3",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "ho e alone2",
+        "why": "miss",
+        "seq": 10137,
+        "at": 1792691297138
+      },
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "c15e23c290",
+        "answer": "Home Alone",
+        "tier": "plankton",
+        "seq": 10138,
+        "at": 1792691301210
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "45f6ff2736",
+        "answer": "It's a Wonderful Life",
+        "tier": "plankton",
+        "seq": 10139,
+        "at": 1792691302637
+      },
+      {
+        "kind": "pass",
+        "from": "45f6ff2736",
+        "to": "edbad0c433",
+        "answer": "The Nightmare Before Christmas",
+        "tier": "schooler",
+        "seq": 10140,
+        "at": 1792691303775
+      },
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "c15e23c290",
+        "answer": "Home Alone 2: Lost in New York",
+        "tier": "plankton",
+        "seq": 10141,
+        "at": 1792691308958
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "45f6ff2736",
+        "answer": "White Christmas",
+        "tier": "plankton",
+        "seq": 10142,
+        "at": 1792691310335
+      },
+      {
+        "kind": "reject",
+        "playerId": "45f6ff2736",
+        "text": "home alone",
+        "why": "repeat",
+        "seq": 10143,
+        "at": 1792691313333
+      },
+      {
+        "kind": "pop",
+        "playerId": "45f6ff2736",
+        "livesLeft": 0,
+        "seq": 10144,
+        "at": 1792691318336
+      },
+      {
+        "kind": "out",
+        "playerId": "45f6ff2736",
+        "place": 3,
+        "seq": 10145,
+        "at": 1792691318336
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "edbad0c433",
+        "seq": 10146,
+        "at": 1792691318336
+      },
+      {
+        "kind": "leave",
+        "playerId": "45f6ff2736",
+        "seq": 10147,
+        "at": 1792691322710
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "izmir",
+        "why": "miss",
+        "seq": 10148,
+        "at": 1792691329536
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "ankara",
+        "why": "miss",
+        "seq": 10149,
+        "at": 1792691333333
+      },
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "c15e23c290",
+        "answer": "Helsinki",
+        "tier": "rare",
+        "seq": 10150,
+        "at": 1792691338014
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "edbad0c433",
+        "answer": "Sochi",
+        "tier": "schooler",
+        "seq": 10151,
+        "at": 1792691341735
+      },
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "c15e23c290",
+        "answer": "Tokyo",
+        "tier": "plankton",
+        "seq": 10152,
+        "at": 1792691348692
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "edbad0c433",
+        "answer": "Beijing",
+        "tier": "plankton",
+        "seq": 10153,
+        "at": 1792691352572
+      },
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "c15e23c290",
+        "answer": "Hong Kong",
+        "tier": "deepcut",
+        "seq": 10154,
+        "at": 1792691358258
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "edbad0c433",
+        "answer": "Pyeongchang",
+        "tier": "schooler",
+        "seq": 10155,
+        "at": 1792691360131
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "seul",
+        "why": "miss",
+        "seq": 10156,
+        "at": 1792691364720
+      },
+      {
+        "kind": "pop",
+        "playerId": "edbad0c433",
+        "livesLeft": 1,
+        "seq": 10157,
+        "at": 1792691368131
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "edbad0c433",
+        "answer": "Salt Lake City",
+        "tier": "schooler",
+        "seq": 10158,
+        "at": 1792691370617
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "edbad0c433",
+        "seq": 10159,
+        "at": 1792691370617
+      },
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "c15e23c290",
+        "answer": "Lock",
+        "tier": "rare",
+        "seq": 10160,
+        "at": 1792691377405
+      },
+      {
+        "kind": "reject",
+        "playerId": "c15e23c290",
+        "text": "ace",
+        "why": "miss",
+        "seq": 10161,
+        "at": 1792691381148
+      },
+      {
+        "kind": "pass",
+        "from": "c15e23c290",
+        "to": "edbad0c433",
+        "answer": "Ace-To-Five lowball",
+        "tier": "deepcut",
+        "seq": 10162,
+        "at": 1792691384979
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "pass",
+        "why": "miss",
+        "seq": 10163,
+        "at": 1792691386918
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "cut",
+        "why": "miss",
+        "seq": 10164,
+        "at": 1792691391306
+      },
+      {
+        "kind": "pop",
+        "playerId": "edbad0c433",
+        "livesLeft": 0,
+        "seq": 10165,
+        "at": 1792691392980
+      },
+      {
+        "kind": "out",
+        "playerId": "edbad0c433",
+        "place": 2,
+        "seq": 10166,
+        "at": 1792691392980
+      },
+      {
+        "kind": "win",
+        "playerId": "c15e23c290",
+        "seq": 10167,
+        "at": 1792691392980
+      },
+      {
+        "kind": "lobby",
+        "seq": 10168,
+        "at": 1792691395943
+      },
+      {
+        "kind": "host",
+        "playerId": "edbad0c433",
+        "seq": 10169,
+        "at": 1792691395943
+      },
+      {
+        "kind": "leave",
+        "playerId": "c15e23c290",
+        "seq": 10170,
+        "at": 1792691397894
+      },
+      {
+        "kind": "join",
+        "playerId": "44dc848299",
+        "seq": 10171,
+        "at": 1792691399118
+      },
+      {
+        "kind": "join",
+        "playerId": "0cc3a1c5a8",
+        "seq": 10172,
+        "at": 1792691399185
+      },
+      {
+        "kind": "join",
+        "playerId": "38bf56b69e",
+        "seq": 10173,
+        "at": 1792691399211
+      },
+      {
+        "kind": "join",
+        "playerId": "e8800e8f40",
+        "seq": 10174,
+        "at": 1792691399377
+      },
+      {
+        "kind": "join",
+        "playerId": "4eb7724704",
+        "seq": 10175,
+        "at": 1792691403797
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792691406797,
+        "seq": 10176,
+        "at": 1792691403797
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792690889368,
+        "playerId": null,
+        "name": "diva",
+        "text": "diva joined"
+      },
+      {
+        "id": 2,
+        "at": 1792690889692,
+        "playerId": null,
+        "name": "Juicebox",
+        "text": "Juicebox joined"
+      },
+      {
+        "id": 3,
+        "at": 1792690889864,
+        "playerId": null,
+        "name": "ck",
+        "text": "ck joined"
+      },
+      {
+        "id": 4,
+        "at": 1792690889949,
+        "playerId": null,
+        "name": "olino",
+        "text": "olino joined"
+      },
+      {
+        "id": 5,
+        "at": 1792690890114,
+        "playerId": null,
+        "name": "Dinoscar",
+        "text": "Dinoscar joined"
+      },
+      {
+        "id": 6,
+        "at": 1792690890404,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy joined"
+      },
+      {
+        "id": 10007,
+        "at": 1792691048498,
+        "playerId": null,
+        "name": "Dinoscar",
+        "text": "Dinoscar left"
+      },
+      {
+        "id": 10008,
+        "at": 1792691086751,
+        "playerId": null,
+        "name": "Juicebox",
+        "text": "Juicebox was kicked for being idle"
+      },
+      {
+        "id": 10009,
+        "at": 1792691090418,
+        "playerId": null,
+        "name": "olino",
+        "text": "olino left"
+      },
+      {
+        "id": 10010,
+        "at": 1792691131316,
+        "playerId": null,
+        "name": "ck",
+        "text": "ck left"
+      },
+      {
+        "id": 10011,
+        "at": 1792691146702,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy won"
+      },
+      {
+        "id": 10012,
+        "at": 1792691155763,
+        "playerId": null,
+        "name": "John",
+        "text": "John joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792691156384,
+        "playerId": null,
+        "name": "kril",
+        "text": "kril joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792691156411,
+        "playerId": null,
+        "name": "big H",
+        "text": "big H joined"
+      },
+      {
+        "id": 10015,
+        "at": 1792691156455,
+        "playerId": null,
+        "name": "renoxx",
+        "text": "renoxx joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792691189994,
+        "playerId": null,
+        "name": "diva",
+        "text": "diva was kicked for being idle"
+      },
+      {
+        "id": 10017,
+        "at": 1792691259095,
+        "playerId": null,
+        "name": "John",
+        "text": "John was kicked for being idle"
+      },
+      {
+        "id": 10018,
+        "at": 1792691261284,
+        "playerId": null,
+        "name": "kril",
+        "text": "kril left"
+      },
+      {
+        "id": 10019,
+        "at": 1792691322710,
+        "playerId": null,
+        "name": "big H",
+        "text": "big H left"
+      },
+      {
+        "id": 10020,
+        "at": 1792691392980,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy won"
+      },
+      {
+        "id": 10021,
+        "at": 1792691397894,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy left"
+      },
+      {
+        "id": 10022,
+        "at": 1792691399118,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792691399185,
+        "playerId": null,
+        "name": "huddy",
+        "text": "huddy joined"
+      },
+      {
+        "id": 10024,
+        "at": 1792691399211,
+        "playerId": null,
+        "name": "dawg",
+        "text": "dawg joined"
+      },
+      {
+        "id": 10025,
+        "at": 1792691399377,
+        "playerId": null,
+        "name": "Eaaston",
+        "text": "Eaaston joined"
+      },
+      {
+        "id": 10026,
+        "at": 1792691403797,
+        "playerId": null,
+        "name": "nfm525",
+        "text": "nfm525 joined"
+      }
+    ],
+    "now": 1792691403797
+  },
+  "finalRoom": {
+    "code": "SEDU",
+    "chatEnabled": true,
+    "version": 10741,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "44dc848299",
+    "players": [
+      {
+        "id": "44dc848299",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 180,
+        "alive": true,
+        "answers": 10,
+        "pops": 0,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Prince Philip",
+          "tier": "schooler"
+        },
+        "place": 1
+      },
+      {
+        "id": "0cc3a1c5a8",
+        "chatMuted": false,
+        "removed": false,
+        "name": "huddy",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 30,
+        "alive": false,
+        "answers": 1,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Nagasaki",
+          "tier": "schooler"
+        },
+        "place": 5
+      },
+      {
+        "id": "38bf56b69e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "dawg",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 110,
+        "alive": false,
+        "answers": 9,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Prince Harry",
+          "tier": "plankton"
+        },
+        "place": 2
+      },
+      {
+        "id": "e8800e8f40",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Eaaston",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 2,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 6
+      },
+      {
+        "id": "edbad0c433",
+        "chatMuted": false,
+        "removed": false,
+        "name": "renoxx",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 50,
+        "alive": false,
+        "answers": 3,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "hardware",
+          "tier": "plankton"
+        },
+        "place": 3
+      },
+      {
+        "id": "4eb7724704",
+        "chatMuted": false,
+        "removed": false,
+        "name": "nfm525",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 40,
+        "alive": false,
+        "answers": 2,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Nagoya",
+          "tier": "schooler"
+        },
+        "place": 4
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 6,
+      "text": "Name a member of the British royal family from the past century",
+      "threshold": 13,
+      "accepted": 6
+    },
+    "countdownEndsAt": null,
+    "winnerId": "44dc848299",
+    "gameNumber": 3,
+    "gameId": "party:SEDU-1792690889368-3",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "edbad0c433",
+        "to": "4eb7724704",
+        "answer": "hardware",
+        "tier": "plankton",
+        "seq": 10203,
+        "at": 1792691517989
+      },
+      {
+        "kind": "leave",
+        "playerId": "e8800e8f40",
+        "seq": 10204,
+        "at": 1792691525885
+      },
+      {
+        "kind": "pop",
+        "playerId": "4eb7724704",
+        "livesLeft": 1,
+        "seq": 10205,
+        "at": 1792691531928
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "tableware",
+        "tier": "schooler",
+        "seq": 10206,
+        "at": 1792691533707
+      },
+      {
+        "kind": "pass",
+        "from": "38bf56b69e",
+        "to": "edbad0c433",
+        "answer": "dishware",
+        "tier": "schooler",
+        "seq": 10207,
+        "at": 1792691535763
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "solidware",
+        "why": "miss",
+        "seq": 10208,
+        "at": 1792691538263
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "lockware",
+        "why": "miss",
+        "seq": 10209,
+        "at": 1792691551961
+      },
+      {
+        "kind": "pop",
+        "playerId": "edbad0c433",
+        "livesLeft": 1,
+        "seq": 10210,
+        "at": 1792691557874
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "4eb7724704",
+        "seq": 10211,
+        "at": 1792691557874
+      },
+      {
+        "kind": "reject",
+        "playerId": "4eb7724704",
+        "text": "caribu",
+        "why": "miss",
+        "seq": 10212,
+        "at": 1792691567493
+      },
+      {
+        "kind": "reject",
+        "playerId": "4eb7724704",
+        "text": "caribou",
+        "why": "miss",
+        "seq": 10213,
+        "at": 1792691572624
+      },
+      {
+        "kind": "pop",
+        "playerId": "4eb7724704",
+        "livesLeft": 0,
+        "seq": 10214,
+        "at": 1792691573687
+      },
+      {
+        "kind": "out",
+        "playerId": "4eb7724704",
+        "place": 4,
+        "seq": 10215,
+        "at": 1792691573687
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "Chocolate",
+        "tier": "plankton",
+        "seq": 10216,
+        "at": 1792691575522
+      },
+      {
+        "kind": "pass",
+        "from": "38bf56b69e",
+        "to": "edbad0c433",
+        "answer": "Beige",
+        "tier": "plankton",
+        "seq": 10217,
+        "at": 1792691584839
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "marron",
+        "why": "miss",
+        "seq": 10218,
+        "at": 1792691588244
+      },
+      {
+        "kind": "leave",
+        "playerId": "4eb7724704",
+        "seq": 10219,
+        "at": 1792691592424
+      },
+      {
+        "kind": "reject",
+        "playerId": "edbad0c433",
+        "text": "earth",
+        "why": "miss",
+        "seq": 10220,
+        "at": 1792691592913
+      },
+      {
+        "kind": "pop",
+        "playerId": "edbad0c433",
+        "livesLeft": 0,
+        "seq": 10221,
+        "at": 1792691596362
+      },
+      {
+        "kind": "out",
+        "playerId": "edbad0c433",
+        "place": 3,
+        "seq": 10222,
+        "at": 1792691596362
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "44dc848299",
+        "seq": 10223,
+        "at": 1792691596362
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "Link",
+        "tier": "plankton",
+        "seq": 10224,
+        "at": 1792691600073
+      },
+      {
+        "kind": "leave",
+        "playerId": "edbad0c433",
+        "seq": 10225,
+        "at": 1792691600826
+      },
+      {
+        "kind": "host",
+        "playerId": "44dc848299",
+        "seq": 10226,
+        "at": 1792691600826
+      },
+      {
+        "kind": "pass",
+        "from": "38bf56b69e",
+        "to": "44dc848299",
+        "answer": "Zelda",
+        "tier": "plankton",
+        "seq": 10227,
+        "at": 1792691606239
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "Ganon",
+        "tier": "plankton",
+        "seq": 10228,
+        "at": 1792691606805
+      },
+      {
+        "kind": "pop",
+        "playerId": "38bf56b69e",
+        "livesLeft": 1,
+        "seq": 10229,
+        "at": 1792691614805
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "Impa",
+        "tier": "schooler",
+        "seq": 10230,
+        "at": 1792691616600
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "38bf56b69e",
+        "seq": 10231,
+        "at": 1792691616600
+      },
+      {
+        "kind": "pass",
+        "from": "38bf56b69e",
+        "to": "44dc848299",
+        "answer": "Queen Elizabeth II",
+        "tier": "plankton",
+        "seq": 10232,
+        "at": 1792691624398
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "King Charles III",
+        "tier": "plankton",
+        "seq": 10233,
+        "at": 1792691624673
+      },
+      {
+        "kind": "reject",
+        "playerId": "38bf56b69e",
+        "text": "elizabeth III",
+        "why": "miss",
+        "seq": 10234,
+        "at": 1792691632226
+      },
+      {
+        "kind": "reject",
+        "playerId": "38bf56b69e",
+        "text": "elizabeth 1",
+        "why": "miss",
+        "seq": 10235,
+        "at": 1792691636158
+      },
+      {
+        "kind": "pass",
+        "from": "38bf56b69e",
+        "to": "44dc848299",
+        "answer": "Princess Diana",
+        "tier": "plankton",
+        "seq": 10236,
+        "at": 1792691643775
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "Prince William",
+        "tier": "plankton",
+        "seq": 10237,
+        "at": 1792691644037
+      },
+      {
+        "kind": "pass",
+        "from": "38bf56b69e",
+        "to": "44dc848299",
+        "answer": "Prince Harry",
+        "tier": "plankton",
+        "seq": 10238,
+        "at": 1792691649593
+      },
+      {
+        "kind": "pass",
+        "from": "44dc848299",
+        "to": "38bf56b69e",
+        "answer": "Prince Philip",
+        "tier": "schooler",
+        "seq": 10239,
+        "at": 1792691649853
+      },
+      {
+        "kind": "pop",
+        "playerId": "38bf56b69e",
+        "livesLeft": 0,
+        "seq": 10240,
+        "at": 1792691657854
+      },
+      {
+        "kind": "out",
+        "playerId": "38bf56b69e",
+        "place": 2,
+        "seq": 10241,
+        "at": 1792691657854
+      },
+      {
+        "kind": "win",
+        "playerId": "44dc848299",
+        "seq": 10242,
+        "at": 1792691657854
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792690889368,
+        "playerId": null,
+        "name": "diva",
+        "text": "diva joined"
+      },
+      {
+        "id": 2,
+        "at": 1792690889692,
+        "playerId": null,
+        "name": "Juicebox",
+        "text": "Juicebox joined"
+      },
+      {
+        "id": 3,
+        "at": 1792690889864,
+        "playerId": null,
+        "name": "ck",
+        "text": "ck joined"
+      },
+      {
+        "id": 4,
+        "at": 1792690889949,
+        "playerId": null,
+        "name": "olino",
+        "text": "olino joined"
+      },
+      {
+        "id": 5,
+        "at": 1792690890114,
+        "playerId": null,
+        "name": "Dinoscar",
+        "text": "Dinoscar joined"
+      },
+      {
+        "id": 6,
+        "at": 1792690890404,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy joined"
+      },
+      {
+        "id": 10007,
+        "at": 1792691048498,
+        "playerId": null,
+        "name": "Dinoscar",
+        "text": "Dinoscar left"
+      },
+      {
+        "id": 10008,
+        "at": 1792691086751,
+        "playerId": null,
+        "name": "Juicebox",
+        "text": "Juicebox was kicked for being idle"
+      },
+      {
+        "id": 10009,
+        "at": 1792691090418,
+        "playerId": null,
+        "name": "olino",
+        "text": "olino left"
+      },
+      {
+        "id": 10010,
+        "at": 1792691131316,
+        "playerId": null,
+        "name": "ck",
+        "text": "ck left"
+      },
+      {
+        "id": 10011,
+        "at": 1792691146702,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy won"
+      },
+      {
+        "id": 10012,
+        "at": 1792691155763,
+        "playerId": null,
+        "name": "John",
+        "text": "John joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792691156384,
+        "playerId": null,
+        "name": "kril",
+        "text": "kril joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792691156411,
+        "playerId": null,
+        "name": "big H",
+        "text": "big H joined"
+      },
+      {
+        "id": 10015,
+        "at": 1792691156455,
+        "playerId": null,
+        "name": "renoxx",
+        "text": "renoxx joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792691189994,
+        "playerId": null,
+        "name": "diva",
+        "text": "diva was kicked for being idle"
+      },
+      {
+        "id": 10017,
+        "at": 1792691259095,
+        "playerId": null,
+        "name": "John",
+        "text": "John was kicked for being idle"
+      },
+      {
+        "id": 10018,
+        "at": 1792691261284,
+        "playerId": null,
+        "name": "kril",
+        "text": "kril left"
+      },
+      {
+        "id": 10019,
+        "at": 1792691322710,
+        "playerId": null,
+        "name": "big H",
+        "text": "big H left"
+      },
+      {
+        "id": 10020,
+        "at": 1792691392980,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy won"
+      },
+      {
+        "id": 10021,
+        "at": 1792691397894,
+        "playerId": null,
+        "name": "jaffy",
+        "text": "jaffy left"
+      },
+      {
+        "id": 10022,
+        "at": 1792691399118,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792691399185,
+        "playerId": null,
+        "name": "huddy",
+        "text": "huddy joined"
+      },
+      {
+        "id": 10024,
+        "at": 1792691399211,
+        "playerId": null,
+        "name": "dawg",
+        "text": "dawg joined"
+      },
+      {
+        "id": 10025,
+        "at": 1792691399377,
+        "playerId": null,
+        "name": "Eaaston",
+        "text": "Eaaston joined"
+      },
+      {
+        "id": 10026,
+        "at": 1792691403797,
+        "playerId": null,
+        "name": "nfm525",
+        "text": "nfm525 joined"
+      },
+      {
+        "id": 10027,
+        "at": 1792691511679,
+        "playerId": null,
+        "name": "huddy",
+        "text": "huddy left"
+      },
+      {
+        "id": 10028,
+        "at": 1792691525885,
+        "playerId": null,
+        "name": "Eaaston",
+        "text": "Eaaston was kicked for being idle"
+      },
+      {
+        "id": 10029,
+        "at": 1792691592424,
+        "playerId": null,
+        "name": "nfm525",
+        "text": "nfm525 left"
+      },
+      {
+        "id": 10030,
+        "at": 1792691600826,
+        "playerId": null,
+        "name": "renoxx",
+        "text": "renoxx left"
+      },
+      {
+        "id": 10031,
+        "at": 1792691657854,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792691657854
+  }
+}

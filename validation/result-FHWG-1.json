@@ -1,0 +1,322 @@
+{
+  "won": true,
+  "room": "FHWG",
+  "playerId": "9634a95ff0",
+  "winnerId": "9634a95ff0",
+  "gameNumber": 1,
+  "gameId": "party:FHWG-1792684963768-1",
+  "rated": false,
+  "player": {
+    "id": "9634a95ff0",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 205,
+    "alive": true,
+    "answers": 3,
+    "pops": 0,
+    "best": "deepcut",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Shuai jiao",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a martial art"
+    },
+    {
+      "index": 2,
+      "text": "Name a Caribbean island"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a martial art",
+      "answer": "Silat",
+      "source": "codex",
+      "reactionMs": 2035,
+      "submit": {
+        "accepted": true,
+        "answer": "Silat",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a martial art",
+      "answer": "Savate",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Savate",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a martial art",
+      "answer": "Shuai jiao",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Shuai jiao",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 3,
+    "accepted": 3,
+    "reactionMs": [
+      2035,
+      81,
+      82
+    ],
+    "sources": {
+      "codex": 3
+    },
+    "unknownCategories": [
+      "Name a martial art"
+    ]
+  },
+  "finalRoom": {
+    "code": "FHWG",
+    "chatEnabled": true,
+    "version": 24,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "9634a95ff0",
+    "players": [
+      {
+        "id": "9634a95ff0",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 205,
+        "alive": true,
+        "answers": 3,
+        "pops": 0,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Shuai jiao",
+          "tier": "deepcut"
+        },
+        "place": 1
+      },
+      {
+        "id": "f1b6a77649",
+        "chatMuted": false,
+        "removed": false,
+        "name": "whiteghost",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 20,
+        "alive": false,
+        "answers": 2,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Taekwondo",
+          "tier": "plankton"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a Caribbean island",
+      "threshold": 14,
+      "accepted": 0
+    },
+    "countdownEndsAt": null,
+    "winnerId": "9634a95ff0",
+    "gameNumber": 1,
+    "gameId": "party:FHWG-1792684963768-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "9634a95ff0",
+        "seq": 1,
+        "at": 1792684963768
+      },
+      {
+        "kind": "join",
+        "playerId": "f1b6a77649",
+        "seq": 2,
+        "at": 1792684965057
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792684968057,
+        "seq": 3,
+        "at": 1792684965057
+      },
+      {
+        "kind": "start",
+        "holderId": "f1b6a77649",
+        "seq": 4,
+        "at": 1792684985494
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "f1b6a77649",
+        "seq": 5,
+        "at": 1792684985494
+      },
+      {
+        "kind": "pass",
+        "from": "f1b6a77649",
+        "to": "9634a95ff0",
+        "answer": "Karate",
+        "tier": "plankton",
+        "seq": 6,
+        "at": 1792684988942
+      },
+      {
+        "kind": "pass",
+        "from": "9634a95ff0",
+        "to": "f1b6a77649",
+        "answer": "Silat",
+        "tier": "rare",
+        "seq": 7,
+        "at": 1792684991641
+      },
+      {
+        "kind": "pass",
+        "from": "f1b6a77649",
+        "to": "9634a95ff0",
+        "answer": "Taekwondo",
+        "tier": "plankton",
+        "seq": 8,
+        "at": 1792685000548
+      },
+      {
+        "kind": "pass",
+        "from": "9634a95ff0",
+        "to": "f1b6a77649",
+        "answer": "Savate",
+        "tier": "rare",
+        "seq": 9,
+        "at": 1792685001274
+      },
+      {
+        "kind": "pop",
+        "playerId": "f1b6a77649",
+        "livesLeft": 1,
+        "seq": 10,
+        "at": 1792685009274
+      },
+      {
+        "kind": "pass",
+        "from": "9634a95ff0",
+        "to": "f1b6a77649",
+        "answer": "Shuai jiao",
+        "tier": "deepcut",
+        "seq": 11,
+        "at": 1792685011454
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "f1b6a77649",
+        "seq": 12,
+        "at": 1792685011454
+      },
+      {
+        "kind": "reject",
+        "playerId": "f1b6a77649",
+        "text": "malta",
+        "why": "miss",
+        "seq": 13,
+        "at": 1792685018791
+      },
+      {
+        "kind": "pop",
+        "playerId": "f1b6a77649",
+        "livesLeft": 0,
+        "seq": 14,
+        "at": 1792685026493
+      },
+      {
+        "kind": "out",
+        "playerId": "f1b6a77649",
+        "place": 2,
+        "seq": 15,
+        "at": 1792685026493
+      },
+      {
+        "kind": "win",
+        "playerId": "9634a95ff0",
+        "seq": 16,
+        "at": 1792685026493
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792684963768,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 2,
+        "at": 1792684965057,
+        "playerId": null,
+        "name": "whiteghost",
+        "text": "whiteghost joined"
+      },
+      {
+        "id": 3,
+        "at": 1792685026493,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792685026493
+  }
+}

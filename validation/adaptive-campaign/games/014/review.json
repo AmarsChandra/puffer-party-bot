@@ -1,0 +1,148 @@
+{
+  "room": "MJFK",
+  "gameId": "party:MJFK-1792709632478-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name an NBA player selected to at least nine All-Star Games",
+      "readyMs": 3275,
+      "firstTurnWaitMs": 3270,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "rare": 1,
+          "krillion": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an accent or dialect of English",
+      "readyMs": 5,
+      "firstTurnWaitMs": 80,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "rare": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a joint in the human body",
+      "readyMs": 3856,
+      "firstTurnWaitMs": 81,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "rare": 1,
+          "deepcut": 2,
+          "schooler": 1
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 0.75
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a body part people have more than two of (like fingers)",
+      "readyMs": 4,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "plankton": 2,
+          "schooler": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 1,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country in South America",
+      "readyMs": 4,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2,
+          "rare": 1
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 12,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a Pokémon from the original 151",
+      "readyMs": 4025,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "deepcut": 3
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a K-pop group",
+      "readyMs": 3448,
+      "firstTurnWaitMs": 80,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "rare": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "rare": 7,
+      "krillion": 1,
+      "deepcut": 7,
+      "schooler": 2,
+      "plankton": 2
+    },
+    "rareOrBetter": 15,
+    "rareOrBetterRate": 0.7894736842105263
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 20,
+    "ownAccepted": 19,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

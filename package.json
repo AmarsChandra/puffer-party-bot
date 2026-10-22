@@ -1,0 +1,15 @@
+{
+  "name": "puffer-party-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Rare-answer-first Puffer Party bot with verified match statistics",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test *.test.mjs",
+    "stats": "node statistics.mjs --campaign validation/adaptive-campaign --output statistics",
+    "audit": "node adaptive-campaign.mjs --campaign validation/adaptive-campaign --audit"
+  }
+}

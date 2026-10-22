@@ -1,0 +1,1195 @@
+{
+  "version": 1,
+  "kind": "review-between-public-matches",
+  "target": 20,
+  "queue": "party",
+  "startedAt": "2026-10-22T17:45:39.910Z",
+  "status": "in-progress",
+  "versions": [
+    {
+      "id": "8bf47466280d3c6c",
+      "sources": {
+        "puffer-bot.mjs": "205dc4b94999b465eb3b860314bd7dd182440dc89ccbdfdb32b8c16fb9c6cc69",
+        "answer-engine.mjs": "b3627ca307a34f5cf03c73b76f1a7f6d9bfd37fa987743821629923a6ffd2c80",
+        "codex-provider.mjs": "a4546df9635317fa129efda417e5f9c7c8353cf9683ed1fc65bcd643c35984fd",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "answers.json": "daa283c1ef46a08a0b0c1d6529f2f855ef81f27b382a298376d53c853df7d410",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "22d75adaae75a6b8",
+      "sources": {
+        "puffer-bot.mjs": "9942c78d88d423ad88cea4876e850b62056f7feb08da7597ca269901b3667190",
+        "answer-engine.mjs": "adcae2298a86e352219106c606a121655ac0efd8a833efd8b018706d6ea86d6d",
+        "codex-provider.mjs": "a4546df9635317fa129efda417e5f9c7c8353cf9683ed1fc65bcd643c35984fd",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "9ca8d4e552703d1f50e616200389f9461b3e187e9374d9f76cb2dd23be1f5d5d",
+        "review-match.mjs": "45d9b9c7b51c4e344ee14c653a73e3f16c88a37474e0afc4bf34026c6600a6c1",
+        "answers.json": "daa283c1ef46a08a0b0c1d6529f2f855ef81f27b382a298376d53c853df7d410",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "dc1c0fee5ae80dbe",
+      "sources": {
+        "puffer-bot.mjs": "9942c78d88d423ad88cea4876e850b62056f7feb08da7597ca269901b3667190",
+        "answer-engine.mjs": "be193ba75d270b99910d9617355433f8efed4c4f640b557755a834c2d2e18097",
+        "codex-provider.mjs": "a4546df9635317fa129efda417e5f9c7c8353cf9683ed1fc65bcd643c35984fd",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "9dadfd8365e7d63eb53b97a9e45ade0f2de5a00df21ea57a194de0ab919740b4",
+        "review-match.mjs": "45d9b9c7b51c4e344ee14c653a73e3f16c88a37474e0afc4bf34026c6600a6c1",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "5e6c7e2ce27a6484",
+      "sources": {
+        "puffer-bot.mjs": "9942c78d88d423ad88cea4876e850b62056f7feb08da7597ca269901b3667190",
+        "answer-engine.mjs": "cc127c6bde8c69a506e27ed2e69d8ce0c26471042ba07531c51aea5aa836a7c9",
+        "codex-provider.mjs": "a4546df9635317fa129efda417e5f9c7c8353cf9683ed1fc65bcd643c35984fd",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "9dadfd8365e7d63eb53b97a9e45ade0f2de5a00df21ea57a194de0ab919740b4",
+        "review-match.mjs": "45d9b9c7b51c4e344ee14c653a73e3f16c88a37474e0afc4bf34026c6600a6c1",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "25e37ef270017012",
+      "sources": {
+        "puffer-bot.mjs": "0affd411f6e161c6683aa651a9a313e2f741f7e62c52b46397c8ae5ff014729d",
+        "answer-engine.mjs": "cc127c6bde8c69a506e27ed2e69d8ce0c26471042ba07531c51aea5aa836a7c9",
+        "codex-provider.mjs": "a4546df9635317fa129efda417e5f9c7c8353cf9683ed1fc65bcd643c35984fd",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "160a00d00b3004880f8bf0585a75dcf47d330272eafedc9f819754bd2349ca2d",
+        "review-match.mjs": "45d9b9c7b51c4e344ee14c653a73e3f16c88a37474e0afc4bf34026c6600a6c1",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "9342a1f62e01c630",
+      "sources": {
+        "puffer-bot.mjs": "0affd411f6e161c6683aa651a9a313e2f741f7e62c52b46397c8ae5ff014729d",
+        "answer-engine.mjs": "4e7d8112eb420ef3d3d35ae318d0e606d8da3d1846bfe9c4f2a026968edf7557",
+        "codex-provider.mjs": "a4546df9635317fa129efda417e5f9c7c8353cf9683ed1fc65bcd643c35984fd",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "806ac9277d0a1787e400b3944dac777bd8fc8b27c13fc29ec6f3c9c84dbf3ab0",
+        "review-match.mjs": "45d9b9c7b51c4e344ee14c653a73e3f16c88a37474e0afc4bf34026c6600a6c1",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "0a3dc804b3cba3e9",
+      "sources": {
+        "puffer-bot.mjs": "0affd411f6e161c6683aa651a9a313e2f741f7e62c52b46397c8ae5ff014729d",
+        "answer-engine.mjs": "4c017929e1d3fe627e6352463a751d680890afd7b363de39570a8832796e0afb",
+        "codex-provider.mjs": "8a40726fb69cc6e2b9b7fc5a37d7dffbc28a41e8bfab7850c5e67d416298a3de",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "806ac9277d0a1787e400b3944dac777bd8fc8b27c13fc29ec6f3c9c84dbf3ab0",
+        "review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "2150753484b093e6",
+      "sources": {
+        "puffer-bot.mjs": "2459912e0e980f7447bf355480d2e1cc3581357a0c4269685bc85dc0b1aa7b18",
+        "answer-engine.mjs": "4c017929e1d3fe627e6352463a751d680890afd7b363de39570a8832796e0afb",
+        "codex-provider.mjs": "8a40726fb69cc6e2b9b7fc5a37d7dffbc28a41e8bfab7850c5e67d416298a3de",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "c9954545d0897b4a0221cec4cbbd6579029877195e902aed6eec9fdff9f3c8e8",
+        "review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "07f4f4c62b4477f4",
+      "sources": {
+        "puffer-bot.mjs": "2459912e0e980f7447bf355480d2e1cc3581357a0c4269685bc85dc0b1aa7b18",
+        "answer-engine.mjs": "7997e1f51041b231e1411c76c2d8b0df49a47be233fefef23a0546ba2aa3fa16",
+        "codex-provider.mjs": "8a40726fb69cc6e2b9b7fc5a37d7dffbc28a41e8bfab7850c5e67d416298a3de",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "8e6ff1b04005721e22c6b574940c3a8fe4b005c9225beb3ef66c52ed0d34cc85",
+        "review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "statistics.mjs": "1e7be39d2df76192deb6360a4aeb74c2eacafd06c755e45539970d98f06fb221",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "d7cb3e9d421612f7",
+      "sources": {
+        "puffer-bot.mjs": "2459912e0e980f7447bf355480d2e1cc3581357a0c4269685bc85dc0b1aa7b18",
+        "answer-engine.mjs": "d57b8619ea430b33d061509a0c404bf35b1dac8857f282479c24d9bdd805887c",
+        "codex-provider.mjs": "8a40726fb69cc6e2b9b7fc5a37d7dffbc28a41e8bfab7850c5e67d416298a3de",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "8e6ff1b04005721e22c6b574940c3a8fe4b005c9225beb3ef66c52ed0d34cc85",
+        "review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "statistics.mjs": "1e7be39d2df76192deb6360a4aeb74c2eacafd06c755e45539970d98f06fb221",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    },
+    {
+      "id": "3110d705cc4407ba",
+      "sources": {
+        "puffer-bot.mjs": "2459912e0e980f7447bf355480d2e1cc3581357a0c4269685bc85dc0b1aa7b18",
+        "answer-engine.mjs": "d57b8619ea430b33d061509a0c404bf35b1dac8857f282479c24d9bdd805887c",
+        "codex-provider.mjs": "0925be5dd3f687dcf3d126717de74b66759135bf7dfc28b8a1a693dbe1354dbb",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "8e6ff1b04005721e22c6b574940c3a8fe4b005c9225beb3ef66c52ed0d34cc85",
+        "review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "statistics.mjs": "1e7be39d2df76192deb6360a4aeb74c2eacafd06c755e45539970d98f06fb221",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
+    }
+  ],
+  "records": [
+    {
+      "number": 1,
+      "outcome": "win",
+      "gameId": "party:HVYR-1792689600169-7",
+      "room": "HVYR",
+      "gameNumber": 7,
+      "players": 6,
+      "resultFile": "games/001/result.json",
+      "accepted": 10,
+      "lives": 2,
+      "finishedAt": "2026-10-22T17:49:48.826Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 2,
+      "outcome": "win",
+      "gameId": "party:SEDU-1792690889368-3",
+      "room": "SEDU",
+      "gameNumber": 3,
+      "players": 6,
+      "resultFile": "games/002/result.json",
+      "accepted": 10,
+      "lives": 2,
+      "finishedAt": "2026-10-22T17:54:17.872Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 3,
+      "outcome": "win",
+      "gameId": "party:PPCX-1792691665285-1",
+      "room": "PPCX",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/003/result.json",
+      "accepted": 13,
+      "lives": 2,
+      "finishedAt": "2026-10-22T17:57:50.450Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 4,
+      "outcome": "win",
+      "gameId": "party:NKPA-1792691709850-2",
+      "room": "NKPA",
+      "gameNumber": 2,
+      "players": 6,
+      "resultFile": "games/004/result.json",
+      "accepted": 20,
+      "lives": 2,
+      "finishedAt": "2026-10-22T18:03:31.499Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 5,
+      "outcome": "win",
+      "gameId": "party:DUSX-1792690961938-6",
+      "room": "DUSX",
+      "gameNumber": 6,
+      "players": 5,
+      "resultFile": "games/005/result.json",
+      "accepted": 16,
+      "lives": 2,
+      "finishedAt": "2026-10-22T18:07:55.069Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 6,
+      "outcome": "win",
+      "gameId": "party:CFNZ-1792691562092-4",
+      "room": "CFNZ",
+      "gameNumber": 4,
+      "players": 6,
+      "resultFile": "games/006/result.json",
+      "accepted": 16,
+      "lives": 2,
+      "finishedAt": "2026-10-22T18:13:12.879Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 7,
+      "outcome": "win",
+      "gameId": "party:SPHC-1792692797280-1",
+      "room": "SPHC",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/007/result.json",
+      "accepted": 14,
+      "lives": 2,
+      "finishedAt": "2026-10-22T18:16:39.331Z",
+      "sourceVersion": "8bf47466280d3c6c",
+      "reviewed": true
+    },
+    {
+      "number": 8,
+      "outcome": "win",
+      "gameId": "party:GPBN-1792693259365-1",
+      "room": "GPBN",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/008/result.json",
+      "reviewFile": "games/008/review.json",
+      "sourceVersion": "22d75adaae75a6b8",
+      "accepted": 26,
+      "lives": 3,
+      "finishedAt": "2026-10-22T18:26:24.296Z",
+      "reviewed": true
+    },
+    {
+      "number": 9,
+      "outcome": "win",
+      "gameId": "party:CMMW-1792693134938-3",
+      "room": "CMMW",
+      "gameNumber": 3,
+      "players": 6,
+      "resultFile": "games/009/result.json",
+      "reviewFile": "games/009/review.json",
+      "sourceVersion": "dc1c0fee5ae80dbe",
+      "accepted": 13,
+      "lives": 2,
+      "finishedAt": "2026-10-22T18:33:16.533Z",
+      "reviewed": true
+    },
+    {
+      "number": 10,
+      "outcome": "inconclusive",
+      "sourceVersion": "5e6c7e2ce27a6484",
+      "error": "Room connection refused (4403)",
+      "finishedAt": "2026-10-22T18:37:50.756Z",
+      "reviewed": true,
+      "room": "GGGT",
+      "gameId": "party:GGGT-1792693853947-2",
+      "evidenceFile": "games/010/interruption.json"
+    },
+    {
+      "number": 11,
+      "outcome": "win",
+      "gameId": "party:JJQY-1792694597466-1",
+      "room": "JJQY",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/011/result.json",
+      "reviewFile": "games/011/review.json",
+      "sourceVersion": "25e37ef270017012",
+      "accepted": 19,
+      "lives": 2,
+      "finishedAt": "2026-10-22T18:49:02.165Z",
+      "reviewed": true
+    },
+    {
+      "number": 12,
+      "outcome": "win",
+      "gameId": "party:SSML-1792693970745-5",
+      "room": "SSML",
+      "gameNumber": 5,
+      "players": 5,
+      "resultFile": "games/012/result.json",
+      "reviewFile": "games/012/review.json",
+      "sourceVersion": "25e37ef270017012",
+      "accepted": 15,
+      "lives": 1,
+      "finishedAt": "2026-10-22T18:56:16.698Z",
+      "reviewed": true
+    },
+    {
+      "number": 13,
+      "outcome": "win",
+      "gameId": "party:GGVT-1792708382292-2",
+      "room": "GGVT",
+      "gameNumber": 2,
+      "players": 6,
+      "resultFile": "games/013/result.json",
+      "reviewFile": "games/013/review.json",
+      "sourceVersion": "9342a1f62e01c630",
+      "accepted": 8,
+      "lives": 2,
+      "finishedAt": "2026-10-22T22:40:19.243Z",
+      "reviewed": true
+    },
+    {
+      "number": 14,
+      "outcome": "win",
+      "gameId": "party:MJFK-1792709632478-1",
+      "room": "MJFK",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/014/result.json",
+      "reviewFile": "games/014/review.json",
+      "sourceVersion": "2150753484b093e6",
+      "accepted": 19,
+      "lives": 3,
+      "finishedAt": "2026-10-22T22:58:56.306Z",
+      "reviewed": true
+    },
+    {
+      "number": 15,
+      "outcome": "win",
+      "gameId": "party:FTXN-1792708529959-9",
+      "room": "FTXN",
+      "gameNumber": 9,
+      "players": 4,
+      "resultFile": "games/015/result.json",
+      "reviewFile": "games/015/review.json",
+      "sourceVersion": "07f4f4c62b4477f4",
+      "accepted": 3,
+      "lives": 2,
+      "finishedAt": "2026-10-22T23:09:22.371Z",
+      "reviewed": true
+    },
+    {
+      "number": 16,
+      "outcome": "win",
+      "gameId": "party:YWSS-1792710649559-1",
+      "room": "YWSS",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/016/result.json",
+      "reviewFile": "games/016/review.json",
+      "sourceVersion": "d7cb3e9d421612f7",
+      "accepted": 10,
+      "lives": 1,
+      "finishedAt": "2026-10-22T23:15:22.387Z",
+      "reviewed": true
+    },
+    {
+      "number": 17,
+      "outcome": "win",
+      "gameId": "party:SSFF-1792710485473-3",
+      "room": "SSFF",
+      "gameNumber": 3,
+      "players": 5,
+      "resultFile": "games/017/result.json",
+      "reviewFile": "games/017/review.json",
+      "sourceVersion": "3110d705cc4407ba",
+      "accepted": 45,
+      "lives": 5,
+      "finishedAt": "2026-10-22T23:26:04.564Z",
+      "reviewed": true
+    }
+  ],
+  "reviews": [
+    {
+      "at": "2026-10-22T18:20:51.777Z",
+      "afterMatch": 7,
+      "summary": "Reviewed the first seven uninterrupted wins, then replaced the frozen run with per-match review and versioned improvements.",
+      "observations": {
+        "matches": 7,
+        "rejections": 11,
+        "findings": [
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a pattern or print (for example, stripes)",
+            "observedWaitMs": 5715
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a unit of time (units with a defined length)",
+            "observedWaitMs": 5750
+          },
+          {
+            "kind": "local-solver-opportunity",
+            "question": "Name an English word ending in \u201c-ware\u201d",
+            "observedWaitMs": 3762,
+            "candidatesNow": 14
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name one of the emotions from Inside Out or Inside Out 2",
+            "observedWaitMs": 5385
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country with at least five land neighbors",
+            "observedWaitMs": 6623
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country that has hosted the FIFA World Cup",
+            "observedWaitMs": 5738
+          },
+          {
+            "kind": "local-solver-opportunity",
+            "question": "Name an English word ending in \u201c-ism\u201d",
+            "observedWaitMs": 3847,
+            "candidatesNow": 239
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country where an Arabic-derived script has official use",
+            "observedWaitMs": 10491
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country that shares a land or maritime border with Russia",
+            "observedWaitMs": 8781
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a type of bagel",
+            "observedWaitMs": 5133
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a U.S. state entirely west of the Mississippi River",
+            "observedWaitMs": 10095
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name a type of bagel",
+            "misses": 0,
+            "repeats": 3
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name something people keep on a keyring",
+            "misses": 0,
+            "repeats": 2
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name an English word starting with \u201cscr\u201d",
+            "misses": 1,
+            "repeats": 0
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country that shares a land border with Russia",
+            "observedWaitMs": 5560
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name a pronoun (like \u201cthey\u201d)",
+            "misses": 1,
+            "repeats": 4
+          }
+        ]
+      },
+      "changes": [
+        "Normalize quoted affix markers such as -ware, -ism, and pre- so the local dictionary can answer immediately.",
+        "Apply the same normalization to spelling validation.",
+        "Persist server-confirmed learning at category boundaries.",
+        "Require a saved review before starting each further match; archive the exact source version per match."
+      ],
+      "validation": {
+        "testsPassed": 30,
+        "benchmark": "outputs/validation/round-improvement-001.json"
+      }
+    },
+    {
+      "at": "2026-10-22T18:28:48.122Z",
+      "afterMatch": 8,
+      "summary": "Match 8 won six-player table with 26 accepted answers and no pops. Fixed two alias repeats before the next game.",
+      "observations": {
+        "room": "GPBN",
+        "gameId": "party:GPBN-1792693259365-1",
+        "won": true,
+        "categories": [
+          {
+            "question": "Name a Christmas movie",
+            "readyMs": 4136,
+            "firstTurnWaitMs": 82,
+            "accepted": 1,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name an airline",
+            "readyMs": 3810,
+            "firstTurnWaitMs": 83,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 1,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a shade of red (pinks don't count)",
+            "readyMs": 3611,
+            "firstTurnWaitMs": 82,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name an area in a school",
+            "readyMs": 3822,
+            "firstTurnWaitMs": 80,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 1,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a compound word containing 'house'",
+            "readyMs": 5,
+            "firstTurnWaitMs": 81,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a body part animals have but humans don't (like wings)",
+            "readyMs": 9769,
+            "firstTurnWaitMs": 2588,
+            "accepted": 4,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a country that was once part of the British Empire",
+            "readyMs": 3285,
+            "firstTurnWaitMs": 82,
+            "accepted": 4,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name something a barber or hairstylist uses",
+            "readyMs": 3836,
+            "firstTurnWaitMs": 135,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a cocktail",
+            "readyMs": 4,
+            "firstTurnWaitMs": 82,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 55,
+            "modelWaitAvoidable": false
+          }
+        ],
+        "learning": {
+          "serverConfirmedPassesObserved": 21,
+          "ownAccepted": 26,
+          "retiredMisses": 0
+        },
+        "findings": [
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a body part animals have but humans don't (like wings)",
+            "observedWaitMs": 9769
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name an airline",
+            "misses": 0,
+            "repeats": 1
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name an area in a school",
+            "misses": 0,
+            "repeats": 1
+          }
+        ]
+      },
+      "changes": [
+        "Group Southwest Airlines/Southwest only in airline category and Gymnasium/Gym only in school-area category. Exclusions now skip both forms without inventing server verification.",
+        "Retain accepted answers from the slow animal-parts category for instant future reuse.",
+        "Provide a clean campaign initialization command and reject reviews while a match is active."
+      ],
+      "validation": {
+        "testsPassed": 31,
+        "benchmark": "outputs/validation/round-improvement-002.json"
+      }
+    },
+    {
+      "at": "2026-10-22T18:34:48.258Z",
+      "afterMatch": 9,
+      "summary": "Six-player match 9 won with 13 accepted submissions, zero rejections and no pops. Removed an avoidable first-answer wait for minimum-length country prompts.",
+      "observations": {
+        "room": "CMMW",
+        "gameId": "party:CMMW-1792693134938-3",
+        "won": true,
+        "categories": [
+          {
+            "question": "Name an email service (like Gmail)",
+            "readyMs": 6,
+            "firstTurnWaitMs": 82,
+            "accepted": 1,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a word that means small",
+            "readyMs": 3978,
+            "firstTurnWaitMs": 83,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a planet or dwarf planet in our solar system",
+            "readyMs": 5,
+            "firstTurnWaitMs": 83,
+            "accepted": 1,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a type of landform (bodies of water don't count)",
+            "readyMs": 3147,
+            "firstTurnWaitMs": 81,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name an English word containing \u201ccycl\u201d",
+            "readyMs": 13,
+            "firstTurnWaitMs": 82,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 27,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a country with 8 or more letters",
+            "readyMs": 5729,
+            "firstTurnWaitMs": 4226,
+            "accepted": 4,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          }
+        ],
+        "learning": {
+          "serverConfirmedPassesObserved": 17,
+          "ownAccepted": 13,
+          "retiredMisses": 0
+        },
+        "findings": [
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country with 8 or more letters",
+            "observedWaitMs": 5729
+          }
+        ]
+      },
+      "changes": [
+        "Extend local length filters and model-answer checks to at least/at most and or more/or fewer constraints.",
+        "Use a single explicit example supplied in a category immediately while Codex prepares alternatives. Reject ambiguous multi-example text and examples violating explicit spelling constraints."
+      ],
+      "validation": {
+        "testsPassed": 33,
+        "benchmark": "outputs/validation/round-improvement-003.json"
+      }
+    },
+    {
+      "at": "2026-10-22T18:43:29.253Z",
+      "afterMatch": 10,
+      "summary": "Match 10 interrupted by a connection drop. Reconnect incorrectly created a new guest, then was refused; browser later showed elimination. Preserved as inconclusive, current streak reset to zero.",
+      "observations": {
+        "room": "GGGT",
+        "acceptedBeforeDisconnect": 10,
+        "rejectedBeforeDisconnect": 0,
+        "error": "4403 after guest identity replacement",
+        "evidenceFile": "games/010/interruption.json"
+      },
+      "changes": [
+        "Reuse valid guest tokens on ordinary reconnect. Preserve only the bot guest cookie for actual renewal and reject a changed guest identity.",
+        "Restore saved seat identity before refreshing it.",
+        "Save partial result and review on future interrupted matches."
+      ],
+      "validation": {
+        "testsPassed": 38,
+        "privateReconnectTest": "outputs/validation/reconnect-check.json",
+        "forcedDropsRecovered": 3,
+        "publicWin": false
+      }
+    },
+    {
+      "at": "2026-10-22T18:50:52.171Z",
+      "afterMatch": 11,
+      "summary": "Post-fix six-player public game JJQY won with 19 accepted answers, zero rejections, 2 hearts and 0 pops. Retained the tested code and learned answers rather than making an arbitrary edit.",
+      "observations": {
+        "room": "JJQY",
+        "gameId": "party:JJQY-1792694597466-1",
+        "won": true,
+        "categories": [
+          {
+            "question": "Name a job in a film crew",
+            "readyMs": 7,
+            "firstTurnWaitMs": null,
+            "accepted": 0,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a type of flower",
+            "readyMs": 3,
+            "firstTurnWaitMs": 81,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 76,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a fictional character played by more than one actor in live-action movies",
+            "readyMs": 4562,
+            "firstTurnWaitMs": 81,
+            "accepted": 1,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a type of jewelry",
+            "readyMs": 4337,
+            "firstTurnWaitMs": 2833,
+            "accepted": 3,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a country that uses the euro",
+            "readyMs": 6421,
+            "firstTurnWaitMs": 79,
+            "accepted": 5,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a US city with over 100,000 people",
+            "readyMs": 3547,
+            "firstTurnWaitMs": 2044,
+            "accepted": 6,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+            "readyMs": 8589,
+            "firstTurnWaitMs": 2251,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          }
+        ],
+        "learning": {
+          "serverConfirmedPassesObserved": 19,
+          "ownAccepted": 19,
+          "retiredMisses": 0
+        },
+        "findings": [
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country that uses the euro",
+            "observedWaitMs": 6421
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+            "observedWaitMs": 8589
+          }
+        ]
+      },
+      "changes": [
+        "Persist server-confirmed answers for all observed categories, including the two slow fresh categories.",
+        "Retain reconnect fix after a successful full public game; private forced-drop and renewal checks already passed."
+      ],
+      "validation": {
+        "testsPassed": 38,
+        "learningBenchmark": "outputs/validation/round-improvement-004.json",
+        "publicWinScreenshot": "outputs/validation/streak-attempt-2/win-JJQY-2690.png"
+      }
+    },
+    {
+      "at": "2026-10-22T22:37:41.933Z",
+      "afterMatch": 12,
+      "summary": "Match 12 won with 15 accepted answers and one heart. Recorded one rejected ATM guess, slow fresh answers and the mid-match usage limit.",
+      "observations": {
+        "room": "SSML",
+        "gameId": "party:SSML-1792693970745-5",
+        "won": true,
+        "categories": [
+          {
+            "question": "Name a Monopoly playing token, past or present",
+            "readyMs": 9444,
+            "firstTurnWaitMs": 9437,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a part of the human ear",
+            "readyMs": 4181,
+            "firstTurnWaitMs": 82,
+            "accepted": 1,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a place people keep or store cash",
+            "readyMs": 4005,
+            "firstTurnWaitMs": 83,
+            "accepted": 3,
+            "misses": 1,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name the most widely spoken language of an Asian country",
+            "readyMs": 9459,
+            "firstTurnWaitMs": 83,
+            "accepted": 2,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a member country of the Arab League",
+            "readyMs": null,
+            "firstTurnWaitMs": null,
+            "accepted": 0,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name an English word ending in \u201c-proof\u201d",
+            "readyMs": 16,
+            "firstTurnWaitMs": 82,
+            "accepted": 6,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 8,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a board game",
+            "readyMs": 3,
+            "firstTurnWaitMs": 82,
+            "accepted": 1,
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 36,
+            "modelWaitAvoidable": false
+          }
+        ],
+        "learning": {
+          "serverConfirmedPassesObserved": 20,
+          "ownAccepted": 15,
+          "retiredMisses": 1
+        },
+        "findings": [
+          {
+            "kind": "slow-first-answer",
+            "question": "Name a Monopoly playing token, past or present",
+            "observedWaitMs": 9444
+          },
+          {
+            "kind": "slow-first-answer",
+            "question": "Name the most widely spoken language of an Asian country",
+            "observedWaitMs": 9459
+          },
+          {
+            "kind": "answer-quality",
+            "question": "Name a place people keep or store cash",
+            "misses": 1,
+            "repeats": 0
+          }
+        ]
+      },
+      "changes": [
+        "Retired the server-rejected ATM answer for the cash-storage category through normal learning.",
+        "Back off model requests across all categories for one minute after a usage-limit error; local and learned answers remain usable.",
+        "Preserve the public win streak if model setup fails before a match is entered.",
+        "Count actual live starting players rather than spectators; corrected match 5 and match 12 to five players."
+      ],
+      "playerCountCorrections": [
+        {
+          "match": 5,
+          "before": 6,
+          "actualStartingPlayers": 5
+        },
+        {
+          "match": 12,
+          "before": 6,
+          "actualStartingPlayers": 5
+        }
+      ],
+      "validation": {
+        "testsPassed": 39,
+        "freshInferenceAfterReset": {
+          "succeeded": true,
+          "answer": "Egypt",
+          "elapsedMs": 4354
+        },
+        "firstAnswerBenchmark": "Incomplete: quota interrupted after seven samples; not yet applied to production."
+      }
+    },
+    {
+      "at": "2026-10-22T22:46:37.627Z",
+      "afterMatch": 13,
+      "summary": "Six-player match 13 won with 8 accepted submissions, no rejections and both hearts. All eight were plankton or schooler, so the next version explicitly prioritizes rarity.",
+      "observations": {
+        "room": "GGVT",
+        "gameId": "party:GGVT-1792708382292-2",
+        "won": true,
+        "categories": [
+          {
+            "question": "Name an F1 team on the current grid",
+            "readyMs": 4033,
+            "firstTurnWaitMs": 81,
+            "accepted": 1,
+            "rarity": {
+              "tiers": {
+                "schooler": 1
+              },
+              "rareOrBetter": 0,
+              "rareOrBetterRate": 0
+            },
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a current top 200 website (by Tranco; named sites and services only)",
+            "readyMs": 3726,
+            "firstTurnWaitMs": 81,
+            "accepted": 2,
+            "rarity": {
+              "tiers": {
+                "plankton": 2
+              },
+              "rareOrBetter": 0,
+              "rareOrBetterRate": 0
+            },
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name an Amazon product, service or company Amazon owns",
+            "readyMs": 3865,
+            "firstTurnWaitMs": 2360,
+            "accepted": 3,
+            "rarity": {
+              "tiers": {
+                "plankton": 2,
+                "schooler": 1
+              },
+              "rareOrBetter": 0,
+              "rareOrBetterRate": 0
+            },
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          },
+          {
+            "question": "Name a character from Winnie the Pooh",
+            "readyMs": 3711,
+            "firstTurnWaitMs": 81,
+            "accepted": 2,
+            "rarity": {
+              "tiers": {
+                "plankton": 2
+              },
+              "rareOrBetter": 0,
+              "rareOrBetterRate": 0
+            },
+            "misses": 0,
+            "repeats": 0,
+            "localCandidatesNow": 0,
+            "modelWaitAvoidable": false
+          }
+        ],
+        "rarity": {
+          "tiers": {
+            "schooler": 2,
+            "plankton": 6
+          },
+          "rareOrBetter": 0,
+          "rareOrBetterRate": 0
+        },
+        "learning": {
+          "serverConfirmedPassesObserved": 18,
+          "ownAccepted": 8,
+          "retiredMisses": 0
+        },
+        "findings": []
+      },
+      "changes": [
+        "Generate an initial burst of three less-obvious, high-confidence answers, then fill alternatives in the background.",
+        "Prefer server-confirmed rare/deepcut/krillion answers first; requested-rare unverified proposals can outrank common confirmed answers but remain unverified.",
+        "Allow rare-focused generation for caches containing only common model answers.",
+        "Keep acceptance frequency from overriding server rarity tiers.",
+        "Include actual server rarity distributions in each match review."
+      ],
+      "validation": {
+        "testsPassed": 44,
+        "benchmark": "outputs/validation/round-improvement-005.json",
+        "medianFirstMs": 3584,
+        "baselineMedianFirstMs": 5612.5,
+        "rarityInferredFromModel": false
+      }
+    },
+    {
+      "at": "2026-10-22T23:07:43.338Z",
+      "afterMatch": 14,
+      "summary": "Match 14 won a six-player public game with 19 accepted submissions, no rejections, three hearts, seven deep cuts and one krillion. Reviewed all categories and retained confirmed rarity data.",
+      "changes": [
+        "Stop retrying model generation after a valid empty answer list exhausts a finite category.",
+        "Export outcome, actual server rarity, player-count, source-version, and latency-coverage statistics automatically after results and reviews."
+      ],
+      "validation": {
+        "testsPassed": 49,
+        "testsFailed": 0,
+        "previousMatchRareOrBetter": 15,
+        "previousMatchAccepted": 19
+      }
+    },
+    {
+      "at": "2026-10-22T23:10:30.669Z",
+      "afterMatch": 15,
+      "summary": "Match 15 won a four-player public game but ended after three accepted answers, with only one deep cut. Full next-match recording retained; a longer winning match is still needed for the featured deep-cut footage.",
+      "changes": [
+        "Once a local pool has server-confirmed common answers and no rare alternatives, generate rare alternatives in the background while local answers stay immediately usable."
+      ],
+      "validation": {
+        "testsPassed": 50,
+        "testsFailed": 0
+      }
+    },
+    {
+      "at": "2026-10-22T23:17:13.287Z",
+      "afterMatch": 16,
+      "summary": "Match 16 won a six-player public game with 10 accepted answers, no rejections, three rare answers and one deep cut. One pop followed exhaustion of the finite nuclear-weapons country category. Retained its full recording; the featured match still needs multiple deep cuts.",
+      "changes": [
+        "Retained confirmed answers for the 7.29-second fresh nuclear-weapons category.",
+        "Strengthened the generation preference toward niche but conventional deep-cut choices while requiring certain category fit."
+      ],
+      "validation": {
+        "testsPassed": 50,
+        "testsFailed": 0,
+        "observedRarity": {
+          "schooler": 6,
+          "rare": 3,
+          "deepcut": 1
+        }
+      }
+    },
+    {
+      "at": "2026-10-22T23:26:55.546Z",
+      "afterMatch": 17,
+      "summary": "Match 17 won a five-player public game with 45 accepted answers, one miss, five hearts, 23 deep cuts and four krillion answers. Category 6 boxing movies is the sole requested README clip: two krillion and three deep-cut answers.",
+      "changes": [
+        "Retained verified rarity and retired the rejected New York City landmark guess.",
+        "Reviewed why local work words stayed common: used accepted answers must still count when deciding whether the local pool has already shown common-only results. Corrected the background-refill gate and regression scenario."
+      ],
+      "validation": {
+        "testsPassed": 50,
+        "testsFailed": 0,
+        "featuredCategory": 6,
+        "featuredTiers": {
+          "krillion": 2,
+          "deepcut": 3
+        }
+      }
+    }
+  ],
+  "progress": {
+    "current": 7,
+    "best": 9
+  },
+  "setupFailures": [
+    {
+      "intendedMatch": 14,
+      "sourceVersion": "0a3dc804b3cba3e9",
+      "error": "Assigned seat was absent; membership ping returned 403",
+      "at": "2026-10-22T22:51:57.251819+00:00",
+      "evidenceFile": "games/014/setup-failure-FGWN.json"
+    }
+  ]
+}

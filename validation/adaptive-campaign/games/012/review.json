@@ -1,0 +1,100 @@
+{
+  "room": "SSML",
+  "gameId": "party:SSML-1792693970745-5",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a Monopoly playing token, past or present",
+      "readyMs": 9444,
+      "firstTurnWaitMs": 9437,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a part of the human ear",
+      "readyMs": 4181,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a place people keep or store cash",
+      "readyMs": 4005,
+      "firstTurnWaitMs": 83,
+      "accepted": 3,
+      "misses": 1,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name the most widely spoken language of an Asian country",
+      "readyMs": 9459,
+      "firstTurnWaitMs": 83,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a member country of the Arab League",
+      "readyMs": null,
+      "firstTurnWaitMs": null,
+      "accepted": 0,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "readyMs": 16,
+      "firstTurnWaitMs": 82,
+      "accepted": 6,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 8,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a board game",
+      "readyMs": 3,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 36,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "learning": {
+    "serverConfirmedPassesObserved": 20,
+    "ownAccepted": 15,
+    "retiredMisses": 1
+  },
+  "findings": [
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a Monopoly playing token, past or present",
+      "observedWaitMs": 9444
+    },
+    {
+      "kind": "slow-first-answer",
+      "question": "Name the most widely spoken language of an Asian country",
+      "observedWaitMs": 9459
+    },
+    {
+      "kind": "answer-quality",
+      "question": "Name a place people keep or store cash",
+      "misses": 1,
+      "repeats": 0
+    }
+  ]
+}

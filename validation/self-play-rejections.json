@@ -1,0 +1,198 @@
+[
+  {
+    "at": "2026-10-22T16:14:16.094Z",
+    "side": "PufferBeta",
+    "type": "answer",
+    "question": "Name a word for a segment of play in a sport",
+    "answer": "Chukker",
+    "source": "codex",
+    "reactionMs": 80,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:15:01.270Z",
+    "side": "PufferBeta",
+    "type": "answer",
+    "question": "Name something people put in their coffee",
+    "answer": "Cocoa powder",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:16:05.644Z",
+    "side": "PufferBeta",
+    "type": "answer",
+    "question": "Name an accent or dialect of English",
+    "answer": "Yorkshire",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:16:49.579Z",
+    "side": "PufferBeta",
+    "type": "answer",
+    "question": "Name a deep fried food",
+    "answer": "Beignets",
+    "source": "codex",
+    "reactionMs": 82,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:12:20.950Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name a Broadway musical",
+    "answer": "The Band's Visit",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "miss"
+    }
+  },
+  {
+    "at": "2026-10-22T16:12:21.307Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name a Broadway musical",
+    "answer": "A Gentleman's Guide to Love and Murder",
+    "source": "codex",
+    "reactionMs": 448,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "miss"
+    }
+  },
+  {
+    "at": "2026-10-22T16:12:23.317Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name a Broadway musical",
+    "answer": "Something Rotten!",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "miss"
+    }
+  },
+  {
+    "at": "2026-10-22T16:13:42.475Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name something found in a bathroom",
+    "answer": "Towel rack",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:13:57.466Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name an animal threatened with extinction",
+    "answer": "Pygmy hippopotamus",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:14:48.969Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name a term used in karate or other martial arts",
+    "answer": "Waza",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "miss"
+    }
+  },
+  {
+    "at": "2026-10-22T16:15:00.342Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name something people put in their coffee",
+    "answer": "Vanilla extract",
+    "source": "codex",
+    "reactionMs": 82,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:15:21.352Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name a natural disaster (types, not specific events)",
+    "answer": "Dust storm",
+    "source": "codex",
+    "reactionMs": 82,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:16:06.466Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name an accent or dialect of English",
+    "answer": "West Country",
+    "source": "codex",
+    "reactionMs": 82,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  },
+  {
+    "at": "2026-10-22T16:16:48.819Z",
+    "side": "PufferAlpha",
+    "type": "answer",
+    "question": "Name a deep fried food",
+    "answer": "Churros",
+    "source": "codex",
+    "reactionMs": 81,
+    "ok": true,
+    "submit": {
+      "accepted": false,
+      "why": "repeat"
+    }
+  }
+]

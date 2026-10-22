@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-22",
+  "version": "2",
+  "public": {
+    "games": 6,
+    "wins": 6,
+    "accepted": 26,
+    "attempts": 26,
+    "allFinishedWithTwoHearts": true,
+    "rooms": [
+      "EEEK",
+      "FHWG",
+      "KSMU",
+      "KXJH",
+      "PYVG",
+      "WRWN"
+    ]
+  },
+  "privateSelfPlay": {
+    "categoriesCompleted": 20,
+    "serverAcceptedAnswers": 282,
+    "finalHearts": [
+      5,
+      5
+    ],
+    "pops": [
+      1,
+      1
+    ],
+    "declined": {
+      "repeat": 10,
+      "miss": 4
+    },
+    "intentionallyStopped": true,
+    "countedAsPublicWin": false,
+    "note": "The original stress report was captured before one final acknowledgement arrived; its server player counts are authoritative."
+  },
+  "regressionTests": {
+    "passed": 23,
+    "failed": 0
+  },
+  "limitations": [
+    "Public-game results are six observations, not a guarantee.",
+    "Fresh model answers may be delayed or rejected.",
+    "Private self-play used two clients sharing one answer worker."
+  ]
+}

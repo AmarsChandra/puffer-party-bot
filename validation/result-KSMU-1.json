@@ -1,0 +1,272 @@
+{
+  "won": true,
+  "room": "KSMU",
+  "playerId": "35d58d8510",
+  "winnerId": "35d58d8510",
+  "gameNumber": 1,
+  "gameId": "party:KSMU-1792685028388-1",
+  "rated": false,
+  "player": {
+    "id": "35d58d8510",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 1,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 145,
+    "alive": true,
+    "answers": 2,
+    "pops": 0,
+    "best": "deepcut",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Gracilis",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a muscle in the human body"
+    },
+    {
+      "index": 2,
+      "text": "Name a part of an airplane, inside or out (anything built in or mounted)"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a muscle in the human body",
+      "answer": "Sartorius",
+      "source": "codex",
+      "reactionMs": 3361,
+      "submit": {
+        "accepted": true,
+        "answer": "Sartorius",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a muscle in the human body",
+      "answer": "Gracilis",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Gracilis",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 2,
+    "accepted": 2,
+    "reactionMs": [
+      3361,
+      83
+    ],
+    "sources": {
+      "codex": 2
+    },
+    "unknownCategories": [
+      "Name a muscle in the human body"
+    ]
+  },
+  "finalRoom": {
+    "code": "KSMU",
+    "chatEnabled": true,
+    "version": 35,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "1579c0758a",
+    "players": [
+      {
+        "id": "1579c0758a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "dook",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 2,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 2
+      },
+      {
+        "id": "35d58d8510",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 145,
+        "alive": true,
+        "answers": 2,
+        "pops": 0,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Gracilis",
+          "tier": "deepcut"
+        },
+        "place": 1
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a part of an airplane, inside or out (anything built in or mounted)",
+      "threshold": 20,
+      "accepted": 0
+    },
+    "countdownEndsAt": null,
+    "winnerId": "35d58d8510",
+    "gameNumber": 1,
+    "gameId": "party:KSMU-1792685028388-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "1579c0758a",
+        "seq": 1,
+        "at": 1792685028388
+      },
+      {
+        "kind": "join",
+        "playerId": "35d58d8510",
+        "seq": 2,
+        "at": 1792685029552
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792685032552,
+        "seq": 3,
+        "at": 1792685029552
+      },
+      {
+        "kind": "start",
+        "holderId": "35d58d8510",
+        "seq": 4,
+        "at": 1792685032553
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "35d58d8510",
+        "seq": 5,
+        "at": 1792685032553
+      },
+      {
+        "kind": "pass",
+        "from": "35d58d8510",
+        "to": "1579c0758a",
+        "answer": "Sartorius",
+        "tier": "rare",
+        "seq": 6,
+        "at": 1792685036261
+      },
+      {
+        "kind": "pop",
+        "playerId": "1579c0758a",
+        "livesLeft": 1,
+        "seq": 7,
+        "at": 1792685047464
+      },
+      {
+        "kind": "pass",
+        "from": "35d58d8510",
+        "to": "1579c0758a",
+        "answer": "Gracilis",
+        "tier": "deepcut",
+        "seq": 8,
+        "at": 1792685049347
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "1579c0758a",
+        "seq": 9,
+        "at": 1792685049347
+      },
+      {
+        "kind": "pop",
+        "playerId": "1579c0758a",
+        "livesLeft": 0,
+        "seq": 10,
+        "at": 1792685070354
+      },
+      {
+        "kind": "out",
+        "playerId": "1579c0758a",
+        "place": 2,
+        "seq": 11,
+        "at": 1792685070354
+      },
+      {
+        "kind": "win",
+        "playerId": "35d58d8510",
+        "seq": 12,
+        "at": 1792685070354
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792685028388,
+        "playerId": null,
+        "name": "dook",
+        "text": "dook joined"
+      },
+      {
+        "id": 2,
+        "at": 1792685029552,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 3,
+        "at": 1792685070354,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792685070354
+  }
+}

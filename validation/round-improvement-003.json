@@ -1,0 +1,29 @@
+{
+  "improvement": "Use local minimum/maximum letter filters and single explicit examples from the prompt",
+  "measuredAt": "2026-10-22T18:34:48.161Z",
+  "cache": "Empty cache: the benchmark does not rely on answers learned in the previous game",
+  "cases": [
+    {
+      "question": "Name a country with 8 or more letters",
+      "observedPreviousReadyMs": 5729,
+      "localReadyMs": 3.6594999999999978,
+      "firstAnswer": "Kiribati",
+      "source": "bank",
+      "localCandidates": 86,
+      "requestsNeededForFirstAnswer": 0,
+      "backgroundAlternativeRequests": 0
+    },
+    {
+      "question": "Name a body part animals have but humans don't (like wings)",
+      "observedPreviousReadyMs": 9769,
+      "localReadyMs": 1.7346670000000017,
+      "firstAnswer": "wings",
+      "source": "example",
+      "localCandidates": 1,
+      "requestsNeededForFirstAnswer": 0,
+      "backgroundAlternativeRequests": 1
+    }
+  ],
+  "testsPassed": 33,
+  "scope": "Single explicit examples are proposals until the server accepts them. Alternative generation continues in the background when needed; subject qualifiers are retained."
+}

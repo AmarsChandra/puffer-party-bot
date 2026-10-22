@@ -1,0 +1,1663 @@
+{
+  "won": true,
+  "room": "CMMW",
+  "playerId": "7ff62bd855",
+  "winnerId": "7ff62bd855",
+  "gameNumber": 3,
+  "gameId": "party:CMMW-1792693134938-3",
+  "rated": false,
+  "player": {
+    "id": "7ff62bd855",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 2,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 375,
+    "alive": true,
+    "answers": 13,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Botswana",
+      "tier": "krillion"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name an email service (like Gmail)"
+    },
+    {
+      "index": 2,
+      "text": "Name a word that means small"
+    },
+    {
+      "index": 3,
+      "text": "Name a planet or dwarf planet in our solar system"
+    },
+    {
+      "index": 4,
+      "text": "Name a type of landform (bodies of water don't count)"
+    },
+    {
+      "index": 5,
+      "text": "Name an English word containing “cycl”"
+    },
+    {
+      "index": 6,
+      "text": "Name a country with 8 or more letters"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an email service (like Gmail)",
+      "answer": "Tuta",
+      "source": "verified",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Tuta",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a word that means small",
+      "answer": "Miniature",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Miniature",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a word that means small",
+      "answer": "Minute",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Minute",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a planet or dwarf planet in our solar system",
+      "answer": "Mercury",
+      "source": "verified",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Mercury",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a type of landform (bodies of water don't count)",
+      "answer": "Hill",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Hill",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a type of landform (bodies of water don't count)",
+      "answer": "Valley",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Valley",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “cycl”",
+      "answer": "cycling",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "cycling",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an English word containing “cycl”",
+      "answer": "motorcycle",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "motorcycle",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “cycl”",
+      "answer": "bicycle",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "bicycle",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country with 8 or more letters",
+      "answer": "Afghanistan",
+      "source": "codex",
+      "reactionMs": 4231,
+      "submit": {
+        "accepted": true,
+        "answer": "Afghanistan",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country with 8 or more letters",
+      "answer": "Argentina",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Argentina",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country with 8 or more letters",
+      "answer": "Bangladesh",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Bangladesh",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country with 8 or more letters",
+      "answer": "Botswana",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Botswana",
+        "tier": "krillion"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 13,
+    "accepted": 13,
+    "reactionMs": [
+      83,
+      82,
+      82,
+      83,
+      82,
+      81,
+      83,
+      82,
+      83,
+      4231,
+      83,
+      83,
+      83
+    ],
+    "sources": {
+      "verified": 2,
+      "codex": 8,
+      "bank": 3
+    },
+    "unknownCategories": [
+      "Name a country with 8 or more letters"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 3,
+        "index": 1,
+        "question": "Name an email service (like Gmail)",
+        "observedAt": 1792693750496,
+        "readyMs": 6,
+        "firstTurnAt": 1792693770635,
+        "firstSubmitMs": 20221,
+        "firstTurnWaitMs": 82,
+        "firstSource": "verified"
+      },
+      {
+        "gameNumber": 3,
+        "index": 2,
+        "question": "Name a word that means small",
+        "observedAt": 1792693773371,
+        "readyMs": 3978,
+        "firstTurnAt": 1792693782924,
+        "firstSubmitMs": 9636,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 3,
+        "question": "Name a planet or dwarf planet in our solar system",
+        "observedAt": 1792693795786,
+        "readyMs": 5,
+        "firstTurnAt": 1792693819607,
+        "firstSubmitMs": 23904,
+        "firstTurnWaitMs": 83,
+        "firstSource": "verified"
+      },
+      {
+        "gameNumber": 3,
+        "index": 4,
+        "question": "Name a type of landform (bodies of water don't count)",
+        "observedAt": 1792693852219,
+        "readyMs": 3147,
+        "firstTurnAt": 1792693858134,
+        "firstSubmitMs": 5996,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 5,
+        "question": "Name an English word containing “cycl”",
+        "observedAt": 1792693910923,
+        "readyMs": 13,
+        "firstTurnAt": 1792693917324,
+        "firstSubmitMs": 6483,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      },
+      {
+        "gameNumber": 3,
+        "index": 6,
+        "question": "Name a country with 8 or more letters",
+        "observedAt": 1792693963360,
+        "readyMs": 5729,
+        "firstTurnAt": 1792693964864,
+        "firstSubmitMs": 5730,
+        "firstTurnWaitMs": 4226,
+        "firstSource": "codex"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "CMMW",
+    "chatEnabled": true,
+    "version": 746,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "fbbac02135",
+    "players": [
+      {
+        "id": "fbbac02135",
+        "chatMuted": false,
+        "removed": false,
+        "name": "art",
+        "character": "schooler",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "ddefe92455",
+        "chatMuted": false,
+        "removed": false,
+        "name": "ec",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "7ff62bd855",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "8ec8859dcf",
+        "chatMuted": false,
+        "removed": false,
+        "name": "alaina",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "fd5e0ee219",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Lavenburg",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "14ed863f02",
+        "chatMuted": false,
+        "removed": false,
+        "name": "boombox",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792693750499,
+    "winnerId": null,
+    "gameNumber": 3,
+    "gameId": "party:CMMW-1792693134938-3",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "fbbac02135",
+        "to": "2594f3afeb",
+        "answer": "Canada",
+        "tier": "plankton",
+        "seq": 168,
+        "at": 1792693605107
+      },
+      {
+        "kind": "pass",
+        "from": "2594f3afeb",
+        "to": "fd5e0ee219",
+        "answer": "India",
+        "tier": "plankton",
+        "seq": 169,
+        "at": 1792693609388
+      },
+      {
+        "kind": "reject",
+        "playerId": "fd5e0ee219",
+        "text": "wales",
+        "why": "repeat",
+        "seq": 170,
+        "at": 1792693609964
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "United States",
+        "tier": "plankton",
+        "seq": 171,
+        "at": 1792693613932
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "fbbac02135",
+        "answer": "Hong Kong",
+        "tier": "schooler",
+        "seq": 172,
+        "at": 1792693615234
+      },
+      {
+        "kind": "reject",
+        "playerId": "fbbac02135",
+        "text": "japan",
+        "why": "miss",
+        "seq": 173,
+        "at": 1792693616275
+      },
+      {
+        "kind": "pop",
+        "playerId": "fbbac02135",
+        "livesLeft": 0,
+        "seq": 174,
+        "at": 1792693623234
+      },
+      {
+        "kind": "out",
+        "playerId": "fbbac02135",
+        "place": 4,
+        "seq": 175,
+        "at": 1792693623234
+      },
+      {
+        "kind": "reject",
+        "playerId": "2594f3afeb",
+        "text": "france",
+        "why": "miss",
+        "seq": 176,
+        "at": 1792693631962
+      },
+      {
+        "kind": "pop",
+        "playerId": "2594f3afeb",
+        "livesLeft": 0,
+        "seq": 177,
+        "at": 1792693646636
+      },
+      {
+        "kind": "out",
+        "playerId": "2594f3afeb",
+        "place": 3,
+        "seq": 178,
+        "at": 1792693646636
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "fd5e0ee219",
+        "seq": 179,
+        "at": 1792693646636
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "United States",
+        "tier": "plankton",
+        "seq": 180,
+        "at": 1792693652543
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "barzil",
+        "why": "miss",
+        "seq": 181,
+        "at": 1792693655000
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "fd5e0ee219",
+        "answer": "Brazil",
+        "tier": "plankton",
+        "seq": 182,
+        "at": 1792693659334
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "France",
+        "tier": "schooler",
+        "seq": 183,
+        "at": 1792693659854
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "fd5e0ee219",
+        "answer": "Mexico",
+        "tier": "schooler",
+        "seq": 184,
+        "at": 1792693665229
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "Japan",
+        "tier": "rare",
+        "seq": 185,
+        "at": 1792693665673
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "portugal",
+        "why": "miss",
+        "seq": 186,
+        "at": 1792693669973
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "fd5e0ee219",
+        "answer": "Uruguay",
+        "tier": "schooler",
+        "seq": 187,
+        "at": 1792693673449
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "Canada",
+        "tier": "rare",
+        "seq": 188,
+        "at": 1792693674076
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "fd5e0ee219",
+        "answer": "Chile",
+        "tier": "krillion",
+        "seq": 189,
+        "at": 1792693677947
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "Argentina",
+        "tier": "rare",
+        "seq": 190,
+        "at": 1792693681232
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "fd5e0ee219",
+        "answer": "Switzerland",
+        "tier": "deepcut",
+        "seq": 191,
+        "at": 1792693686831
+      },
+      {
+        "kind": "pass",
+        "from": "fd5e0ee219",
+        "to": "14ed863f02",
+        "answer": "England",
+        "tier": "schooler",
+        "seq": 192,
+        "at": 1792693691604
+      },
+      {
+        "kind": "leave",
+        "playerId": "2594f3afeb",
+        "seq": 193,
+        "at": 1792693697597
+      },
+      {
+        "kind": "pop",
+        "playerId": "14ed863f02",
+        "livesLeft": 1,
+        "seq": 194,
+        "at": 1792693699604
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "fd5e0ee219",
+        "seq": 195,
+        "at": 1792693699604
+      },
+      {
+        "kind": "pop",
+        "playerId": "fd5e0ee219",
+        "livesLeft": 1,
+        "seq": 196,
+        "at": 1792693720177
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "kitten",
+        "why": "miss",
+        "seq": 197,
+        "at": 1792693722366
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "muchkin",
+        "why": "miss",
+        "seq": 198,
+        "at": 1792693728535
+      },
+      {
+        "kind": "pop",
+        "playerId": "14ed863f02",
+        "livesLeft": 0,
+        "seq": 199,
+        "at": 1792693732918
+      },
+      {
+        "kind": "out",
+        "playerId": "14ed863f02",
+        "place": 2,
+        "seq": 200,
+        "at": 1792693732918
+      },
+      {
+        "kind": "win",
+        "playerId": "fd5e0ee219",
+        "seq": 201,
+        "at": 1792693732918
+      },
+      {
+        "kind": "lobby",
+        "seq": 202,
+        "at": 1792693736781
+      },
+      {
+        "kind": "host",
+        "playerId": "fbbac02135",
+        "seq": 203,
+        "at": 1792693736781
+      },
+      {
+        "kind": "join",
+        "playerId": "ddefe92455",
+        "seq": 204,
+        "at": 1792693738454
+      },
+      {
+        "kind": "join",
+        "playerId": "7ff62bd855",
+        "seq": 205,
+        "at": 1792693738502
+      },
+      {
+        "kind": "join",
+        "playerId": "8ec8859dcf",
+        "seq": 206,
+        "at": 1792693738544
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792693750499,
+        "seq": 207,
+        "at": 1792693747499
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792693134938,
+        "playerId": null,
+        "name": "Mess",
+        "text": "Mess joined"
+      },
+      {
+        "id": 2,
+        "at": 1792693139559,
+        "playerId": null,
+        "name": "bibi",
+        "text": "bibi joined"
+      },
+      {
+        "id": 3,
+        "at": 1792693139581,
+        "playerId": null,
+        "name": "smer",
+        "text": "smer joined"
+      },
+      {
+        "id": 4,
+        "at": 1792693139591,
+        "playerId": null,
+        "name": "nick",
+        "text": "nick joined"
+      },
+      {
+        "id": 5,
+        "at": 1792693139603,
+        "playerId": null,
+        "name": "imp",
+        "text": "imp joined"
+      },
+      {
+        "id": 6,
+        "at": 1792693139665,
+        "playerId": null,
+        "name": "glord",
+        "text": "glord joined"
+      },
+      {
+        "id": 7,
+        "at": 1792693275590,
+        "playerId": null,
+        "name": "glord",
+        "text": "glord was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792693309033,
+        "playerId": null,
+        "name": "nick",
+        "text": "nick left"
+      },
+      {
+        "id": 9,
+        "at": 1792693413139,
+        "playerId": null,
+        "name": "Mess",
+        "text": "Mess left"
+      },
+      {
+        "id": 10,
+        "at": 1792693415730,
+        "playerId": null,
+        "name": "imp",
+        "text": "imp left"
+      },
+      {
+        "id": 11,
+        "at": 1792693425772,
+        "playerId": null,
+        "name": "bibi",
+        "text": "bibi won"
+      },
+      {
+        "id": 12,
+        "at": 1792693431612,
+        "playerId": null,
+        "name": "art",
+        "text": "art joined"
+      },
+      {
+        "id": 13,
+        "at": 1792693431694,
+        "playerId": null,
+        "name": "kobra",
+        "text": "kobra joined"
+      },
+      {
+        "id": 14,
+        "at": 1792693431754,
+        "playerId": null,
+        "name": "C1truss",
+        "text": "C1truss joined"
+      },
+      {
+        "id": 15,
+        "at": 1792693431853,
+        "playerId": null,
+        "name": "boombox",
+        "text": "boombox joined"
+      },
+      {
+        "id": 16,
+        "at": 1792693439766,
+        "playerId": null,
+        "name": "C1truss",
+        "text": "C1truss left"
+      },
+      {
+        "id": 17,
+        "at": 1792693440712,
+        "playerId": null,
+        "name": "smer",
+        "text": "smer left"
+      },
+      {
+        "id": 18,
+        "at": 1792693441777,
+        "playerId": null,
+        "name": "Jiniret",
+        "text": "Jiniret joined"
+      },
+      {
+        "id": 19,
+        "at": 1792693456809,
+        "playerId": null,
+        "name": "Lavenburg",
+        "text": "Lavenburg joined"
+      },
+      {
+        "id": 20,
+        "at": 1792693469973,
+        "playerId": null,
+        "name": "bibi",
+        "text": "bibi was kicked for being idle"
+      },
+      {
+        "id": 21,
+        "at": 1792693510501,
+        "playerId": null,
+        "name": "kobra",
+        "text": "kobra was kicked for being idle"
+      },
+      {
+        "id": 22,
+        "at": 1792693697597,
+        "playerId": null,
+        "name": "Jiniret",
+        "text": "Jiniret was kicked for being idle"
+      },
+      {
+        "id": 23,
+        "at": 1792693732918,
+        "playerId": null,
+        "name": "Lavenburg",
+        "text": "Lavenburg won"
+      },
+      {
+        "id": 24,
+        "at": 1792693738454,
+        "playerId": null,
+        "name": "ec",
+        "text": "ec joined"
+      },
+      {
+        "id": 25,
+        "at": 1792693738502,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 26,
+        "at": 1792693738544,
+        "playerId": null,
+        "name": "alaina",
+        "text": "alaina joined"
+      }
+    ],
+    "now": 1792693747499
+  },
+  "finalRoom": {
+    "code": "CMMW",
+    "chatEnabled": true,
+    "version": 1064,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "ddefe92455",
+    "players": [
+      {
+        "id": "fbbac02135",
+        "chatMuted": false,
+        "removed": false,
+        "name": "art",
+        "character": "schooler",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 140,
+        "alive": false,
+        "answers": 5,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Volcano",
+          "tier": "schooler"
+        },
+        "place": 5
+      },
+      {
+        "id": "ddefe92455",
+        "chatMuted": false,
+        "removed": false,
+        "name": "ec",
+        "character": "krill",
+        "seat": 1,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 160,
+        "alive": false,
+        "answers": 12,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "New Zealand",
+          "tier": "plankton"
+        },
+        "place": 2
+      },
+      {
+        "id": "7ff62bd855",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 375,
+        "alive": true,
+        "answers": 13,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Botswana",
+          "tier": "krillion"
+        },
+        "place": 1
+      },
+      {
+        "id": "8ec8859dcf",
+        "chatMuted": false,
+        "removed": false,
+        "name": "alaina",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 70,
+        "alive": false,
+        "answers": 3,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Neptune",
+          "tier": "schooler"
+        },
+        "place": 6
+      },
+      {
+        "id": "fd5e0ee219",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Lavenburg",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 195,
+        "alive": false,
+        "answers": 6,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Plateau",
+          "tier": "schooler"
+        },
+        "place": 4
+      },
+      {
+        "id": "14ed863f02",
+        "chatMuted": false,
+        "removed": false,
+        "name": "boombox",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 300,
+        "alive": false,
+        "answers": 10,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Pakistan",
+          "tier": "schooler"
+        },
+        "place": 3
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 6,
+      "text": "Name a country with 8 or more letters",
+      "threshold": 16,
+      "accepted": 8
+    },
+    "countdownEndsAt": null,
+    "winnerId": "7ff62bd855",
+    "gameNumber": 3,
+    "gameId": "party:CMMW-1792693134938-3",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pop",
+        "playerId": "fbbac02135",
+        "livesLeft": 0,
+        "seq": 262,
+        "at": 1792693910925
+      },
+      {
+        "kind": "out",
+        "playerId": "fbbac02135",
+        "place": 5,
+        "seq": 263,
+        "at": 1792693910925
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "ddefe92455",
+        "seq": 264,
+        "at": 1792693910925
+      },
+      {
+        "kind": "leave",
+        "playerId": "fbbac02135",
+        "seq": 265,
+        "at": 1792693916438
+      },
+      {
+        "kind": "host",
+        "playerId": "ddefe92455",
+        "seq": 266,
+        "at": 1792693916438
+      },
+      {
+        "kind": "pass",
+        "from": "ddefe92455",
+        "to": "7ff62bd855",
+        "answer": "recycle",
+        "tier": "plankton",
+        "seq": 267,
+        "at": 1792693917328
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "fd5e0ee219",
+        "answer": "cycling",
+        "tier": "schooler",
+        "seq": 268,
+        "at": 1792693917482
+      },
+      {
+        "kind": "reject",
+        "playerId": "fd5e0ee219",
+        "text": "bycycle",
+        "why": "miss",
+        "seq": 269,
+        "at": 1792693917995
+      },
+      {
+        "kind": "leave",
+        "playerId": "8ec8859dcf",
+        "seq": 270,
+        "at": 1792693919674
+      },
+      {
+        "kind": "reject",
+        "playerId": "fd5e0ee219",
+        "text": "bocycle",
+        "why": "miss",
+        "seq": 271,
+        "at": 1792693922936
+      },
+      {
+        "kind": "pop",
+        "playerId": "fd5e0ee219",
+        "livesLeft": 0,
+        "seq": 272,
+        "at": 1792693942183
+      },
+      {
+        "kind": "out",
+        "playerId": "fd5e0ee219",
+        "place": 4,
+        "seq": 273,
+        "at": 1792693942183
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "ddefe92455",
+        "answer": "unicycle",
+        "tier": "plankton",
+        "seq": 274,
+        "at": 1792693944488
+      },
+      {
+        "kind": "pass",
+        "from": "ddefe92455",
+        "to": "7ff62bd855",
+        "answer": "cyclone",
+        "tier": "plankton",
+        "seq": 275,
+        "at": 1792693945365
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "14ed863f02",
+        "answer": "motorcycle",
+        "tier": "plankton",
+        "seq": 276,
+        "at": 1792693945548
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "ddefe92455",
+        "answer": "cyclops",
+        "tier": "schooler",
+        "seq": 277,
+        "at": 1792693947283
+      },
+      {
+        "kind": "pass",
+        "from": "ddefe92455",
+        "to": "7ff62bd855",
+        "answer": "cycle",
+        "tier": "plankton",
+        "seq": 278,
+        "at": 1792693950704
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "14ed863f02",
+        "answer": "bicycle",
+        "tier": "plankton",
+        "seq": 279,
+        "at": 1792693950891
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "cyclone",
+        "why": "repeat",
+        "seq": 280,
+        "at": 1792693951935
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "ddefe92455",
+        "answer": "cyclohexane",
+        "tier": "rare",
+        "seq": 281,
+        "at": 1792693955357
+      },
+      {
+        "kind": "reject",
+        "playerId": "ddefe92455",
+        "text": "cyclogone",
+        "why": "miss",
+        "seq": 282,
+        "at": 1792693960331
+      },
+      {
+        "kind": "pop",
+        "playerId": "ddefe92455",
+        "livesLeft": 1,
+        "seq": 283,
+        "at": 1792693963357
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "7ff62bd855",
+        "seq": 284,
+        "at": 1792693963357
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "14ed863f02",
+        "answer": "Afghanistan",
+        "tier": "plankton",
+        "seq": 285,
+        "at": 1792693969181
+      },
+      {
+        "kind": "pass",
+        "from": "14ed863f02",
+        "to": "ddefe92455",
+        "answer": "Pakistan",
+        "tier": "schooler",
+        "seq": 286,
+        "at": 1792693972205
+      },
+      {
+        "kind": "pass",
+        "from": "ddefe92455",
+        "to": "7ff62bd855",
+        "answer": "United States",
+        "tier": "plankton",
+        "seq": 287,
+        "at": 1792693972941
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "14ed863f02",
+        "answer": "Argentina",
+        "tier": "plankton",
+        "seq": 288,
+        "at": 1792693973109
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "argentina",
+        "why": "repeat",
+        "seq": 289,
+        "at": 1792693975745
+      },
+      {
+        "kind": "leave",
+        "playerId": "fd5e0ee219",
+        "seq": 290,
+        "at": 1792693977534
+      },
+      {
+        "kind": "reject",
+        "playerId": "14ed863f02",
+        "text": "afghanestan",
+        "why": "repeat",
+        "seq": 291,
+        "at": 1792693979503
+      },
+      {
+        "kind": "pop",
+        "playerId": "14ed863f02",
+        "livesLeft": 0,
+        "seq": 292,
+        "at": 1792693981109
+      },
+      {
+        "kind": "out",
+        "playerId": "14ed863f02",
+        "place": 3,
+        "seq": 293,
+        "at": 1792693981109
+      },
+      {
+        "kind": "pass",
+        "from": "ddefe92455",
+        "to": "7ff62bd855",
+        "answer": "Australia",
+        "tier": "plankton",
+        "seq": 294,
+        "at": 1792693983326
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "ddefe92455",
+        "answer": "Bangladesh",
+        "tier": "plankton",
+        "seq": 295,
+        "at": 1792693983504
+      },
+      {
+        "kind": "pass",
+        "from": "ddefe92455",
+        "to": "7ff62bd855",
+        "answer": "New Zealand",
+        "tier": "plankton",
+        "seq": 296,
+        "at": 1792693987195
+      },
+      {
+        "kind": "pass",
+        "from": "7ff62bd855",
+        "to": "ddefe92455",
+        "answer": "Botswana",
+        "tier": "krillion",
+        "seq": 297,
+        "at": 1792693987327
+      },
+      {
+        "kind": "reject",
+        "playerId": "ddefe92455",
+        "text": "uragway",
+        "why": "miss",
+        "seq": 298,
+        "at": 1792693992713
+      },
+      {
+        "kind": "pop",
+        "playerId": "ddefe92455",
+        "livesLeft": 0,
+        "seq": 299,
+        "at": 1792693996527
+      },
+      {
+        "kind": "out",
+        "playerId": "ddefe92455",
+        "place": 2,
+        "seq": 300,
+        "at": 1792693996527
+      },
+      {
+        "kind": "win",
+        "playerId": "7ff62bd855",
+        "seq": 301,
+        "at": 1792693996527
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792693134938,
+        "playerId": null,
+        "name": "Mess",
+        "text": "Mess joined"
+      },
+      {
+        "id": 2,
+        "at": 1792693139559,
+        "playerId": null,
+        "name": "bibi",
+        "text": "bibi joined"
+      },
+      {
+        "id": 3,
+        "at": 1792693139581,
+        "playerId": null,
+        "name": "smer",
+        "text": "smer joined"
+      },
+      {
+        "id": 4,
+        "at": 1792693139591,
+        "playerId": null,
+        "name": "nick",
+        "text": "nick joined"
+      },
+      {
+        "id": 5,
+        "at": 1792693139603,
+        "playerId": null,
+        "name": "imp",
+        "text": "imp joined"
+      },
+      {
+        "id": 6,
+        "at": 1792693139665,
+        "playerId": null,
+        "name": "glord",
+        "text": "glord joined"
+      },
+      {
+        "id": 7,
+        "at": 1792693275590,
+        "playerId": null,
+        "name": "glord",
+        "text": "glord was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792693309033,
+        "playerId": null,
+        "name": "nick",
+        "text": "nick left"
+      },
+      {
+        "id": 9,
+        "at": 1792693413139,
+        "playerId": null,
+        "name": "Mess",
+        "text": "Mess left"
+      },
+      {
+        "id": 10,
+        "at": 1792693415730,
+        "playerId": null,
+        "name": "imp",
+        "text": "imp left"
+      },
+      {
+        "id": 11,
+        "at": 1792693425772,
+        "playerId": null,
+        "name": "bibi",
+        "text": "bibi won"
+      },
+      {
+        "id": 12,
+        "at": 1792693431612,
+        "playerId": null,
+        "name": "art",
+        "text": "art joined"
+      },
+      {
+        "id": 13,
+        "at": 1792693431694,
+        "playerId": null,
+        "name": "kobra",
+        "text": "kobra joined"
+      },
+      {
+        "id": 14,
+        "at": 1792693431754,
+        "playerId": null,
+        "name": "C1truss",
+        "text": "C1truss joined"
+      },
+      {
+        "id": 15,
+        "at": 1792693431853,
+        "playerId": null,
+        "name": "boombox",
+        "text": "boombox joined"
+      },
+      {
+        "id": 16,
+        "at": 1792693439766,
+        "playerId": null,
+        "name": "C1truss",
+        "text": "C1truss left"
+      },
+      {
+        "id": 17,
+        "at": 1792693440712,
+        "playerId": null,
+        "name": "smer",
+        "text": "smer left"
+      },
+      {
+        "id": 18,
+        "at": 1792693441777,
+        "playerId": null,
+        "name": "Jiniret",
+        "text": "Jiniret joined"
+      },
+      {
+        "id": 19,
+        "at": 1792693456809,
+        "playerId": null,
+        "name": "Lavenburg",
+        "text": "Lavenburg joined"
+      },
+      {
+        "id": 20,
+        "at": 1792693469973,
+        "playerId": null,
+        "name": "bibi",
+        "text": "bibi was kicked for being idle"
+      },
+      {
+        "id": 21,
+        "at": 1792693510501,
+        "playerId": null,
+        "name": "kobra",
+        "text": "kobra was kicked for being idle"
+      },
+      {
+        "id": 22,
+        "at": 1792693697597,
+        "playerId": null,
+        "name": "Jiniret",
+        "text": "Jiniret was kicked for being idle"
+      },
+      {
+        "id": 23,
+        "at": 1792693732918,
+        "playerId": null,
+        "name": "Lavenburg",
+        "text": "Lavenburg won"
+      },
+      {
+        "id": 24,
+        "at": 1792693738454,
+        "playerId": null,
+        "name": "ec",
+        "text": "ec joined"
+      },
+      {
+        "id": 25,
+        "at": 1792693738502,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 26,
+        "at": 1792693738544,
+        "playerId": null,
+        "name": "alaina",
+        "text": "alaina joined"
+      },
+      {
+        "id": 27,
+        "at": 1792693916438,
+        "playerId": null,
+        "name": "art",
+        "text": "art left"
+      },
+      {
+        "id": 28,
+        "at": 1792693919674,
+        "playerId": null,
+        "name": "alaina",
+        "text": "alaina was kicked for being idle"
+      },
+      {
+        "id": 29,
+        "at": 1792693977534,
+        "playerId": null,
+        "name": "Lavenburg",
+        "text": "Lavenburg was kicked for being idle"
+      },
+      {
+        "id": 30,
+        "at": 1792693996527,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792693996527
+  }
+}

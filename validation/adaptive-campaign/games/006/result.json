@@ -1,0 +1,1980 @@
+{
+  "won": true,
+  "room": "CFNZ",
+  "playerId": "8506f3562f",
+  "winnerId": "8506f3562f",
+  "gameNumber": 4,
+  "gameId": "party:CFNZ-1792691562092-4",
+  "rated": false,
+  "player": {
+    "id": "8506f3562f",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 2,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 300,
+    "alive": true,
+    "answers": 16,
+    "pops": 0,
+    "best": "rare",
+    "typing": null,
+    "lastAnswer": {
+      "text": "screen",
+      "tier": "plankton"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name an Ariana Grande song"
+    },
+    {
+      "index": 2,
+      "text": "Name a type of bagel"
+    },
+    {
+      "index": 3,
+      "text": "Name a volleyball term (a move, position, or call)"
+    },
+    {
+      "index": 4,
+      "text": "Name something people keep on a keyring"
+    },
+    {
+      "index": 5,
+      "text": "Name a phone carrier"
+    },
+    {
+      "index": 6,
+      "text": "Name a U.S. state entirely west of the Mississippi River"
+    },
+    {
+      "index": 7,
+      "text": "Name an English word starting with “scr”"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an Ariana Grande song",
+      "answer": "thank u, next",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Thank U, Next",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a type of bagel",
+      "answer": "Poppy seed",
+      "source": "codex",
+      "reactionMs": 715,
+      "submit": {
+        "accepted": true,
+        "answer": "Poppy seed bagel",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a volleyball term (a move, position, or call)",
+      "answer": "Serve",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Serve",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a volleyball term (a move, position, or call)",
+      "answer": "Block",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Block",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name something people keep on a keyring",
+      "answer": "Car key",
+      "source": "codex",
+      "reactionMs": 392,
+      "submit": {
+        "accepted": true,
+        "answer": "Car key",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name something people keep on a keyring",
+      "answer": "Bottle opener",
+      "source": "codex",
+      "reactionMs": 341,
+      "submit": {
+        "accepted": true,
+        "answer": "Bottle opener",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a phone carrier",
+      "answer": "AT&T",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "AT&T",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a phone carrier",
+      "answer": "T-Mobile",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "T-Mobile",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a phone carrier",
+      "answer": "Orange",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Orange",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a U.S. state entirely west of the Mississippi River",
+      "answer": "California",
+      "source": "codex",
+      "reactionMs": 8599,
+      "submit": {
+        "accepted": true,
+        "answer": "California",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a U.S. state entirely west of the Mississippi River",
+      "answer": "Oregon",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Oregon",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a U.S. state entirely west of the Mississippi River",
+      "answer": "Nevada",
+      "source": "codex",
+      "reactionMs": 85,
+      "submit": {
+        "accepted": true,
+        "answer": "Nevada",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a U.S. state entirely west of the Mississippi River",
+      "answer": "Idaho",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Idaho",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an English word starting with “scr”",
+      "answer": "script",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "script",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word starting with “scr”",
+      "answer": "screaming",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "scream",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word starting with “scr”",
+      "answer": "screening",
+      "source": "bank",
+      "reactionMs": 299,
+      "submit": {
+        "accepted": true,
+        "answer": "screen",
+        "tier": "plankton"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "question": "Name a type of bagel",
+      "answer": "Plain",
+      "submit": {
+        "accepted": false,
+        "why": "repeat"
+      }
+    },
+    {
+      "question": "Name a type of bagel",
+      "answer": "Everything",
+      "submit": {
+        "accepted": false,
+        "why": "repeat"
+      }
+    },
+    {
+      "question": "Name a type of bagel",
+      "answer": "Sesame",
+      "submit": {
+        "accepted": false,
+        "why": "repeat"
+      }
+    },
+    {
+      "question": "Name something people keep on a keyring",
+      "answer": "House key",
+      "submit": {
+        "accepted": false,
+        "why": "repeat"
+      }
+    },
+    {
+      "question": "Name something people keep on a keyring",
+      "answer": "Keychain charm",
+      "submit": {
+        "accepted": false,
+        "why": "repeat"
+      }
+    },
+    {
+      "question": "Name an English word starting with “scr”",
+      "answer": "screw",
+      "submit": {
+        "accepted": false,
+        "why": "miss"
+      }
+    }
+  ],
+  "metrics": {
+    "attempts": 22,
+    "accepted": 16,
+    "reactionMs": [
+      83,
+      715,
+      83,
+      83,
+      392,
+      341,
+      81,
+      83,
+      81,
+      8599,
+      82,
+      85,
+      83,
+      83,
+      83,
+      299
+    ],
+    "sources": {
+      "codex": 13,
+      "bank": 3
+    },
+    "unknownCategories": [
+      "Name a U.S. state entirely west of the Mississippi River"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 4,
+        "index": 1,
+        "question": "Name an Ariana Grande song",
+        "observedAt": 1792692489056,
+        "readyMs": 4234,
+        "firstTurnAt": 1792692517269,
+        "firstSubmitMs": 28295,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 4,
+        "index": 2,
+        "question": "Name a type of bagel",
+        "observedAt": 1792692531275,
+        "readyMs": 5133,
+        "firstTurnAt": 1792692561877,
+        "firstSubmitMs": 30685,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 4,
+        "index": 3,
+        "question": "Name a volleyball term (a move, position, or call)",
+        "observedAt": 1792692586511,
+        "readyMs": 3660,
+        "firstTurnAt": 1792692595160,
+        "firstSubmitMs": 8731,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 4,
+        "index": 4,
+        "question": "Name something people keep on a keyring",
+        "observedAt": 1792692631992,
+        "readyMs": 3980,
+        "firstTurnAt": 1792692647092,
+        "firstSubmitMs": 15182,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 4,
+        "index": 5,
+        "question": "Name a phone carrier",
+        "observedAt": 1792692687481,
+        "readyMs": 3736,
+        "firstTurnAt": 1792692701517,
+        "firstSubmitMs": 14118,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 4,
+        "index": 6,
+        "question": "Name a U.S. state entirely west of the Mississippi River",
+        "observedAt": 1792692740520,
+        "readyMs": 10095,
+        "firstTurnAt": 1792692742020,
+        "firstSubmitMs": 10095,
+        "firstTurnWaitMs": 8595,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 4,
+        "index": 7,
+        "question": "Name an English word starting with “scr”",
+        "observedAt": 1792692767979,
+        "readyMs": 4,
+        "firstTurnAt": 1792692772923,
+        "firstSubmitMs": 5026,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "CFNZ",
+    "chatEnabled": true,
+    "version": 11211,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "9648e9ae5e",
+    "players": [
+      {
+        "id": "cbe290eb8f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "THe dihdler",
+        "character": "schooler",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "2cd010c248",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Pumpkin",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "8506f3562f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "482fda090d",
+        "chatMuted": false,
+        "removed": false,
+        "name": "IDK",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "9648e9ae5e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "moist puh",
+        "character": "krill",
+        "seat": 4,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "b2227152d3",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bean",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792692489004,
+    "winnerId": null,
+    "gameNumber": 4,
+    "gameId": "party:CFNZ-1792691562092-4",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "Middle finger",
+        "tier": "schooler",
+        "seq": 10297,
+        "at": 1792692350378
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "Pinky",
+        "tier": "schooler",
+        "seq": 10298,
+        "at": 1792692355455
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "Thumb",
+        "tier": "plankton",
+        "seq": 10299,
+        "at": 1792692356045
+      },
+      {
+        "kind": "leave",
+        "playerId": "1f6d9c52f2",
+        "seq": 10300,
+        "at": 1792692358668
+      },
+      {
+        "kind": "host",
+        "playerId": "191bd3c461",
+        "seq": 10301,
+        "at": 1792692358668
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "Carpal bone",
+        "tier": "rare",
+        "seq": 10302,
+        "at": 1792692360031
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "Ring finger",
+        "tier": "schooler",
+        "seq": 10303,
+        "at": 1792692364221
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "Metacarpal",
+        "tier": "rare",
+        "seq": 10304,
+        "at": 1792692364584
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "Fingernail",
+        "tier": "plankton",
+        "seq": 10305,
+        "at": 1792692370713
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "Knuckle",
+        "tier": "plankton",
+        "seq": 10306,
+        "at": 1792692375607
+      },
+      {
+        "kind": "pop",
+        "playerId": "9648e9ae5e",
+        "livesLeft": 1,
+        "seq": 10307,
+        "at": 1792692383608
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 3,
+        "holderId": "2bcb8a1b3e",
+        "seq": 10308,
+        "at": 1792692383608
+      },
+      {
+        "kind": "leave",
+        "playerId": "191bd3c461",
+        "seq": 10309,
+        "at": 1792692390749
+      },
+      {
+        "kind": "host",
+        "playerId": "2bcb8a1b3e",
+        "seq": 10310,
+        "at": 1792692390749
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "aspect",
+        "tier": "plankton",
+        "seq": 10311,
+        "at": 1792692392856
+      },
+      {
+        "kind": "reject",
+        "playerId": "9648e9ae5e",
+        "text": "specticle",
+        "why": "miss",
+        "seq": 10312,
+        "at": 1792692396877
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "spectacle",
+        "tier": "plankton",
+        "seq": 10313,
+        "at": 1792692400757
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "prospect",
+        "tier": "schooler",
+        "seq": 10314,
+        "at": 1792692402457
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "spectate",
+        "tier": "plankton",
+        "seq": 10315,
+        "at": 1792692407327
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "retrospect",
+        "tier": "plankton",
+        "seq": 10316,
+        "at": 1792692412422
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "spectator",
+        "tier": "plankton",
+        "seq": 10317,
+        "at": 1792692420392
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "inspect",
+        "tier": "plankton",
+        "seq": 10318,
+        "at": 1792692427767
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "respect",
+        "tier": "plankton",
+        "seq": 10319,
+        "at": 1792692431914
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "respectable",
+        "tier": "plankton",
+        "seq": 10320,
+        "at": 1792692437203
+      },
+      {
+        "kind": "pass",
+        "from": "9648e9ae5e",
+        "to": "2bcb8a1b3e",
+        "answer": "inspectable",
+        "tier": "rare",
+        "seq": 10321,
+        "at": 1792692442335
+      },
+      {
+        "kind": "pass",
+        "from": "2bcb8a1b3e",
+        "to": "9648e9ae5e",
+        "answer": "inspector",
+        "tier": "plankton",
+        "seq": 10322,
+        "at": 1792692447901
+      },
+      {
+        "kind": "reject",
+        "playerId": "9648e9ae5e",
+        "text": "inspecting",
+        "why": "repeat",
+        "seq": 10323,
+        "at": 1792692452137
+      },
+      {
+        "kind": "reject",
+        "playerId": "9648e9ae5e",
+        "text": "respecting",
+        "why": "repeat",
+        "seq": 10324,
+        "at": 1792692455719
+      },
+      {
+        "kind": "pop",
+        "playerId": "9648e9ae5e",
+        "livesLeft": 0,
+        "seq": 10325,
+        "at": 1792692455901
+      },
+      {
+        "kind": "out",
+        "playerId": "9648e9ae5e",
+        "place": 2,
+        "seq": 10326,
+        "at": 1792692455901
+      },
+      {
+        "kind": "win",
+        "playerId": "2bcb8a1b3e",
+        "seq": 10327,
+        "at": 1792692455901
+      },
+      {
+        "kind": "leave",
+        "playerId": "2bcb8a1b3e",
+        "seq": 10328,
+        "at": 1792692470233
+      },
+      {
+        "kind": "host",
+        "playerId": "9648e9ae5e",
+        "seq": 10329,
+        "at": 1792692470233
+      },
+      {
+        "kind": "lobby",
+        "seq": 10330,
+        "at": 1792692480649
+      },
+      {
+        "kind": "join",
+        "playerId": "cbe290eb8f",
+        "seq": 10331,
+        "at": 1792692484827
+      },
+      {
+        "kind": "join",
+        "playerId": "2cd010c248",
+        "seq": 10332,
+        "at": 1792692485005
+      },
+      {
+        "kind": "join",
+        "playerId": "8506f3562f",
+        "seq": 10333,
+        "at": 1792692485350
+      },
+      {
+        "kind": "join",
+        "playerId": "482fda090d",
+        "seq": 10334,
+        "at": 1792692485371
+      },
+      {
+        "kind": "join",
+        "playerId": "b2227152d3",
+        "seq": 10335,
+        "at": 1792692486004
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792692489004,
+        "seq": 10336,
+        "at": 1792692486004
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792691562092,
+        "playerId": null,
+        "name": "Ashersquee",
+        "text": "Ashersquee joined"
+      },
+      {
+        "id": 2,
+        "at": 1792691562732,
+        "playerId": null,
+        "name": "Sox",
+        "text": "Sox joined"
+      },
+      {
+        "id": 3,
+        "at": 1792691562785,
+        "playerId": null,
+        "name": "Frog",
+        "text": "Frog joined"
+      },
+      {
+        "id": 4,
+        "at": 1792691562807,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion joined"
+      },
+      {
+        "id": 5,
+        "at": 1792691562943,
+        "playerId": null,
+        "name": "wilk",
+        "text": "wilk joined"
+      },
+      {
+        "id": 6,
+        "at": 1792691563221,
+        "playerId": null,
+        "name": "Dumbo Institute",
+        "text": "Dumbo Institute joined"
+      },
+      {
+        "id": 7,
+        "at": 1792691796742,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792691825926,
+        "playerId": null,
+        "name": "Dumbo Institute",
+        "text": "Dumbo Institute left"
+      },
+      {
+        "id": 9,
+        "at": 1792691831070,
+        "playerId": null,
+        "name": "Frog",
+        "text": "Frog was kicked for being idle"
+      },
+      {
+        "id": 10,
+        "at": 1792691859212,
+        "playerId": null,
+        "name": "wilk",
+        "text": "wilk left"
+      },
+      {
+        "id": 11,
+        "at": 1792691975696,
+        "playerId": null,
+        "name": "Sox",
+        "text": "Sox won"
+      },
+      {
+        "id": 12,
+        "at": 1792691980034,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion joined"
+      },
+      {
+        "id": 13,
+        "at": 1792691982404,
+        "playerId": null,
+        "name": "rubber",
+        "text": "rubber joined"
+      },
+      {
+        "id": 14,
+        "at": 1792691982446,
+        "playerId": null,
+        "name": "banana",
+        "text": "banana joined"
+      },
+      {
+        "id": 15,
+        "at": 1792691982523,
+        "playerId": null,
+        "name": "SKOBALJ",
+        "text": "SKOBALJ joined"
+      },
+      {
+        "id": 16,
+        "at": 1792691995439,
+        "playerId": null,
+        "name": "Sox",
+        "text": "Sox left"
+      },
+      {
+        "id": 17,
+        "at": 1792691998140,
+        "playerId": null,
+        "name": "Nanthu",
+        "text": "Nanthu joined"
+      },
+      {
+        "id": 10018,
+        "at": 1792692086623,
+        "playerId": null,
+        "name": "Nanthu",
+        "text": "Nanthu left"
+      },
+      {
+        "id": 10019,
+        "at": 1792692156734,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion was kicked for being idle"
+      },
+      {
+        "id": 10020,
+        "at": 1792692239993,
+        "playerId": null,
+        "name": "SKOBALJ",
+        "text": "SKOBALJ was kicked for being idle"
+      },
+      {
+        "id": 10021,
+        "at": 1792692251352,
+        "playerId": null,
+        "name": "Ashersquee",
+        "text": "Ashersquee won"
+      },
+      {
+        "id": 10022,
+        "at": 1792692255067,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792692257287,
+        "playerId": null,
+        "name": "raefywaffle",
+        "text": "raefywaffle joined"
+      },
+      {
+        "id": 10024,
+        "at": 1792692257510,
+        "playerId": null,
+        "name": "niga",
+        "text": "niga joined"
+      },
+      {
+        "id": 10025,
+        "at": 1792692260635,
+        "playerId": null,
+        "name": "banana",
+        "text": "banana left"
+      },
+      {
+        "id": 10026,
+        "at": 1792692262417,
+        "playerId": null,
+        "name": "rubber",
+        "text": "rubber was kicked for being idle"
+      },
+      {
+        "id": 10027,
+        "at": 1792692263854,
+        "playerId": null,
+        "name": "cleg",
+        "text": "cleg joined"
+      },
+      {
+        "id": 10028,
+        "at": 1792692263871,
+        "playerId": null,
+        "name": "poo",
+        "text": "poo joined"
+      },
+      {
+        "id": 10029,
+        "at": 1792692270913,
+        "playerId": null,
+        "name": "poo",
+        "text": "poo left"
+      },
+      {
+        "id": 10030,
+        "at": 1792692274938,
+        "playerId": null,
+        "name": "moist puh",
+        "text": "moist puh joined"
+      },
+      {
+        "id": 10031,
+        "at": 1792692303639,
+        "playerId": null,
+        "name": "raefywaffle",
+        "text": "raefywaffle was kicked for being idle"
+      },
+      {
+        "id": 10032,
+        "at": 1792692332519,
+        "playerId": null,
+        "name": "niga",
+        "text": "niga was kicked for being idle"
+      },
+      {
+        "id": 10033,
+        "at": 1792692358668,
+        "playerId": null,
+        "name": "Ashersquee",
+        "text": "Ashersquee was kicked for being idle"
+      },
+      {
+        "id": 10034,
+        "at": 1792692390749,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion was kicked for being idle"
+      },
+      {
+        "id": 10035,
+        "at": 1792692455901,
+        "playerId": null,
+        "name": "cleg",
+        "text": "cleg won"
+      },
+      {
+        "id": 10036,
+        "at": 1792692470233,
+        "playerId": null,
+        "name": "cleg",
+        "text": "cleg left"
+      },
+      {
+        "id": 10037,
+        "at": 1792692484827,
+        "playerId": null,
+        "name": "THe dihdler",
+        "text": "THe dihdler joined"
+      },
+      {
+        "id": 10038,
+        "at": 1792692485005,
+        "playerId": null,
+        "name": "Pumpkin",
+        "text": "Pumpkin joined"
+      },
+      {
+        "id": 10039,
+        "at": 1792692485350,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10040,
+        "at": 1792692485371,
+        "playerId": null,
+        "name": "IDK",
+        "text": "IDK joined"
+      },
+      {
+        "id": 10041,
+        "at": 1792692486004,
+        "playerId": null,
+        "name": "bean",
+        "text": "bean joined"
+      }
+    ],
+    "now": 1792692486004
+  },
+  "finalRoom": {
+    "code": "CFNZ",
+    "chatEnabled": true,
+    "version": 11589,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "9648e9ae5e",
+    "players": [
+      {
+        "id": "cbe290eb8f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "THe dihdler",
+        "character": "schooler",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 515,
+        "alive": false,
+        "answers": 15,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "scrunch",
+          "tier": "schooler"
+        },
+        "place": 2
+      },
+      {
+        "id": "2cd010c248",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Pumpkin",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 420,
+        "alive": false,
+        "answers": 8,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "TIM",
+          "tier": "deepcut"
+        },
+        "place": 3
+      },
+      {
+        "id": "8506f3562f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 300,
+        "alive": true,
+        "answers": 16,
+        "pops": 0,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "screen",
+          "tier": "plankton"
+        },
+        "place": 1
+      },
+      {
+        "id": "482fda090d",
+        "chatMuted": false,
+        "removed": false,
+        "name": "IDK",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 205,
+        "alive": false,
+        "answers": 4,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Charging cable",
+          "tier": "rare"
+        },
+        "place": 5
+      },
+      {
+        "id": "9648e9ae5e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "moist puh",
+        "character": "krill",
+        "seat": 4,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 50,
+        "alive": false,
+        "answers": 3,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Spike",
+          "tier": "plankton"
+        },
+        "place": 6
+      },
+      {
+        "id": "b2227152d3",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bean",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 170,
+        "alive": false,
+        "answers": 6,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Verizon",
+          "tier": "plankton"
+        },
+        "place": 4
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 7,
+      "text": "Name an English word starting with “scr”",
+      "threshold": 17,
+      "accepted": 6
+    },
+    "countdownEndsAt": null,
+    "winnerId": "8506f3562f",
+    "gameNumber": 4,
+    "gameId": "party:CFNZ-1792691562092-4",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "2cd010c248",
+        "answer": "Bell",
+        "tier": "rare",
+        "seq": 10413,
+        "at": 1792692700468
+      },
+      {
+        "kind": "pass",
+        "from": "2cd010c248",
+        "to": "8506f3562f",
+        "answer": "Iliad",
+        "tier": "deepcut",
+        "seq": 10414,
+        "at": 1792692701472
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "b2227152d3",
+        "answer": "AT&T",
+        "tier": "plankton",
+        "seq": 10415,
+        "at": 1792692701841
+      },
+      {
+        "kind": "pop",
+        "playerId": "b2227152d3",
+        "livesLeft": 0,
+        "seq": 10416,
+        "at": 1792692717655
+      },
+      {
+        "kind": "out",
+        "playerId": "b2227152d3",
+        "place": 4,
+        "seq": 10417,
+        "at": 1792692717655
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "2cd010c248",
+        "answer": "Rogers",
+        "tier": "rare",
+        "seq": 10418,
+        "at": 1792692719480
+      },
+      {
+        "kind": "leave",
+        "playerId": "b2227152d3",
+        "seq": 10419,
+        "at": 1792692720173
+      },
+      {
+        "kind": "pass",
+        "from": "2cd010c248",
+        "to": "8506f3562f",
+        "answer": "Vodafone",
+        "tier": "rare",
+        "seq": 10420,
+        "at": 1792692720526
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "T-Mobile",
+        "tier": "plankton",
+        "seq": 10421,
+        "at": 1792692720796
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "2cd010c248",
+        "answer": "Telus",
+        "tier": "rare",
+        "seq": 10422,
+        "at": 1792692723172
+      },
+      {
+        "kind": "reject",
+        "playerId": "2cd010c248",
+        "text": "telecom",
+        "why": "miss",
+        "seq": 10423,
+        "at": 1792692726151
+      },
+      {
+        "kind": "pass",
+        "from": "2cd010c248",
+        "to": "8506f3562f",
+        "answer": "TIM",
+        "tier": "deepcut",
+        "seq": 10424,
+        "at": 1792692729678
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "Orange",
+        "tier": "rare",
+        "seq": 10425,
+        "at": 1792692730020
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "2cd010c248",
+        "answer": "Fido",
+        "tier": "rare",
+        "seq": 10426,
+        "at": 1792692731195
+      },
+      {
+        "kind": "pop",
+        "playerId": "2cd010c248",
+        "livesLeft": 0,
+        "seq": 10427,
+        "at": 1792692740471
+      },
+      {
+        "kind": "out",
+        "playerId": "2cd010c248",
+        "place": 3,
+        "seq": 10428,
+        "at": 1792692740471
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "8506f3562f",
+        "seq": 10429,
+        "at": 1792692740471
+      },
+      {
+        "kind": "leave",
+        "playerId": "2cd010c248",
+        "seq": 10430,
+        "at": 1792692743134
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "California",
+        "tier": "plankton",
+        "seq": 10431,
+        "at": 1792692750764
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "8506f3562f",
+        "answer": "Alaska",
+        "tier": "rare",
+        "seq": 10432,
+        "at": 1792692751699
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "Oregon",
+        "tier": "schooler",
+        "seq": 10433,
+        "at": 1792692752013
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "8506f3562f",
+        "answer": "Washington",
+        "tier": "schooler",
+        "seq": 10434,
+        "at": 1792692757846
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "Nevada",
+        "tier": "plankton",
+        "seq": 10435,
+        "at": 1792692758128
+      },
+      {
+        "kind": "reject",
+        "playerId": "cbe290eb8f",
+        "text": "seatll",
+        "why": "miss",
+        "seq": 10436,
+        "at": 1792692765812
+      },
+      {
+        "kind": "pop",
+        "playerId": "cbe290eb8f",
+        "livesLeft": 1,
+        "seq": 10437,
+        "at": 1792692766128
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "Idaho",
+        "tier": "rare",
+        "seq": 10438,
+        "at": 1792692767926
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 7,
+        "holderId": "cbe290eb8f",
+        "seq": 10439,
+        "at": 1792692767926
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "8506f3562f",
+        "answer": "scratch",
+        "tier": "plankton",
+        "seq": 10440,
+        "at": 1792692772874
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "script",
+        "tier": "plankton",
+        "seq": 10441,
+        "at": 1792692773148
+      },
+      {
+        "kind": "reject",
+        "playerId": "cbe290eb8f",
+        "text": "scar",
+        "why": "miss",
+        "seq": 10442,
+        "at": 1792692775124
+      },
+      {
+        "kind": "reject",
+        "playerId": "cbe290eb8f",
+        "text": "script",
+        "why": "repeat",
+        "seq": 10443,
+        "at": 1792692777195
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "8506f3562f",
+        "answer": "scrape",
+        "tier": "plankton",
+        "seq": 10444,
+        "at": 1792692779377
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "scream",
+        "tier": "plankton",
+        "seq": 10445,
+        "at": 1792692779653
+      },
+      {
+        "kind": "pass",
+        "from": "cbe290eb8f",
+        "to": "8506f3562f",
+        "answer": "scrunch",
+        "tier": "schooler",
+        "seq": 10446,
+        "at": 1792692784316
+      },
+      {
+        "kind": "reject",
+        "playerId": "8506f3562f",
+        "text": "screw",
+        "why": "miss",
+        "seq": 10447,
+        "at": 1792692784600
+      },
+      {
+        "kind": "pass",
+        "from": "8506f3562f",
+        "to": "cbe290eb8f",
+        "answer": "screen",
+        "tier": "plankton",
+        "seq": 10448,
+        "at": 1792692784822
+      },
+      {
+        "kind": "reject",
+        "playerId": "cbe290eb8f",
+        "text": "screening",
+        "why": "repeat",
+        "seq": 10449,
+        "at": 1792692788416
+      },
+      {
+        "kind": "pop",
+        "playerId": "cbe290eb8f",
+        "livesLeft": 0,
+        "seq": 10450,
+        "at": 1792692792822
+      },
+      {
+        "kind": "out",
+        "playerId": "cbe290eb8f",
+        "place": 2,
+        "seq": 10451,
+        "at": 1792692792822
+      },
+      {
+        "kind": "win",
+        "playerId": "8506f3562f",
+        "seq": 10452,
+        "at": 1792692792822
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792691562092,
+        "playerId": null,
+        "name": "Ashersquee",
+        "text": "Ashersquee joined"
+      },
+      {
+        "id": 2,
+        "at": 1792691562732,
+        "playerId": null,
+        "name": "Sox",
+        "text": "Sox joined"
+      },
+      {
+        "id": 3,
+        "at": 1792691562785,
+        "playerId": null,
+        "name": "Frog",
+        "text": "Frog joined"
+      },
+      {
+        "id": 4,
+        "at": 1792691562807,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion joined"
+      },
+      {
+        "id": 5,
+        "at": 1792691562943,
+        "playerId": null,
+        "name": "wilk",
+        "text": "wilk joined"
+      },
+      {
+        "id": 6,
+        "at": 1792691563221,
+        "playerId": null,
+        "name": "Dumbo Institute",
+        "text": "Dumbo Institute joined"
+      },
+      {
+        "id": 7,
+        "at": 1792691796742,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792691825926,
+        "playerId": null,
+        "name": "Dumbo Institute",
+        "text": "Dumbo Institute left"
+      },
+      {
+        "id": 9,
+        "at": 1792691831070,
+        "playerId": null,
+        "name": "Frog",
+        "text": "Frog was kicked for being idle"
+      },
+      {
+        "id": 10,
+        "at": 1792691859212,
+        "playerId": null,
+        "name": "wilk",
+        "text": "wilk left"
+      },
+      {
+        "id": 11,
+        "at": 1792691975696,
+        "playerId": null,
+        "name": "Sox",
+        "text": "Sox won"
+      },
+      {
+        "id": 12,
+        "at": 1792691980034,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion joined"
+      },
+      {
+        "id": 13,
+        "at": 1792691982404,
+        "playerId": null,
+        "name": "rubber",
+        "text": "rubber joined"
+      },
+      {
+        "id": 14,
+        "at": 1792691982446,
+        "playerId": null,
+        "name": "banana",
+        "text": "banana joined"
+      },
+      {
+        "id": 15,
+        "at": 1792691982523,
+        "playerId": null,
+        "name": "SKOBALJ",
+        "text": "SKOBALJ joined"
+      },
+      {
+        "id": 16,
+        "at": 1792691995439,
+        "playerId": null,
+        "name": "Sox",
+        "text": "Sox left"
+      },
+      {
+        "id": 17,
+        "at": 1792691998140,
+        "playerId": null,
+        "name": "Nanthu",
+        "text": "Nanthu joined"
+      },
+      {
+        "id": 10018,
+        "at": 1792692086623,
+        "playerId": null,
+        "name": "Nanthu",
+        "text": "Nanthu left"
+      },
+      {
+        "id": 10019,
+        "at": 1792692156734,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion was kicked for being idle"
+      },
+      {
+        "id": 10020,
+        "at": 1792692239993,
+        "playerId": null,
+        "name": "SKOBALJ",
+        "text": "SKOBALJ was kicked for being idle"
+      },
+      {
+        "id": 10021,
+        "at": 1792692251352,
+        "playerId": null,
+        "name": "Ashersquee",
+        "text": "Ashersquee won"
+      },
+      {
+        "id": 10022,
+        "at": 1792692255067,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792692257287,
+        "playerId": null,
+        "name": "raefywaffle",
+        "text": "raefywaffle joined"
+      },
+      {
+        "id": 10024,
+        "at": 1792692257510,
+        "playerId": null,
+        "name": "niga",
+        "text": "niga joined"
+      },
+      {
+        "id": 10025,
+        "at": 1792692260635,
+        "playerId": null,
+        "name": "banana",
+        "text": "banana left"
+      },
+      {
+        "id": 10026,
+        "at": 1792692262417,
+        "playerId": null,
+        "name": "rubber",
+        "text": "rubber was kicked for being idle"
+      },
+      {
+        "id": 10027,
+        "at": 1792692263854,
+        "playerId": null,
+        "name": "cleg",
+        "text": "cleg joined"
+      },
+      {
+        "id": 10028,
+        "at": 1792692263871,
+        "playerId": null,
+        "name": "poo",
+        "text": "poo joined"
+      },
+      {
+        "id": 10029,
+        "at": 1792692270913,
+        "playerId": null,
+        "name": "poo",
+        "text": "poo left"
+      },
+      {
+        "id": 10030,
+        "at": 1792692274938,
+        "playerId": null,
+        "name": "moist puh",
+        "text": "moist puh joined"
+      },
+      {
+        "id": 10031,
+        "at": 1792692303639,
+        "playerId": null,
+        "name": "raefywaffle",
+        "text": "raefywaffle was kicked for being idle"
+      },
+      {
+        "id": 10032,
+        "at": 1792692332519,
+        "playerId": null,
+        "name": "niga",
+        "text": "niga was kicked for being idle"
+      },
+      {
+        "id": 10033,
+        "at": 1792692358668,
+        "playerId": null,
+        "name": "Ashersquee",
+        "text": "Ashersquee was kicked for being idle"
+      },
+      {
+        "id": 10034,
+        "at": 1792692390749,
+        "playerId": null,
+        "name": "John Krillion",
+        "text": "John Krillion was kicked for being idle"
+      },
+      {
+        "id": 10035,
+        "at": 1792692455901,
+        "playerId": null,
+        "name": "cleg",
+        "text": "cleg won"
+      },
+      {
+        "id": 10036,
+        "at": 1792692470233,
+        "playerId": null,
+        "name": "cleg",
+        "text": "cleg left"
+      },
+      {
+        "id": 10037,
+        "at": 1792692484827,
+        "playerId": null,
+        "name": "THe dihdler",
+        "text": "THe dihdler joined"
+      },
+      {
+        "id": 10038,
+        "at": 1792692485005,
+        "playerId": null,
+        "name": "Pumpkin",
+        "text": "Pumpkin joined"
+      },
+      {
+        "id": 10039,
+        "at": 1792692485350,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10040,
+        "at": 1792692485371,
+        "playerId": null,
+        "name": "IDK",
+        "text": "IDK joined"
+      },
+      {
+        "id": 10041,
+        "at": 1792692486004,
+        "playerId": null,
+        "name": "bean",
+        "text": "bean joined"
+      },
+      {
+        "id": 10042,
+        "at": 1792692690670,
+        "playerId": null,
+        "name": "IDK",
+        "text": "IDK left"
+      },
+      {
+        "id": 10043,
+        "at": 1792692720173,
+        "playerId": null,
+        "name": "bean",
+        "text": "bean left"
+      },
+      {
+        "id": 10044,
+        "at": 1792692743134,
+        "playerId": null,
+        "name": "Pumpkin",
+        "text": "Pumpkin left"
+      },
+      {
+        "id": 10045,
+        "at": 1792692792822,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792692792822
+  }
+}

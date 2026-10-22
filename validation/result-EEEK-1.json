@@ -1,0 +1,397 @@
+{
+  "won": true,
+  "room": "EEEK",
+  "playerId": "3b559e1a31",
+  "winnerId": "3b559e1a31",
+  "gameNumber": 1,
+  "gameId": "party:EEEK-1792685211297-1",
+  "rated": false,
+  "player": {
+    "id": "3b559e1a31",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 190,
+    "alive": true,
+    "answers": 5,
+    "pops": 0,
+    "best": "rare",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Rumble strip",
+      "tier": "rare"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name an English word containing “age”"
+    },
+    {
+      "index": 2,
+      "text": "Name a part or feature of a road"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "Assemblage",
+      "source": "codex",
+      "reactionMs": 6345,
+      "submit": {
+        "accepted": true,
+        "answer": "assemblage",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "Plumage",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "plumage",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "Cartilage",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "cartilage",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "Entourage",
+      "source": "codex",
+      "reactionMs": 85,
+      "submit": {
+        "accepted": true,
+        "answer": "entourage",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a part or feature of a road",
+      "answer": "Rumble strip",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Rumble strip",
+        "tier": "rare"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 5,
+    "accepted": 5,
+    "reactionMs": [
+      6345,
+      82,
+      82,
+      85,
+      81
+    ],
+    "sources": {
+      "codex": 5
+    },
+    "unknownCategories": [
+      "Name an English word containing “age”"
+    ]
+  },
+  "finalRoom": {
+    "code": "EEEK",
+    "chatEnabled": true,
+    "version": 49,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "3b559e1a31",
+    "players": [
+      {
+        "id": "3b559e1a31",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 190,
+        "alive": true,
+        "answers": 5,
+        "pops": 0,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Rumble strip",
+          "tier": "rare"
+        },
+        "place": 1
+      },
+      {
+        "id": "a34370f158",
+        "chatMuted": false,
+        "removed": false,
+        "name": "blakes tickler",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 130,
+        "alive": false,
+        "answers": 4,
+        "pops": 1,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Sidewalk",
+          "tier": "schooler"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a part or feature of a road",
+      "threshold": 13,
+      "accepted": 2
+    },
+    "countdownEndsAt": null,
+    "winnerId": "3b559e1a31",
+    "gameNumber": 1,
+    "gameId": "party:EEEK-1792685211297-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "3b559e1a31",
+        "seq": 1,
+        "at": 1792685211297
+      },
+      {
+        "kind": "join",
+        "playerId": "a34370f158",
+        "seq": 2,
+        "at": 1792685212011
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792685215011,
+        "seq": 3,
+        "at": 1792685212011
+      },
+      {
+        "kind": "start",
+        "holderId": "a34370f158",
+        "seq": 4,
+        "at": 1792685215011
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "a34370f158",
+        "seq": 5,
+        "at": 1792685215011
+      },
+      {
+        "kind": "pass",
+        "from": "a34370f158",
+        "to": "3b559e1a31",
+        "answer": "triage",
+        "tier": "schooler",
+        "seq": 6,
+        "at": 1792685218827
+      },
+      {
+        "kind": "pass",
+        "from": "3b559e1a31",
+        "to": "a34370f158",
+        "answer": "assemblage",
+        "tier": "rare",
+        "seq": 7,
+        "at": 1792685225526
+      },
+      {
+        "kind": "reject",
+        "playerId": "a34370f158",
+        "text": "tage",
+        "why": "miss",
+        "seq": 8,
+        "at": 1792685230176
+      },
+      {
+        "kind": "pass",
+        "from": "a34370f158",
+        "to": "3b559e1a31",
+        "answer": "sage",
+        "tier": "plankton",
+        "seq": 9,
+        "at": 1792685231310
+      },
+      {
+        "kind": "pass",
+        "from": "3b559e1a31",
+        "to": "a34370f158",
+        "answer": "plumage",
+        "tier": "plankton",
+        "seq": 10,
+        "at": 1792685231684
+      },
+      {
+        "kind": "pass",
+        "from": "a34370f158",
+        "to": "3b559e1a31",
+        "answer": "mage",
+        "tier": "rare",
+        "seq": 11,
+        "at": 1792685235031
+      },
+      {
+        "kind": "pass",
+        "from": "3b559e1a31",
+        "to": "a34370f158",
+        "answer": "cartilage",
+        "tier": "schooler",
+        "seq": 12,
+        "at": 1792685235422
+      },
+      {
+        "kind": "reject",
+        "playerId": "a34370f158",
+        "text": "bage",
+        "why": "miss",
+        "seq": 13,
+        "at": 1792685238124
+      },
+      {
+        "kind": "reject",
+        "playerId": "a34370f158",
+        "text": "varitage",
+        "why": "miss",
+        "seq": 14,
+        "at": 1792685242245
+      },
+      {
+        "kind": "pop",
+        "playerId": "a34370f158",
+        "livesLeft": 1,
+        "seq": 15,
+        "at": 1792685243422
+      },
+      {
+        "kind": "pass",
+        "from": "3b559e1a31",
+        "to": "a34370f158",
+        "answer": "entourage",
+        "tier": "schooler",
+        "seq": 16,
+        "at": 1792685245314
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "a34370f158",
+        "seq": 17,
+        "at": 1792685245314
+      },
+      {
+        "kind": "pass",
+        "from": "a34370f158",
+        "to": "3b559e1a31",
+        "answer": "Sidewalk",
+        "tier": "schooler",
+        "seq": 18,
+        "at": 1792685252552
+      },
+      {
+        "kind": "pass",
+        "from": "3b559e1a31",
+        "to": "a34370f158",
+        "answer": "Rumble strip",
+        "tier": "rare",
+        "seq": 19,
+        "at": 1792685252942
+      },
+      {
+        "kind": "leave",
+        "playerId": "a34370f158",
+        "seq": 20,
+        "at": 1792685258296
+      },
+      {
+        "kind": "win",
+        "playerId": "3b559e1a31",
+        "seq": 21,
+        "at": 1792685258296
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792685211297,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 2,
+        "at": 1792685212011,
+        "playerId": null,
+        "name": "blakes tickler",
+        "text": "blakes tickler joined"
+      },
+      {
+        "id": 3,
+        "at": 1792685258296,
+        "playerId": null,
+        "name": "blakes tickler",
+        "text": "blakes tickler left"
+      },
+      {
+        "id": 4,
+        "at": 1792685258296,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792685258296
+  }
+}

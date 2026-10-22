@@ -1,0 +1,42 @@
+{
+  "match": 17,
+  "room": "SSFF",
+  "category": 6,
+  "question": "Name a boxing movie",
+  "capture": "Timestamped browser screenshots sampled approximately 1.2 frames per second; no audio.",
+  "captureFrom": 1792711304067,
+  "captureTo": 1792711343626,
+  "frames": 49,
+  "maximumFrameGapMs": 969,
+  "tiers": {
+    "krillion": 2,
+    "deepcut": 3
+  },
+  "gameId": "party:SSFF-1792710485473-3",
+  "won": true,
+  "startingPlayers": 5,
+  "answers": [
+    {
+      "answer": "The Set-Up",
+      "tier": "krillion"
+    },
+    {
+      "answer": "Fat City",
+      "tier": "krillion"
+    },
+    {
+      "answer": "The Harder They Fall",
+      "tier": "deepcut"
+    },
+    {
+      "answer": "Requiem for a Heavyweight",
+      "tier": "deepcut"
+    },
+    {
+      "answer": "Somebody Up There Likes Me",
+      "tier": "deepcut"
+    }
+  ],
+  "sha256": "932201b1f88abff0d8c8db29dc76747fde885a99997f4068fc163d77133a2ff9",
+  "githubAttachment": "https://github.com/user-attachments/assets/1cee2ba0-93b7-4245-96c6-c572324112e6"
+}

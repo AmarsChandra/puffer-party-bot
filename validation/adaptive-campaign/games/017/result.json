@@ -1,0 +1,2240 @@
+{
+  "won": true,
+  "room": "SSFF",
+  "playerId": "6daf95534f",
+  "winnerId": "6daf95534f",
+  "gameNumber": 3,
+  "gameId": "party:SSFF-1792710485473-3",
+  "rated": false,
+  "player": {
+    "id": "6daf95534f",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 5,
+    "meter": 600,
+    "alive": true,
+    "answers": 45,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Traffic",
+      "tier": "schooler"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a city in Europe with over 100,000 people"
+    },
+    {
+      "index": 2,
+      "text": "Name a movie prominently featuring sharks"
+    },
+    {
+      "index": 3,
+      "text": "Name a device used to magnify things"
+    },
+    {
+      "index": 4,
+      "text": "Name a golf term"
+    },
+    {
+      "index": 5,
+      "text": "Name an English word containing “work”"
+    },
+    {
+      "index": 6,
+      "text": "Name a boxing movie"
+    },
+    {
+      "index": 7,
+      "text": "Name a country in Asia or Oceania"
+    },
+    {
+      "index": 8,
+      "text": "Name a slang word for money"
+    },
+    {
+      "index": 9,
+      "text": "Name a landmark in New York City"
+    },
+    {
+      "index": 10,
+      "text": "Name a phone accessory"
+    },
+    {
+      "index": 11,
+      "text": "Name a standard type of tax (currently levied in at least one country)"
+    },
+    {
+      "index": 12,
+      "text": "Name a country with a high-speed rail network"
+    },
+    {
+      "index": 13,
+      "text": "Name a classic small-talk topic"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a city in Europe with over 100,000 people",
+      "answer": "Tampere",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Tampere",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a city in Europe with over 100,000 people",
+      "answer": "Plovdiv",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Plovdiv",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a city in Europe with over 100,000 people",
+      "answer": "Olomouc",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Olomouc",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a city in Europe with over 100,000 people",
+      "answer": "Bacău",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Bacău",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a city in Europe with over 100,000 people",
+      "answer": "Płock",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Płock",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a movie prominently featuring sharks",
+      "answer": "The Reef",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "The Reef",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a device used to magnify things",
+      "answer": "Loupe",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Loupe",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a device used to magnify things",
+      "answer": "Stereoscope",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Stereo microscope",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a golf term",
+      "answer": "Dormie",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Dormie",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a golf term",
+      "answer": "Albatross",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Albatross",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an English word containing “work”",
+      "answer": "worker",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "worker",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “work”",
+      "answer": "framework",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "framework",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “work”",
+      "answer": "workshop",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "workshop",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “work”",
+      "answer": "homework",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "homework",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a boxing movie",
+      "answer": "The Set-Up",
+      "source": "bank",
+      "reactionMs": 87,
+      "submit": {
+        "accepted": true,
+        "answer": "The Set-Up",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a boxing movie",
+      "answer": "Fat City",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Fat City",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a boxing movie",
+      "answer": "The Harder They Fall",
+      "source": "bank",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "The Harder They Fall",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a boxing movie",
+      "answer": "Requiem for a Heavyweight",
+      "source": "bank",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Requiem for a Heavyweight",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a boxing movie",
+      "answer": "Somebody Up There Likes Me",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Somebody Up There Likes Me",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "answer": "Kiribati",
+      "source": "codex",
+      "reactionMs": 4082,
+      "submit": {
+        "accepted": true,
+        "answer": "Kiribati",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "answer": "Timor-Leste",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Timor-Leste",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "answer": "Tuvalu",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Tuvalu",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "answer": "Marshall Islands",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Marshall Islands",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "answer": "Tonga",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Tonga",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a country in Asia or Oceania",
+      "answer": "Samoa",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Samoa",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a slang word for money",
+      "answer": "Simoleons",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Simoleons",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a slang word for money",
+      "answer": "Wonga",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Wonga",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a slang word for money",
+      "answer": "Readies",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Readies",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a slang word for money",
+      "answer": "Lolly",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Lolly",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a slang word for money",
+      "answer": "Brass",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Brass",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a landmark in New York City",
+      "answer": "Merchant's House Museum",
+      "source": "codex",
+      "reactionMs": 333,
+      "submit": {
+        "accepted": true,
+        "answer": "Merchant's House Museum",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a landmark in New York City",
+      "answer": "Little Red Lighthouse",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Little Red Lighthouse",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a phone accessory",
+      "answer": "Stylus",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Stylus",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a standard type of tax (currently levied in at least one country)",
+      "answer": "Tonnage tax",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Tonnage tax",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a standard type of tax (currently levied in at least one country)",
+      "answer": "Insurance premium tax",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Insurance premium tax",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country with a high-speed rail network",
+      "answer": "Uzbekistan",
+      "source": "verified",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Uzbekistan",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a country with a high-speed rail network",
+      "answer": "Indonesia",
+      "source": "verified",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Indonesia",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country with a high-speed rail network",
+      "answer": "Taiwan",
+      "source": "verified",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Taiwan",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country with a high-speed rail network",
+      "answer": "Sweden",
+      "source": "verified",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Sweden",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "answer": "Weekend plans",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Weekend plans",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "answer": "Local events",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Local area",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "answer": "Hobbies",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Hobbies",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "answer": "Gardening",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Gardening",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "answer": "Pets",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Pets",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a classic small-talk topic",
+      "answer": "Traffic",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Traffic",
+        "tier": "schooler"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "question": "Name a landmark in New York City",
+      "answer": "Jumel Mansion",
+      "submit": {
+        "accepted": false,
+        "why": "miss"
+      }
+    }
+  ],
+  "metrics": {
+    "attempts": 46,
+    "accepted": 45,
+    "reactionMs": [
+      81,
+      82,
+      80,
+      82,
+      82,
+      82,
+      81,
+      82,
+      82,
+      82,
+      82,
+      82,
+      82,
+      83,
+      87,
+      82,
+      81,
+      81,
+      83,
+      4082,
+      81,
+      81,
+      81,
+      81,
+      82,
+      82,
+      82,
+      81,
+      81,
+      82,
+      333,
+      80,
+      83,
+      82,
+      82,
+      80,
+      81,
+      82,
+      82,
+      82,
+      81,
+      81,
+      83,
+      81,
+      81
+    ],
+    "sources": {
+      "codex": 32,
+      "bank": 9,
+      "verified": 4
+    },
+    "unknownCategories": [
+      "Name a country in Asia or Oceania"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 3,
+        "index": 1,
+        "question": "Name a city in Europe with over 100,000 people",
+        "observedAt": 1792711073254,
+        "readyMs": 3142,
+        "firstTurnAt": 1792711077545,
+        "firstSubmitMs": 4372,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 2,
+        "question": "Name a movie prominently featuring sharks",
+        "observedAt": 1792711142146,
+        "readyMs": 3469,
+        "firstTurnAt": 1792711169642,
+        "firstSubmitMs": 27577,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 3,
+        "question": "Name a device used to magnify things",
+        "observedAt": 1792711190872,
+        "readyMs": 3836,
+        "firstTurnAt": 1792711203905,
+        "firstSubmitMs": 13113,
+        "firstTurnWaitMs": 80,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 4,
+        "question": "Name a golf term",
+        "observedAt": 1792711218216,
+        "readyMs": 3573,
+        "firstTurnAt": 1792711235328,
+        "firstSubmitMs": 17193,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 5,
+        "question": "Name an English word containing “work”",
+        "observedAt": 1792711260302,
+        "readyMs": 18,
+        "firstTurnAt": 1792711267876,
+        "firstSubmitMs": 7656,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      },
+      {
+        "gameNumber": 3,
+        "index": 6,
+        "question": "Name a boxing movie",
+        "observedAt": 1792711303316,
+        "readyMs": 5,
+        "firstTurnAt": 1792711303321,
+        "firstSubmitMs": 87,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      },
+      {
+        "gameNumber": 3,
+        "index": 7,
+        "question": "Name a country in Asia or Oceania",
+        "observedAt": 1792711347768,
+        "readyMs": 4080,
+        "firstTurnAt": 1792711347774,
+        "firstSubmitMs": 4080,
+        "firstTurnWaitMs": 4074,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 8,
+        "question": "Name a slang word for money",
+        "observedAt": 1792711390836,
+        "readyMs": 4,
+        "firstTurnAt": 1792711397721,
+        "firstSubmitMs": 6967,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 9,
+        "question": "Name a landmark in New York City",
+        "observedAt": 1792711424836,
+        "readyMs": 4865,
+        "firstTurnAt": 1792711435799,
+        "firstSubmitMs": 11043,
+        "firstTurnWaitMs": 80,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 10,
+        "question": "Name a phone accessory",
+        "observedAt": 1792711448133,
+        "readyMs": 5398,
+        "firstTurnAt": 1792711477045,
+        "firstSubmitMs": 28995,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 11,
+        "question": "Name a standard type of tax (currently levied in at least one country)",
+        "observedAt": 1792711478618,
+        "readyMs": 3092,
+        "firstTurnAt": 1792711484387,
+        "firstSubmitMs": 5851,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 3,
+        "index": 12,
+        "question": "Name a country with a high-speed rail network",
+        "observedAt": 1792711499202,
+        "readyMs": 8,
+        "firstTurnAt": 1792711504730,
+        "firstSubmitMs": 5609,
+        "firstTurnWaitMs": 81,
+        "firstSource": "verified"
+      },
+      {
+        "gameNumber": 3,
+        "index": 13,
+        "question": "Name a classic small-talk topic",
+        "observedAt": 1792711531049,
+        "readyMs": 3468,
+        "firstTurnAt": 1792711537611,
+        "firstSubmitMs": 6643,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "SSFF",
+    "chatEnabled": true,
+    "version": 795,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "6daf95534f",
+    "players": [
+      {
+        "id": "6daf95534f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "82e693ae80",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Herman",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "a581703eee",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bologna sandwich",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "de5ef0bb21",
+        "chatMuted": false,
+        "removed": false,
+        "name": "BBC d",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "94022cac8c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Jack",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "365f9f1ffc",
+        "chatMuted": false,
+        "removed": false,
+        "name": "kirkin hard",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792711073339,
+    "winnerId": null,
+    "gameNumber": 3,
+    "gameId": "party:SSFF-1792710485473-3",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "3ee2318511",
+        "to": "365f9f1ffc",
+        "answer": "Exfoliant",
+        "tier": "schooler",
+        "seq": 176,
+        "at": 1792710956584
+      },
+      {
+        "kind": "pass",
+        "from": "365f9f1ffc",
+        "to": "867e359b84",
+        "answer": "Tretinoin",
+        "tier": "rare",
+        "seq": 177,
+        "at": 1792710956802
+      },
+      {
+        "kind": "pass",
+        "from": "867e359b84",
+        "to": "3ee2318511",
+        "answer": "Moisturizer",
+        "tier": "plankton",
+        "seq": 178,
+        "at": 1792710959849
+      },
+      {
+        "kind": "leave",
+        "playerId": "129a8c4074",
+        "seq": 179,
+        "at": 1792710962474
+      },
+      {
+        "kind": "pass",
+        "from": "3ee2318511",
+        "to": "365f9f1ffc",
+        "answer": "Sugar scrub",
+        "tier": "rare",
+        "seq": 180,
+        "at": 1792710966941
+      },
+      {
+        "kind": "pass",
+        "from": "365f9f1ffc",
+        "to": "867e359b84",
+        "answer": "Cleanser",
+        "tier": "plankton",
+        "seq": 181,
+        "at": 1792710967540
+      },
+      {
+        "kind": "pass",
+        "from": "867e359b84",
+        "to": "3ee2318511",
+        "answer": "Face mask",
+        "tier": "plankton",
+        "seq": 182,
+        "at": 1792710970262
+      },
+      {
+        "kind": "reject",
+        "playerId": "3ee2318511",
+        "text": "towel",
+        "why": "miss",
+        "seq": 183,
+        "at": 1792710977955
+      },
+      {
+        "kind": "pop",
+        "playerId": "3ee2318511",
+        "livesLeft": 1,
+        "seq": 184,
+        "at": 1792710978262
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 8,
+        "holderId": "365f9f1ffc",
+        "seq": 185,
+        "at": 1792710978262
+      },
+      {
+        "kind": "pass",
+        "from": "365f9f1ffc",
+        "to": "867e359b84",
+        "answer": "V for Vendetta",
+        "tier": "schooler",
+        "seq": 186,
+        "at": 1792710985300
+      },
+      {
+        "kind": "reject",
+        "playerId": "867e359b84",
+        "text": "avengers",
+        "why": "miss",
+        "seq": 187,
+        "at": 1792710990849
+      },
+      {
+        "kind": "pop",
+        "playerId": "867e359b84",
+        "livesLeft": 0,
+        "seq": 188,
+        "at": 1792711002345
+      },
+      {
+        "kind": "out",
+        "playerId": "867e359b84",
+        "place": 3,
+        "seq": 189,
+        "at": 1792711002345
+      },
+      {
+        "kind": "pass",
+        "from": "3ee2318511",
+        "to": "365f9f1ffc",
+        "answer": "Star Wars: Episode I – The Phantom Menace",
+        "tier": "plankton",
+        "seq": 190,
+        "at": 1792711006072
+      },
+      {
+        "kind": "pass",
+        "from": "365f9f1ffc",
+        "to": "3ee2318511",
+        "answer": "Thor: Love and Thunder",
+        "tier": "schooler",
+        "seq": 191,
+        "at": 1792711006750
+      },
+      {
+        "kind": "pass",
+        "from": "3ee2318511",
+        "to": "365f9f1ffc",
+        "answer": "Black Swan",
+        "tier": "plankton",
+        "seq": 192,
+        "at": 1792711012568
+      },
+      {
+        "kind": "pass",
+        "from": "365f9f1ffc",
+        "to": "3ee2318511",
+        "answer": "Star Wars: Episode II – Attack of the Clones",
+        "tier": "plankton",
+        "seq": 193,
+        "at": 1792711013377
+      },
+      {
+        "kind": "leave",
+        "playerId": "867e359b84",
+        "seq": 194,
+        "at": 1792711016726
+      },
+      {
+        "kind": "pass",
+        "from": "3ee2318511",
+        "to": "365f9f1ffc",
+        "answer": "Léon: The Professional",
+        "tier": "schooler",
+        "seq": 195,
+        "at": 1792711019701
+      },
+      {
+        "kind": "pass",
+        "from": "365f9f1ffc",
+        "to": "3ee2318511",
+        "answer": "Star Wars: Episode III – Revenge of the Sith",
+        "tier": "plankton",
+        "seq": 196,
+        "at": 1792711020491
+      },
+      {
+        "kind": "pass",
+        "from": "3ee2318511",
+        "to": "365f9f1ffc",
+        "answer": "Heat",
+        "tier": "rare",
+        "seq": 197,
+        "at": 1792711028253
+      },
+      {
+        "kind": "spare",
+        "playerId": "3ee2318511",
+        "lives": 2,
+        "seq": 198,
+        "at": 1792711028253
+      },
+      {
+        "kind": "reject",
+        "playerId": "365f9f1ffc",
+        "text": "oblivian",
+        "why": "miss",
+        "seq": 199,
+        "at": 1792711029673
+      },
+      {
+        "kind": "reject",
+        "playerId": "365f9f1ffc",
+        "text": "oblivan",
+        "why": "miss",
+        "seq": 200,
+        "at": 1792711036090
+      },
+      {
+        "kind": "pop",
+        "playerId": "365f9f1ffc",
+        "livesLeft": 0,
+        "seq": 201,
+        "at": 1792711036253
+      },
+      {
+        "kind": "out",
+        "playerId": "365f9f1ffc",
+        "place": 2,
+        "seq": 202,
+        "at": 1792711036253
+      },
+      {
+        "kind": "win",
+        "playerId": "3ee2318511",
+        "seq": 203,
+        "at": 1792711036253
+      },
+      {
+        "kind": "lobby",
+        "seq": 204,
+        "at": 1792711040903
+      },
+      {
+        "kind": "leave",
+        "playerId": "3ee2318511",
+        "seq": 205,
+        "at": 1792711043540
+      },
+      {
+        "kind": "host",
+        "playerId": "365f9f1ffc",
+        "seq": 206,
+        "at": 1792711043540
+      },
+      {
+        "kind": "host",
+        "playerId": "6daf95534f",
+        "seq": 207,
+        "at": 1792711047573
+      },
+      {
+        "kind": "join",
+        "playerId": "6daf95534f",
+        "seq": 208,
+        "at": 1792711047573
+      },
+      {
+        "kind": "join",
+        "playerId": "702e881048",
+        "seq": 209,
+        "at": 1792711047778
+      },
+      {
+        "kind": "join",
+        "playerId": "a581703eee",
+        "seq": 210,
+        "at": 1792711047826
+      },
+      {
+        "kind": "join",
+        "playerId": "de5ef0bb21",
+        "seq": 211,
+        "at": 1792711047950
+      },
+      {
+        "kind": "leave",
+        "playerId": "702e881048",
+        "seq": 212,
+        "at": 1792711053990
+      },
+      {
+        "kind": "join",
+        "playerId": "82e693ae80",
+        "seq": 213,
+        "at": 1792711055339
+      },
+      {
+        "kind": "join",
+        "playerId": "94022cac8c",
+        "seq": 214,
+        "at": 1792711056338
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792711073339,
+        "seq": 215,
+        "at": 1792711070339
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792710485473,
+        "playerId": null,
+        "name": "hittheroaddude",
+        "text": "hittheroaddude joined"
+      },
+      {
+        "id": 2,
+        "at": 1792710490598,
+        "playerId": null,
+        "name": "John Cena",
+        "text": "John Cena joined"
+      },
+      {
+        "id": 3,
+        "at": 1792710490667,
+        "playerId": null,
+        "name": "Faisal",
+        "text": "Faisal joined"
+      },
+      {
+        "id": 4,
+        "at": 1792710490734,
+        "playerId": null,
+        "name": "aero",
+        "text": "aero joined"
+      },
+      {
+        "id": 5,
+        "at": 1792710490737,
+        "playerId": null,
+        "name": "mmmmm",
+        "text": "mmmmm joined"
+      },
+      {
+        "id": 6,
+        "at": 1792710490755,
+        "playerId": null,
+        "name": "jordan",
+        "text": "jordan joined"
+      },
+      {
+        "id": 7,
+        "at": 1792710497528,
+        "playerId": null,
+        "name": "mmmmm",
+        "text": "mmmmm left"
+      },
+      {
+        "id": 8,
+        "at": 1792710593285,
+        "playerId": null,
+        "name": "Faisal",
+        "text": "Faisal left"
+      },
+      {
+        "id": 9,
+        "at": 1792710688940,
+        "playerId": null,
+        "name": "aero",
+        "text": "aero left"
+      },
+      {
+        "id": 10,
+        "at": 1792710713793,
+        "playerId": null,
+        "name": "hittheroaddude",
+        "text": "hittheroaddude won"
+      },
+      {
+        "id": 11,
+        "at": 1792710715394,
+        "playerId": null,
+        "name": "jordan",
+        "text": "jordan left"
+      },
+      {
+        "id": 12,
+        "at": 1792710721176,
+        "playerId": null,
+        "name": "hittheroaddude",
+        "text": "hittheroaddude left"
+      },
+      {
+        "id": 13,
+        "at": 1792710721403,
+        "playerId": null,
+        "name": "messi",
+        "text": "messi joined"
+      },
+      {
+        "id": 14,
+        "at": 1792710721437,
+        "playerId": null,
+        "name": "joseph",
+        "text": "joseph joined"
+      },
+      {
+        "id": 15,
+        "at": 1792710721594,
+        "playerId": null,
+        "name": "bruzil",
+        "text": "bruzil joined"
+      },
+      {
+        "id": 16,
+        "at": 1792710721799,
+        "playerId": null,
+        "name": "patat",
+        "text": "patat joined"
+      },
+      {
+        "id": 17,
+        "at": 1792710723344,
+        "playerId": null,
+        "name": "kirkin hard",
+        "text": "kirkin hard joined"
+      },
+      {
+        "id": 18,
+        "at": 1792710777003,
+        "playerId": null,
+        "name": "bruzil",
+        "text": "bruzil left"
+      },
+      {
+        "id": 19,
+        "at": 1792710837937,
+        "playerId": null,
+        "name": "joseph",
+        "text": "joseph was kicked for being idle"
+      },
+      {
+        "id": 20,
+        "at": 1792710947789,
+        "playerId": "365f9f1ffc",
+        "name": "kirkin hard",
+        "text": "lmao hard rock is not a cafe"
+      },
+      {
+        "id": 21,
+        "at": 1792710962474,
+        "playerId": null,
+        "name": "patat",
+        "text": "patat was kicked for being idle"
+      },
+      {
+        "id": 22,
+        "at": 1792711016726,
+        "playerId": null,
+        "name": "messi",
+        "text": "messi left"
+      },
+      {
+        "id": 23,
+        "at": 1792711036253,
+        "playerId": null,
+        "name": "John Cena",
+        "text": "John Cena won"
+      },
+      {
+        "id": 24,
+        "at": 1792711043540,
+        "playerId": null,
+        "name": "John Cena",
+        "text": "John Cena left"
+      },
+      {
+        "id": 25,
+        "at": 1792711047573,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 26,
+        "at": 1792711047778,
+        "playerId": null,
+        "name": "ishh",
+        "text": "ishh joined"
+      },
+      {
+        "id": 27,
+        "at": 1792711047826,
+        "playerId": null,
+        "name": "bologna sandwich",
+        "text": "bologna sandwich joined"
+      },
+      {
+        "id": 28,
+        "at": 1792711047950,
+        "playerId": null,
+        "name": "BBC d",
+        "text": "BBC d joined"
+      },
+      {
+        "id": 29,
+        "at": 1792711053990,
+        "playerId": null,
+        "name": "ishh",
+        "text": "ishh left"
+      },
+      {
+        "id": 30,
+        "at": 1792711055339,
+        "playerId": null,
+        "name": "Herman",
+        "text": "Herman joined"
+      },
+      {
+        "id": 31,
+        "at": 1792711056338,
+        "playerId": null,
+        "name": "Jack",
+        "text": "Jack joined"
+      }
+    ],
+    "now": 1792711070339
+  },
+  "finalRoom": {
+    "code": "SSFF",
+    "chatEnabled": true,
+    "version": 1569,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "6daf95534f",
+    "players": [
+      {
+        "id": "6daf95534f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 5,
+        "meter": 600,
+        "alive": true,
+        "answers": 45,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Traffic",
+          "tier": "schooler"
+        },
+        "place": 1
+      },
+      {
+        "id": "82e693ae80",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Herman",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 345,
+        "alive": false,
+        "answers": 7,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Hole in one",
+          "tier": "plankton"
+        },
+        "place": 5
+      },
+      {
+        "id": "a581703eee",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bologna sandwich",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 215,
+        "alive": false,
+        "answers": 8,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Chip",
+          "tier": "schooler"
+        },
+        "place": 4
+      },
+      {
+        "id": "de5ef0bb21",
+        "chatMuted": false,
+        "removed": false,
+        "name": "BBC d",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 490,
+        "alive": false,
+        "answers": 36,
+        "pops": 3,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "United States",
+          "tier": "rare"
+        },
+        "place": 3
+      },
+      {
+        "id": "94022cac8c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Jack",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 475,
+        "alive": false,
+        "answers": 42,
+        "pops": 4,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Someone's outfit",
+          "tier": "deepcut"
+        },
+        "place": 2
+      },
+      {
+        "id": "365f9f1ffc",
+        "chatMuted": false,
+        "removed": false,
+        "name": "kirkin hard",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 13,
+      "text": "Name a classic small-talk topic",
+      "threshold": 18,
+      "accepted": 12
+    },
+    "countdownEndsAt": null,
+    "winnerId": "6daf95534f",
+    "gameNumber": 3,
+    "gameId": "party:SSFF-1792710485473-3",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "reject",
+        "playerId": "94022cac8c",
+        "text": "road tax",
+        "why": "repeat",
+        "seq": 390,
+        "at": 1792711493276
+      },
+      {
+        "kind": "pop",
+        "playerId": "94022cac8c",
+        "livesLeft": 1,
+        "seq": 391,
+        "at": 1792711495400
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "de5ef0bb21",
+        "answer": "Insurance premium tax",
+        "tier": "deepcut",
+        "seq": 392,
+        "at": 1792711497186
+      },
+      {
+        "kind": "pass",
+        "from": "de5ef0bb21",
+        "to": "94022cac8c",
+        "answer": "Income tax",
+        "tier": "plankton",
+        "seq": 393,
+        "at": 1792711499233
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 12,
+        "holderId": "94022cac8c",
+        "seq": 394,
+        "at": 1792711499233
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "China",
+        "tier": "plankton",
+        "seq": 395,
+        "at": 1792711504759
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "de5ef0bb21",
+        "answer": "Uzbekistan",
+        "tier": "krillion",
+        "seq": 396,
+        "at": 1792711505087
+      },
+      {
+        "kind": "pass",
+        "from": "de5ef0bb21",
+        "to": "94022cac8c",
+        "answer": "Japan",
+        "tier": "plankton",
+        "seq": 397,
+        "at": 1792711506286
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "Germany",
+        "tier": "schooler",
+        "seq": 398,
+        "at": 1792711509202
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "de5ef0bb21",
+        "answer": "Indonesia",
+        "tier": "deepcut",
+        "seq": 399,
+        "at": 1792711509488
+      },
+      {
+        "kind": "pass",
+        "from": "de5ef0bb21",
+        "to": "94022cac8c",
+        "answer": "South Korea",
+        "tier": "schooler",
+        "seq": 400,
+        "at": 1792711510954
+      },
+      {
+        "kind": "reject",
+        "playerId": "94022cac8c",
+        "text": "india",
+        "why": "miss",
+        "seq": 401,
+        "at": 1792711512949
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "France",
+        "tier": "plankton",
+        "seq": 402,
+        "at": 1792711517466
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "de5ef0bb21",
+        "answer": "Taiwan",
+        "tier": "deepcut",
+        "seq": 403,
+        "at": 1792711517635
+      },
+      {
+        "kind": "reject",
+        "playerId": "de5ef0bb21",
+        "text": "north korea",
+        "why": "miss",
+        "seq": 404,
+        "at": 1792711518760
+      },
+      {
+        "kind": "pass",
+        "from": "de5ef0bb21",
+        "to": "94022cac8c",
+        "answer": "United States",
+        "tier": "rare",
+        "seq": 405,
+        "at": 1792711520979
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "United Kingdom",
+        "tier": "schooler",
+        "seq": 406,
+        "at": 1792711522547
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "de5ef0bb21",
+        "answer": "Sweden",
+        "tier": "deepcut",
+        "seq": 407,
+        "at": 1792711523126
+      },
+      {
+        "kind": "reject",
+        "playerId": "de5ef0bb21",
+        "text": "philipinse",
+        "why": "miss",
+        "seq": 408,
+        "at": 1792711530125
+      },
+      {
+        "kind": "pop",
+        "playerId": "de5ef0bb21",
+        "livesLeft": 0,
+        "seq": 409,
+        "at": 1792711531126
+      },
+      {
+        "kind": "out",
+        "playerId": "de5ef0bb21",
+        "place": 3,
+        "seq": 410,
+        "at": 1792711531126
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 13,
+        "holderId": "94022cac8c",
+        "seq": 411,
+        "at": 1792711531126
+      },
+      {
+        "kind": "leave",
+        "playerId": "de5ef0bb21",
+        "seq": 412,
+        "at": 1792711534026
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "The weather",
+        "tier": "plankton",
+        "seq": 413,
+        "at": 1792711537683
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "94022cac8c",
+        "answer": "Weekend plans",
+        "tier": "schooler",
+        "seq": 414,
+        "at": 1792711537974
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "The flight",
+        "tier": "rare",
+        "seq": 415,
+        "at": 1792711541572
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "94022cac8c",
+        "answer": "Local area",
+        "tier": "deepcut",
+        "seq": 416,
+        "at": 1792711541843
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "Vacation plans",
+        "tier": "schooler",
+        "seq": 417,
+        "at": 1792711543910
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "94022cac8c",
+        "answer": "Hobbies",
+        "tier": "rare",
+        "seq": 418,
+        "at": 1792711544185
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "Cars",
+        "tier": "rare",
+        "seq": 419,
+        "at": 1792711547356
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "94022cac8c",
+        "answer": "Gardening",
+        "tier": "deepcut",
+        "seq": 420,
+        "at": 1792711547670
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "Sports",
+        "tier": "plankton",
+        "seq": 421,
+        "at": 1792711549791
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "94022cac8c",
+        "answer": "Pets",
+        "tier": "schooler",
+        "seq": 422,
+        "at": 1792711550051
+      },
+      {
+        "kind": "reject",
+        "playerId": "94022cac8c",
+        "text": "hobbies",
+        "why": "repeat",
+        "seq": 423,
+        "at": 1792711552526
+      },
+      {
+        "kind": "pass",
+        "from": "94022cac8c",
+        "to": "6daf95534f",
+        "answer": "Someone's outfit",
+        "tier": "deepcut",
+        "seq": 424,
+        "at": 1792711556293
+      },
+      {
+        "kind": "pass",
+        "from": "6daf95534f",
+        "to": "94022cac8c",
+        "answer": "Traffic",
+        "tier": "schooler",
+        "seq": 425,
+        "at": 1792711556609
+      },
+      {
+        "kind": "reject",
+        "playerId": "94022cac8c",
+        "text": "appearance",
+        "why": "miss",
+        "seq": 426,
+        "at": 1792711561871
+      },
+      {
+        "kind": "pop",
+        "playerId": "94022cac8c",
+        "livesLeft": 0,
+        "seq": 427,
+        "at": 1792711564609
+      },
+      {
+        "kind": "out",
+        "playerId": "94022cac8c",
+        "place": 2,
+        "seq": 428,
+        "at": 1792711564609
+      },
+      {
+        "kind": "win",
+        "playerId": "6daf95534f",
+        "seq": 429,
+        "at": 1792711564609
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792710485473,
+        "playerId": null,
+        "name": "hittheroaddude",
+        "text": "hittheroaddude joined"
+      },
+      {
+        "id": 2,
+        "at": 1792710490598,
+        "playerId": null,
+        "name": "John Cena",
+        "text": "John Cena joined"
+      },
+      {
+        "id": 3,
+        "at": 1792710490667,
+        "playerId": null,
+        "name": "Faisal",
+        "text": "Faisal joined"
+      },
+      {
+        "id": 4,
+        "at": 1792710490734,
+        "playerId": null,
+        "name": "aero",
+        "text": "aero joined"
+      },
+      {
+        "id": 5,
+        "at": 1792710490737,
+        "playerId": null,
+        "name": "mmmmm",
+        "text": "mmmmm joined"
+      },
+      {
+        "id": 6,
+        "at": 1792710490755,
+        "playerId": null,
+        "name": "jordan",
+        "text": "jordan joined"
+      },
+      {
+        "id": 7,
+        "at": 1792710497528,
+        "playerId": null,
+        "name": "mmmmm",
+        "text": "mmmmm left"
+      },
+      {
+        "id": 8,
+        "at": 1792710593285,
+        "playerId": null,
+        "name": "Faisal",
+        "text": "Faisal left"
+      },
+      {
+        "id": 9,
+        "at": 1792710688940,
+        "playerId": null,
+        "name": "aero",
+        "text": "aero left"
+      },
+      {
+        "id": 10,
+        "at": 1792710713793,
+        "playerId": null,
+        "name": "hittheroaddude",
+        "text": "hittheroaddude won"
+      },
+      {
+        "id": 11,
+        "at": 1792710715394,
+        "playerId": null,
+        "name": "jordan",
+        "text": "jordan left"
+      },
+      {
+        "id": 12,
+        "at": 1792710721176,
+        "playerId": null,
+        "name": "hittheroaddude",
+        "text": "hittheroaddude left"
+      },
+      {
+        "id": 13,
+        "at": 1792710721403,
+        "playerId": null,
+        "name": "messi",
+        "text": "messi joined"
+      },
+      {
+        "id": 14,
+        "at": 1792710721437,
+        "playerId": null,
+        "name": "joseph",
+        "text": "joseph joined"
+      },
+      {
+        "id": 15,
+        "at": 1792710721594,
+        "playerId": null,
+        "name": "bruzil",
+        "text": "bruzil joined"
+      },
+      {
+        "id": 16,
+        "at": 1792710721799,
+        "playerId": null,
+        "name": "patat",
+        "text": "patat joined"
+      },
+      {
+        "id": 17,
+        "at": 1792710723344,
+        "playerId": null,
+        "name": "kirkin hard",
+        "text": "kirkin hard joined"
+      },
+      {
+        "id": 18,
+        "at": 1792710777003,
+        "playerId": null,
+        "name": "bruzil",
+        "text": "bruzil left"
+      },
+      {
+        "id": 19,
+        "at": 1792710837937,
+        "playerId": null,
+        "name": "joseph",
+        "text": "joseph was kicked for being idle"
+      },
+      {
+        "id": 20,
+        "at": 1792710947789,
+        "playerId": "365f9f1ffc",
+        "name": "kirkin hard",
+        "text": "lmao hard rock is not a cafe"
+      },
+      {
+        "id": 21,
+        "at": 1792710962474,
+        "playerId": null,
+        "name": "patat",
+        "text": "patat was kicked for being idle"
+      },
+      {
+        "id": 22,
+        "at": 1792711016726,
+        "playerId": null,
+        "name": "messi",
+        "text": "messi left"
+      },
+      {
+        "id": 23,
+        "at": 1792711036253,
+        "playerId": null,
+        "name": "John Cena",
+        "text": "John Cena won"
+      },
+      {
+        "id": 24,
+        "at": 1792711043540,
+        "playerId": null,
+        "name": "John Cena",
+        "text": "John Cena left"
+      },
+      {
+        "id": 25,
+        "at": 1792711047573,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 26,
+        "at": 1792711047778,
+        "playerId": null,
+        "name": "ishh",
+        "text": "ishh joined"
+      },
+      {
+        "id": 27,
+        "at": 1792711047826,
+        "playerId": null,
+        "name": "bologna sandwich",
+        "text": "bologna sandwich joined"
+      },
+      {
+        "id": 28,
+        "at": 1792711047950,
+        "playerId": null,
+        "name": "BBC d",
+        "text": "BBC d joined"
+      },
+      {
+        "id": 29,
+        "at": 1792711053990,
+        "playerId": null,
+        "name": "ishh",
+        "text": "ishh left"
+      },
+      {
+        "id": 30,
+        "at": 1792711055339,
+        "playerId": null,
+        "name": "Herman",
+        "text": "Herman joined"
+      },
+      {
+        "id": 31,
+        "at": 1792711056338,
+        "playerId": null,
+        "name": "Jack",
+        "text": "Jack joined"
+      },
+      {
+        "id": 32,
+        "at": 1792711081091,
+        "playerId": null,
+        "name": "kirkin hard",
+        "text": "kirkin hard was kicked for being idle"
+      },
+      {
+        "id": 33,
+        "at": 1792711255750,
+        "playerId": null,
+        "name": "Herman",
+        "text": "Herman left"
+      },
+      {
+        "id": 34,
+        "at": 1792711329978,
+        "playerId": null,
+        "name": "bologna sandwich",
+        "text": "bologna sandwich was kicked for being idle"
+      },
+      {
+        "id": 35,
+        "at": 1792711534026,
+        "playerId": null,
+        "name": "BBC d",
+        "text": "BBC d left"
+      },
+      {
+        "id": 36,
+        "at": 1792711564609,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792711564609
+  }
+}

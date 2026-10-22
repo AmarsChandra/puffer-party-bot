@@ -1,0 +1,2126 @@
+{
+  "won": true,
+  "room": "HVYR",
+  "playerId": "2c9139b68c",
+  "winnerId": "2c9139b68c",
+  "gameNumber": 7,
+  "gameId": "party:HVYR-1792689600169-7",
+  "rated": false,
+  "player": {
+    "id": "2c9139b68c",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 355,
+    "alive": true,
+    "answers": 10,
+    "pops": 0,
+    "best": "deepcut",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Looza",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a pattern or print (for example, stripes)"
+    },
+    {
+      "index": 2,
+      "text": "Name something you might find in a backyard"
+    },
+    {
+      "index": 3,
+      "text": "Name a unit of time (units with a defined length)"
+    },
+    {
+      "index": 4,
+      "text": "Name a type of body of water"
+    },
+    {
+      "index": 5,
+      "text": "Name an English word containing “para”"
+    },
+    {
+      "index": 6,
+      "text": "Name a juice brand"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a pattern or print (for example, stripes)",
+      "answer": "Stripes",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Stripes",
+        "tier": "tooclever"
+      }
+    },
+    {
+      "question": "Name something you might find in a backyard",
+      "answer": "Tree",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Tree",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name something you might find in a backyard",
+      "answer": "Fence",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Fence",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a unit of time (units with a defined length)",
+      "answer": "Day",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Day",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a unit of time (units with a defined length)",
+      "answer": "Week",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Week",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a type of body of water",
+      "answer": "Estuary",
+      "source": "verified",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Estuary",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a type of body of water",
+      "answer": "Fjord",
+      "source": "verified",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Fjord",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an English word containing “para”",
+      "answer": "preparation",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "preparation",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a juice brand",
+      "answer": "Lakewood",
+      "source": "verified",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Lakewood",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a juice brand",
+      "answer": "Looza",
+      "source": "verified",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Looza",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 10,
+    "accepted": 10,
+    "reactionMs": [
+      83,
+      82,
+      82,
+      82,
+      83,
+      81,
+      83,
+      82,
+      82,
+      84
+    ],
+    "sources": {
+      "codex": 5,
+      "verified": 4,
+      "bank": 1
+    },
+    "unknownCategories": [],
+    "categoryLatency": [
+      {
+        "gameNumber": 7,
+        "index": 1,
+        "question": "Name a pattern or print (for example, stripes)",
+        "observedAt": 1792691150376,
+        "readyMs": 5715,
+        "firstTurnAt": 1792691161564,
+        "firstSubmitMs": 11271,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 7,
+        "index": 2,
+        "question": "Name something you might find in a backyard",
+        "observedAt": 1792691176063,
+        "readyMs": 4260,
+        "firstTurnAt": 1792691183420,
+        "firstSubmitMs": 7439,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 7,
+        "index": 3,
+        "question": "Name a unit of time (units with a defined length)",
+        "observedAt": 1792691202977,
+        "readyMs": 5750,
+        "firstTurnAt": 1792691224839,
+        "firstSubmitMs": 21945,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 7,
+        "index": 4,
+        "question": "Name a type of body of water",
+        "observedAt": 1792691261124,
+        "readyMs": 1,
+        "firstTurnAt": 1792691275553,
+        "firstSubmitMs": 14510,
+        "firstTurnWaitMs": 81,
+        "firstSource": "verified"
+      },
+      {
+        "gameNumber": 7,
+        "index": 5,
+        "question": "Name an English word containing “para”",
+        "observedAt": 1792691314706,
+        "readyMs": 11,
+        "firstTurnAt": 1792691338365,
+        "firstSubmitMs": 23741,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      },
+      {
+        "gameNumber": 7,
+        "index": 6,
+        "question": "Name a juice brand",
+        "observedAt": 1792691360777,
+        "readyMs": 0,
+        "firstTurnAt": 1792691366366,
+        "firstSubmitMs": 5671,
+        "firstTurnWaitMs": 82,
+        "firstSource": "verified"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "HVYR",
+    "chatEnabled": true,
+    "version": 41807,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "89b10b13d8",
+    "players": [
+      {
+        "id": "2c9139b68c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "dac23ce4af",
+        "chatMuted": false,
+        "removed": false,
+        "name": "acd121",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "c99bb346bf",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Niko",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "89b10b13d8",
+        "chatMuted": false,
+        "removed": false,
+        "name": "pp",
+        "character": "krill",
+        "seat": 3,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "ef056be91a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bug",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "af46373df2",
+        "chatMuted": false,
+        "removed": false,
+        "name": "landon lock",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792691150338,
+    "winnerId": null,
+    "gameNumber": 7,
+    "gameId": "party:HVYR-1792689600169-7",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "f9de0dea65",
+        "answer": "Cash App",
+        "tier": "plankton",
+        "seq": 30479,
+        "at": 1792691037398
+      },
+      {
+        "kind": "pass",
+        "from": "f9de0dea65",
+        "to": "af46373df2",
+        "answer": "BHIM",
+        "tier": "deepcut",
+        "seq": 30480,
+        "at": 1792691044252
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "4a99c1f69e",
+        "answer": "Apple Pay",
+        "tier": "plankton",
+        "seq": 30481,
+        "at": 1792691056509
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "4a99c1f69e",
+        "seq": 30482,
+        "at": 1792691056509
+      },
+      {
+        "kind": "reject",
+        "playerId": "4a99c1f69e",
+        "text": "venmo",
+        "why": "miss",
+        "seq": 30483,
+        "at": 1792691057560
+      },
+      {
+        "kind": "pass",
+        "from": "4a99c1f69e",
+        "to": "89b10b13d8",
+        "answer": "Owl",
+        "tier": "plankton",
+        "seq": 40484,
+        "at": 1792691067320
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "f9de0dea65",
+        "answer": "Rat",
+        "tier": "schooler",
+        "seq": 40485,
+        "at": 1792691069752
+      },
+      {
+        "kind": "reject",
+        "playerId": "f9de0dea65",
+        "text": "Eye-eye",
+        "why": "miss",
+        "seq": 40486,
+        "at": 1792691072917
+      },
+      {
+        "kind": "pop",
+        "playerId": "f9de0dea65",
+        "livesLeft": 0,
+        "seq": 40487,
+        "at": 1792691077752
+      },
+      {
+        "kind": "out",
+        "playerId": "f9de0dea65",
+        "place": 4,
+        "seq": 40488,
+        "at": 1792691077752
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "4a99c1f69e",
+        "answer": "Bat",
+        "tier": "plankton",
+        "seq": 40489,
+        "at": 1792691080022
+      },
+      {
+        "kind": "pass",
+        "from": "4a99c1f69e",
+        "to": "89b10b13d8",
+        "answer": "Raccoon",
+        "tier": "plankton",
+        "seq": 40490,
+        "at": 1792691080657
+      },
+      {
+        "kind": "leave",
+        "playerId": "f9de0dea65",
+        "seq": 40491,
+        "at": 1792691083197
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "af46373df2",
+        "answer": "Cat",
+        "tier": "schooler",
+        "seq": 40492,
+        "at": 1792691084500
+      },
+      {
+        "kind": "reject",
+        "playerId": "af46373df2",
+        "text": "fish",
+        "why": "miss",
+        "seq": 40493,
+        "at": 1792691091678
+      },
+      {
+        "kind": "pop",
+        "playerId": "af46373df2",
+        "livesLeft": 1,
+        "seq": 40494,
+        "at": 1792691092500
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "4a99c1f69e",
+        "seq": 40495,
+        "at": 1792691092500
+      },
+      {
+        "kind": "reject",
+        "playerId": "4a99c1f69e",
+        "text": "fox",
+        "why": "miss",
+        "seq": 40496,
+        "at": 1792691094626
+      },
+      {
+        "kind": "reject",
+        "playerId": "4a99c1f69e",
+        "text": "footloose",
+        "why": "miss",
+        "seq": 40497,
+        "at": 1792691099688
+      },
+      {
+        "kind": "pass",
+        "from": "4a99c1f69e",
+        "to": "89b10b13d8",
+        "answer": "F1",
+        "tier": "plankton",
+        "seq": 40498,
+        "at": 1792691108587
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "af46373df2",
+        "answer": "Gran Turismo",
+        "tier": "rare",
+        "seq": 40499,
+        "at": 1792691110885
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "4a99c1f69e",
+        "answer": "Cars",
+        "tier": "plankton",
+        "seq": 40500,
+        "at": 1792691112654
+      },
+      {
+        "kind": "reject",
+        "playerId": "4a99c1f69e",
+        "text": "dirty dancing",
+        "why": "miss",
+        "seq": 40501,
+        "at": 1792691116973
+      },
+      {
+        "kind": "pop",
+        "playerId": "4a99c1f69e",
+        "livesLeft": 0,
+        "seq": 40502,
+        "at": 1792691120654
+      },
+      {
+        "kind": "out",
+        "playerId": "4a99c1f69e",
+        "place": 3,
+        "seq": 40503,
+        "at": 1792691120654
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "af46373df2",
+        "answer": "Cars 2",
+        "tier": "schooler",
+        "seq": 40504,
+        "at": 1792691122582
+      },
+      {
+        "kind": "reject",
+        "playerId": "af46373df2",
+        "text": "ford",
+        "why": "miss",
+        "seq": 40505,
+        "at": 1792691124622
+      },
+      {
+        "kind": "leave",
+        "playerId": "4a99c1f69e",
+        "seq": 40506,
+        "at": 1792691126052
+      },
+      {
+        "kind": "host",
+        "playerId": "89b10b13d8",
+        "seq": 40507,
+        "at": 1792691126052
+      },
+      {
+        "kind": "reject",
+        "playerId": "af46373df2",
+        "text": "formula 1",
+        "why": "miss",
+        "seq": 40508,
+        "at": 1792691127674
+      },
+      {
+        "kind": "reject",
+        "playerId": "af46373df2",
+        "text": "ford 1",
+        "why": "miss",
+        "seq": 40509,
+        "at": 1792691136429
+      },
+      {
+        "kind": "pop",
+        "playerId": "af46373df2",
+        "livesLeft": 0,
+        "seq": 40510,
+        "at": 1792691139411
+      },
+      {
+        "kind": "out",
+        "playerId": "af46373df2",
+        "place": 2,
+        "seq": 40511,
+        "at": 1792691139411
+      },
+      {
+        "kind": "win",
+        "playerId": "89b10b13d8",
+        "seq": 40512,
+        "at": 1792691139411
+      },
+      {
+        "kind": "lobby",
+        "seq": 40513,
+        "at": 1792691142510
+      },
+      {
+        "kind": "join",
+        "playerId": "2c9139b68c",
+        "seq": 40514,
+        "at": 1792691146322
+      },
+      {
+        "kind": "join",
+        "playerId": "dac23ce4af",
+        "seq": 40515,
+        "at": 1792691146398
+      },
+      {
+        "kind": "join",
+        "playerId": "c99bb346bf",
+        "seq": 40516,
+        "at": 1792691146752
+      },
+      {
+        "kind": "join",
+        "playerId": "ef056be91a",
+        "seq": 40517,
+        "at": 1792691147338
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792691150338,
+        "seq": 40518,
+        "at": 1792691147338
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792689600169,
+        "playerId": null,
+        "name": "your time",
+        "text": "your time joined"
+      },
+      {
+        "id": 2,
+        "at": 1792689603923,
+        "playerId": null,
+        "name": "creet",
+        "text": "creet joined"
+      },
+      {
+        "id": 3,
+        "at": 1792689603961,
+        "playerId": null,
+        "name": "Ash",
+        "text": "Ash joined"
+      },
+      {
+        "id": 4,
+        "at": 1792689603978,
+        "playerId": null,
+        "name": "John",
+        "text": "John joined"
+      },
+      {
+        "id": 5,
+        "at": 1792689604050,
+        "playerId": null,
+        "name": "jayden",
+        "text": "jayden joined"
+      },
+      {
+        "id": 6,
+        "at": 1792689604271,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww joined"
+      },
+      {
+        "id": 7,
+        "at": 1792689653491,
+        "playerId": null,
+        "name": "jayden",
+        "text": "jayden was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792689719134,
+        "playerId": null,
+        "name": "creet",
+        "text": "creet left"
+      },
+      {
+        "id": 9,
+        "at": 1792689795495,
+        "playerId": null,
+        "name": "Ash",
+        "text": "Ash left"
+      },
+      {
+        "id": 10010,
+        "at": 1792689883858,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww won"
+      },
+      {
+        "id": 10011,
+        "at": 1792689891555,
+        "playerId": null,
+        "name": "1 in a Krillion",
+        "text": "1 in a Krillion joined"
+      },
+      {
+        "id": 10012,
+        "at": 1792689891570,
+        "playerId": null,
+        "name": "orran",
+        "text": "orran joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792689891924,
+        "playerId": null,
+        "name": "fin",
+        "text": "fin joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792689904516,
+        "playerId": null,
+        "name": "John",
+        "text": "John was kicked for being idle"
+      },
+      {
+        "id": 10015,
+        "at": 1792689905881,
+        "playerId": null,
+        "name": "Verity",
+        "text": "Verity joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792689913606,
+        "playerId": null,
+        "name": "Verity",
+        "text": "Verity left"
+      },
+      {
+        "id": 10017,
+        "at": 1792689921015,
+        "playerId": null,
+        "name": "your time",
+        "text": "your time was kicked for being idle"
+      },
+      {
+        "id": 10018,
+        "at": 1792690102310,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww won"
+      },
+      {
+        "id": 10019,
+        "at": 1792690107459,
+        "playerId": null,
+        "name": "Hunter",
+        "text": "Hunter joined"
+      },
+      {
+        "id": 10020,
+        "at": 1792690107514,
+        "playerId": null,
+        "name": "papafishfish",
+        "text": "papafishfish joined"
+      },
+      {
+        "id": 10021,
+        "at": 1792690115307,
+        "playerId": null,
+        "name": "fin",
+        "text": "fin was kicked for being idle"
+      },
+      {
+        "id": 10022,
+        "at": 1792690117127,
+        "playerId": null,
+        "name": "Miller",
+        "text": "Miller joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792690145019,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww was kicked for being idle"
+      },
+      {
+        "id": 10024,
+        "at": 1792690226496,
+        "playerId": null,
+        "name": "Miller",
+        "text": "Miller was kicked for being idle"
+      },
+      {
+        "id": 20025,
+        "at": 1792690257021,
+        "playerId": null,
+        "name": "papafishfish",
+        "text": "papafishfish was kicked for being idle"
+      },
+      {
+        "id": 20026,
+        "at": 1792690330897,
+        "playerId": null,
+        "name": "Hunter",
+        "text": "Hunter won"
+      },
+      {
+        "id": 20027,
+        "at": 1792690335217,
+        "playerId": null,
+        "name": "Hunter",
+        "text": "Hunter left"
+      },
+      {
+        "id": 20028,
+        "at": 1792690337699,
+        "playerId": null,
+        "name": "Goyim",
+        "text": "Goyim joined"
+      },
+      {
+        "id": 20029,
+        "at": 1792690337964,
+        "playerId": null,
+        "name": "Khalxeesi",
+        "text": "Khalxeesi joined"
+      },
+      {
+        "id": 20030,
+        "at": 1792690338457,
+        "playerId": null,
+        "name": "KREST",
+        "text": "KREST joined"
+      },
+      {
+        "id": 20031,
+        "at": 1792690352699,
+        "playerId": null,
+        "name": "saul",
+        "text": "saul joined"
+      },
+      {
+        "id": 20032,
+        "at": 1792690375750,
+        "playerId": null,
+        "name": "orran",
+        "text": "orran was kicked for being idle"
+      },
+      {
+        "id": 20033,
+        "at": 1792690386821,
+        "playerId": null,
+        "name": "Goyim",
+        "text": "Goyim left"
+      },
+      {
+        "id": 20034,
+        "at": 1792690419362,
+        "playerId": null,
+        "name": "saul",
+        "text": "saul was kicked for being idle"
+      },
+      {
+        "id": 20035,
+        "at": 1792690467790,
+        "playerId": null,
+        "name": "Khalxeesi",
+        "text": "Khalxeesi left"
+      },
+      {
+        "id": 20036,
+        "at": 1792690555932,
+        "playerId": null,
+        "name": "1 in a Krillion",
+        "text": "1 in a Krillion won"
+      },
+      {
+        "id": 20037,
+        "at": 1792690560951,
+        "playerId": null,
+        "name": "1 in a Krillion",
+        "text": "1 in a Krillion left"
+      },
+      {
+        "id": 20038,
+        "at": 1792690562031,
+        "playerId": null,
+        "name": "balls",
+        "text": "balls joined"
+      },
+      {
+        "id": 20039,
+        "at": 1792690562041,
+        "playerId": null,
+        "name": "baldy boy",
+        "text": "baldy boy joined"
+      },
+      {
+        "id": 20040,
+        "at": 1792690562260,
+        "playerId": null,
+        "name": "joshua wardlaw",
+        "text": "joshua wardlaw joined"
+      },
+      {
+        "id": 20041,
+        "at": 1792690562465,
+        "playerId": null,
+        "name": "Basher",
+        "text": "Basher joined"
+      },
+      {
+        "id": 30042,
+        "at": 1792690577340,
+        "playerId": null,
+        "name": "poopdiddle",
+        "text": "poopdiddle joined"
+      },
+      {
+        "id": 30043,
+        "at": 1792690623360,
+        "playerId": null,
+        "name": "poopdiddle",
+        "text": "poopdiddle was kicked for being idle"
+      },
+      {
+        "id": 30044,
+        "at": 1792690786633,
+        "playerId": null,
+        "name": "KREST",
+        "text": "KREST left"
+      },
+      {
+        "id": 30045,
+        "at": 1792690831636,
+        "playerId": null,
+        "name": "joshua wardlaw",
+        "text": "joshua wardlaw left"
+      },
+      {
+        "id": 30046,
+        "at": 1792690843756,
+        "playerId": null,
+        "name": "baldy boy",
+        "text": "baldy boy was kicked for being idle"
+      },
+      {
+        "id": 30047,
+        "at": 1792690882301,
+        "playerId": null,
+        "name": "balls",
+        "text": "balls won"
+      },
+      {
+        "id": 30048,
+        "at": 1792690888731,
+        "playerId": null,
+        "name": "meg",
+        "text": "meg joined"
+      },
+      {
+        "id": 30049,
+        "at": 1792690888783,
+        "playerId": null,
+        "name": "Basher",
+        "text": "Basher left"
+      },
+      {
+        "id": 30050,
+        "at": 1792690888835,
+        "playerId": null,
+        "name": "jess",
+        "text": "jess joined"
+      },
+      {
+        "id": 30051,
+        "at": 1792690888857,
+        "playerId": null,
+        "name": "pp",
+        "text": "pp joined"
+      },
+      {
+        "id": 30052,
+        "at": 1792690889410,
+        "playerId": null,
+        "name": "AV",
+        "text": "AV joined"
+      },
+      {
+        "id": 30053,
+        "at": 1792690900376,
+        "playerId": null,
+        "name": "landon lock",
+        "text": "landon lock joined"
+      },
+      {
+        "id": 30054,
+        "at": 1792690919302,
+        "playerId": null,
+        "name": "balls",
+        "text": "balls was kicked for being idle"
+      },
+      {
+        "id": 30055,
+        "at": 1792690975604,
+        "playerId": null,
+        "name": "jess",
+        "text": "jess was kicked for being idle"
+      },
+      {
+        "id": 40056,
+        "at": 1792691083197,
+        "playerId": null,
+        "name": "AV",
+        "text": "AV left"
+      },
+      {
+        "id": 40057,
+        "at": 1792691126052,
+        "playerId": null,
+        "name": "meg",
+        "text": "meg left"
+      },
+      {
+        "id": 40058,
+        "at": 1792691139411,
+        "playerId": null,
+        "name": "pp",
+        "text": "pp won"
+      },
+      {
+        "id": 40059,
+        "at": 1792691146322,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 40060,
+        "at": 1792691146398,
+        "playerId": null,
+        "name": "acd121",
+        "text": "acd121 joined"
+      },
+      {
+        "id": 40061,
+        "at": 1792691146752,
+        "playerId": null,
+        "name": "Niko",
+        "text": "Niko joined"
+      },
+      {
+        "id": 40062,
+        "at": 1792691147338,
+        "playerId": null,
+        "name": "bug",
+        "text": "bug joined"
+      }
+    ],
+    "now": 1792691147338
+  },
+  "finalRoom": {
+    "code": "HVYR",
+    "chatEnabled": true,
+    "version": 42106,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "89b10b13d8",
+    "players": [
+      {
+        "id": "2c9139b68c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 355,
+        "alive": true,
+        "answers": 10,
+        "pops": 0,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Looza",
+          "tier": "deepcut"
+        },
+        "place": 1
+      },
+      {
+        "id": "dac23ce4af",
+        "chatMuted": false,
+        "removed": false,
+        "name": "acd121",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 40,
+        "alive": false,
+        "answers": 2,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Hour",
+          "tier": "plankton"
+        },
+        "place": 6
+      },
+      {
+        "id": "c99bb346bf",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Niko",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 70,
+        "alive": false,
+        "answers": 5,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Lake",
+          "tier": "plankton"
+        },
+        "place": 5
+      },
+      {
+        "id": "89b10b13d8",
+        "chatMuted": false,
+        "removed": false,
+        "name": "pp",
+        "character": "krill",
+        "seat": 3,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 200,
+        "alive": false,
+        "answers": 8,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "paraglider",
+          "tier": "schooler"
+        },
+        "place": 3
+      },
+      {
+        "id": "ef056be91a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bug",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 210,
+        "alive": false,
+        "answers": 7,
+        "pops": 1,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "paragraph",
+          "tier": "plankton"
+        },
+        "place": 4
+      },
+      {
+        "id": "af46373df2",
+        "chatMuted": false,
+        "removed": false,
+        "name": "landon lock",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 180,
+        "alive": false,
+        "answers": 9,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Mott's",
+          "tier": "plankton"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 6,
+      "text": "Name a juice brand",
+      "threshold": 11,
+      "accepted": 4
+    },
+    "countdownEndsAt": null,
+    "winnerId": "2c9139b68c",
+    "gameNumber": 7,
+    "gameId": "party:HVYR-1792689600169-7",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pop",
+        "playerId": "c99bb346bf",
+        "livesLeft": 1,
+        "seq": 40561,
+        "at": 1792691261084
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "89b10b13d8",
+        "seq": 40562,
+        "at": 1792691261084
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "ef056be91a",
+        "answer": "Ocean",
+        "tier": "plankton",
+        "seq": 40563,
+        "at": 1792691271122
+      },
+      {
+        "kind": "pass",
+        "from": "ef056be91a",
+        "to": "af46373df2",
+        "answer": "River",
+        "tier": "plankton",
+        "seq": 40564,
+        "at": 1792691272400
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "2c9139b68c",
+        "answer": "Pond",
+        "tier": "plankton",
+        "seq": 40565,
+        "at": 1792691275509
+      },
+      {
+        "kind": "pass",
+        "from": "2c9139b68c",
+        "to": "c99bb346bf",
+        "answer": "Estuary",
+        "tier": "rare",
+        "seq": 40566,
+        "at": 1792691275840
+      },
+      {
+        "kind": "pass",
+        "from": "c99bb346bf",
+        "to": "89b10b13d8",
+        "answer": "Lake",
+        "tier": "plankton",
+        "seq": 40567,
+        "at": 1792691279366
+      },
+      {
+        "kind": "reject",
+        "playerId": "89b10b13d8",
+        "text": "river",
+        "why": "repeat",
+        "seq": 40568,
+        "at": 1792691281297
+      },
+      {
+        "kind": "reject",
+        "playerId": "89b10b13d8",
+        "text": "jetty",
+        "why": "miss",
+        "seq": 40569,
+        "at": 1792691287871
+      },
+      {
+        "kind": "pop",
+        "playerId": "89b10b13d8",
+        "livesLeft": 1,
+        "seq": 40570,
+        "at": 1792691291872
+      },
+      {
+        "kind": "pass",
+        "from": "ef056be91a",
+        "to": "af46373df2",
+        "answer": "Swimming pool",
+        "tier": "rare",
+        "seq": 40571,
+        "at": 1792691299713
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "2c9139b68c",
+        "answer": "Delta",
+        "tier": "rare",
+        "seq": 40572,
+        "at": 1792691300809
+      },
+      {
+        "kind": "pass",
+        "from": "2c9139b68c",
+        "to": "c99bb346bf",
+        "answer": "Fjord",
+        "tier": "rare",
+        "seq": 40573,
+        "at": 1792691301137
+      },
+      {
+        "kind": "reject",
+        "playerId": "c99bb346bf",
+        "text": "pool",
+        "why": "repeat",
+        "seq": 40574,
+        "at": 1792691304538
+      },
+      {
+        "kind": "reject",
+        "playerId": "c99bb346bf",
+        "text": "bath",
+        "why": "miss",
+        "seq": 40575,
+        "at": 1792691309028
+      },
+      {
+        "kind": "pop",
+        "playerId": "c99bb346bf",
+        "livesLeft": 0,
+        "seq": 40576,
+        "at": 1792691314663
+      },
+      {
+        "kind": "out",
+        "playerId": "c99bb346bf",
+        "place": 5,
+        "seq": 40577,
+        "at": 1792691314663
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "89b10b13d8",
+        "seq": 40578,
+        "at": 1792691314663
+      },
+      {
+        "kind": "leave",
+        "playerId": "c99bb346bf",
+        "seq": 40579,
+        "at": 1792691316862
+      },
+      {
+        "kind": "reject",
+        "playerId": "89b10b13d8",
+        "text": "delta",
+        "why": "miss",
+        "seq": 40580,
+        "at": 1792691317320
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "ef056be91a",
+        "answer": "Paradox",
+        "tier": "schooler",
+        "seq": 40581,
+        "at": 1792691321926
+      },
+      {
+        "kind": "pass",
+        "from": "ef056be91a",
+        "to": "af46373df2",
+        "answer": "paragraph",
+        "tier": "plankton",
+        "seq": 40582,
+        "at": 1792691324759
+      },
+      {
+        "kind": "reject",
+        "playerId": "af46373df2",
+        "text": "paraguy",
+        "why": "miss",
+        "seq": 40583,
+        "at": 1792691328991
+      },
+      {
+        "kind": "pop",
+        "playerId": "af46373df2",
+        "livesLeft": 1,
+        "seq": 40584,
+        "at": 1792691336826
+      },
+      {
+        "kind": "pass",
+        "from": "2c9139b68c",
+        "to": "89b10b13d8",
+        "answer": "preparation",
+        "tier": "plankton",
+        "seq": 40585,
+        "at": 1792691338666
+      },
+      {
+        "kind": "pass",
+        "from": "89b10b13d8",
+        "to": "ef056be91a",
+        "answer": "paraglider",
+        "tier": "schooler",
+        "seq": 40586,
+        "at": 1792691343218
+      },
+      {
+        "kind": "reject",
+        "playerId": "ef056be91a",
+        "text": "parapalegic",
+        "why": "miss",
+        "seq": 40587,
+        "at": 1792691349470
+      },
+      {
+        "kind": "reject",
+        "playerId": "ef056be91a",
+        "text": "parapelgic",
+        "why": "miss",
+        "seq": 40588,
+        "at": 1792691357443
+      },
+      {
+        "kind": "leave",
+        "playerId": "ef056be91a",
+        "seq": 40589,
+        "at": 1792691360737
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "af46373df2",
+        "seq": 40590,
+        "at": 1792691360737
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "2c9139b68c",
+        "answer": "Minute Maid",
+        "tier": "plankton",
+        "seq": 40591,
+        "at": 1792691366279
+      },
+      {
+        "kind": "pass",
+        "from": "2c9139b68c",
+        "to": "89b10b13d8",
+        "answer": "Lakewood",
+        "tier": "deepcut",
+        "seq": 40592,
+        "at": 1792691366668
+      },
+      {
+        "kind": "pop",
+        "playerId": "89b10b13d8",
+        "livesLeft": 0,
+        "seq": 40593,
+        "at": 1792691374668
+      },
+      {
+        "kind": "out",
+        "playerId": "89b10b13d8",
+        "place": 3,
+        "seq": 40594,
+        "at": 1792691374668
+      },
+      {
+        "kind": "pass",
+        "from": "af46373df2",
+        "to": "2c9139b68c",
+        "answer": "Mott's",
+        "tier": "plankton",
+        "seq": 40595,
+        "at": 1792691380437
+      },
+      {
+        "kind": "pass",
+        "from": "2c9139b68c",
+        "to": "af46373df2",
+        "answer": "Looza",
+        "tier": "deepcut",
+        "seq": 40596,
+        "at": 1792691380783
+      },
+      {
+        "kind": "reject",
+        "playerId": "af46373df2",
+        "text": "milos",
+        "why": "miss",
+        "seq": 40597,
+        "at": 1792691386933
+      },
+      {
+        "kind": "pop",
+        "playerId": "af46373df2",
+        "livesLeft": 0,
+        "seq": 40598,
+        "at": 1792691388783
+      },
+      {
+        "kind": "out",
+        "playerId": "af46373df2",
+        "place": 2,
+        "seq": 40599,
+        "at": 1792691388783
+      },
+      {
+        "kind": "win",
+        "playerId": "2c9139b68c",
+        "seq": 40600,
+        "at": 1792691388783
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792689600169,
+        "playerId": null,
+        "name": "your time",
+        "text": "your time joined"
+      },
+      {
+        "id": 2,
+        "at": 1792689603923,
+        "playerId": null,
+        "name": "creet",
+        "text": "creet joined"
+      },
+      {
+        "id": 3,
+        "at": 1792689603961,
+        "playerId": null,
+        "name": "Ash",
+        "text": "Ash joined"
+      },
+      {
+        "id": 4,
+        "at": 1792689603978,
+        "playerId": null,
+        "name": "John",
+        "text": "John joined"
+      },
+      {
+        "id": 5,
+        "at": 1792689604050,
+        "playerId": null,
+        "name": "jayden",
+        "text": "jayden joined"
+      },
+      {
+        "id": 6,
+        "at": 1792689604271,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww joined"
+      },
+      {
+        "id": 7,
+        "at": 1792689653491,
+        "playerId": null,
+        "name": "jayden",
+        "text": "jayden was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792689719134,
+        "playerId": null,
+        "name": "creet",
+        "text": "creet left"
+      },
+      {
+        "id": 9,
+        "at": 1792689795495,
+        "playerId": null,
+        "name": "Ash",
+        "text": "Ash left"
+      },
+      {
+        "id": 10010,
+        "at": 1792689883858,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww won"
+      },
+      {
+        "id": 10011,
+        "at": 1792689891555,
+        "playerId": null,
+        "name": "1 in a Krillion",
+        "text": "1 in a Krillion joined"
+      },
+      {
+        "id": 10012,
+        "at": 1792689891570,
+        "playerId": null,
+        "name": "orran",
+        "text": "orran joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792689891924,
+        "playerId": null,
+        "name": "fin",
+        "text": "fin joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792689904516,
+        "playerId": null,
+        "name": "John",
+        "text": "John was kicked for being idle"
+      },
+      {
+        "id": 10015,
+        "at": 1792689905881,
+        "playerId": null,
+        "name": "Verity",
+        "text": "Verity joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792689913606,
+        "playerId": null,
+        "name": "Verity",
+        "text": "Verity left"
+      },
+      {
+        "id": 10017,
+        "at": 1792689921015,
+        "playerId": null,
+        "name": "your time",
+        "text": "your time was kicked for being idle"
+      },
+      {
+        "id": 10018,
+        "at": 1792690102310,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww won"
+      },
+      {
+        "id": 10019,
+        "at": 1792690107459,
+        "playerId": null,
+        "name": "Hunter",
+        "text": "Hunter joined"
+      },
+      {
+        "id": 10020,
+        "at": 1792690107514,
+        "playerId": null,
+        "name": "papafishfish",
+        "text": "papafishfish joined"
+      },
+      {
+        "id": 10021,
+        "at": 1792690115307,
+        "playerId": null,
+        "name": "fin",
+        "text": "fin was kicked for being idle"
+      },
+      {
+        "id": 10022,
+        "at": 1792690117127,
+        "playerId": null,
+        "name": "Miller",
+        "text": "Miller joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792690145019,
+        "playerId": null,
+        "name": "meowww",
+        "text": "meowww was kicked for being idle"
+      },
+      {
+        "id": 10024,
+        "at": 1792690226496,
+        "playerId": null,
+        "name": "Miller",
+        "text": "Miller was kicked for being idle"
+      },
+      {
+        "id": 20025,
+        "at": 1792690257021,
+        "playerId": null,
+        "name": "papafishfish",
+        "text": "papafishfish was kicked for being idle"
+      },
+      {
+        "id": 20026,
+        "at": 1792690330897,
+        "playerId": null,
+        "name": "Hunter",
+        "text": "Hunter won"
+      },
+      {
+        "id": 20027,
+        "at": 1792690335217,
+        "playerId": null,
+        "name": "Hunter",
+        "text": "Hunter left"
+      },
+      {
+        "id": 20028,
+        "at": 1792690337699,
+        "playerId": null,
+        "name": "Goyim",
+        "text": "Goyim joined"
+      },
+      {
+        "id": 20029,
+        "at": 1792690337964,
+        "playerId": null,
+        "name": "Khalxeesi",
+        "text": "Khalxeesi joined"
+      },
+      {
+        "id": 20030,
+        "at": 1792690338457,
+        "playerId": null,
+        "name": "KREST",
+        "text": "KREST joined"
+      },
+      {
+        "id": 20031,
+        "at": 1792690352699,
+        "playerId": null,
+        "name": "saul",
+        "text": "saul joined"
+      },
+      {
+        "id": 20032,
+        "at": 1792690375750,
+        "playerId": null,
+        "name": "orran",
+        "text": "orran was kicked for being idle"
+      },
+      {
+        "id": 20033,
+        "at": 1792690386821,
+        "playerId": null,
+        "name": "Goyim",
+        "text": "Goyim left"
+      },
+      {
+        "id": 20034,
+        "at": 1792690419362,
+        "playerId": null,
+        "name": "saul",
+        "text": "saul was kicked for being idle"
+      },
+      {
+        "id": 20035,
+        "at": 1792690467790,
+        "playerId": null,
+        "name": "Khalxeesi",
+        "text": "Khalxeesi left"
+      },
+      {
+        "id": 20036,
+        "at": 1792690555932,
+        "playerId": null,
+        "name": "1 in a Krillion",
+        "text": "1 in a Krillion won"
+      },
+      {
+        "id": 20037,
+        "at": 1792690560951,
+        "playerId": null,
+        "name": "1 in a Krillion",
+        "text": "1 in a Krillion left"
+      },
+      {
+        "id": 20038,
+        "at": 1792690562031,
+        "playerId": null,
+        "name": "balls",
+        "text": "balls joined"
+      },
+      {
+        "id": 20039,
+        "at": 1792690562041,
+        "playerId": null,
+        "name": "baldy boy",
+        "text": "baldy boy joined"
+      },
+      {
+        "id": 20040,
+        "at": 1792690562260,
+        "playerId": null,
+        "name": "joshua wardlaw",
+        "text": "joshua wardlaw joined"
+      },
+      {
+        "id": 20041,
+        "at": 1792690562465,
+        "playerId": null,
+        "name": "Basher",
+        "text": "Basher joined"
+      },
+      {
+        "id": 30042,
+        "at": 1792690577340,
+        "playerId": null,
+        "name": "poopdiddle",
+        "text": "poopdiddle joined"
+      },
+      {
+        "id": 30043,
+        "at": 1792690623360,
+        "playerId": null,
+        "name": "poopdiddle",
+        "text": "poopdiddle was kicked for being idle"
+      },
+      {
+        "id": 30044,
+        "at": 1792690786633,
+        "playerId": null,
+        "name": "KREST",
+        "text": "KREST left"
+      },
+      {
+        "id": 30045,
+        "at": 1792690831636,
+        "playerId": null,
+        "name": "joshua wardlaw",
+        "text": "joshua wardlaw left"
+      },
+      {
+        "id": 30046,
+        "at": 1792690843756,
+        "playerId": null,
+        "name": "baldy boy",
+        "text": "baldy boy was kicked for being idle"
+      },
+      {
+        "id": 30047,
+        "at": 1792690882301,
+        "playerId": null,
+        "name": "balls",
+        "text": "balls won"
+      },
+      {
+        "id": 30048,
+        "at": 1792690888731,
+        "playerId": null,
+        "name": "meg",
+        "text": "meg joined"
+      },
+      {
+        "id": 30049,
+        "at": 1792690888783,
+        "playerId": null,
+        "name": "Basher",
+        "text": "Basher left"
+      },
+      {
+        "id": 30050,
+        "at": 1792690888835,
+        "playerId": null,
+        "name": "jess",
+        "text": "jess joined"
+      },
+      {
+        "id": 30051,
+        "at": 1792690888857,
+        "playerId": null,
+        "name": "pp",
+        "text": "pp joined"
+      },
+      {
+        "id": 30052,
+        "at": 1792690889410,
+        "playerId": null,
+        "name": "AV",
+        "text": "AV joined"
+      },
+      {
+        "id": 30053,
+        "at": 1792690900376,
+        "playerId": null,
+        "name": "landon lock",
+        "text": "landon lock joined"
+      },
+      {
+        "id": 30054,
+        "at": 1792690919302,
+        "playerId": null,
+        "name": "balls",
+        "text": "balls was kicked for being idle"
+      },
+      {
+        "id": 30055,
+        "at": 1792690975604,
+        "playerId": null,
+        "name": "jess",
+        "text": "jess was kicked for being idle"
+      },
+      {
+        "id": 40056,
+        "at": 1792691083197,
+        "playerId": null,
+        "name": "AV",
+        "text": "AV left"
+      },
+      {
+        "id": 40057,
+        "at": 1792691126052,
+        "playerId": null,
+        "name": "meg",
+        "text": "meg left"
+      },
+      {
+        "id": 40058,
+        "at": 1792691139411,
+        "playerId": null,
+        "name": "pp",
+        "text": "pp won"
+      },
+      {
+        "id": 40059,
+        "at": 1792691146322,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 40060,
+        "at": 1792691146398,
+        "playerId": null,
+        "name": "acd121",
+        "text": "acd121 joined"
+      },
+      {
+        "id": 40061,
+        "at": 1792691146752,
+        "playerId": null,
+        "name": "Niko",
+        "text": "Niko joined"
+      },
+      {
+        "id": 40062,
+        "at": 1792691147338,
+        "playerId": null,
+        "name": "bug",
+        "text": "bug joined"
+      },
+      {
+        "id": 40063,
+        "at": 1792691238687,
+        "playerId": null,
+        "name": "acd121",
+        "text": "acd121 left"
+      },
+      {
+        "id": 40064,
+        "at": 1792691316862,
+        "playerId": null,
+        "name": "Niko",
+        "text": "Niko left"
+      },
+      {
+        "id": 40065,
+        "at": 1792691360737,
+        "playerId": null,
+        "name": "bug",
+        "text": "bug left"
+      },
+      {
+        "id": 40066,
+        "at": 1792691388783,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792691388783
+  }
+}

@@ -1,0 +1,2034 @@
+{
+  "won": true,
+  "room": "SSML",
+  "playerId": "752c6360fd",
+  "winnerId": "752c6360fd",
+  "gameNumber": 5,
+  "gameId": "party:SSML-1792693970745-5",
+  "rated": false,
+  "player": {
+    "id": "752c6360fd",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 1,
+    "meter": 340,
+    "alive": true,
+    "answers": 15,
+    "pops": 1,
+    "best": "rare",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Agricola",
+      "tier": "rare"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a Monopoly playing token, past or present"
+    },
+    {
+      "index": 2,
+      "text": "Name a part of the human ear"
+    },
+    {
+      "index": 3,
+      "text": "Name a place people keep or store cash"
+    },
+    {
+      "index": 4,
+      "text": "Name the most widely spoken language of an Asian country"
+    },
+    {
+      "index": 5,
+      "text": "Name a member country of the Arab League"
+    },
+    {
+      "index": 6,
+      "text": "Name an English word ending in “-proof”"
+    },
+    {
+      "index": 7,
+      "text": "Name a board game"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a Monopoly playing token, past or present",
+      "answer": "Top hat",
+      "source": "codex",
+      "reactionMs": 9445,
+      "submit": {
+        "accepted": true,
+        "answer": "Top hat",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a Monopoly playing token, past or present",
+      "answer": "Battleship",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Battleship",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a part of the human ear",
+      "answer": "Eardrum",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Eardrum",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a place people keep or store cash",
+      "answer": "Wallet",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Wallet",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a place people keep or store cash",
+      "answer": "Purse",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Purse",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a place people keep or store cash",
+      "answer": "Cash box",
+      "source": "codex",
+      "reactionMs": 264,
+      "submit": {
+        "accepted": true,
+        "answer": "Cash box",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name the most widely spoken language of an Asian country",
+      "answer": "Mandarin",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Mandarin",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name the most widely spoken language of an Asian country",
+      "answer": "Hindi",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Hindi",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "answer": "waterproof",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "waterproof",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "answer": "bulletproof",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "bulletproof",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "answer": "foolproof",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "foolproof",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "answer": "proof",
+      "source": "bank",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "proof",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "answer": "weatherproof",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "weatherproof",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-proof”",
+      "answer": "reproof",
+      "source": "bank",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "reproof",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a board game",
+      "answer": "Agricola",
+      "source": "bank",
+      "reactionMs": 86,
+      "submit": {
+        "accepted": true,
+        "answer": "Agricola",
+        "tier": "rare"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "question": "Name a place people keep or store cash",
+      "answer": "ATM",
+      "submit": {
+        "accepted": false,
+        "why": "miss"
+      }
+    }
+  ],
+  "metrics": {
+    "attempts": 16,
+    "accepted": 15,
+    "reactionMs": [
+      9445,
+      84,
+      83,
+      83,
+      81,
+      264,
+      83,
+      84,
+      83,
+      82,
+      82,
+      82,
+      83,
+      84,
+      86
+    ],
+    "sources": {
+      "codex": 8,
+      "bank": 7
+    },
+    "unknownCategories": [
+      "Name a Monopoly playing token, past or present",
+      "Name a member country of the Arab League"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 5,
+        "index": 1,
+        "question": "Name a Monopoly playing token, past or present",
+        "observedAt": 1792695094446,
+        "readyMs": 9444,
+        "firstTurnAt": 1792695094453,
+        "firstSubmitMs": 9444,
+        "firstTurnWaitMs": 9437,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 5,
+        "index": 2,
+        "question": "Name a part of the human ear",
+        "observedAt": 1792695128520,
+        "readyMs": 4181,
+        "firstTurnAt": 1792695150196,
+        "firstSubmitMs": 21758,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 5,
+        "index": 3,
+        "question": "Name a place people keep or store cash",
+        "observedAt": 1792695186132,
+        "readyMs": 4005,
+        "firstTurnAt": 1792695195471,
+        "firstSubmitMs": 9422,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 5,
+        "index": 4,
+        "question": "Name the most widely spoken language of an Asian country",
+        "observedAt": 1792695244037,
+        "readyMs": 9459,
+        "firstTurnAt": 1792695266269,
+        "firstSubmitMs": 22315,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 5,
+        "index": 5,
+        "question": "Name a member country of the Arab League",
+        "observedAt": 1792695282004,
+        "readyMs": null,
+        "firstTurnAt": 1792695290582,
+        "firstSubmitMs": null,
+        "firstTurnWaitMs": null
+      },
+      {
+        "gameNumber": 5,
+        "index": 6,
+        "question": "Name an English word ending in “-proof”",
+        "observedAt": 1792695313070,
+        "readyMs": 16,
+        "firstTurnAt": 1792695322093,
+        "firstSubmitMs": 9105,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      },
+      {
+        "gameNumber": 5,
+        "index": 7,
+        "question": "Name a board game",
+        "observedAt": 1792695367396,
+        "readyMs": 3,
+        "firstTurnAt": 1792695367400,
+        "firstSubmitMs": 86,
+        "firstTurnWaitMs": 82,
+        "firstSource": "bank"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "SSML",
+    "chatEnabled": true,
+    "version": 11450,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "68d1b594c4",
+    "players": [
+      {
+        "id": "752c6360fd",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "a1cc46de31",
+        "chatMuted": false,
+        "removed": false,
+        "name": "yippykai",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "724d6baaeb",
+        "chatMuted": false,
+        "removed": false,
+        "name": "moist puh",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "68d1b594c4",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Babz",
+        "character": "krill",
+        "seat": 3,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "ad3c20207c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "hakan",
+        "character": "schooler",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "f7d42c1c06",
+        "chatMuted": false,
+        "removed": false,
+        "name": "eternal",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792695094432,
+    "winnerId": null,
+    "gameNumber": 5,
+    "gameId": "party:SSML-1792693970745-5",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "reject",
+        "playerId": "0151c0d098",
+        "text": "hoe",
+        "why": "miss",
+        "seq": 10365,
+        "at": 1792694961097
+      },
+      {
+        "kind": "pop",
+        "playerId": "0151c0d098",
+        "livesLeft": 1,
+        "seq": 10366,
+        "at": 1792694965416
+      },
+      {
+        "kind": "pass",
+        "from": "ed09542550",
+        "to": "68d1b594c4",
+        "answer": "Chain pump",
+        "tier": "deepcut",
+        "seq": 10367,
+        "at": 1792694967209
+      },
+      {
+        "kind": "reject",
+        "playerId": "68d1b594c4",
+        "text": "cutting machine",
+        "why": "miss",
+        "seq": 10368,
+        "at": 1792694974679
+      },
+      {
+        "kind": "pass",
+        "from": "68d1b594c4",
+        "to": "ad3c20207c",
+        "answer": "Grapple",
+        "tier": "deepcut",
+        "seq": 10369,
+        "at": 1792694977869
+      },
+      {
+        "kind": "reject",
+        "playerId": "ad3c20207c",
+        "text": "saw",
+        "why": "miss",
+        "seq": 10370,
+        "at": 1792694979289
+      },
+      {
+        "kind": "pass",
+        "from": "ad3c20207c",
+        "to": "0151c0d098",
+        "answer": "Chainsaw",
+        "tier": "rare",
+        "seq": 10371,
+        "at": 1792694984676
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 3,
+        "holderId": "0151c0d098",
+        "seq": 10372,
+        "at": 1792694984676
+      },
+      {
+        "kind": "pass",
+        "from": "0151c0d098",
+        "to": "ed09542550",
+        "answer": "Swiss cheese",
+        "tier": "plankton",
+        "seq": 10373,
+        "at": 1792694990087
+      },
+      {
+        "kind": "pass",
+        "from": "ed09542550",
+        "to": "68d1b594c4",
+        "answer": "Provolone",
+        "tier": "schooler",
+        "seq": 10374,
+        "at": 1792694990507
+      },
+      {
+        "kind": "pass",
+        "from": "68d1b594c4",
+        "to": "ad3c20207c",
+        "answer": "Brie",
+        "tier": "schooler",
+        "seq": 10375,
+        "at": 1792694992196
+      },
+      {
+        "kind": "reject",
+        "playerId": "ad3c20207c",
+        "text": "baby bell",
+        "why": "miss",
+        "seq": 10376,
+        "at": 1792694993948
+      },
+      {
+        "kind": "reject",
+        "playerId": "ad3c20207c",
+        "text": "bell",
+        "why": "miss",
+        "seq": 10377,
+        "at": 1792694995578
+      },
+      {
+        "kind": "pop",
+        "playerId": "ad3c20207c",
+        "livesLeft": 1,
+        "seq": 10378,
+        "at": 1792695000196
+      },
+      {
+        "kind": "pass",
+        "from": "0151c0d098",
+        "to": "ed09542550",
+        "answer": "Parmesan",
+        "tier": "plankton",
+        "seq": 10379,
+        "at": 1792695002448
+      },
+      {
+        "kind": "pop",
+        "playerId": "ed09542550",
+        "livesLeft": 1,
+        "seq": 10380,
+        "at": 1792695029325
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "68d1b594c4",
+        "seq": 10381,
+        "at": 1792695029325
+      },
+      {
+        "kind": "leave",
+        "playerId": "ed09542550",
+        "seq": 10382,
+        "at": 1792695035507
+      },
+      {
+        "kind": "pass",
+        "from": "68d1b594c4",
+        "to": "ad3c20207c",
+        "answer": "Miss Piggy",
+        "tier": "plankton",
+        "seq": 10383,
+        "at": 1792695038756
+      },
+      {
+        "kind": "pass",
+        "from": "ad3c20207c",
+        "to": "0151c0d098",
+        "answer": "Kermit the Frog",
+        "tier": "plankton",
+        "seq": 10384,
+        "at": 1792695039890
+      },
+      {
+        "kind": "reject",
+        "playerId": "0151c0d098",
+        "text": "olw",
+        "why": "miss",
+        "seq": 10385,
+        "at": 1792695043862
+      },
+      {
+        "kind": "reject",
+        "playerId": "0151c0d098",
+        "text": "owl",
+        "why": "miss",
+        "seq": 10386,
+        "at": 1792695045278
+      },
+      {
+        "kind": "reject",
+        "playerId": "0151c0d098",
+        "text": "john",
+        "why": "miss",
+        "seq": 10387,
+        "at": 1792695047963
+      },
+      {
+        "kind": "pop",
+        "playerId": "0151c0d098",
+        "livesLeft": 0,
+        "seq": 10388,
+        "at": 1792695049258
+      },
+      {
+        "kind": "out",
+        "playerId": "0151c0d098",
+        "place": 3,
+        "seq": 10389,
+        "at": 1792695049258
+      },
+      {
+        "kind": "pass",
+        "from": "68d1b594c4",
+        "to": "ad3c20207c",
+        "answer": "Elmo",
+        "tier": "plankton",
+        "seq": 10390,
+        "at": 1792695051299
+      },
+      {
+        "kind": "reject",
+        "playerId": "ad3c20207c",
+        "text": "trash guty",
+        "why": "miss",
+        "seq": 10391,
+        "at": 1792695057457
+      },
+      {
+        "kind": "reject",
+        "playerId": "ad3c20207c",
+        "text": "trash monster",
+        "why": "miss",
+        "seq": 10392,
+        "at": 1792695060997
+      },
+      {
+        "kind": "reject",
+        "playerId": "ad3c20207c",
+        "text": "mosnter cııjeş",
+        "why": "miss",
+        "seq": 10393,
+        "at": 1792695064891
+      },
+      {
+        "kind": "pop",
+        "playerId": "ad3c20207c",
+        "livesLeft": 0,
+        "seq": 10394,
+        "at": 1792695068452
+      },
+      {
+        "kind": "out",
+        "playerId": "ad3c20207c",
+        "place": 2,
+        "seq": 10395,
+        "at": 1792695068452
+      },
+      {
+        "kind": "win",
+        "playerId": "68d1b594c4",
+        "seq": 10396,
+        "at": 1792695068452
+      },
+      {
+        "kind": "lobby",
+        "seq": 10397,
+        "at": 1792695071240
+      },
+      {
+        "kind": "leave",
+        "playerId": "0151c0d098",
+        "seq": 10398,
+        "at": 1792695073218
+      },
+      {
+        "kind": "host",
+        "playerId": "68d1b594c4",
+        "seq": 10399,
+        "at": 1792695073218
+      },
+      {
+        "kind": "join",
+        "playerId": "752c6360fd",
+        "seq": 10400,
+        "at": 1792695076377
+      },
+      {
+        "kind": "join",
+        "playerId": "a1cc46de31",
+        "seq": 10401,
+        "at": 1792695076381
+      },
+      {
+        "kind": "join",
+        "playerId": "724d6baaeb",
+        "seq": 10402,
+        "at": 1792695076432
+      },
+      {
+        "kind": "join",
+        "playerId": "f7d42c1c06",
+        "seq": 10403,
+        "at": 1792695076781
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792695094432,
+        "seq": 10404,
+        "at": 1792695091432
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792693970745,
+        "playerId": null,
+        "name": "CAL",
+        "text": "CAL joined"
+      },
+      {
+        "id": 2,
+        "at": 1792693971345,
+        "playerId": null,
+        "name": "bigdawg",
+        "text": "bigdawg joined"
+      },
+      {
+        "id": 3,
+        "at": 1792693971561,
+        "playerId": null,
+        "name": "dave",
+        "text": "dave joined"
+      },
+      {
+        "id": 4,
+        "at": 1792693971609,
+        "playerId": null,
+        "name": "boom boom",
+        "text": "boom boom joined"
+      },
+      {
+        "id": 5,
+        "at": 1792693971646,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano joined"
+      },
+      {
+        "id": 6,
+        "at": 1792693971875,
+        "playerId": null,
+        "name": "mjv",
+        "text": "mjv joined"
+      },
+      {
+        "id": 7,
+        "at": 1792694001901,
+        "playerId": null,
+        "name": "mjv",
+        "text": "mjv left"
+      },
+      {
+        "id": 10008,
+        "at": 1792694090495,
+        "playerId": null,
+        "name": "boom boom",
+        "text": "boom boom was kicked for being idle"
+      },
+      {
+        "id": 10009,
+        "at": 1792694151986,
+        "playerId": null,
+        "name": "dave",
+        "text": "dave was kicked for being idle"
+      },
+      {
+        "id": 10010,
+        "at": 1792694172871,
+        "playerId": null,
+        "name": "CAL",
+        "text": "CAL left"
+      },
+      {
+        "id": 10011,
+        "at": 1792694180418,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano won"
+      },
+      {
+        "id": 10012,
+        "at": 1792694187967,
+        "playerId": null,
+        "name": "claire",
+        "text": "claire joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792694187977,
+        "playerId": null,
+        "name": "toml",
+        "text": "toml joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792694188383,
+        "playerId": null,
+        "name": "oo",
+        "text": "oo joined"
+      },
+      {
+        "id": 10015,
+        "at": 1792694188803,
+        "playerId": null,
+        "name": "suv",
+        "text": "suv joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792694352610,
+        "playerId": null,
+        "name": "suv",
+        "text": "suv left"
+      },
+      {
+        "id": 10017,
+        "at": 1792694442056,
+        "playerId": null,
+        "name": "toml",
+        "text": "toml left"
+      },
+      {
+        "id": 10018,
+        "at": 1792694473432,
+        "playerId": null,
+        "name": "claire",
+        "text": "claire left"
+      },
+      {
+        "id": 10019,
+        "at": 1792694537262,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano won"
+      },
+      {
+        "id": 10020,
+        "at": 1792694543647,
+        "playerId": null,
+        "name": "oo",
+        "text": "oo left"
+      },
+      {
+        "id": 10021,
+        "at": 1792694548510,
+        "playerId": null,
+        "name": "bigdawg",
+        "text": "bigdawg left"
+      },
+      {
+        "id": 10022,
+        "at": 1792694560884,
+        "playerId": null,
+        "name": "alex",
+        "text": "alex joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792694561089,
+        "playerId": null,
+        "name": "Blubber",
+        "text": "Blubber joined"
+      },
+      {
+        "id": 10024,
+        "at": 1792694561259,
+        "playerId": null,
+        "name": "luci beleaua",
+        "text": "luci beleaua joined"
+      },
+      {
+        "id": 10025,
+        "at": 1792694561287,
+        "playerId": null,
+        "name": "Babz",
+        "text": "Babz joined"
+      },
+      {
+        "id": 10026,
+        "at": 1792694561310,
+        "playerId": null,
+        "name": "peeee",
+        "text": "peeee joined"
+      },
+      {
+        "id": 10027,
+        "at": 1792694564922,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano left"
+      },
+      {
+        "id": 10028,
+        "at": 1792694570073,
+        "playerId": null,
+        "name": "krilligga",
+        "text": "krilligga joined"
+      },
+      {
+        "id": 10029,
+        "at": 1792694702345,
+        "playerId": null,
+        "name": "luci beleaua",
+        "text": "luci beleaua left"
+      },
+      {
+        "id": 10030,
+        "at": 1792694814517,
+        "playerId": null,
+        "name": "krilligga",
+        "text": "krilligga was kicked for being idle"
+      },
+      {
+        "id": 10031,
+        "at": 1792694861422,
+        "playerId": null,
+        "name": "alex",
+        "text": "alex left"
+      },
+      {
+        "id": 10032,
+        "at": 1792694880827,
+        "playerId": null,
+        "name": "peeee",
+        "text": "peeee won"
+      },
+      {
+        "id": 10033,
+        "at": 1792694886585,
+        "playerId": null,
+        "name": "oerfoeoreg",
+        "text": "oerfoeoreg joined"
+      },
+      {
+        "id": 10034,
+        "at": 1792694886599,
+        "playerId": null,
+        "name": "jellybear",
+        "text": "jellybear joined"
+      },
+      {
+        "id": 10035,
+        "at": 1792694886683,
+        "playerId": null,
+        "name": "hakan",
+        "text": "hakan joined"
+      },
+      {
+        "id": 10036,
+        "at": 1792694900528,
+        "playerId": "0151c0d098",
+        "name": "peeee",
+        "text": "Hakan kardesim"
+      },
+      {
+        "id": 10037,
+        "at": 1792694921831,
+        "playerId": null,
+        "name": "Blubber",
+        "text": "Blubber was kicked for being idle"
+      },
+      {
+        "id": 10038,
+        "at": 1792694947360,
+        "playerId": null,
+        "name": "jellybear",
+        "text": "jellybear was kicked for being idle"
+      },
+      {
+        "id": 10039,
+        "at": 1792694966881,
+        "playerId": "ad3c20207c",
+        "name": "hakan",
+        "text": "machine diyo kardeşim"
+      },
+      {
+        "id": 10040,
+        "at": 1792695008113,
+        "playerId": "0151c0d098",
+        "name": "peeee",
+        "text": "Peynir diyo kardesim"
+      },
+      {
+        "id": 10041,
+        "at": 1792695029181,
+        "playerId": "ad3c20207c",
+        "name": "hakan",
+        "text": "herkes için 15 saat bekliyo bana yok"
+      },
+      {
+        "id": 10042,
+        "at": 1792695035507,
+        "playerId": null,
+        "name": "oerfoeoreg",
+        "text": "oerfoeoreg was kicked for being idle"
+      },
+      {
+        "id": 10043,
+        "at": 1792695062443,
+        "playerId": "0151c0d098",
+        "name": "peeee",
+        "text": "Ülkemiz için yap"
+      },
+      {
+        "id": 10044,
+        "at": 1792695068452,
+        "playerId": null,
+        "name": "Babz",
+        "text": "Babz won"
+      },
+      {
+        "id": 10045,
+        "at": 1792695073218,
+        "playerId": null,
+        "name": "peeee",
+        "text": "peeee left"
+      },
+      {
+        "id": 10046,
+        "at": 1792695076377,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10047,
+        "at": 1792695076381,
+        "playerId": null,
+        "name": "yippykai",
+        "text": "yippykai joined"
+      },
+      {
+        "id": 10048,
+        "at": 1792695076432,
+        "playerId": null,
+        "name": "moist puh",
+        "text": "moist puh joined"
+      },
+      {
+        "id": 10049,
+        "at": 1792695076781,
+        "playerId": null,
+        "name": "eternal",
+        "text": "eternal joined"
+      }
+    ],
+    "now": 1792695091432
+  },
+  "finalRoom": {
+    "code": "SSML",
+    "chatEnabled": true,
+    "version": 11631,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "f7d42c1c06",
+    "players": [
+      {
+        "id": "752c6360fd",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 340,
+        "alive": true,
+        "answers": 15,
+        "pops": 1,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Agricola",
+          "tier": "rare"
+        },
+        "place": 1
+      },
+      {
+        "id": "a1cc46de31",
+        "chatMuted": false,
+        "removed": false,
+        "name": "yippykai",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 50,
+        "alive": false,
+        "answers": 3,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Bank",
+          "tier": "plankton"
+        },
+        "place": 5
+      },
+      {
+        "id": "724d6baaeb",
+        "chatMuted": false,
+        "removed": false,
+        "name": "moist puh",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 130,
+        "alive": false,
+        "answers": 7,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Korean",
+          "tier": "plankton"
+        },
+        "place": 3
+      },
+      {
+        "id": "68d1b594c4",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Babz",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 110,
+        "alive": false,
+        "answers": 4,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Bed",
+          "tier": "schooler"
+        },
+        "place": 4
+      },
+      {
+        "id": "ad3c20207c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "hakan",
+        "character": "schooler",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "f7d42c1c06",
+        "chatMuted": false,
+        "removed": false,
+        "name": "eternal",
+        "character": "krill",
+        "seat": 5,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 520,
+        "alive": false,
+        "answers": 14,
+        "pops": 2,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "shatterproof",
+          "tier": "schooler"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 7,
+      "text": "Name a board game",
+      "threshold": 13,
+      "accepted": 1
+    },
+    "countdownEndsAt": null,
+    "winnerId": "752c6360fd",
+    "gameNumber": 5,
+    "gameId": "party:SSML-1792693970745-5",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pop",
+        "playerId": "68d1b594c4",
+        "livesLeft": 0,
+        "seq": 10450,
+        "at": 1792695244023
+      },
+      {
+        "kind": "out",
+        "playerId": "68d1b594c4",
+        "place": 4,
+        "seq": 10451,
+        "at": 1792695244023
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "f7d42c1c06",
+        "seq": 10452,
+        "at": 1792695244023
+      },
+      {
+        "kind": "reject",
+        "playerId": "f7d42c1c06",
+        "text": "khmercigar box",
+        "why": "miss",
+        "seq": 10453,
+        "at": 1792695260410
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "Khmer",
+        "tier": "rare",
+        "seq": 10454,
+        "at": 1792695266258
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "724d6baaeb",
+        "answer": "Mandarin",
+        "tier": "plankton",
+        "seq": 10455,
+        "at": 1792695266446
+      },
+      {
+        "kind": "pass",
+        "from": "724d6baaeb",
+        "to": "f7d42c1c06",
+        "answer": "Japanese",
+        "tier": "plankton",
+        "seq": 10456,
+        "at": 1792695271152
+      },
+      {
+        "kind": "pop",
+        "playerId": "f7d42c1c06",
+        "livesLeft": 1,
+        "seq": 10457,
+        "at": 1792695279153
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "724d6baaeb",
+        "answer": "Hindi",
+        "tier": "plankton",
+        "seq": 10458,
+        "at": 1792695280840
+      },
+      {
+        "kind": "pass",
+        "from": "724d6baaeb",
+        "to": "f7d42c1c06",
+        "answer": "Korean",
+        "tier": "plankton",
+        "seq": 10459,
+        "at": 1792695281990
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "f7d42c1c06",
+        "seq": 10460,
+        "at": 1792695281990
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "Djibouti",
+        "tier": "krillion",
+        "seq": 10461,
+        "at": 1792695290569
+      },
+      {
+        "kind": "leave",
+        "playerId": "68d1b594c4",
+        "seq": 10462,
+        "at": 1792695298337
+      },
+      {
+        "kind": "host",
+        "playerId": "f7d42c1c06",
+        "seq": 10463,
+        "at": 1792695298337
+      },
+      {
+        "kind": "pop",
+        "playerId": "752c6360fd",
+        "livesLeft": 1,
+        "seq": 10464,
+        "at": 1792695299912
+      },
+      {
+        "kind": "reject",
+        "playerId": "724d6baaeb",
+        "text": "turkey",
+        "why": "miss",
+        "seq": 10465,
+        "at": 1792695302065
+      },
+      {
+        "kind": "pop",
+        "playerId": "724d6baaeb",
+        "livesLeft": 0,
+        "seq": 10466,
+        "at": 1792695313069
+      },
+      {
+        "kind": "out",
+        "playerId": "724d6baaeb",
+        "place": 3,
+        "seq": 10467,
+        "at": 1792695313069
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "f7d42c1c06",
+        "seq": 10468,
+        "at": 1792695313069
+      },
+      {
+        "kind": "reject",
+        "playerId": "f7d42c1c06",
+        "text": "comoros",
+        "why": "miss",
+        "seq": 10469,
+        "at": 1792695317413
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "mothproof",
+        "tier": "rare",
+        "seq": 10470,
+        "at": 1792695322101
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "waterproof",
+        "tier": "plankton",
+        "seq": 10471,
+        "at": 1792695322285
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "tamperproof",
+        "tier": "rare",
+        "seq": 10472,
+        "at": 1792695329606
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "bulletproof",
+        "tier": "plankton",
+        "seq": 10473,
+        "at": 1792695329794
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "fireproof",
+        "tier": "plankton",
+        "seq": 10474,
+        "at": 1792695337594
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "foolproof",
+        "tier": "plankton",
+        "seq": 10475,
+        "at": 1792695337786
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "soundproof",
+        "tier": "plankton",
+        "seq": 10476,
+        "at": 1792695345421
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "proof",
+        "tier": "plankton",
+        "seq": 10477,
+        "at": 1792695345603
+      },
+      {
+        "kind": "leave",
+        "playerId": "724d6baaeb",
+        "seq": 10478,
+        "at": 1792695347065
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "rustproof",
+        "tier": "schooler",
+        "seq": 10479,
+        "at": 1792695353368
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "weatherproof",
+        "tier": "schooler",
+        "seq": 10480,
+        "at": 1792695353548
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "childproof",
+        "tier": "plankton",
+        "seq": 10481,
+        "at": 1792695360271
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "reproof",
+        "tier": "rare",
+        "seq": 10482,
+        "at": 1792695360534
+      },
+      {
+        "kind": "pass",
+        "from": "f7d42c1c06",
+        "to": "752c6360fd",
+        "answer": "shatterproof",
+        "tier": "schooler",
+        "seq": 10483,
+        "at": 1792695367406
+      },
+      {
+        "kind": "category",
+        "why": "cleared",
+        "index": 7,
+        "holderId": "752c6360fd",
+        "seq": 10484,
+        "at": 1792695367406
+      },
+      {
+        "kind": "pass",
+        "from": "752c6360fd",
+        "to": "f7d42c1c06",
+        "answer": "Agricola",
+        "tier": "rare",
+        "seq": 10485,
+        "at": 1792695367604
+      },
+      {
+        "kind": "reject",
+        "playerId": "f7d42c1c06",
+        "text": "shockproof",
+        "why": "miss",
+        "seq": 10486,
+        "at": 1792695374110
+      },
+      {
+        "kind": "pop",
+        "playerId": "f7d42c1c06",
+        "livesLeft": 0,
+        "seq": 10487,
+        "at": 1792695376706
+      },
+      {
+        "kind": "out",
+        "playerId": "f7d42c1c06",
+        "place": 2,
+        "seq": 10488,
+        "at": 1792695376706
+      },
+      {
+        "kind": "win",
+        "playerId": "752c6360fd",
+        "seq": 10489,
+        "at": 1792695376706
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792693970745,
+        "playerId": null,
+        "name": "CAL",
+        "text": "CAL joined"
+      },
+      {
+        "id": 2,
+        "at": 1792693971345,
+        "playerId": null,
+        "name": "bigdawg",
+        "text": "bigdawg joined"
+      },
+      {
+        "id": 3,
+        "at": 1792693971561,
+        "playerId": null,
+        "name": "dave",
+        "text": "dave joined"
+      },
+      {
+        "id": 4,
+        "at": 1792693971609,
+        "playerId": null,
+        "name": "boom boom",
+        "text": "boom boom joined"
+      },
+      {
+        "id": 5,
+        "at": 1792693971646,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano joined"
+      },
+      {
+        "id": 6,
+        "at": 1792693971875,
+        "playerId": null,
+        "name": "mjv",
+        "text": "mjv joined"
+      },
+      {
+        "id": 7,
+        "at": 1792694001901,
+        "playerId": null,
+        "name": "mjv",
+        "text": "mjv left"
+      },
+      {
+        "id": 10008,
+        "at": 1792694090495,
+        "playerId": null,
+        "name": "boom boom",
+        "text": "boom boom was kicked for being idle"
+      },
+      {
+        "id": 10009,
+        "at": 1792694151986,
+        "playerId": null,
+        "name": "dave",
+        "text": "dave was kicked for being idle"
+      },
+      {
+        "id": 10010,
+        "at": 1792694172871,
+        "playerId": null,
+        "name": "CAL",
+        "text": "CAL left"
+      },
+      {
+        "id": 10011,
+        "at": 1792694180418,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano won"
+      },
+      {
+        "id": 10012,
+        "at": 1792694187967,
+        "playerId": null,
+        "name": "claire",
+        "text": "claire joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792694187977,
+        "playerId": null,
+        "name": "toml",
+        "text": "toml joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792694188383,
+        "playerId": null,
+        "name": "oo",
+        "text": "oo joined"
+      },
+      {
+        "id": 10015,
+        "at": 1792694188803,
+        "playerId": null,
+        "name": "suv",
+        "text": "suv joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792694352610,
+        "playerId": null,
+        "name": "suv",
+        "text": "suv left"
+      },
+      {
+        "id": 10017,
+        "at": 1792694442056,
+        "playerId": null,
+        "name": "toml",
+        "text": "toml left"
+      },
+      {
+        "id": 10018,
+        "at": 1792694473432,
+        "playerId": null,
+        "name": "claire",
+        "text": "claire left"
+      },
+      {
+        "id": 10019,
+        "at": 1792694537262,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano won"
+      },
+      {
+        "id": 10020,
+        "at": 1792694543647,
+        "playerId": null,
+        "name": "oo",
+        "text": "oo left"
+      },
+      {
+        "id": 10021,
+        "at": 1792694548510,
+        "playerId": null,
+        "name": "bigdawg",
+        "text": "bigdawg left"
+      },
+      {
+        "id": 10022,
+        "at": 1792694560884,
+        "playerId": null,
+        "name": "alex",
+        "text": "alex joined"
+      },
+      {
+        "id": 10023,
+        "at": 1792694561089,
+        "playerId": null,
+        "name": "Blubber",
+        "text": "Blubber joined"
+      },
+      {
+        "id": 10024,
+        "at": 1792694561259,
+        "playerId": null,
+        "name": "luci beleaua",
+        "text": "luci beleaua joined"
+      },
+      {
+        "id": 10025,
+        "at": 1792694561287,
+        "playerId": null,
+        "name": "Babz",
+        "text": "Babz joined"
+      },
+      {
+        "id": 10026,
+        "at": 1792694561310,
+        "playerId": null,
+        "name": "peeee",
+        "text": "peeee joined"
+      },
+      {
+        "id": 10027,
+        "at": 1792694564922,
+        "playerId": null,
+        "name": "El Mexicano",
+        "text": "El Mexicano left"
+      },
+      {
+        "id": 10028,
+        "at": 1792694570073,
+        "playerId": null,
+        "name": "krilligga",
+        "text": "krilligga joined"
+      },
+      {
+        "id": 10029,
+        "at": 1792694702345,
+        "playerId": null,
+        "name": "luci beleaua",
+        "text": "luci beleaua left"
+      },
+      {
+        "id": 10030,
+        "at": 1792694814517,
+        "playerId": null,
+        "name": "krilligga",
+        "text": "krilligga was kicked for being idle"
+      },
+      {
+        "id": 10031,
+        "at": 1792694861422,
+        "playerId": null,
+        "name": "alex",
+        "text": "alex left"
+      },
+      {
+        "id": 10032,
+        "at": 1792694880827,
+        "playerId": null,
+        "name": "peeee",
+        "text": "peeee won"
+      },
+      {
+        "id": 10033,
+        "at": 1792694886585,
+        "playerId": null,
+        "name": "oerfoeoreg",
+        "text": "oerfoeoreg joined"
+      },
+      {
+        "id": 10034,
+        "at": 1792694886599,
+        "playerId": null,
+        "name": "jellybear",
+        "text": "jellybear joined"
+      },
+      {
+        "id": 10035,
+        "at": 1792694886683,
+        "playerId": null,
+        "name": "hakan",
+        "text": "hakan joined"
+      },
+      {
+        "id": 10036,
+        "at": 1792694900528,
+        "playerId": "0151c0d098",
+        "name": "peeee",
+        "text": "Hakan kardesim"
+      },
+      {
+        "id": 10037,
+        "at": 1792694921831,
+        "playerId": null,
+        "name": "Blubber",
+        "text": "Blubber was kicked for being idle"
+      },
+      {
+        "id": 10038,
+        "at": 1792694947360,
+        "playerId": null,
+        "name": "jellybear",
+        "text": "jellybear was kicked for being idle"
+      },
+      {
+        "id": 10039,
+        "at": 1792694966881,
+        "playerId": "ad3c20207c",
+        "name": "hakan",
+        "text": "machine diyo kardeşim"
+      },
+      {
+        "id": 10040,
+        "at": 1792695008113,
+        "playerId": "0151c0d098",
+        "name": "peeee",
+        "text": "Peynir diyo kardesim"
+      },
+      {
+        "id": 10041,
+        "at": 1792695029181,
+        "playerId": "ad3c20207c",
+        "name": "hakan",
+        "text": "herkes için 15 saat bekliyo bana yok"
+      },
+      {
+        "id": 10042,
+        "at": 1792695035507,
+        "playerId": null,
+        "name": "oerfoeoreg",
+        "text": "oerfoeoreg was kicked for being idle"
+      },
+      {
+        "id": 10043,
+        "at": 1792695062443,
+        "playerId": "0151c0d098",
+        "name": "peeee",
+        "text": "Ülkemiz için yap"
+      },
+      {
+        "id": 10044,
+        "at": 1792695068452,
+        "playerId": null,
+        "name": "Babz",
+        "text": "Babz won"
+      },
+      {
+        "id": 10045,
+        "at": 1792695073218,
+        "playerId": null,
+        "name": "peeee",
+        "text": "peeee left"
+      },
+      {
+        "id": 10046,
+        "at": 1792695076377,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10047,
+        "at": 1792695076381,
+        "playerId": null,
+        "name": "yippykai",
+        "text": "yippykai joined"
+      },
+      {
+        "id": 10048,
+        "at": 1792695076432,
+        "playerId": null,
+        "name": "moist puh",
+        "text": "moist puh joined"
+      },
+      {
+        "id": 10049,
+        "at": 1792695076781,
+        "playerId": null,
+        "name": "eternal",
+        "text": "eternal joined"
+      },
+      {
+        "id": 10050,
+        "at": 1792695109903,
+        "playerId": null,
+        "name": "hakan",
+        "text": "hakan was kicked for being idle"
+      },
+      {
+        "id": 10051,
+        "at": 1792695226365,
+        "playerId": null,
+        "name": "yippykai",
+        "text": "yippykai left"
+      },
+      {
+        "id": 10052,
+        "at": 1792695298337,
+        "playerId": null,
+        "name": "Babz",
+        "text": "Babz was kicked for being idle"
+      },
+      {
+        "id": 10053,
+        "at": 1792695347065,
+        "playerId": null,
+        "name": "moist puh",
+        "text": "moist puh was kicked for being idle"
+      },
+      {
+        "id": 10054,
+        "at": 1792695376706,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792695376706
+  }
+}

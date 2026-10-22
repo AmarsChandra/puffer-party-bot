@@ -1,0 +1,25 @@
+{
+  "improvement": "Quoted affix notation is normalized before local solving and answer validation",
+  "measuredAt": "2026-10-22T18:20:51.722Z",
+  "cases": [
+    {
+      "question": "Name an English word ending in “-ware”",
+      "observedPreviousReadyMs": 3762,
+      "candidatesBeforeFix": 0,
+      "candidatesAfterFix": 14,
+      "localReadyMs": 1.755,
+      "firstAnswer": "hardware"
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "observedPreviousReadyMs": 3847,
+      "candidatesBeforeFix": 0,
+      "candidatesAfterFix": 239,
+      "localReadyMs": 1.765,
+      "firstAnswer": "tourism"
+    }
+  ],
+  "modelRequests": 0,
+  "testsPassed": 30,
+  "scope": "Applies to recognized word prefix/suffix constraints; semantic qualifiers still require generation."
+}

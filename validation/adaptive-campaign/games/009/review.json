@@ -1,0 +1,79 @@
+{
+  "room": "CMMW",
+  "gameId": "party:CMMW-1792693134938-3",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name an email service (like Gmail)",
+      "readyMs": 6,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a word that means small",
+      "readyMs": 3978,
+      "firstTurnWaitMs": 83,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a planet or dwarf planet in our solar system",
+      "readyMs": 5,
+      "firstTurnWaitMs": 83,
+      "accepted": 1,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a type of landform (bodies of water don't count)",
+      "readyMs": 3147,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word containing “cycl”",
+      "readyMs": 13,
+      "firstTurnWaitMs": 82,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 27,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country with 8 or more letters",
+      "readyMs": 5729,
+      "firstTurnWaitMs": 4226,
+      "accepted": 4,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "learning": {
+    "serverConfirmedPassesObserved": 17,
+    "ownAccepted": 13,
+    "retiredMisses": 0
+  },
+  "findings": [
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a country with 8 or more letters",
+      "observedWaitMs": 5729
+    }
+  ]
+}

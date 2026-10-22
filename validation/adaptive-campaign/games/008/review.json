@@ -1,0 +1,121 @@
+{
+  "room": "GPBN",
+  "gameId": "party:GPBN-1792693259365-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a Christmas movie",
+      "readyMs": 4136,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an airline",
+      "readyMs": 3810,
+      "firstTurnWaitMs": 83,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 1,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a shade of red (pinks don't count)",
+      "readyMs": 3611,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an area in a school",
+      "readyMs": 3822,
+      "firstTurnWaitMs": 80,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 1,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a compound word containing 'house'",
+      "readyMs": 5,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a body part animals have but humans don't (like wings)",
+      "readyMs": 9769,
+      "firstTurnWaitMs": 2588,
+      "accepted": 4,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country that was once part of the British Empire",
+      "readyMs": 3285,
+      "firstTurnWaitMs": 82,
+      "accepted": 4,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name something a barber or hairstylist uses",
+      "readyMs": 3836,
+      "firstTurnWaitMs": 135,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a cocktail",
+      "readyMs": 4,
+      "firstTurnWaitMs": 82,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 55,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "learning": {
+    "serverConfirmedPassesObserved": 21,
+    "ownAccepted": 26,
+    "retiredMisses": 0
+  },
+  "findings": [
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a body part animals have but humans don't (like wings)",
+      "observedWaitMs": 9769
+    },
+    {
+      "kind": "answer-quality",
+      "question": "Name an airline",
+      "misses": 0,
+      "repeats": 1
+    },
+    {
+      "kind": "answer-quality",
+      "question": "Name an area in a school",
+      "misses": 0,
+      "repeats": 1
+    }
+  ]
+}

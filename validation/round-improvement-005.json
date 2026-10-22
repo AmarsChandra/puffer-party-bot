@@ -1,0 +1,118 @@
+{
+  "improvement": "Three underused, high-confidence answers first, followed by background alternatives; prefer requested-rare proposals over confirmed common answers while keeping confirmed rare tiers first",
+  "measuredAt": "2026-10-22T22:46:08.866Z",
+  "baseline": {
+    "samples": 8,
+    "medianFirstMs": 5612.5
+  },
+  "rareFirst": {
+    "samples": 8,
+    "medianFirstMs": 3584,
+    "samplesDetail": [
+      {
+        "round": 0,
+        "question": "Name a Monopoly playing token, past or present",
+        "firstMs": 3284,
+        "totalMs": 3376,
+        "answers": [
+          "Thimble",
+          "Wheelbarrow",
+          "Iron"
+        ]
+      },
+      {
+        "round": 0,
+        "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+        "firstMs": 4952,
+        "totalMs": 5079,
+        "answers": [
+          "Gabon",
+          "Bhutan",
+          "Oman"
+        ]
+      },
+      {
+        "round": 0,
+        "question": "Name a body part animals have but humans don't (like wings)",
+        "firstMs": 3657,
+        "totalMs": 3822,
+        "answers": [
+          "Gills",
+          "Antennae",
+          "Hooves"
+        ]
+      },
+      {
+        "round": 0,
+        "question": "Name a type of jewelry",
+        "firstMs": 3511,
+        "totalMs": 3663,
+        "answers": [
+          "Anklet",
+          "Brooch",
+          "Cufflinks"
+        ]
+      },
+      {
+        "round": 1,
+        "question": "Name a Monopoly playing token, past or present",
+        "firstMs": 3459,
+        "totalMs": 3622,
+        "answers": [
+          "Thimble",
+          "Wheelbarrow",
+          "Iron"
+        ]
+      },
+      {
+        "round": 1,
+        "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+        "firstMs": 3984,
+        "totalMs": 4056,
+        "answers": [
+          "Malta",
+          "Oman",
+          "Bhutan"
+        ]
+      },
+      {
+        "round": 1,
+        "question": "Name a body part animals have but humans don't (like wings)",
+        "firstMs": 3066,
+        "totalMs": 3219,
+        "answers": [
+          "Antennae",
+          "Hooves",
+          "Gills"
+        ]
+      },
+      {
+        "round": 1,
+        "question": "Name a type of jewelry",
+        "firstMs": 3679,
+        "totalMs": 3999,
+        "answers": [
+          "Anklet",
+          "Brooch",
+          "Cufflinks"
+        ]
+      }
+    ]
+  },
+  "medianReductionPercent": 36.14253897550111,
+  "priorMatch": {
+    "room": "GGVT",
+    "won": true,
+    "accepted": 8,
+    "rarity": {
+      "tiers": {
+        "schooler": 2,
+        "plankton": 6
+      },
+      "rareOrBetter": 0,
+      "rareOrBetterRate": 0
+    }
+  },
+  "testsPassed": 44,
+  "scope": "Small sequential samples on the same configured model. Prompts request rare answers; only actual game acknowledgements establish rarity. Baseline and rare-first samples ran minutes apart while a public client was active."
+}

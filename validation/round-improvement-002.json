@@ -1,0 +1,37 @@
+{
+  "improvement": "Skip reviewed category-specific aliases and reuse observed answers from match 8",
+  "measuredAt": "2026-10-22T18:28:47.954Z",
+  "match": {
+    "room": "GPBN",
+    "players": 6,
+    "won": true,
+    "accepted": 26,
+    "misses": 0,
+    "repeats": 2,
+    "lives": 3
+  },
+  "repeatPrevention": [
+    {
+      "question": "Name an airline",
+      "used": "Southwest",
+      "skipped": "Southwest Airlines",
+      "remaining": 24
+    },
+    {
+      "question": "Name an area in a school",
+      "used": "Gym",
+      "skipped": "Gymnasium",
+      "remaining": 21
+    }
+  ],
+  "cachedCategory": {
+    "question": "Name a body part animals have but humans don't (like wings)",
+    "previousReadyMs": 9769,
+    "nowReadyMs": 4.316625000000016,
+    "firstAnswer": "Blubber",
+    "source": "verified",
+    "modelRequests": 0
+  },
+  "testsPassed": 31,
+  "scope": "The alias rules are explicit exclusions for these two categories; no unverified proposal is upgraded to verified."
+}

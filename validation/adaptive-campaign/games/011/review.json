@@ -1,0 +1,94 @@
+{
+  "room": "JJQY",
+  "gameId": "party:JJQY-1792694597466-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a job in a film crew",
+      "readyMs": 7,
+      "firstTurnWaitMs": null,
+      "accepted": 0,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a type of flower",
+      "readyMs": 3,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 76,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a fictional character played by more than one actor in live-action movies",
+      "readyMs": 4562,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a type of jewelry",
+      "readyMs": 4337,
+      "firstTurnWaitMs": 2833,
+      "accepted": 3,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country that uses the euro",
+      "readyMs": 6421,
+      "firstTurnWaitMs": 79,
+      "accepted": 5,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a US city with over 100,000 people",
+      "readyMs": 3547,
+      "firstTurnWaitMs": 2044,
+      "accepted": 6,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+      "readyMs": 8589,
+      "firstTurnWaitMs": 2251,
+      "accepted": 2,
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "learning": {
+    "serverConfirmedPassesObserved": 19,
+    "ownAccepted": 19,
+    "retiredMisses": 0
+  },
+  "findings": [
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a country that uses the euro",
+      "observedWaitMs": 6421
+    },
+    {
+      "kind": "slow-first-answer",
+      "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+      "observedWaitMs": 8589
+    }
+  ]
+}

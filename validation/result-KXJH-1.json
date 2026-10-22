@@ -1,0 +1,496 @@
+{
+  "won": true,
+  "room": "KXJH",
+  "playerId": "306a2bfd4b",
+  "winnerId": "306a2bfd4b",
+  "gameNumber": 1,
+  "gameId": "party:KXJH-1792685070960-1",
+  "rated": false,
+  "player": {
+    "id": "306a2bfd4b",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 1,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 475,
+    "alive": true,
+    "answers": 8,
+    "pops": 0,
+    "best": "deepcut",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Iris",
+      "tier": "rare"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a type of body of water"
+    },
+    {
+      "index": 2,
+      "text": "Name a Greek god or goddess"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a type of body of water",
+      "answer": "Lagoon",
+      "source": "codex",
+      "reactionMs": 7326,
+      "submit": {
+        "accepted": true,
+        "answer": "Lagoon",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a type of body of water",
+      "answer": "Estuary",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Estuary",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a type of body of water",
+      "answer": "Fjord",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Fjord",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a type of body of water",
+      "answer": "Strait",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Strait",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a type of body of water",
+      "answer": "Sound",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Sound",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a Greek god or goddess",
+      "answer": "Hecate",
+      "source": "codex",
+      "reactionMs": 4073,
+      "submit": {
+        "accepted": true,
+        "answer": "Hecate",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a Greek god or goddess",
+      "answer": "Nemesis",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Nemesis",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a Greek god or goddess",
+      "answer": "Iris",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Iris",
+        "tier": "rare"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 8,
+    "accepted": 8,
+    "reactionMs": [
+      7326,
+      80,
+      81,
+      80,
+      82,
+      4073,
+      81,
+      81
+    ],
+    "sources": {
+      "codex": 8
+    },
+    "unknownCategories": [
+      "Name a type of body of water",
+      "Name a Greek god or goddess"
+    ]
+  },
+  "finalRoom": {
+    "code": "KXJH",
+    "chatEnabled": true,
+    "version": 68,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "816d2e2827",
+    "players": [
+      {
+        "id": "816d2e2827",
+        "chatMuted": false,
+        "removed": false,
+        "name": "harv",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 80,
+        "alive": false,
+        "answers": 6,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Athena",
+          "tier": "plankton"
+        },
+        "place": 2
+      },
+      {
+        "id": "306a2bfd4b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 475,
+        "alive": true,
+        "answers": 8,
+        "pops": 0,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Iris",
+          "tier": "rare"
+        },
+        "place": 1
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a Greek god or goddess",
+      "threshold": 16,
+      "accepted": 5
+    },
+    "countdownEndsAt": null,
+    "winnerId": "306a2bfd4b",
+    "gameNumber": 1,
+    "gameId": "party:KXJH-1792685070960-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "816d2e2827",
+        "seq": 1,
+        "at": 1792685070960
+      },
+      {
+        "kind": "join",
+        "playerId": "306a2bfd4b",
+        "seq": 2,
+        "at": 1792685073120
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792685076120,
+        "seq": 3,
+        "at": 1792685073120
+      },
+      {
+        "kind": "start",
+        "holderId": "306a2bfd4b",
+        "seq": 4,
+        "at": 1792685076120
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "306a2bfd4b",
+        "seq": 5,
+        "at": 1792685076120
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Lagoon",
+        "tier": "schooler",
+        "seq": 6,
+        "at": 1792685084072
+      },
+      {
+        "kind": "pass",
+        "from": "816d2e2827",
+        "to": "306a2bfd4b",
+        "answer": "Ocean",
+        "tier": "plankton",
+        "seq": 7,
+        "at": 1792685085283
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Estuary",
+        "tier": "rare",
+        "seq": 8,
+        "at": 1792685085966
+      },
+      {
+        "kind": "reject",
+        "playerId": "816d2e2827",
+        "text": "lakw",
+        "why": "miss",
+        "seq": 9,
+        "at": 1792685092927
+      },
+      {
+        "kind": "pass",
+        "from": "816d2e2827",
+        "to": "306a2bfd4b",
+        "answer": "Lake",
+        "tier": "plankton",
+        "seq": 10,
+        "at": 1792685095133
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Fjord",
+        "tier": "rare",
+        "seq": 11,
+        "at": 1792685095881
+      },
+      {
+        "kind": "pass",
+        "from": "816d2e2827",
+        "to": "306a2bfd4b",
+        "answer": "River",
+        "tier": "plankton",
+        "seq": 12,
+        "at": 1792685098735
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Strait",
+        "tier": "rare",
+        "seq": 13,
+        "at": 1792685099440
+      },
+      {
+        "kind": "pass",
+        "from": "816d2e2827",
+        "to": "306a2bfd4b",
+        "answer": "Stream",
+        "tier": "schooler",
+        "seq": 14,
+        "at": 1792685107163
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Sound",
+        "tier": "rare",
+        "seq": 15,
+        "at": 1792685107871
+      },
+      {
+        "kind": "reject",
+        "playerId": "816d2e2827",
+        "text": "stretch",
+        "why": "miss",
+        "seq": 16,
+        "at": 1792685114327
+      },
+      {
+        "kind": "pop",
+        "playerId": "816d2e2827",
+        "livesLeft": 1,
+        "seq": 17,
+        "at": 1792685115871
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "306a2bfd4b",
+        "seq": 18,
+        "at": 1792685115871
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Hecate",
+        "tier": "rare",
+        "seq": 19,
+        "at": 1792685122084
+      },
+      {
+        "kind": "reject",
+        "playerId": "816d2e2827",
+        "text": "zues",
+        "why": "miss",
+        "seq": 20,
+        "at": 1792685128603
+      },
+      {
+        "kind": "pass",
+        "from": "816d2e2827",
+        "to": "306a2bfd4b",
+        "answer": "Zeus",
+        "tier": "plankton",
+        "seq": 21,
+        "at": 1792685131500
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Nemesis",
+        "tier": "deepcut",
+        "seq": 22,
+        "at": 1792685132202
+      },
+      {
+        "kind": "reject",
+        "playerId": "816d2e2827",
+        "text": "posiden",
+        "why": "miss",
+        "seq": 23,
+        "at": 1792685135328
+      },
+      {
+        "kind": "pass",
+        "from": "816d2e2827",
+        "to": "306a2bfd4b",
+        "answer": "Athena",
+        "tier": "plankton",
+        "seq": 24,
+        "at": 1792685137997
+      },
+      {
+        "kind": "pass",
+        "from": "306a2bfd4b",
+        "to": "816d2e2827",
+        "answer": "Iris",
+        "tier": "rare",
+        "seq": 25,
+        "at": 1792685138723
+      },
+      {
+        "kind": "reject",
+        "playerId": "816d2e2827",
+        "text": "posiden",
+        "why": "miss",
+        "seq": 26,
+        "at": 1792685141527
+      },
+      {
+        "kind": "pop",
+        "playerId": "816d2e2827",
+        "livesLeft": 0,
+        "seq": 27,
+        "at": 1792685146723
+      },
+      {
+        "kind": "out",
+        "playerId": "816d2e2827",
+        "place": 2,
+        "seq": 28,
+        "at": 1792685146723
+      },
+      {
+        "kind": "win",
+        "playerId": "306a2bfd4b",
+        "seq": 29,
+        "at": 1792685146723
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792685070960,
+        "playerId": null,
+        "name": "harv",
+        "text": "harv joined"
+      },
+      {
+        "id": 2,
+        "at": 1792685073120,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 3,
+        "at": 1792685146723,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792685146723
+  }
+}

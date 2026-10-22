@@ -1,0 +1,90 @@
+{
+  "room": "GGVT",
+  "gameId": "party:GGVT-1792708382292-2",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name an F1 team on the current grid",
+      "readyMs": 4033,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "schooler": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a current top 200 website (by Tranco; named sites and services only)",
+      "readyMs": 3726,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "plankton": 2
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an Amazon product, service or company Amazon owns",
+      "readyMs": 3865,
+      "firstTurnWaitMs": 2360,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "plankton": 2,
+          "schooler": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a character from Winnie the Pooh",
+      "readyMs": 3711,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "plankton": 2
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "schooler": 2,
+      "plankton": 6
+    },
+    "rareOrBetter": 0,
+    "rareOrBetterRate": 0
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 18,
+    "ownAccepted": 8,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

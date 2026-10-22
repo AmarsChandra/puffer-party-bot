@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T23:26:55.557Z",
+  "cohort": "Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.",
+  "status": "awaiting-review",
+  "activeMatch": null,
+  "startedAt": "2026-10-22T17:45:39.910Z",
+  "lastResultAt": "2026-10-22T23:26:04.564Z",
+  "queue": "party",
+  "outcomes": {
+    "attempts": 17,
+    "wins": 16,
+    "losses": 0,
+    "inconclusive": 1,
+    "confirmedWinRate": 0.9411764705882353
+  },
+  "streak": {
+    "current": 7,
+    "best": 9,
+    "target": 20
+  },
+  "setupFailures": [
+    {
+      "intendedMatch": 14,
+      "at": "2026-10-22T22:51:57.251819+00:00",
+      "error": "Assigned seat was absent; membership ping returned 403",
+      "sourceVersion": "0a3dc804b3cba3e9",
+      "evidenceFile": "games/014/setup-failure-FGWN.json"
+    }
+  ],
+  "submissions": {
+    "acceptedAcknowledgements": 267,
+    "rejections": 15,
+    "acknowledgements": 282,
+    "acceptanceRate": 0.9468085106382979,
+    "misses": 4,
+    "repeats": 11
+  },
+  "rarity": {
+    "tiers": {
+      "tooclever": 1,
+      "plankton": 117,
+      "rare": 41,
+      "deepcut": 42,
+      "schooler": 58,
+      "krillion": 8
+    },
+    "rareOrBetter": 91,
+    "acceptedAcknowledgements": 267,
+    "rareOrBetterRate": 0.3408239700374532
+  },
+  "categoryReadiness": {
+    "samples": 104,
+    "medianMs": 3794,
+    "p95Ms": 8781,
+    "maxMs": 10491
+  },
+  "firstTurnWait": {
+    "samples": 102,
+    "medianMs": 82,
+    "p95Ms": 4226,
+    "maxMs": 10472
+  },
+  "latencyCoverage": {
+    "attemptsWithTimings": 16,
+    "attemptsWithoutTimings": [
+      10
+    ],
+    "categoryObservations": 105,
+    "unavailableCategories": 1,
+    "firstTurnsWithoutSubmission": 1
+  },
+  "firstAnswerSources": {
+    "codex": 82,
+    "verified": 8,
+    "bank": 13,
+    "example": 1
+  },
+  "versions": [
+    {
+      "sourceVersion": "8bf47466280d3c6c",
+      "attempts": 7,
+      "wins": 7,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 99,
+      "rareOrBetter": 23
+    },
+    {
+      "sourceVersion": "22d75adaae75a6b8",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 26,
+      "rareOrBetter": 4
+    },
+    {
+      "sourceVersion": "dc1c0fee5ae80dbe",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 13,
+      "rareOrBetter": 2
+    },
+    {
+      "sourceVersion": "5e6c7e2ce27a6484",
+      "attempts": 1,
+      "wins": 0,
+      "losses": 0,
+      "inconclusive": 1,
+      "acceptedAcknowledgements": 10,
+      "rareOrBetter": 2
+    },
+    {
+      "sourceVersion": "25e37ef270017012",
+      "attempts": 2,
+      "wins": 2,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 34,
+      "rareOrBetter": 5
+    },
+    {
+      "sourceVersion": "9342a1f62e01c630",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 8,
+      "rareOrBetter": 0
+    },
+    {
+      "sourceVersion": "2150753484b093e6",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 19,
+      "rareOrBetter": 15
+    },
+    {
+      "sourceVersion": "07f4f4c62b4477f4",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 3,
+      "rareOrBetter": 1
+    },
+    {
+      "sourceVersion": "d7cb3e9d421612f7",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 10,
+      "rareOrBetter": 4
+    },
+    {
+      "sourceVersion": "3110d705cc4407ba",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 45,
+      "rareOrBetter": 35
+    }
+  ],
+  "matches": [
+    {
+      "number": 1,
+      "gameId": "party:HVYR-1792689600169-7",
+      "room": "HVYR",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T17:49:48.826Z",
+      "acceptedAcknowledgements": 10,
+      "rejections": 0,
+      "serverAccepted": 10,
+      "rarity": {
+        "tiers": {
+          "tooclever": 1,
+          "plankton": 5,
+          "rare": 2,
+          "deepcut": 2
+        },
+        "rareOrBetter": 4,
+        "acceptedAcknowledgements": 10,
+        "rareOrBetterRate": 0.4
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 2135.5,
+        "p95Ms": 5750,
+        "maxMs": 5750
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 82,
+        "p95Ms": 83,
+        "maxMs": 83
+      },
+      "timedCategories": 6,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 2,
+      "gameId": "party:SEDU-1792690889368-3",
+      "room": "SEDU",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T17:54:17.872Z",
+      "acceptedAcknowledgements": 10,
+      "rejections": 0,
+      "serverAccepted": 10,
+      "rarity": {
+        "tiers": {
+          "plankton": 6,
+          "schooler": 4
+        },
+        "rareOrBetter": 0,
+        "acceptedAcknowledgements": 10,
+        "rareOrBetterRate": 0
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 3842,
+        "p95Ms": 4504,
+        "maxMs": 4504
+      },
+      "firstTurnWait": {
+        "samples": 5,
+        "medianMs": 83,
+        "p95Ms": 1931,
+        "maxMs": 1931
+      },
+      "timedCategories": 6,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 3,
+      "gameId": "party:PPCX-1792691665285-1",
+      "room": "PPCX",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T17:57:50.450Z",
+      "acceptedAcknowledgements": 13,
+      "rejections": 0,
+      "serverAccepted": 13,
+      "rarity": {
+        "tiers": {
+          "rare": 8,
+          "plankton": 4,
+          "schooler": 1
+        },
+        "rareOrBetter": 8,
+        "acceptedAcknowledgements": 13,
+        "rareOrBetterRate": 0.6153846153846154
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 1987,
+        "p95Ms": 5385,
+        "maxMs": 5385
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 82.5,
+        "p95Ms": 89,
+        "maxMs": 89
+      },
+      "timedCategories": 6,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 4,
+      "gameId": "party:NKPA-1792691709850-2",
+      "room": "NKPA",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T18:03:31.499Z",
+      "acceptedAcknowledgements": 20,
+      "rejections": 0,
+      "serverAccepted": 20,
+      "rarity": {
+        "tiers": {
+          "plankton": 11,
+          "schooler": 5,
+          "deepcut": 2,
+          "krillion": 1,
+          "rare": 1
+        },
+        "rareOrBetter": 4,
+        "acceptedAcknowledgements": 20,
+        "rareOrBetterRate": 0.2
+      },
+      "categoryReadiness": {
+        "samples": 7,
+        "medianMs": 4354,
+        "p95Ms": 6623,
+        "maxMs": 6623
+      },
+      "firstTurnWait": {
+        "samples": 7,
+        "medianMs": 82,
+        "p95Ms": 4237,
+        "maxMs": 4237
+      },
+      "timedCategories": 7,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 5,
+      "gameId": "party:DUSX-1792690961938-6",
+      "room": "DUSX",
+      "outcome": "win",
+      "players": 5,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T18:07:55.069Z",
+      "acceptedAcknowledgements": 16,
+      "rejections": 0,
+      "serverAccepted": 16,
+      "rarity": {
+        "tiers": {
+          "plankton": 7,
+          "schooler": 8,
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "acceptedAcknowledgements": 16,
+        "rareOrBetterRate": 0.0625
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 4125.5,
+        "p95Ms": 10491,
+        "maxMs": 10491
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 82,
+        "p95Ms": 10472,
+        "maxMs": 10472
+      },
+      "timedCategories": 6,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 6,
+      "gameId": "party:CFNZ-1792691562092-4",
+      "room": "CFNZ",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T18:13:12.879Z",
+      "acceptedAcknowledgements": 16,
+      "rejections": 6,
+      "serverAccepted": 16,
+      "rarity": {
+        "tiers": {
+          "plankton": 12,
+          "schooler": 2,
+          "rare": 2
+        },
+        "rareOrBetter": 2,
+        "acceptedAcknowledgements": 16,
+        "rareOrBetterRate": 0.125
+      },
+      "categoryReadiness": {
+        "samples": 7,
+        "medianMs": 3980,
+        "p95Ms": 10095,
+        "maxMs": 10095
+      },
+      "firstTurnWait": {
+        "samples": 7,
+        "medianMs": 82,
+        "p95Ms": 8595,
+        "maxMs": 8595
+      },
+      "timedCategories": 7,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 7,
+      "gameId": "party:SPHC-1792692797280-1",
+      "room": "SPHC",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "8bf47466280d3c6c",
+      "finishedAt": "2026-10-22T18:16:39.331Z",
+      "acceptedAcknowledgements": 14,
+      "rejections": 5,
+      "serverAccepted": 14,
+      "rarity": {
+        "tiers": {
+          "plankton": 8,
+          "rare": 4,
+          "schooler": 2
+        },
+        "rareOrBetter": 4,
+        "acceptedAcknowledgements": 14,
+        "rareOrBetterRate": 0.2857142857142857
+      },
+      "categoryReadiness": {
+        "samples": 5,
+        "medianMs": 4282,
+        "p95Ms": 5560,
+        "maxMs": 5560
+      },
+      "firstTurnWait": {
+        "samples": 5,
+        "medianMs": 83,
+        "p95Ms": 5559,
+        "maxMs": 5559
+      },
+      "timedCategories": 5,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 8,
+      "gameId": "party:GPBN-1792693259365-1",
+      "room": "GPBN",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "22d75adaae75a6b8",
+      "finishedAt": "2026-10-22T18:26:24.296Z",
+      "acceptedAcknowledgements": 26,
+      "rejections": 2,
+      "serverAccepted": 26,
+      "rarity": {
+        "tiers": {
+          "plankton": 14,
+          "schooler": 8,
+          "rare": 1,
+          "deepcut": 3
+        },
+        "rareOrBetter": 4,
+        "acceptedAcknowledgements": 26,
+        "rareOrBetterRate": 0.15384615384615385
+      },
+      "categoryReadiness": {
+        "samples": 9,
+        "medianMs": 3810,
+        "p95Ms": 9769,
+        "maxMs": 9769
+      },
+      "firstTurnWait": {
+        "samples": 9,
+        "medianMs": 82,
+        "p95Ms": 2588,
+        "maxMs": 2588
+      },
+      "timedCategories": 9,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 9,
+      "gameId": "party:CMMW-1792693134938-3",
+      "room": "CMMW",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "dc1c0fee5ae80dbe",
+      "finishedAt": "2026-10-22T18:33:16.533Z",
+      "acceptedAcknowledgements": 13,
+      "rejections": 0,
+      "serverAccepted": 13,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1,
+          "schooler": 4,
+          "plankton": 7,
+          "krillion": 1
+        },
+        "rareOrBetter": 2,
+        "acceptedAcknowledgements": 13,
+        "rareOrBetterRate": 0.15384615384615385
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 1580,
+        "p95Ms": 5729,
+        "maxMs": 5729
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 82.5,
+        "p95Ms": 4226,
+        "maxMs": 4226
+      },
+      "timedCategories": 6,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 10,
+      "gameId": "party:GGGT-1792693853947-2",
+      "room": "GGGT",
+      "outcome": "inconclusive",
+      "players": null,
+      "sourceVersion": "5e6c7e2ce27a6484",
+      "finishedAt": "2026-10-22T18:37:50.756Z",
+      "acceptedAcknowledgements": 10,
+      "rejections": 0,
+      "serverAccepted": null,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "plankton": 4,
+          "schooler": 4,
+          "rare": 1
+        },
+        "rareOrBetter": 2,
+        "acceptedAcknowledgements": 10,
+        "rareOrBetterRate": 0.2
+      },
+      "categoryReadiness": {
+        "samples": 0,
+        "medianMs": null,
+        "p95Ms": null,
+        "maxMs": null
+      },
+      "firstTurnWait": {
+        "samples": 0,
+        "medianMs": null,
+        "p95Ms": null,
+        "maxMs": null
+      },
+      "timedCategories": 0,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 11,
+      "gameId": "party:JJQY-1792694597466-1",
+      "room": "JJQY",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "25e37ef270017012",
+      "finishedAt": "2026-10-22T18:49:02.165Z",
+      "acceptedAcknowledgements": 19,
+      "rejections": 0,
+      "serverAccepted": 19,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1,
+          "rare": 1,
+          "plankton": 15,
+          "schooler": 2
+        },
+        "rareOrBetter": 2,
+        "acceptedAcknowledgements": 19,
+        "rareOrBetterRate": 0.10526315789473684
+      },
+      "categoryReadiness": {
+        "samples": 7,
+        "medianMs": 4337,
+        "p95Ms": 8589,
+        "maxMs": 8589
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 1062.5,
+        "p95Ms": 2833,
+        "maxMs": 2833
+      },
+      "timedCategories": 7,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 12,
+      "gameId": "party:SSML-1792693970745-5",
+      "room": "SSML",
+      "outcome": "win",
+      "players": 5,
+      "sourceVersion": "25e37ef270017012",
+      "finishedAt": "2026-10-22T18:56:16.698Z",
+      "acceptedAcknowledgements": 15,
+      "rejections": 1,
+      "serverAccepted": 15,
+      "rarity": {
+        "tiers": {
+          "plankton": 10,
+          "schooler": 2,
+          "rare": 3
+        },
+        "rareOrBetter": 3,
+        "acceptedAcknowledgements": 15,
+        "rareOrBetterRate": 0.2
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 4093,
+        "p95Ms": 9459,
+        "maxMs": 9459
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 82.5,
+        "p95Ms": 9437,
+        "maxMs": 9437
+      },
+      "timedCategories": 7,
+      "unavailableCategories": 1,
+      "firstTurnsWithoutSubmission": 1
+    },
+    {
+      "number": 13,
+      "gameId": "party:GGVT-1792708382292-2",
+      "room": "GGVT",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "9342a1f62e01c630",
+      "finishedAt": "2026-10-22T22:40:19.243Z",
+      "acceptedAcknowledgements": 8,
+      "rejections": 0,
+      "serverAccepted": 8,
+      "rarity": {
+        "tiers": {
+          "schooler": 2,
+          "plankton": 6
+        },
+        "rareOrBetter": 0,
+        "acceptedAcknowledgements": 8,
+        "rareOrBetterRate": 0
+      },
+      "categoryReadiness": {
+        "samples": 4,
+        "medianMs": 3795.5,
+        "p95Ms": 4033,
+        "maxMs": 4033
+      },
+      "firstTurnWait": {
+        "samples": 4,
+        "medianMs": 81,
+        "p95Ms": 2360,
+        "maxMs": 2360
+      },
+      "timedCategories": 4,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 14,
+      "gameId": "party:MJFK-1792709632478-1",
+      "room": "MJFK",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "2150753484b093e6",
+      "finishedAt": "2026-10-22T22:58:56.306Z",
+      "acceptedAcknowledgements": 19,
+      "rejections": 0,
+      "serverAccepted": 19,
+      "rarity": {
+        "tiers": {
+          "rare": 7,
+          "krillion": 1,
+          "deepcut": 7,
+          "schooler": 2,
+          "plankton": 2
+        },
+        "rareOrBetter": 15,
+        "acceptedAcknowledgements": 19,
+        "rareOrBetterRate": 0.7894736842105263
+      },
+      "categoryReadiness": {
+        "samples": 7,
+        "medianMs": 3275,
+        "p95Ms": 4025,
+        "maxMs": 4025
+      },
+      "firstTurnWait": {
+        "samples": 7,
+        "medianMs": 81,
+        "p95Ms": 3270,
+        "maxMs": 3270
+      },
+      "timedCategories": 7,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 15,
+      "gameId": "party:FTXN-1792708529959-9",
+      "room": "FTXN",
+      "outcome": "win",
+      "players": 4,
+      "sourceVersion": "07f4f4c62b4477f4",
+      "finishedAt": "2026-10-22T23:09:22.371Z",
+      "acceptedAcknowledgements": 3,
+      "rejections": 0,
+      "serverAccepted": 3,
+      "rarity": {
+        "tiers": {
+          "plankton": 2,
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "acceptedAcknowledgements": 3,
+        "rareOrBetterRate": 0.3333333333333333
+      },
+      "categoryReadiness": {
+        "samples": 3,
+        "medianMs": 3462,
+        "p95Ms": 3556,
+        "maxMs": 3556
+      },
+      "firstTurnWait": {
+        "samples": 3,
+        "medianMs": 81,
+        "p95Ms": 82,
+        "maxMs": 82
+      },
+      "timedCategories": 3,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 16,
+      "gameId": "party:YWSS-1792710649559-1",
+      "room": "YWSS",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "d7cb3e9d421612f7",
+      "finishedAt": "2026-10-22T23:15:22.387Z",
+      "acceptedAcknowledgements": 10,
+      "rejections": 0,
+      "serverAccepted": 10,
+      "rarity": {
+        "tiers": {
+          "schooler": 6,
+          "rare": 3,
+          "deepcut": 1
+        },
+        "rareOrBetter": 4,
+        "acceptedAcknowledgements": 10,
+        "rareOrBetterRate": 0.4
+      },
+      "categoryReadiness": {
+        "samples": 6,
+        "medianMs": 3692,
+        "p95Ms": 7290,
+        "maxMs": 7290
+      },
+      "firstTurnWait": {
+        "samples": 6,
+        "medianMs": 81,
+        "p95Ms": 2843,
+        "maxMs": 2843
+      },
+      "timedCategories": 6,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 17,
+      "gameId": "party:SSFF-1792710485473-3",
+      "room": "SSFF",
+      "outcome": "win",
+      "players": 5,
+      "sourceVersion": "3110d705cc4407ba",
+      "finishedAt": "2026-10-22T23:26:04.564Z",
+      "acceptedAcknowledgements": 45,
+      "rejections": 1,
+      "serverAccepted": 45,
+      "rarity": {
+        "tiers": {
+          "deepcut": 23,
+          "rare": 8,
+          "schooler": 6,
+          "plankton": 4,
+          "krillion": 4
+        },
+        "rareOrBetter": 35,
+        "acceptedAcknowledgements": 45,
+        "rareOrBetterRate": 0.7777777777777778
+      },
+      "categoryReadiness": {
+        "samples": 13,
+        "medianMs": 3468,
+        "p95Ms": 5398,
+        "maxMs": 5398
+      },
+      "firstTurnWait": {
+        "samples": 13,
+        "medianMs": 81,
+        "p95Ms": 4074,
+        "maxMs": 4074
+      },
+      "timedCategories": 13,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    }
+  ],
+  "issues": [],
+  "interpretation": [
+    "Inconclusive public attempts count as non-wins and break the streak. Setup failures before participation are listed separately.",
+    "Acceptance and rarity use retained gameplay acknowledgements; they do not count model proposals as accepted. Partial interruption logs are included when available.",
+    "Category readiness includes local, cached and generated answers. The codex source can include cached model proposals; it does not mean every answer required a fresh request.",
+    "Latency percentiles exclude missing measurements. Unavailable answers, first turns without a submission, and attempts missing timing evidence are reported separately in latencyCoverage.",
+    "Player counts exclude spectators. Model prompt requests do not establish rarity; only server tiers do.",
+    "Results are a measured sample across different categories and source versions, not a guarantee of future wins."
+  ]
+}

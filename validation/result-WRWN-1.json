@@ -1,0 +1,420 @@
+{
+  "won": true,
+  "room": "WRWN",
+  "playerId": "d11fbf7122",
+  "winnerId": "d11fbf7122",
+  "gameNumber": 1,
+  "gameId": "party:WRWN-1792685150177-1",
+  "rated": false,
+  "player": {
+    "id": "d11fbf7122",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 180,
+    "alive": true,
+    "answers": 6,
+    "pops": 0,
+    "best": "schooler",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Parallel bars",
+      "tier": "schooler"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a body part spelled with three letters"
+    },
+    {
+      "index": 2,
+      "text": "Name a piece of gymnastics apparatus"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a body part spelled with three letters",
+      "answer": "Gum",
+      "source": "codex",
+      "reactionMs": 9544,
+      "submit": {
+        "accepted": true,
+        "answer": "Gum",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a body part spelled with three letters",
+      "answer": "Rib",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Rib",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a body part spelled with three letters",
+      "answer": "Jaw",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Jaw",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a body part spelled with three letters",
+      "answer": "Hip",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Hip",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a piece of gymnastics apparatus",
+      "answer": "Pommel horse",
+      "source": "codex",
+      "reactionMs": 9978,
+      "submit": {
+        "accepted": true,
+        "answer": "Pommel horse",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a piece of gymnastics apparatus",
+      "answer": "Parallel bars",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Parallel bars",
+        "tier": "schooler"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 6,
+    "accepted": 6,
+    "reactionMs": [
+      9544,
+      80,
+      84,
+      82,
+      9978,
+      82
+    ],
+    "sources": {
+      "codex": 6
+    },
+    "unknownCategories": [
+      "Name a body part spelled with three letters",
+      "Name a piece of gymnastics apparatus"
+    ]
+  },
+  "finalRoom": {
+    "code": "WRWN",
+    "chatEnabled": true,
+    "version": 10039,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "d11fbf7122",
+    "players": [
+      {
+        "id": "d11fbf7122",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 180,
+        "alive": true,
+        "answers": 6,
+        "pops": 0,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Parallel bars",
+          "tier": "schooler"
+        },
+        "place": 1
+      },
+      {
+        "id": "9ff909505b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "seal",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 40,
+        "alive": false,
+        "answers": 4,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Balance beam",
+          "tier": "plankton"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a piece of gymnastics apparatus",
+      "threshold": 12,
+      "accepted": 3
+    },
+    "countdownEndsAt": null,
+    "winnerId": "d11fbf7122",
+    "gameNumber": 1,
+    "gameId": "party:WRWN-1792685150177-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "d11fbf7122",
+        "seq": 1,
+        "at": 1792685150177
+      },
+      {
+        "kind": "join",
+        "playerId": "9ff909505b",
+        "seq": 2,
+        "at": 1792685151029
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792685154029,
+        "seq": 3,
+        "at": 1792685151029
+      },
+      {
+        "kind": "start",
+        "holderId": "d11fbf7122",
+        "seq": 4,
+        "at": 1792685154030
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "d11fbf7122",
+        "seq": 5,
+        "at": 1792685154030
+      },
+      {
+        "kind": "pass",
+        "from": "d11fbf7122",
+        "to": "9ff909505b",
+        "answer": "Gum",
+        "tier": "schooler",
+        "seq": 6,
+        "at": 1792685163989
+      },
+      {
+        "kind": "pass",
+        "from": "9ff909505b",
+        "to": "d11fbf7122",
+        "answer": "Leg",
+        "tier": "plankton",
+        "seq": 7,
+        "at": 1792685166649
+      },
+      {
+        "kind": "pass",
+        "from": "d11fbf7122",
+        "to": "9ff909505b",
+        "answer": "Rib",
+        "tier": "schooler",
+        "seq": 8,
+        "at": 1792685167109
+      },
+      {
+        "kind": "pass",
+        "from": "9ff909505b",
+        "to": "d11fbf7122",
+        "answer": "Ear",
+        "tier": "plankton",
+        "seq": 9,
+        "at": 1792685171775
+      },
+      {
+        "kind": "pass",
+        "from": "d11fbf7122",
+        "to": "9ff909505b",
+        "answer": "Jaw",
+        "tier": "schooler",
+        "seq": 10,
+        "at": 1792685172225
+      },
+      {
+        "kind": "pass",
+        "from": "9ff909505b",
+        "to": "d11fbf7122",
+        "answer": "Arm",
+        "tier": "plankton",
+        "seq": 11,
+        "at": 1792685176247
+      },
+      {
+        "kind": "pass",
+        "from": "d11fbf7122",
+        "to": "9ff909505b",
+        "answer": "Hip",
+        "tier": "schooler",
+        "seq": 12,
+        "at": 1792685176696
+      },
+      {
+        "kind": "reject",
+        "playerId": "9ff909505b",
+        "text": "digh",
+        "why": "miss",
+        "seq": 13,
+        "at": 1792685184299
+      },
+      {
+        "kind": "pop",
+        "playerId": "9ff909505b",
+        "livesLeft": 1,
+        "seq": 14,
+        "at": 1792685184696
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "d11fbf7122",
+        "seq": 15,
+        "at": 1792685184696
+      },
+      {
+        "kind": "pass",
+        "from": "d11fbf7122",
+        "to": "9ff909505b",
+        "answer": "Pommel horse",
+        "tier": "schooler",
+        "seq": 10016,
+        "at": 1792685196570
+      },
+      {
+        "kind": "pass",
+        "from": "9ff909505b",
+        "to": "d11fbf7122",
+        "answer": "Balance beam",
+        "tier": "plankton",
+        "seq": 10017,
+        "at": 1792685200338
+      },
+      {
+        "kind": "pass",
+        "from": "d11fbf7122",
+        "to": "9ff909505b",
+        "answer": "Parallel bars",
+        "tier": "schooler",
+        "seq": 10018,
+        "at": 1792685200800
+      },
+      {
+        "kind": "reject",
+        "playerId": "9ff909505b",
+        "text": "horse",
+        "why": "repeat",
+        "seq": 10019,
+        "at": 1792685205756
+      },
+      {
+        "kind": "reject",
+        "playerId": "9ff909505b",
+        "text": "fs",
+        "why": "miss",
+        "seq": 10020,
+        "at": 1792685207956
+      },
+      {
+        "kind": "pop",
+        "playerId": "9ff909505b",
+        "livesLeft": 0,
+        "seq": 10021,
+        "at": 1792685208800
+      },
+      {
+        "kind": "out",
+        "playerId": "9ff909505b",
+        "place": 2,
+        "seq": 10022,
+        "at": 1792685208800
+      },
+      {
+        "kind": "win",
+        "playerId": "d11fbf7122",
+        "seq": 10023,
+        "at": 1792685208800
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792685150177,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 2,
+        "at": 1792685151029,
+        "playerId": null,
+        "name": "seal",
+        "text": "seal joined"
+      },
+      {
+        "id": 10003,
+        "at": 1792685208800,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792685208800
+  }
+}

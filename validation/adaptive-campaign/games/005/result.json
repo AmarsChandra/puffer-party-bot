@@ -1,0 +1,2012 @@
+{
+  "won": true,
+  "room": "DUSX",
+  "playerId": "6937b8d994",
+  "winnerId": "6937b8d994",
+  "gameNumber": 6,
+  "gameId": "party:DUSX-1792690961938-6",
+  "rated": false,
+  "player": {
+    "id": "6937b8d994",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 4,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 395,
+    "alive": true,
+    "answers": 16,
+    "pops": 0,
+    "best": "deepcut",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Belarus",
+      "tier": "schooler"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a country where an Arabic-derived script has official use"
+    },
+    {
+      "index": 2,
+      "text": "Name a citrus fruit"
+    },
+    {
+      "index": 3,
+      "text": "Name a phone setting you can switch on or off"
+    },
+    {
+      "index": 4,
+      "text": "Name an English word ending in “-ism”"
+    },
+    {
+      "index": 5,
+      "text": "Name a word that means big or large"
+    },
+    {
+      "index": 6,
+      "text": "Name a country that shares a land or maritime border with Russia"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a country where an Arabic-derived script has official use",
+      "answer": "Saudi Arabia",
+      "source": "codex",
+      "reactionMs": 10572,
+      "submit": {
+        "accepted": true,
+        "answer": "Saudi Arabia",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country where an Arabic-derived script has official use",
+      "answer": "Pakistan",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Pakistan",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a citrus fruit",
+      "answer": "Grapefruit",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Grapefruit",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a phone setting you can switch on or off",
+      "answer": "Airplane mode",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Airplane Mode",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "answer": "Capitalism",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "capitalism",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "answer": "Communism",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "communism",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a word that means big or large",
+      "answer": "Enormous",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Enormous",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a word that means big or large",
+      "answer": "Gigantic",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Gigantic",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a word that means big or large",
+      "answer": "Colossal",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Colossal",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a word that means big or large",
+      "answer": "Vast",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Vast",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Norway",
+      "source": "codex",
+      "reactionMs": 1854,
+      "submit": {
+        "accepted": true,
+        "answer": "Norway",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Finland",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Finland",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Estonia",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Estonia",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Latvia",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Latvia",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Lithuania",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Lithuania",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Belarus",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Belarus",
+        "tier": "schooler"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 16,
+    "accepted": 16,
+    "reactionMs": [
+      10572,
+      83,
+      81,
+      82,
+      81,
+      83,
+      82,
+      82,
+      82,
+      81,
+      1854,
+      82,
+      82,
+      82,
+      82,
+      83
+    ],
+    "sources": {
+      "codex": 16
+    },
+    "unknownCategories": [
+      "Name a country where an Arabic-derived script has official use",
+      "Name a country that shares a land or maritime border with Russia"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 6,
+        "index": 1,
+        "question": "Name a country where an Arabic-derived script has official use",
+        "observedAt": 1792692225428,
+        "readyMs": 10491,
+        "firstTurnAt": 1792692225448,
+        "firstSubmitMs": 10492,
+        "firstTurnWaitMs": 10472,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 6,
+        "index": 2,
+        "question": "Name a citrus fruit",
+        "observedAt": 1792692253936,
+        "readyMs": 3327,
+        "firstTurnAt": 1792692271542,
+        "firstSubmitMs": 17686,
+        "firstTurnWaitMs": 80,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 6,
+        "index": 3,
+        "question": "Name a phone setting you can switch on or off",
+        "observedAt": 1792692304156,
+        "readyMs": 4404,
+        "firstTurnAt": 1792692318448,
+        "firstSubmitMs": 14374,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 6,
+        "index": 4,
+        "question": "Name an English word ending in “-ism”",
+        "observedAt": 1792692321632,
+        "readyMs": 3847,
+        "firstTurnAt": 1792692332020,
+        "firstSubmitMs": 10469,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 6,
+        "index": 5,
+        "question": "Name a word that means big or large",
+        "observedAt": 1792692350376,
+        "readyMs": 3546,
+        "firstTurnAt": 1792692363393,
+        "firstSubmitMs": 13099,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 6,
+        "index": 6,
+        "question": "Name a country that shares a land or maritime border with Russia",
+        "observedAt": 1792692407921,
+        "readyMs": 8781,
+        "firstTurnAt": 1792692414764,
+        "firstSubmitMs": 8781,
+        "firstTurnWaitMs": 1938,
+        "firstSource": "codex"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "DUSX",
+    "chatEnabled": true,
+    "version": 21785,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "7f1ee3dd3a",
+    "players": [
+      {
+        "id": "177f0f7f27",
+        "chatMuted": false,
+        "removed": false,
+        "name": "ring",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "7f1ee3dd3a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "9whqf vncfoe",
+        "character": "krill",
+        "seat": 1,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "e8fa8da296",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Lilly",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "e261ec45bd",
+        "chatMuted": false,
+        "removed": false,
+        "name": "fih",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "6937b8d994",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "27c5595485",
+        "chatMuted": false,
+        "removed": false,
+        "name": "tay",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792692225143,
+    "winnerId": null,
+    "gameNumber": 6,
+    "gameId": "party:DUSX-1792690961938-6",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "4063aab3dd",
+        "to": "92e8b098a1",
+        "answer": "Bracelet",
+        "tier": "plankton",
+        "seq": 20448,
+        "at": 1792692132815
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "92e8b098a1",
+        "seq": 20449,
+        "at": 1792692132815
+      },
+      {
+        "kind": "pass",
+        "from": "92e8b098a1",
+        "to": "27c5595485",
+        "answer": "Suit jacket",
+        "tier": "schooler",
+        "seq": 20450,
+        "at": 1792692140327
+      },
+      {
+        "kind": "pass",
+        "from": "27c5595485",
+        "to": "5086a21c6b",
+        "answer": "Suit",
+        "tier": "plankton",
+        "seq": 20451,
+        "at": 1792692140944
+      },
+      {
+        "kind": "pass",
+        "from": "5086a21c6b",
+        "to": "4063aab3dd",
+        "answer": "Bow tie",
+        "tier": "plankton",
+        "seq": 20452,
+        "at": 1792692141160
+      },
+      {
+        "kind": "reject",
+        "playerId": "4063aab3dd",
+        "text": "cuffs",
+        "why": "miss",
+        "seq": 20453,
+        "at": 1792692147191
+      },
+      {
+        "kind": "pop",
+        "playerId": "4063aab3dd",
+        "livesLeft": 0,
+        "seq": 20454,
+        "at": 1792692149160
+      },
+      {
+        "kind": "out",
+        "playerId": "4063aab3dd",
+        "place": 4,
+        "seq": 20455,
+        "at": 1792692149160
+      },
+      {
+        "kind": "leave",
+        "playerId": "4063aab3dd",
+        "seq": 20456,
+        "at": 1792692152904
+      },
+      {
+        "kind": "host",
+        "playerId": "92e8b098a1",
+        "seq": 20457,
+        "at": 1792692152904
+      },
+      {
+        "kind": "reject",
+        "playerId": "92e8b098a1",
+        "text": "tank top",
+        "why": "miss",
+        "seq": 20458,
+        "at": 1792692160179
+      },
+      {
+        "kind": "pop",
+        "playerId": "92e8b098a1",
+        "livesLeft": 0,
+        "seq": 20459,
+        "at": 1792692164340
+      },
+      {
+        "kind": "out",
+        "playerId": "92e8b098a1",
+        "place": 3,
+        "seq": 20460,
+        "at": 1792692164340
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "27c5595485",
+        "seq": 20461,
+        "at": 1792692164340
+      },
+      {
+        "kind": "leave",
+        "playerId": "92e8b098a1",
+        "seq": 20462,
+        "at": 1792692168753
+      },
+      {
+        "kind": "host",
+        "playerId": "27c5595485",
+        "seq": 20463,
+        "at": 1792692168753
+      },
+      {
+        "kind": "pass",
+        "from": "27c5595485",
+        "to": "5086a21c6b",
+        "answer": "Chameleon",
+        "tier": "plankton",
+        "seq": 20464,
+        "at": 1792692169939
+      },
+      {
+        "kind": "reject",
+        "playerId": "5086a21c6b",
+        "text": "gizzle",
+        "why": "miss",
+        "seq": 20465,
+        "at": 1792692173238
+      },
+      {
+        "kind": "reject",
+        "playerId": "5086a21c6b",
+        "text": "monkey",
+        "why": "miss",
+        "seq": 20466,
+        "at": 1792692178090
+      },
+      {
+        "kind": "pop",
+        "playerId": "5086a21c6b",
+        "livesLeft": 1,
+        "seq": 20467,
+        "at": 1792692179695
+      },
+      {
+        "kind": "pass",
+        "from": "27c5595485",
+        "to": "5086a21c6b",
+        "answer": "Deer",
+        "tier": "schooler",
+        "seq": 20468,
+        "at": 1792692181940
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "5086a21c6b",
+        "seq": 20469,
+        "at": 1792692181940
+      },
+      {
+        "kind": "reject",
+        "playerId": "5086a21c6b",
+        "text": "deer",
+        "why": "miss",
+        "seq": 20470,
+        "at": 1792692184008
+      },
+      {
+        "kind": "pass",
+        "from": "5086a21c6b",
+        "to": "27c5595485",
+        "answer": "Cleanser",
+        "tier": "plankton",
+        "seq": 20471,
+        "at": 1792692188530
+      },
+      {
+        "kind": "reject",
+        "playerId": "27c5595485",
+        "text": "facewash",
+        "why": "repeat",
+        "seq": 20472,
+        "at": 1792692189152
+      },
+      {
+        "kind": "reject",
+        "playerId": "27c5595485",
+        "text": "face wash",
+        "why": "repeat",
+        "seq": 20473,
+        "at": 1792692191239
+      },
+      {
+        "kind": "reject",
+        "playerId": "27c5595485",
+        "text": "omg wtf",
+        "why": "miss",
+        "seq": 20474,
+        "at": 1792692196420
+      },
+      {
+        "kind": "pop",
+        "playerId": "27c5595485",
+        "livesLeft": 0,
+        "seq": 20475,
+        "at": 1792692196530
+      },
+      {
+        "kind": "out",
+        "playerId": "27c5595485",
+        "place": 2,
+        "seq": 20476,
+        "at": 1792692196530
+      },
+      {
+        "kind": "win",
+        "playerId": "5086a21c6b",
+        "seq": 20477,
+        "at": 1792692196530
+      },
+      {
+        "kind": "lobby",
+        "seq": 20478,
+        "at": 1792692204478
+      },
+      {
+        "kind": "host",
+        "playerId": "5086a21c6b",
+        "seq": 20479,
+        "at": 1792692204478
+      },
+      {
+        "kind": "join",
+        "playerId": "7f1ee3dd3a",
+        "seq": 20480,
+        "at": 1792692206402
+      },
+      {
+        "kind": "leave",
+        "playerId": "5086a21c6b",
+        "seq": 20481,
+        "at": 1792692206453
+      },
+      {
+        "kind": "host",
+        "playerId": "7f1ee3dd3a",
+        "seq": 20482,
+        "at": 1792692206453
+      },
+      {
+        "kind": "join",
+        "playerId": "177f0f7f27",
+        "seq": 20483,
+        "at": 1792692206764
+      },
+      {
+        "kind": "join",
+        "playerId": "e8fa8da296",
+        "seq": 20484,
+        "at": 1792692206927
+      },
+      {
+        "kind": "join",
+        "playerId": "e261ec45bd",
+        "seq": 20485,
+        "at": 1792692207143
+      },
+      {
+        "kind": "join",
+        "playerId": "6937b8d994",
+        "seq": 20486,
+        "at": 1792692221785
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792692225143,
+        "seq": 20487,
+        "at": 1792692222143
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792690961938,
+        "playerId": null,
+        "name": "weel",
+        "text": "weel joined"
+      },
+      {
+        "id": 2,
+        "at": 1792690962368,
+        "playerId": null,
+        "name": "relax pal",
+        "text": "relax pal joined"
+      },
+      {
+        "id": 3,
+        "at": 1792690963444,
+        "playerId": null,
+        "name": "Sam",
+        "text": "Sam joined"
+      },
+      {
+        "id": 4,
+        "at": 1792690963573,
+        "playerId": null,
+        "name": "dintaifuhh",
+        "text": "dintaifuhh joined"
+      },
+      {
+        "id": 5,
+        "at": 1792690963650,
+        "playerId": null,
+        "name": "bombo",
+        "text": "bombo joined"
+      },
+      {
+        "id": 6,
+        "at": 1792690964008,
+        "playerId": null,
+        "name": "Bob",
+        "text": "Bob joined"
+      },
+      {
+        "id": 7,
+        "at": 1792691100410,
+        "playerId": null,
+        "name": "Bob",
+        "text": "Bob was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792691121213,
+        "playerId": null,
+        "name": "dintaifuhh",
+        "text": "dintaifuhh left"
+      },
+      {
+        "id": 9,
+        "at": 1792691151657,
+        "playerId": null,
+        "name": "weel",
+        "text": "weel left"
+      },
+      {
+        "id": 10,
+        "at": 1792691197341,
+        "playerId": null,
+        "name": "Sam",
+        "text": "Sam left"
+      },
+      {
+        "id": 10011,
+        "at": 1792691264359,
+        "playerId": null,
+        "name": "relax pal",
+        "text": "relax pal won"
+      },
+      {
+        "id": 10012,
+        "at": 1792691270614,
+        "playerId": null,
+        "name": "bombo",
+        "text": "bombo left"
+      },
+      {
+        "id": 10013,
+        "at": 1792691271114,
+        "playerId": null,
+        "name": "a3",
+        "text": "a3 joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792691271114,
+        "playerId": null,
+        "name": "justaguy",
+        "text": "justaguy joined"
+      },
+      {
+        "id": 10015,
+        "at": 1792691271139,
+        "playerId": null,
+        "name": "wejr",
+        "text": "wejr joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792691271190,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion joined"
+      },
+      {
+        "id": 10017,
+        "at": 1792691272529,
+        "playerId": null,
+        "name": "ladybug",
+        "text": "ladybug joined"
+      },
+      {
+        "id": 20018,
+        "at": 1792691307911,
+        "playerId": null,
+        "name": "relax pal",
+        "text": "relax pal was kicked for being idle"
+      },
+      {
+        "id": 20019,
+        "at": 1792691358173,
+        "playerId": null,
+        "name": "a3",
+        "text": "a3 was kicked for being idle"
+      },
+      {
+        "id": 20020,
+        "at": 1792691484708,
+        "playerId": null,
+        "name": "ladybug",
+        "text": "ladybug left"
+      },
+      {
+        "id": 20021,
+        "at": 1792691515398,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion won"
+      },
+      {
+        "id": 20022,
+        "at": 1792691522010,
+        "playerId": null,
+        "name": "legend_38",
+        "text": "legend_38 joined"
+      },
+      {
+        "id": 20023,
+        "at": 1792691522017,
+        "playerId": null,
+        "name": "ink",
+        "text": "ink joined"
+      },
+      {
+        "id": 20024,
+        "at": 1792691522028,
+        "playerId": null,
+        "name": "tay",
+        "text": "tay joined"
+      },
+      {
+        "id": 20025,
+        "at": 1792691636478,
+        "playerId": null,
+        "name": "justaguy",
+        "text": "justaguy was kicked for being idle"
+      },
+      {
+        "id": 20026,
+        "at": 1792691660935,
+        "playerId": null,
+        "name": "legend_38",
+        "text": "legend_38 left"
+      },
+      {
+        "id": 20027,
+        "at": 1792691720150,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion won"
+      },
+      {
+        "id": 20028,
+        "at": 1792691723790,
+        "playerId": null,
+        "name": "wejr",
+        "text": "wejr left"
+      },
+      {
+        "id": 20029,
+        "at": 1792691725721,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH joined"
+      },
+      {
+        "id": 20030,
+        "at": 1792691725966,
+        "playerId": null,
+        "name": "big schmeeg",
+        "text": "big schmeeg joined"
+      },
+      {
+        "id": 20031,
+        "at": 1792691734846,
+        "playerId": null,
+        "name": "octopusperry",
+        "text": "octopusperry joined"
+      },
+      {
+        "id": 20032,
+        "at": 1792691824556,
+        "playerId": null,
+        "name": "octopusperry",
+        "text": "octopusperry was kicked for being idle"
+      },
+      {
+        "id": 20033,
+        "at": 1792691880821,
+        "playerId": null,
+        "name": "big schmeeg",
+        "text": "big schmeeg left"
+      },
+      {
+        "id": 20034,
+        "at": 1792691989980,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion left"
+      },
+      {
+        "id": 20035,
+        "at": 1792692008844,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH won"
+      },
+      {
+        "id": 20036,
+        "at": 1792692014513,
+        "playerId": null,
+        "name": "bruv",
+        "text": "bruv joined"
+      },
+      {
+        "id": 20037,
+        "at": 1792692014715,
+        "playerId": null,
+        "name": "krill",
+        "text": "krill joined"
+      },
+      {
+        "id": 20038,
+        "at": 1792692014737,
+        "playerId": null,
+        "name": "Hackerman",
+        "text": "Hackerman joined"
+      },
+      {
+        "id": 20039,
+        "at": 1792692020146,
+        "playerId": null,
+        "name": "Hackerman",
+        "text": "Hackerman left"
+      },
+      {
+        "id": 20040,
+        "at": 1792692110609,
+        "playerId": null,
+        "name": "ink",
+        "text": "ink left"
+      },
+      {
+        "id": 20041,
+        "at": 1792692152904,
+        "playerId": null,
+        "name": "bruv",
+        "text": "bruv left"
+      },
+      {
+        "id": 20042,
+        "at": 1792692168753,
+        "playerId": null,
+        "name": "krill",
+        "text": "krill left"
+      },
+      {
+        "id": 20043,
+        "at": 1792692196530,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH won"
+      },
+      {
+        "id": 20044,
+        "at": 1792692206402,
+        "playerId": null,
+        "name": "9whqf vncfoe",
+        "text": "9whqf vncfoe joined"
+      },
+      {
+        "id": 20045,
+        "at": 1792692206453,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH left"
+      },
+      {
+        "id": 20046,
+        "at": 1792692206764,
+        "playerId": null,
+        "name": "ring",
+        "text": "ring joined"
+      },
+      {
+        "id": 20047,
+        "at": 1792692206927,
+        "playerId": null,
+        "name": "Lilly",
+        "text": "Lilly joined"
+      },
+      {
+        "id": 20048,
+        "at": 1792692207143,
+        "playerId": null,
+        "name": "fih",
+        "text": "fih joined"
+      },
+      {
+        "id": 20049,
+        "at": 1792692221785,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      }
+    ],
+    "now": 1792692222143
+  },
+  "finalRoom": {
+    "code": "DUSX",
+    "chatEnabled": true,
+    "version": 22051,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "e261ec45bd",
+    "players": [
+      {
+        "id": "177f0f7f27",
+        "chatMuted": false,
+        "removed": false,
+        "name": "ring",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 10,
+        "alive": false,
+        "answers": 1,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Orange",
+          "tier": "plankton"
+        },
+        "place": 5
+      },
+      {
+        "id": "7f1ee3dd3a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "9whqf vncfoe",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 320,
+        "alive": false,
+        "answers": 9,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Major",
+          "tier": "rare"
+        },
+        "place": 3
+      },
+      {
+        "id": "e8fa8da296",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Lilly",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 120,
+        "alive": false,
+        "answers": 5,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Gargantuan",
+          "tier": "schooler"
+        },
+        "place": 4
+      },
+      {
+        "id": "e261ec45bd",
+        "chatMuted": false,
+        "removed": false,
+        "name": "fih",
+        "character": "krill",
+        "seat": 3,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 380,
+        "alive": false,
+        "answers": 14,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Ukraine",
+          "tier": "plankton"
+        },
+        "place": 2
+      },
+      {
+        "id": "6937b8d994",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 395,
+        "alive": true,
+        "answers": 16,
+        "pops": 0,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Belarus",
+          "tier": "schooler"
+        },
+        "place": 1
+      },
+      {
+        "id": "27c5595485",
+        "chatMuted": false,
+        "removed": false,
+        "name": "tay",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 6,
+      "text": "Name a country that shares a land or maritime border with Russia",
+      "threshold": 14,
+      "accepted": 12
+    },
+    "countdownEndsAt": null,
+    "winnerId": "6937b8d994",
+    "gameNumber": 6,
+    "gameId": "party:DUSX-1792690961938-6",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pop",
+        "playerId": "e8fa8da296",
+        "livesLeft": 0,
+        "seq": 20539,
+        "at": 1792692371626
+      },
+      {
+        "kind": "out",
+        "playerId": "e8fa8da296",
+        "place": 4,
+        "seq": 20540,
+        "at": 1792692371626
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Humongous",
+        "tier": "schooler",
+        "seq": 20541,
+        "at": 1792692376234
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "7f1ee3dd3a",
+        "answer": "Gigantic",
+        "tier": "plankton",
+        "seq": 20542,
+        "at": 1792692376363
+      },
+      {
+        "kind": "pass",
+        "from": "7f1ee3dd3a",
+        "to": "e261ec45bd",
+        "answer": "Titanic",
+        "tier": "rare",
+        "seq": 20543,
+        "at": 1792692377648
+      },
+      {
+        "kind": "reject",
+        "playerId": "e261ec45bd",
+        "text": "enormous",
+        "why": "repeat",
+        "seq": 20544,
+        "at": 1792692382347
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Great",
+        "tier": "schooler",
+        "seq": 20545,
+        "at": 1792692386667
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "7f1ee3dd3a",
+        "answer": "Colossal",
+        "tier": "schooler",
+        "seq": 20546,
+        "at": 1792692387186
+      },
+      {
+        "kind": "pass",
+        "from": "7f1ee3dd3a",
+        "to": "e261ec45bd",
+        "answer": "Immense",
+        "tier": "schooler",
+        "seq": 20547,
+        "at": 1792692396935
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Massive",
+        "tier": "plankton",
+        "seq": 20548,
+        "at": 1792692400808
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "7f1ee3dd3a",
+        "answer": "Vast",
+        "tier": "schooler",
+        "seq": 20549,
+        "at": 1792692401191
+      },
+      {
+        "kind": "reject",
+        "playerId": "7f1ee3dd3a",
+        "text": "vast",
+        "why": "repeat",
+        "seq": 20550,
+        "at": 1792692405231
+      },
+      {
+        "kind": "pass",
+        "from": "7f1ee3dd3a",
+        "to": "e261ec45bd",
+        "answer": "Major",
+        "tier": "rare",
+        "seq": 20551,
+        "at": 1792692407905
+      },
+      {
+        "kind": "category",
+        "why": "cleared",
+        "index": 6,
+        "holderId": "e261ec45bd",
+        "seq": 20552,
+        "at": 1792692407905
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "China",
+        "tier": "plankton",
+        "seq": 20553,
+        "at": 1792692414755
+      },
+      {
+        "kind": "leave",
+        "playerId": "e8fa8da296",
+        "seq": 20554,
+        "at": 1792692415415
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "7f1ee3dd3a",
+        "answer": "Norway",
+        "tier": "schooler",
+        "seq": 20555,
+        "at": 1792692416798
+      },
+      {
+        "kind": "reject",
+        "playerId": "7f1ee3dd3a",
+        "text": "curcial",
+        "why": "miss",
+        "seq": 20556,
+        "at": 1792692419125
+      },
+      {
+        "kind": "reject",
+        "playerId": "7f1ee3dd3a",
+        "text": "substantia;",
+        "why": "miss",
+        "seq": 20557,
+        "at": 1792692421918
+      },
+      {
+        "kind": "pop",
+        "playerId": "7f1ee3dd3a",
+        "livesLeft": 0,
+        "seq": 20558,
+        "at": 1792692424798
+      },
+      {
+        "kind": "out",
+        "playerId": "7f1ee3dd3a",
+        "place": 3,
+        "seq": 20559,
+        "at": 1792692424798
+      },
+      {
+        "kind": "leave",
+        "playerId": "7f1ee3dd3a",
+        "seq": 20560,
+        "at": 1792692430296
+      },
+      {
+        "kind": "host",
+        "playerId": "e261ec45bd",
+        "seq": 20561,
+        "at": 1792692430296
+      },
+      {
+        "kind": "reject",
+        "playerId": "e261ec45bd",
+        "text": "norway",
+        "why": "repeat",
+        "seq": 20562,
+        "at": 1792692430505
+      },
+      {
+        "kind": "reject",
+        "playerId": "e261ec45bd",
+        "text": "korea",
+        "why": "miss",
+        "seq": 20563,
+        "at": 1792692437397
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "North Korea",
+        "tier": "rare",
+        "seq": 20564,
+        "at": 1792692440276
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "e261ec45bd",
+        "answer": "Finland",
+        "tier": "plankton",
+        "seq": 20565,
+        "at": 1792692440515
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Poland",
+        "tier": "schooler",
+        "seq": 20566,
+        "at": 1792692445679
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "e261ec45bd",
+        "answer": "Estonia",
+        "tier": "schooler",
+        "seq": 20567,
+        "at": 1792692445815
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Georgia",
+        "tier": "rare",
+        "seq": 20568,
+        "at": 1792692451365
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "e261ec45bd",
+        "answer": "Latvia",
+        "tier": "schooler",
+        "seq": 20569,
+        "at": 1792692451496
+      },
+      {
+        "kind": "reject",
+        "playerId": "e261ec45bd",
+        "text": "geog",
+        "why": "miss",
+        "seq": 20570,
+        "at": 1792692452700
+      },
+      {
+        "kind": "reject",
+        "playerId": "e261ec45bd",
+        "text": "georgia",
+        "why": "repeat",
+        "seq": 20571,
+        "at": 1792692454845
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Mongolia",
+        "tier": "schooler",
+        "seq": 20572,
+        "at": 1792692459187
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "e261ec45bd",
+        "answer": "Lithuania",
+        "tier": "deepcut",
+        "seq": 20573,
+        "at": 1792692459347
+      },
+      {
+        "kind": "pass",
+        "from": "e261ec45bd",
+        "to": "6937b8d994",
+        "answer": "Ukraine",
+        "tier": "plankton",
+        "seq": 20574,
+        "at": 1792692466762
+      },
+      {
+        "kind": "pass",
+        "from": "6937b8d994",
+        "to": "e261ec45bd",
+        "answer": "Belarus",
+        "tier": "schooler",
+        "seq": 20575,
+        "at": 1792692467054
+      },
+      {
+        "kind": "pop",
+        "playerId": "e261ec45bd",
+        "livesLeft": 0,
+        "seq": 20576,
+        "at": 1792692475054
+      },
+      {
+        "kind": "out",
+        "playerId": "e261ec45bd",
+        "place": 2,
+        "seq": 20577,
+        "at": 1792692475054
+      },
+      {
+        "kind": "win",
+        "playerId": "6937b8d994",
+        "seq": 20578,
+        "at": 1792692475054
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792690961938,
+        "playerId": null,
+        "name": "weel",
+        "text": "weel joined"
+      },
+      {
+        "id": 2,
+        "at": 1792690962368,
+        "playerId": null,
+        "name": "relax pal",
+        "text": "relax pal joined"
+      },
+      {
+        "id": 3,
+        "at": 1792690963444,
+        "playerId": null,
+        "name": "Sam",
+        "text": "Sam joined"
+      },
+      {
+        "id": 4,
+        "at": 1792690963573,
+        "playerId": null,
+        "name": "dintaifuhh",
+        "text": "dintaifuhh joined"
+      },
+      {
+        "id": 5,
+        "at": 1792690963650,
+        "playerId": null,
+        "name": "bombo",
+        "text": "bombo joined"
+      },
+      {
+        "id": 6,
+        "at": 1792690964008,
+        "playerId": null,
+        "name": "Bob",
+        "text": "Bob joined"
+      },
+      {
+        "id": 7,
+        "at": 1792691100410,
+        "playerId": null,
+        "name": "Bob",
+        "text": "Bob was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792691121213,
+        "playerId": null,
+        "name": "dintaifuhh",
+        "text": "dintaifuhh left"
+      },
+      {
+        "id": 9,
+        "at": 1792691151657,
+        "playerId": null,
+        "name": "weel",
+        "text": "weel left"
+      },
+      {
+        "id": 10,
+        "at": 1792691197341,
+        "playerId": null,
+        "name": "Sam",
+        "text": "Sam left"
+      },
+      {
+        "id": 10011,
+        "at": 1792691264359,
+        "playerId": null,
+        "name": "relax pal",
+        "text": "relax pal won"
+      },
+      {
+        "id": 10012,
+        "at": 1792691270614,
+        "playerId": null,
+        "name": "bombo",
+        "text": "bombo left"
+      },
+      {
+        "id": 10013,
+        "at": 1792691271114,
+        "playerId": null,
+        "name": "a3",
+        "text": "a3 joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792691271114,
+        "playerId": null,
+        "name": "justaguy",
+        "text": "justaguy joined"
+      },
+      {
+        "id": 10015,
+        "at": 1792691271139,
+        "playerId": null,
+        "name": "wejr",
+        "text": "wejr joined"
+      },
+      {
+        "id": 10016,
+        "at": 1792691271190,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion joined"
+      },
+      {
+        "id": 10017,
+        "at": 1792691272529,
+        "playerId": null,
+        "name": "ladybug",
+        "text": "ladybug joined"
+      },
+      {
+        "id": 20018,
+        "at": 1792691307911,
+        "playerId": null,
+        "name": "relax pal",
+        "text": "relax pal was kicked for being idle"
+      },
+      {
+        "id": 20019,
+        "at": 1792691358173,
+        "playerId": null,
+        "name": "a3",
+        "text": "a3 was kicked for being idle"
+      },
+      {
+        "id": 20020,
+        "at": 1792691484708,
+        "playerId": null,
+        "name": "ladybug",
+        "text": "ladybug left"
+      },
+      {
+        "id": 20021,
+        "at": 1792691515398,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion won"
+      },
+      {
+        "id": 20022,
+        "at": 1792691522010,
+        "playerId": null,
+        "name": "legend_38",
+        "text": "legend_38 joined"
+      },
+      {
+        "id": 20023,
+        "at": 1792691522017,
+        "playerId": null,
+        "name": "ink",
+        "text": "ink joined"
+      },
+      {
+        "id": 20024,
+        "at": 1792691522028,
+        "playerId": null,
+        "name": "tay",
+        "text": "tay joined"
+      },
+      {
+        "id": 20025,
+        "at": 1792691636478,
+        "playerId": null,
+        "name": "justaguy",
+        "text": "justaguy was kicked for being idle"
+      },
+      {
+        "id": 20026,
+        "at": 1792691660935,
+        "playerId": null,
+        "name": "legend_38",
+        "text": "legend_38 left"
+      },
+      {
+        "id": 20027,
+        "at": 1792691720150,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion won"
+      },
+      {
+        "id": 20028,
+        "at": 1792691723790,
+        "playerId": null,
+        "name": "wejr",
+        "text": "wejr left"
+      },
+      {
+        "id": 20029,
+        "at": 1792691725721,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH joined"
+      },
+      {
+        "id": 20030,
+        "at": 1792691725966,
+        "playerId": null,
+        "name": "big schmeeg",
+        "text": "big schmeeg joined"
+      },
+      {
+        "id": 20031,
+        "at": 1792691734846,
+        "playerId": null,
+        "name": "octopusperry",
+        "text": "octopusperry joined"
+      },
+      {
+        "id": 20032,
+        "at": 1792691824556,
+        "playerId": null,
+        "name": "octopusperry",
+        "text": "octopusperry was kicked for being idle"
+      },
+      {
+        "id": 20033,
+        "at": 1792691880821,
+        "playerId": null,
+        "name": "big schmeeg",
+        "text": "big schmeeg left"
+      },
+      {
+        "id": 20034,
+        "at": 1792691989980,
+        "playerId": null,
+        "name": "jadenillion",
+        "text": "jadenillion left"
+      },
+      {
+        "id": 20035,
+        "at": 1792692008844,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH won"
+      },
+      {
+        "id": 20036,
+        "at": 1792692014513,
+        "playerId": null,
+        "name": "bruv",
+        "text": "bruv joined"
+      },
+      {
+        "id": 20037,
+        "at": 1792692014715,
+        "playerId": null,
+        "name": "krill",
+        "text": "krill joined"
+      },
+      {
+        "id": 20038,
+        "at": 1792692014737,
+        "playerId": null,
+        "name": "Hackerman",
+        "text": "Hackerman joined"
+      },
+      {
+        "id": 20039,
+        "at": 1792692020146,
+        "playerId": null,
+        "name": "Hackerman",
+        "text": "Hackerman left"
+      },
+      {
+        "id": 20040,
+        "at": 1792692110609,
+        "playerId": null,
+        "name": "ink",
+        "text": "ink left"
+      },
+      {
+        "id": 20041,
+        "at": 1792692152904,
+        "playerId": null,
+        "name": "bruv",
+        "text": "bruv left"
+      },
+      {
+        "id": 20042,
+        "at": 1792692168753,
+        "playerId": null,
+        "name": "krill",
+        "text": "krill left"
+      },
+      {
+        "id": 20043,
+        "at": 1792692196530,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH won"
+      },
+      {
+        "id": 20044,
+        "at": 1792692206402,
+        "playerId": null,
+        "name": "9whqf vncfoe",
+        "text": "9whqf vncfoe joined"
+      },
+      {
+        "id": 20045,
+        "at": 1792692206453,
+        "playerId": null,
+        "name": "BRUH",
+        "text": "BRUH left"
+      },
+      {
+        "id": 20046,
+        "at": 1792692206764,
+        "playerId": null,
+        "name": "ring",
+        "text": "ring joined"
+      },
+      {
+        "id": 20047,
+        "at": 1792692206927,
+        "playerId": null,
+        "name": "Lilly",
+        "text": "Lilly joined"
+      },
+      {
+        "id": 20048,
+        "at": 1792692207143,
+        "playerId": null,
+        "name": "fih",
+        "text": "fih joined"
+      },
+      {
+        "id": 20049,
+        "at": 1792692221785,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 20050,
+        "at": 1792692302700,
+        "playerId": null,
+        "name": "tay",
+        "text": "tay was kicked for being idle"
+      },
+      {
+        "id": 20051,
+        "at": 1792692323986,
+        "playerId": null,
+        "name": "ring",
+        "text": "ring was kicked for being idle"
+      },
+      {
+        "id": 20052,
+        "at": 1792692415415,
+        "playerId": null,
+        "name": "Lilly",
+        "text": "Lilly was kicked for being idle"
+      },
+      {
+        "id": 20053,
+        "at": 1792692430296,
+        "playerId": null,
+        "name": "9whqf vncfoe",
+        "text": "9whqf vncfoe left"
+      },
+      {
+        "id": 20054,
+        "at": 1792692475054,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792692475054
+  }
+}

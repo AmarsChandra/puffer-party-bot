@@ -1,0 +1,35 @@
+{
+  "improvement": "Retain newly confirmed answers after the clean post-reconnect public win",
+  "measuredAt": "2026-10-22T18:50:52.039Z",
+  "match": {
+    "room": "JJQY",
+    "players": 6,
+    "won": true,
+    "accepted": 19,
+    "rejected": 0,
+    "lives": 2,
+    "pops": 0
+  },
+  "cases": [
+    {
+      "question": "Name a country that uses the euro",
+      "observedFreshReadyMs": 6421,
+      "learnedReadyMs": 3.7923329999999993,
+      "firstAnswer": "Andorra",
+      "source": "verified",
+      "verifiedChoices": 11,
+      "backgroundRequests": 0
+    },
+    {
+      "question": "Name a country with two syllables (English pronunciation; constituent countries don't count)",
+      "observedFreshReadyMs": 8589,
+      "learnedReadyMs": 0.6493749999999991,
+      "firstAnswer": "Fiji",
+      "source": "verified",
+      "verifiedChoices": 4,
+      "backgroundRequests": 0
+    }
+  ],
+  "testsPassed": 38,
+  "scope": "These lookup timings apply to reusing learned categories; unseen semantic categories still need model generation. No code change was forced after a clean match."
+}

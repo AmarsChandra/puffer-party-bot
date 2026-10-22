@@ -1,0 +1,327 @@
+{
+  "won": true,
+  "room": "ZNXC",
+  "playerId": "900ea65a8d",
+  "winnerId": "900ea65a8d",
+  "gameNumber": 1,
+  "gameId": "party:ZNXC-1792683983413-1",
+  "rated": false,
+  "player": {
+    "id": "900ea65a8d",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 290,
+    "alive": true,
+    "answers": 4,
+    "pops": 0,
+    "best": "deepcut",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Truro",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a country that drives on the left"
+    },
+    {
+      "index": 2,
+      "text": "Name a city in England"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a country that drives on the left",
+      "answer": "Bhutan",
+      "submit": {
+        "accepted": true,
+        "answer": "Bhutan",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a country that drives on the left",
+      "answer": "Brunei",
+      "submit": {
+        "accepted": true,
+        "answer": "Brunei",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a country that drives on the left",
+      "answer": "Suriname",
+      "submit": {
+        "accepted": true,
+        "answer": "Suriname",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a city in England",
+      "answer": "Truro",
+      "submit": {
+        "accepted": true,
+        "answer": "Truro",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "finalRoom": {
+    "code": "ZNXC",
+    "chatEnabled": true,
+    "version": 10023,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 2,
+      "isPrivate": false
+    },
+    "hostId": "900ea65a8d",
+    "players": [
+      {
+        "id": "900ea65a8d",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 290,
+        "alive": true,
+        "answers": 4,
+        "pops": 0,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Truro",
+          "tier": "deepcut"
+        },
+        "place": 1
+      },
+      {
+        "id": "ede8d27d57",
+        "chatMuted": false,
+        "removed": false,
+        "name": "seawead",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 20,
+        "alive": false,
+        "answers": 2,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "London",
+          "tier": "plankton"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 2,
+      "text": "Name a city in England",
+      "threshold": 16,
+      "accepted": 2
+    },
+    "countdownEndsAt": null,
+    "winnerId": "900ea65a8d",
+    "gameNumber": 1,
+    "gameId": "party:ZNXC-1792683983413-1",
+    "queue": "duel",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "900ea65a8d",
+        "seq": 1,
+        "at": 1792683983413
+      },
+      {
+        "kind": "join",
+        "playerId": "ede8d27d57",
+        "seq": 2,
+        "at": 1792683984415
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792683987415,
+        "seq": 3,
+        "at": 1792683984415
+      },
+      {
+        "kind": "start",
+        "holderId": "900ea65a8d",
+        "seq": 4,
+        "at": 1792683987415
+      },
+      {
+        "kind": "category",
+        "why": "start",
+        "index": 1,
+        "holderId": "900ea65a8d",
+        "seq": 5,
+        "at": 1792683987415
+      },
+      {
+        "kind": "pass",
+        "from": "900ea65a8d",
+        "to": "ede8d27d57",
+        "answer": "Bhutan",
+        "tier": "rare",
+        "seq": 10006,
+        "at": 1792684000291
+      },
+      {
+        "kind": "reject",
+        "playerId": "ede8d27d57",
+        "text": "brazil",
+        "why": "miss",
+        "seq": 10007,
+        "at": 1792684002252
+      },
+      {
+        "kind": "reject",
+        "playerId": "ede8d27d57",
+        "text": "urugai",
+        "why": "miss",
+        "seq": 10008,
+        "at": 1792684006621
+      },
+      {
+        "kind": "pass",
+        "from": "ede8d27d57",
+        "to": "900ea65a8d",
+        "answer": "United Kingdom",
+        "tier": "plankton",
+        "seq": 10009,
+        "at": 1792684009012
+      },
+      {
+        "kind": "pass",
+        "from": "900ea65a8d",
+        "to": "ede8d27d57",
+        "answer": "Brunei",
+        "tier": "rare",
+        "seq": 10010,
+        "at": 1792684009724
+      },
+      {
+        "kind": "pop",
+        "playerId": "ede8d27d57",
+        "livesLeft": 1,
+        "seq": 10011,
+        "at": 1792684017724
+      },
+      {
+        "kind": "pass",
+        "from": "900ea65a8d",
+        "to": "ede8d27d57",
+        "answer": "Suriname",
+        "tier": "deepcut",
+        "seq": 10012,
+        "at": 1792684019689
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 2,
+        "holderId": "ede8d27d57",
+        "seq": 10013,
+        "at": 1792684019689
+      },
+      {
+        "kind": "pass",
+        "from": "ede8d27d57",
+        "to": "900ea65a8d",
+        "answer": "London",
+        "tier": "plankton",
+        "seq": 10014,
+        "at": 1792684026333
+      },
+      {
+        "kind": "pass",
+        "from": "900ea65a8d",
+        "to": "ede8d27d57",
+        "answer": "Truro",
+        "tier": "deepcut",
+        "seq": 10015,
+        "at": 1792684031660
+      },
+      {
+        "kind": "pop",
+        "playerId": "ede8d27d57",
+        "livesLeft": 0,
+        "seq": 10016,
+        "at": 1792684039660
+      },
+      {
+        "kind": "out",
+        "playerId": "ede8d27d57",
+        "place": 2,
+        "seq": 10017,
+        "at": 1792684039660
+      },
+      {
+        "kind": "win",
+        "playerId": "900ea65a8d",
+        "seq": 10018,
+        "at": 1792684039660
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792683983413,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 2,
+        "at": 1792683984415,
+        "playerId": null,
+        "name": "seawead",
+        "text": "seawead joined"
+      },
+      {
+        "id": 10003,
+        "at": 1792684039660,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792684039660
+  }
+}

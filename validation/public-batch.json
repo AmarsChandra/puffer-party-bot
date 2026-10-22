@@ -1,0 +1,127 @@
+{
+  "games": 5,
+  "wins": 5,
+  "winRate": 1,
+  "accepted": 24,
+  "attempts": 24,
+  "acceptanceRate": 1,
+  "medianReactionMs": 82,
+  "results": [
+    {
+      "room": "FHWG",
+      "won": true,
+      "answers": 3,
+      "lives": 2,
+      "metrics": {
+        "attempts": 3,
+        "accepted": 3,
+        "reactionMs": [
+          2035,
+          81,
+          82
+        ],
+        "sources": {
+          "codex": 3
+        },
+        "unknownCategories": [
+          "Name a martial art"
+        ]
+      }
+    },
+    {
+      "room": "KSMU",
+      "won": true,
+      "answers": 2,
+      "lives": 2,
+      "metrics": {
+        "attempts": 2,
+        "accepted": 2,
+        "reactionMs": [
+          3361,
+          83
+        ],
+        "sources": {
+          "codex": 2
+        },
+        "unknownCategories": [
+          "Name a muscle in the human body"
+        ]
+      }
+    },
+    {
+      "room": "KXJH",
+      "won": true,
+      "answers": 8,
+      "lives": 2,
+      "metrics": {
+        "attempts": 8,
+        "accepted": 8,
+        "reactionMs": [
+          7326,
+          80,
+          81,
+          80,
+          82,
+          4073,
+          81,
+          81
+        ],
+        "sources": {
+          "codex": 8
+        },
+        "unknownCategories": [
+          "Name a type of body of water",
+          "Name a Greek god or goddess"
+        ]
+      }
+    },
+    {
+      "room": "WRWN",
+      "won": true,
+      "answers": 6,
+      "lives": 2,
+      "metrics": {
+        "attempts": 6,
+        "accepted": 6,
+        "reactionMs": [
+          9544,
+          80,
+          84,
+          82,
+          9978,
+          82
+        ],
+        "sources": {
+          "codex": 6
+        },
+        "unknownCategories": [
+          "Name a body part spelled with three letters",
+          "Name a piece of gymnastics apparatus"
+        ]
+      }
+    },
+    {
+      "room": "EEEK",
+      "won": true,
+      "answers": 5,
+      "lives": 2,
+      "metrics": {
+        "attempts": 5,
+        "accepted": 5,
+        "reactionMs": [
+          6345,
+          82,
+          82,
+          85,
+          81
+        ],
+        "sources": {
+          "codex": 5
+        },
+        "unknownCategories": [
+          "Name an English word containing “age”"
+        ]
+      }
+    }
+  ]
+}

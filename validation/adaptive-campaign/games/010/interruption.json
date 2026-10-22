@@ -1,0 +1,806 @@
+{
+  "kind": "interrupted-public-match",
+  "terminalResultAvailable": false,
+  "error": "Room connection refused (4403)",
+  "lastRoomSnapshot": {
+    "code": "GGGT",
+    "chatEnabled": true,
+    "version": 10532,
+    "phase": "round",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "3a355342fc",
+    "players": [
+      {
+        "id": "3c37f2234e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Adolf",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 2,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 5
+      },
+      {
+        "id": "4ba556942e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "memhh",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 1,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 6
+      },
+      {
+        "id": "3a355342fc",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 320,
+        "alive": true,
+        "answers": 10,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Chile",
+          "tier": "schooler"
+        },
+        "place": null
+      },
+      {
+        "id": "3035b3bc3e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "alvi",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 380,
+        "alive": true,
+        "answers": 9,
+        "pops": 1,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Comoros",
+          "tier": "deepcut"
+        },
+        "place": null
+      },
+      {
+        "id": "7693ba27eb",
+        "chatMuted": false,
+        "removed": false,
+        "name": "josh",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 240,
+        "alive": true,
+        "answers": 8,
+        "pops": 1,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Brazil",
+          "tier": "plankton"
+        },
+        "place": null
+      },
+      {
+        "id": "cbaa8ba7ba",
+        "chatMuted": false,
+        "removed": false,
+        "name": "krib",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 120,
+        "alive": true,
+        "answers": 8,
+        "pops": 1,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Argentina",
+          "tier": "schooler"
+        },
+        "place": null
+      }
+    ],
+    "holderId": "7693ba27eb",
+    "holderSince": 1792694268688,
+    "category": {
+      "index": 5,
+      "text": "Name a term from Krillion",
+      "threshold": 12,
+      "accepted": 0
+    },
+    "countdownEndsAt": null,
+    "winnerId": null,
+    "gameNumber": 2,
+    "gameId": "party:GGGT-1792693853947-2",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Steel",
+        "tier": "plankton",
+        "seq": 10129,
+        "at": 1792694172981
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Clay",
+        "tier": "schooler",
+        "seq": 10130,
+        "at": 1792694175387
+      },
+      {
+        "kind": "pass",
+        "from": "7693ba27eb",
+        "to": "cbaa8ba7ba",
+        "answer": "Insulation",
+        "tier": "rare",
+        "seq": 10131,
+        "at": 1792694177196
+      },
+      {
+        "kind": "pass",
+        "from": "cbaa8ba7ba",
+        "to": "3a355342fc",
+        "answer": "Stone",
+        "tier": "plankton",
+        "seq": 10132,
+        "at": 1792694180748
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Glass",
+        "tier": "schooler",
+        "seq": 10133,
+        "at": 1792694181107
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Ceramic tile",
+        "tier": "rare",
+        "seq": 10134,
+        "at": 1792694185501
+      },
+      {
+        "kind": "pass",
+        "from": "7693ba27eb",
+        "to": "cbaa8ba7ba",
+        "answer": "Thatch",
+        "tier": "rare",
+        "seq": 10135,
+        "at": 1792694190799
+      },
+      {
+        "kind": "pass",
+        "from": "cbaa8ba7ba",
+        "to": "3a355342fc",
+        "answer": "Tile",
+        "tier": "schooler",
+        "seq": 10136,
+        "at": 1792694193197
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Cement",
+        "tier": "schooler",
+        "seq": 10137,
+        "at": 1792694193555
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Bamboo",
+        "tier": "rare",
+        "seq": 10138,
+        "at": 1792694198529
+      },
+      {
+        "kind": "pass",
+        "from": "7693ba27eb",
+        "to": "cbaa8ba7ba",
+        "answer": "Metal",
+        "tier": "schooler",
+        "seq": 10139,
+        "at": 1792694200094
+      },
+      {
+        "kind": "reject",
+        "playerId": "cbaa8ba7ba",
+        "text": "insulation",
+        "why": "repeat",
+        "seq": 10140,
+        "at": 1792694203342
+      },
+      {
+        "kind": "pop",
+        "playerId": "cbaa8ba7ba",
+        "livesLeft": 1,
+        "seq": 10141,
+        "at": 1792694208094
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 3,
+        "holderId": "3a355342fc",
+        "seq": 10142,
+        "at": 1792694208094
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Bulgarian split squat",
+        "tier": "rare",
+        "seq": 10143,
+        "at": 1792694209967
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Plank",
+        "tier": "schooler",
+        "seq": 10144,
+        "at": 1792694214588
+      },
+      {
+        "kind": "pass",
+        "from": "7693ba27eb",
+        "to": "cbaa8ba7ba",
+        "answer": "Push-up",
+        "tier": "plankton",
+        "seq": 10145,
+        "at": 1792694218377
+      },
+      {
+        "kind": "pass",
+        "from": "cbaa8ba7ba",
+        "to": "3a355342fc",
+        "answer": "Squat",
+        "tier": "plankton",
+        "seq": 10146,
+        "at": 1792694219349
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Crunch",
+        "tier": "schooler",
+        "seq": 10147,
+        "at": 1792694219710
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Bench press",
+        "tier": "plankton",
+        "seq": 10148,
+        "at": 1792694222549
+      },
+      {
+        "kind": "pass",
+        "from": "7693ba27eb",
+        "to": "cbaa8ba7ba",
+        "answer": "Front squat",
+        "tier": "schooler",
+        "seq": 10149,
+        "at": 1792694227365
+      },
+      {
+        "kind": "pass",
+        "from": "cbaa8ba7ba",
+        "to": "3a355342fc",
+        "answer": "Bicep curl",
+        "tier": "plankton",
+        "seq": 10150,
+        "at": 1792694228252
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Deadlift",
+        "tier": "plankton",
+        "seq": 10151,
+        "at": 1792694228597
+      },
+      {
+        "kind": "reject",
+        "playerId": "3035b3bc3e",
+        "text": "backsquat",
+        "why": "repeat",
+        "seq": 10152,
+        "at": 1792694231529
+      },
+      {
+        "kind": "reject",
+        "playerId": "3035b3bc3e",
+        "text": "running",
+        "why": "miss",
+        "seq": 10153,
+        "at": 1792694235218
+      },
+      {
+        "kind": "pop",
+        "playerId": "3035b3bc3e",
+        "livesLeft": 1,
+        "seq": 10154,
+        "at": 1792694236597
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "7693ba27eb",
+        "seq": 10155,
+        "at": 1792694236597
+      },
+      {
+        "kind": "reject",
+        "playerId": "7693ba27eb",
+        "text": "united staes",
+        "why": "miss",
+        "seq": 10156,
+        "at": 1792694243717
+      },
+      {
+        "kind": "reject",
+        "playerId": "7693ba27eb",
+        "text": "united states",
+        "why": "miss",
+        "seq": 10157,
+        "at": 1792694246933
+      },
+      {
+        "kind": "pass",
+        "from": "7693ba27eb",
+        "to": "cbaa8ba7ba",
+        "answer": "Brazil",
+        "tier": "plankton",
+        "seq": 10158,
+        "at": 1792694249904
+      },
+      {
+        "kind": "pass",
+        "from": "cbaa8ba7ba",
+        "to": "3a355342fc",
+        "answer": "New Zealand",
+        "tier": "plankton",
+        "seq": 10159,
+        "at": 1792694253815
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Australia",
+        "tier": "plankton",
+        "seq": 10160,
+        "at": 1792694254157
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Nauru",
+        "tier": "deepcut",
+        "seq": 10161,
+        "at": 1792694255903
+      },
+      {
+        "kind": "reject",
+        "playerId": "7693ba27eb",
+        "text": "india",
+        "why": "miss",
+        "seq": 10162,
+        "at": 1792694258174
+      },
+      {
+        "kind": "reject",
+        "playerId": "7693ba27eb",
+        "text": "china",
+        "why": "miss",
+        "seq": 10163,
+        "at": 1792694260544
+      },
+      {
+        "kind": "pop",
+        "playerId": "7693ba27eb",
+        "livesLeft": 1,
+        "seq": 10164,
+        "at": 1792694263903
+      },
+      {
+        "kind": "pass",
+        "from": "cbaa8ba7ba",
+        "to": "3a355342fc",
+        "answer": "Argentina",
+        "tier": "schooler",
+        "seq": 10165,
+        "at": 1792694266057
+      },
+      {
+        "kind": "pass",
+        "from": "3a355342fc",
+        "to": "3035b3bc3e",
+        "answer": "Chile",
+        "tier": "schooler",
+        "seq": 10166,
+        "at": 1792694266475
+      },
+      {
+        "kind": "pass",
+        "from": "3035b3bc3e",
+        "to": "7693ba27eb",
+        "answer": "Comoros",
+        "tier": "deepcut",
+        "seq": 10167,
+        "at": 1792694268688
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "7693ba27eb",
+        "seq": 10168,
+        "at": 1792694268688
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792693853947,
+        "playerId": null,
+        "name": "Adolf",
+        "text": "Adolf joined"
+      },
+      {
+        "id": 2,
+        "at": 1792693856983,
+        "playerId": null,
+        "name": "sigma",
+        "text": "sigma joined"
+      },
+      {
+        "id": 3,
+        "at": 1792693857315,
+        "playerId": null,
+        "name": "Roy",
+        "text": "Roy joined"
+      },
+      {
+        "id": 4,
+        "at": 1792693857401,
+        "playerId": null,
+        "name": "red",
+        "text": "red joined"
+      },
+      {
+        "id": 5,
+        "at": 1792693857478,
+        "playerId": null,
+        "name": "leah",
+        "text": "leah joined"
+      },
+      {
+        "id": 6,
+        "at": 1792693857866,
+        "playerId": null,
+        "name": "cam",
+        "text": "cam joined"
+      },
+      {
+        "id": 7,
+        "at": 1792693902771,
+        "playerId": null,
+        "name": "sigma",
+        "text": "sigma was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792693977108,
+        "playerId": null,
+        "name": "red",
+        "text": "red was kicked for being idle"
+      },
+      {
+        "id": 9,
+        "at": 1792694049176,
+        "playerId": null,
+        "name": "Roy",
+        "text": "Roy left"
+      },
+      {
+        "id": 10,
+        "at": 1792694055576,
+        "playerId": null,
+        "name": "leah",
+        "text": "leah left"
+      },
+      {
+        "id": 11,
+        "at": 1792694085048,
+        "playerId": null,
+        "name": "cam",
+        "text": "cam won"
+      },
+      {
+        "id": 12,
+        "at": 1792694093483,
+        "playerId": null,
+        "name": "cam",
+        "text": "cam left"
+      },
+      {
+        "id": 13,
+        "at": 1792694095902,
+        "playerId": null,
+        "name": "memhh",
+        "text": "memhh joined"
+      },
+      {
+        "id": 14,
+        "at": 1792694096098,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 15,
+        "at": 1792694096118,
+        "playerId": null,
+        "name": "alvi",
+        "text": "alvi joined"
+      },
+      {
+        "id": 16,
+        "at": 1792694096280,
+        "playerId": null,
+        "name": "josh",
+        "text": "josh joined"
+      },
+      {
+        "id": 17,
+        "at": 1792694096584,
+        "playerId": null,
+        "name": "krib",
+        "text": "krib joined"
+      },
+      {
+        "id": 10018,
+        "at": 1792694128645,
+        "playerId": null,
+        "name": "memhh",
+        "text": "memhh left"
+      },
+      {
+        "id": 10019,
+        "at": 1792694171129,
+        "playerId": null,
+        "name": "Adolf",
+        "text": "Adolf was kicked for being idle"
+      }
+    ],
+    "now": 1792694268688
+  },
+  "submissionsObserved": [
+    {
+      "at": "2026-10-22T18:35:20.895Z",
+      "type": "answer",
+      "question": "Name a natural disaster (types, not specific events)",
+      "answer": "Limnic Eruption",
+      "source": "verified",
+      "reactionMs": 83,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Limnic Eruption",
+        "tier": "krillion"
+      }
+    },
+    {
+      "at": "2026-10-22T18:35:51.981Z",
+      "type": "answer",
+      "question": "Name a building material",
+      "answer": "Brick",
+      "source": "codex",
+      "reactionMs": 3034,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Brick",
+        "tier": "plankton"
+      }
+    },
+    {
+      "at": "2026-10-22T18:36:13.038Z",
+      "type": "answer",
+      "question": "Name a building material",
+      "answer": "Steel",
+      "source": "codex",
+      "reactionMs": 81,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Steel",
+        "tier": "plankton"
+      }
+    },
+    {
+      "at": "2026-10-22T18:36:21.171Z",
+      "type": "answer",
+      "question": "Name a building material",
+      "answer": "Glass",
+      "source": "codex",
+      "reactionMs": 83,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Glass",
+        "tier": "schooler"
+      }
+    },
+    {
+      "at": "2026-10-22T18:36:33.616Z",
+      "type": "answer",
+      "question": "Name a building material",
+      "answer": "Cement",
+      "source": "codex",
+      "reactionMs": 82,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Cement",
+        "tier": "schooler"
+      }
+    },
+    {
+      "at": "2026-10-22T18:36:50.024Z",
+      "type": "answer",
+      "question": "Name a gym exercise",
+      "answer": "Bulgarian split squat",
+      "source": "verified",
+      "reactionMs": 87,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Bulgarian split squat",
+        "tier": "rare"
+      }
+    },
+    {
+      "at": "2026-10-22T18:36:59.804Z",
+      "type": "answer",
+      "question": "Name a gym exercise",
+      "answer": "Crunch",
+      "source": "verified",
+      "reactionMs": 83,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Crunch",
+        "tier": "schooler"
+      }
+    },
+    {
+      "at": "2026-10-22T18:37:08.656Z",
+      "type": "answer",
+      "question": "Name a gym exercise",
+      "answer": "Deadlift",
+      "source": "verified",
+      "reactionMs": 84,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Deadlift",
+        "tier": "plankton"
+      }
+    },
+    {
+      "at": "2026-10-22T18:37:34.217Z",
+      "type": "answer",
+      "question": "Name a country with land in the Southern Hemisphere",
+      "answer": "Australia",
+      "source": "codex",
+      "reactionMs": 82,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Australia",
+        "tier": "plankton"
+      }
+    },
+    {
+      "at": "2026-10-22T18:37:46.534Z",
+      "type": "answer",
+      "question": "Name a country with land in the Southern Hemisphere",
+      "answer": "Chile",
+      "source": "codex",
+      "reactionMs": 83,
+      "ok": true,
+      "submit": {
+        "accepted": true,
+        "answer": "Chile",
+        "tier": "schooler"
+      }
+    }
+  ],
+  "browserObservation": {
+    "botHeartsAfterInterruption": 0,
+    "screenshot": "validation/reconnect-failure-GGGT.png"
+  },
+  "note": "No completed server result is available; preserved as inconclusive and breaks the streak."
+}

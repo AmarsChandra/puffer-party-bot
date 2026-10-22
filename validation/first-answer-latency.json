@@ -1,0 +1,54 @@
+{
+  "kind": "live-model-latency-benchmark",
+  "sampleCount": 6,
+  "metric": "elapsed request-to-first-complete-answer, including thread startup",
+  "baselineMedianMs": 6491.0,
+  "updatedMedianMs": 3713.5,
+  "medianReductionPercent": 42.8,
+  "sameConfiguredModel": true,
+  "samples": [
+    {
+      "question": "Name a martial art",
+      "baselineFirstMs": 4392,
+      "updatedFirstMs": 5093,
+      "baselineFirstAnswer": "Hapkido",
+      "updatedFirstAnswer": "Karate"
+    },
+    {
+      "question": "Name a scientist who won the Nobel Prize in Physics",
+      "baselineFirstMs": 3594,
+      "updatedFirstMs": 3295,
+      "baselineFirstAnswer": "Lise Meitner",
+      "updatedFirstAnswer": "Albert Einstein"
+    },
+    {
+      "question": "Name a job in a film crew",
+      "baselineFirstMs": 4116,
+      "updatedFirstMs": 3852,
+      "baselineFirstAnswer": "Foley artist",
+      "updatedFirstAnswer": "Director"
+    },
+    {
+      "question": "Name a type of structure built underground (man-made)",
+      "baselineFirstMs": 9542,
+      "updatedFirstMs": 3575,
+      "baselineFirstAnswer": "Root cellar",
+      "updatedFirstAnswer": "Tunnel"
+    },
+    {
+      "question": "Name a musical artist or named musical ensemble that has performed during a Super Bowl halftime show (through Super Bowl LX)",
+      "baselineFirstMs": 12213,
+      "updatedFirstMs": 4947,
+      "baselineFirstAnswer": "Big Bad Voodoo Daddy",
+      "updatedFirstAnswer": "Michael Jackson"
+    },
+    {
+      "question": "Name a tool used to create written text by hand or by typing",
+      "baselineFirstMs": 8590,
+      "updatedFirstMs": 3505,
+      "baselineFirstAnswer": "Dip pen",
+      "updatedFirstAnswer": "Pen"
+    }
+  ],
+  "limitation": "Six sequential cold-category requests per version; service timing varies. Generated answers are proposals; server acceptance is validated in game logs."
+}

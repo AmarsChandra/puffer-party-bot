@@ -1,0 +1,72 @@
+{
+  "room": "FTXN",
+  "gameId": "party:FTXN-1792708529959-9",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a TV network or streaming service that has broadcast sports events",
+      "readyMs": 3556,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "plankton": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country with a coastline on the Indian Ocean",
+      "readyMs": 3462,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word containing “ject”",
+      "readyMs": 12,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "plankton": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 44,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "plankton": 2,
+      "deepcut": 1
+    },
+    "rareOrBetter": 1,
+    "rareOrBetterRate": 0.3333333333333333
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 7,
+    "ownAccepted": 3,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

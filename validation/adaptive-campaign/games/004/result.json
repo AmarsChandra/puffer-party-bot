@@ -1,0 +1,1644 @@
+{
+  "won": true,
+  "room": "NKPA",
+  "playerId": "8e7a493880",
+  "winnerId": "8e7a493880",
+  "gameNumber": 2,
+  "gameId": "party:NKPA-1792691709850-2",
+  "rated": false,
+  "player": {
+    "id": "8e7a493880",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 2,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 2,
+    "meter": 590,
+    "alive": true,
+    "answers": 20,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Argentina",
+      "tier": "rare"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a part of the human foot"
+    },
+    {
+      "index": 2,
+      "text": "Name a sport played with a racquet or paddle"
+    },
+    {
+      "index": 3,
+      "text": "Name a country with at least five land neighbors"
+    },
+    {
+      "index": 4,
+      "text": "Name an adverb that doesn’t end in -ly (like “soon”)"
+    },
+    {
+      "index": 5,
+      "text": "Name an animal whose name starts with W"
+    },
+    {
+      "index": 6,
+      "text": "Name a character from Stranger Things"
+    },
+    {
+      "index": 7,
+      "text": "Name a country that has hosted the FIFA World Cup"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a part of the human foot",
+      "answer": "Heel",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Heel",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a part of the human foot",
+      "answer": "Sole",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Sole",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a sport played with a racquet or paddle",
+      "answer": "Table tennis",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Ping pong",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country with at least five land neighbors",
+      "answer": "Russia",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Russia",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country with at least five land neighbors",
+      "answer": "Brazil",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Brazil",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an adverb that doesn’t end in -ly (like “soon”)",
+      "answer": "often",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "often",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an adverb that doesn’t end in -ly (like “soon”)",
+      "answer": "never",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "never",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an adverb that doesn’t end in -ly (like “soon”)",
+      "answer": "here",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "here",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an animal whose name starts with W",
+      "answer": "Wolf",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Wolf",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Eleven",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Eleven",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Dustin Henderson",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Dustin Henderson",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Lucas Sinclair",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Lucas Sinclair",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Joyce Byers",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Joyce Byers",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Brazil",
+      "source": "codex",
+      "reactionMs": 4239,
+      "submit": {
+        "accepted": true,
+        "answer": "Brazil",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Italy",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Italy",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "France",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "France",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Switzerland",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Switzerland",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Sweden",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Sweden",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Chile",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Chile",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Argentina",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Argentina",
+        "tier": "rare"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 20,
+    "accepted": 20,
+    "reactionMs": [
+      82,
+      83,
+      83,
+      83,
+      83,
+      82,
+      82,
+      83,
+      81,
+      81,
+      80,
+      83,
+      82,
+      4239,
+      81,
+      82,
+      81,
+      82,
+      81,
+      83
+    ],
+    "sources": {
+      "codex": 20
+    },
+    "unknownCategories": [
+      "Name a country that has hosted the FIFA World Cup"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 2,
+        "index": 1,
+        "question": "Name a part of the human foot",
+        "observedAt": 1792691896969,
+        "readyMs": 3980,
+        "firstTurnAt": 1792691903150,
+        "firstSubmitMs": 6263,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 2,
+        "question": "Name a sport played with a racquet or paddle",
+        "observedAt": 1792691930238,
+        "readyMs": 4354,
+        "firstTurnAt": 1792691951106,
+        "firstSubmitMs": 20950,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 3,
+        "question": "Name a country with at least five land neighbors",
+        "observedAt": 1792691987112,
+        "readyMs": 6623,
+        "firstTurnAt": 1792691997440,
+        "firstSubmitMs": 10410,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 4,
+        "question": "Name an adverb that doesn’t end in -ly (like “soon”)",
+        "observedAt": 1792692022126,
+        "readyMs": 4003,
+        "firstTurnAt": 1792692045016,
+        "firstSubmitMs": 22972,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 5,
+        "question": "Name an animal whose name starts with W",
+        "observedAt": 1792692074528,
+        "readyMs": 4540,
+        "firstTurnAt": 1792692100055,
+        "firstSubmitMs": 25608,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 6,
+        "question": "Name a character from Stranger Things",
+        "observedAt": 1792692105654,
+        "readyMs": 4230,
+        "firstTurnAt": 1792692111360,
+        "firstSubmitMs": 5787,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 7,
+        "question": "Name a country that has hosted the FIFA World Cup",
+        "observedAt": 1792692146115,
+        "readyMs": 5738,
+        "firstTurnAt": 1792692147616,
+        "firstSubmitMs": 5738,
+        "firstTurnWaitMs": 4237,
+        "firstSource": "codex"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "NKPA",
+    "chatEnabled": true,
+    "version": 10213,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "8e7a493880",
+    "players": [
+      {
+        "id": "64112b8496",
+        "chatMuted": false,
+        "removed": false,
+        "name": "samuel",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "0544f0fd91",
+        "chatMuted": false,
+        "removed": false,
+        "name": "halle",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "8e7a493880",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "d77d74b261",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Flare",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "f31148d7e3",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Will",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "a359d5adcb",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Ethan",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792691896954,
+    "winnerId": null,
+    "gameNumber": 2,
+    "gameId": "party:NKPA-1792691709850-2",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "dd2422fc89",
+        "answer": "Blow dryer",
+        "tier": "plankton",
+        "seq": 25,
+        "at": 1792691777681
+      },
+      {
+        "kind": "pass",
+        "from": "dd2422fc89",
+        "to": "cfdaa0f64e",
+        "answer": "Hairbrush",
+        "tier": "schooler",
+        "seq": 26,
+        "at": 1792691778360
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 3,
+        "holderId": "cfdaa0f64e",
+        "seq": 27,
+        "at": 1792691778360
+      },
+      {
+        "kind": "reject",
+        "playerId": "cfdaa0f64e",
+        "text": "pirates of the caribbean",
+        "why": "miss",
+        "seq": 28,
+        "at": 1792691789124
+      },
+      {
+        "kind": "pop",
+        "playerId": "cfdaa0f64e",
+        "livesLeft": 0,
+        "seq": 29,
+        "at": 1792691793528
+      },
+      {
+        "kind": "out",
+        "playerId": "cfdaa0f64e",
+        "place": 4,
+        "seq": 30,
+        "at": 1792691793528
+      },
+      {
+        "kind": "reject",
+        "playerId": "466b9c104d",
+        "text": "bro who tf is dat",
+        "why": "miss",
+        "seq": 31,
+        "at": 1792691796407
+      },
+      {
+        "kind": "reject",
+        "playerId": "466b9c104d",
+        "text": "jackie chan",
+        "why": "miss",
+        "seq": 32,
+        "at": 1792691802395
+      },
+      {
+        "kind": "reject",
+        "playerId": "466b9c104d",
+        "text": "idk",
+        "why": "miss",
+        "seq": 33,
+        "at": 1792691805060
+      },
+      {
+        "kind": "pop",
+        "playerId": "466b9c104d",
+        "livesLeft": 1,
+        "seq": 10034,
+        "at": 1792691824121
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "64112b8496",
+        "seq": 10035,
+        "at": 1792691824121
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "dd2422fc89",
+        "answer": "Kit Kat",
+        "tier": "plankton",
+        "seq": 10036,
+        "at": 1792691830219
+      },
+      {
+        "kind": "pass",
+        "from": "dd2422fc89",
+        "to": "466b9c104d",
+        "answer": "Hershey's",
+        "tier": "schooler",
+        "seq": 10037,
+        "at": 1792691832184
+      },
+      {
+        "kind": "reject",
+        "playerId": "466b9c104d",
+        "text": "yupi",
+        "why": "miss",
+        "seq": 10038,
+        "at": 1792691833223
+      },
+      {
+        "kind": "pass",
+        "from": "466b9c104d",
+        "to": "64112b8496",
+        "answer": "Alpenliebe",
+        "tier": "deepcut",
+        "seq": 10039,
+        "at": 1792691846241
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "dd2422fc89",
+        "answer": "Mars bar",
+        "tier": "schooler",
+        "seq": 10040,
+        "at": 1792691847828
+      },
+      {
+        "kind": "pass",
+        "from": "dd2422fc89",
+        "to": "466b9c104d",
+        "answer": "Nerds",
+        "tier": "schooler",
+        "seq": 10041,
+        "at": 1792691848838
+      },
+      {
+        "kind": "reject",
+        "playerId": "466b9c104d",
+        "text": "yuppy",
+        "why": "miss",
+        "seq": 10042,
+        "at": 1792691854175
+      },
+      {
+        "kind": "pop",
+        "playerId": "466b9c104d",
+        "livesLeft": 0,
+        "seq": 10043,
+        "at": 1792691856838
+      },
+      {
+        "kind": "out",
+        "playerId": "466b9c104d",
+        "place": 3,
+        "seq": 10044,
+        "at": 1792691856838
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "dd2422fc89",
+        "answer": "Oh Henry!",
+        "tier": "rare",
+        "seq": 10045,
+        "at": 1792691859469
+      },
+      {
+        "kind": "pass",
+        "from": "dd2422fc89",
+        "to": "64112b8496",
+        "answer": "Gummy bears",
+        "tier": "schooler",
+        "seq": 10046,
+        "at": 1792691860613
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "dd2422fc89",
+        "answer": "Toblerone",
+        "tier": "schooler",
+        "seq": 10047,
+        "at": 1792691866351
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd2422fc89",
+        "text": "gummy clusters",
+        "why": "miss",
+        "seq": 10048,
+        "at": 1792691867687
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd2422fc89",
+        "text": "fiz",
+        "why": "miss",
+        "seq": 10049,
+        "at": 1792691872448
+      },
+      {
+        "kind": "leave",
+        "playerId": "466b9c104d",
+        "seq": 10050,
+        "at": 1792691872980
+      },
+      {
+        "kind": "pop",
+        "playerId": "dd2422fc89",
+        "livesLeft": 0,
+        "seq": 10051,
+        "at": 1792691874351
+      },
+      {
+        "kind": "out",
+        "playerId": "dd2422fc89",
+        "place": 2,
+        "seq": 10052,
+        "at": 1792691874351
+      },
+      {
+        "kind": "win",
+        "playerId": "64112b8496",
+        "seq": 10053,
+        "at": 1792691874351
+      },
+      {
+        "kind": "lobby",
+        "seq": 10054,
+        "at": 1792691877455
+      },
+      {
+        "kind": "host",
+        "playerId": "dd2422fc89",
+        "seq": 10055,
+        "at": 1792691877455
+      },
+      {
+        "kind": "join",
+        "playerId": "8e7a493880",
+        "seq": 10056,
+        "at": 1792691880550
+      },
+      {
+        "kind": "join",
+        "playerId": "f31148d7e3",
+        "seq": 10057,
+        "at": 1792691880610
+      },
+      {
+        "kind": "join",
+        "playerId": "a359d5adcb",
+        "seq": 10058,
+        "at": 1792691880692
+      },
+      {
+        "kind": "leave",
+        "playerId": "dd2422fc89",
+        "seq": 10059,
+        "at": 1792691880734
+      },
+      {
+        "kind": "host",
+        "playerId": "8e7a493880",
+        "seq": 10060,
+        "at": 1792691880734
+      },
+      {
+        "kind": "leave",
+        "playerId": "cfdaa0f64e",
+        "seq": 10061,
+        "at": 1792691891694
+      },
+      {
+        "kind": "join",
+        "playerId": "0544f0fd91",
+        "seq": 10062,
+        "at": 1792691893689
+      },
+      {
+        "kind": "join",
+        "playerId": "d77d74b261",
+        "seq": 10063,
+        "at": 1792691893954
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792691896954,
+        "seq": 10064,
+        "at": 1792691893954
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792691709850,
+        "playerId": null,
+        "name": "samuel",
+        "text": "samuel joined"
+      },
+      {
+        "id": 2,
+        "at": 1792691710955,
+        "playerId": null,
+        "name": "The Big T",
+        "text": "The Big T joined"
+      },
+      {
+        "id": 3,
+        "at": 1792691711020,
+        "playerId": null,
+        "name": "Negrito",
+        "text": "Negrito joined"
+      },
+      {
+        "id": 4,
+        "at": 1792691711079,
+        "playerId": null,
+        "name": "LP",
+        "text": "LP joined"
+      },
+      {
+        "id": 5,
+        "at": 1792691711132,
+        "playerId": null,
+        "name": "gandalf",
+        "text": "gandalf joined"
+      },
+      {
+        "id": 6,
+        "at": 1792691711339,
+        "playerId": null,
+        "name": "nor",
+        "text": "nor joined"
+      },
+      {
+        "id": 7,
+        "at": 1792691714165,
+        "playerId": null,
+        "name": "Negrito",
+        "text": "Negrito left"
+      },
+      {
+        "id": 8,
+        "at": 1792691733510,
+        "playerId": null,
+        "name": "gandalf",
+        "text": "gandalf left"
+      },
+      {
+        "id": 10009,
+        "at": 1792691872980,
+        "playerId": null,
+        "name": "nor",
+        "text": "nor left"
+      },
+      {
+        "id": 10010,
+        "at": 1792691874351,
+        "playerId": null,
+        "name": "samuel",
+        "text": "samuel won"
+      },
+      {
+        "id": 10011,
+        "at": 1792691880550,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10012,
+        "at": 1792691880610,
+        "playerId": null,
+        "name": "Will",
+        "text": "Will joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792691880692,
+        "playerId": null,
+        "name": "Ethan",
+        "text": "Ethan joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792691880734,
+        "playerId": null,
+        "name": "The Big T",
+        "text": "The Big T left"
+      },
+      {
+        "id": 10015,
+        "at": 1792691891694,
+        "playerId": null,
+        "name": "LP",
+        "text": "LP was kicked for being idle"
+      },
+      {
+        "id": 10016,
+        "at": 1792691893689,
+        "playerId": null,
+        "name": "halle",
+        "text": "halle joined"
+      },
+      {
+        "id": 10017,
+        "at": 1792691893954,
+        "playerId": null,
+        "name": "Flare",
+        "text": "Flare joined"
+      }
+    ],
+    "now": 1792691893954
+  },
+  "finalRoom": {
+    "code": "NKPA",
+    "chatEnabled": true,
+    "version": 10587,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "8e7a493880",
+    "players": [
+      {
+        "id": "64112b8496",
+        "chatMuted": false,
+        "removed": false,
+        "name": "samuel",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 440,
+        "alive": false,
+        "answers": 14,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Germany",
+          "tier": "schooler"
+        },
+        "place": 3
+      },
+      {
+        "id": "0544f0fd91",
+        "chatMuted": false,
+        "removed": false,
+        "name": "halle",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 190,
+        "alive": false,
+        "answers": 8,
+        "pops": 1,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "sometimes",
+          "tier": "plankton"
+        },
+        "place": 4
+      },
+      {
+        "id": "8e7a493880",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 590,
+        "alive": true,
+        "answers": 20,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Argentina",
+          "tier": "rare"
+        },
+        "place": 1
+      },
+      {
+        "id": "d77d74b261",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Flare",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 10,
+        "alive": false,
+        "answers": 1,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Toe",
+          "tier": "plankton"
+        },
+        "place": 6
+      },
+      {
+        "id": "f31148d7e3",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Will",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 120,
+        "alive": false,
+        "answers": 3,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Niger",
+          "tier": "rare"
+        },
+        "place": 5
+      },
+      {
+        "id": "a359d5adcb",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Ethan",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 490,
+        "alive": false,
+        "answers": 18,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "South Korea",
+          "tier": "rare"
+        },
+        "place": 2
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 7,
+      "text": "Name a country that has hosted the FIFA World Cup",
+      "threshold": 20,
+      "accepted": 15
+    },
+    "countdownEndsAt": null,
+    "winnerId": "8e7a493880",
+    "gameNumber": 2,
+    "gameId": "party:NKPA-1792691709850-2",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "8e7a493880",
+        "answer": "Billy Hargrove",
+        "tier": "schooler",
+        "seq": 10138,
+        "at": 1792692114505
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Dustin Henderson",
+        "tier": "plankton",
+        "seq": 10139,
+        "at": 1792692114663
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "64112b8496",
+        "answer": "Jim Hopper",
+        "tier": "plankton",
+        "seq": 10140,
+        "at": 1792692124389
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "8e7a493880",
+        "answer": "Vecna",
+        "tier": "schooler",
+        "seq": 10141,
+        "at": 1792692125642
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Lucas Sinclair",
+        "tier": "schooler",
+        "seq": 10142,
+        "at": 1792692125800
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "64112b8496",
+        "answer": "Bob Newby",
+        "tier": "rare",
+        "seq": 10143,
+        "at": 1792692128775
+      },
+      {
+        "kind": "reject",
+        "playerId": "64112b8496",
+        "text": "mrs hargrove",
+        "why": "miss",
+        "seq": 10144,
+        "at": 1792692132193
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "8e7a493880",
+        "answer": "Will Byers",
+        "tier": "plankton",
+        "seq": 10145,
+        "at": 1792692135968
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Joyce Byers",
+        "tier": "schooler",
+        "seq": 10146,
+        "at": 1792692136132
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "64112b8496",
+        "answer": "Max Mayfield",
+        "tier": "schooler",
+        "seq": 10147,
+        "at": 1792692138098
+      },
+      {
+        "kind": "reject",
+        "playerId": "64112b8496",
+        "text": "maz",
+        "why": "miss",
+        "seq": 10148,
+        "at": 1792692139928
+      },
+      {
+        "kind": "pop",
+        "playerId": "64112b8496",
+        "livesLeft": 1,
+        "seq": 10149,
+        "at": 1792692146098
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 7,
+        "holderId": "8e7a493880",
+        "seq": 10150,
+        "at": 1792692146098
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Brazil",
+        "tier": "plankton",
+        "seq": 10151,
+        "at": 1792692152116
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "64112b8496",
+        "answer": "Uruguay",
+        "tier": "schooler",
+        "seq": 10152,
+        "at": 1792692155456
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "8e7a493880",
+        "answer": "South Africa",
+        "tier": "schooler",
+        "seq": 10153,
+        "at": 1792692158847
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Italy",
+        "tier": "schooler",
+        "seq": 10154,
+        "at": 1792692159011
+      },
+      {
+        "kind": "reject",
+        "playerId": "a359d5adcb",
+        "text": "italy",
+        "why": "repeat",
+        "seq": 10155,
+        "at": 1792692163171
+      },
+      {
+        "kind": "reject",
+        "playerId": "a359d5adcb",
+        "text": "brazil",
+        "why": "repeat",
+        "seq": 10156,
+        "at": 1792692166946
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "64112b8496",
+        "answer": "England",
+        "tier": "schooler",
+        "seq": 10157,
+        "at": 1792692170662
+      },
+      {
+        "kind": "pass",
+        "from": "64112b8496",
+        "to": "8e7a493880",
+        "answer": "Germany",
+        "tier": "schooler",
+        "seq": 10158,
+        "at": 1792692171498
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "France",
+        "tier": "schooler",
+        "seq": 10159,
+        "at": 1792692171717
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "64112b8496",
+        "answer": "Japan",
+        "tier": "rare",
+        "seq": 10160,
+        "at": 1792692176335
+      },
+      {
+        "kind": "reject",
+        "playerId": "64112b8496",
+        "text": "uk",
+        "why": "repeat",
+        "seq": 10161,
+        "at": 1792692177086
+      },
+      {
+        "kind": "reject",
+        "playerId": "64112b8496",
+        "text": "england",
+        "why": "repeat",
+        "seq": 10162,
+        "at": 1792692180708
+      },
+      {
+        "kind": "pop",
+        "playerId": "64112b8496",
+        "livesLeft": 0,
+        "seq": 10163,
+        "at": 1792692184336
+      },
+      {
+        "kind": "out",
+        "playerId": "64112b8496",
+        "place": 3,
+        "seq": 10164,
+        "at": 1792692184336
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Switzerland",
+        "tier": "deepcut",
+        "seq": 10165,
+        "at": 1792692186008
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "8e7a493880",
+        "answer": "Mexico",
+        "tier": "schooler",
+        "seq": 10166,
+        "at": 1792692192440
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Sweden",
+        "tier": "deepcut",
+        "seq": 10167,
+        "at": 1792692192601
+      },
+      {
+        "kind": "reject",
+        "playerId": "a359d5adcb",
+        "text": "italy",
+        "why": "repeat",
+        "seq": 10168,
+        "at": 1792692195975
+      },
+      {
+        "kind": "leave",
+        "playerId": "64112b8496",
+        "seq": 10169,
+        "at": 1792692197202
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "8e7a493880",
+        "answer": "United States",
+        "tier": "plankton",
+        "seq": 10170,
+        "at": 1792692199608
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Chile",
+        "tier": "krillion",
+        "seq": 10171,
+        "at": 1792692199766
+      },
+      {
+        "kind": "pass",
+        "from": "a359d5adcb",
+        "to": "8e7a493880",
+        "answer": "South Korea",
+        "tier": "rare",
+        "seq": 10172,
+        "at": 1792692203281
+      },
+      {
+        "kind": "pass",
+        "from": "8e7a493880",
+        "to": "a359d5adcb",
+        "answer": "Argentina",
+        "tier": "rare",
+        "seq": 10173,
+        "at": 1792692203466
+      },
+      {
+        "kind": "reject",
+        "playerId": "a359d5adcb",
+        "text": "france",
+        "why": "repeat",
+        "seq": 10174,
+        "at": 1792692211211
+      },
+      {
+        "kind": "pop",
+        "playerId": "a359d5adcb",
+        "livesLeft": 0,
+        "seq": 10175,
+        "at": 1792692211466
+      },
+      {
+        "kind": "out",
+        "playerId": "a359d5adcb",
+        "place": 2,
+        "seq": 10176,
+        "at": 1792692211466
+      },
+      {
+        "kind": "win",
+        "playerId": "8e7a493880",
+        "seq": 10177,
+        "at": 1792692211466
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792691709850,
+        "playerId": null,
+        "name": "samuel",
+        "text": "samuel joined"
+      },
+      {
+        "id": 2,
+        "at": 1792691710955,
+        "playerId": null,
+        "name": "The Big T",
+        "text": "The Big T joined"
+      },
+      {
+        "id": 3,
+        "at": 1792691711020,
+        "playerId": null,
+        "name": "Negrito",
+        "text": "Negrito joined"
+      },
+      {
+        "id": 4,
+        "at": 1792691711079,
+        "playerId": null,
+        "name": "LP",
+        "text": "LP joined"
+      },
+      {
+        "id": 5,
+        "at": 1792691711132,
+        "playerId": null,
+        "name": "gandalf",
+        "text": "gandalf joined"
+      },
+      {
+        "id": 6,
+        "at": 1792691711339,
+        "playerId": null,
+        "name": "nor",
+        "text": "nor joined"
+      },
+      {
+        "id": 7,
+        "at": 1792691714165,
+        "playerId": null,
+        "name": "Negrito",
+        "text": "Negrito left"
+      },
+      {
+        "id": 8,
+        "at": 1792691733510,
+        "playerId": null,
+        "name": "gandalf",
+        "text": "gandalf left"
+      },
+      {
+        "id": 10009,
+        "at": 1792691872980,
+        "playerId": null,
+        "name": "nor",
+        "text": "nor left"
+      },
+      {
+        "id": 10010,
+        "at": 1792691874351,
+        "playerId": null,
+        "name": "samuel",
+        "text": "samuel won"
+      },
+      {
+        "id": 10011,
+        "at": 1792691880550,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 10012,
+        "at": 1792691880610,
+        "playerId": null,
+        "name": "Will",
+        "text": "Will joined"
+      },
+      {
+        "id": 10013,
+        "at": 1792691880692,
+        "playerId": null,
+        "name": "Ethan",
+        "text": "Ethan joined"
+      },
+      {
+        "id": 10014,
+        "at": 1792691880734,
+        "playerId": null,
+        "name": "The Big T",
+        "text": "The Big T left"
+      },
+      {
+        "id": 10015,
+        "at": 1792691891694,
+        "playerId": null,
+        "name": "LP",
+        "text": "LP was kicked for being idle"
+      },
+      {
+        "id": 10016,
+        "at": 1792691893689,
+        "playerId": null,
+        "name": "halle",
+        "text": "halle joined"
+      },
+      {
+        "id": 10017,
+        "at": 1792691893954,
+        "playerId": null,
+        "name": "Flare",
+        "text": "Flare joined"
+      },
+      {
+        "id": 10018,
+        "at": 1792691974424,
+        "playerId": null,
+        "name": "Flare",
+        "text": "Flare was kicked for being idle"
+      },
+      {
+        "id": 10019,
+        "at": 1792692025703,
+        "playerId": null,
+        "name": "Will",
+        "text": "Will left"
+      },
+      {
+        "id": 10020,
+        "at": 1792692111348,
+        "playerId": null,
+        "name": "halle",
+        "text": "halle was kicked for being idle"
+      },
+      {
+        "id": 10021,
+        "at": 1792692197202,
+        "playerId": null,
+        "name": "samuel",
+        "text": "samuel left"
+      },
+      {
+        "id": 10022,
+        "at": 1792692211466,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792692211466
+  }
+}
