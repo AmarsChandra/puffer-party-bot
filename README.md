@@ -15,6 +15,7 @@ Requires **Node.js 22+**. There are no npm dependencies. Fresh answer generation
 ```sh
 git clone https://github.com/AmarsChandra/puffer-party-bot.git
 cd puffer-party-bot
+node regular-bank.mjs
 sh ./play.sh
 ```
 
@@ -28,6 +29,14 @@ sh ./play.sh --help
 ```
 
 `--ai off` uses the local answer bank, learned cache, and 34,006-word dictionary. `--room` joins an existing room and waits for its host. `--codex PATH` selects a CLI executable. `--timeout MS` changes the per-game time limit. Ctrl+C leaves the room.
+
+### Public regular-game answer index
+
+`node regular-bank.mjs` optionally refreshes a local `regular-bank.json` from the current public daily reveal and the five free first dives. It retains up to 80 rare-first canonical choices per exact prompt. The initial six-source sample covered 42 prompts and retained 2,710 choices. The local index is excluded from Git.
+
+An overlap check found identical tiers for all 54 previously observed Puffer answers that could be matched in those reveals. The engine still records these as `regular-bank` choices until Puffer accepts them. Puffer's actual tier or rejection overrides the regular-game expectation. Source URLs and data hashes are recorded with those submissions. Access-denied responses are skipped.
+
+The isolated 42-prompt lookup benchmark measured a 0.41 ms median and a 2.48 ms p95 with no model requests. See [the comparison](validation/regular-bank-comparison.json) and [the lookup benchmark](validation/regular-bank-readiness.json). These are observed samples, not a guarantee of shared acceptance for every prompt.
 
 ## Public group games and improvement
 
@@ -54,16 +63,16 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Observed statistics
 
-Snapshot as of 2026-10-22T23:26:04.564Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
+Snapshot as of 2026-10-22T23:50:21.912Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
 
 | Metric | Result |
 | --- | --- |
-| Confirmed public wins / attempts | 16 / 17 (94.1%) |
+| Confirmed public wins / attempts | 17 / 18 (94.4%) |
 | Losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 7 / 9 |
-| Accepted submissions / acknowledgements | 267 / 282 (94.7%) |
-| Rare-or-better accepted answers | 91 / 267 (34.1%) |
-| Category first-answer availability, median | 3,794 ms |
+| Current / best consecutive wins | 8 / 9 |
+| Accepted submissions / acknowledgements | 286 / 301 (95.0%) |
+| Rare-or-better accepted answers | 110 / 286 (38.5%) |
+| Category first-answer availability, median | 3,775 ms |
 | First-turn wait, median | 82 ms |
 
 [Full statistics and methodology](statistics/README-snippet.md) · [Machine-readable summary](statistics/summary.json) · [Every public attempt as CSV](statistics/matches.csv)
@@ -99,7 +108,7 @@ npm run audit
 npm run stats
 ```
 
-The initial publication passed **50 regression tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **55 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
 Source: `puffer-bot.mjs` handles the game connection; `answer-engine.mjs` ranks and learns answers; `codex-provider.mjs` manages generation; `adaptive-campaign.mjs` runs and records reviewed games; `statistics.mjs` derives publication statistics.
 

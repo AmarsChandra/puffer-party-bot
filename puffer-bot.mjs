@@ -242,11 +242,12 @@ export class PufferBot {
     this.tried.add(normalize(answer));this.nextSendAt=Date.now()+180;this.metrics.attempts++;
     try{
       const ack=await this.act({type:'submit',text:answer});
-      this.log('answer',{question:r.category.text,answer,source:choice.source,reactionMs,ok:ack.ok,submit:ack.submit,error:ack.error});
+      const provenance=choice.source==='regular-bank'?{regularTier:choice.regularTier,regularSource:choice.regularSource,regularDataHash:choice.regularDataHash}:{};
+      this.log('answer',{question:r.category.text,answer,source:choice.source,...provenance,reactionMs,ok:ack.ok,submit:ack.submit,error:ack.error});
       if(ack.submit?.accepted){
         this.acceptedTurn=turnKey;this.metrics.accepted++;this.metrics.reactionMs.push(reactionMs);
         this.metrics.sources[choice.source]=(this.metrics.sources[choice.source]??0)+1;
-        this.accepted.push({question:r.category.text,answer,source:choice.source,reactionMs,submit:ack.submit});
+        this.accepted.push({question:r.category.text,answer,source:choice.source,...provenance,reactionMs,submit:ack.submit});
         this.engine.learn(r.category.text,answer,{accepted:true,tier:ack.submit.tier,canonical:ack.submit.answer??answer});
         if(this.categoryKey===categoryKey){this.used.add(normalize(answer));this.used.add(normalize(ack.submit.answer??answer));}
       }else if(ack.submit?.why==='miss'||ack.submit?.why==='repeat'){

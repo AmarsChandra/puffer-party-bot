@@ -28078,6 +28078,1559 @@
           "lastAccepted": "2026-10-22T23:25:56.238Z"
         }
       }
+    },
+    "animal that lives in the jungle": {
+      "question": "Name an animal that lives in the jungle",
+      "answers": {
+        "binturong": {
+          "text": "Binturong",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "binturong",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:46:46.701Z"
+        },
+        "okapi": {
+          "text": "Okapi",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "okapi",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:47:11.018Z"
+        },
+        "sunbear": {
+          "text": "Sun bear",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bongo": {
+          "text": "Bongo",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fossa": {
+          "text": "Fossa",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "silkyanteater": {
+          "text": "Silky anteater",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pygmyhippopotamus": {
+          "text": "Pygmy hippopotamus",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "goldenliontamarin": {
+          "text": "Golden lion tamarin",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "jaguar": {
+          "text": "Jaguar",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "jaguar",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-22T23:46:51.601Z"
+        },
+        "sundacolugo": {
+          "text": "Sunda colugo",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "redriverhog": {
+          "text": "Red river hog",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lowlandanoa": {
+          "text": "Lowland anoa",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "blackcaiman": {
+          "text": "Black caiman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "balduakari": {
+          "text": "Bald uakari",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "greatargus": {
+          "text": "Great argus",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "forestelephant": {
+          "text": "Forest elephant",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "margay": {
+          "text": "Margay",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "olingo": {
+          "text": "Olingo",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "drill": {
+          "text": "Drill",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bandedlinsang": {
+          "text": "Banded linsang",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "malayantapir": {
+          "text": "Malayan tapir",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "blueduiker": {
+          "text": "Blue duiker",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sloth": {
+          "text": "Sloth",
+          "accepted": 1,
+          "misses": 0,
+          "order": 22,
+          "canonical": "sloth",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:04.952Z"
+        },
+        "panther": {
+          "text": "Panther",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "panther",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:47:10.754Z"
+        },
+        "toucan": {
+          "text": "Toucan",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "toucan",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:15.014Z"
+        }
+      }
+    },
+    "craft or handicraft a hobby where you make things by hand": {
+      "question": "Name a craft or handicraft — a hobby where you make things by hand",
+      "answers": {
+        "tatting": {
+          "text": "Tatting",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "tatting",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:47:29.174Z"
+        },
+        "quilling": {
+          "text": "Quilling",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "quilling",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:47:43.510Z"
+        },
+        "needlefelting": {
+          "text": "Needle felting",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sewing": {
+          "text": "Sewing",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "sewing",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-22T23:47:21.472Z"
+        },
+        "coiledbasketry": {
+          "text": "Coiled basketry",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bobbinlace": {
+          "text": "Bobbin lace",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nalbinding": {
+          "text": "Nalbinding",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "marquetry": {
+          "text": "Marquetry",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "intarsia": {
+          "text": "Intarsia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kumihimo": {
+          "text": "Kumihimo",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "temari": {
+          "text": "Temari",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sashiko": {
+          "text": "Sashiko",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "blackworkembroidery": {
+          "text": "Blackwork embroidery",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hardangerembroidery": {
+          "text": "Hardanger embroidery",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rughooking": {
+          "text": "Rug hooking",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pyrography": {
+          "text": "Pyrography",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chipcarving": {
+          "text": "Chip carving",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bookbinding": {
+          "text": "Bookbinding",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "leathertooling": {
+          "text": "Leather tooling",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "spooncarving": {
+          "text": "Spoon carving",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "candlemaking": {
+          "text": "Candle making",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "stainedglass": {
+          "text": "Stained glass",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "woodworking": {
+          "text": "Woodworking",
+          "accepted": 1,
+          "misses": 0,
+          "order": 22,
+          "canonical": "woodworking",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:27.577Z"
+        },
+        "origami": {
+          "text": "Origami",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "origami",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-22T23:47:28.909Z"
+        },
+        "crochet": {
+          "text": "Crochet",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "crochet",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:29.822Z"
+        },
+        "pottery": {
+          "text": "Pottery",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "pottery",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-22T23:47:30.554Z"
+        },
+        "painting": {
+          "text": "Painting",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "painting",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:36.153Z"
+        },
+        "drawing": {
+          "text": "Drawing",
+          "accepted": 1,
+          "misses": 0,
+          "order": 27,
+          "canonical": "drawing",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:43.245Z"
+        },
+        "basketweaving": {
+          "text": "Basket weaving",
+          "accepted": 1,
+          "misses": 0,
+          "order": 28,
+          "canonical": "basketweaving",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:47:43.961Z"
+        }
+      }
+    },
+    "character from brooklyn nine nine": {
+      "question": "Name a character from Brooklyn Nine-Nine",
+      "answers": {
+        "kevincozner": {
+          "text": "Kevin Cozner",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "kevincozner",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:48:07.406Z"
+        },
+        "dougjudy": {
+          "text": "Doug Judy",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "dougjudy",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:48:07.147Z"
+        },
+        "adrianpimento": {
+          "text": "Adrian Pimento",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "adrianpimento",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:48:26.398Z"
+        },
+        "stevemajorsepisode": {
+          "text": "Steve (Majors Episode)",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "stevemajorsepisode",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:48:01.470Z"
+        },
+        "madelinewuntch": {
+          "text": "Madeline Wuntch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sophiaperez": {
+          "text": "Sophia Perez",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "debbiefogle": {
+          "text": "Debbie Fogle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "melaniehawkins": {
+          "text": "Melanie Hawkins",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "teddywells": {
+          "text": "Teddy Wells",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "karenperalta": {
+          "text": "Karen Peralta",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rogerperalta": {
+          "text": "Roger Peralta",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lynnboyle": {
+          "text": "Lynn Boyle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "genevievemirren": {
+          "text": "Genevieve Mirren",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "victorsantiago": {
+          "text": "Victor Santiago",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "camilasantiago": {
+          "text": "Camila Santiago",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nikolajboyle": {
+          "text": "Nikolaj Boyle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "johnkelly": {
+          "text": "John Kelly",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "keithpembroke": {
+          "text": "Keith Pembroke",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "trudyjudy": {
+          "text": "Trudy Judy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sharonjeffords": {
+          "text": "Sharon Jeffords",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "marcus": {
+          "text": "Marcus",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "caleb": {
+          "text": "Caleb",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rosadiaz": {
+          "text": "Rosa Diaz",
+          "accepted": 1,
+          "misses": 0,
+          "order": 22,
+          "canonical": "rosadiaz",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:48:08.844Z"
+        },
+        "cheddar": {
+          "text": "Cheddar",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "cheddar",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:48:26.116Z"
+        },
+        "billyocampo": {
+          "text": "Billy Ocampo",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "billyocampo",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:48:27.044Z"
+        }
+      }
+    },
+    "mollusk or shellfish": {
+      "question": "Name a mollusk or shellfish",
+      "answers": {
+        "chiton": {
+          "text": "Chiton",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "chiton",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:48:52.108Z"
+        },
+        "limpet": {
+          "text": "Limpet",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "geoduck": {
+          "text": "Geoduck",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "geoduck",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:48:52.759Z"
+        },
+        "scaphopod": {
+          "text": "Scaphopod",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cockle": {
+          "text": "Cockle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "whelk": {
+          "text": "Whelk",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "periwinkle": {
+          "text": "Periwinkle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "razorclam": {
+          "text": "Razor clam",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tuskshell": {
+          "text": "Tusk shell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "abalone": {
+          "text": "Abalone",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "moonsnail": {
+          "text": "Moon snail",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nautilus": {
+          "text": "Nautilus",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cuttlefish": {
+          "text": "Cuttlefish",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nudibranch": {
+          "text": "Nudibranch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seahare": {
+          "text": "Sea hare",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "piddock": {
+          "text": "Piddock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "quahog": {
+          "text": "Quahog",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "topshell": {
+          "text": "Top shell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "keyholelimpet": {
+          "text": "Keyhole limpet",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "slippershell": {
+          "text": "Slipper shell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "penshell": {
+          "text": "Pen shell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "shrimp": {
+          "text": "Shrimp",
+          "accepted": 1,
+          "misses": 0,
+          "order": 21,
+          "canonical": "shrimp",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:48:51.845Z"
+        }
+      }
+    },
+    "empire from history": {
+      "question": "Name an empire from history",
+      "answers": {
+        "kushanempire": {
+          "text": "Kushan Empire",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "kushanempire",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:05.301Z"
+        },
+        "aksumiteempire": {
+          "text": "Aksumite Empire",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "aksumiteempire",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-22T23:49:11.924Z"
+        },
+        "durraniempire": {
+          "text": "Durrani Empire",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "durraniempire",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:27.786Z"
+        },
+        "chineseempire": {
+          "text": "Chinese Empire",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "chineseempire",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:49:07.286Z"
+        },
+        "trebizondempire": {
+          "text": "Empire of Trebizond",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "empireoftrebizond",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:29.151Z"
+        },
+        "nicaeanempire": {
+          "text": "Empire of Nicaea",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "empireofnicaea",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:33.896Z"
+        },
+        "latinempire": {
+          "text": "Latin Empire",
+          "accepted": 2,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "latinempire",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:36.426Z"
+        },
+        "hephthaliteempire": {
+          "text": "Hephthalite Empire",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "hephthaliteempire",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:40.220Z"
+        },
+        "karakhitaiempire": {
+          "text": "Kara Khitai Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ghaznavidempire": {
+          "text": "Ghaznavid Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ghuridempire": {
+          "text": "Ghurid Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "samanidempire": {
+          "text": "Samanid Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "buyidempire": {
+          "text": "Buyid Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "khwarazmianempire": {
+          "text": "Khwarazmian Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "karakhanidempire": {
+          "text": "Kara-Khanid Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "srivijayaempire": {
+          "text": "Srivijaya Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "majapahitempire": {
+          "text": "Majapahit Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mughalempire": {
+          "text": "Mughal Empire",
+          "accepted": 1,
+          "misses": 0,
+          "order": 17,
+          "canonical": "mughalempire",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:49:11.666Z"
+        },
+        "toungooempire": {
+          "text": "Toungoo Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "konbaungempire": {
+          "text": "Konbaung Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "oyoempire": {
+          "text": "Oyo Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kanembornuempire": {
+          "text": "Kanem-Bornu Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wassoulouempire": {
+          "text": "Wassoulou Empire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "macedonianempire": {
+          "text": "Macedonian Empire",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "macedonianempire",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:49:18.024Z"
+        },
+        "ottomanempire": {
+          "text": "Ottoman Empire",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "ottomanempire",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-22T23:49:28.900Z"
+        },
+        "empireoftrebizond": {
+          "text": "Empire of Trebizond",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "empireoftrebizond",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:29.133Z"
+        },
+        "empireofvietnam": {
+          "text": "Empire of Vietnam",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "empireofvietnam",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:33.588Z"
+        },
+        "empireofnicaea": {
+          "text": "Empire of Nicaea",
+          "accepted": 1,
+          "misses": 0,
+          "order": 27,
+          "canonical": "empireofnicaea",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:33.849Z"
+        },
+        "kingdomofkongo": {
+          "text": "Kingdom of Kongo",
+          "accepted": 1,
+          "misses": 0,
+          "order": 28,
+          "canonical": "kingdomofkongo",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:36.142Z"
+        },
+        "empireofjapan": {
+          "text": "Empire of Japan",
+          "accepted": 1,
+          "misses": 0,
+          "order": 29,
+          "canonical": "empireofjapan",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:49:39.926Z"
+        }
+      }
+    },
+    "us government agency": {
+      "question": "Name a US government agency",
+      "answers": {
+        "bureauofreclamation": {
+          "text": "Bureau of Reclamation",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "bureauofreclamation",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:49:52.076Z"
+        },
+        "federalmaritimecommission": {
+          "text": "FMC",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "fmc",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:54.056Z"
+        },
+        "nationalmediationboard": {
+          "text": "National Mediation Board",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "nationalmediationboard",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:58.616Z"
+        },
+        "nsa": {
+          "text": "NSA",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "nsa",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-22T23:49:53.778Z"
+        },
+        "fmc": {
+          "text": "FMC",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "fmc",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:49:54.035Z"
+        },
+        "railroadretirementboard": {
+          "text": "Railroad Retirement Board",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "railroadretirementboard",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:50:01.135Z"
+        },
+        "federallaborrelationsauthority": {
+          "text": "Federal Labor Relations Authority",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "officeofspecialcounsel": {
+          "text": "Office of Special Counsel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "meritsystemsprotectionboard": {
+          "text": "Merit Systems Protection Board",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "farmcreditadministration": {
+          "text": "Farm Credit Administration",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nationalcreditunionadministration": {
+          "text": "National Credit Union Administration",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "defensenuclearfacilitiessafetyboard": {
+          "text": "Defense Nuclear Facilities Safety Board",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "federalminesafetyandhealthreviewcommission": {
+          "text": "Federal Mine Safety and Health Review Commission",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "occupationalsafetyandhealthreviewcommission": {
+          "text": "Occupational Safety and Health Review Commission",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "uscommissiononcivilrights": {
+          "text": "U.S. Commission on Civil Rights",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "usinternationaltradecommission": {
+          "text": "U.S. International Trade Commission",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "federalenergyregulatorycommission": {
+          "text": "Federal Energy Regulatory Commission",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nuclearregulatorycommission": {
+          "text": "Nuclear Regulatory Commission",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bureauofeconomicanalysis": {
+          "text": "Bureau of Economic Analysis",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bureauoftransportationstatistics": {
+          "text": "Bureau of Transportation Statistics",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bureauofjusticestatistics": {
+          "text": "Bureau of Justice Statistics",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "economicresearchservice": {
+          "text": "Economic Research Service",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nationalagriculturalstatisticsservice": {
+          "text": "National Agricultural Statistics Service",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fbi": {
+          "text": "FBI",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "fbi",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-22T23:49:58.343Z"
+        },
+        "bonnevillepoweradministration": {
+          "text": "Bonneville Power Administration",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "bonnevillepoweradministration",
+          "tier": "rare",
+          "lastAccepted": "2026-10-22T23:50:00.876Z"
+        }
+      }
+    },
+    "us coin": {
+      "question": "Name a US coin",
+      "answers": {
+        "threecentnickel": {
+          "text": "Three-cent piece",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "threecentpiece",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:50:13.125Z"
+        },
+        "halfcent": {
+          "text": "Half cent",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "twentycentpiece": {
+          "text": "Twenty-cent piece",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "threecentpiece": {
+          "text": "Three-cent piece",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "threecentpiece",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-22T23:50:13.113Z"
+        },
+        "threedollargoldpiece": {
+          "text": "Three-dollar gold piece",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "quartereagle": {
+          "text": "Quarter eagle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "halfdime": {
+          "text": "Half dime",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tradedollar": {
+          "text": "Trade dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "golddollar": {
+          "text": "Gold dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "doubleeagle": {
+          "text": "Double eagle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "halfeagle": {
+          "text": "Half eagle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "eagle": {
+          "text": "Eagle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "threecentsilver": {
+          "text": "Three-cent silver",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "flowinghairdollar": {
+          "text": "Flowing Hair dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "drapedbustdollar": {
+          "text": "Draped Bust dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seatedlibertydollar": {
+          "text": "Seated Liberty dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "barberdime": {
+          "text": "Barber dime",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "standinglibertyquarter": {
+          "text": "Standing Liberty quarter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "walkinglibertyhalfdollar": {
+          "text": "Walking Liberty half dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "franklinhalfdollar": {
+          "text": "Franklin half dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "peacedollar": {
+          "text": "Peace dollar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "shieldnickel": {
+          "text": "Shield nickel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }

@@ -1,0 +1,143 @@
+{
+  "room": "EDSC",
+  "gameId": "party:EDSC-1792712542395-2",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name an animal that lives in the jungle",
+      "readyMs": 4108,
+      "firstTurnWaitMs": 1623,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a craft or handicraft — a hobby where you make things by hand",
+      "readyMs": 3764,
+      "firstTurnWaitMs": 83,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a character from Brooklyn Nine-Nine",
+      "readyMs": 3305,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "rare": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a mollusk or shellfish",
+      "readyMs": 3096,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an empire from history",
+      "readyMs": 4382,
+      "firstTurnWaitMs": 2876,
+      "accepted": 7,
+      "rarity": {
+        "tiers": {
+          "deepcut": 6,
+          "krillion": 1
+        },
+        "rareOrBetter": 7,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a US government agency",
+      "readyMs": 3554,
+      "firstTurnWaitMs": 2043,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "rare": 1,
+          "deepcut": 3
+        },
+        "rareOrBetter": 4,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a US coin",
+      "readyMs": 3712,
+      "firstTurnWaitMs": 2205,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "deepcut": 15,
+      "rare": 3,
+      "krillion": 1
+    },
+    "rareOrBetter": 19,
+    "rareOrBetterRate": 1
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 20,
+    "ownAccepted": 19,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

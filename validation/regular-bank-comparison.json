@@ -1,0 +1,387 @@
+{
+  "sources": 6,
+  "prompts": 42,
+  "answers": 23890,
+  "matchedAnswers": 54,
+  "matchingTiers": 54,
+  "comparisons": [
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Bob Newby",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Billy Hargrove",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Joyce Byers",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Lucas Sinclair",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Max Mayfield",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Vecna",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Dustin Henderson",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Eleven",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Jim Hopper",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Mike Wheeler",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "answer": "Will Byers",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Onward",
+      "regularTier": "deepcut",
+      "pufferTier": "deepcut",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Elemental",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Incredibles 2",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Turning Red",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "A Bug's Life",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Brave",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Coco",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Finding Dory",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Inside Out 2",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Luca",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Monsters University",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Ratatouille",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Soul",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "The Good Dinosaur",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "WALL-E",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "The Incredibles",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "Up",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Los Angeles Clippers",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Memphis Grizzlies",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Minnesota Timberwolves",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "New Orleans Pelicans",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Oklahoma City Thunder",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Utah Jazz",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Dallas Mavericks",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Milwaukee Bucks",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "New York Knicks",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an NBA team",
+      "answer": "Chicago Bulls",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "England",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "Uruguay",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "France",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "Germany",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "Italy",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "Argentina",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "Brazil",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "answer": "Spain",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "assemblage",
+      "regularTier": "rare",
+      "pufferTier": "rare",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "cartilage",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "entourage",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "answer": "triage",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "answer": "autism",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "answer": "communism",
+      "regularTier": "schooler",
+      "pufferTier": "schooler",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "answer": "capitalism",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "answer": "prism",
+      "regularTier": "plankton",
+      "pufferTier": "plankton",
+      "agrees": true
+    }
+  ]
+}

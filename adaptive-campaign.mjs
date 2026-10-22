@@ -19,7 +19,7 @@ function saveCampaign(file,state,output){
  try{writeStatistics(path.dirname(file),output?path.resolve(output):undefined);}catch(error){console.error(JSON.stringify({type:'statistics-error',message:error.message}));}
 }
 function snapshot(root,sources){
- sources??=Object.fromEntries(['puffer-bot.mjs','answer-engine.mjs','codex-provider.mjs','streak-runner.mjs','game-screen.mjs','adaptive-campaign.mjs','review-match.mjs','statistics.mjs','answers.json','english-words.json'].map(f=>[f,hash(fs.readFileSync(path.join(DIR,f)))]));
+ sources??=Object.fromEntries(['puffer-bot.mjs','answer-engine.mjs','codex-provider.mjs','regular-bank.mjs','streak-runner.mjs','game-screen.mjs','adaptive-campaign.mjs','review-match.mjs','statistics.mjs','answers.json','english-words.json'].map(f=>[f,hash(fs.readFileSync(path.join(DIR,f)))]));
  const id=hash(JSON.stringify(sources)).slice(0,16),dir=path.join(root,'versions',id);fs.mkdirSync(dir,{recursive:true});
  for(const [file,expected]of Object.entries(sources)){
   const bytes=fs.readFileSync(path.join(DIR,file));if(hash(bytes)!==expected)throw new Error('Source differs from the historical run: '+file);
@@ -70,7 +70,7 @@ async function main(){
  const provider=new CodexProvider({cwd:path.join(root,'worker'),onLog:log});
  const engine=new AnswerEngine({bankPath:path.join(DIR,'answers.json'),cachePath:path.resolve(opts.cache??path.join(DIR,'learned-answers.json')),provider,onLog:log,onReady:q=>bot?.answerReady(q)});
  try{
-  await engine.warmup();bot=new PufferBot({name:'PufferBot',size:state.queue,engine,output:dir,watchSeat:opts['watch-seat']?path.resolve(opts['watch-seat']):undefined,timeout:600000});
+  await engine.warmup();bot=new PufferBot({name:'PufferBot',size:state.queue,engine,output:dir,watchSeat:opts['watch-seat']?path.resolve(opts['watch-seat']):undefined,timeout:1800000});
   const result=await bot.run(),outcome=verifiedOutcome(result,state.queue);write(path.join(dir,'result.json'),result);
   const review=reviewMatch(result,JSON.parse(fs.readFileSync(path.join(DIR,'answers.json'))));write(path.join(dir,'review.json'),review);
   state.records.push({number,outcome,gameId:result.gameId,room:result.room,gameNumber:result.gameNumber,players:result.startingRoom?.players.filter(p=>p.alive&&!p.removed).length,resultFile:path.relative(root,path.join(dir,'result.json')),reviewFile:path.relative(root,path.join(dir,'review.json')),sourceVersion:version.id,accepted:result.player?.answers,lives:result.player?.lives,finishedAt:new Date().toISOString(),reviewed:false});

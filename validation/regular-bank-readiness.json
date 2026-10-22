@@ -1,0 +1,349 @@
+{
+  "kind": "regular-bank-local-readiness",
+  "generatedAt": "2026-10-22T23:45:49.518Z",
+  "publicSources": 6,
+  "questions": 42,
+  "indexLoadMs": 1.4867500000000007,
+  "medianMs": 0.412375499999996,
+  "p95Ms": 2.4759579999999985,
+  "modelRequests": 0,
+  "conditions": "Isolated learned cache, existing local answer bank, public daily and first-preview index. Regular-game tiers are expected tiers, not Puffer gameplay acknowledgements. Short finite categories may request model fill; this sample has sufficient local pools.",
+  "queries": [
+    {
+      "question": "Name a character from Attack on Titan, One Piece or Naruto",
+      "localAnswerMs": 3.860709,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Pandaman",
+      "available": 80
+    },
+    {
+      "question": "Name a job with median annual pay over $100,000 in the US",
+      "localAnswerMs": 1.4410419999999995,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Elevator mechanic",
+      "available": 80
+    },
+    {
+      "question": "Name a game with a number in its name (sequels and 3D variants don't count)",
+      "localAnswerMs": 0.8554160000000017,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Pachisi",
+      "available": 80
+    },
+    {
+      "question": "Name a field, art or skill ending in -graphy",
+      "localAnswerMs": 0.6094590000000011,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Steganography",
+      "available": 80
+    },
+    {
+      "question": "Name a country with a five-letter English name",
+      "localAnswerMs": 0.23920799999999787,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Nauru",
+      "available": 27
+    },
+    {
+      "question": "Name an environmental problem (like pollution)",
+      "localAnswerMs": 0.7103750000000026,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Nurdle pollution",
+      "available": 81
+    },
+    {
+      "question": "Name a South Asian dish (India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, Maldives, Afghanistan)",
+      "localAnswerMs": 0.5158750000000012,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Bombay duck",
+      "available": 80
+    },
+    {
+      "question": "Name a noodle dish",
+      "localAnswerMs": 0.5447909999999965,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Banh canh",
+      "available": 80
+    },
+    {
+      "question": "Name a species of great ape",
+      "localAnswerMs": 0.4540840000000017,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Tapanuli orangutan",
+      "available": 80
+    },
+    {
+      "question": "Name a character from Stranger Things",
+      "localAnswerMs": 0.39016699999999815,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Funshine",
+      "available": 80
+    },
+    {
+      "question": "Name a hot drink",
+      "localAnswerMs": 0.41108399999999534,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Sahlab",
+      "available": 80
+    },
+    {
+      "question": "Name a variety of wine",
+      "localAnswerMs": 0.3355410000000063,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Rkatsiteli",
+      "available": 80
+    },
+    {
+      "question": "Name an interjection or exclamation",
+      "localAnswerMs": 0.4357919999999993,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Gardyloo",
+      "available": 80
+    },
+    {
+      "question": "Name a country with a coastline",
+      "localAnswerMs": 0.3393749999999969,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Iraq",
+      "available": 80
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "localAnswerMs": 0.17524999999999835,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Elio",
+      "available": 31
+    },
+    {
+      "question": "Name a movie starring Samuel L. Jackson",
+      "localAnswerMs": 0.47854199999999736,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "The Red Violin",
+      "available": 80
+    },
+    {
+      "question": "Name a character from Aladdin",
+      "localAnswerMs": 0.3587089999999975,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Farouk",
+      "available": 78
+    },
+    {
+      "question": "Name a movie monster or horror villain",
+      "localAnswerMs": 0.3530420000000021,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Rhedosaurus",
+      "available": 80
+    },
+    {
+      "question": "Name a western movie",
+      "localAnswerMs": 0.3500000000000014,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Support Your Local Sheriff!",
+      "available": 80
+    },
+    {
+      "question": "Name a movie starring Harrison Ford",
+      "localAnswerMs": 0.267040999999999,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "The Conversation",
+      "available": 54
+    },
+    {
+      "question": "Name an actor who has played James Bond in an official Bond film",
+      "localAnswerMs": 0.09354200000000645,
+      "source": "regular-bank",
+      "expectedRegularTier": "deepcut",
+      "answer": "George Lazenby",
+      "available": 6
+    },
+    {
+      "question": "Name an NBA team",
+      "localAnswerMs": 0.5669579999999996,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Kansas City Kings",
+      "available": 68
+    },
+    {
+      "question": "Name a Los Angeles Lakers player (2020-2026)",
+      "localAnswerMs": 0.4491250000000022,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Darren Collison",
+      "available": 80
+    },
+    {
+      "question": "Name a pitch a baseball pitcher can throw",
+      "localAnswerMs": 0.17020899999999983,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Eephus",
+      "available": 31
+    },
+    {
+      "question": "Name a sports trophy",
+      "localAnswerMs": 0.4136669999999967,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Jules Rimet Trophy",
+      "available": 80
+    },
+    {
+      "question": "Name a tennis player who has held the ATP or WTA No. 1 singles ranking (through 2025)",
+      "localAnswerMs": 0.35829100000000125,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Marcelo Ríos",
+      "available": 58
+    },
+    {
+      "question": "Name a sport contested at the Winter Olympics",
+      "localAnswerMs": 0.22683300000000628,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Military patrol",
+      "available": 40
+    },
+    {
+      "question": "Name a country that has won the men's soccer World Cup",
+      "localAnswerMs": 0.09958400000000012,
+      "source": "regular-bank",
+      "expectedRegularTier": "rare",
+      "answer": "England",
+      "available": 8
+    },
+    {
+      "question": "Name a country in Africa",
+      "localAnswerMs": 0.34116699999999867,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "São Tomé and Príncipe",
+      "available": 57
+    },
+    {
+      "question": "Name a national capital that is not its country’s largest city",
+      "localAnswerMs": 0.747957999999997,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Ciudad de la Paz",
+      "available": 45
+    },
+    {
+      "question": "Name a desert",
+      "localAnswerMs": 0.2827079999999995,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Pinnacles Desert",
+      "available": 65
+    },
+    {
+      "question": "Name a country whose flag includes at least one star",
+      "localAnswerMs": 0.39154199999999406,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Croatia",
+      "available": 69
+    },
+    {
+      "question": "Name a country whose English name contains J, K, or V",
+      "localAnswerMs": 0.23637499999999534,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Vanuatu",
+      "available": 42
+    },
+    {
+      "question": "Name an island country",
+      "localAnswerMs": 0.23400000000000176,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Brunei",
+      "available": 48
+    },
+    {
+      "question": "Name a country that shares a land border with Germany",
+      "localAnswerMs": 0.13041700000000134,
+      "source": "regular-bank",
+      "expectedRegularTier": "deepcut",
+      "answer": "Luxembourg",
+      "available": 9
+    },
+    {
+      "question": "Name an English word containing “age”",
+      "localAnswerMs": 6.211417000000004,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "flagellomania",
+      "available": 323
+    },
+    {
+      "question": "Name an English word containing “ough”",
+      "localAnswerMs": 2.046082999999996,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "froughy",
+      "available": 132
+    },
+    {
+      "question": "Name a filler word people say while thinking (like “um”)",
+      "localAnswerMs": 0.5114590000000021,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "whatnot",
+      "available": 57
+    },
+    {
+      "question": "Name an idiom or saying that mentions food",
+      "localAnswerMs": 0.5144999999999982,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "A curate's egg",
+      "available": 80
+    },
+    {
+      "question": "Name an English word containing “anti”",
+      "localAnswerMs": 2.2070000000000007,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "consubstantiationist",
+      "available": 186
+    },
+    {
+      "question": "Name an English word ending in “-ism”",
+      "localAnswerMs": 2.4759579999999985,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "panaesthetism",
+      "available": 317
+    },
+    {
+      "question": "Name a part of a newspaper",
+      "localAnswerMs": 0.49970799999999826,
+      "source": "regular-bank",
+      "expectedRegularTier": "krillion",
+      "answer": "Ear",
+      "available": 79
+    }
+  ]
+}

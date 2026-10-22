@@ -101,13 +101,19 @@ export function candidates(question,bank){
 }
 const TIER={plankton:10,tooclever:0,schooler:30,rare:80,deepcut:150,krillion:250};
 export class AnswerEngine {
-  constructor({bankPath,cachePath,provider=null,onLog=()=>{},onReady=()=>{}}){
+  constructor({bankPath,cachePath,regularBankPath=path.join(path.dirname(cachePath),'regular-bank.json'),provider=null,onLog=()=>{},onReady=()=>{}}){
     this.bankPath=bankPath;this.cachePath=cachePath;this.provider=provider;this.onLog=onLog;this.onReady=onReady;
     this.data={version:2,questions:{}};this.inflight=new Map();this.attempts=new Map();this.retryAt=new Map();this.bankStamp=-1;this.closed=false;this.staticCache=new Map();
     if(fs.existsSync(cachePath)){
       const data=JSON.parse(fs.readFileSync(cachePath,'utf8'));
       if(data.version!==2||typeof data.questions!=='object')throw new Error('Unsupported learned answer cache');
       this.data=data;
+    }
+    this.regularBank={questions:{}};
+    if(regularBankPath&&fs.existsSync(regularBankPath)){
+      const data=JSON.parse(fs.readFileSync(regularBankPath,'utf8'));
+      if(data.version!==1||!data.questions||typeof data.questions!=='object')throw new Error('Unsupported regular answer bank');
+      this.regularBank=data;
     }
   }
   bank(){const stat=fs.statSync(this.bankPath);if(stat.mtimeMs!==this.bankStamp){const bank=JSON.parse(fs.readFileSync(this.bankPath,'utf8'));this.bankData=bank;this.bankStamp=stat.mtimeMs;this.staticCache.clear();
@@ -125,12 +131,18 @@ export class AnswerEngine {
     const staticAnswers=this.staticCache.get(key);
     const pool=new Map(),exampleKey=normalize(promptExample(question)??'');
     staticAnswers.forEach((text,i)=>{const a=entry.answers[normalize(text)];pool.set(answerKey(a?.canonical??text),{text:a?.canonical?a.text:text,score:500-i/100,source:normalize(text)===exampleKey?'example':'bank'});});
+    const regular=this.regularBank.questions[key];
+    for(const a of regular?.answers??[]){
+      if(typeof a?.text!=='string'||!(a.tier in TIER)||!answerFits(question,a.text))continue;
+      const k=answerKey(a.text),score=990+TIER[a.tier];
+      if(!pool.has(k)||score>pool.get(k).score)pool.set(k,{text:a.text,score,source:'regular-bank',regularTier:a.tier,regularSource:regular.sourceUrl,regularDataHash:this.regularBank.sources?.[regular.sourceUrl]?.sha256});
+    }
     Object.entries(entry.answers).forEach(([storedKey,a])=>{
       const key=answerKey(a.canonical??storedKey);
       // A miss for this exact category outweighs unverified model or bank suggestions.
       if(a.misses>0&&!a.accepted){pool.delete(key);return;}
       const score=a.accepted?1000+(TIER[a.tier]??0)+Math.min(a.accepted,20)/100:a.rarityRequested?1040-(a.order??0)/100:300-(a.order??0)/100;
-      if(!pool.has(key)||score>pool.get(key).score)pool.set(key,{...a,score,source:a.accepted?'verified':'codex'});
+      if(!pool.has(key)||a.accepted||score>pool.get(key).score)pool.set(key,{...a,score,source:a.accepted?'verified':'codex'});
     });
     return [...pool].filter(([key])=>!excluded.has(key)).map(([,a])=>a).sort((a,b)=>b.score-a.score);
   }
@@ -151,12 +163,14 @@ export class AnswerEngine {
     for(const [other,job] of this.inflight)if(other!==key)job.controller.abort();
     if(this.closed||!this.provider||this.inflight.has(key))return this.inflight.get(key)?.promise??Promise.resolve();
     const available=this.records(question,exclude);
+    if(!force&&this.regularBank.questions[key]?.complete&&available.some(a=>a.source==='regular-bank'))return Promise.resolve();
     const rareChoices=available.filter(a=>a.accepted&&(TIER[a.tier]??0)>=TIER.rare).length;
     const rareProposals=available.filter(a=>!a.accepted&&a.rarityRequested).length;
+    const regularRare=available.some(a=>a.source==='regular-bank'&&(TIER[a.regularTier]??0)>=TIER.rare);
     // A large local pool can still consist entirely of common answers. Once the
     // server has shown that, prepare rare alternatives without delaying play.
     const untouchedLocalPool=available.some(a=>a.source==='bank')&&!this.records(question).some(a=>a.accepted);
-    if(!force&&available.length>=8&&(untouchedLocalPool||rareChoices||rareProposals>=3))return Promise.resolve();
+    if(!force&&available.length>=8&&(untouchedLocalPool||rareChoices||regularRare||rareProposals>=3))return Promise.resolve();
     if(Date.now()<Math.max(this.retryAt.get(key)??0,this.providerRetryAt??0))return Promise.resolve();
     const attempts=this.attempts.get(key)??0;
     if(attempts>=3)return Promise.resolve();

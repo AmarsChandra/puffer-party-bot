@@ -160,6 +160,22 @@
         "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
         "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
       }
+    },
+    {
+      "id": "a09c09638df3e9ad",
+      "sources": {
+        "puffer-bot.mjs": "e004824a5c6cfe1f30efcd8f388c74767f9bbcc23467b39c92c31703aec04007",
+        "answer-engine.mjs": "97d86f6a15f7bb4610c09494058c5ddd4fb82cbb1e1b2a77d2dce7f10a841f6f",
+        "codex-provider.mjs": "0925be5dd3f687dcf3d126717de74b66759135bf7dfc28b8a1a693dbe1354dbb",
+        "regular-bank.mjs": "262dbf079caa7c57005e9c4703c33e68e27d639770975a427cb2cdf23b16faf2",
+        "streak-runner.mjs": "dfd46d66e655043b095fbb37aa21b9e0d58a1f7ef388c47488f10841922932c8",
+        "game-screen.mjs": "7b9b924b22c69361a38bc02f7da5e22f60e1ac0c202976e4487de8d994851262",
+        "adaptive-campaign.mjs": "1617b3bdeb5e6b3580b400802125933cd9730bcb572189cf273b20c5886ae7b4",
+        "review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "statistics.mjs": "1e7be39d2df76192deb6360a4aeb74c2eacafd06c755e45539970d98f06fb221",
+        "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
+      }
     }
   ],
   "records": [
@@ -405,6 +421,21 @@
       "accepted": 45,
       "lives": 5,
       "finishedAt": "2026-10-22T23:26:04.564Z",
+      "reviewed": true
+    },
+    {
+      "number": 18,
+      "outcome": "win",
+      "gameId": "party:EDSC-1792712542395-2",
+      "room": "EDSC",
+      "gameNumber": 2,
+      "players": 6,
+      "resultFile": "games/018/result.json",
+      "reviewFile": "games/018/review.json",
+      "sourceVersion": "a09c09638df3e9ad",
+      "accepted": 19,
+      "lives": 4,
+      "finishedAt": "2026-10-22T23:50:21.912Z",
       "reviewed": true
     }
   ],
@@ -1177,10 +1208,28 @@
           "deepcut": 3
         }
       }
+    },
+    {
+      "at": "2026-10-22T23:51:17.751Z",
+      "afterMatch": 18,
+      "summary": "Match 18 won a six-player public game with 19 accepted answers, no rejections, four hearts and no pops. Every answer was rare or better: 15 deep cuts, three rare and one krillion. None of its seven prompts was in the new regular-game index, so this match validates fallback play, not live regular-bank agreement.",
+      "changes": [
+        "Retained the newly server-confirmed rare answers for seven categories.",
+        "Added an optional public daily/free-preview index: 42 prompts, 2710 retained choices, provenance kept separate from Puffer acknowledgement tiers.",
+        "Verified 54 matching historical Puffer answers had identical regular-game tiers. Isolated index lookup median 0.412ms, p95 2.476ms with zero model requests.",
+        "Raised the group campaign watchdog to 30 minutes because the previous 13-category rare-answer match already lasted over eight minutes; avoid abandoning a valid long game at ten minutes."
+      ],
+      "validation": {
+        "testsPassed": 55,
+        "testsFailed": 0,
+        "liveBankSelectionsThisMatch": 0,
+        "historicalTierComparisons": 54,
+        "historicalTierAgreements": 54
+      }
     }
   ],
   "progress": {
-    "current": 7,
+    "current": 8,
     "best": 9
   },
   "setupFailures": [

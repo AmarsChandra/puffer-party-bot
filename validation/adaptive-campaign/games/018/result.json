@@ -1,0 +1,1629 @@
+{
+  "won": true,
+  "room": "EDSC",
+  "playerId": "2ac3d07362",
+  "winnerId": "2ac3d07362",
+  "gameNumber": 2,
+  "gameId": "party:EDSC-1792712542395-2",
+  "rated": false,
+  "player": {
+    "id": "2ac3d07362",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 4,
+    "meter": 355,
+    "alive": true,
+    "answers": 19,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Three-cent piece",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name an animal that lives in the jungle"
+    },
+    {
+      "index": 2,
+      "text": "Name a craft or handicraft — a hobby where you make things by hand"
+    },
+    {
+      "index": 3,
+      "text": "Name a character from Brooklyn Nine-Nine"
+    },
+    {
+      "index": 4,
+      "text": "Name a mollusk or shellfish"
+    },
+    {
+      "index": 5,
+      "text": "Name an empire from history"
+    },
+    {
+      "index": 6,
+      "text": "Name a US government agency"
+    },
+    {
+      "index": 7,
+      "text": "Name a US coin"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an animal that lives in the jungle",
+      "answer": "Binturong",
+      "source": "codex",
+      "reactionMs": 1624,
+      "submit": {
+        "accepted": true,
+        "answer": "Binturong",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an animal that lives in the jungle",
+      "answer": "Okapi",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Okapi",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a craft or handicraft — a hobby where you make things by hand",
+      "answer": "Tatting",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Tatting",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a craft or handicraft — a hobby where you make things by hand",
+      "answer": "Quilling",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Quilling",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a character from Brooklyn Nine-Nine",
+      "answer": "Kevin Cozner",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Kevin Cozner",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a character from Brooklyn Nine-Nine",
+      "answer": "Adrian Pimento",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Adrian Pimento",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a mollusk or shellfish",
+      "answer": "Chiton",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Chiton",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Kushan Empire",
+      "source": "codex",
+      "reactionMs": 2884,
+      "submit": {
+        "accepted": true,
+        "answer": "Kushan Empire",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Aksumite Empire",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Aksumite Empire",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Durrani Empire",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Durrani Empire",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Trebizond Empire",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Empire of Trebizond",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Nicaean Empire",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Empire of Nicaea",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Latin Empire",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Latin Empire",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an empire from history",
+      "answer": "Hephthalite Empire",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Hephthalite Empire",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a US government agency",
+      "answer": "Bureau of Reclamation",
+      "source": "codex",
+      "reactionMs": 2056,
+      "submit": {
+        "accepted": true,
+        "answer": "Bureau of Reclamation",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a US government agency",
+      "answer": "Federal Maritime Commission",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "FMC",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a US government agency",
+      "answer": "National Mediation Board",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "National Mediation Board",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a US government agency",
+      "answer": "Railroad Retirement Board",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Railroad Retirement Board",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a US coin",
+      "answer": "Three-cent nickel",
+      "source": "codex",
+      "reactionMs": 2214,
+      "submit": {
+        "accepted": true,
+        "answer": "Three-cent piece",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 19,
+    "accepted": 19,
+    "reactionMs": [
+      1624,
+      84,
+      83,
+      82,
+      82,
+      82,
+      82,
+      2884,
+      82,
+      83,
+      80,
+      80,
+      81,
+      81,
+      2056,
+      82,
+      81,
+      81,
+      2214
+    ],
+    "sources": {
+      "codex": 19
+    },
+    "unknownCategories": [
+      "Name an animal that lives in the jungle",
+      "Name an empire from history",
+      "Name a US government agency",
+      "Name a US coin"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 2,
+        "index": 1,
+        "question": "Name an animal that lives in the jungle",
+        "observedAt": 1792712802389,
+        "readyMs": 4108,
+        "firstTurnAt": 1792712804874,
+        "firstSubmitMs": 4108,
+        "firstTurnWaitMs": 1623,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 2,
+        "question": "Name a craft or handicraft — a hobby where you make things by hand",
+        "observedAt": 1792712835014,
+        "readyMs": 3764,
+        "firstTurnAt": 1792712848909,
+        "firstSubmitMs": 13978,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 3,
+        "question": "Name a character from Brooklyn Nine-Nine",
+        "observedAt": 1792712871949,
+        "readyMs": 3305,
+        "firstTurnAt": 1792712887147,
+        "firstSubmitMs": 15280,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 4,
+        "question": "Name a mollusk or shellfish",
+        "observedAt": 1792712907044,
+        "readyMs": 3096,
+        "firstTurnAt": 1792712931845,
+        "firstSubmitMs": 24882,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 5,
+        "question": "Name an empire from history",
+        "observedAt": 1792712940762,
+        "readyMs": 4382,
+        "firstTurnAt": 1792712942269,
+        "firstSubmitMs": 4383,
+        "firstTurnWaitMs": 2876,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 6,
+        "question": "Name a US government agency",
+        "observedAt": 1792712988195,
+        "readyMs": 3554,
+        "firstTurnAt": 1792712989707,
+        "firstSubmitMs": 3555,
+        "firstTurnWaitMs": 2043,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 2,
+        "index": 7,
+        "question": "Name a US coin",
+        "observedAt": 1792713009118,
+        "readyMs": 3712,
+        "firstTurnAt": 1792713010626,
+        "firstSubmitMs": 3713,
+        "firstTurnWaitMs": 2205,
+        "firstSource": "codex"
+      }
+    ]
+  },
+  "startingRoom": {
+    "code": "EDSC",
+    "chatEnabled": true,
+    "version": 315,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "75a62a0c33",
+    "players": [
+      {
+        "id": "2ac3d07362",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "75a62a0c33",
+        "chatMuted": false,
+        "removed": false,
+        "name": "uppercut",
+        "character": "krill",
+        "seat": 1,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "9e00aa6324",
+        "chatMuted": false,
+        "removed": false,
+        "name": "gaius",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "db99917931",
+        "chatMuted": false,
+        "removed": false,
+        "name": "fuhhmee",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "f46c05b457",
+        "chatMuted": false,
+        "removed": false,
+        "name": "manny",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "87549901e8",
+        "chatMuted": false,
+        "removed": false,
+        "name": "BoxMuncher",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792712802430,
+    "winnerId": null,
+    "gameNumber": 2,
+    "gameId": "party:EDSC-1792712542395-2",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "9e1a2c6a53",
+        "answer": "Kick",
+        "tier": "plankton",
+        "seq": 63,
+        "at": 1792712707353
+      },
+      {
+        "kind": "pass",
+        "from": "9e1a2c6a53",
+        "to": "43fa778fe1",
+        "answer": "Karate chop",
+        "tier": "schooler",
+        "seq": 64,
+        "at": 1792712710442
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Guard",
+        "tier": "rare",
+        "seq": 65,
+        "at": 1792712710942
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "9e1a2c6a53",
+        "answer": "Punch",
+        "tier": "schooler",
+        "seq": 66,
+        "at": 1792712714110
+      },
+      {
+        "kind": "reject",
+        "playerId": "9e1a2c6a53",
+        "text": "whack",
+        "why": "miss",
+        "seq": 67,
+        "at": 1792712719901
+      },
+      {
+        "kind": "reject",
+        "playerId": "9e1a2c6a53",
+        "text": "slice",
+        "why": "miss",
+        "seq": 68,
+        "at": 1792712723803
+      },
+      {
+        "kind": "pop",
+        "playerId": "9e1a2c6a53",
+        "livesLeft": 0,
+        "seq": 69,
+        "at": 1792712729295
+      },
+      {
+        "kind": "out",
+        "playerId": "9e1a2c6a53",
+        "place": 3,
+        "seq": 70,
+        "at": 1792712729295
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Jab",
+        "tier": "rare",
+        "seq": 71,
+        "at": 1792712731741
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "43fa778fe1",
+        "answer": "Bow",
+        "tier": "schooler",
+        "seq": 72,
+        "at": 1792712735474
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Cross",
+        "tier": "rare",
+        "seq": 73,
+        "at": 1792712736475
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "43fa778fe1",
+        "answer": "Knee strike",
+        "tier": "rare",
+        "seq": 74,
+        "at": 1792712741992
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Hook",
+        "tier": "rare",
+        "seq": 75,
+        "at": 1792712742751
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "43fa778fe1",
+        "answer": "Uppercut",
+        "tier": "rare",
+        "seq": 76,
+        "at": 1792712746239
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Overhand",
+        "tier": "deepcut",
+        "seq": 77,
+        "at": 1792712749983
+      },
+      {
+        "kind": "leave",
+        "playerId": "3e4fd46f07",
+        "seq": 78,
+        "at": 1792712754079
+      },
+      {
+        "kind": "host",
+        "playerId": "75a62a0c33",
+        "seq": 79,
+        "at": 1792712754079
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "43fa778fe1",
+        "answer": "Straight",
+        "tier": "deepcut",
+        "seq": 80,
+        "at": 1792712755032
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Triangle choke",
+        "tier": "rare",
+        "seq": 81,
+        "at": 1792712755545
+      },
+      {
+        "kind": "leave",
+        "playerId": "9e1a2c6a53",
+        "seq": 82,
+        "at": 1792712758612
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "43fa778fe1",
+        "answer": "Lunge",
+        "tier": "deepcut",
+        "seq": 83,
+        "at": 1792712762446
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Americana",
+        "tier": "deepcut",
+        "seq": 84,
+        "at": 1792712763046
+      },
+      {
+        "kind": "spare",
+        "playerId": "43fa778fe1",
+        "lives": 3,
+        "seq": 85,
+        "at": 1792712763046
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "swiss",
+        "why": "miss",
+        "seq": 86,
+        "at": 1792712766058
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "chinese",
+        "why": "miss",
+        "seq": 87,
+        "at": 1792712769075
+      },
+      {
+        "kind": "pop",
+        "playerId": "75a62a0c33",
+        "livesLeft": 1,
+        "seq": 88,
+        "at": 1792712771046
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "43fa778fe1",
+        "seq": 89,
+        "at": 1792712771046
+      },
+      {
+        "kind": "pass",
+        "from": "43fa778fe1",
+        "to": "75a62a0c33",
+        "answer": "Hulk",
+        "tier": "schooler",
+        "seq": 90,
+        "at": 1792712778156
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "atticus",
+        "why": "miss",
+        "seq": 91,
+        "at": 1792712785270
+      },
+      {
+        "kind": "pop",
+        "playerId": "75a62a0c33",
+        "livesLeft": 0,
+        "seq": 92,
+        "at": 1792712786156
+      },
+      {
+        "kind": "out",
+        "playerId": "75a62a0c33",
+        "place": 2,
+        "seq": 93,
+        "at": 1792712786156
+      },
+      {
+        "kind": "win",
+        "playerId": "43fa778fe1",
+        "seq": 94,
+        "at": 1792712786156
+      },
+      {
+        "kind": "lobby",
+        "seq": 95,
+        "at": 1792712790485
+      },
+      {
+        "kind": "leave",
+        "playerId": "43fa778fe1",
+        "seq": 96,
+        "at": 1792712791083
+      },
+      {
+        "kind": "join",
+        "playerId": "2ac3d07362",
+        "seq": 97,
+        "at": 1792712794854
+      },
+      {
+        "kind": "join",
+        "playerId": "9e00aa6324",
+        "seq": 98,
+        "at": 1792712794883
+      },
+      {
+        "kind": "join",
+        "playerId": "db99917931",
+        "seq": 99,
+        "at": 1792712795208
+      },
+      {
+        "kind": "join",
+        "playerId": "f46c05b457",
+        "seq": 100,
+        "at": 1792712795243
+      },
+      {
+        "kind": "join",
+        "playerId": "87549901e8",
+        "seq": 101,
+        "at": 1792712799430
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792712802430,
+        "seq": 102,
+        "at": 1792712799430
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792712542395,
+        "playerId": null,
+        "name": "llantas",
+        "text": "llantas joined"
+      },
+      {
+        "id": 2,
+        "at": 1792712543227,
+        "playerId": null,
+        "name": "uppercut",
+        "text": "uppercut joined"
+      },
+      {
+        "id": 3,
+        "at": 1792712543475,
+        "playerId": null,
+        "name": "hprc",
+        "text": "hprc joined"
+      },
+      {
+        "id": 4,
+        "at": 1792712544319,
+        "playerId": null,
+        "name": "Condog",
+        "text": "Condog joined"
+      },
+      {
+        "id": 5,
+        "at": 1792712544350,
+        "playerId": null,
+        "name": "nicol",
+        "text": "nicol joined"
+      },
+      {
+        "id": 6,
+        "at": 1792712544604,
+        "playerId": null,
+        "name": "zac",
+        "text": "zac joined"
+      },
+      {
+        "id": 7,
+        "at": 1792712546964,
+        "playerId": null,
+        "name": "hprc",
+        "text": "hprc left"
+      },
+      {
+        "id": 8,
+        "at": 1792712666169,
+        "playerId": null,
+        "name": "Condog",
+        "text": "Condog left"
+      },
+      {
+        "id": 9,
+        "at": 1792712754079,
+        "playerId": null,
+        "name": "llantas",
+        "text": "llantas was kicked for being idle"
+      },
+      {
+        "id": 10,
+        "at": 1792712758612,
+        "playerId": null,
+        "name": "nicol",
+        "text": "nicol left"
+      },
+      {
+        "id": 11,
+        "at": 1792712786156,
+        "playerId": null,
+        "name": "zac",
+        "text": "zac won"
+      },
+      {
+        "id": 12,
+        "at": 1792712791083,
+        "playerId": null,
+        "name": "zac",
+        "text": "zac left"
+      },
+      {
+        "id": 13,
+        "at": 1792712794854,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 14,
+        "at": 1792712794883,
+        "playerId": null,
+        "name": "gaius",
+        "text": "gaius joined"
+      },
+      {
+        "id": 15,
+        "at": 1792712795208,
+        "playerId": null,
+        "name": "fuhhmee",
+        "text": "fuhhmee joined"
+      },
+      {
+        "id": 16,
+        "at": 1792712795243,
+        "playerId": null,
+        "name": "manny",
+        "text": "manny joined"
+      },
+      {
+        "id": 17,
+        "at": 1792712799430,
+        "playerId": null,
+        "name": "BoxMuncher",
+        "text": "BoxMuncher joined"
+      }
+    ],
+    "now": 1792712799430
+  },
+  "finalRoom": {
+    "code": "EDSC",
+    "chatEnabled": true,
+    "version": 617,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "75a62a0c33",
+    "players": [
+      {
+        "id": "2ac3d07362",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 4,
+        "meter": 355,
+        "alive": true,
+        "answers": 19,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Three-cent piece",
+          "tier": "deepcut"
+        },
+        "place": 1
+      },
+      {
+        "id": "75a62a0c33",
+        "chatMuted": false,
+        "removed": false,
+        "name": "uppercut",
+        "character": "krill",
+        "seat": 1,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 100,
+        "alive": false,
+        "answers": 16,
+        "pops": 3,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Bonneville Power Administration",
+          "tier": "rare"
+        },
+        "place": 2
+      },
+      {
+        "id": "9e00aa6324",
+        "chatMuted": false,
+        "removed": false,
+        "name": "gaius",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 20,
+        "alive": false,
+        "answers": 2,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Pottery",
+          "tier": "plankton"
+        },
+        "place": 5
+      },
+      {
+        "id": "db99917931",
+        "chatMuted": false,
+        "removed": false,
+        "name": "fuhhmee",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 175,
+        "alive": false,
+        "answers": 4,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Steve (Majors Episode)",
+          "tier": "deepcut"
+        },
+        "place": 4
+      },
+      {
+        "id": "f46c05b457",
+        "chatMuted": false,
+        "removed": false,
+        "name": "manny",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 280,
+        "alive": false,
+        "answers": 7,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Mughal Empire",
+          "tier": "rare"
+        },
+        "place": 3
+      },
+      {
+        "id": "87549901e8",
+        "chatMuted": false,
+        "removed": false,
+        "name": "BoxMuncher",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 6
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 7,
+      "text": "Name a US coin",
+      "threshold": 12,
+      "accepted": 1
+    },
+    "countdownEndsAt": null,
+    "winnerId": "2ac3d07362",
+    "gameNumber": 2,
+    "gameId": "party:EDSC-1792712542395-2",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "f46c05b457",
+        "to": "2ac3d07362",
+        "answer": "Mughal Empire",
+        "tier": "rare",
+        "seq": 153,
+        "at": 1792712951710
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Aksumite Empire",
+        "tier": "krillion",
+        "seq": 154,
+        "at": 1792712951947
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "trojan",
+        "why": "miss",
+        "seq": 155,
+        "at": 1792712956236
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "f46c05b457",
+        "answer": "Macedonian Empire",
+        "tier": "schooler",
+        "seq": 156,
+        "at": 1792712958012
+      },
+      {
+        "kind": "reject",
+        "playerId": "f46c05b457",
+        "text": "adhokan",
+        "why": "miss",
+        "seq": 157,
+        "at": 1792712962463
+      },
+      {
+        "kind": "pop",
+        "playerId": "f46c05b457",
+        "livesLeft": 0,
+        "seq": 158,
+        "at": 1792712966012
+      },
+      {
+        "kind": "out",
+        "playerId": "f46c05b457",
+        "place": 3,
+        "seq": 159,
+        "at": 1792712966012
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Durrani Empire",
+        "tier": "deepcut",
+        "seq": 160,
+        "at": 1792712967740
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "Ottoman Empire",
+        "tier": "plankton",
+        "seq": 161,
+        "at": 1792712968945
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Empire of Trebizond",
+        "tier": "deepcut",
+        "seq": 162,
+        "at": 1792712969175
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "Empire of Vietnam",
+        "tier": "deepcut",
+        "seq": 163,
+        "at": 1792712973627
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Empire of Nicaea",
+        "tier": "deepcut",
+        "seq": 164,
+        "at": 1792712973889
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "Kingdom of Kongo",
+        "tier": "deepcut",
+        "seq": 165,
+        "at": 1792712976181
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Latin Empire",
+        "tier": "deepcut",
+        "seq": 166,
+        "at": 1792712976447
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "Empire of Japan",
+        "tier": "rare",
+        "seq": 167,
+        "at": 1792712979970
+      },
+      {
+        "kind": "spare",
+        "playerId": "75a62a0c33",
+        "lives": 3,
+        "seq": 168,
+        "at": 1792712979970
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Hephthalite Empire",
+        "tier": "deepcut",
+        "seq": 169,
+        "at": 1792712980231
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "uganda",
+        "why": "miss",
+        "seq": 170,
+        "at": 1792712985131
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "africa",
+        "why": "miss",
+        "seq": 171,
+        "at": 1792712987721
+      },
+      {
+        "kind": "pop",
+        "playerId": "75a62a0c33",
+        "livesLeft": 2,
+        "seq": 172,
+        "at": 1792712988231
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "2ac3d07362",
+        "seq": 173,
+        "at": 1792712988231
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Bureau of Reclamation",
+        "tier": "rare",
+        "seq": 174,
+        "at": 1792712992096
+      },
+      {
+        "kind": "spare",
+        "playerId": "2ac3d07362",
+        "lives": 4,
+        "seq": 175,
+        "at": 1792712992096
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "NSA",
+        "tier": "schooler",
+        "seq": 176,
+        "at": 1792712993817
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "FMC",
+        "tier": "deepcut",
+        "seq": 177,
+        "at": 1792712994076
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "FBI",
+        "tier": "plankton",
+        "seq": 178,
+        "at": 1792712998385
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "National Mediation Board",
+        "tier": "deepcut",
+        "seq": 179,
+        "at": 1792712998636
+      },
+      {
+        "kind": "pass",
+        "from": "75a62a0c33",
+        "to": "2ac3d07362",
+        "answer": "Bonneville Power Administration",
+        "tier": "rare",
+        "seq": 180,
+        "at": 1792713000903
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Railroad Retirement Board",
+        "tier": "deepcut",
+        "seq": 181,
+        "at": 1792713001159
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "nra",
+        "why": "miss",
+        "seq": 182,
+        "at": 1792713003173
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "csi",
+        "why": "miss",
+        "seq": 183,
+        "at": 1792713006293
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "pbi",
+        "why": "miss",
+        "seq": 184,
+        "at": 1792713008136
+      },
+      {
+        "kind": "pop",
+        "playerId": "75a62a0c33",
+        "livesLeft": 1,
+        "seq": 185,
+        "at": 1792713009159
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 7,
+        "holderId": "2ac3d07362",
+        "seq": 186,
+        "at": 1792713009159
+      },
+      {
+        "kind": "pass",
+        "from": "2ac3d07362",
+        "to": "75a62a0c33",
+        "answer": "Three-cent piece",
+        "tier": "deepcut",
+        "seq": 187,
+        "at": 1792713013147
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "swyo momm",
+        "why": "miss",
+        "seq": 188,
+        "at": 1792713017358
+      },
+      {
+        "kind": "reject",
+        "playerId": "75a62a0c33",
+        "text": "ur mom",
+        "why": "miss",
+        "seq": 189,
+        "at": 1792713019870
+      },
+      {
+        "kind": "pop",
+        "playerId": "75a62a0c33",
+        "livesLeft": 0,
+        "seq": 190,
+        "at": 1792713021943
+      },
+      {
+        "kind": "out",
+        "playerId": "75a62a0c33",
+        "place": 2,
+        "seq": 191,
+        "at": 1792713021943
+      },
+      {
+        "kind": "win",
+        "playerId": "2ac3d07362",
+        "seq": 192,
+        "at": 1792713021943
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792712542395,
+        "playerId": null,
+        "name": "llantas",
+        "text": "llantas joined"
+      },
+      {
+        "id": 2,
+        "at": 1792712543227,
+        "playerId": null,
+        "name": "uppercut",
+        "text": "uppercut joined"
+      },
+      {
+        "id": 3,
+        "at": 1792712543475,
+        "playerId": null,
+        "name": "hprc",
+        "text": "hprc joined"
+      },
+      {
+        "id": 4,
+        "at": 1792712544319,
+        "playerId": null,
+        "name": "Condog",
+        "text": "Condog joined"
+      },
+      {
+        "id": 5,
+        "at": 1792712544350,
+        "playerId": null,
+        "name": "nicol",
+        "text": "nicol joined"
+      },
+      {
+        "id": 6,
+        "at": 1792712544604,
+        "playerId": null,
+        "name": "zac",
+        "text": "zac joined"
+      },
+      {
+        "id": 7,
+        "at": 1792712546964,
+        "playerId": null,
+        "name": "hprc",
+        "text": "hprc left"
+      },
+      {
+        "id": 8,
+        "at": 1792712666169,
+        "playerId": null,
+        "name": "Condog",
+        "text": "Condog left"
+      },
+      {
+        "id": 9,
+        "at": 1792712754079,
+        "playerId": null,
+        "name": "llantas",
+        "text": "llantas was kicked for being idle"
+      },
+      {
+        "id": 10,
+        "at": 1792712758612,
+        "playerId": null,
+        "name": "nicol",
+        "text": "nicol left"
+      },
+      {
+        "id": 11,
+        "at": 1792712786156,
+        "playerId": null,
+        "name": "zac",
+        "text": "zac won"
+      },
+      {
+        "id": 12,
+        "at": 1792712791083,
+        "playerId": null,
+        "name": "zac",
+        "text": "zac left"
+      },
+      {
+        "id": 13,
+        "at": 1792712794854,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 14,
+        "at": 1792712794883,
+        "playerId": null,
+        "name": "gaius",
+        "text": "gaius joined"
+      },
+      {
+        "id": 15,
+        "at": 1792712795208,
+        "playerId": null,
+        "name": "fuhhmee",
+        "text": "fuhhmee joined"
+      },
+      {
+        "id": 16,
+        "at": 1792712795243,
+        "playerId": null,
+        "name": "manny",
+        "text": "manny joined"
+      },
+      {
+        "id": 17,
+        "at": 1792712799430,
+        "playerId": null,
+        "name": "BoxMuncher",
+        "text": "BoxMuncher joined"
+      },
+      {
+        "id": 18,
+        "at": 1792712804912,
+        "playerId": null,
+        "name": "BoxMuncher",
+        "text": "BoxMuncher left"
+      },
+      {
+        "id": 19,
+        "at": 1792712911825,
+        "playerId": null,
+        "name": "gaius",
+        "text": "gaius was kicked for being idle"
+      },
+      {
+        "id": 20,
+        "at": 1792712920235,
+        "playerId": null,
+        "name": "fuhhmee",
+        "text": "fuhhmee was kicked for being idle"
+      },
+      {
+        "id": 21,
+        "at": 1792713021943,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792713021943
+  }
+}
