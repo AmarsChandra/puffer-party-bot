@@ -1,6 +1,6 @@
 # Puffer Party bot
-https://github.com/user-attachments/assets/7b69437f-7401-48e5-b8b3-d685e7ddb9fc
 
+https://github.com/user-attachments/assets/7b69437f-7401-48e5-b8b3-d685e7ddb9fc
 
 **Category 6: boxing movies — 2 krillion answers and 3 deep cuts.** A 41-second excerpt from the public SSFF win, recorded on October 22, 2026. This five-player match finished with **45 accepted answers, 23 deep cuts, 4 krillion answers, and 5 hearts**. [Clip evidence](media/category-06-evidence.json) · [Match result](validation/adaptive-campaign/games/017/result.json)
 
