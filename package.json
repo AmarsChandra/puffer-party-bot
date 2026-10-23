@@ -8,8 +8,10 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "node --test *.test.mjs",
-    "stats": "node statistics.mjs --campaign validation/adaptive-campaign --output statistics",
-    "audit": "node adaptive-campaign.mjs --campaign validation/adaptive-campaign --audit"
+    "test": "node --test test/*.test.mjs",
+    "stats": "node src/statistics.mjs --campaign validation/adaptive-campaign --output statistics",
+    "audit": "node src/adaptive-campaign.mjs --campaign validation/adaptive-campaign --audit",
+    "start": "node src/puffer-bot.mjs",
+    "bank": "node src/regular-bank.mjs"
   }
 }

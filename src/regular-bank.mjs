@@ -5,7 +5,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {questionKey,normalize,answerFits} from './answer-engine.mjs';
-const DIR=path.dirname(fileURLToPath(import.meta.url));
+import {DATA} from './paths.mjs';
 const TIER={krillion:5,deepcut:4,rare:3,schooler:2,plankton:1,tooclever:0};
 export function mergeReveal(index,data,{url,retrievedAt=new Date().toISOString(),limit=80}={}){
  if(!url?.startsWith('https://krillion.io/api/'))throw new Error('A Krillion reveal source is required');
@@ -27,7 +27,7 @@ export function mergeReveal(index,data,{url,retrievedAt=new Date().toISOString()
  index.sources[url]={retrievedAt,prompts:prompts.length,eligibleAnswers:answerCount,retainedAnswers:kept,sha256:createHash('sha256').update(JSON.stringify(data)).digest('hex')};
  index.updatedAt=retrievedAt;return index;
 }
-export async function refreshRegularBank({output=path.join(DIR,'regular-bank.json'),fetchImpl=fetch,onLog=()=>{}}={}){
+export async function refreshRegularBank({output=path.join(DATA,'regular-bank.json'),fetchImpl=fetch,onLog=()=>{}}={}){
  let index=fs.existsSync(output)?JSON.parse(fs.readFileSync(output)):null;
  const get=async url=>{const r=await fetchImpl(url,{signal:AbortSignal.timeout(12000)});if(r.status===402||r.status===403){onLog({url,status:r.status,skipped:true});return null;}if(!r.ok)throw new Error(`Regular bank request failed: ${r.status} ${url}`);return r.json();};
  const today=await get('https://krillion.io/api/today');
@@ -48,7 +48,7 @@ export async function refreshRegularBank({output=path.join(DIR,'regular-bank.jso
  return index;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
- const args=process.argv.slice(2);let output=path.join(DIR,'regular-bank.json');
+ const args=process.argv.slice(2);let output=path.join(DATA,'regular-bank.json');
  if(args.length&&!(args.length===2&&args[0]==='--output'))throw new Error('Use node regular-bank.mjs [--output FILE]');
  if(args.length)output=path.resolve(args[1]);
  const index=await refreshRegularBank({output,onLog:row=>console.log(JSON.stringify(row))});

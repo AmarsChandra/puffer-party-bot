@@ -3,15 +3,15 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import {mergeReveal,refreshRegularBank} from './regular-bank.mjs';
-import {AnswerEngine,questionKey} from './answer-engine.mjs';
+import {mergeReveal,refreshRegularBank} from '../src/regular-bank.mjs';
+import {AnswerEngine,questionKey} from '../src/answer-engine.mjs';
 const source='https://krillion.io/api/unlimited/1/reveal';
 const q='Name an object in the regular-bank test';
 function fixture(t,answers,provider=null){
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'puffer-regular-'));
  const index=mergeReveal(null,{rounds:[{text:q,answers}]},{url:source});
  fs.writeFileSync(path.join(dir,'regular-bank.json'),JSON.stringify(index));
- const engine=new AnswerEngine({bankPath:new URL('./answers.json',import.meta.url),cachePath:path.join(dir,'learned.json'),provider});
+ const engine=new AnswerEngine({bankPath:new URL('../data/answers.json',import.meta.url),cachePath:path.join(dir,'learned.json'),provider});
  t.after(()=>{engine.close();fs.rmSync(dir,{recursive:true,force:true});});return {engine,index};
 }
 test('regular reveals retain rare canonical choices and do not transfer answers between prompts',t=>{

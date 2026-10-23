@@ -9,7 +9,7 @@ import {PufferBot} from './puffer-bot.mjs';
 import {AnswerEngine} from './answer-engine.mjs';
 import {CodexProvider} from './codex-provider.mjs';
 
-const DIR=path.dirname(fileURLToPath(import.meta.url));
+import {ROOT,DATA,RUNS,SOURCE_FILES} from './paths.mjs';
 export function verifiedOutcome(result,queue){
  const room=result?.finalRoom,start=result?.startingRoom;
  if(!room||room.phase!=='over'||!room.gameId||room.settings?.isPrivate!==false||room.queue!==queue)return 'inconclusive';
@@ -32,10 +32,10 @@ export function streakProgress(records){
  return {current,best};
 }
 function fingerprint(){
- return Object.fromEntries(['puffer-bot.mjs','answer-engine.mjs','codex-provider.mjs','streak-runner.mjs','game-screen.mjs','answers.json','english-words.json'].map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(DIR,name))).digest('hex')]));
+ return Object.fromEntries(SOURCE_FILES.map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(ROOT,name))).digest('hex')]));
 }
 async function main(){
- const opts={target:20,size:'party',output:path.join(DIR,'streak-runs'),cache:path.join(DIR,'learned-answers.json'),timeout:600000};
+ const opts={target:20,size:'party',output:path.join(RUNS,'streak'),cache:path.join(DATA,'learned-answers.json'),timeout:600000};
  for(let i=2;i<process.argv.length;i++){
   const raw=process.argv[i].replace(/^--/,''),key=raw==='watch-seat'?'watchSeat':raw;
   if(!['target','size','output','cache','timeout','name','watchSeat'].includes(key)||!process.argv[i+1])throw new Error('Use --target 20 --size party --output DIR --cache FILE --timeout MS --watch-seat FILE');
@@ -51,7 +51,7 @@ async function main(){
  const log=(type,data={})=>{const line=JSON.stringify({at:new Date().toISOString(),type,...data});console.log(line);fs.appendFileSync(path.join(opts.output,'streak.jsonl'),line+'\n');};
  let current,stopping=false;
  const provider=new CodexProvider({cwd:path.join(opts.output,'answer-worker'),onLog:log});
- const engine=new AnswerEngine({bankPath:path.join(DIR,'answers.json'),cachePath:opts.cache,provider,onLog:log,onReady:q=>current?.answerReady(q)});
+ const engine=new AnswerEngine({bankPath:path.join(DATA,'answers.json'),cachePath:opts.cache,provider,onLog:log,onReady:q=>current?.answerReady(q)});
  process.once('SIGINT',()=>{stopping=true;log('stopping-after-current-game');});
  process.once('SIGTERM',()=>{stopping=true;log('stopping-after-current-game');});
  save();

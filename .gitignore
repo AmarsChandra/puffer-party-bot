@@ -1,7 +1,7 @@
 runs/
 worker/
 node_modules/
-regular-bank.json
+data/regular-bank.json
 .env
 .env.*
 *seat*.json

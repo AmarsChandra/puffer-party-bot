@@ -9,4 +9,4 @@ if [ ! -x "$puffer_runtime" ] || ! "$puffer_runtime" -e 'process.exit(Number(pro
   echo 'Node.js 22 or newer is required. Set PUFFER_NODE to its executable path.' >&2
   exit 1
 fi
-exec "$puffer_runtime" "$puffer_dir/puffer-bot.mjs" "$@"
+exec "$puffer_runtime" "$puffer_dir/src/puffer-bot.mjs" "$@"

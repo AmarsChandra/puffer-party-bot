@@ -11,19 +11,19 @@ import {CodexProvider} from './codex-provider.mjs';
 import {verifiedOutcome,streakProgress} from './streak-runner.mjs';
 import {reviewMatch} from './review-match.mjs';
 import {writeStatistics} from './statistics.mjs';
-const DIR=path.dirname(fileURLToPath(import.meta.url));
+import {ROOT,DATA,SOURCE_FILES} from './paths.mjs';
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const write=(file,data)=>{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file+'.tmp',JSON.stringify(data,null,2));fs.renameSync(file+'.tmp',file);};
 function saveCampaign(file,state,output){
  write(file,state);
  try{writeStatistics(path.dirname(file),output?path.resolve(output):undefined);}catch(error){console.error(JSON.stringify({type:'statistics-error',message:error.message}));}
 }
-function snapshot(root,sources){
- sources??=Object.fromEntries(['puffer-bot.mjs','answer-engine.mjs','codex-provider.mjs','regular-bank.mjs','streak-runner.mjs','game-screen.mjs','adaptive-campaign.mjs','review-match.mjs','statistics.mjs','answers.json','english-words.json'].map(f=>[f,hash(fs.readFileSync(path.join(DIR,f)))]));
+export function snapshotSources(root,sources){
+ sources??=Object.fromEntries(SOURCE_FILES.map(f=>[f,hash(fs.readFileSync(path.join(ROOT,f)))]));
  const id=hash(JSON.stringify(sources)).slice(0,16),dir=path.join(root,'versions',id);fs.mkdirSync(dir,{recursive:true});
  for(const [file,expected]of Object.entries(sources)){
-  const bytes=fs.readFileSync(path.join(DIR,file));if(hash(bytes)!==expected)throw new Error('Source differs from the historical run: '+file);
-  fs.writeFileSync(path.join(dir,file),bytes);
+  const bytes=fs.readFileSync(path.join(ROOT,file));if(hash(bytes)!==expected)throw new Error('Source differs from the historical run: '+file);
+  fs.mkdirSync(path.dirname(path.join(dir,file)),{recursive:true});fs.writeFileSync(path.join(dir,file),bytes);
  }
  return {id,sources};
 }
@@ -52,7 +52,7 @@ async function main(){
  if(opts.seed){
   if(fs.existsSync(file))throw new Error('Campaign already exists');const oldDir=path.resolve(opts.seed),old=JSON.parse(fs.readFileSync(path.join(oldDir,'streak.json')));
   if(old.status==='running')throw new Error('Wait for the existing run to finish its current game');
-  const version=snapshot(root,old.sources),state={version:1,kind:'review-between-public-matches',target:old.target,queue:old.queue,startedAt:old.startedAt,status:'awaiting-review',versions:[version],records:[],reviews:[]};
+  const version=snapshotSources(root,old.sources),state={version:1,kind:'review-between-public-matches',target:old.target,queue:old.queue,startedAt:old.startedAt,status:'awaiting-review',versions:[version],records:[],reviews:[]};
   for(const r of old.records){const number=state.records.length+1,dir=path.join(root,'games',String(number).padStart(3,'0'));fs.mkdirSync(dir,{recursive:true});if(r.resultFile)fs.copyFileSync(path.join(oldDir,r.resultFile),path.join(dir,'result.json'));state.records.push({...r,number,resultFile:r.resultFile?path.relative(root,path.join(dir,'result.json')):undefined,sourceVersion:version.id,reviewed:false});}
   state.progress=streakProgress(state.records);saveCampaign(file,state,opts['stats-dir']);console.log(JSON.stringify({seeded:state.records.length,progress:state.progress}));return;
  }
@@ -63,16 +63,16 @@ async function main(){
  if(state.active)throw new Error('A match is already recorded as active; inspect its live process before continuing');
  if(state.records.some(r=>!r.reviewed))throw new Error('Review the previous match before starting another');
  if(state.progress.current>=state.target)throw new Error('Streak target already reached');
- const version=snapshot(root);if(!state.versions.some(v=>v.id===version.id))state.versions.push(version);
+ const version=snapshotSources(root);if(!state.versions.some(v=>v.id===version.id))state.versions.push(version);
  const number=state.records.length+1,dir=path.join(root,'games',String(number).padStart(3,'0'));fs.mkdirSync(dir,{recursive:true});
  state.active={number,pid:process.pid,startedAt:new Date().toISOString(),output:dir,sourceVersion:version.id};state.status='playing';saveCampaign(file,state,opts['stats-dir']);
  const log=(type,data={})=>console.log(JSON.stringify({at:new Date().toISOString(),type,...data}));let bot;
  const provider=new CodexProvider({cwd:path.join(root,'worker'),onLog:log});
- const engine=new AnswerEngine({bankPath:path.join(DIR,'answers.json'),cachePath:path.resolve(opts.cache??path.join(DIR,'learned-answers.json')),provider,onLog:log,onReady:q=>bot?.answerReady(q)});
+ const engine=new AnswerEngine({bankPath:path.join(DATA,'answers.json'),cachePath:path.resolve(opts.cache??path.join(DATA,'learned-answers.json')),provider,onLog:log,onReady:q=>bot?.answerReady(q)});
  try{
   await engine.warmup();bot=new PufferBot({name:'PufferBot',size:state.queue,engine,output:dir,watchSeat:opts['watch-seat']?path.resolve(opts['watch-seat']):undefined,timeout:1800000});
   const result=await bot.run(),outcome=verifiedOutcome(result,state.queue);write(path.join(dir,'result.json'),result);
-  const review=reviewMatch(result,JSON.parse(fs.readFileSync(path.join(DIR,'answers.json'))));write(path.join(dir,'review.json'),review);
+  const review=reviewMatch(result,JSON.parse(fs.readFileSync(path.join(DATA,'answers.json'))));write(path.join(dir,'review.json'),review);
   state.records.push({number,outcome,gameId:result.gameId,room:result.room,gameNumber:result.gameNumber,players:result.startingRoom?.players.filter(p=>p.alive&&!p.removed).length,resultFile:path.relative(root,path.join(dir,'result.json')),reviewFile:path.relative(root,path.join(dir,'review.json')),sourceVersion:version.id,accepted:result.player?.answers,lives:result.player?.lives,finishedAt:new Date().toISOString(),reviewed:false});
   state.progress=streakProgress(state.records);state.status='awaiting-review';delete state.active;saveCampaign(file,state,opts['stats-dir']);log('match-review',{number,outcome,progress:state.progress,review});
   if(opts['watch-seat'])await sleep(8000);
@@ -84,7 +84,7 @@ async function main(){
   const partial=bot?.snapshotResult();let resultFile,reviewFile;
   if(partial){
    resultFile=path.relative(root,path.join(dir,'partial-result.json'));write(path.join(root,resultFile),{...partial,error:error.message});
-   reviewFile=path.relative(root,path.join(dir,'review.json'));write(path.join(root,reviewFile),{...reviewMatch(partial,JSON.parse(fs.readFileSync(path.join(DIR,'answers.json')))),error:error.message});
+   reviewFile=path.relative(root,path.join(dir,'review.json'));write(path.join(root,reviewFile),{...reviewMatch(partial,JSON.parse(fs.readFileSync(path.join(DATA,'answers.json')))),error:error.message});
   }
   state.records.push({number,outcome:'inconclusive',room:partial?.room,gameId:partial?.gameId,resultFile,reviewFile,sourceVersion:version.id,error:error.message,finishedAt:new Date().toISOString(),reviewed:false});state.progress=streakProgress(state.records);state.status='awaiting-review';delete state.active;saveCampaign(file,state,opts['stats-dir']);throw error;
  }

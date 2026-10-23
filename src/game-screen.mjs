@@ -4,7 +4,7 @@ import {createServer} from 'node:http';
 import tls from 'node:tls';
 import fs from 'node:fs';
 import path from 'node:path';
-const seatFile=path.resolve(process.argv[2]??'work/live-seat.json');
+const seatFile=path.resolve(process.argv[2]??'runs/current-seat.json');
 const port=Number(process.argv[3]??8768),origin=`http://127.0.0.1:${port}`;
 const cache=new Map();
 const seat=()=>JSON.parse(fs.readFileSync(seatFile,'utf8'));

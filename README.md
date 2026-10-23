@@ -15,7 +15,7 @@ Requires **Node.js 22+**. There are no npm dependencies. Fresh answer generation
 ```sh
 git clone https://github.com/AmarsChandra/puffer-party-bot.git
 cd puffer-party-bot
-node regular-bank.mjs
+node src/regular-bank.mjs
 sh ./play.sh
 ```
 
@@ -32,7 +32,7 @@ sh ./play.sh --help
 
 ### Public regular-game answer index
 
-`node regular-bank.mjs` optionally refreshes a local `regular-bank.json` from the current public daily reveal and the five free first dives. It retains up to 80 rare-first canonical choices per exact prompt. The initial six-source sample covered 42 prompts and retained 2,710 choices. The local index is excluded from Git.
+`node src/regular-bank.mjs` optionally refreshes a local `data/regular-bank.json` from the current public daily reveal and the five free first dives. It retains up to 80 rare-first canonical choices per exact prompt. The initial six-source sample covered 42 prompts and retained 2,710 choices. The local index is excluded from Git.
 
 An overlap check found identical tiers for all 54 previously observed Puffer answers that could be matched in those reveals. The engine still records these as `regular-bank` choices until Puffer accepts them. Puffer's actual tier or rejection overrides the regular-game expectation. Source URLs and data hashes are recorded with those submissions. Access-denied responses are skipped.
 
@@ -43,8 +43,8 @@ The isolated 42-prompt lookup benchmark measured a 0.41 ms median and a 2.48 ms 
 The adaptive campaign uses normal public **4–6-player matchmaking**, playing one match per invocation. It preserves every outcome and requires a review before the next game.
 
 ```sh
-node adaptive-campaign.mjs --campaign runs/my-campaign --init
-node adaptive-campaign.mjs --campaign runs/my-campaign --next --stats-dir runs/my-stats
+node src/adaptive-campaign.mjs --campaign runs/my-campaign --init
+node src/adaptive-campaign.mjs --campaign runs/my-campaign --next --stats-dir runs/my-stats
 ```
 
 Read `runs/my-campaign/games/001/review.json` and `result.json`. Review slow categories, misses, repeats, and actual rarity awards. Make and test a useful change when supported by the evidence; clean matches can retain the code and use their newly learned answers. Save a review file:
@@ -54,9 +54,9 @@ Read `runs/my-campaign/games/001/review.json` and `result.json`. Review slow cat
 ```
 
 ```sh
-node adaptive-campaign.mjs --campaign runs/my-campaign --note-file review-note.json
-node adaptive-campaign.mjs --campaign runs/my-campaign --next --stats-dir runs/my-stats
-node adaptive-campaign.mjs --campaign runs/my-campaign --audit
+node src/adaptive-campaign.mjs --campaign runs/my-campaign --note-file review-note.json
+node src/adaptive-campaign.mjs --campaign runs/my-campaign --next --stats-dir runs/my-stats
+node src/adaptive-campaign.mjs --campaign runs/my-campaign --audit
 ```
 
 Each match records source hashes and a complete source snapshot. The runner retains interrupted attempts and separates setup failures before participation. Code stays fixed during each game; the learned cache updates as the server confirms answers.
@@ -77,7 +77,7 @@ Snapshot as of 2026-10-22T23:50:21.912Z. This campaign includes multiple source 
 
 [Full statistics and methodology](statistics/README-snippet.md) · [Machine-readable summary](statistics/summary.json) · [Every public attempt as CSV](statistics/matches.csv)
 
-Only the game’s acknowledgements establish acceptance and rarity. Model proposals remain unverified until accepted. An inconclusive public attempt counts as a non-win and breaks the streak. Latency summaries report coverage and exclude missing measurements. These observed results do not guarantee future wins.
+Only the game’s acknowledgements establish acceptance and rarity. Imported rankings and model proposals remain separate from Puffer-confirmed data. An inconclusive public attempt counts as a non-win and breaks the streak. Latency summaries report coverage and exclude missing measurements. These observed results do not guarantee future wins.
 
 ## How it improves
 
@@ -94,11 +94,25 @@ The rare-first benchmark measured a 3,584 ms median first answer versus 5,612.5 
 Run the display in one terminal and the campaign in another:
 
 ```sh
-node game-screen.mjs runs/current-seat.json
-node adaptive-campaign.mjs --campaign runs/my-campaign --next --watch-seat runs/current-seat.json
+node src/game-screen.mjs runs/current-seat.json
+node src/adaptive-campaign.mjs --campaign runs/my-campaign --next --watch-seat runs/current-seat.json
 ```
 
 Open `http://127.0.0.1:8768/watch`. The local display loads Krillion’s own client and follows the bot into each room. It binds to localhost. Saved seat files contain generated guest credentials and belong only on your computer; `.gitignore` excludes them.
+
+## Repository layout
+
+```text
+src/          Runtime, answer engine, public-bank importer, and match runners
+test/         Regression tests and recorded fixtures
+data/         Answer bank, dictionary, and learned answers
+docs/         Word-data attribution and license notices
+statistics/   Generated summary, CSV, and methodology
+validation/   Match results, reviews, benchmarks, and historical source snapshots
+media/        Category 6 clip and its evidence
+```
+
+`runs/` and the generated `data/regular-bank.json` stay local. Historical source snapshots retain their original paths so old match hashes remain verifiable.
 
 ## Check the project
 
@@ -108,8 +122,8 @@ npm run audit
 npm run stats
 ```
 
-The latest regression run passed **55 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **56 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
-Source: `puffer-bot.mjs` handles the game connection; `answer-engine.mjs` ranks and learns answers; `codex-provider.mjs` manages generation; `adaptive-campaign.mjs` runs and records reviewed games; `statistics.mjs` derives publication statistics.
+Source: `src/puffer-bot.mjs` handles the game connection; `src/answer-engine.mjs` ranks and learns answers; `src/codex-provider.mjs` manages generation; `src/adaptive-campaign.mjs` runs and records reviewed games; `src/statistics.mjs` derives publication statistics.
 
-Word data attribution and redistribution terms are in [WORD-DATA-NOTICE.md](WORD-DATA-NOTICE.md) and [WORD-FREQ-LICENSE.txt](WORD-FREQ-LICENSE.txt).
+Word data attribution and redistribution terms are in [WORD-DATA-NOTICE.md](docs/WORD-DATA-NOTICE.md) and [WORD-FREQ-LICENSE.txt](docs/WORD-FREQ-LICENSE.txt).

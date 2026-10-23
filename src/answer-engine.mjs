@@ -82,7 +82,7 @@ function wordCandidates(question){
   else if(/^(?:with |containing )(?:a )?double letter$/.test(tail))filter=w=>/(.)\1/.test(w);
   else if(letterCountConstraint(tail)){const rule=letterCountConstraint(tail);filter=w=>countFits(w,rule);}
   else return [];
-  dictionary??=JSON.parse(fs.readFileSync(new URL('./english-words.json',import.meta.url),'utf8'));
+  dictionary??=JSON.parse(fs.readFileSync(new URL('../data/english-words.json',import.meta.url),'utf8'));
   return dictionary.filter(w=>(!length||w.length===length)&&filter(w)).slice(0,300);
 }
 export function candidates(question,bank){

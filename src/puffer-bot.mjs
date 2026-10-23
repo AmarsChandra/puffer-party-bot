@@ -8,7 +8,7 @@ import { AnswerEngine, candidates, normalize, questionKey } from './answer-engin
 import { CodexProvider } from './codex-provider.mjs';
 export { candidates, normalize } from './answer-engine.mjs';
 
-const DIR = path.dirname(fileURLToPath(import.meta.url));
+import {DATA,RUNS} from './paths.mjs';
 const BASE = 'https://party.krillion.io';
 export function applyPatch(room, p) {
   if (!room || room.version !== p.base) return null;
@@ -39,17 +39,17 @@ async function post(url, body) {
 export class PufferBot {
   constructor(options={}) {
     this.options = options;
-    this.bankPath = options.answers ?? path.join(DIR,'answers.json');
+    this.bankPath = options.answers ?? path.join(DATA,'answers.json');
     this.pending = new Map(); this.tried = new Set(); this.used = new Set();
     this.room = null; this.seq = 0; this.busy = false; this.stopped = false;
     this.accepted = []; this.rejected = []; this.categories = [];
-    this.outputDir = options.output ?? path.join(DIR,'runs');
+    this.outputDir = options.output ?? RUNS;
     fs.mkdirSync(this.outputDir,{recursive:true});
     this.logPath=path.join(this.outputDir,`run-${Date.now()}.jsonl`);
     this.metrics={attempts:0,accepted:0,reactionMs:[],sources:{},unknownCategories:[],categoryLatency:[]};
     this.categoryTexts=new Map();this.lastEventSeq=0;this.nextSendAt=0;
     this.ownsEngine=!options.engine;
-    this.engine=options.engine??new AnswerEngine({bankPath:this.bankPath,cachePath:options.cache??path.join(DIR,'learned-answers.json'),provider:options.provider??null,onLog:(t,d)=>this.log(t,d),onReady:q=>this.answerReady(q)});
+    this.engine=options.engine??new AnswerEngine({bankPath:this.bankPath,cachePath:options.cache??path.join(DATA,'learned-answers.json'),provider:options.provider??null,onLog:(t,d)=>this.log(t,d),onReady:q=>this.answerReady(q)});
   }
   log(type, data={}) { const line=JSON.stringify({at:new Date().toISOString(),type,...data});console.log(line);fs.appendFileSync(this.logPath,line+'\n'); }
   async identity({force=false}={}) {
@@ -307,10 +307,10 @@ async function main() {
   if(!Number.isInteger(max)||max<1||max>100)throw new Error('Game count must be 1–100');
   if(opts.timeout&&(!Number.isFinite(Number(opts.timeout))||Number(opts.timeout)<1000))throw new Error('--timeout must be at least 1000 milliseconds');
   if(opts.room){opts.room=opts.room.toUpperCase();if(!/^[A-HJ-NP-Z]{4}$/.test(opts.room))throw new Error('Invalid room code');}
-  const output=opts.output??path.join(DIR,'runs');fs.mkdirSync(output,{recursive:true});
+  const output=opts.output??RUNS;fs.mkdirSync(output,{recursive:true});
   const log=(type,data)=>console.log(JSON.stringify({at:new Date().toISOString(),type,...data}));
   const provider=opts.ai==='codex'?new CodexProvider({executable:opts.codex,cwd:path.join(output,'answer-worker'),onLog:log}):null;
-  const engine=new AnswerEngine({bankPath:opts.answers??path.join(DIR,'answers.json'),cachePath:opts.cache??path.join(DIR,'learned-answers.json'),provider,onLog:log,onReady:q=>current?.answerReady(q)});
+  const engine=new AnswerEngine({bankPath:opts.answers??path.join(DATA,'answers.json'),cachePath:opts.cache??path.join(DATA,'learned-answers.json'),provider,onLog:log,onReady:q=>current?.answerReady(q)});
   let current;const results=[];
   const stop=async()=>{current?.close();engine.close();await current?.leave();process.exit(130);};
   process.once('SIGINT',stop);process.once('SIGTERM',stop);

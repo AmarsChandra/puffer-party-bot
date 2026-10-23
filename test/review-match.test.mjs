@@ -4,9 +4,9 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {reviewMatch} from './review-match.mjs';
-import {auditCampaign} from './adaptive-campaign.mjs';
-const bank=JSON.parse(fs.readFileSync(new URL('./answers.json',import.meta.url)));
+import {reviewMatch} from '../src/review-match.mjs';
+import {auditCampaign} from '../src/adaptive-campaign.mjs';
+const bank=JSON.parse(fs.readFileSync(new URL('../data/answers.json',import.meta.url)));
 test('review distinguishes a newly local solution from a slow general category',()=>{
  const result={room:'TEST',won:true,metrics:{categoryLatency:[{question:'Name an English word ending in “-ware”',readyMs:3762,firstTurnWaitMs:82},{question:'Name a country with at least five land neighbors',readyMs:6623,firstTurnWaitMs:82}]},accepted:[],rejected:[],finalRoom:{events:[]}};
  const report=reviewMatch(result,bank);

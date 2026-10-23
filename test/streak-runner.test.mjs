@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {verifiedOutcome,streakProgress} from './streak-runner.mjs';
+import {verifiedOutcome,streakProgress} from '../src/streak-runner.mjs';
 
 function result(){
  const players=[{id:'me',alive:true,lives:2,place:1},{id:'opponent',alive:false,lives:0,place:2}];

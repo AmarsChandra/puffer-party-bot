@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import {campaignStatistics,writeStatistics} from './statistics.mjs';
+import {campaignStatistics,writeStatistics} from '../src/statistics.mjs';
 function fixture(t){
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'puffer-stats-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  const result=(id,won,phase='over')=>({won,playerId:'me',winnerId:won?'me':'them',gameId:id,startingRoom:{phase:'round',gameNumber:1,players:[{id:'me',alive:true},{id:'them',alive:true},{id:'watcher',alive:false}]},finalRoom:{phase,gameNumber:1,gameId:id,winnerId:won?'me':'them',queue:'party',settings:{isPrivate:false},players:[{id:'me',place:won?1:2,alive:won,lives:won?2:0},{id:'them',alive:!won}]},player:{answers:1},accepted:[{submit:{accepted:true,tier:'rare'}}],rejected:[],metrics:{categoryLatency:[{readyMs:4,firstTurnWaitMs:82,firstTurnAt:1,firstSubmitMs:82,firstSource:'verified'}]}});

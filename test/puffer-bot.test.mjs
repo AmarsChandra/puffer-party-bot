@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { PufferBot, applyPatch, candidates } from './puffer-bot.mjs';
+import { PufferBot, applyPatch, candidates } from '../src/puffer-bot.mjs';
 
-const bank = JSON.parse(fs.readFileSync(new URL('./answers.json',import.meta.url),'utf8'));
-const winner = JSON.parse(fs.readFileSync(new URL('./winning-game.json',import.meta.url),'utf8'));
+const bank = JSON.parse(fs.readFileSync(new URL('../data/answers.json',import.meta.url),'utf8'));
+const winner = JSON.parse(fs.readFileSync(new URL('./fixtures/winning-game.json',import.meta.url),'utf8'));
 function fixture(t) {
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'puffer-test-'));
   const bot=new PufferBot({output:dir,cache:path.join(dir,'learned.json')});bot.log=()=>{};

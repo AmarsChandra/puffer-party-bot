@@ -3,12 +3,12 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import {AnswerEngine,candidates,questionKey,normalize,answerFits,promptExample} from './answer-engine.mjs';
-import {partialAnswers} from './codex-provider.mjs';
-const bank=JSON.parse(fs.readFileSync(new URL('./answers.json',import.meta.url)));
+import {AnswerEngine,candidates,questionKey,normalize,answerFits,promptExample} from '../src/answer-engine.mjs';
+import {partialAnswers} from '../src/codex-provider.mjs';
+const bank=JSON.parse(fs.readFileSync(new URL('../data/answers.json',import.meta.url)));
 function fixture(t,provider=null,onReady=()=>{}){
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'puffer-engine-'));
-  const opts={bankPath:new URL('./answers.json',import.meta.url),cachePath:path.join(dir,'learned.json'),provider,onReady};
+  const opts={bankPath:new URL('../data/answers.json',import.meta.url),cachePath:path.join(dir,'learned.json'),provider,onReady};
   const engine=new AnswerEngine(opts);
   t.after(()=>{engine.close();fs.rmSync(dir,{recursive:true,force:true});});
   return {engine,opts};
