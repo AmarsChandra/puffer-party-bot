@@ -36759,6 +36759,369 @@
           "rarityRequested": true
         }
       }
+    },
+    "soda brand": {
+      "question": "Name a soda brand",
+      "answers": {}
+    },
+    "something you d see at an airport": {
+      "question": "Name something you'd see at an airport",
+      "answers": {
+        "windsock": {
+          "text": "Windsock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "baggagetractor": {
+          "text": "Baggage tractor",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "jetbridge": {
+          "text": "Jet bridge",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "deicingtruck": {
+          "text": "Deicing truck",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "runwaylights": {
+          "text": "Runway lights",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "boardingpassscanner": {
+          "text": "Boarding pass scanner",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "baggagecarousel": {
+          "text": "Baggage carousel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "airtrafficcontroltower": {
+          "text": "Air traffic control tower",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "xraymachine": {
+          "text": "X-ray machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "metaldetector": {
+          "text": "Metal detector",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "flightinformationboard": {
+          "text": "Flight information board",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "currencyexchange": {
+          "text": "Currency exchange",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dutyfreeshop": {
+          "text": "Duty-free shop",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "luggagescale": {
+          "text": "Luggage scale",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "movingwalkway": {
+          "text": "Moving walkway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fireengine": {
+          "text": "Fire engine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fueltruck": {
+          "text": "Fuel truck",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wheelchocks": {
+          "text": "Wheel chocks",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "trafficcones": {
+          "text": "Traffic cones",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "boardinggate": {
+          "text": "Boarding gate",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lostluggageoffice": {
+          "text": "Lost luggage office",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "video game that has earned over 1 billion": {
+      "question": "Name a video game that has earned over $1 billion",
+      "answers": {}
+    },
+    "movie set partly in outer space or on another planet": {
+      "question": "Name a movie set partly in outer space or on another planet",
+      "answers": {
+        "silentrunning": {
+          "text": "Silent Running",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "outland": {
+          "text": "Outland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "enemymine": {
+          "text": "Enemy Mine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "country in eastern europe": {
+      "question": "Name a country in Eastern Europe",
+      "answers": {}
+    },
+    "position in baseball": {
+      "question": "Name a position in baseball",
+      "answers": {
+        "designatedhitter": {
+          "text": "Designated hitter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pinchrunner": {
+          "text": "Pinch runner",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "reliefpitcher": {
+          "text": "Relief pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "shortstop": {
+          "text": "Shortstop",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "catcher": {
+          "text": "Catcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "secondbaseman": {
+          "text": "Second baseman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "thirdbaseman": {
+          "text": "Third baseman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "firstbaseman": {
+          "text": "First baseman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "centerfielder": {
+          "text": "Center fielder",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rightfielder": {
+          "text": "Right fielder",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "leftfielder": {
+          "text": "Left fielder",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pitcher": {
+          "text": "Pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "startingpitcher": {
+          "text": "Starting pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "closingpitcher": {
+          "text": "Closing pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "setuppitcher": {
+          "text": "Setup pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "middlereliefpitcher": {
+          "text": "Middle relief pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "longreliefpitcher": {
+          "text": "Long relief pitcher",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pinchhitter": {
+          "text": "Pinch hitter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }

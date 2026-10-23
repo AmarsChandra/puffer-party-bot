@@ -2566,6 +2566,568 @@
           }
         }
       ]
+    },
+    {
+      "number": 16,
+      "room": "FXJP",
+      "outcome": "win",
+      "submitted": 42,
+      "categoriesSubmitted": 9,
+      "bySource": {
+        "verified": 11,
+        "codex": 14,
+        "answer-archive": 17
+      },
+      "visibleTiers": {
+        "RARE": 8,
+        "DEEP CUT": 12,
+        "SCHOOLER": 7,
+        "PLANKTON": 2
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:36:23.725Z",
+          "question": "Name something people keep on a keyring",
+          "answer": "Charging cable",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:36:23.868Z",
+            "visiblePlayerBlock": [
+              "charging cable",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:36:41.580Z",
+          "question": "Name something you'd see at an airport",
+          "answer": "Windsock",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:36:41.948Z",
+            "visiblePlayerBlock": [
+              "windsock",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:36:55.386Z",
+          "question": "Name something you'd see at an airport",
+          "answer": "Baggage tractor",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:37:04.508Z",
+          "question": "Name something you'd see at an airport",
+          "answer": "Jet bridge",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:37:04.663Z",
+            "visiblePlayerBlock": [
+              "jet bridge",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:37:17.369Z",
+          "question": "Name something you'd see at an airport",
+          "answer": "Deicing truck",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:37:33.718Z",
+          "question": "Name a video game that has earned over $1 billion",
+          "answer": "Dungeon Fighter Online",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:37:47.410Z",
+          "question": "Name a video game that has earned over $1 billion",
+          "answer": "AFK Arena",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:37:47.617Z",
+            "visiblePlayerBlock": [
+              "afk arena",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:00.592Z",
+          "question": "Name a video game that has earned over $1 billion",
+          "answer": "Assassin's Creed Valhalla",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:00.738Z",
+            "visiblePlayerBlock": [
+              "assassin's creed valhalla",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:22.723Z",
+          "question": "Name a movie set partly in outer space or on another planet",
+          "answer": "Silent Running",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:38:31.266Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "North Macedonia",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:38:34.196Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Montenegro",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:34.314Z",
+            "visiblePlayerBlock": [
+              "montenegro",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:43.485Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Albania",
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:43.644Z",
+            "visiblePlayerBlock": [
+              "albania",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:49.043Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Bosnia and Herzegovina",
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:49.232Z",
+            "visiblePlayerBlock": [
+              "bosnia and herzegovina",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:52.020Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Serbia",
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:52.174Z",
+            "visiblePlayerBlock": [
+              "serbia",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:56.191Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Belarus",
+          "source": "answer-archive",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:56.405Z",
+            "visiblePlayerBlock": [
+              "belarus",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:38:59.046Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Bulgaria",
+          "source": "answer-archive",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:38:59.239Z",
+            "visiblePlayerBlock": [
+              "bulgaria",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:01.192Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Czech Republic",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:39:01.630Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Hungary",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:39:02.097Z",
+          "question": "Name a country in Eastern Europe",
+          "answer": "Romania",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:39:02.702Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Gardening",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:02.899Z",
+            "visiblePlayerBlock": [
+              "gardening",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:06.652Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Local area",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:06.862Z",
+            "visiblePlayerBlock": [
+              "local area",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:11.982Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Hobbies",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:12.144Z",
+            "visiblePlayerBlock": [
+              "hobbies",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:15.388Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "The flight",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:15.587Z",
+            "visiblePlayerBlock": [
+              "the flight",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:17.457Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Cars",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:17.619Z",
+            "visiblePlayerBlock": [
+              "cars",
+              "Dinosaur",
+              "1255",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:21.277Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Food",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:21.474Z",
+            "visiblePlayerBlock": [
+              "food",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:25.097Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Travel",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:39:25.700Z",
+          "question": "Name a classic small-talk topic",
+          "answer": "Movies",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:26.047Z",
+            "visiblePlayerBlock": [
+              "movies",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:35.484Z",
+          "question": "Name a term used in karate or other martial arts",
+          "answer": "Zanshin",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:39:43.004Z",
+          "question": "Name a term used in karate or other martial arts",
+          "answer": "Kihon",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:43.277Z",
+            "visiblePlayerBlock": [
+              "kihon",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:46.349Z",
+          "question": "Name a term used in karate or other martial arts",
+          "answer": "Bunkai",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:46.519Z",
+            "visiblePlayerBlock": [
+              "bunkai",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:49.311Z",
+          "question": "Name a term used in karate or other martial arts",
+          "answer": "Randori",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:39:49.454Z",
+            "visiblePlayerBlock": [
+              "randori",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:39:59.080Z",
+          "question": "Name a term used in karate or other martial arts",
+          "answer": "Ukemi",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:40:06.878Z",
+          "question": "Name a position in baseball",
+          "answer": "Pinch runner",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:07.049Z",
+            "visiblePlayerBlock": [
+              "pinch runner",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:10.897Z",
+          "question": "Name a position in baseball",
+          "answer": "Shortstop",
+          "source": "codex",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:11.140Z",
+            "visiblePlayerBlock": [
+              "shortstop",
+              "Dinosaur",
+              "1255",
+              "PLANKTON"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:13.650Z",
+          "question": "Name a position in baseball",
+          "answer": "Catcher",
+          "source": "codex",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:13.778Z",
+            "visiblePlayerBlock": [
+              "catcher",
+              "Dinosaur",
+              "1255",
+              "PLANKTON"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:17.909Z",
+          "question": "Name a position in baseball",
+          "answer": "Second baseman",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:18.114Z",
+            "visiblePlayerBlock": [
+              "second baseman",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:21.408Z",
+          "question": "Name a position in baseball",
+          "answer": "Center fielder",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:21.558Z",
+            "visiblePlayerBlock": [
+              "center fielder",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:28.915Z",
+          "question": "Name a position in baseball",
+          "answer": "Right fielder",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:29.111Z",
+            "visiblePlayerBlock": [
+              "right fielder",
+              "Dinosaur",
+              "1255",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:38.677Z",
+          "question": "Name a body part an animal has for fighting or protection",
+          "answer": "Acrorhagi",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:40:44.375Z",
+          "question": "Name a body part an animal has for fighting or protection",
+          "answer": "Cuvierian tubules",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:40:48.263Z",
+          "question": "Name a body part an animal has for fighting or protection",
+          "answer": "Acidopore",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:48.516Z",
+            "visiblePlayerBlock": [
+              "acidopore",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:40:51.004Z",
+          "question": "Name a body part an animal has for fighting or protection",
+          "answer": "Acontia",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:40:51.259Z",
+            "visiblePlayerBlock": [
+              "acontia",
+              "Dinosaur",
+              "1255",
+              "DEEP CUT"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 1,
+  "current": 2,
   "best": 5,
   "records": [
     {
@@ -140,6 +140,15 @@
       "name": "Dinosaur",
       "outcome": "win",
       "finishedAt": "2026-10-23T21:34:55.485Z"
+    },
+    {
+      "number": 16,
+      "room": "FXJP",
+      "startedAt": "2026-10-23T21:36:13.611Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T21:41:00.648Z"
     }
   ],
   "active": null,
