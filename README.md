@@ -36,6 +36,24 @@ The engine loads `data/answer-archive.json.gz`, a bounded cache of canonical ans
 
 The cache covers **699 categories** from **100 daily sets**, retaining **53,794 choices** with up to 100 rare-first choices per exact prompt. In the historical overlap, 280 of 300 previously accepted choices had matching tiers; Puffer observations override the 20 differences. Local lookup measured 0.23 ms median and 0.40 ms p95 across 699 categories. [Readiness report](validation/answer-archive-readiness.json). It contains answer names and ranks, without the site’s answer quips or article prose. See [source details and refresh instructions](docs/ANSWER-SOURCES.md). Uncovered categories retain the learned/static banks and Codex fallback. Starting the worker no longer makes a warmup generation request. Match evidence records actual Codex generation-request counts; those counts exclude development work in this chat.
 
+### Five-game public test
+
+The next five public party games after the archive integration finished with **5/5 wins**, **95/96 accepted submissions (99.0%)**, and **84/95 rare-or-better awards (88.4%)**. Improvements were reviewed and pushed between matches, so this is an iterative sample across the source versions recorded in the evidence.
+
+| Room (starting players) | Result | Accepted / rejected | Krillion / deep cut / rare | Fresh Codex requests |
+| --- | --- | --- | --- | --- |
+| HMKJ (6) | win | 26 / 0 | 8 / 16 / 0 | 4 |
+| YJFM (6) | win | 13 / 1 | 4 / 5 / 3 | 5 |
+| YVBE (6) | win | 18 / 0 | 4 / 3 / 6 | 7 |
+| KPSG (6) | win | 24 / 0 | 4 / 14 / 5 | 8 |
+| QWSF (6) | win | 14 / 0 | 3 / 3 / 6 | 5 |
+
+The archive covered **18/36 observed categories**. Direct archive submissions: **52 accepted, 0 rejected**; **52/52 accepted choices matched the published tier**. First-answer availability for archive-covered categories was **10 ms median / 13 ms p95**.
+
+There were **29 fresh bot generation requests**, of which **0 came from archive-covered categories**. The worker startup no longer generates answers. Request counts exclude development in this chat and do not measure tokens or billing. The archive does not cover every Puffer category; uncovered rounds keep the Codex fallback. This five-game sample does not establish a guaranteed win rate or a causal percentage reduction in allowance usage.
+
+[Full five-game evidence, category coverage, request events, and source versions](validation/archive-five-game-test.json).
+
 ### Public regular-game answer index
 
 `node src/regular-bank.mjs` optionally refreshes a local `data/regular-bank.json` from the current public daily reveal and the five free first dives. It retains up to 80 rare-first canonical choices per exact prompt. The initial six-source sample covered 42 prompts and retained 2,710 choices. The local index is excluded from Git.
@@ -69,15 +87,15 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Observed statistics
 
-Snapshot as of 2026-10-23T16:56:47.187Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
+Snapshot as of 2026-10-23T17:02:25.241Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
 
 | Metric | Result |
 | --- | --- |
-| Confirmed public wins / attempts | 21 / 22 (95.5%) |
+| Confirmed public wins / attempts | 22 / 23 (95.7%) |
 | Losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 12 / 12 |
-| Accepted submissions / acknowledgements | 367 / 383 (95.8%) |
-| Rare-or-better accepted answers | 182 / 367 (49.6%) |
+| Current / best consecutive wins | 13 / 13 |
+| Accepted submissions / acknowledgements | 381 / 397 (96.0%) |
+| Rare-or-better accepted answers | 194 / 381 (50.9%) |
 | Category first-answer availability, median | 3,610 ms |
 | First-turn wait, median | 82 ms |
 

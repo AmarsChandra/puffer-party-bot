@@ -1,0 +1,128 @@
+{
+  "room": "QWSF",
+  "gameId": "party:QWSF-1792774713163-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a role in a wedding",
+      "readyMs": 4200,
+      "firstTurnWaitMs": 4186,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "schooler": 1,
+          "plankton": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs",
+      "readyMs": 3947,
+      "firstTurnWaitMs": 2435,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a vegetable that's botanically a fruit",
+      "readyMs": 12,
+      "firstTurnWaitMs": 83,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "krillion": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a city in Italy (must hold the official città title)",
+      "readyMs": 11,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "krillion": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "readyMs": 4228,
+      "firstTurnWaitMs": 81,
+      "accepted": 7,
+      "rarity": {
+        "tiers": {
+          "rare": 6,
+          "krillion": 1
+        },
+        "rareOrBetter": 7,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a food you'd buy at a state fair or carnival",
+      "readyMs": 5,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "schooler": 1,
+      "plankton": 1,
+      "deepcut": 3,
+      "krillion": 3,
+      "rare": 6
+    },
+    "rareOrBetter": 12,
+    "rareOrBetterRate": 0.8571428571428571
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 20,
+    "ownAccepted": 14,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

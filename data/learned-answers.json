@@ -32687,14 +32687,14 @@
         },
         "porktenderloinsandwich": {
           "text": "Pork tenderloin sandwich",
-          "accepted": 2,
+          "accepted": 4,
           "misses": 0,
           "order": 1,
           "proposed": true,
           "rarityRequested": true,
           "canonical": "porktenderloinsandwich",
           "tier": "deepcut",
-          "lastAccepted": "2026-10-23T16:53:36.483Z"
+          "lastAccepted": "2026-10-23T17:02:09.965Z"
         },
         "elephantears": {
           "text": "Elephant ears",
@@ -32922,12 +32922,12 @@
         },
         "belgianwaffle": {
           "text": "Belgian waffle",
-          "accepted": 1,
+          "accepted": 3,
           "misses": 0,
           "order": 29,
           "canonical": "belgianwaffle",
           "tier": "deepcut",
-          "lastAccepted": "2026-10-23T16:53:41.790Z"
+          "lastAccepted": "2026-10-23T17:02:17.239Z"
         },
         "dango": {
           "text": "Dango",
@@ -32937,6 +32937,15 @@
           "canonical": "dango",
           "tier": "deepcut",
           "lastAccepted": "2026-10-23T16:53:44.912Z"
+        },
+        "elephantear": {
+          "text": "Elephant ear",
+          "accepted": 1,
+          "misses": 0,
+          "order": 31,
+          "canonical": "elephantear",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T17:02:17.095Z"
         }
       }
     },
@@ -33457,6 +33466,583 @@
           "canonical": "finland",
           "tier": "deepcut",
           "lastAccepted": "2026-10-23T16:56:39.190Z"
+        }
+      }
+    },
+    "role in a wedding": {
+      "question": "Name a role in a wedding",
+      "answers": {
+        "usher": {
+          "text": "Usher",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "usher",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:58:43.128Z"
+        },
+        "ringbearer": {
+          "text": "Ring Bearer",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "ringbearer",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:58:54.973Z"
+        },
+        "officiant": {
+          "text": "Officiant",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "officiant",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:58:58.829Z"
+        },
+        "flowergirl": {
+          "text": "Flower Girl",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "flowergirl",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:58:47.037Z"
+        },
+        "bridesmaid": {
+          "text": "Bridesmaid",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "bridesmaid",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:58:56.057Z",
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "caterer": {
+          "text": "Caterer",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "caterer",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:58:57.269Z"
+        },
+        "weddingplanner": {
+          "text": "Wedding Planner",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "weddingplanner",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:58:58.570Z",
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "trainbearer": {
+          "text": "Train bearer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pageboy": {
+          "text": "Page boy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "juniorbridesmaid": {
+          "text": "Junior bridesmaid",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bridesman": {
+          "text": "Bridesman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "groomswoman": {
+          "text": "Groomswoman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "matronofhonor": {
+          "text": "Matron of honor",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "weddingwitness": {
+          "text": "Wedding witness",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "masterofceremonies": {
+          "text": "Master of ceremonies",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "motherofthebride": {
+          "text": "Mother of the bride",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fatherofthebride": {
+          "text": "Father of the bride",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "motherofthegroom": {
+          "text": "Mother of the groom",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fatherofthegroom": {
+          "text": "Father of the groom",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "maidofhonor": {
+          "text": "Maid of honor",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bestman": {
+          "text": "Best man",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "groomsman": {
+          "text": "Groomsman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "weddingphotographer": {
+          "text": "Wedding photographer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "guest": {
+          "text": "Guest",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "guest",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:59:15.197Z"
+        },
+        "bride": {
+          "text": "Bride",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "bride",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:59:16.331Z"
+        },
+        "bartender": {
+          "text": "Bartender",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "bartender",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:59:17.559Z"
+        }
+      }
+    },
+    "platform primarily used for direct or group messaging not a social network that merely includes dms": {
+      "question": "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs",
+      "answers": {
+        "threema": {
+          "text": "Threema",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "threema",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:59:31.662Z"
+        },
+        "wire": {
+          "text": "Wire",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "briar": {
+          "text": "Briar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "vegetable that s botanically a fruit": {
+      "question": "Name a vegetable that's botanically a fruit",
+      "answers": {
+        "tomato": {
+          "text": "Tomato",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "tomato",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:00:14.094Z"
+        },
+        "avocado": {
+          "text": "Avocado",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "avocado",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:00:18.772Z"
+        },
+        "achocha": {
+          "text": "Achocha",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "canonical": "achocha",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T17:00:31.713Z"
+        }
+      }
+    },
+    "city in italy must hold the official citta title": {
+      "question": "Name a city in Italy (must hold the official città title)",
+      "answers": {
+        "florence": {
+          "text": "Florence",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "florence",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:01:00.709Z"
+        },
+        "crotone": {
+          "text": "Crotone",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "crotone",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T17:01:15.677Z"
+        },
+        "rome": {
+          "text": "Rome",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "rome",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:01:19.263Z"
+        }
+      }
+    },
+    "item from mario kart": {
+      "question": "Name an item from Mario Kart",
+      "answers": {
+        "boo": {
+          "text": "Boo",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "boo",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T17:01:36.866Z"
+        },
+        "thundercloud": {
+          "text": "Thunder Cloud",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "thundercloud",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T17:01:40.838Z"
+        },
+        "megamushroom": {
+          "text": "Mega Mushroom",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "megamushroom",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T17:01:43.853Z"
+        },
+        "mushroom": {
+          "text": "Mushroom",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "mushroom",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:01:40.683Z"
+        },
+        "greenshell": {
+          "text": "Green Shell",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "greenshell",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:01:43.662Z"
+        },
+        "blueshell": {
+          "text": "Blue Shell",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "blueshell",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:01:46.070Z"
+        },
+        "feather": {
+          "text": "Feather",
+          "accepted": 2,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "feather",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T17:01:50.451Z"
+        },
+        "superleaf": {
+          "text": "Super Leaf",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "superleaf",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T17:01:51.886Z"
+        },
+        "luckyseven": {
+          "text": "Lucky Seven",
+          "accepted": 2,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "luckyseven",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T17:01:54.856Z"
+        },
+        "crazyeight": {
+          "text": "Crazy Eight",
+          "accepted": 2,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "crazyeight",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T17:02:00.075Z"
+        },
+        "boomerangflower": {
+          "text": "Boomerang Flower",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "piranhaplant": {
+          "text": "Piranha Plant",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "superhorn": {
+          "text": "Super Horn",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fireflower": {
+          "text": "Fire Flower",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "iceflower": {
+          "text": "Ice Flower",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bubble": {
+          "text": "Bubble",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hammer": {
+          "text": "Hammer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "superbell": {
+          "text": "Super Bell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dashring": {
+          "text": "Dash Ring",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bananabarrels": {
+          "text": "Banana Barrels",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "giantbanana": {
+          "text": "Giant Banana",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bowsersshell": {
+          "text": "Bowser's Shell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "yoshisegg": {
+          "text": "Yoshi's Egg",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "star": {
+          "text": "Star",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "star",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T17:01:51.719Z"
+        },
+        "heart": {
+          "text": "Heart",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bobomb": {
+          "text": "Bob-omb",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "bobomb",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T17:01:54.660Z"
+        },
+        "bulletbill": {
+          "text": "Bullet Bill",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "bulletbill",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T17:01:59.906Z"
         }
       }
     }

@@ -256,6 +256,26 @@
         "data/english-words.json": "67409404290e99271eb54fb74632eeb1f44e9253e342793cc4ed893d5b0db399",
         "data/answer-archive.json.gz": "56fd331148dd79dbaeccfbc369f639eed3ea4be8504c8613c6d4e3343adf6cc3"
       }
+    },
+    {
+      "id": "57ec73ad737bb151",
+      "sources": {
+        "src/paths.mjs": "d7bdae38224ccc4501ae74303681e129db52e28c689523e39cf4f24fa910bba7",
+        "src/puffer-bot.mjs": "ea16595f817c4de2f20e149d2c30000283f230a41aaaee19f329d4d35343722c",
+        "src/answer-engine.mjs": "9262a16d72cf089989ce9051f41bcec5ccc27869b1979e759b4cc9520bb804eb",
+        "src/codex-provider.mjs": "bbb38e2d7e2faae7de9c4f15352e6c428ef54e6d1012eff840d04781404f05b9",
+        "src/answer-archive.mjs": "eaf3f00961ccee7510e2fce2ad2b5b63b03cdbba21210a23f6471f30575f96f4",
+        "src/regular-bank.mjs": "0b73290fb0ba8ad976de3b678890b6f92ac9829147fa5c0179c9d178fe35dae2",
+        "src/streak-runner.mjs": "d61e2a311965e5a3db604087b085a6949320bc7a7339270e39c53c7e16724469",
+        "src/game-screen.mjs": "057700354cec0b2a6048db875f3b7ddcabff2f7f1ae59a73293b8f05e3f7fcec",
+        "src/adaptive-campaign.mjs": "2879a73fe244f33a436d5a037593e0886c9624a2c5f28c1fe688d6edaa46553b",
+        "src/review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "src/statistics.mjs": "91a199c4d916438b439d6e893b3fd946808e365321807ec323e4b19c7a6edfb3",
+        "src/self-play.mjs": "a34352fd9053e0aba6a36b9246e4c150654c8afab87cff818603746c3554cfcc",
+        "data/answers.json": "c89578a71e7c27d6043cc7c7f74c25f3d581554d04d84ec320c269862f748d6d",
+        "data/english-words.json": "67409404290e99271eb54fb74632eeb1f44e9253e342793cc4ed893d5b0db399",
+        "data/answer-archive.json.gz": "56fd331148dd79dbaeccfbc369f639eed3ea4be8504c8613c6d4e3343adf6cc3"
+      }
     }
   ],
   "records": [
@@ -576,6 +596,21 @@
       "accepted": 24,
       "lives": 5,
       "finishedAt": "2026-10-23T16:56:47.187Z",
+      "reviewed": true
+    },
+    {
+      "number": 23,
+      "outcome": "win",
+      "gameId": "party:QWSF-1792774713163-1",
+      "room": "QWSF",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/023/result.json",
+      "reviewFile": "games/023/review.json",
+      "sourceVersion": "57ec73ad737bb151",
+      "accepted": 14,
+      "lives": 3,
+      "finishedAt": "2026-10-23T17:02:25.241Z",
       "reviewed": true
     }
   ],
@@ -1407,11 +1442,22 @@
         "Added measured Codex request totals to the full statistics Markdown with missing older measurements explicit.",
         "All 61 regression tests pass. The five-game cohort retains four wins and one repeat rejection across the sample so far."
       ]
+    },
+    {
+      "at": "2026-10-23T17:03:09.829Z",
+      "afterMatch": 23,
+      "summary": "Reviewed public QWSF win: 14/14 accepted, three krillion, three deepcut, six rare, one schooler, one plankton, three hearts. All two direct archive submissions matched expected tiers. Five Codex requests occurred in uncovered categories. The five-game cohort is complete with five verified public wins, 95 accepted of 96 acknowledgements, 84 rare-or-better awards, 52/52 archive choices accepted with matching tiers, and zero fresh requests in archive-covered categories.",
+      "changes": [
+        "Retained newly confirmed answers and actual tiers; no rejection or unavailable-answer findings in the final match.",
+        "Published the complete five-game evidence with per-match source versions, every outcome, coverage, and generation-request events.",
+        "Documented that the archive covered 18/36 observed categories, so Codex remains a fallback for uncovered categories; no guarantee or unmeasured causal usage-reduction claim.",
+        "No new dictionary word round occurred after the frequency reordering; its gameplay rarity effect remains unmeasured."
+      ]
     }
   ],
   "progress": {
-    "current": 12,
-    "best": 12
+    "current": 13,
+    "best": 13
   },
   "setupFailures": [
     {

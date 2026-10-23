@@ -1,23 +1,23 @@
 # Puffer Party bot — observed public results
 
-As of 2026-10-23T16:57:50.145Z. Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.
+As of 2026-10-23T17:03:09.845Z. Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.
 
 | Metric | Observed result |
 | --- | --- |
-| Public attempts | 22 |
-| Confirmed wins | 21 / 22 (95.5%) |
+| Public attempts | 23 |
+| Confirmed wins | 22 / 23 (95.7%) |
 | Confirmed losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 12 / 12 |
-| Accepted gameplay acknowledgements | 367 / 383 (95.8%) |
+| Current / best consecutive wins | 13 / 13 |
+| Accepted gameplay acknowledgements | 381 / 397 (96.0%) |
 | Miss / repeat rejections | 4 / 12 |
-| Rare, deep-cut or Krillion answers | 182 / 367 (49.6%) |
-| Category first-answer availability, median / p95 | 3,610 ms / 7,290 ms (141 observations) |
-| First-turn wait, median / p95 | 82 ms / 4,074 ms (137 observations) |
+| Rare, deep-cut or Krillion answers | 194 / 381 (50.9%) |
+| Category first-answer availability, median / p95 | 3,610 ms / 7,290 ms (147 observations) |
+| First-turn wait, median / p95 | 82 ms / 4,074 ms (143 observations) |
 | Categories without an available answer / first turns without a submission | 1 / 1 |
 | Setup failures before participation | 1 |
-| Fresh Codex generation requests | 24 across 4 measured matches; 18 historical matches unmeasured |
+| Fresh Codex generation requests | 29 across 5 measured matches; 18 historical matches unmeasured |
 
-Rarity tiers are reported by the game: tooclever: 1, plankton: 121, rare: 58, deepcut: 95, schooler: 63, krillion: 29.
+Rarity tiers are reported by the game: tooclever: 1, plankton: 122, rare: 64, deepcut: 98, schooler: 64, krillion: 32.
 
 Inconclusive public attempts count as non-wins and break the streak. Setup failures before participation are listed separately.
 

@@ -1,0 +1,1150 @@
+{
+  "won": true,
+  "room": "QWSF",
+  "playerId": "231e4f9899",
+  "winnerId": "231e4f9899",
+  "gameNumber": 1,
+  "gameId": "party:QWSF-1792774713163-1",
+  "rated": false,
+  "player": {
+    "id": "231e4f9899",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 4,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 3,
+    "meter": 355,
+    "alive": true,
+    "answers": 14,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Belgian waffle",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a role in a wedding"
+    },
+    {
+      "index": 2,
+      "text": "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs"
+    },
+    {
+      "index": 3,
+      "text": "Name a vegetable that's botanically a fruit"
+    },
+    {
+      "index": 4,
+      "text": "Name a city in Italy (must hold the official città title)"
+    },
+    {
+      "index": 5,
+      "text": "Name an item from Mario Kart"
+    },
+    {
+      "index": 6,
+      "text": "Name a food you'd buy at a state fair or carnival"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a role in a wedding",
+      "answer": "Usher",
+      "source": "codex",
+      "reactionMs": 4202,
+      "submit": {
+        "accepted": true,
+        "answer": "Usher",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a role in a wedding",
+      "answer": "Officiant",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Officiant",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs",
+      "answer": "Threema",
+      "source": "codex",
+      "reactionMs": 2452,
+      "submit": {
+        "accepted": true,
+        "answer": "Threema",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a vegetable that's botanically a fruit",
+      "answer": "Achocha",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-10",
+      "archiveDataHash": "3699ebca29c3315f8cf61ed805399dafd2557ee393876b78b31ec86ae5e8ba48",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Achocha",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a city in Italy (must hold the official città title)",
+      "answer": "Crotone",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-27",
+      "archiveDataHash": "eed17b3f1dd53baf131c05430ab06c70a2a247d263b4c7a615f06f1847558341",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Crotone",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Boo",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Boo",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Thunder Cloud",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Thunder Cloud",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Mega Mushroom",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Mega Mushroom",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Feather",
+      "source": "codex",
+      "reactionMs": 4274,
+      "submit": {
+        "accepted": true,
+        "answer": "Feather",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Super Leaf",
+      "source": "codex",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Super Leaf",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Lucky Seven",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Lucky Seven",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name an item from Mario Kart",
+      "answer": "Crazy Eight",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Crazy Eight",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a food you'd buy at a state fair or carnival",
+      "answer": "Pork tenderloin sandwich",
+      "source": "verified",
+      "reactionMs": 87,
+      "submit": {
+        "accepted": true,
+        "answer": "Pork tenderloin sandwich",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a food you'd buy at a state fair or carnival",
+      "answer": "Belgian waffle",
+      "source": "verified",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "Belgian waffle",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 14,
+    "accepted": 14,
+    "reactionMs": [
+      4202,
+      83,
+      2452,
+      84,
+      84,
+      83,
+      81,
+      83,
+      4274,
+      80,
+      83,
+      82,
+      87,
+      80
+    ],
+    "sources": {
+      "codex": 10,
+      "answer-archive": 2,
+      "verified": 2
+    },
+    "unknownCategories": [
+      "Name a role in a wedding",
+      "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs",
+      "Name an item from Mario Kart"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 1,
+        "index": 1,
+        "question": "Name a role in a wedding",
+        "archiveCovered": false,
+        "observedAt": 1792774718792,
+        "readyMs": 4200,
+        "firstTurnAt": 1792774718806,
+        "firstSubmitMs": 4200,
+        "firstTurnWaitMs": 4186,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 2,
+        "question": "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs",
+        "archiveCovered": false,
+        "observedAt": 1792774767607,
+        "readyMs": 3947,
+        "firstTurnAt": 1792774769119,
+        "firstSubmitMs": 3947,
+        "firstTurnWaitMs": 2435,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 3,
+        "question": "Name a vegetable that's botanically a fruit",
+        "archiveCovered": true,
+        "observedAt": 1792774807072,
+        "readyMs": 12,
+        "firstTurnAt": 1792774831517,
+        "firstSubmitMs": 24528,
+        "firstTurnWaitMs": 83,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 4,
+        "question": "Name a city in Italy (must hold the official città title)",
+        "archiveCovered": true,
+        "observedAt": 1792774855019,
+        "readyMs": 11,
+        "firstTurnAt": 1792774875500,
+        "firstSubmitMs": 20563,
+        "firstTurnWaitMs": 82,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 5,
+        "question": "Name an item from Mario Kart",
+        "archiveCovered": false,
+        "observedAt": 1792774879263,
+        "readyMs": 4228,
+        "firstTurnAt": 1792774896678,
+        "firstSubmitMs": 17496,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 6,
+        "question": "Name a food you'd buy at a state fair or carnival",
+        "archiveCovered": false,
+        "observedAt": 1792774928248,
+        "readyMs": 5,
+        "firstTurnAt": 1792774929753,
+        "firstSubmitMs": 1587,
+        "firstTurnWaitMs": 82,
+        "firstSource": "verified"
+      }
+    ],
+    "codexRequests": 5
+  },
+  "startingRoom": {
+    "code": "QWSF",
+    "chatEnabled": true,
+    "version": 10,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "f2ea0a9dec",
+    "players": [
+      {
+        "id": "f2ea0a9dec",
+        "chatMuted": false,
+        "removed": false,
+        "name": "james",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "a16b94d74c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "idk",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "c4a73dca71",
+        "chatMuted": false,
+        "removed": false,
+        "name": "AnTheMan",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "ab241fa399",
+        "chatMuted": false,
+        "removed": false,
+        "name": "nico",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "231e4f9899",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "4e9a79674b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bob",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792774718788,
+    "winnerId": null,
+    "gameNumber": 1,
+    "gameId": "party:QWSF-1792774713163-1",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "f2ea0a9dec",
+        "seq": 1,
+        "at": 1792774713163
+      },
+      {
+        "kind": "join",
+        "playerId": "a16b94d74c",
+        "seq": 2,
+        "at": 1792774714745
+      },
+      {
+        "kind": "join",
+        "playerId": "c4a73dca71",
+        "seq": 3,
+        "at": 1792774714783
+      },
+      {
+        "kind": "join",
+        "playerId": "ab241fa399",
+        "seq": 4,
+        "at": 1792774714815
+      },
+      {
+        "kind": "join",
+        "playerId": "231e4f9899",
+        "seq": 5,
+        "at": 1792774715039
+      },
+      {
+        "kind": "join",
+        "playerId": "4e9a79674b",
+        "seq": 6,
+        "at": 1792774715788
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792774718788,
+        "seq": 7,
+        "at": 1792774715788
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792774713163,
+        "playerId": null,
+        "name": "james",
+        "text": "james joined"
+      },
+      {
+        "id": 2,
+        "at": 1792774714745,
+        "playerId": null,
+        "name": "idk",
+        "text": "idk joined"
+      },
+      {
+        "id": 3,
+        "at": 1792774714783,
+        "playerId": null,
+        "name": "AnTheMan",
+        "text": "AnTheMan joined"
+      },
+      {
+        "id": 4,
+        "at": 1792774714815,
+        "playerId": null,
+        "name": "nico",
+        "text": "nico joined"
+      },
+      {
+        "id": 5,
+        "at": 1792774715039,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 6,
+        "at": 1792774715788,
+        "playerId": null,
+        "name": "bob",
+        "text": "bob joined"
+      }
+    ],
+    "now": 1792774716615
+  },
+  "finalRoom": {
+    "code": "QWSF",
+    "chatEnabled": true,
+    "version": 20230,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "a16b94d74c",
+    "players": [
+      {
+        "id": "f2ea0a9dec",
+        "chatMuted": false,
+        "removed": false,
+        "name": "james",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 40,
+        "alive": false,
+        "answers": 2,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Guest",
+          "tier": "schooler"
+        },
+        "place": 4
+      },
+      {
+        "id": "a16b94d74c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "idk",
+        "character": "krill",
+        "seat": 1,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 180,
+        "alive": false,
+        "answers": 12,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Elephant ear",
+          "tier": "schooler"
+        },
+        "place": 2
+      },
+      {
+        "id": "c4a73dca71",
+        "chatMuted": false,
+        "removed": false,
+        "name": "AnTheMan",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 100,
+        "alive": false,
+        "answers": 3,
+        "pops": 1,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Avocado",
+          "tier": "plankton"
+        },
+        "place": 3
+      },
+      {
+        "id": "ab241fa399",
+        "chatMuted": false,
+        "removed": false,
+        "name": "nico",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 30,
+        "alive": false,
+        "answers": 1,
+        "pops": 2,
+        "best": "schooler",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Wedding Planner",
+          "tier": "schooler"
+        },
+        "place": 5
+      },
+      {
+        "id": "231e4f9899",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 3,
+        "meter": 355,
+        "alive": true,
+        "answers": 14,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Belgian waffle",
+          "tier": "deepcut"
+        },
+        "place": 1
+      },
+      {
+        "id": "4e9a79674b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "bob",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 10,
+        "alive": false,
+        "answers": 1,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Flower Girl",
+          "tier": "plankton"
+        },
+        "place": 6
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 6,
+      "text": "Name a food you'd buy at a state fair or carnival",
+      "threshold": 15,
+      "accepted": 3
+    },
+    "countdownEndsAt": null,
+    "winnerId": "231e4f9899",
+    "gameNumber": 1,
+    "gameId": "party:QWSF-1792774713163-1",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pop",
+        "playerId": "ab241fa399",
+        "livesLeft": 0,
+        "seq": 40,
+        "at": 1792774830018
+      },
+      {
+        "kind": "out",
+        "playerId": "ab241fa399",
+        "place": 5,
+        "seq": 41,
+        "at": 1792774830018
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "f2ea0a9dec",
+        "answer": "Achocha",
+        "tier": "krillion",
+        "seq": 42,
+        "at": 1792774831706
+      },
+      {
+        "kind": "leave",
+        "playerId": "ab241fa399",
+        "seq": 43,
+        "at": 1792774832542
+      },
+      {
+        "kind": "leave",
+        "playerId": "4e9a79674b",
+        "seq": 44,
+        "at": 1792774834944
+      },
+      {
+        "kind": "pop",
+        "playerId": "f2ea0a9dec",
+        "livesLeft": 0,
+        "seq": 10045,
+        "at": 1792774854960
+      },
+      {
+        "kind": "out",
+        "playerId": "f2ea0a9dec",
+        "place": 4,
+        "seq": 10046,
+        "at": 1792774854960
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "a16b94d74c",
+        "seq": 10047,
+        "at": 1792774854960
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "c4a73dca71",
+        "answer": "Florence",
+        "tier": "plankton",
+        "seq": 10048,
+        "at": 1792774860702
+      },
+      {
+        "kind": "pop",
+        "playerId": "c4a73dca71",
+        "livesLeft": 1,
+        "seq": 10049,
+        "at": 1792774874006
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Crotone",
+        "tier": "krillion",
+        "seq": 10050,
+        "at": 1792774875668
+      },
+      {
+        "kind": "reject",
+        "playerId": "a16b94d74c",
+        "text": "vienna",
+        "why": "miss",
+        "seq": 10051,
+        "at": 1792774876650
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "c4a73dca71",
+        "answer": "Rome",
+        "tier": "plankton",
+        "seq": 10052,
+        "at": 1792774879247
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "c4a73dca71",
+        "seq": 10053,
+        "at": 1792774879247
+      },
+      {
+        "kind": "leave",
+        "playerId": "f2ea0a9dec",
+        "seq": 20054,
+        "at": 1792774893772
+      },
+      {
+        "kind": "host",
+        "playerId": "a16b94d74c",
+        "seq": 20055,
+        "at": 1792774893772
+      },
+      {
+        "kind": "leave",
+        "playerId": "c4a73dca71",
+        "seq": 20056,
+        "at": 1792774896687
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Boo",
+        "tier": "rare",
+        "seq": 20057,
+        "at": 1792774896859
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Mushroom",
+        "tier": "plankton",
+        "seq": 20058,
+        "at": 1792774900686
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Thunder Cloud",
+        "tier": "rare",
+        "seq": 20059,
+        "at": 1792774900835
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Green Shell",
+        "tier": "plankton",
+        "seq": 20060,
+        "at": 1792774903672
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Mega Mushroom",
+        "tier": "rare",
+        "seq": 20061,
+        "at": 1792774903846
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Blue Shell",
+        "tier": "plankton",
+        "seq": 20062,
+        "at": 1792774906083
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Feather",
+        "tier": "krillion",
+        "seq": 20063,
+        "at": 1792774910438
+      },
+      {
+        "kind": "spare",
+        "playerId": "231e4f9899",
+        "lives": 3,
+        "seq": 20064,
+        "at": 1792774910438
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Star",
+        "tier": "plankton",
+        "seq": 20065,
+        "at": 1792774911731
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Super Leaf",
+        "tier": "rare",
+        "seq": 20066,
+        "at": 1792774911883
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Bob-omb",
+        "tier": "schooler",
+        "seq": 20067,
+        "at": 1792774914671
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Lucky Seven",
+        "tier": "rare",
+        "seq": 20068,
+        "at": 1792774914848
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Bullet Bill",
+        "tier": "schooler",
+        "seq": 20069,
+        "at": 1792774919919
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Crazy Eight",
+        "tier": "rare",
+        "seq": 20070,
+        "at": 1792774920056
+      },
+      {
+        "kind": "reject",
+        "playerId": "a16b94d74c",
+        "text": "cuber",
+        "why": "miss",
+        "seq": 20071,
+        "at": 1792774926154
+      },
+      {
+        "kind": "pop",
+        "playerId": "a16b94d74c",
+        "livesLeft": 1,
+        "seq": 20072,
+        "at": 1792774928100
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "231e4f9899",
+        "seq": 20073,
+        "at": 1792774928100
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Pork tenderloin sandwich",
+        "tier": "deepcut",
+        "seq": 20074,
+        "at": 1792774929962
+      },
+      {
+        "kind": "pass",
+        "from": "a16b94d74c",
+        "to": "231e4f9899",
+        "answer": "Elephant ear",
+        "tier": "schooler",
+        "seq": 20075,
+        "at": 1792774937110
+      },
+      {
+        "kind": "pass",
+        "from": "231e4f9899",
+        "to": "a16b94d74c",
+        "answer": "Belgian waffle",
+        "tier": "deepcut",
+        "seq": 20076,
+        "at": 1792774937235
+      },
+      {
+        "kind": "pop",
+        "playerId": "a16b94d74c",
+        "livesLeft": 0,
+        "seq": 20077,
+        "at": 1792774945235
+      },
+      {
+        "kind": "out",
+        "playerId": "a16b94d74c",
+        "place": 2,
+        "seq": 20078,
+        "at": 1792774945235
+      },
+      {
+        "kind": "win",
+        "playerId": "231e4f9899",
+        "seq": 20079,
+        "at": 1792774945235
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792774713163,
+        "playerId": null,
+        "name": "james",
+        "text": "james joined"
+      },
+      {
+        "id": 2,
+        "at": 1792774714745,
+        "playerId": null,
+        "name": "idk",
+        "text": "idk joined"
+      },
+      {
+        "id": 3,
+        "at": 1792774714783,
+        "playerId": null,
+        "name": "AnTheMan",
+        "text": "AnTheMan joined"
+      },
+      {
+        "id": 4,
+        "at": 1792774714815,
+        "playerId": null,
+        "name": "nico",
+        "text": "nico joined"
+      },
+      {
+        "id": 5,
+        "at": 1792774715039,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 6,
+        "at": 1792774715788,
+        "playerId": null,
+        "name": "bob",
+        "text": "bob joined"
+      },
+      {
+        "id": 7,
+        "at": 1792774832542,
+        "playerId": null,
+        "name": "nico",
+        "text": "nico left"
+      },
+      {
+        "id": 8,
+        "at": 1792774834944,
+        "playerId": null,
+        "name": "bob",
+        "text": "bob was kicked for being idle"
+      },
+      {
+        "id": 20009,
+        "at": 1792774893772,
+        "playerId": null,
+        "name": "james",
+        "text": "james was kicked for being idle"
+      },
+      {
+        "id": 20010,
+        "at": 1792774896687,
+        "playerId": null,
+        "name": "AnTheMan",
+        "text": "AnTheMan was kicked for being idle"
+      },
+      {
+        "id": 20011,
+        "at": 1792774945235,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792774945235
+  }
+}

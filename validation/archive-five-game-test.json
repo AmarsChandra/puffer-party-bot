@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:57:50.080979+00:00",
-  "status": "in-progress",
+  "generatedAt": "2026-10-23T17:02:51.361272+00:00",
+  "status": "complete",
   "plannedMatches": [
     19,
     20,
@@ -9,32 +9,33 @@
     22,
     23
   ],
-  "completedMatches": 4,
-  "wins": 4,
+  "completedMatches": 5,
+  "wins": 5,
   "losses": 0,
   "inconclusive": 0,
-  "accepted": 81,
+  "accepted": 95,
   "rejected": 1,
-  "acceptanceRate": 0.9878048780487805,
+  "acceptanceRate": 0.9895833333333334,
   "tiers": {
-    "krillion": 20,
-    "deepcut": 38,
-    "schooler": 5,
-    "rare": 14,
-    "plankton": 4
+    "krillion": 23,
+    "deepcut": 41,
+    "schooler": 6,
+    "rare": 20,
+    "plankton": 5
   },
-  "rareOrBetter": 72,
+  "rareOrBetter": 84,
   "sources": {
-    "answer-archive": 50,
-    "codex": 25,
-    "verified": 3,
+    "answer-archive": 52,
+    "codex": 35,
+    "verified": 5,
     "bank": 3
   },
-  "archiveCoveredCategories": 16,
-  "observedCategories": 30,
-  "archiveAccepted": 50,
-  "archiveTierAgreements": 50,
-  "codexRequests": 24,
+  "archiveCoveredCategories": 18,
+  "observedCategories": 36,
+  "archiveAccepted": 52,
+  "archiveRejected": 0,
+  "archiveTierAgreements": 52,
+  "codexRequests": 29,
   "requestsFromArchiveCoveredCategories": 0,
   "unmeasuredRequestCounts": [],
   "matches": [
@@ -60,6 +61,7 @@
       "observedCategories": 9,
       "archiveCoveredCategories": 7,
       "archiveAccepted": 21,
+      "archiveRejected": 0,
       "archiveTierAgreements": 21,
       "archiveReadinessMs": [
         8,
@@ -122,6 +124,7 @@
       "observedCategories": 5,
       "archiveCoveredCategories": 2,
       "archiveAccepted": 7,
+      "archiveRejected": 0,
       "archiveTierAgreements": 7,
       "archiveReadinessMs": [
         12,
@@ -186,6 +189,7 @@
       "observedCategories": 7,
       "archiveCoveredCategories": 2,
       "archiveAccepted": 5,
+      "archiveRejected": 0,
       "archiveTierAgreements": 5,
       "archiveReadinessMs": [
         13,
@@ -260,6 +264,7 @@
       "observedCategories": 9,
       "archiveCoveredCategories": 5,
       "archiveAccepted": 17,
+      "archiveRejected": 0,
       "archiveTierAgreements": 17,
       "archiveReadinessMs": [
         11,
@@ -317,6 +322,71 @@
           "question": "Name a NATO member country",
           "count": 18,
           "requestNumber": 8
+        }
+      ],
+      "requestsFromArchiveCoveredCategories": 0
+    },
+    {
+      "number": 23,
+      "room": "QWSF",
+      "gameId": "party:QWSF-1792774713163-1",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "57ec73ad737bb151",
+      "accepted": 14,
+      "rejected": 0,
+      "tiers": {
+        "schooler": 1,
+        "plankton": 1,
+        "deepcut": 3,
+        "krillion": 3,
+        "rare": 6
+      },
+      "sources": {
+        "codex": 10,
+        "answer-archive": 2,
+        "verified": 2
+      },
+      "observedCategories": 6,
+      "archiveCoveredCategories": 2,
+      "archiveAccepted": 2,
+      "archiveRejected": 0,
+      "archiveTierAgreements": 2,
+      "archiveReadinessMs": [
+        12,
+        11
+      ],
+      "codexRequests": 5,
+      "generationEvents": [
+        {
+          "at": "2026-10-23T16:58:38.937Z",
+          "question": "Name a role in a wedding",
+          "count": 3,
+          "requestNumber": 1
+        },
+        {
+          "at": "2026-10-23T16:58:55.042Z",
+          "question": "Name a role in a wedding",
+          "count": 18,
+          "requestNumber": 2
+        },
+        {
+          "at": "2026-10-23T16:59:27.695Z",
+          "question": "Name a platform primarily used for direct or group messaging, not a social network that merely includes DMs",
+          "count": 3,
+          "requestNumber": 3
+        },
+        {
+          "at": "2026-10-23T17:01:19.345Z",
+          "question": "Name an item from Mario Kart",
+          "count": 3,
+          "requestNumber": 4
+        },
+        {
+          "at": "2026-10-23T17:01:40.889Z",
+          "question": "Name an item from Mario Kart",
+          "count": 18,
+          "requestNumber": 5
         }
       ],
       "requestsFromArchiveCoveredCategories": 0
