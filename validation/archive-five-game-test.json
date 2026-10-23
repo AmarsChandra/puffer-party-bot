@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:37:12.412832+00:00",
+  "generatedAt": "2026-10-23T16:42:48.981603+00:00",
   "status": "in-progress",
   "plannedMatches": [
     19,
@@ -9,29 +9,30 @@
     22,
     23
   ],
-  "completedMatches": 1,
-  "wins": 1,
+  "completedMatches": 2,
+  "wins": 2,
   "losses": 0,
   "inconclusive": 0,
-  "accepted": 26,
-  "rejected": 0,
-  "acceptanceRate": 1.0,
+  "accepted": 39,
+  "rejected": 1,
+  "acceptanceRate": 0.975,
   "tiers": {
-    "krillion": 8,
-    "deepcut": 16,
-    "schooler": 2
+    "krillion": 12,
+    "deepcut": 21,
+    "schooler": 3,
+    "rare": 3
   },
-  "rareOrBetter": 24,
+  "rareOrBetter": 36,
   "sources": {
-    "answer-archive": 21,
-    "codex": 3,
-    "verified": 2
+    "answer-archive": 28,
+    "codex": 8,
+    "verified": 3
   },
-  "archiveCoveredCategories": 7,
-  "observedCategories": 9,
-  "archiveAccepted": 21,
-  "archiveTierAgreements": 21,
-  "codexRequests": 4,
+  "archiveCoveredCategories": 9,
+  "observedCategories": 14,
+  "archiveAccepted": 28,
+  "archiveTierAgreements": 28,
+  "codexRequests": 9,
   "unmeasuredRequestCounts": [],
   "matches": [
     {
@@ -67,6 +68,36 @@
         10
       ],
       "codexRequests": 4
+    },
+    {
+      "number": 20,
+      "room": "YJFM",
+      "gameId": "party:YJFM-1792770968920-11",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "a8c8f06407739880",
+      "accepted": 13,
+      "rejected": 1,
+      "tiers": {
+        "rare": 3,
+        "schooler": 1,
+        "deepcut": 5,
+        "krillion": 4
+      },
+      "sources": {
+        "codex": 5,
+        "answer-archive": 7,
+        "verified": 1
+      },
+      "observedCategories": 5,
+      "archiveCoveredCategories": 2,
+      "archiveAccepted": 7,
+      "archiveTierAgreements": 7,
+      "archiveReadinessMs": [
+        12,
+        12
+      ],
+      "codexRequests": 5
     }
   ],
   "interpretation": [

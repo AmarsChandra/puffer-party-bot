@@ -1,0 +1,2417 @@
+{
+  "won": true,
+  "room": "YJFM",
+  "playerId": "fa85a0dc89",
+  "winnerId": "fa85a0dc89",
+  "gameNumber": 11,
+  "gameId": "party:YJFM-1792770968920-11",
+  "rated": false,
+  "player": {
+    "id": "fa85a0dc89",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 0,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 3,
+    "meter": 435,
+    "alive": true,
+    "answers": 13,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "Slender giant moray",
+      "tier": "krillion"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a contraction (like “don’t”)"
+    },
+    {
+      "index": 2,
+      "text": "Name a Kendrick Lamar song"
+    },
+    {
+      "index": 3,
+      "text": "Name a classic American school-cafeteria lunch food"
+    },
+    {
+      "index": 4,
+      "text": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)"
+    },
+    {
+      "index": 5,
+      "text": "Name an animal that can grow longer than 10 feet (3 m), including the tail"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name a Kendrick Lamar song",
+      "answer": "Poe Mans Dreams (His Vice)",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Poe Mans Dreams (His Vice)",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "answer": "Salisbury steak",
+      "source": "codex",
+      "reactionMs": 2021,
+      "submit": {
+        "accepted": true,
+        "answer": "Salisbury steak",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "answer": "Turkey tetrazzini",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Chicken tetrazzini",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "answer": "Johnny Marzetti",
+      "source": "codex",
+      "reactionMs": 305,
+      "submit": {
+        "accepted": true,
+        "answer": "Johnny Marzetti",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "answer": "Frito pie",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Walking taco",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "answer": "Mouse Keys",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-05",
+      "archiveDataHash": "c576ea3647d525425bb2eddc519713ddf02b141c31e79945b35a1ade3d4cff9d",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Mouse Keys",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "answer": "Screen curtain",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-05",
+      "archiveDataHash": "c576ea3647d525425bb2eddc519713ddf02b141c31e79945b35a1ade3d4cff9d",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Screen curtain",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "answer": "Reset graphics driver",
+      "source": "verified",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Reset graphics driver",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "answer": "Accessibility shortcuts panel",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-05",
+      "archiveDataHash": "c576ea3647d525425bb2eddc519713ddf02b141c31e79945b35a1ade3d4cff9d",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Accessibility shortcuts panel",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "answer": "Activate window demanding attention",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-05",
+      "archiveDataHash": "c576ea3647d525425bb2eddc519713ddf02b141c31e79945b35a1ade3d4cff9d",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Activate window demanding attention",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "answer": "Add auto layout",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-05",
+      "archiveDataHash": "c576ea3647d525425bb2eddc519713ddf02b141c31e79945b35a1ade3d4cff9d",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Add auto layout",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an animal that can grow longer than 10 feet (3 m), including the tail",
+      "answer": "Bootlace worm",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-29",
+      "archiveDataHash": "6d5e1afc8e2637710e20f64659dd4c26eb274908b4edc6a589141b9a2d72ad00",
+      "reactionMs": 85,
+      "submit": {
+        "accepted": true,
+        "answer": "Bootlace worm",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name an animal that can grow longer than 10 feet (3 m), including the tail",
+      "answer": "Slender giant moray",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-29",
+      "archiveDataHash": "6d5e1afc8e2637710e20f64659dd4c26eb274908b4edc6a589141b9a2d72ad00",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Slender giant moray",
+        "tier": "krillion"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "answer": "Sloppy joes",
+      "submit": {
+        "accepted": false,
+        "why": "repeat"
+      }
+    }
+  ],
+  "metrics": {
+    "attempts": 14,
+    "accepted": 13,
+    "reactionMs": [
+      84,
+      2021,
+      82,
+      305,
+      82,
+      83,
+      82,
+      81,
+      82,
+      83,
+      84,
+      85,
+      82
+    ],
+    "sources": {
+      "codex": 5,
+      "answer-archive": 7,
+      "verified": 1
+    },
+    "unknownCategories": [
+      "Name a classic American school-cafeteria lunch food"
+    ],
+    "categoryLatency": [
+      {
+        "gameNumber": 11,
+        "index": 1,
+        "question": "Name a contraction (like “don’t”)",
+        "archiveCovered": false,
+        "observedAt": 1792773511835,
+        "readyMs": 11,
+        "firstTurnAt": null,
+        "firstSubmitMs": null,
+        "firstTurnWaitMs": null,
+        "firstSource": "example"
+      },
+      {
+        "gameNumber": 11,
+        "index": 2,
+        "question": "Name a Kendrick Lamar song",
+        "archiveCovered": false,
+        "observedAt": 1792773539887,
+        "readyMs": 3758,
+        "firstTurnAt": 1792773554455,
+        "firstSubmitMs": 14651,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 11,
+        "index": 3,
+        "question": "Name a classic American school-cafeteria lunch food",
+        "archiveCovered": false,
+        "observedAt": 1792773584971,
+        "readyMs": 3520,
+        "firstTurnAt": 1792773586481,
+        "firstSubmitMs": 3520,
+        "firstTurnWaitMs": 2010,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 11,
+        "index": 4,
+        "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+        "archiveCovered": true,
+        "observedAt": 1792773637331,
+        "readyMs": 12,
+        "firstTurnAt": 1792773642413,
+        "firstSubmitMs": 5165,
+        "firstTurnWaitMs": 83,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 11,
+        "index": 5,
+        "question": "Name an animal that can grow longer than 10 feet (3 m), including the tail",
+        "archiveCovered": true,
+        "observedAt": 1792773694032,
+        "readyMs": 12,
+        "firstTurnAt": 1792773700976,
+        "firstSubmitMs": 7027,
+        "firstTurnWaitMs": 83,
+        "firstSource": "answer-archive"
+      }
+    ],
+    "codexRequests": 5
+  },
+  "startingRoom": {
+    "code": "YJFM",
+    "chatEnabled": true,
+    "version": 43262,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "dcc2e5fea0",
+    "players": [
+      {
+        "id": "fa85a0dc89",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "dd7146d3bd",
+        "chatMuted": false,
+        "removed": false,
+        "name": "uppercut",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "dcc2e5fea0",
+        "chatMuted": false,
+        "removed": false,
+        "name": "vp",
+        "character": "krill",
+        "seat": 2,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "2c0025b003",
+        "chatMuted": false,
+        "removed": false,
+        "name": "ror",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "8170340f82",
+        "chatMuted": false,
+        "removed": false,
+        "name": "maddddie",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "d01b983c8b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Mxlxy",
+        "character": "schooler",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792773511807,
+    "winnerId": null,
+    "gameNumber": 11,
+    "gameId": "party:YJFM-1792770968920-11",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "dictate",
+        "tier": "plankton",
+        "seq": 40838,
+        "at": 1792773421556
+      },
+      {
+        "kind": "leave",
+        "playerId": "62c02c50a5",
+        "seq": 40839,
+        "at": 1792773422782
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "dictionary",
+        "tier": "plankton",
+        "seq": 40840,
+        "at": 1792773424130
+      },
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "edict",
+        "tier": "schooler",
+        "seq": 40841,
+        "at": 1792773425719
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "dictation",
+        "tier": "plankton",
+        "seq": 40842,
+        "at": 1792773430883
+      },
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "dictatorship",
+        "tier": "schooler",
+        "seq": 40843,
+        "at": 1792773432953
+      },
+      {
+        "kind": "leave",
+        "playerId": "dae8dbbedc",
+        "seq": 40844,
+        "at": 1792773434478
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "dictator",
+        "tier": "plankton",
+        "seq": 40845,
+        "at": 1792773435921
+      },
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "dictatorial",
+        "tier": "schooler",
+        "seq": 40846,
+        "at": 1792773436894
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "addiction",
+        "tier": "schooler",
+        "seq": 40847,
+        "at": 1792773443159
+      },
+      {
+        "kind": "reject",
+        "playerId": "96a65d1081",
+        "text": "dictation",
+        "why": "repeat",
+        "seq": 40848,
+        "at": 1792773444143
+      },
+      {
+        "kind": "reject",
+        "playerId": "96a65d1081",
+        "text": "dictated",
+        "why": "repeat",
+        "seq": 40849,
+        "at": 1792773446151
+      },
+      {
+        "kind": "reject",
+        "playerId": "96a65d1081",
+        "text": "dictating",
+        "why": "repeat",
+        "seq": 40850,
+        "at": 1792773447998
+      },
+      {
+        "kind": "pop",
+        "playerId": "96a65d1081",
+        "livesLeft": 1,
+        "seq": 40851,
+        "at": 1792773451159
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "dcc2e5fea0",
+        "seq": 40852,
+        "at": 1792773451159
+      },
+      {
+        "kind": "reject",
+        "playerId": "dcc2e5fea0",
+        "text": "thoughful",
+        "why": "miss",
+        "seq": 40853,
+        "at": 1792773460138
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "thoughtful",
+        "tier": "plankton",
+        "seq": 40854,
+        "at": 1792773463855
+      },
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "beautiful",
+        "tier": "plankton",
+        "seq": 40855,
+        "at": 1792773464569
+      },
+      {
+        "kind": "reject",
+        "playerId": "dcc2e5fea0",
+        "text": "greatful",
+        "why": "miss",
+        "seq": 40856,
+        "at": 1792773469316
+      },
+      {
+        "kind": "reject",
+        "playerId": "dcc2e5fea0",
+        "text": "greatfull",
+        "why": "miss",
+        "seq": 40857,
+        "at": 1792773471507
+      },
+      {
+        "kind": "reject",
+        "playerId": "dcc2e5fea0",
+        "text": "ful;",
+        "why": "miss",
+        "seq": 40858,
+        "at": 1792773475945
+      },
+      {
+        "kind": "pop",
+        "playerId": "dcc2e5fea0",
+        "livesLeft": 1,
+        "seq": 40859,
+        "at": 1792773476172
+      },
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "mouthful",
+        "tier": "plankton",
+        "seq": 40860,
+        "at": 1792773479877
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 7,
+        "holderId": "dcc2e5fea0",
+        "seq": 40861,
+        "at": 1792773479877
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "Nvidia",
+        "tier": "plankton",
+        "seq": 40862,
+        "at": 1792773484814
+      },
+      {
+        "kind": "pass",
+        "from": "96a65d1081",
+        "to": "dcc2e5fea0",
+        "answer": "Apple",
+        "tier": "plankton",
+        "seq": 40863,
+        "at": 1792773487416
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "96a65d1081",
+        "answer": "Tesla",
+        "tier": "plankton",
+        "seq": 40864,
+        "at": 1792773488399
+      },
+      {
+        "kind": "reject",
+        "playerId": "96a65d1081",
+        "text": "windows",
+        "why": "miss",
+        "seq": 40865,
+        "at": 1792773495884
+      },
+      {
+        "kind": "pop",
+        "playerId": "96a65d1081",
+        "livesLeft": 0,
+        "seq": 40866,
+        "at": 1792773496399
+      },
+      {
+        "kind": "out",
+        "playerId": "96a65d1081",
+        "place": 2,
+        "seq": 40867,
+        "at": 1792773496399
+      },
+      {
+        "kind": "win",
+        "playerId": "dcc2e5fea0",
+        "seq": 40868,
+        "at": 1792773496399
+      },
+      {
+        "kind": "lobby",
+        "seq": 40869,
+        "at": 1792773499524
+      },
+      {
+        "kind": "leave",
+        "playerId": "96a65d1081",
+        "seq": 40870,
+        "at": 1792773502209
+      },
+      {
+        "kind": "host",
+        "playerId": "dcc2e5fea0",
+        "seq": 40871,
+        "at": 1792773502209
+      },
+      {
+        "kind": "join",
+        "playerId": "fa85a0dc89",
+        "seq": 40872,
+        "at": 1792773508469
+      },
+      {
+        "kind": "join",
+        "playerId": "dd7146d3bd",
+        "seq": 40873,
+        "at": 1792773508605
+      },
+      {
+        "kind": "join",
+        "playerId": "2c0025b003",
+        "seq": 40874,
+        "at": 1792773508642
+      },
+      {
+        "kind": "join",
+        "playerId": "8170340f82",
+        "seq": 40875,
+        "at": 1792773508676
+      },
+      {
+        "kind": "join",
+        "playerId": "d01b983c8b",
+        "seq": 40876,
+        "at": 1792773508807
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792773511807,
+        "seq": 40877,
+        "at": 1792773508807
+      }
+    ],
+    "chat": [
+      {
+        "id": 20051,
+        "at": 1792772024977,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp joined"
+      },
+      {
+        "id": 20052,
+        "at": 1792772027029,
+        "playerId": null,
+        "name": "kb",
+        "text": "kb joined"
+      },
+      {
+        "id": 20053,
+        "at": 1792772027030,
+        "playerId": null,
+        "name": "kkdk",
+        "text": "kkdk joined"
+      },
+      {
+        "id": 20054,
+        "at": 1792772027330,
+        "playerId": null,
+        "name": "matias",
+        "text": "matias joined"
+      },
+      {
+        "id": 20055,
+        "at": 1792772029103,
+        "playerId": null,
+        "name": "kier",
+        "text": "kier left"
+      },
+      {
+        "id": 20056,
+        "at": 1792772032659,
+        "playerId": null,
+        "name": "eddie",
+        "text": "eddie joined"
+      },
+      {
+        "id": 20057,
+        "at": 1792772082232,
+        "playerId": null,
+        "name": "eddie",
+        "text": "eddie left"
+      },
+      {
+        "id": 20058,
+        "at": 1792772161069,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp was kicked for being idle"
+      },
+      {
+        "id": 20059,
+        "at": 1792772164049,
+        "playerId": null,
+        "name": "kb",
+        "text": "kb was kicked for being idle"
+      },
+      {
+        "id": 20060,
+        "at": 1792772246699,
+        "playerId": null,
+        "name": "kkdk",
+        "text": "kkdk won"
+      },
+      {
+        "id": 20061,
+        "at": 1792772250450,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp joined"
+      },
+      {
+        "id": 20062,
+        "at": 1792772251188,
+        "playerId": null,
+        "name": "sippy",
+        "text": "sippy joined"
+      },
+      {
+        "id": 20063,
+        "at": 1792772251315,
+        "playerId": null,
+        "name": "daksh",
+        "text": "daksh joined"
+      },
+      {
+        "id": 20064,
+        "at": 1792772256876,
+        "playerId": null,
+        "name": "matias",
+        "text": "matias left"
+      },
+      {
+        "id": 20065,
+        "at": 1792772258284,
+        "playerId": null,
+        "name": "sippy",
+        "text": "sippy left"
+      },
+      {
+        "id": 20066,
+        "at": 1792772258928,
+        "playerId": null,
+        "name": "daksh",
+        "text": "daksh left"
+      },
+      {
+        "id": 20067,
+        "at": 1792772260592,
+        "playerId": null,
+        "name": "birduwu",
+        "text": "birduwu joined"
+      },
+      {
+        "id": 20068,
+        "at": 1792772262675,
+        "playerId": null,
+        "name": "mr t",
+        "text": "mr t joined"
+      },
+      {
+        "id": 20069,
+        "at": 1792772273414,
+        "playerId": null,
+        "name": "Wizard Lizard",
+        "text": "Wizard Lizard was kicked for being idle"
+      },
+      {
+        "id": 20070,
+        "at": 1792772276485,
+        "playerId": null,
+        "name": "dacarney45",
+        "text": "dacarney45 joined"
+      },
+      {
+        "id": 20071,
+        "at": 1792772277775,
+        "playerId": null,
+        "name": "adam",
+        "text": "adam joined"
+      },
+      {
+        "id": 20072,
+        "at": 1792772282757,
+        "playerId": null,
+        "name": "adam",
+        "text": "adam left"
+      },
+      {
+        "id": 20073,
+        "at": 1792772287370,
+        "playerId": null,
+        "name": "birduwu",
+        "text": "birduwu left"
+      },
+      {
+        "id": 20074,
+        "at": 1792772287580,
+        "playerId": null,
+        "name": "dacarney45",
+        "text": "dacarney45 left"
+      },
+      {
+        "id": 20075,
+        "at": 1792772288755,
+        "playerId": null,
+        "name": "mr t",
+        "text": "mr t left"
+      },
+      {
+        "id": 20076,
+        "at": 1792772289888,
+        "playerId": null,
+        "name": "dare-eee-el",
+        "text": "dare-eee-el joined"
+      },
+      {
+        "id": 20077,
+        "at": 1792772290192,
+        "playerId": null,
+        "name": "Kanu",
+        "text": "Kanu joined"
+      },
+      {
+        "id": 20078,
+        "at": 1792772290218,
+        "playerId": null,
+        "name": "big dawg",
+        "text": "big dawg joined"
+      },
+      {
+        "id": 20079,
+        "at": 1792772294222,
+        "playerId": null,
+        "name": "anh",
+        "text": "anh joined"
+      },
+      {
+        "id": 20080,
+        "at": 1792772297715,
+        "playerId": null,
+        "name": "kkdk",
+        "text": "kkdk was kicked for being idle"
+      },
+      {
+        "id": 20081,
+        "at": 1792772298861,
+        "playerId": null,
+        "name": "wayallw",
+        "text": "wayallw joined"
+      },
+      {
+        "id": 20082,
+        "at": 1792772337648,
+        "playerId": null,
+        "name": "big dawg",
+        "text": "big dawg left"
+      },
+      {
+        "id": 20083,
+        "at": 1792772386063,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp was kicked for being idle"
+      },
+      {
+        "id": 30084,
+        "at": 1792772486973,
+        "playerId": null,
+        "name": "Kanu",
+        "text": "Kanu was kicked for being idle"
+      },
+      {
+        "id": 30085,
+        "at": 1792772487627,
+        "playerId": null,
+        "name": "anh",
+        "text": "anh won"
+      },
+      {
+        "id": 30086,
+        "at": 1792772494271,
+        "playerId": null,
+        "name": "wayallw",
+        "text": "wayallw left"
+      },
+      {
+        "id": 30087,
+        "at": 1792772494960,
+        "playerId": null,
+        "name": "anh",
+        "text": "anh left"
+      },
+      {
+        "id": 30088,
+        "at": 1792772495829,
+        "playerId": null,
+        "name": "krill o",
+        "text": "krill o joined"
+      },
+      {
+        "id": 30089,
+        "at": 1792772496186,
+        "playerId": null,
+        "name": "dare-eee-el",
+        "text": "dare-eee-el left"
+      },
+      {
+        "id": 30090,
+        "at": 1792772496458,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino joined"
+      },
+      {
+        "id": 30091,
+        "at": 1792772496651,
+        "playerId": null,
+        "name": "Wheeler",
+        "text": "Wheeler joined"
+      },
+      {
+        "id": 30092,
+        "at": 1792772498200,
+        "playerId": null,
+        "name": "bigbootybouncer",
+        "text": "bigbootybouncer joined"
+      },
+      {
+        "id": 30093,
+        "at": 1792772511180,
+        "playerId": null,
+        "name": "xxxxxxxxxxxxxxx",
+        "text": "xxxxxxxxxxxxxxx joined"
+      },
+      {
+        "id": 30094,
+        "at": 1792772594800,
+        "playerId": null,
+        "name": "krill o",
+        "text": "krill o was kicked for being idle"
+      },
+      {
+        "id": 30095,
+        "at": 1792772670360,
+        "playerId": null,
+        "name": "xxxxxxxxxxxxxxx",
+        "text": "xxxxxxxxxxxxxxx left"
+      },
+      {
+        "id": 30096,
+        "at": 1792772677824,
+        "playerId": null,
+        "name": "dia",
+        "text": "dia joined"
+      },
+      {
+        "id": 30097,
+        "at": 1792772731891,
+        "playerId": null,
+        "name": "bigbootybouncer",
+        "text": "bigbootybouncer left"
+      },
+      {
+        "id": 30098,
+        "at": 1792772735241,
+        "playerId": null,
+        "name": "dia",
+        "text": "dia left"
+      },
+      {
+        "id": 30099,
+        "at": 1792772761294,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino won"
+      },
+      {
+        "id": 30100,
+        "at": 1792772768163,
+        "playerId": null,
+        "name": "jkap",
+        "text": "jkap joined"
+      },
+      {
+        "id": 30101,
+        "at": 1792772768372,
+        "playerId": null,
+        "name": "grat",
+        "text": "grat joined"
+      },
+      {
+        "id": 30102,
+        "at": 1792772768532,
+        "playerId": null,
+        "name": "banjobanjo",
+        "text": "banjobanjo joined"
+      },
+      {
+        "id": 30103,
+        "at": 1792772768589,
+        "playerId": null,
+        "name": "chazzy",
+        "text": "chazzy joined"
+      },
+      {
+        "id": 30104,
+        "at": 1792772895819,
+        "playerId": null,
+        "name": "jkap",
+        "text": "jkap was kicked for being idle"
+      },
+      {
+        "id": 30105,
+        "at": 1792773031546,
+        "playerId": null,
+        "name": "banjobanjo",
+        "text": "banjobanjo left"
+      },
+      {
+        "id": 30106,
+        "at": 1792773041879,
+        "playerId": null,
+        "name": "Wheeler",
+        "text": "Wheeler won"
+      },
+      {
+        "id": 30107,
+        "at": 1792773046719,
+        "playerId": null,
+        "name": "The Hidden King",
+        "text": "The Hidden King joined"
+      },
+      {
+        "id": 30108,
+        "at": 1792773047041,
+        "playerId": null,
+        "name": "krikri",
+        "text": "krikri joined"
+      },
+      {
+        "id": 40109,
+        "at": 1792773086879,
+        "playerId": null,
+        "name": "chazzy",
+        "text": "chazzy was kicked for being idle"
+      },
+      {
+        "id": 40110,
+        "at": 1792773089942,
+        "playerId": null,
+        "name": "grat",
+        "text": "grat was kicked for being idle"
+      },
+      {
+        "id": 40111,
+        "at": 1792773160876,
+        "playerId": null,
+        "name": "The Hidden King",
+        "text": "The Hidden King was kicked for being idle"
+      },
+      {
+        "id": 40112,
+        "at": 1792773217983,
+        "playerId": null,
+        "name": "Wheeler",
+        "text": "Wheeler left"
+      },
+      {
+        "id": 40113,
+        "at": 1792773217983,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino won"
+      },
+      {
+        "id": 40114,
+        "at": 1792773229583,
+        "playerId": null,
+        "name": "Dih",
+        "text": "Dih joined"
+      },
+      {
+        "id": 40115,
+        "at": 1792773230016,
+        "playerId": null,
+        "name": "vp",
+        "text": "vp joined"
+      },
+      {
+        "id": 40116,
+        "at": 1792773230321,
+        "playerId": null,
+        "name": "Markos",
+        "text": "Markos joined"
+      },
+      {
+        "id": 40117,
+        "at": 1792773230634,
+        "playerId": null,
+        "name": "sush",
+        "text": "sush joined"
+      },
+      {
+        "id": 40118,
+        "at": 1792773233005,
+        "playerId": null,
+        "name": "krikri",
+        "text": "krikri was kicked for being idle"
+      },
+      {
+        "id": 40119,
+        "at": 1792773236408,
+        "playerId": null,
+        "name": "stav",
+        "text": "stav joined"
+      },
+      {
+        "id": 40120,
+        "at": 1792773317018,
+        "playerId": null,
+        "name": "stav",
+        "text": "stav left"
+      },
+      {
+        "id": 40121,
+        "at": 1792773364885,
+        "playerId": null,
+        "name": "Dih",
+        "text": "Dih left"
+      },
+      {
+        "id": 40122,
+        "at": 1792773422782,
+        "playerId": null,
+        "name": "Markos",
+        "text": "Markos left"
+      },
+      {
+        "id": 40123,
+        "at": 1792773434478,
+        "playerId": null,
+        "name": "sush",
+        "text": "sush was kicked for being idle"
+      },
+      {
+        "id": 40124,
+        "at": 1792773496399,
+        "playerId": null,
+        "name": "vp",
+        "text": "vp won"
+      },
+      {
+        "id": 40125,
+        "at": 1792773502209,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino left"
+      },
+      {
+        "id": 40126,
+        "at": 1792773508469,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 40127,
+        "at": 1792773508605,
+        "playerId": null,
+        "name": "uppercut",
+        "text": "uppercut joined"
+      },
+      {
+        "id": 40128,
+        "at": 1792773508642,
+        "playerId": null,
+        "name": "ror",
+        "text": "ror joined"
+      },
+      {
+        "id": 40129,
+        "at": 1792773508676,
+        "playerId": null,
+        "name": "maddddie",
+        "text": "maddddie joined"
+      },
+      {
+        "id": 40130,
+        "at": 1792773508807,
+        "playerId": null,
+        "name": "Mxlxy",
+        "text": "Mxlxy joined"
+      }
+    ],
+    "now": 1792773510088
+  },
+  "finalRoom": {
+    "code": "YJFM",
+    "chatEnabled": true,
+    "version": 43458,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "dcc2e5fea0",
+    "players": [
+      {
+        "id": "fa85a0dc89",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 3,
+        "meter": 435,
+        "alive": true,
+        "answers": 13,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Slender giant moray",
+          "tier": "krillion"
+        },
+        "place": 1
+      },
+      {
+        "id": "dd7146d3bd",
+        "chatMuted": false,
+        "removed": false,
+        "name": "uppercut",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 270,
+        "alive": false,
+        "answers": 9,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Open the Windows security screen",
+          "tier": "schooler"
+        },
+        "place": 3
+      },
+      {
+        "id": "dcc2e5fea0",
+        "chatMuted": false,
+        "removed": false,
+        "name": "vp",
+        "character": "krill",
+        "seat": 2,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 340,
+        "alive": false,
+        "answers": 12,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Anaconda",
+          "tier": "plankton"
+        },
+        "place": 2
+      },
+      {
+        "id": "2c0025b003",
+        "chatMuted": false,
+        "removed": false,
+        "name": "ror",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 1,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 1,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 5
+      },
+      {
+        "id": "8170340f82",
+        "chatMuted": false,
+        "removed": false,
+        "name": "maddddie",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 2,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 4
+      },
+      {
+        "id": "d01b983c8b",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Mxlxy",
+        "character": "schooler",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 6
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 5,
+      "text": "Name an animal that can grow longer than 10 feet (3 m), including the tail",
+      "threshold": 19,
+      "accepted": 4
+    },
+    "countdownEndsAt": null,
+    "winnerId": "fa85a0dc89",
+    "gameNumber": 11,
+    "gameId": "party:YJFM-1792770968920-11",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Johnny Marzetti",
+        "tier": "deepcut",
+        "seq": 40901,
+        "at": 1792773614843
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Fiestada",
+        "tier": "rare",
+        "seq": 40902,
+        "at": 1792773621493
+      },
+      {
+        "kind": "reject",
+        "playerId": "dcc2e5fea0",
+        "text": "chicken",
+        "why": "miss",
+        "seq": 40903,
+        "at": 1792773626953
+      },
+      {
+        "kind": "pop",
+        "playerId": "dcc2e5fea0",
+        "livesLeft": 1,
+        "seq": 40904,
+        "at": 1792773629493
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Walking taco",
+        "tier": "rare",
+        "seq": 40905,
+        "at": 1792773631287
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Egg roll",
+        "tier": "rare",
+        "seq": 40906,
+        "at": 1792773637304
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 4,
+        "holderId": "dcc2e5fea0",
+        "seq": 40907,
+        "at": 1792773637304
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Paste",
+        "tier": "plankton",
+        "seq": 40908,
+        "at": 1792773642387
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Mouse Keys",
+        "tier": "krillion",
+        "seq": 40909,
+        "at": 1792773642714
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Copy",
+        "tier": "plankton",
+        "seq": 40910,
+        "at": 1792773648385
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Quit app",
+        "tier": "schooler",
+        "seq": 40911,
+        "at": 1792773650285
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Screen curtain",
+        "tier": "krillion",
+        "seq": 40912,
+        "at": 1792773650586
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd7146d3bd",
+        "text": "open app",
+        "why": "miss",
+        "seq": 40913,
+        "at": 1792773654214
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Select all",
+        "tier": "schooler",
+        "seq": 40914,
+        "at": 1792773658111
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Emoji picker",
+        "tier": "rare",
+        "seq": 40915,
+        "at": 1792773660171
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Reset graphics driver",
+        "tier": "deepcut",
+        "seq": 40916,
+        "at": 1792773660525
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd7146d3bd",
+        "text": "command d",
+        "why": "miss",
+        "seq": 40917,
+        "at": 1792773662617
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Save",
+        "tier": "plankton",
+        "seq": 40918,
+        "at": 1792773665237
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Save as",
+        "tier": "schooler",
+        "seq": 40919,
+        "at": 1792773669916
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Accessibility shortcuts panel",
+        "tier": "deepcut",
+        "seq": 40920,
+        "at": 1792773670182
+      },
+      {
+        "kind": "spare",
+        "playerId": "fa85a0dc89",
+        "lives": 3,
+        "seq": 40921,
+        "at": 1792773670182
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd7146d3bd",
+        "text": "command l",
+        "why": "miss",
+        "seq": 40922,
+        "at": 1792773671240
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd7146d3bd",
+        "text": "command g",
+        "why": "miss",
+        "seq": 40923,
+        "at": 1792773674304
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Refresh",
+        "tier": "schooler",
+        "seq": 40924,
+        "at": 1792773677308
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "New tab",
+        "tier": "schooler",
+        "seq": 40925,
+        "at": 1792773678676
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Activate window demanding attention",
+        "tier": "deepcut",
+        "seq": 40926,
+        "at": 1792773678952
+      },
+      {
+        "kind": "pass",
+        "from": "dd7146d3bd",
+        "to": "dcc2e5fea0",
+        "answer": "Open the Windows security screen",
+        "tier": "schooler",
+        "seq": 40927,
+        "at": 1792773681333
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Close window",
+        "tier": "schooler",
+        "seq": 40928,
+        "at": 1792773685706
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dd7146d3bd",
+        "answer": "Add auto layout",
+        "tier": "deepcut",
+        "seq": 40929,
+        "at": 1792773685994
+      },
+      {
+        "kind": "reject",
+        "playerId": "dd7146d3bd",
+        "text": "delete all",
+        "why": "miss",
+        "seq": 40930,
+        "at": 1792773692493
+      },
+      {
+        "kind": "pop",
+        "playerId": "dd7146d3bd",
+        "livesLeft": 0,
+        "seq": 40931,
+        "at": 1792773693994
+      },
+      {
+        "kind": "out",
+        "playerId": "dd7146d3bd",
+        "place": 3,
+        "seq": 40932,
+        "at": 1792773693994
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "dcc2e5fea0",
+        "seq": 40933,
+        "at": 1792773693994
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Snake",
+        "tier": "schooler",
+        "seq": 40934,
+        "at": 1792773700949
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dcc2e5fea0",
+        "answer": "Bootlace worm",
+        "tier": "krillion",
+        "seq": 40935,
+        "at": 1792773701230
+      },
+      {
+        "kind": "pass",
+        "from": "dcc2e5fea0",
+        "to": "fa85a0dc89",
+        "answer": "Anaconda",
+        "tier": "plankton",
+        "seq": 40936,
+        "at": 1792773707867
+      },
+      {
+        "kind": "pass",
+        "from": "fa85a0dc89",
+        "to": "dcc2e5fea0",
+        "answer": "Slender giant moray",
+        "tier": "krillion",
+        "seq": 40937,
+        "at": 1792773708152
+      },
+      {
+        "kind": "pop",
+        "playerId": "dcc2e5fea0",
+        "livesLeft": 0,
+        "seq": 40938,
+        "at": 1792773724889
+      },
+      {
+        "kind": "out",
+        "playerId": "dcc2e5fea0",
+        "place": 2,
+        "seq": 40939,
+        "at": 1792773724889
+      },
+      {
+        "kind": "win",
+        "playerId": "fa85a0dc89",
+        "seq": 40940,
+        "at": 1792773724889
+      }
+    ],
+    "chat": [
+      {
+        "id": 20055,
+        "at": 1792772029103,
+        "playerId": null,
+        "name": "kier",
+        "text": "kier left"
+      },
+      {
+        "id": 20056,
+        "at": 1792772032659,
+        "playerId": null,
+        "name": "eddie",
+        "text": "eddie joined"
+      },
+      {
+        "id": 20057,
+        "at": 1792772082232,
+        "playerId": null,
+        "name": "eddie",
+        "text": "eddie left"
+      },
+      {
+        "id": 20058,
+        "at": 1792772161069,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp was kicked for being idle"
+      },
+      {
+        "id": 20059,
+        "at": 1792772164049,
+        "playerId": null,
+        "name": "kb",
+        "text": "kb was kicked for being idle"
+      },
+      {
+        "id": 20060,
+        "at": 1792772246699,
+        "playerId": null,
+        "name": "kkdk",
+        "text": "kkdk won"
+      },
+      {
+        "id": 20061,
+        "at": 1792772250450,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp joined"
+      },
+      {
+        "id": 20062,
+        "at": 1792772251188,
+        "playerId": null,
+        "name": "sippy",
+        "text": "sippy joined"
+      },
+      {
+        "id": 20063,
+        "at": 1792772251315,
+        "playerId": null,
+        "name": "daksh",
+        "text": "daksh joined"
+      },
+      {
+        "id": 20064,
+        "at": 1792772256876,
+        "playerId": null,
+        "name": "matias",
+        "text": "matias left"
+      },
+      {
+        "id": 20065,
+        "at": 1792772258284,
+        "playerId": null,
+        "name": "sippy",
+        "text": "sippy left"
+      },
+      {
+        "id": 20066,
+        "at": 1792772258928,
+        "playerId": null,
+        "name": "daksh",
+        "text": "daksh left"
+      },
+      {
+        "id": 20067,
+        "at": 1792772260592,
+        "playerId": null,
+        "name": "birduwu",
+        "text": "birduwu joined"
+      },
+      {
+        "id": 20068,
+        "at": 1792772262675,
+        "playerId": null,
+        "name": "mr t",
+        "text": "mr t joined"
+      },
+      {
+        "id": 20069,
+        "at": 1792772273414,
+        "playerId": null,
+        "name": "Wizard Lizard",
+        "text": "Wizard Lizard was kicked for being idle"
+      },
+      {
+        "id": 20070,
+        "at": 1792772276485,
+        "playerId": null,
+        "name": "dacarney45",
+        "text": "dacarney45 joined"
+      },
+      {
+        "id": 20071,
+        "at": 1792772277775,
+        "playerId": null,
+        "name": "adam",
+        "text": "adam joined"
+      },
+      {
+        "id": 20072,
+        "at": 1792772282757,
+        "playerId": null,
+        "name": "adam",
+        "text": "adam left"
+      },
+      {
+        "id": 20073,
+        "at": 1792772287370,
+        "playerId": null,
+        "name": "birduwu",
+        "text": "birduwu left"
+      },
+      {
+        "id": 20074,
+        "at": 1792772287580,
+        "playerId": null,
+        "name": "dacarney45",
+        "text": "dacarney45 left"
+      },
+      {
+        "id": 20075,
+        "at": 1792772288755,
+        "playerId": null,
+        "name": "mr t",
+        "text": "mr t left"
+      },
+      {
+        "id": 20076,
+        "at": 1792772289888,
+        "playerId": null,
+        "name": "dare-eee-el",
+        "text": "dare-eee-el joined"
+      },
+      {
+        "id": 20077,
+        "at": 1792772290192,
+        "playerId": null,
+        "name": "Kanu",
+        "text": "Kanu joined"
+      },
+      {
+        "id": 20078,
+        "at": 1792772290218,
+        "playerId": null,
+        "name": "big dawg",
+        "text": "big dawg joined"
+      },
+      {
+        "id": 20079,
+        "at": 1792772294222,
+        "playerId": null,
+        "name": "anh",
+        "text": "anh joined"
+      },
+      {
+        "id": 20080,
+        "at": 1792772297715,
+        "playerId": null,
+        "name": "kkdk",
+        "text": "kkdk was kicked for being idle"
+      },
+      {
+        "id": 20081,
+        "at": 1792772298861,
+        "playerId": null,
+        "name": "wayallw",
+        "text": "wayallw joined"
+      },
+      {
+        "id": 20082,
+        "at": 1792772337648,
+        "playerId": null,
+        "name": "big dawg",
+        "text": "big dawg left"
+      },
+      {
+        "id": 20083,
+        "at": 1792772386063,
+        "playerId": null,
+        "name": "derp",
+        "text": "derp was kicked for being idle"
+      },
+      {
+        "id": 30084,
+        "at": 1792772486973,
+        "playerId": null,
+        "name": "Kanu",
+        "text": "Kanu was kicked for being idle"
+      },
+      {
+        "id": 30085,
+        "at": 1792772487627,
+        "playerId": null,
+        "name": "anh",
+        "text": "anh won"
+      },
+      {
+        "id": 30086,
+        "at": 1792772494271,
+        "playerId": null,
+        "name": "wayallw",
+        "text": "wayallw left"
+      },
+      {
+        "id": 30087,
+        "at": 1792772494960,
+        "playerId": null,
+        "name": "anh",
+        "text": "anh left"
+      },
+      {
+        "id": 30088,
+        "at": 1792772495829,
+        "playerId": null,
+        "name": "krill o",
+        "text": "krill o joined"
+      },
+      {
+        "id": 30089,
+        "at": 1792772496186,
+        "playerId": null,
+        "name": "dare-eee-el",
+        "text": "dare-eee-el left"
+      },
+      {
+        "id": 30090,
+        "at": 1792772496458,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino joined"
+      },
+      {
+        "id": 30091,
+        "at": 1792772496651,
+        "playerId": null,
+        "name": "Wheeler",
+        "text": "Wheeler joined"
+      },
+      {
+        "id": 30092,
+        "at": 1792772498200,
+        "playerId": null,
+        "name": "bigbootybouncer",
+        "text": "bigbootybouncer joined"
+      },
+      {
+        "id": 30093,
+        "at": 1792772511180,
+        "playerId": null,
+        "name": "xxxxxxxxxxxxxxx",
+        "text": "xxxxxxxxxxxxxxx joined"
+      },
+      {
+        "id": 30094,
+        "at": 1792772594800,
+        "playerId": null,
+        "name": "krill o",
+        "text": "krill o was kicked for being idle"
+      },
+      {
+        "id": 30095,
+        "at": 1792772670360,
+        "playerId": null,
+        "name": "xxxxxxxxxxxxxxx",
+        "text": "xxxxxxxxxxxxxxx left"
+      },
+      {
+        "id": 30096,
+        "at": 1792772677824,
+        "playerId": null,
+        "name": "dia",
+        "text": "dia joined"
+      },
+      {
+        "id": 30097,
+        "at": 1792772731891,
+        "playerId": null,
+        "name": "bigbootybouncer",
+        "text": "bigbootybouncer left"
+      },
+      {
+        "id": 30098,
+        "at": 1792772735241,
+        "playerId": null,
+        "name": "dia",
+        "text": "dia left"
+      },
+      {
+        "id": 30099,
+        "at": 1792772761294,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino won"
+      },
+      {
+        "id": 30100,
+        "at": 1792772768163,
+        "playerId": null,
+        "name": "jkap",
+        "text": "jkap joined"
+      },
+      {
+        "id": 30101,
+        "at": 1792772768372,
+        "playerId": null,
+        "name": "grat",
+        "text": "grat joined"
+      },
+      {
+        "id": 30102,
+        "at": 1792772768532,
+        "playerId": null,
+        "name": "banjobanjo",
+        "text": "banjobanjo joined"
+      },
+      {
+        "id": 30103,
+        "at": 1792772768589,
+        "playerId": null,
+        "name": "chazzy",
+        "text": "chazzy joined"
+      },
+      {
+        "id": 30104,
+        "at": 1792772895819,
+        "playerId": null,
+        "name": "jkap",
+        "text": "jkap was kicked for being idle"
+      },
+      {
+        "id": 30105,
+        "at": 1792773031546,
+        "playerId": null,
+        "name": "banjobanjo",
+        "text": "banjobanjo left"
+      },
+      {
+        "id": 30106,
+        "at": 1792773041879,
+        "playerId": null,
+        "name": "Wheeler",
+        "text": "Wheeler won"
+      },
+      {
+        "id": 30107,
+        "at": 1792773046719,
+        "playerId": null,
+        "name": "The Hidden King",
+        "text": "The Hidden King joined"
+      },
+      {
+        "id": 30108,
+        "at": 1792773047041,
+        "playerId": null,
+        "name": "krikri",
+        "text": "krikri joined"
+      },
+      {
+        "id": 40109,
+        "at": 1792773086879,
+        "playerId": null,
+        "name": "chazzy",
+        "text": "chazzy was kicked for being idle"
+      },
+      {
+        "id": 40110,
+        "at": 1792773089942,
+        "playerId": null,
+        "name": "grat",
+        "text": "grat was kicked for being idle"
+      },
+      {
+        "id": 40111,
+        "at": 1792773160876,
+        "playerId": null,
+        "name": "The Hidden King",
+        "text": "The Hidden King was kicked for being idle"
+      },
+      {
+        "id": 40112,
+        "at": 1792773217983,
+        "playerId": null,
+        "name": "Wheeler",
+        "text": "Wheeler left"
+      },
+      {
+        "id": 40113,
+        "at": 1792773217983,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino won"
+      },
+      {
+        "id": 40114,
+        "at": 1792773229583,
+        "playerId": null,
+        "name": "Dih",
+        "text": "Dih joined"
+      },
+      {
+        "id": 40115,
+        "at": 1792773230016,
+        "playerId": null,
+        "name": "vp",
+        "text": "vp joined"
+      },
+      {
+        "id": 40116,
+        "at": 1792773230321,
+        "playerId": null,
+        "name": "Markos",
+        "text": "Markos joined"
+      },
+      {
+        "id": 40117,
+        "at": 1792773230634,
+        "playerId": null,
+        "name": "sush",
+        "text": "sush joined"
+      },
+      {
+        "id": 40118,
+        "at": 1792773233005,
+        "playerId": null,
+        "name": "krikri",
+        "text": "krikri was kicked for being idle"
+      },
+      {
+        "id": 40119,
+        "at": 1792773236408,
+        "playerId": null,
+        "name": "stav",
+        "text": "stav joined"
+      },
+      {
+        "id": 40120,
+        "at": 1792773317018,
+        "playerId": null,
+        "name": "stav",
+        "text": "stav left"
+      },
+      {
+        "id": 40121,
+        "at": 1792773364885,
+        "playerId": null,
+        "name": "Dih",
+        "text": "Dih left"
+      },
+      {
+        "id": 40122,
+        "at": 1792773422782,
+        "playerId": null,
+        "name": "Markos",
+        "text": "Markos left"
+      },
+      {
+        "id": 40123,
+        "at": 1792773434478,
+        "playerId": null,
+        "name": "sush",
+        "text": "sush was kicked for being idle"
+      },
+      {
+        "id": 40124,
+        "at": 1792773496399,
+        "playerId": null,
+        "name": "vp",
+        "text": "vp won"
+      },
+      {
+        "id": 40125,
+        "at": 1792773502209,
+        "playerId": null,
+        "name": "pilipino",
+        "text": "pilipino left"
+      },
+      {
+        "id": 40126,
+        "at": 1792773508469,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 40127,
+        "at": 1792773508605,
+        "playerId": null,
+        "name": "uppercut",
+        "text": "uppercut joined"
+      },
+      {
+        "id": 40128,
+        "at": 1792773508642,
+        "playerId": null,
+        "name": "ror",
+        "text": "ror joined"
+      },
+      {
+        "id": 40129,
+        "at": 1792773508676,
+        "playerId": null,
+        "name": "maddddie",
+        "text": "maddddie joined"
+      },
+      {
+        "id": 40130,
+        "at": 1792773508807,
+        "playerId": null,
+        "name": "Mxlxy",
+        "text": "Mxlxy joined"
+      },
+      {
+        "id": 40131,
+        "at": 1792773554398,
+        "playerId": null,
+        "name": "Mxlxy",
+        "text": "Mxlxy was kicked for being idle"
+      },
+      {
+        "id": 40132,
+        "at": 1792773556108,
+        "playerId": null,
+        "name": "ror",
+        "text": "ror was kicked for being idle"
+      },
+      {
+        "id": 40133,
+        "at": 1792773584853,
+        "playerId": null,
+        "name": "maddddie",
+        "text": "maddddie was kicked for being idle"
+      },
+      {
+        "id": 40134,
+        "at": 1792773724889,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792773724889
+  }
+}

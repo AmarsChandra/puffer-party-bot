@@ -1,7 +1,14 @@
 {
   "answerAliases": {
-    "Name an airline": {"Southwest Airlines": "Southwest"},
-    "Name an area in a school": {"Gymnasium": "Gym"}
+    "Name an airline": {
+      "Southwest Airlines": "Southwest"
+    },
+    "Name an area in a school": {
+      "Gymnasium": "Gym"
+    },
+    "Name a classic American school-cafeteria lunch food": {
+      "Sloppy joes": "Sloppy joe"
+    }
   },
   "questions": {
     "Name something a cowboy wears or carries": [

@@ -1,0 +1,116 @@
+{
+  "room": "YJFM",
+  "gameId": "party:YJFM-1792770968920-11",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a contraction (like “don’t”)",
+      "readyMs": 11,
+      "firstTurnWaitMs": null,
+      "accepted": 0,
+      "rarity": {
+        "tiers": {},
+        "rareOrBetter": 0,
+        "rareOrBetterRate": null
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 1,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a Kendrick Lamar song",
+      "readyMs": 3758,
+      "firstTurnWaitMs": 83,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "readyMs": 3520,
+      "firstTurnWaitMs": 2010,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "schooler": 1,
+          "rare": 2,
+          "deepcut": 1
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 0.75
+      },
+      "misses": 0,
+      "repeats": 1,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name something you can do with a keyboard shortcut (like copy with Ctrl+C)",
+      "readyMs": 12,
+      "firstTurnWaitMs": 83,
+      "accepted": 6,
+      "rarity": {
+        "tiers": {
+          "krillion": 2,
+          "deepcut": 4
+        },
+        "rareOrBetter": 6,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 1,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an animal that can grow longer than 10 feet (3 m), including the tail",
+      "readyMs": 12,
+      "firstTurnWaitMs": 83,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "rare": 3,
+      "schooler": 1,
+      "deepcut": 5,
+      "krillion": 4
+    },
+    "rareOrBetter": 12,
+    "rareOrBetterRate": 0.9230769230769231
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 25,
+    "ownAccepted": 13,
+    "retiredMisses": 0
+  },
+  "findings": [
+    {
+      "kind": "answer-quality",
+      "question": "Name a classic American school-cafeteria lunch food",
+      "misses": 0,
+      "repeats": 1
+    }
+  ]
+}

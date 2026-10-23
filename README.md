@@ -69,16 +69,16 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Observed statistics
 
-Snapshot as of 2026-10-23T16:36:58.022Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
+Snapshot as of 2026-10-23T16:42:04.933Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
 
 | Metric | Result |
 | --- | --- |
-| Confirmed public wins / attempts | 18 / 19 (94.7%) |
+| Confirmed public wins / attempts | 19 / 20 (95.0%) |
 | Losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 9 / 9 |
-| Accepted submissions / acknowledgements | 312 / 327 (95.4%) |
-| Rare-or-better accepted answers | 134 / 312 (42.9%) |
-| Category first-answer availability, median | 3,727 ms |
+| Current / best consecutive wins | 10 / 10 |
+| Accepted submissions / acknowledgements | 325 / 341 (95.3%) |
+| Rare-or-better accepted answers | 146 / 325 (44.9%) |
+| Category first-answer availability, median | 3,712 ms |
 | First-turn wait, median | 82 ms |
 
 [Full statistics and methodology](statistics/README-snippet.md) · [Machine-readable summary](statistics/summary.json) · [Every public attempt as CSV](statistics/matches.csv)

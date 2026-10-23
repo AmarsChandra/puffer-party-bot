@@ -10776,23 +10776,23 @@
       "answers": {
         "copy": {
           "text": "Copy",
-          "accepted": 2,
+          "accepted": 3,
           "misses": 0,
           "order": 0,
           "proposed": true,
           "canonical": "copy",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:27:39.136Z"
+          "lastAccepted": "2026-10-23T16:40:48.409Z"
         },
         "paste": {
           "text": "Paste",
-          "accepted": 1,
+          "accepted": 2,
           "misses": 0,
           "order": 1,
           "proposed": true,
           "canonical": "paste",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:27:42.035Z"
+          "lastAccepted": "2026-10-23T16:40:42.412Z"
         },
         "cut": {
           "text": "Cut",
@@ -10823,17 +10823,23 @@
         },
         "selectall": {
           "text": "Select all",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 5,
-          "proposed": true
+          "proposed": true,
+          "canonical": "selectall",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:40:58.143Z"
         },
         "save": {
           "text": "Save",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 6,
-          "proposed": true
+          "proposed": true,
+          "canonical": "save",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:41:05.267Z"
         },
         "print": {
           "text": "Print",
@@ -10917,12 +10923,12 @@
         },
         "resetgraphicsdriver": {
           "text": "Reset graphics driver",
-          "accepted": 1,
+          "accepted": 3,
           "misses": 0,
           "order": 18,
           "canonical": "resetgraphicsdriver",
           "tier": "deepcut",
-          "lastAccepted": "2026-10-22T17:27:38.818Z"
+          "lastAccepted": "2026-10-23T16:41:00.562Z"
         },
         "insertlink": {
           "text": "Insert link",
@@ -10959,6 +10965,114 @@
           "canonical": "screenshot",
           "tier": "schooler",
           "lastAccepted": "2026-10-22T17:28:15.006Z"
+        },
+        "mousekeys": {
+          "text": "Mouse Keys",
+          "accepted": 2,
+          "misses": 0,
+          "order": 23,
+          "canonical": "mousekeys",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:40:42.748Z"
+        },
+        "quitapp": {
+          "text": "Quit app",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "quitapp",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:40:50.311Z"
+        },
+        "screencurtain": {
+          "text": "Screen curtain",
+          "accepted": 2,
+          "misses": 0,
+          "order": 25,
+          "canonical": "screencurtain",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:40:50.620Z"
+        },
+        "emojipicker": {
+          "text": "Emoji picker",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "emojipicker",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:41:00.198Z"
+        },
+        "saveas": {
+          "text": "Save as",
+          "accepted": 1,
+          "misses": 0,
+          "order": 27,
+          "canonical": "saveas",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:41:09.941Z"
+        },
+        "accessibilityshortcutspanel": {
+          "text": "Accessibility shortcuts panel",
+          "accepted": 2,
+          "misses": 0,
+          "order": 28,
+          "canonical": "accessibilityshortcutspanel",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:41:10.216Z"
+        },
+        "refresh": {
+          "text": "Refresh",
+          "accepted": 1,
+          "misses": 0,
+          "order": 29,
+          "canonical": "refresh",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:41:17.334Z"
+        },
+        "newtab": {
+          "text": "New tab",
+          "accepted": 1,
+          "misses": 0,
+          "order": 30,
+          "canonical": "newtab",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:41:18.708Z"
+        },
+        "activatewindowdemandingattention": {
+          "text": "Activate window demanding attention",
+          "accepted": 2,
+          "misses": 0,
+          "order": 31,
+          "canonical": "activatewindowdemandingattention",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:41:19.388Z"
+        },
+        "openthewindowssecurityscreen": {
+          "text": "Open the Windows security screen",
+          "accepted": 1,
+          "misses": 0,
+          "order": 32,
+          "canonical": "openthewindowssecurityscreen",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:41:21.358Z"
+        },
+        "closewindow": {
+          "text": "Close window",
+          "accepted": 1,
+          "misses": 0,
+          "order": 33,
+          "canonical": "closewindow",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:41:25.731Z"
+        },
+        "addautolayout": {
+          "text": "Add auto layout",
+          "accepted": 2,
+          "misses": 0,
+          "order": 34,
+          "canonical": "addautolayout",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:41:26.028Z"
         }
       }
     },
@@ -30429,6 +30543,639 @@
           "canonical": "baseballsteak",
           "tier": "deepcut",
           "lastAccepted": "2026-10-23T16:36:23.783Z"
+        }
+      }
+    },
+    "contraction like don t": {
+      "question": "Name a contraction (like “don’t”)",
+      "answers": {
+        "dont": {
+          "text": "don't",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "dont",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:38:34.531Z"
+        },
+        "mightnt": {
+          "text": "mightn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mustnt": {
+          "text": "mustn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "neednt": {
+          "text": "needn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "shant": {
+          "text": "shan't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "oughtnt": {
+          "text": "oughtn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "werent": {
+          "text": "weren't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hadnt": {
+          "text": "hadn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wouldnt": {
+          "text": "wouldn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "couldnt": {
+          "text": "couldn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hasnt": {
+          "text": "hasn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "havent": {
+          "text": "haven't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wasnt": {
+          "text": "wasn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "arent": {
+          "text": "aren't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "isnt": {
+          "text": "isn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "shouldnt": {
+          "text": "shouldn't",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "theyve": {
+          "text": "they've",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "youd": {
+          "text": "you'd",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "well": {
+          "text": "we'll",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "kendrick lamar song": {
+      "question": "Name a Kendrick Lamar song",
+      "answers": {
+        "poemansdreamshisvice": {
+          "text": "Poe Mans Dreams (His Vice)",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "poemansdreamshisvice",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:39:14.741Z"
+        },
+        "kushcorinthians": {
+          "text": "Kush & Corinthians",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ronaldreaganera": {
+          "text": "Ronald Reagan Era",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "countybuildingblues": {
+          "text": "County Building Blues",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "westsiderightontime": {
+          "text": "Westside, Right on Time",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "therecipe": {
+          "text": "The Recipe",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "blackboyfly": {
+          "text": "Black Boy Fly",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nowornever": {
+          "text": "Now or Never",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "collectcalls": {
+          "text": "Collect Calls",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "thespitefulchant": {
+          "text": "The Spiteful Chant",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chaptersix": {
+          "text": "Chapter Six",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chapterten": {
+          "text": "Chapter Ten",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "keishabecky": {
+          "text": "Keisha & Becky",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "keishassongherpain": {
+          "text": "Keisha's Song (Her Pain)",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "real": {
+          "text": "Real",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "momma": {
+          "text": "Momma",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "youaintgottaliemommasaid": {
+          "text": "You Ain't Gotta Lie (Momma Said)",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hoodpolitics": {
+          "text": "Hood Politics",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "institutionalized": {
+          "text": "Institutionalized",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "yah": {
+          "text": "YAH.",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "singaboutmeimdyingofthirst": {
+          "text": "Sing About Me, I'm Dying of Thirst",
+          "accepted": 1,
+          "misses": 0,
+          "order": 20,
+          "canonical": "singaboutmeimdyingofthirst",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:39:26.563Z"
+        }
+      }
+    },
+    "classic american school cafeteria lunch food": {
+      "question": "Name a classic American school-cafeteria lunch food",
+      "answers": {
+        "salisburysteak": {
+          "text": "Salisbury steak",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "salisburysteak",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:39:48.689Z"
+        },
+        "turkeytetrazzini": {
+          "text": "Chicken tetrazzini",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "chickentetrazzini",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:40:06.302Z"
+        },
+        "sloppyjoes": {
+          "text": "Sloppy joes",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "johnnymarzetti": {
+          "text": "Johnny Marzetti",
+          "accepted": 2,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "johnnymarzetti",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:40:14.880Z"
+        },
+        "fritopie": {
+          "text": "Walking taco",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "walkingtaco",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:40:31.318Z"
+        },
+        "pizza": {
+          "text": "Pizza",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "pizza",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:39:52.902Z"
+        },
+        "pizzaburgers": {
+          "text": "Pizza burgers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chilimac": {
+          "text": "Chili mac",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hamandbeans": {
+          "text": "Ham and beans",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chickenalaking": {
+          "text": "Chicken a la king",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "creamedturkey": {
+          "text": "Creamed turkey",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "beefaroni": {
+          "text": "Beefaroni",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fishsticks": {
+          "text": "Fish sticks",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "corndogs": {
+          "text": "Corn dogs",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tatertots": {
+          "text": "Tater tots",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chickennuggets": {
+          "text": "Chicken nuggets",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "grilledcheese": {
+          "text": "Grilled cheese",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tomatosoup": {
+          "text": "Tomato soup",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "macaroniandcheese": {
+          "text": "Macaroni and cheese",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "meatloaf": {
+          "text": "Meatloaf",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mashedpotatoes": {
+          "text": "Mashed potatoes",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rectanglepizza": {
+          "text": "Rectangle pizza",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sloppyjoe": {
+          "text": "Sloppy joe",
+          "accepted": 1,
+          "misses": 0,
+          "order": 22,
+          "canonical": "sloppyjoe",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:40:06.029Z"
+        },
+        "chickentetrazzini": {
+          "text": "Chicken tetrazzini",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "chickentetrazzini",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:40:06.294Z"
+        },
+        "spaghetti": {
+          "text": "Spaghetti",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "spaghetti",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:40:12.615Z"
+        },
+        "chocolatemilk": {
+          "text": "Chocolate milk",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "chocolatemilk",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:40:14.378Z"
+        },
+        "fiestada": {
+          "text": "Fiestada",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "fiestada",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:40:21.518Z"
+        },
+        "walkingtaco": {
+          "text": "Walking taco",
+          "accepted": 1,
+          "misses": 0,
+          "order": 27,
+          "canonical": "walkingtaco",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:40:31.310Z"
+        },
+        "eggroll": {
+          "text": "Egg roll",
+          "accepted": 1,
+          "misses": 0,
+          "order": 28,
+          "canonical": "eggroll",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:40:37.331Z"
+        }
+      }
+    },
+    "animal that can grow longer than 10 feet 3 m including the tail": {
+      "question": "Name an animal that can grow longer than 10 feet (3 m), including the tail",
+      "answers": {
+        "snake": {
+          "text": "Snake",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "snake",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:41:40.975Z"
+        },
+        "bootlaceworm": {
+          "text": "Bootlace worm",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "bootlaceworm",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:41:41.269Z"
+        },
+        "anaconda": {
+          "text": "Anaconda",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "anaconda",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:41:47.893Z"
+        },
+        "slendergiantmoray": {
+          "text": "Slender giant moray",
+          "accepted": 2,
+          "misses": 0,
+          "order": 3,
+          "canonical": "slendergiantmoray",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:41:48.185Z"
         }
       }
     }
