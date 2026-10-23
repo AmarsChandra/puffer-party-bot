@@ -1,0 +1,96 @@
+{
+  "startedAt": "2026-10-23T17:15:30.131Z",
+  "target": 100,
+  "current": 1,
+  "best": 1,
+  "records": [
+    {
+      "number": 1,
+      "room": "KGUH",
+      "startedAt": "2026-10-23T17:15:41.404Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T17:17:53.191Z"
+    },
+    {
+      "number": 2,
+      "room": "QYPR",
+      "startedAt": "2026-10-23T17:18:01.550Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T17:19:08.286Z"
+    },
+    {
+      "number": 3,
+      "room": "FRLD",
+      "startedAt": "2026-10-23T17:19:38.772Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T20:26:57.169928+00:00",
+      "evidenceNote": "Dinosaur was visibly eliminated before tab access expired; answer input was disabled with placeholder you are out / watching."
+    },
+    {
+      "number": 4,
+      "room": "XARR",
+      "startedAt": "2026-10-23T20:27:27.626Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T20:30:46.619Z"
+    },
+    {
+      "number": 5,
+      "room": "VHYD",
+      "startedAt": "2026-10-23T20:31:08.746Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T20:33:12.063Z"
+    },
+    {
+      "number": 6,
+      "room": "WZPU",
+      "startedAt": "2026-10-23T20:33:20.350Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T20:34:30.154Z"
+    },
+    {
+      "number": 7,
+      "room": "DUEV",
+      "startedAt": "2026-10-23T20:34:38.558Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T20:41:29.512Z"
+    },
+    {
+      "number": 8,
+      "room": "BFQF",
+      "startedAt": "2026-10-23T20:42:11.003Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "loss",
+      "finishedAt": "2026-10-23T20:43:50.887Z"
+    },
+    {
+      "number": 9,
+      "room": "HFBX",
+      "startedAt": "2026-10-23T20:44:17.542Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T20:48:18.006Z"
+    }
+  ],
+  "active": null,
+  "recording": {
+    "method": "Timestamped browser screenshots",
+    "audio": false
+  },
+  "name": "Dinosaur"
+}

@@ -1,0 +1,112 @@
+{
+  "method": {
+    "method": "Timestamped browser screenshots",
+    "audio": false
+  },
+  "matches": [
+    {
+      "number": 1,
+      "room": "KGUH",
+      "outcome": "loss",
+      "frames": 46,
+      "firstFrameAt": 1792775742005,
+      "lastFrameAt": 1792775873074,
+      "maxGapSeconds": 69.407,
+      "gapsOverTwoSeconds": 2,
+      "gapsOverFiveSeconds": 2
+    },
+    {
+      "number": 2,
+      "room": "QYPR",
+      "outcome": "loss",
+      "frames": 29,
+      "firstFrameAt": 1792775882113,
+      "lastFrameAt": 1792775948195,
+      "maxGapSeconds": 45.65,
+      "gapsOverTwoSeconds": 1,
+      "gapsOverFiveSeconds": 1
+    },
+    {
+      "number": 3,
+      "room": "FRLD",
+      "outcome": "loss",
+      "frames": 5,
+      "firstFrameAt": 1792775979272,
+      "lastFrameAt": 1792775982507,
+      "maxGapSeconds": 0.815,
+      "gapsOverTwoSeconds": 0,
+      "gapsOverFiveSeconds": 0
+    },
+    {
+      "number": 4,
+      "room": "XARR",
+      "outcome": "loss",
+      "frames": 112,
+      "firstFrameAt": 1792787247984,
+      "lastFrameAt": 1792787446565,
+      "maxGapSeconds": 55.627,
+      "gapsOverTwoSeconds": 3,
+      "gapsOverFiveSeconds": 3
+    },
+    {
+      "number": 5,
+      "room": "VHYD",
+      "outcome": "loss",
+      "frames": 70,
+      "firstFrameAt": 1792787469037,
+      "lastFrameAt": 1792787592006,
+      "maxGapSeconds": 42.898,
+      "gapsOverTwoSeconds": 3,
+      "gapsOverFiveSeconds": 3
+    },
+    {
+      "number": 6,
+      "room": "WZPU",
+      "outcome": "loss",
+      "frames": 23,
+      "firstFrameAt": 1792787600352,
+      "lastFrameAt": 1792787670087,
+      "maxGapSeconds": 53.267,
+      "gapsOverTwoSeconds": 1,
+      "gapsOverFiveSeconds": 1
+    },
+    {
+      "number": 7,
+      "room": "DUEV",
+      "outcome": "win",
+      "frames": 346,
+      "firstFrameAt": 1792787678823,
+      "lastFrameAt": 1792788089449,
+      "maxGapSeconds": 60.961,
+      "gapsOverTwoSeconds": 6,
+      "gapsOverFiveSeconds": 6
+    },
+    {
+      "number": 8,
+      "room": "BFQF",
+      "outcome": "loss",
+      "frames": 53,
+      "firstFrameAt": 1792788131005,
+      "lastFrameAt": 1792788230811,
+      "maxGapSeconds": 59.967,
+      "gapsOverTwoSeconds": 1,
+      "gapsOverFiveSeconds": 1
+    },
+    {
+      "number": 9,
+      "room": "HFBX",
+      "outcome": "win",
+      "frames": 252,
+      "firstFrameAt": 1792788257921,
+      "lastFrameAt": 1792788497962,
+      "maxGapSeconds": 19.206,
+      "gapsOverTwoSeconds": 5,
+      "gapsOverFiveSeconds": 5,
+      "video": "ranked-HFBX-win.mp4",
+      "bytes": 5978659,
+      "sha256": "1205271f6b52a9cccfd538884548666d12a62932f920b1a45e192dcd1400f6ea",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    }
+  ],
+  "note": "All retained attempts include losses. Raw sampled frames remain local. The initial handoff and controller setup had capture gaps, which this report exposes. Only HFBX has been encoded and published so far."
+}

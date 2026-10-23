@@ -85,6 +85,14 @@ node src/adaptive-campaign.mjs --campaign runs/my-campaign --audit
 
 Each match records source hashes and a complete source snapshot. The runner retains interrupted attempts and separates setup failures before participation. Code stays fixed during each game; the learned cache updates as the server confirms answers.
 
+## Ranked browser run — in progress
+
+The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **2 wins and 7 losses**, with a **current / best streak of 1 / 1** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
+
+[Recorded HFBX win and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
+
+`src/browser-driver.mjs` is an experimental browser-session adapter. A caller supplies the documented browser tool interface; it uses rendered page text and normal textbox/button actions, with Enter for answer submission. It only queues with the Rated button, leaves immediately on visible elimination, and pauses in the lobby after a win to save evidence. It never reads browser credentials or session storage. Source-only CLI play remains the separate guest client described above.
+
 ## Observed statistics
 
 Snapshot as of 2026-10-23T17:02:25.241Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
@@ -146,7 +154,7 @@ npm run audit
 npm run stats
 ```
 
-The latest regression run passed **61 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **65 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
 Source: `src/puffer-bot.mjs` handles the game connection; `src/answer-engine.mjs` ranks and learns answers; `src/codex-provider.mjs` manages generation; `src/adaptive-campaign.mjs` runs and records reviewed games; `src/statistics.mjs` derives publication statistics.
 

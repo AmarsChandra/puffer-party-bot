@@ -8590,6 +8590,150 @@
           "misses": 0,
           "order": 17,
           "proposed": true
+        },
+        "snowberry": {
+          "text": "snowberry",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbell": {
+          "text": "snowbell",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbird": {
+          "text": "snowbird",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbush": {
+          "text": "snowbush",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowcock": {
+          "text": "snowcock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowfinch": {
+          "text": "snowfinch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowblower": {
+          "text": "snowblower",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowmaker": {
+          "text": "snowmaker",
+          "accepted": 0,
+          "misses": 0,
+          "order": 25,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowmaking": {
+          "text": "snowmaking",
+          "accepted": 0,
+          "misses": 0,
+          "order": 26,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbelt": {
+          "text": "snowbelt",
+          "accepted": 0,
+          "misses": 0,
+          "order": 27,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowshed": {
+          "text": "snowshed",
+          "accepted": 0,
+          "misses": 0,
+          "order": 28,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowslide": {
+          "text": "snowslide",
+          "accepted": 0,
+          "misses": 0,
+          "order": 29,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowline": {
+          "text": "snowline",
+          "accepted": 0,
+          "misses": 0,
+          "order": 30,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbrush": {
+          "text": "snowbrush",
+          "accepted": 0,
+          "misses": 0,
+          "order": 31,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbed": {
+          "text": "snowbed",
+          "accepted": 0,
+          "misses": 0,
+          "order": 32,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowsuit": {
+          "text": "snowsuit",
+          "accepted": 0,
+          "misses": 0,
+          "order": 33,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowcat": {
+          "text": "snowcat",
+          "accepted": 0,
+          "misses": 0,
+          "order": 34,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "snowbridge": {
+          "text": "snowbridge",
+          "accepted": 0,
+          "misses": 0,
+          "order": 35,
+          "proposed": true,
+          "rarityRequested": true
         }
       }
     },
@@ -34045,6 +34189,1057 @@
           "lastAccepted": "2026-10-23T17:01:59.906Z"
         }
       }
+    },
+    "character from teenage mutant ninja turtles": {
+      "question": "Name a character from Teenage Mutant Ninja Turtles",
+      "answers": {
+        "ratking": {
+          "text": "Rat King",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "leatherhead": {
+          "text": "Leatherhead",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "baxterstockman": {
+          "text": "Baxter Stockman",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "sandwich": {
+      "question": "Name a type of sandwich",
+      "answers": {}
+    },
+    "animal whose name starts with c": {
+      "question": "Name an animal whose name starts with C",
+      "answers": {
+        "colugo": {
+          "text": "Colugo",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cuscus": {
+          "text": "Cuscus",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "caracal": {
+          "text": "Caracal",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "instrument used to take measurements": {
+      "question": "Name an instrument used to take measurements",
+      "answers": {
+        "spherometer": {
+          "text": "Spherometer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dilatometer": {
+          "text": "Dilatom​eter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pyranometer": {
+          "text": "Pyranometer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "tropical fruit": {
+      "question": "Name a tropical fruit",
+      "answers": {}
+    },
+    "country or former team with an olympic volleyball medal indoor or beach through paris 2024": {
+      "question": "Name a country or former team with an Olympic volleyball medal (indoor or beach, through Paris 2024)",
+      "answers": {
+        "peru": {
+          "text": "Peru",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bulgaria": {
+          "text": "Bulgaria",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "romania": {
+          "text": "Romania",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "eastgermany": {
+          "text": "East Germany",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "czechoslovakia": {
+          "text": "Czechoslovakia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "unifiedteam": {
+          "text": "Unified Team",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "yugoslavia": {
+          "text": "Yugoslavia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sovietunion": {
+          "text": "Soviet Union",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "roc": {
+          "text": "ROC",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "latvia": {
+          "text": "Latvia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "switzerland": {
+          "text": "Switzerland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "australia": {
+          "text": "Australia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "norway": {
+          "text": "Norway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "southkorea": {
+          "text": "South Korea",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cuba": {
+          "text": "Cuba",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "poland": {
+          "text": "Poland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "netherlands": {
+          "text": "Netherlands",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "argentina": {
+          "text": "Argentina",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "serbia": {
+          "text": "Serbia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "italy": {
+          "text": "Italy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "france": {
+          "text": "France",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "woodwind instrument": {
+      "question": "Name a woodwind instrument",
+      "answers": {}
+    },
+    "major disease outbreak or pandemic from history": {
+      "question": "Name a major disease outbreak or pandemic from history",
+      "answers": {
+        "18891890flupandemic": {
+          "text": "1889–1890 flu pandemic",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "1665greatplagueoflondon": {
+          "text": "1665 Great Plague of London",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "17701772russianplague": {
+          "text": "1770–1772 Russian plague",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "kitchen appliance something powered": {
+      "question": "Name a kitchen appliance (something powered)",
+      "answers": {}
+    },
+    "nut or seed butter": {
+      "question": "Name a nut or seed butter",
+      "answers": {
+        "pistachiobutter": {
+          "text": "Pistachio butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pumpkinseedbutter": {
+          "text": "Pumpkin seed butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "macadamiabutter": {
+          "text": "Macadamia butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "watermelonseedbutter": {
+          "text": "Watermelon seed butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hempseedbutter": {
+          "text": "Hemp seed butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pecanbutter": {
+          "text": "Pecan butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "brazilnutbutter": {
+          "text": "Brazil nut butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hazelnutbutter": {
+          "text": "Hazelnut butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sesamebutter": {
+          "text": "Sesame butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pinenutbutter": {
+          "text": "Pine nut butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chiaseedbutter": {
+          "text": "Chia seed butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "flaxseedbutter": {
+          "text": "Flaxseed butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "poppyseedbutter": {
+          "text": "Poppy seed butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sachainchibutter": {
+          "text": "Sacha inchi butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "apricotkernelbutter": {
+          "text": "Apricot kernel butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chestnutbutter": {
+          "text": "Chestnut butter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "instrument found in a symphony orchestra": {
+      "question": "Name an instrument found in a symphony orchestra",
+      "answers": {}
+    },
+    "organ of the human body": {
+      "question": "Name an organ of the human body",
+      "answers": {}
+    },
+    "block in minecraft": {
+      "question": "Name a block in Minecraft",
+      "answers": {}
+    },
+    "vitamin or dietary mineral": {
+      "question": "Name a vitamin or dietary mineral",
+      "answers": {}
+    },
+    "country whose name starts with c": {
+      "question": "Name a country whose name starts with C",
+      "answers": {}
+    },
+    "youtuber with more than 10 million subscribers": {
+      "question": "Name a YouTuber with more than 10 million subscribers",
+      "answers": {}
+    },
+    "nintendo home handheld hybrid or dedicated video game console including marketed revisions": {
+      "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+      "answers": {
+        "nintendodsixl": {
+          "text": "Nintendo DSi XL",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gameboymicro": {
+          "text": "Game Boy Micro",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "newnintendo2dsxl": {
+          "text": "New Nintendo 2DS XL",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gameboylight": {
+          "text": "Game Boy Light",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "colortvgame6": {
+          "text": "Color TV-Game 6",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "colortvgame15": {
+          "text": "Color TV-Game 15",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "colortvgameracing112": {
+          "text": "Color TV-Game Racing 112",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "colortvgameblockkuzushi": {
+          "text": "Color TV-Game Block Kuzushi",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "computertvgame": {
+          "text": "Computer TV-Game",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "virtualboy": {
+          "text": "Virtual Boy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gameboypocket": {
+          "text": "Game Boy Pocket",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nintendodslite": {
+          "text": "Nintendo DS Lite",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nintendodsi": {
+          "text": "Nintendo DSi",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "newnintendo3ds": {
+          "text": "New Nintendo 3DS",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "newnintendo3dsxl": {
+          "text": "New Nintendo 3DS XL",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nintendo2ds": {
+          "text": "Nintendo 2DS",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gameboyadvancesp": {
+          "text": "Game Boy Advance SP",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nintendoswitchlite": {
+          "text": "Nintendo Switch Lite",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nintendoswitcholedmodel": {
+          "text": "Nintendo Switch OLED Model",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nintendoswitch2": {
+          "text": "Nintendo Switch 2",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wiimini": {
+          "text": "Wii Mini",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "sport played without a ball": {
+      "question": "Name a sport played without a ball",
+      "answers": {}
+    },
+    "country with a land border longer than 2 000 kilometres": {
+      "question": "Name a country with a land border longer than 2,000 kilometres",
+      "answers": {
+        "mauritania": {
+          "text": "Mauritania",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mongolia": {
+          "text": "Mongolia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kazakhstan": {
+          "text": "Kazakhstan",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "zambia": {
+          "text": "Zambia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "democraticrepublicofthecongo": {
+          "text": "Democratic Republic of the Congo",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "angola": {
+          "text": "Angola",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sudan": {
+          "text": "Sudan",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "southsudan": {
+          "text": "South Sudan",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "myanmar": {
+          "text": "Myanmar",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "laos": {
+          "text": "Laos",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "vietnam": {
+          "text": "Vietnam",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "argentina": {
+          "text": "Argentina",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chile": {
+          "text": "Chile",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bolivia": {
+          "text": "Bolivia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "peru": {
+          "text": "Peru",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "venezuela": {
+          "text": "Venezuela",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "india": {
+          "text": "India",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bangladesh": {
+          "text": "Bangladesh",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pakistan": {
+          "text": "Pakistan",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "afghanistan": {
+          "text": "Afghanistan",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mexico": {
+          "text": "Mexico",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "stringed instrument": {
+      "question": "Name a stringed instrument",
+      "answers": {
+        "nyckelharpa": {
+          "text": "Nyckelharpa",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hardangerfiddle": {
+          "text": "Hardanger fiddle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bowedpsaltery": {
+          "text": "Bowed psaltery",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "cake": {
+      "question": "Name a type of cake",
+      "answers": {}
+    },
+    "part of a bicycle": {
+      "question": "Name a part of a bicycle",
+      "answers": {
+        "derailleur": {
+          "text": "Derailleur",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bottombracket": {
+          "text": "Bottom bracket",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "headset": {
+          "text": "Headset",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ferrule": {
+          "text": "Ferrule",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cablestop": {
+          "text": "Cable stop",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "jockeywheel": {
+          "text": "Jockey wheel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "freehub": {
+          "text": "Freehub",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lockring": {
+          "text": "Lockring",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "barreladjuster": {
+          "text": "Barrel adjuster",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chainstay": {
+          "text": "Chainstay",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seatstay": {
+          "text": "Seatstay",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dropout": {
+          "text": "Dropout",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "starnut": {
+          "text": "Star nut",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "headtube": {
+          "text": "Head tube",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "steerertube": {
+          "text": "Steerer tube",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rimtape": {
+          "text": "Rim tape",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "valvestem": {
+          "text": "Valve stem",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "crankarm": {
+          "text": "Crank arm",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chainring": {
+          "text": "Chainring",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seatpostclamp": {
+          "text": "Seatpost clamp",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "spokenipple": {
+          "text": "Spoke nipple",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "compound word ending in way": {
+      "question": "Name a compound word ending in “way”",
+      "answers": {
+        "spillway": {
+          "text": "Spillway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "slipway": {
+          "text": "Slipway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "raceway": {
+          "text": "Raceway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "something sold in a tube": {
+      "question": "Name something sold in a tube",
+      "answers": {}
     }
   }
 }
