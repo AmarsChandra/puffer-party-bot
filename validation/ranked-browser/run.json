@@ -1,8 +1,8 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 1,
-  "best": 1,
+  "current": 2,
+  "best": 2,
   "records": [
     {
       "number": 1,
@@ -85,6 +85,15 @@
       "name": "Dinosaur",
       "outcome": "win",
       "finishedAt": "2026-10-23T20:48:18.006Z"
+    },
+    {
+      "number": 10,
+      "room": "LSRE",
+      "startedAt": "2026-10-23T20:57:33.135Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T21:02:37.640Z"
     }
   ],
   "active": null,

@@ -13,7 +13,11 @@
       "lastFrameAt": 1792775873074,
       "maxGapSeconds": 69.407,
       "gapsOverTwoSeconds": 2,
-      "gapsOverFiveSeconds": 2
+      "gapsOverFiveSeconds": 2,
+      "video": "ranked-KGUH-loss.mp4",
+      "bytes": 1075281,
+      "sha256": "0290d7dbe919d931737e7ee8f7013c2b0cfce28e034accefcb534d2395ec344b",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 2,
@@ -24,7 +28,11 @@
       "lastFrameAt": 1792775948195,
       "maxGapSeconds": 45.65,
       "gapsOverTwoSeconds": 1,
-      "gapsOverFiveSeconds": 1
+      "gapsOverFiveSeconds": 1,
+      "video": "ranked-QYPR-loss.mp4",
+      "bytes": 965577,
+      "sha256": "4dde33b8d014e829169ecbed8d2be900132d053a4c8412615a23a15e2946ffdc",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 3,
@@ -35,7 +43,11 @@
       "lastFrameAt": 1792775982507,
       "maxGapSeconds": 0.815,
       "gapsOverTwoSeconds": 0,
-      "gapsOverFiveSeconds": 0
+      "gapsOverFiveSeconds": 0,
+      "video": "ranked-FRLD-loss.mp4",
+      "bytes": 229211,
+      "sha256": "84aec31caf596716ca95054e7c6fcff5142b611c603c668690aa255e90ea19b2",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 4,
@@ -46,7 +58,11 @@
       "lastFrameAt": 1792787446565,
       "maxGapSeconds": 55.627,
       "gapsOverTwoSeconds": 3,
-      "gapsOverFiveSeconds": 3
+      "gapsOverFiveSeconds": 3,
+      "video": "ranked-XARR-loss.mp4",
+      "bytes": 2813351,
+      "sha256": "8e45795dafee5e662c2b3f2abc0344b68bcab9fd86bf82f929653a5dbb47e0a8",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 5,
@@ -57,7 +73,11 @@
       "lastFrameAt": 1792787592006,
       "maxGapSeconds": 42.898,
       "gapsOverTwoSeconds": 3,
-      "gapsOverFiveSeconds": 3
+      "gapsOverFiveSeconds": 3,
+      "video": "ranked-VHYD-loss.mp4",
+      "bytes": 1787882,
+      "sha256": "b47202d8df296f19629210d0547d3dbf9d57eb60135c5a3e434821228364aa6d",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 6,
@@ -68,7 +88,11 @@
       "lastFrameAt": 1792787670087,
       "maxGapSeconds": 53.267,
       "gapsOverTwoSeconds": 1,
-      "gapsOverFiveSeconds": 1
+      "gapsOverFiveSeconds": 1,
+      "video": "ranked-WZPU-loss.mp4",
+      "bytes": 529870,
+      "sha256": "63760400fd4058ea492bdaea703e1ee0b759ad36e05f52c43dc9d9db59e673d8",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 7,
@@ -79,7 +103,11 @@
       "lastFrameAt": 1792788089449,
       "maxGapSeconds": 60.961,
       "gapsOverTwoSeconds": 6,
-      "gapsOverFiveSeconds": 6
+      "gapsOverFiveSeconds": 6,
+      "video": "ranked-DUEV-win.mp4",
+      "bytes": 8107888,
+      "sha256": "91b366747ba859c68727c0c5a271e7686968272f5d42adb905d9deca8257a65e",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 8,
@@ -90,7 +118,11 @@
       "lastFrameAt": 1792788230811,
       "maxGapSeconds": 59.967,
       "gapsOverTwoSeconds": 1,
-      "gapsOverFiveSeconds": 1
+      "gapsOverFiveSeconds": 1,
+      "video": "ranked-BFQF-loss.mp4",
+      "bytes": 1357667,
+      "sha256": "1de55245dd2af427c631f578e60604854317069a65454e1779309cf66496d6d0",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     },
     {
       "number": 9,
@@ -106,7 +138,22 @@
       "bytes": 5978659,
       "sha256": "1205271f6b52a9cccfd538884548666d12a62932f920b1a45e192dcd1400f6ea",
       "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    },
+    {
+      "number": 10,
+      "room": "LSRE",
+      "outcome": "win",
+      "frames": 335,
+      "firstFrameAt": 1792789053642,
+      "lastFrameAt": 1792789357583,
+      "maxGapSeconds": 22.138,
+      "gapsOverTwoSeconds": 6,
+      "gapsOverFiveSeconds": 4,
+      "video": "ranked-LSRE-win.mp4",
+      "bytes": 7642003,
+      "sha256": "c467f81b18eb50fd5f16c2e88c7fd82b0164e52d0ea990aa7c997aa19a75abeb",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     }
   ],
-  "note": "All retained attempts include losses. Raw sampled frames remain local. The initial handoff and controller setup had capture gaps, which this report exposes. Only HFBX has been encoded and published so far."
+  "note": "Every completed retained attempt with captured frames has an encoded clip, including losses. Raw sampled frames remain local. Initial handoff and controller setup had capture gaps, which this report exposes."
 }

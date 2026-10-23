@@ -16054,6 +16054,94 @@
           "misses": 0,
           "order": 17,
           "proposed": true
+        },
+        "comoros": {
+          "text": "Comoros",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "djibouti": {
+          "text": "Djibouti",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chad": {
+          "text": "Chad",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "brunei": {
+          "text": "Brunei",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "malaysia": {
+          "text": "Malaysia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "somalia": {
+          "text": "Somalia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lebanon": {
+          "text": "Lebanon",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "syria": {
+          "text": "Syria",
+          "accepted": 0,
+          "misses": 0,
+          "order": 25,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "palestine": {
+          "text": "Palestine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 26,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "unitedarabemirates": {
+          "text": "United Arab Emirates",
+          "accepted": 0,
+          "misses": 0,
+          "order": 27,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "israel": {
+          "text": "Israel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 28,
+          "proposed": true,
+          "rarityRequested": true
         }
       }
     },
@@ -35240,6 +35328,244 @@
     "something sold in a tube": {
       "question": "Name something sold in a tube",
       "answers": {}
+    },
+    "english word containing super": {
+      "question": "Name an English word containing “super”",
+      "answers": {}
+    },
+    "school supply": {
+      "question": "Name a school supply",
+      "answers": {
+        "protractor": {
+          "text": "Protractor",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "compass": {
+          "text": "Compass",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "indexcards": {
+          "text": "Index cards",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bristolboard": {
+          "text": "Bristol board",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tracingpaper": {
+          "text": "Tracing paper",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "binderdividers": {
+          "text": "Binder dividers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "reinforcementlabels": {
+          "text": "Reinforcement labels",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bookcovers": {
+          "text": "Book covers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pencilgrips": {
+          "text": "Pencil grips",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "blendingstumps": {
+          "text": "Blending stumps",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "frenchcurve": {
+          "text": "French curve",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "setsquare": {
+          "text": "Set square",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "correctiontape": {
+          "text": "Correction tape",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gluedots": {
+          "text": "Glue dots",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pageflags": {
+          "text": "Page flags",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "holepunch": {
+          "text": "Hole punch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "drawingink": {
+          "text": "Drawing ink",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "graphpaper": {
+          "text": "Graph paper",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chalk": {
+          "text": "Chalk",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "erasercaps": {
+          "text": "Eraser caps",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "stapleremover": {
+          "text": "Staple remover",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "country with territory inside the arctic circle": {
+      "question": "Name a country with territory inside the Arctic Circle",
+      "answers": {
+        "finland": {
+          "text": "Finland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "iceland": {
+          "text": "Iceland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sweden": {
+          "text": "Sweden",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "norway": {
+          "text": "Norway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "russia": {
+          "text": "Russia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "unitedstates": {
+          "text": "United States",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "greenland": {
+          "text": "Greenland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }

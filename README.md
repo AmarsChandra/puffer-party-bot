@@ -87,9 +87,9 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Ranked browser run — in progress
 
-The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **2 wins and 7 losses**, with a **current / best streak of 1 / 1** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
+The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **3 wins and 7 losses**, with a **current / best streak of 2 / 2** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
 
-[Recorded HFBX win and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
+[Ranked clips and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
 
 `src/browser-driver.mjs` is an experimental browser-session adapter. A caller supplies the documented browser tool interface; it uses rendered page text and normal textbox/button actions, with Enter for answer submission. It only queues with the Rated button, leaves immediately on visible elimination, and pauses in the lobby after a win to save evidence. It never reads browser credentials or session storage. Source-only CLI play remains the separate guest client described above.
 
