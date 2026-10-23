@@ -1,0 +1,137 @@
+{
+  "sources": 100,
+  "questions": 699,
+  "retainedAnswers": 53794,
+  "historicalQuestions": 186,
+  "historicalOverlap": 81,
+  "matchingPreviouslyAcceptedAnswers": 300,
+  "tierAgreements": 280,
+  "disagreements": [
+    {
+      "question": "Name a martial art",
+      "answer": "Savate",
+      "pufferTier": "rare",
+      "archiveTier": "deepcut"
+    },
+    {
+      "question": "Name a muscle in the human body",
+      "answer": "Sartorius",
+      "pufferTier": "rare",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name a Pixar feature film",
+      "answer": "The Good Dinosaur",
+      "pufferTier": "schooler",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name a punctuation mark or typographic symbol",
+      "answer": "Semicolon",
+      "pufferTier": "schooler",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name a planet or dwarf planet in our solar system",
+      "answer": "Pluto",
+      "pufferTier": "plankton",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name an NFL team",
+      "answer": "Washington Commanders",
+      "pufferTier": "schooler",
+      "archiveTier": "rare"
+    },
+    {
+      "question": "Name an NFL team",
+      "answer": "Jacksonville Jaguars",
+      "pufferTier": "rare",
+      "archiveTier": "deepcut"
+    },
+    {
+      "question": "Name an NFL team",
+      "answer": "San Francisco 49ers",
+      "pufferTier": "plankton",
+      "archiveTier": "schooler"
+    },
+    {
+      "question": "Name an NFL team",
+      "answer": "Houston Texans",
+      "pufferTier": "rare",
+      "archiveTier": "deepcut"
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Uruguay",
+      "pufferTier": "schooler",
+      "archiveTier": "rare"
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "France",
+      "pufferTier": "schooler",
+      "archiveTier": "plankton"
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Germany",
+      "pufferTier": "schooler",
+      "archiveTier": "plankton"
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Argentina",
+      "pufferTier": "rare",
+      "archiveTier": "schooler"
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "Japan",
+      "pufferTier": "rare",
+      "archiveTier": "schooler"
+    },
+    {
+      "question": "Name a country that has hosted the FIFA World Cup",
+      "answer": "South Korea",
+      "pufferTier": "rare",
+      "archiveTier": "schooler"
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "Poland",
+      "pufferTier": "schooler",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "answer": "North Korea",
+      "pufferTier": "rare",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name a gym exercise",
+      "answer": "Bulgarian split squat",
+      "pufferTier": "rare",
+      "archiveTier": "tooclever"
+    },
+    {
+      "question": "Name a gym exercise",
+      "answer": "Front squat",
+      "pufferTier": "schooler",
+      "archiveTier": "deepcut"
+    },
+    {
+      "question": "Name a gym exercise",
+      "answer": "Bicep curl",
+      "pufferTier": "plankton",
+      "archiveTier": "schooler"
+    }
+  ],
+  "lookup": {
+    "samples": 699,
+    "medianMs": 0.22695799999999622,
+    "p95Ms": 0.4017499999999927
+  },
+  "method": "Exact normalized prompt match, only the retained top 100 archive answers per prompt; Puffer comparisons count unique previously accepted answers, not submissions. No model requests made in this benchmark."
+}

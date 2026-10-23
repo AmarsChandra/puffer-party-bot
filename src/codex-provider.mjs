@@ -32,7 +32,7 @@ export function resolveCodex(explicit) {
 export class CodexProvider {
   constructor({executable,cwd,timeout=25000,onLog=()=>{}}={}) {
     this.executable=resolveCodex(executable);this.cwd=cwd;this.timeout=timeout;this.onLog=onLog;
-    this.id=0;this.pending=new Map();this.jobs=new Map();this.closed=false;
+    this.requestCount=0;this.id=0;this.pending=new Map();this.jobs=new Map();this.closed=false;
   }
   async start(){
     if(this.ready)return this.ready;
@@ -117,6 +117,7 @@ export class CodexProvider {
       this.jobs.set(thread.id,job);signal?.addEventListener('abort',abort,{once:true});
       timer=setTimeout(()=>{interrupt();finish(reject,new Error('Answer generation exceeded time limit'));},this.timeout);
       const prompt=(count===3?'Return {"answers":["..."]} for this timed category. Emit up to THREE distinct, reliable, less-obvious answers. Prefer underused choices that the game will recognize over the most popular answers. Emit the first certain answer immediately, then the other two; do not plan a long list.':`Return {"answers":["..."]} for this timed category. Emit up to ${count} distinct reliable answers, favoring less-obvious, underused choices. Emit the first certain answer immediately, then continue. Do not delay the first answer to rank or plan the entire list.`)+' Use short conventional names, no aliases, invented items, or explanations. Return fewer if necessary.\nCategory: '+JSON.stringify(question)+'\nExclude: '+JSON.stringify(exclude.slice(-200));
+      this.requestCount++;this.onLog('ai-request',{question,count,requestNumber:this.requestCount});
       this.request('turn/start',{threadId:thread.id,input:[{type:'text',text:prompt,text_elements:[]}],effort:'low',outputSchema:SCHEMA}).then(r=>{
         turnId=r.turn.id;
         if(signal?.aborted)interrupt();

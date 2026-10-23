@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T23:51:17.765Z",
+  "generatedAt": "2026-10-23T16:30:33.714Z",
   "cohort": "Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.",
   "status": "awaiting-review",
   "activeMatch": null,
@@ -28,6 +28,30 @@
       "evidenceFile": "games/014/setup-failure-FGWN.json"
     }
   ],
+  "codexUsage": {
+    "measuredMatches": [],
+    "requests": 0,
+    "unmeasuredMatches": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
   "submissions": {
     "acceptedAcknowledgements": 286,
     "rejections": 15,
@@ -212,6 +236,10 @@
         "p95Ms": 83,
         "maxMs": 83
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 6,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -248,6 +276,10 @@
         "p95Ms": 1931,
         "maxMs": 1931
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 6,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -285,6 +317,10 @@
         "p95Ms": 89,
         "maxMs": 89
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 6,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -324,6 +360,10 @@
         "p95Ms": 4237,
         "maxMs": 4237
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 7,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -361,6 +401,10 @@
         "p95Ms": 10472,
         "maxMs": 10472
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 6,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -398,6 +442,10 @@
         "p95Ms": 8595,
         "maxMs": 8595
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 7,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -435,6 +483,10 @@
         "p95Ms": 5559,
         "maxMs": 5559
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 5,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -473,6 +525,10 @@
         "p95Ms": 2588,
         "maxMs": 2588
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 9,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -511,6 +567,10 @@
         "p95Ms": 4226,
         "maxMs": 4226
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 6,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -549,6 +609,10 @@
         "p95Ms": null,
         "maxMs": null
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 0,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -587,6 +651,10 @@
         "p95Ms": 2833,
         "maxMs": 2833
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 7,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -624,6 +692,10 @@
         "p95Ms": 9437,
         "maxMs": 9437
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 7,
       "unavailableCategories": 1,
       "firstTurnsWithoutSubmission": 1
@@ -660,6 +732,10 @@
         "p95Ms": 2360,
         "maxMs": 2360
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 4,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -699,6 +775,10 @@
         "p95Ms": 3270,
         "maxMs": 3270
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 7,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -735,6 +815,10 @@
         "p95Ms": 82,
         "maxMs": 82
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 3,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -772,6 +856,10 @@
         "p95Ms": 2843,
         "maxMs": 2843
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 6,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -811,6 +899,10 @@
         "p95Ms": 4074,
         "maxMs": 4074
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 13,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -848,6 +940,10 @@
         "p95Ms": 2876,
         "maxMs": 2876
       },
+      "codexRequests": null,
+      "archiveCoveredCategories": 0,
+      "archiveAccepted": 0,
+      "archiveTierAgreements": 0,
       "timedCategories": 7,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
@@ -860,6 +956,7 @@
     "Category readiness includes local, cached and generated answers. The codex source can include cached model proposals; it does not mean every answer required a fresh request.",
     "Latency percentiles exclude missing measurements. Unavailable answers, first turns without a submission, and attempts missing timing evidence are reported separately in latencyCoverage.",
     "Player counts exclude spectators. Model prompt requests do not establish rarity; only server tiers do.",
+    "Codex request counts cover only matches instrumented with the ai-request counter; older missing counts are not zero. Counts exclude this development chat and are generation requests, not token or billing totals.",
     "Results are a measured sample across different categories and source versions, not a guarantee of future wins."
   ]
 }

@@ -29,3 +29,10 @@ test('duplicate or unsupported win claims cannot inflate the published win count
  assert.equal(s.outcomes.wins,1);assert.equal(s.outcomes.attempts,5);assert.equal(s.outcomes.inconclusive,3);
  assert.ok(s.issues.some(x=>x.includes('Duplicate game ID')));assert.ok(s.issues.some(x=>x.includes('Outcome differs')));
 });
+
+test('Codex usage distinguishes measured zero from missing historical measurements',t=>{
+ const {root}=fixture(t);const file=path.join(root,'1.json'),first=JSON.parse(fs.readFileSync(file));
+ first.metrics.codexRequests=0;first.accepted=[{source:'answer-archive',archiveTier:'krillion',submit:{accepted:true,tier:'deepcut'}}];fs.writeFileSync(file,JSON.stringify(first));
+ const s=campaignStatistics(root);assert.deepEqual(s.codexUsage,{measuredMatches:[1],requests:0,unmeasuredMatches:[2,3]});
+ assert.equal(s.matches[0].archiveAccepted,1);assert.equal(s.matches[0].archiveTierAgreements,0);assert.equal(s.matches[0].rarity.tiers.deepcut,1);
+});

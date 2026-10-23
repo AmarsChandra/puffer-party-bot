@@ -39,6 +39,7 @@ async function post(url, body) {
 export class PufferBot {
   constructor(options={}) {
     this.options = options;
+    this.codexRequestBaseline=options.engine?.provider?.requestCount??0;
     this.bankPath = options.answers ?? path.join(DATA,'answers.json');
     this.pending = new Map(); this.tried = new Set(); this.used = new Set();
     this.room = null; this.seq = 0; this.busy = false; this.stopped = false;
@@ -154,7 +155,7 @@ export class PufferBot {
       this.categoryKey=key;this.tried.clear();this.used.clear();this.nextSendAt=0;
       if(r.category) {
         this.categories.push({index:r.category.index,text:r.category.text});this.log('category',r.category);
-        this.categoryTiming={gameNumber:r.gameNumber,index:r.category.index,question:r.category.text,observedAt:Date.now(),readyMs:null,firstTurnAt:null,firstSubmitMs:null,firstTurnWaitMs:null};
+        this.categoryTiming={gameNumber:r.gameNumber,index:r.category.index,question:r.category.text,archiveCovered:!!this.engine.archiveBank?.questions?.[questionKey(r.category.text)],observedAt:Date.now(),readyMs:null,firstTurnAt:null,firstSubmitMs:null,firstTurnWaitMs:null};
         this.metrics.categoryLatency.push(this.categoryTiming);
       }
     }
@@ -202,6 +203,7 @@ export class PufferBot {
     }
   }
   snapshotResult(){
+    if(Number.isInteger(this.engine.provider?.requestCount))this.metrics.codexRequests=this.engine.provider.requestCount-this.codexRequestBaseline;
     const r=this.room;if(!r||!this.seat)return null;
     return {won:r.winnerId===this.seat.playerId,room:r.code,playerId:this.seat.playerId,winnerId:r.winnerId,gameNumber:r.gameNumber,gameId:r.gameId,rated:r.rated,player:r.players.find(p=>p.id===this.seat.playerId),categories:this.categories,accepted:this.accepted,rejected:this.rejected,metrics:this.metrics,startingRoom:this.startingRoom,finalRoom:r};
   }
@@ -242,7 +244,7 @@ export class PufferBot {
     this.tried.add(normalize(answer));this.nextSendAt=Date.now()+180;this.metrics.attempts++;
     try{
       const ack=await this.act({type:'submit',text:answer});
-      const provenance=choice.source==='regular-bank'?{regularTier:choice.regularTier,regularSource:choice.regularSource,regularDataHash:choice.regularDataHash}:{};
+      const provenance=choice.source==='regular-bank'?{regularTier:choice.regularTier,regularSource:choice.regularSource,regularDataHash:choice.regularDataHash}:choice.source==='answer-archive'?{archiveTier:choice.archiveTier,archiveSource:choice.archiveSource,archiveDataHash:choice.archiveDataHash}:{};
       this.log('answer',{question:r.category.text,answer,source:choice.source,...provenance,reactionMs,ok:ack.ok,submit:ack.submit,error:ack.error});
       if(ack.submit?.accepted){
         this.acceptedTurn=turnKey;this.metrics.accepted++;this.metrics.reactionMs.push(reactionMs);
@@ -315,7 +317,7 @@ async function main() {
   const stop=async()=>{current?.close();engine.close();await current?.leave();process.exit(130);};
   process.once('SIGINT',stop);process.once('SIGTERM',stop);
   try{
-    if(provider){log('warming-up',{message:'Using signed-in Codex for fresh trivia answers.'});await engine.warmup();}
+    if(provider){log('warming-up',{message:'Preparing Codex fallback without generating answers.'});await engine.warmup();}
     for(let i=0;i<max;i++){
       current=new PufferBot({...opts,engine});
       try{const result=await current.run();results.push(result);await current.leave();}

@@ -7,3 +7,5 @@ data/regular-bank.json
 *seat*.json
 *.tmp
 .DS_Store
+
+data/answer-archive.json

@@ -1,6 +1,6 @@
 # Puffer Party bot — observed public results
 
-As of 2026-10-22T23:51:17.765Z. Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.
+As of 2026-10-23T16:30:33.714Z. Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.
 
 | Metric | Observed result |
 | --- | --- |
@@ -27,6 +27,8 @@ Category readiness includes local, cached and generated answers. The codex sourc
 Latency percentiles exclude missing measurements. Unavailable answers, first turns without a submission, and attempts missing timing evidence are reported separately in latencyCoverage.
 
 Player counts exclude spectators. Model prompt requests do not establish rarity; only server tiers do.
+
+Codex request counts cover only matches instrumented with the ai-request counter; older missing counts are not zero. Counts exclude this development chat and are generation requests, not token or billing totals.
 
 Results are a measured sample across different categories and source versions, not a guarantee of future wins.
 

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {gunzipSync} from 'node:zlib';
 
 export const normalize=s=>String(s).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const aliases={
@@ -101,7 +102,7 @@ export function candidates(question,bank){
 }
 const TIER={plankton:10,tooclever:0,schooler:30,rare:80,deepcut:150,krillion:250};
 export class AnswerEngine {
-  constructor({bankPath,cachePath,regularBankPath=path.join(path.dirname(cachePath),'regular-bank.json'),provider=null,onLog=()=>{},onReady=()=>{}}){
+  constructor({bankPath,cachePath,regularBankPath=path.join(path.dirname(cachePath),'regular-bank.json'),archiveBankPath=path.join(path.dirname(cachePath),'answer-archive.json.gz'),provider=null,onLog=()=>{},onReady=()=>{}}){
     this.bankPath=bankPath;this.cachePath=cachePath;this.provider=provider;this.onLog=onLog;this.onReady=onReady;
     this.data={version:2,questions:{}};this.inflight=new Map();this.attempts=new Map();this.retryAt=new Map();this.bankStamp=-1;this.closed=false;this.staticCache=new Map();
     if(fs.existsSync(cachePath)){
@@ -114,6 +115,14 @@ export class AnswerEngine {
       const data=JSON.parse(fs.readFileSync(regularBankPath,'utf8'));
       if(data.version!==1||!data.questions||typeof data.questions!=='object')throw new Error('Unsupported regular answer bank');
       this.regularBank=data;
+    }
+    this.archiveBank={questions:{}};
+    if(archiveBankPath?.endsWith('.gz')&&!fs.existsSync(archiveBankPath)&&fs.existsSync(archiveBankPath.slice(0,-3)))archiveBankPath=archiveBankPath.slice(0,-3);
+    if(archiveBankPath&&fs.existsSync(archiveBankPath)){
+      const bytes=fs.readFileSync(archiveBankPath);
+      const data=JSON.parse(archiveBankPath.endsWith('.gz')?gunzipSync(bytes):bytes.toString('utf8'));
+      if(data.version!==1||data.kind!=='answer-archive'||!data.questions||typeof data.questions!=='object')throw new Error('Unsupported answer archive');
+      this.archiveBank=data;
     }
   }
   bank(){const stat=fs.statSync(this.bankPath);if(stat.mtimeMs!==this.bankStamp){const bank=JSON.parse(fs.readFileSync(this.bankPath,'utf8'));this.bankData=bank;this.bankStamp=stat.mtimeMs;this.staticCache.clear();
@@ -136,6 +145,12 @@ export class AnswerEngine {
       if(typeof a?.text!=='string'||!(a.tier in TIER)||!answerFits(question,a.text))continue;
       const k=answerKey(a.text),score=990+TIER[a.tier];
       if(!pool.has(k)||score>pool.get(k).score)pool.set(k,{text:a.text,score,source:'regular-bank',regularTier:a.tier,regularSource:regular.sourceUrl,regularDataHash:this.regularBank.sources?.[regular.sourceUrl]?.sha256});
+    }
+    const archive=this.archiveBank.questions[key];
+    for(const a of archive?.answers??[]){
+      if(typeof a?.text!=='string'||!(a.tier in TIER)||!answerFits(question,a.text))continue;
+      const k=answerKey(a.text),score=995+TIER[a.tier];
+      if(!pool.has(k)||score>pool.get(k).score)pool.set(k,{text:a.text,score,source:'answer-archive',archiveTier:a.tier,archiveSource:archive.sourceUrl,archiveDataHash:this.archiveBank.sources?.[archive.sourceUrl]?.sha256});
     }
     Object.entries(entry.answers).forEach(([storedKey,a])=>{
       const key=answerKey(a.canonical??storedKey);
@@ -163,6 +178,8 @@ export class AnswerEngine {
     for(const [other,job] of this.inflight)if(other!==key)job.controller.abort();
     if(this.closed||!this.provider||this.inflight.has(key))return this.inflight.get(key)?.promise??Promise.resolve();
     const available=this.records(question,exclude);
+    const archiveKeys=new Set((this.archiveBank.questions[key]?.answers??[]).map(a=>normalize(a.text)));
+    if(!force&&available.some(a=>a.source==='answer-archive'||archiveKeys.has(normalize(a.text))))return Promise.resolve();
     if(!force&&this.regularBank.questions[key]?.complete&&available.some(a=>a.source==='regular-bank'))return Promise.resolve();
     const rareChoices=available.filter(a=>a.accepted&&(TIER[a.tier]??0)>=TIER.rare).length;
     const rareProposals=available.filter(a=>!a.accepted&&a.rarityRequested).length;
@@ -197,10 +214,8 @@ export class AnswerEngine {
   async warmup(){
     if(!this.provider)return;
     await this.provider.start();
-    const question='Name a city that has hosted the Summer Olympics';
-    const answers=await this.provider.generate(question,{onAnswer:text=>this.learn(question,text,{proposed:true})});
-    for(const text of unique(answers))this.learn(question,text,{proposed:true});
-    this.save();
+    // Start the worker connection without spending a generation request.
+    // Covered categories stay entirely local; generate() remains the fallback.
   }
   close(){this.closed=true;for(const job of this.inflight.values())job.controller.abort();this.save();this.provider?.close();}
 }

@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/7b69437f-7401-48e5-b8b3-d685e7ddb9fc
 
 The video uses timestamped browser captures sampled at about 1.2 frames per second, without audio. It shows Krillion’s actual game client while the bot plays.
 
-A Node.js bot for [Krillion Puffer Party](https://krillion.io), inspired by [this demonstration](https://www.tiktok.com/@ladiabeto/video/7699307823955447070). It prefers server-confirmed krillion, deep-cut, and rare answers, generates fresh choices for unseen categories with the signed-in Codex CLI, and learns from every accepted or rejected answer.
+A Node.js bot for [Krillion Puffer Party](https://krillion.io), inspired by [this demonstration](https://www.tiktok.com/@ladiabeto/video/7699307823955447070). It prefers server-confirmed krillion, deep-cut, and rare answers, uses a local cache of the public answer archive and generates fresh choices for uncovered categories with the signed-in Codex CLI, and learns from every accepted or rejected answer.
 
 ## Play
 
@@ -29,6 +29,12 @@ sh ./play.sh --help
 ```
 
 `--ai off` uses the local answer bank, learned cache, and 34,006-word dictionary. `--room` joins an existing room and waits for its host. `--codex PATH` selects a CLI executable. `--timeout MS` changes the per-game time limit. Ctrl+C leaves the room.
+
+### Answer archive first
+
+The engine loads `data/answer-archive.json.gz`, a bounded cache of canonical answers and published tiers from [Pinpoint Answer Hub’s Krillion archive](https://www.linkedinpinpointanswer.today/krillion-answers/archive). It selects the rarest unused matching answer locally, preserves its source URL and data hash, and skips Codex generation while archive choices remain. Puffer-confirmed answers, misses, and awarded tiers override imported expectations for that answer.
+
+The cache covers **699 categories** from **100 daily sets**, retaining **53,794 choices** with up to 100 rare-first choices per exact prompt. In the historical overlap, 280 of 300 previously accepted choices had matching tiers; Puffer observations override the 20 differences. Local lookup measured 0.23 ms median and 0.40 ms p95 across 699 categories. [Readiness report](validation/answer-archive-readiness.json). It contains answer names and ranks, without the site’s answer quips or article prose. See [source details and refresh instructions](docs/ANSWER-SOURCES.md). Uncovered categories retain the learned/static banks and Codex fallback. Starting the worker no longer makes a warmup generation request. Match evidence records actual Codex generation-request counts; those counts exclude development work in this chat.
 
 ### Public regular-game answer index
 
@@ -103,10 +109,10 @@ Open `http://127.0.0.1:8768/watch`. The local display loads Krillion’s own cli
 ## Repository layout
 
 ```text
-src/          Runtime, answer engine, public-bank importer, and match runners
+src/          Runtime, answer engine, archive importers, and match runners
 test/         Regression tests and recorded fixtures
 data/         Answer bank, dictionary, and learned answers
-docs/         Word-data attribution and license notices
+docs/         Answer-source attribution and word-data notices
 statistics/   Generated summary, CSV, and methodology
 validation/   Match results, reviews, benchmarks, and historical source snapshots
 media/        Category 6 clip and its evidence
@@ -122,7 +128,7 @@ npm run audit
 npm run stats
 ```
 
-The latest regression run passed **56 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **61 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
 Source: `src/puffer-bot.mjs` handles the game connection; `src/answer-engine.mjs` ranks and learns answers; `src/codex-provider.mjs` manages generation; `src/adaptive-campaign.mjs` runs and records reviewed games; `src/statistics.mjs` derives publication statistics.
 
