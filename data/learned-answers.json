@@ -32238,6 +32238,1227 @@
           "rarityRequested": true
         }
       }
+    },
+    "common sports injury": {
+      "question": "Name a common sports injury",
+      "answers": {
+        "acltear": {
+          "text": "ACL tear",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "acltear",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:51:22.627Z"
+        },
+        "tenniselbow": {
+          "text": "Tennis elbow",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "tenniselbow",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:51:39.768Z"
+        },
+        "shinsplints": {
+          "text": "Shin splints",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "shinsplints",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:51:48.817Z"
+        },
+        "turftoe": {
+          "text": "Turf toe",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mcltear": {
+          "text": "MCL tear",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "mcltear",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:51:26.242Z"
+        },
+        "sprainedankle": {
+          "text": "Sprained ankle",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "sprainedankle",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:51:42.596Z"
+        },
+        "hamstringstrain": {
+          "text": "Hamstring strain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "achillestendinitis": {
+          "text": "Achilles tendinitis",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "groinstrain": {
+          "text": "Groin strain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "anklesprain": {
+          "text": "Ankle sprain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rotatorcufftear": {
+          "text": "Rotator cuff tear",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "patellartendinitis": {
+          "text": "Patellar tendinitis",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "meniscustear": {
+          "text": "Meniscus tear",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "stressfracture": {
+          "text": "Stress fracture",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "shoulderdislocation": {
+          "text": "Shoulder dislocation",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "concussion": {
+          "text": "Concussion",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "plantarfasciitis": {
+          "text": "Plantar fasciitis",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "calfstrain": {
+          "text": "Calf strain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "quadricepsstrain": {
+          "text": "Quadriceps strain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hipflexorstrain": {
+          "text": "Hip flexor strain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wristsprain": {
+          "text": "Wrist sprain",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "runnersknee": {
+          "text": "Runner's knee",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "golferselbow": {
+          "text": "Golfer's elbow",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "separatedshoulder": {
+          "text": "Separated shoulder",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "brokenbone": {
+          "text": "Broken bone",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "brokenbone",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:51:47.218Z"
+        },
+        "dislocatedshoulder": {
+          "text": "Dislocated shoulder",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "dislocatedshoulder",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:51:48.227Z"
+        }
+      }
+    },
+    "city with a metro system": {
+      "question": "Name a city with a metro system",
+      "answers": {
+        "lausanne": {
+          "text": "Lausanne",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "canonical": "lausanne",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:52:00.980Z"
+        },
+        "washingtondc": {
+          "text": "Washington, D.C.",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "washingtondc",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:52:02.119Z"
+        },
+        "delhi": {
+          "text": "Delhi",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "delhi",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:52:03.242Z"
+        },
+        "budapest": {
+          "text": "Budapest",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "budapest",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:52:04.033Z"
+        },
+        "helsinki": {
+          "text": "Helsinki",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "helsinki",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:52:05.082Z"
+        },
+        "adana": {
+          "text": "Adana",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "canonical": "adana",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:52:05.605Z"
+        },
+        "paris": {
+          "text": "Paris",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "paris",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:52:07.250Z"
+        },
+        "mumbai": {
+          "text": "Mumbai",
+          "accepted": 1,
+          "misses": 0,
+          "order": 7,
+          "canonical": "mumbai",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:52:08.559Z"
+        },
+        "london": {
+          "text": "London",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "london",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:52:10.536Z"
+        },
+        "stockholm": {
+          "text": "Stockholm",
+          "accepted": 1,
+          "misses": 0,
+          "order": 9,
+          "canonical": "stockholm",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:52:13.472Z"
+        },
+        "agra": {
+          "text": "Agra",
+          "accepted": 2,
+          "misses": 0,
+          "order": 10,
+          "canonical": "agra",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:52:13.634Z"
+        },
+        "newyork": {
+          "text": "New York",
+          "accepted": 1,
+          "misses": 0,
+          "order": 11,
+          "canonical": "newyork",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:52:21.397Z"
+        },
+        "bengaluru": {
+          "text": "Bengaluru",
+          "accepted": 1,
+          "misses": 0,
+          "order": 12,
+          "canonical": "bengaluru",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:52:22.718Z"
+        },
+        "losangeles": {
+          "text": "Los Angeles",
+          "accepted": 1,
+          "misses": 0,
+          "order": 13,
+          "canonical": "losangeles",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:52:27.935Z"
+        },
+        "copenhagen": {
+          "text": "Copenhagen",
+          "accepted": 1,
+          "misses": 0,
+          "order": 14,
+          "canonical": "copenhagen",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:52:31.581Z"
+        },
+        "ahmedabad": {
+          "text": "Ahmedabad",
+          "accepted": 2,
+          "misses": 0,
+          "order": 15,
+          "canonical": "ahmedabad",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:52:31.730Z"
+        }
+      }
+    },
+    "spider man movie": {
+      "question": "Name a Spider-Man movie",
+      "answers": {
+        "spidermanacrossthespiderverse": {
+          "text": "Spider-Man: Across the Spider-Verse",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "spidermanacrossthespiderverse",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:53:03.927Z"
+        },
+        "theamazingspiderman2": {
+          "text": "The Amazing Spider-Man 2",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "spiderman3": {
+          "text": "Spider-Man 3",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "spidermanfarfromhome": {
+          "text": "Spider-Man: Far From Home",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "spidermanfarfromhome",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:53:02.903Z"
+        },
+        "spidermannowayhome": {
+          "text": "Spider-Man: No Way Home",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "spidermannowayhome",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:53:03.749Z"
+        },
+        "spiderman2": {
+          "text": "Spider-Man 2",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "spiderman2",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:53:10.253Z"
+        }
+      }
+    },
+    "food you d buy at a state fair or carnival": {
+      "question": "Name a food you'd buy at a state fair or carnival",
+      "answers": {
+        "friedcheesecurds": {
+          "text": "Fried cheese curds",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "friedcheesecurds",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:53:26.616Z"
+        },
+        "porktenderloinsandwich": {
+          "text": "Pork tenderloin sandwich",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "porktenderloinsandwich",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:53:36.483Z"
+        },
+        "elephantears": {
+          "text": "Elephant ears",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cottoncandy": {
+          "text": "Cotton candy",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "cottoncandy",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:53:19.856Z"
+        },
+        "hotdog": {
+          "text": "Hot dog",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "hotdog",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:53:20.614Z"
+        },
+        "roastedcorn": {
+          "text": "Roasted corn",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "roastedcorn",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:53:26.463Z"
+        },
+        "deepfriedbutter": {
+          "text": "Deep-fried butter",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "deepfriedbutter",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:53:27.601Z"
+        },
+        "churro": {
+          "text": "Churro",
+          "accepted": 1,
+          "misses": 0,
+          "order": 7,
+          "canonical": "churro",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:53:28.788Z"
+        },
+        "friedpickles": {
+          "text": "Fried pickles",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "walkingtaco": {
+          "text": "Walking taco",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "friedoreos": {
+          "text": "Fried Oreos",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "popcorn": {
+          "text": "Popcorn",
+          "accepted": 1,
+          "misses": 0,
+          "order": 11,
+          "canonical": "popcorn",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:53:30.422Z"
+        },
+        "funnelcake": {
+          "text": "Funnel cake",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "corndog": {
+          "text": "Corn dog",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "turkeyleg": {
+          "text": "Turkey leg",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "caramelapple": {
+          "text": "Caramel apple",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "saltwatertaffy": {
+          "text": "Saltwater taffy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kettlecorn": {
+          "text": "Kettle corn",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ribbonfries": {
+          "text": "Ribbon fries",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "friedgreentomatoes": {
+          "text": "Fried green tomatoes",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "friedtwinkies": {
+          "text": "Fried Twinkies",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chocolatecoveredbacon": {
+          "text": "Chocolate-covered bacon",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sausageandpeppers": {
+          "text": "Sausage and peppers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lemonshakeup": {
+          "text": "Lemon shake-up",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "candiedpecans": {
+          "text": "Candied pecans",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "frieddough": {
+          "text": "Fried dough",
+          "accepted": 0,
+          "misses": 0,
+          "order": 25,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "frozencheesecakeonastick": {
+          "text": "Frozen cheesecake on a stick",
+          "accepted": 0,
+          "misses": 0,
+          "order": 26,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "taco": {
+          "text": "Taco",
+          "accepted": 1,
+          "misses": 0,
+          "order": 27,
+          "canonical": "taco",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:53:36.289Z"
+        },
+        "caramelcorn": {
+          "text": "Caramel corn",
+          "accepted": 1,
+          "misses": 0,
+          "order": 28,
+          "canonical": "caramelcorn",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:53:37.284Z"
+        },
+        "belgianwaffle": {
+          "text": "Belgian waffle",
+          "accepted": 1,
+          "misses": 0,
+          "order": 29,
+          "canonical": "belgianwaffle",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:53:41.790Z"
+        },
+        "dango": {
+          "text": "Dango",
+          "accepted": 1,
+          "misses": 0,
+          "order": 30,
+          "canonical": "dango",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:53:44.912Z"
+        }
+      }
+    },
+    "country where spanish is an official language": {
+      "question": "Name a country where Spanish is an official language",
+      "answers": {
+        "westernsahara": {
+          "text": "Western Sahara",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "canonical": "westernsahara",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:53:54.574Z"
+        },
+        "spain": {
+          "text": "Spain",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "spain",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:54:02.587Z"
+        },
+        "argentina": {
+          "text": "Argentina",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "argentina",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:54:22.957Z"
+        },
+        "equatorialguinea": {
+          "text": "Equatorial Guinea",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "equatorialguinea",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:54:23.680Z"
+        },
+        "costarica": {
+          "text": "Costa Rica",
+          "accepted": 2,
+          "misses": 0,
+          "order": 4,
+          "canonical": "costarica",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:54:23.830Z"
+        },
+        "guatemala": {
+          "text": "Guatemala",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "guatemala",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:54:24.752Z"
+        },
+        "colombia": {
+          "text": "Colombia",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "colombia",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:54:30.328Z"
+        },
+        "bolivia": {
+          "text": "Bolivia",
+          "accepted": 1,
+          "misses": 0,
+          "order": 7,
+          "canonical": "bolivia",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:54:34.527Z"
+        },
+        "elsalvador": {
+          "text": "El Salvador",
+          "accepted": 2,
+          "misses": 0,
+          "order": 8,
+          "canonical": "elsalvador",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:54:34.673Z"
+        }
+      }
+    },
+    "sport played with a stick bat or club": {
+      "question": "Name a sport played with a stick, bat, or club",
+      "answers": {
+        "baseball": {
+          "text": "Baseball",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "baseball",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:54:48.814Z"
+        },
+        "cricket": {
+          "text": "Cricket",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "cricket",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:54:53.694Z"
+        },
+        "kilikiti": {
+          "text": "Kilikiti",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "canonical": "kilikiti",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:54:53.855Z"
+        },
+        "hurling": {
+          "text": "Hurling",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "hurling",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:54:57.764Z"
+        },
+        "lacrosse": {
+          "text": "Lacrosse",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "lacrosse",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:55:02.933Z"
+        },
+        "angampora": {
+          "text": "Angampora",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "canonical": "angampora",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:03.404Z"
+        }
+      }
+    },
+    "shark species": {
+      "question": "Name a shark species",
+      "answers": {
+        "cookiecuttershark": {
+          "text": "Cookie cutter shark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "cookiecuttershark",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:55:17.628Z"
+        },
+        "angelshark": {
+          "text": "Angel shark",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "angelshark",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:17.773Z"
+        },
+        "greatwhiteshark": {
+          "text": "Great white shark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "greatwhiteshark",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:55:18.886Z"
+        },
+        "baskingshark": {
+          "text": "Basking shark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "baskingshark",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:55:23.202Z"
+        },
+        "bambooshark": {
+          "text": "Bamboo shark",
+          "accepted": 2,
+          "misses": 0,
+          "order": 4,
+          "canonical": "bambooshark",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:23.670Z"
+        },
+        "whaleshark": {
+          "text": "Whale shark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "whaleshark",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:55:27.160Z"
+        },
+        "tigershark": {
+          "text": "Tiger shark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "tigershark",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:55:33.700Z"
+        },
+        "broadnosesevengillshark": {
+          "text": "Broadnose sevengill shark",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "canonical": "broadnosesevengillshark",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:34.156Z"
+        },
+        "catshark": {
+          "text": "Catshark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "catshark",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:38.221Z"
+        },
+        "hammerheadshark": {
+          "text": "Hammerhead shark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 9,
+          "canonical": "hammerheadshark",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:55:39.006Z"
+        },
+        "bronzewhaler": {
+          "text": "Bronze whaler",
+          "accepted": 2,
+          "misses": 0,
+          "order": 10,
+          "canonical": "bronzewhaler",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:39.154Z"
+        }
+      }
+    },
+    "nato member country": {
+      "question": "Name a NATO member country",
+      "answers": {
+        "montenegro": {
+          "text": "Montenegro",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "montenegro",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:55:55.982Z"
+        },
+        "northmacedonia": {
+          "text": "North Macedonia",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "northmacedonia",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:56:01.595Z"
+        },
+        "albania": {
+          "text": "Albania",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "albania",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:56:01.748Z"
+        },
+        "denmark": {
+          "text": "Denmark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "denmark",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:55:55.834Z"
+        },
+        "slovenia": {
+          "text": "Slovenia",
+          "accepted": 2,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "slovenia",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:56:11.383Z"
+        },
+        "slovakia": {
+          "text": "Slovakia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "croatia": {
+          "text": "Croatia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bulgaria": {
+          "text": "Bulgaria",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "romania": {
+          "text": "Romania",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lithuania": {
+          "text": "Lithuania",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "latvia": {
+          "text": "Latvia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "estonia": {
+          "text": "Estonia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "luxembourg": {
+          "text": "Luxembourg",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "iceland": {
+          "text": "Iceland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "portugal": {
+          "text": "Portugal",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "belgium": {
+          "text": "Belgium",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "czechia": {
+          "text": "Czechia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hungary": {
+          "text": "Hungary",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "finland": {
+          "text": "Finland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sweden": {
+          "text": "Sweden",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "norway": {
+          "text": "Norway",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "poland": {
+          "text": "Poland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "country that has territories or dependencies": {
+      "question": "Name a country that has territories or dependencies",
+      "answers": {
+        "denmark": {
+          "text": "Denmark",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "denmark",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:56:17.543Z"
+        },
+        "greece": {
+          "text": "Greece",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "greece",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:56:17.687Z"
+        },
+        "russia": {
+          "text": "Russia",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "russia",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:56:24.050Z"
+        },
+        "azerbaijan": {
+          "text": "Azerbaijan",
+          "accepted": 2,
+          "misses": 0,
+          "order": 3,
+          "canonical": "azerbaijan",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:56:24.194Z"
+        },
+        "unitedstates": {
+          "text": "United States",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "unitedstates",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:56:32.007Z"
+        },
+        "chile": {
+          "text": "Chile",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "canonical": "chile",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:56:32.153Z"
+        },
+        "canada": {
+          "text": "Canada",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "canada",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:56:39.046Z"
+        },
+        "finland": {
+          "text": "Finland",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "canonical": "finland",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:56:39.190Z"
+        }
+      }
     }
   }
 }

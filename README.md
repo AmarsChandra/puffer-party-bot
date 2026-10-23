@@ -69,15 +69,15 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Observed statistics
 
-Snapshot as of 2026-10-23T16:48:49.559Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
+Snapshot as of 2026-10-23T16:56:47.187Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
 
 | Metric | Result |
 | --- | --- |
-| Confirmed public wins / attempts | 20 / 21 (95.2%) |
+| Confirmed public wins / attempts | 21 / 22 (95.5%) |
 | Losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 11 / 11 |
-| Accepted submissions / acknowledgements | 343 / 359 (95.5%) |
-| Rare-or-better accepted answers | 159 / 343 (46.4%) |
+| Current / best consecutive wins | 12 / 12 |
+| Accepted submissions / acknowledgements | 367 / 383 (95.8%) |
+| Rare-or-better accepted answers | 182 / 367 (49.6%) |
 | Category first-answer availability, median | 3,610 ms |
 | First-turn wait, median | 82 ms |
 
@@ -88,7 +88,7 @@ Only the game’s acknowledgements establish acceptance and rarity. Imported ran
 ## How it improves
 
 - **Rare answers first:** verified tiers outrank guesses. Fresh generation targets niche, established answers; common-only local pools can request rare alternatives in the background.
-- **Fast first answers:** a persistent Codex worker starts before matchmaking. Uncovered categories stream an initial three-answer burst, then refill in the background when fewer than three useful choices remain. Known categories and spelling constraints answer locally. The dictionary fallback now favors lower-frequency Webster-backed words; actual Puffer tiers override this heuristic.
+- **Fast first answers:** a persistent Codex worker starts before matchmaking. Uncovered categories stream an initial three-answer burst, then refill in the background when fewer than two useful choices remain. Known categories and spelling constraints answer locally. The dictionary fallback now favors lower-frequency Webster-backed words; actual Puffer tiers override this heuristic.
 - **Learning:** the cache retains canonical accepted answers, server tiers, and misses for each category. Used names and reviewed aliases are excluded.
 - **Recovery:** reconnects preserve the bot’s guest identity. Usage-limit errors back off while local answers remain available.
 - **Evidence:** match reviews include rarity, first-answer readiness, first-turn wait, rejected answers, and player counts. Statistics regenerate after results and reviews.

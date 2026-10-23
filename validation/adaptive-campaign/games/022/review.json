@@ -1,0 +1,182 @@
+{
+  "room": "KPSG",
+  "gameId": "party:KPSG-1792773529241-3",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a common sports injury",
+      "readyMs": 3717,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "schooler": 1
+        },
+        "rareOrBetter": 0,
+        "rareOrBetterRate": 0
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a city with a metro system",
+      "readyMs": 11,
+      "firstTurnWaitMs": 83,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 3
+        },
+        "rareOrBetter": 4,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a Spider-Man movie",
+      "readyMs": 3716,
+      "firstTurnWaitMs": 81,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a food you'd buy at a state fair or carnival",
+      "readyMs": 3849,
+      "firstTurnWaitMs": 85,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "rare": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country where Spanish is an official language",
+      "readyMs": 10,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "rare": 2
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a sport played with a stick, bat, or club",
+      "readyMs": 10,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a shark species",
+      "readyMs": 11,
+      "firstTurnWaitMs": 81,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "deepcut": 4
+        },
+        "rareOrBetter": 4,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a NATO member country",
+      "readyMs": 3819,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2,
+          "rare": 1
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country that has territories or dependencies",
+      "readyMs": 10,
+      "firstTurnWaitMs": 82,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 3
+        },
+        "rareOrBetter": 4,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "schooler": 1,
+      "krillion": 4,
+      "deepcut": 14,
+      "rare": 5
+    },
+    "rareOrBetter": 23,
+    "rareOrBetterRate": 0.9583333333333334
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 20,
+    "ownAccepted": 24,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:50:31.982Z",
+  "generatedAt": "2026-10-23T16:57:50.145Z",
   "cohort": "Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.",
   "status": "awaiting-review",
   "activeMatch": null,
   "startedAt": "2026-10-22T17:45:39.910Z",
-  "lastResultAt": "2026-10-23T16:48:49.559Z",
+  "lastResultAt": "2026-10-23T16:56:47.187Z",
   "queue": "party",
   "outcomes": {
-    "attempts": 21,
-    "wins": 20,
+    "attempts": 22,
+    "wins": 21,
     "losses": 0,
     "inconclusive": 1,
-    "confirmedWinRate": 0.9523809523809523
+    "confirmedWinRate": 0.9545454545454546
   },
   "streak": {
-    "current": 11,
-    "best": 11,
+    "current": 12,
+    "best": 12,
     "target": 20
   },
   "setupFailures": [
@@ -32,9 +32,10 @@
     "measuredMatches": [
       19,
       20,
-      21
+      21,
+      22
     ],
-    "requests": 16,
+    "requests": 24,
     "unmeasuredMatches": [
       1,
       2,
@@ -57,10 +58,10 @@
     ]
   },
   "submissions": {
-    "acceptedAcknowledgements": 343,
+    "acceptedAcknowledgements": 367,
     "rejections": 16,
-    "acknowledgements": 359,
-    "acceptanceRate": 0.9554317548746518,
+    "acknowledgements": 383,
+    "acceptanceRate": 0.95822454308094,
     "misses": 4,
     "repeats": 12
   },
@@ -68,42 +69,42 @@
     "tiers": {
       "tooclever": 1,
       "plankton": 121,
-      "rare": 53,
-      "deepcut": 81,
-      "schooler": 62,
-      "krillion": 25
+      "rare": 58,
+      "deepcut": 95,
+      "schooler": 63,
+      "krillion": 29
     },
-    "rareOrBetter": 159,
-    "acceptedAcknowledgements": 343,
-    "rareOrBetterRate": 0.46355685131195334
+    "rareOrBetter": 182,
+    "acceptedAcknowledgements": 367,
+    "rareOrBetterRate": 0.49591280653950953
   },
   "categoryReadiness": {
-    "samples": 132,
-    "medianMs": 3610.5,
-    "p95Ms": 8589,
+    "samples": 141,
+    "medianMs": 3610,
+    "p95Ms": 7290,
     "maxMs": 10491
   },
   "firstTurnWait": {
-    "samples": 128,
+    "samples": 137,
     "medianMs": 82,
     "p95Ms": 4074,
     "maxMs": 10472
   },
   "latencyCoverage": {
-    "attemptsWithTimings": 20,
+    "attemptsWithTimings": 21,
     "attemptsWithoutTimings": [
       10
     ],
-    "categoryObservations": 133,
+    "categoryObservations": 142,
     "unavailableCategories": 1,
     "firstTurnsWithoutSubmission": 1
   },
   "firstAnswerSources": {
-    "codex": 95,
+    "codex": 99,
     "verified": 9,
     "bank": 15,
     "example": 2,
-    "answer-archive": 11
+    "answer-archive": 16
   },
   "versions": [
     {
@@ -231,6 +232,15 @@
       "inconclusive": 0,
       "acceptedAcknowledgements": 18,
       "rareOrBetter": 13
+    },
+    {
+      "sourceVersion": "d6f11f04f1a15970",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 24,
+      "rareOrBetter": 23
     }
   ],
   "matches": [
@@ -1103,6 +1113,48 @@
       "archiveAccepted": 5,
       "archiveTierAgreements": 5,
       "timedCategories": 7,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 22,
+      "gameId": "party:KPSG-1792773529241-3",
+      "room": "KPSG",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "d6f11f04f1a15970",
+      "finishedAt": "2026-10-23T16:56:47.187Z",
+      "acceptedAcknowledgements": 24,
+      "rejections": 0,
+      "serverAccepted": 24,
+      "rarity": {
+        "tiers": {
+          "schooler": 1,
+          "krillion": 4,
+          "deepcut": 14,
+          "rare": 5
+        },
+        "rareOrBetter": 23,
+        "acceptedAcknowledgements": 24,
+        "rareOrBetterRate": 0.9583333333333334
+      },
+      "categoryReadiness": {
+        "samples": 9,
+        "medianMs": 11,
+        "p95Ms": 3849,
+        "maxMs": 3849
+      },
+      "firstTurnWait": {
+        "samples": 9,
+        "medianMs": 81,
+        "p95Ms": 85,
+        "maxMs": 85
+      },
+      "codexRequests": 8,
+      "archiveCoveredCategories": 5,
+      "archiveAccepted": 17,
+      "archiveTierAgreements": 17,
+      "timedCategories": 9,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
     }

@@ -259,7 +259,8 @@ test('a fresh category streams three choices and defers refill until the useful 
   jobs[0].onAnswer('Kudu');assert.equal(engine.answer(q,new Set()).text,'Kudu');
   jobs[0].resolve(['Kudu','Eland','Topi']);await first;
   assert.equal(jobs.length,1);
-  const backfill=engine.prime(q,{exclude:new Set(['kudu'])});
+  await engine.prime(q,{exclude:new Set(['kudu'])});assert.equal(jobs.length,1);
+  const backfill=engine.prime(q,{exclude:new Set(['kudu','eland'])});
   assert.equal(jobs.length,2);assert.equal(jobs[1].count,18);
   jobs[1].resolve(['Gnu','Oryx','Impala','Gerenuk','Springbok']);await backfill;
   assert.equal(engine.records(q).length,8);

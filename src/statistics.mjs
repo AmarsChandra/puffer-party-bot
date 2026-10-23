@@ -68,6 +68,7 @@ As of ${s.generatedAt}. ${s.cohort}
 | First-turn wait, median / p95 | ${ms(s.firstTurnWait.medianMs)} / ${ms(s.firstTurnWait.p95Ms)} (${s.firstTurnWait.samples} observations) |
 | Categories without an available answer / first turns without a submission | ${s.latencyCoverage.unavailableCategories} / ${s.latencyCoverage.firstTurnsWithoutSubmission} |
 | Setup failures before participation | ${s.setupFailures.length} |
+| Fresh Codex generation requests | ${s.codexUsage.measuredMatches.length?s.codexUsage.requests:'n/a'} across ${s.codexUsage.measuredMatches.length} measured matches; ${s.codexUsage.unmeasuredMatches.length} historical matches unmeasured |
 
 Rarity tiers are reported by the game: ${Object.entries(s.rarity.tiers).map(([tier,count])=>`${tier}: ${count}`).join(', ')||'none yet'}.
 

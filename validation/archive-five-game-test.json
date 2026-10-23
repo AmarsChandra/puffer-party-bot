@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:50:31.929376+00:00",
+  "generatedAt": "2026-10-23T16:57:50.080979+00:00",
   "status": "in-progress",
   "plannedMatches": [
     19,
@@ -9,32 +9,33 @@
     22,
     23
   ],
-  "completedMatches": 3,
-  "wins": 3,
+  "completedMatches": 4,
+  "wins": 4,
   "losses": 0,
   "inconclusive": 0,
-  "accepted": 57,
+  "accepted": 81,
   "rejected": 1,
-  "acceptanceRate": 0.9827586206896551,
+  "acceptanceRate": 0.9878048780487805,
   "tiers": {
-    "krillion": 16,
-    "deepcut": 24,
-    "schooler": 4,
-    "rare": 9,
+    "krillion": 20,
+    "deepcut": 38,
+    "schooler": 5,
+    "rare": 14,
     "plankton": 4
   },
-  "rareOrBetter": 49,
+  "rareOrBetter": 72,
   "sources": {
-    "answer-archive": 33,
-    "codex": 18,
+    "answer-archive": 50,
+    "codex": 25,
     "verified": 3,
     "bank": 3
   },
-  "archiveCoveredCategories": 11,
-  "observedCategories": 21,
-  "archiveAccepted": 33,
-  "archiveTierAgreements": 33,
-  "codexRequests": 16,
+  "archiveCoveredCategories": 16,
+  "observedCategories": 30,
+  "archiveAccepted": 50,
+  "archiveTierAgreements": 50,
+  "codexRequests": 24,
+  "requestsFromArchiveCoveredCategories": 0,
   "unmeasuredRequestCounts": [],
   "matches": [
     {
@@ -69,7 +70,34 @@
         8,
         10
       ],
-      "codexRequests": 4
+      "codexRequests": 4,
+      "generationEvents": [
+        {
+          "at": "2026-10-23T16:33:57.638Z",
+          "question": "Name a phase of the Moon",
+          "count": 3,
+          "requestNumber": 1
+        },
+        {
+          "at": "2026-10-23T16:34:01.032Z",
+          "question": "Name a phase of the Moon",
+          "count": 18,
+          "requestNumber": 2
+        },
+        {
+          "at": "2026-10-23T16:34:06.896Z",
+          "question": "Name a phase of the Moon",
+          "count": 18,
+          "requestNumber": 3
+        },
+        {
+          "at": "2026-10-23T16:36:39.262Z",
+          "question": "Name an English word containing \u201cinter\u201d",
+          "count": 18,
+          "requestNumber": 4
+        }
+      ],
+      "requestsFromArchiveCoveredCategories": 0
     },
     {
       "number": 20,
@@ -99,7 +127,40 @@
         12,
         12
       ],
-      "codexRequests": 5
+      "codexRequests": 5,
+      "generationEvents": [
+        {
+          "at": "2026-10-23T16:38:31.981Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "count": 18,
+          "requestNumber": 1
+        },
+        {
+          "at": "2026-10-23T16:38:59.979Z",
+          "question": "Name a Kendrick Lamar song",
+          "count": 3,
+          "requestNumber": 2
+        },
+        {
+          "at": "2026-10-23T16:39:14.807Z",
+          "question": "Name a Kendrick Lamar song",
+          "count": 18,
+          "requestNumber": 3
+        },
+        {
+          "at": "2026-10-23T16:39:45.057Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "count": 3,
+          "requestNumber": 4
+        },
+        {
+          "at": "2026-10-23T16:39:48.816Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "count": 18,
+          "requestNumber": 5
+        }
+      ],
+      "requestsFromArchiveCoveredCategories": 0
     },
     {
       "number": 21,
@@ -130,7 +191,135 @@
         13,
         12
       ],
-      "codexRequests": 7
+      "codexRequests": 7,
+      "generationEvents": [
+        {
+          "at": "2026-10-23T16:43:27.388Z",
+          "question": "Name a food or drink made from corn",
+          "count": 3,
+          "requestNumber": 1
+        },
+        {
+          "at": "2026-10-23T16:44:11.024Z",
+          "question": "Name an English word containing \u201cink\u201d",
+          "count": 18,
+          "requestNumber": 2
+        },
+        {
+          "at": "2026-10-23T16:45:06.186Z",
+          "question": "Name something at a kids' birthday party",
+          "count": 3,
+          "requestNumber": 3
+        },
+        {
+          "at": "2026-10-23T16:45:23.197Z",
+          "question": "Name something at a kids' birthday party",
+          "count": 18,
+          "requestNumber": 4
+        },
+        {
+          "at": "2026-10-23T16:46:17.585Z",
+          "question": "Name a country that borders the Pacific Ocean",
+          "count": 3,
+          "requestNumber": 5
+        },
+        {
+          "at": "2026-10-23T16:46:36.049Z",
+          "question": "Name a country that borders the Pacific Ocean",
+          "count": 18,
+          "requestNumber": 6
+        },
+        {
+          "at": "2026-10-23T16:48:32.231Z",
+          "question": "Name an English word ending in \u201c-ment\u201d",
+          "count": 18,
+          "requestNumber": 7
+        }
+      ],
+      "requestsFromArchiveCoveredCategories": 0
+    },
+    {
+      "number": 22,
+      "room": "KPSG",
+      "gameId": "party:KPSG-1792773529241-3",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "d6f11f04f1a15970",
+      "accepted": 24,
+      "rejected": 0,
+      "tiers": {
+        "schooler": 1,
+        "krillion": 4,
+        "deepcut": 14,
+        "rare": 5
+      },
+      "sources": {
+        "codex": 7,
+        "answer-archive": 17
+      },
+      "observedCategories": 9,
+      "archiveCoveredCategories": 5,
+      "archiveAccepted": 17,
+      "archiveTierAgreements": 17,
+      "archiveReadinessMs": [
+        11,
+        10,
+        10,
+        11,
+        10
+      ],
+      "codexRequests": 8,
+      "generationEvents": [
+        {
+          "at": "2026-10-23T16:51:19.530Z",
+          "question": "Name a common sports injury",
+          "count": 3,
+          "requestNumber": 1
+        },
+        {
+          "at": "2026-10-23T16:51:39.822Z",
+          "question": "Name a common sports injury",
+          "count": 18,
+          "requestNumber": 2
+        },
+        {
+          "at": "2026-10-23T16:52:39.796Z",
+          "question": "Name a Spider-Man movie",
+          "count": 3,
+          "requestNumber": 3
+        },
+        {
+          "at": "2026-10-23T16:53:03.994Z",
+          "question": "Name a Spider-Man movie",
+          "count": 18,
+          "requestNumber": 4
+        },
+        {
+          "at": "2026-10-23T16:53:10.332Z",
+          "question": "Name a food you'd buy at a state fair or carnival",
+          "count": 3,
+          "requestNumber": 5
+        },
+        {
+          "at": "2026-10-23T16:53:26.679Z",
+          "question": "Name a food you'd buy at a state fair or carnival",
+          "count": 18,
+          "requestNumber": 6
+        },
+        {
+          "at": "2026-10-23T16:55:47.318Z",
+          "question": "Name a NATO member country",
+          "count": 3,
+          "requestNumber": 7
+        },
+        {
+          "at": "2026-10-23T16:55:56.039Z",
+          "question": "Name a NATO member country",
+          "count": 18,
+          "requestNumber": 8
+        }
+      ],
+      "requestsFromArchiveCoveredCategories": 0
     }
   ],
   "interpretation": [
