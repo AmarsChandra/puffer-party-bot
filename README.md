@@ -87,7 +87,7 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Ranked browser run — in progress
 
-The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **3 wins and 7 losses**, with a **current / best streak of 2 / 2** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
+The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **4 wins and 7 losses**, with a **current / best streak of 3 / 3** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
 
 [Ranked clips and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
 

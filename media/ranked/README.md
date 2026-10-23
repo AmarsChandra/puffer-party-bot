@@ -19,3 +19,4 @@ All completed attempts with captured frames are linked below, including losses. 
 | 8 | BFQF | loss | [Clip](ranked-BFQF-loss.mp4) · [final capture](ranked-BFQF-loss.png) | 59.967 s |
 | 9 | HFBX | win | [Clip](ranked-HFBX-win.mp4) · [final capture](ranked-HFBX-win.png) | 19.206 s |
 | 10 | LSRE | win | [Clip](ranked-LSRE-win.mp4) · [final capture](ranked-LSRE-win.png) | 22.138 s |
+| 11 | ZBWY | win | [Clip](ranked-ZBWY-win.mp4) · [final capture](ranked-ZBWY-win.png) | 6.417 s |

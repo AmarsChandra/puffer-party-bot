@@ -1,8 +1,8 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 2,
-  "best": 2,
+  "current": 3,
+  "best": 3,
   "records": [
     {
       "number": 1,
@@ -94,6 +94,15 @@
       "name": "Dinosaur",
       "outcome": "win",
       "finishedAt": "2026-10-23T21:02:37.640Z"
+    },
+    {
+      "number": 11,
+      "room": "ZBWY",
+      "startedAt": "2026-10-23T21:05:34.451Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T21:08:27.931Z"
     }
   ],
   "active": null,

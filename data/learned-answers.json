@@ -35566,6 +35566,364 @@
           "rarityRequested": true
         }
       }
+    },
+    "star wars character": {
+      "question": "Name a Star Wars character",
+      "answers": {}
+    },
+    "license or permit a person can get": {
+      "question": "Name a kind of license or permit a person can get",
+      "answers": {}
+    },
+    "country that has a g in its name": {
+      "question": "Name a country that has a G in its name",
+      "answers": {}
+    },
+    "character from the wizard of oz": {
+      "question": "Name a character from The Wizard of Oz",
+      "answers": {
+        "auntem": {
+          "text": "Aunt Em",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "unclehenry": {
+          "text": "Uncle Henry",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "missgulch": {
+          "text": "Miss Gulch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nikko": {
+          "text": "Nikko",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "boq": {
+          "text": "Boq",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "toto": {
+          "text": "Toto",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "glinda": {
+          "text": "Glinda",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "scarecrow": {
+          "text": "Scarecrow",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cowardlylion": {
+          "text": "Cowardly Lion",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "professormarvel": {
+          "text": "Professor Marvel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hunk": {
+          "text": "Hunk",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hickory": {
+          "text": "Hickory",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "zeke": {
+          "text": "Zeke",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wickedwitchofthewest": {
+          "text": "Wicked Witch of the West",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wickedwitchoftheeast": {
+          "text": "Wicked Witch of the East",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "guardianofthegates": {
+          "text": "Guardian of the Gates",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "soldierwiththegreenwhiskers": {
+          "text": "Soldier with the Green Whiskers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "queenofthefieldmice": {
+          "text": "Queen of the Field Mice",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kingofthewingedmonkeys": {
+          "text": "King of the Winged Monkeys",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "goodwitchofthenorth": {
+          "text": "Good Witch of the North",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "jelliajamb": {
+          "text": "Jellia Jamb",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "city in florida": {
+      "question": "Name a city in Florida",
+      "answers": {
+        "palatka": {
+          "text": "Palatka",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sebring": {
+          "text": "Sebring",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "defuniaksprings": {
+          "text": "DeFuniak Springs",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wauchula": {
+          "text": "Wauchula",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "zolfosprings": {
+          "text": "Zolfo Springs",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chiefland": {
+          "text": "Chiefland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "williston": {
+          "text": "Williston",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "starke": {
+          "text": "Starke",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "perry": {
+          "text": "Perry",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "monticello": {
+          "text": "Monticello",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "quincy": {
+          "text": "Quincy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bonifay": {
+          "text": "Bonifay",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chipley": {
+          "text": "Chipley",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "graceville": {
+          "text": "Graceville",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "blountstown": {
+          "text": "Blountstown",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "apalachicola": {
+          "text": "Apalachicola",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "carrabelle": {
+          "text": "Carrabelle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "portstjoe": {
+          "text": "Port St. Joe",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hawthorne": {
+          "text": "Hawthorne",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "crescentcity": {
+          "text": "Crescent City",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "frostproof": {
+          "text": "Frostproof",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }
