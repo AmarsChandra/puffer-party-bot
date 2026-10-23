@@ -243,6 +243,21 @@
       "bytes": 6731635,
       "sha256": "f83fc8dbdf94f6caaead3850597794c185e315d3dbe0f60bbf5ab5e83a7afc78",
       "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    },
+    {
+      "number": 17,
+      "room": "FUYX",
+      "outcome": "win",
+      "frames": 348,
+      "firstFrameAt": 1792791735202,
+      "lastFrameAt": 1792792025792,
+      "maxGapSeconds": 5.927,
+      "gapsOverTwoSeconds": 5,
+      "gapsOverFiveSeconds": 2,
+      "video": "ranked-FUYX-win.mp4",
+      "bytes": 7107337,
+      "sha256": "3e542c700f6f50ed137d05bd16c65255199b364e3d5c8a01d9b901fc4439b4b2",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     }
   ],
   "note": "Every completed retained attempt with captured frames has an encoded clip, including losses. Raw sampled frames remain local. Initial handoff and controller setup had capture gaps, which this report exposes."

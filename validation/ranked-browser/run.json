@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 2,
+  "current": 3,
   "best": 5,
   "records": [
     {
@@ -149,6 +149,15 @@
       "name": "Dinosaur",
       "outcome": "win",
       "finishedAt": "2026-10-23T21:41:00.648Z"
+    },
+    {
+      "number": 17,
+      "room": "FUYX",
+      "startedAt": "2026-10-23T21:42:14.900Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T21:47:05.845Z"
     }
   ],
   "active": null,

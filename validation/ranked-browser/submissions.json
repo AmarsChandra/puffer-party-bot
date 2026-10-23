@@ -3128,6 +3128,338 @@
           }
         }
       ]
+    },
+    {
+      "number": 17,
+      "room": "FUYX",
+      "outcome": "win",
+      "submitted": 24,
+      "categoriesSubmitted": 7,
+      "bySource": {
+        "codex": 16,
+        "answer-archive": 5,
+        "regular-bank": 3
+      },
+      "visibleTiers": {
+        "DEEP CUT": 9,
+        "RARE": 8
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:42:32.677Z",
+          "question": "Name a country that has hosted the Olympic Games",
+          "answer": "Finland",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:42:33.187Z",
+            "visiblePlayerBlock": [
+              "finland",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:43:16.058Z",
+          "question": "Name a country whose flag has both green and red",
+          "answer": "Mauritania",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:43:30.022Z",
+          "question": "Name a country whose flag has both green and red",
+          "answer": "Belize",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:43:30.322Z",
+            "visiblePlayerBlock": [
+              "belize",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:43:53.873Z",
+          "question": "Name a character from Stranger Things",
+          "answer": "Funshine",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:44:06.190Z",
+          "question": "Name a character from Stranger Things",
+          "answer": "Aboleth",
+          "source": "regular-bank",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:44:06.447Z",
+            "visiblePlayerBlock": [
+              "aboleth",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:44:31.105Z",
+          "question": "Name a character from Stranger Things",
+          "answer": "Adam",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:44:49.647Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Sepak takraw",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:44:49.904Z",
+            "visiblePlayerBlock": [
+              "sepak takraw",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:44:54.128Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Bandy",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:44:54.437Z",
+            "visiblePlayerBlock": [
+              "bandy",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:45:00.814Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Pes\u00e4pallo",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:45:01.055Z",
+            "visiblePlayerBlock": [
+              "pes\u00e4pallo",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:45:11.527Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Korfball",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:45:11.770Z",
+            "visiblePlayerBlock": [
+              "korfball",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:45:18.454Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Tchoukball",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:45:18.770Z",
+            "visiblePlayerBlock": [
+              "tchoukball",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:45:23.948Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Goalball",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:45:24.452Z",
+            "visiblePlayerBlock": [
+              "goalball",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:45:37.411Z",
+          "question": "Name a sport played with a ball",
+          "answer": "Torball",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:45:37.741Z",
+            "visiblePlayerBlock": [
+              "torball",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:45:52.683Z",
+          "question": "Name a city in Japan",
+          "answer": "Utashinai",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:46:01.878Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Dunlop",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:02.109Z",
+            "visiblePlayerBlock": [
+              "dunlop",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:46:20.688Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Slazenger",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:46:24.869Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Tecnifibre",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:25.166Z",
+            "visiblePlayerBlock": [
+              "tecnifibre",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:46:29.205Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Karakal",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:46:29.662Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Babolat",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:29.959Z",
+            "visiblePlayerBlock": [
+              "babolat",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:46:31.837Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Yonex",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:32.284Z",
+            "visiblePlayerBlock": [
+              "yonex",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:46:36.970Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Victor",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:46:37.375Z",
+          "question": "Name a sporting-goods brand",
+          "answer": "Li-Ning",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:37.837Z",
+            "visiblePlayerBlock": [
+              "li-ning",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:46:47.336Z",
+          "question": "Name a gym exercise",
+          "answer": "Nordic curl",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:47.604Z",
+            "visiblePlayerBlock": [
+              "nordic curl",
+              "Dinosaur",
+              "1274",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:46:55.329Z",
+          "question": "Name a gym exercise",
+          "answer": "Ab wheel rollout",
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:46:55.696Z",
+            "visiblePlayerBlock": [
+              "ab wheel rollout",
+              "Dinosaur",
+              "1274",
+              "RARE"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
