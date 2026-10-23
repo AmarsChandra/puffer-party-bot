@@ -36372,6 +36372,393 @@
           "rarityRequested": true
         }
       }
+    },
+    "cooking method": {
+      "question": "Name a cooking method",
+      "answers": {}
+    },
+    "term used in theater or on stage": {
+      "question": "Name a term used in theater or on stage",
+      "answers": {
+        "vomitorium": {
+          "text": "Vomitorium",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cyclorama": {
+          "text": "Cyclorama",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wagonstage": {
+          "text": "Wagon stage",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "device or object used to tell time": {
+      "question": "Name a device or object used to tell time",
+      "answers": {
+        "waterclock": {
+          "text": "Water clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "candleclock": {
+          "text": "Candle clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sundial": {
+          "text": "Sundial",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nocturnal": {
+          "text": "Nocturnal",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "incenseclock": {
+          "text": "Incense clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "oillampclock": {
+          "text": "Oil-lamp clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "astronomicalclock": {
+          "text": "Astronomical clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "marinechronometer": {
+          "text": "Marine chronometer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "timeball": {
+          "text": "Time ball",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "atomicclock": {
+          "text": "Atomic clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pendulumclock": {
+          "text": "Pendulum clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "torsionclock": {
+          "text": "Torsion clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tuningforkclock": {
+          "text": "Tuning fork clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "atmosclock": {
+          "text": "Atmos clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nixieclock": {
+          "text": "Nixie clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "flipclock": {
+          "text": "Flip clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "carriageclock": {
+          "text": "Carriage clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pocketwatch": {
+          "text": "Pocket watch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wristwatch": {
+          "text": "Wristwatch",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "speakingclock": {
+          "text": "Speaking clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "alarmclock": {
+          "text": "Alarm clock",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "country with three syllables english pronunciation": {
+      "question": "Name a country with three syllables (English pronunciation)",
+      "answers": {}
+    },
+    "michael jackson song": {
+      "question": "Name a Michael Jackson song",
+      "answers": {}
+    },
+    "grand prix on the 2026 formula 1 calendar": {
+      "question": "Name a Grand Prix on the 2026 Formula 1 calendar",
+      "answers": {
+        "azerbaijangrandprix": {
+          "text": "Azerbaijan Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "qatargrandprix": {
+          "text": "Qatar Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "saopaulograndprix": {
+          "text": "São Paulo Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chinesegrandprix": {
+          "text": "Chinese Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bahraingrandprix": {
+          "text": "Bahrain Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "saudiarabiangrandprix": {
+          "text": "Saudi Arabian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "emiliaromagnagrandprix": {
+          "text": "Emilia Romagna Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "belgiangrandprix": {
+          "text": "Belgian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hungariangrandprix": {
+          "text": "Hungarian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dutchgrandprix": {
+          "text": "Dutch Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "austriangrandprix": {
+          "text": "Austrian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "canadiangrandprix": {
+          "text": "Canadian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "singaporegrandprix": {
+          "text": "Singapore Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "japanesegrandprix": {
+          "text": "Japanese Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "australiangrandprix": {
+          "text": "Australian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "miamigrandprix": {
+          "text": "Miami Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lasvegasgrandprix": {
+          "text": "Las Vegas Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "unitedstatesgrandprix": {
+          "text": "United States Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "italiangrandprix": {
+          "text": "Italian Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "monacograndprix": {
+          "text": "Monaco Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "abudhabigrandprix": {
+          "text": "Abu Dhabi Grand Prix",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }

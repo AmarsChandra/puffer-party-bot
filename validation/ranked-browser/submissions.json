@@ -1,5 +1,5 @@
 {
-  "method": "Counts are Enter-key submissions logged by the browser controller. They do not establish game acceptance or rarity. Source describes the local choice provider, not server verification in this ranked game.",
+  "method": "Counts are Enter-key submissions. visibleTier requires a matching submitted answer, question, and Dinosaur player block after the turn has moved away; conflicting labels remain ambiguous and absent labels remain unknown. This is rendered UI evidence, separate from server-acknowledgement statistics. Source describes the local choice provider, not verification in this ranked game.",
   "matches": [
     {
       "number": 1,
@@ -8,6 +8,7 @@
       "submitted": 0,
       "categoriesSubmitted": 0,
       "bySource": {},
+      "visibleTiers": {},
       "submissions": []
     },
     {
@@ -17,6 +18,7 @@
       "submitted": 0,
       "categoriesSubmitted": 0,
       "bySource": {},
+      "visibleTiers": {},
       "submissions": []
     },
     {
@@ -26,6 +28,7 @@
       "submitted": 0,
       "categoriesSubmitted": 0,
       "bySource": {},
+      "visibleTiers": {},
       "submissions": []
     },
     {
@@ -38,12 +41,25 @@
         "codex": 1,
         "answer-archive": 2
       },
+      "visibleTiers": {
+        "DEEP CUT": 1
+      },
       "submissions": [
         {
           "at": "2026-10-23T20:28:36.799Z",
           "question": "Name an instrument used to take measurements",
           "answer": "Spherometer",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:28:37.074Z",
+            "visiblePlayerBlock": [
+              "spherometer",
+              "Dinosaur",
+              "1074",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:29:16.637Z",
@@ -69,30 +85,74 @@
         "codex": 2,
         "bank": 2
       },
+      "visibleTiers": {
+        "RARE": 3,
+        "DEEP CUT": 1
+      },
       "submissions": [
         {
           "at": "2026-10-23T20:31:26.487Z",
           "question": "Name a country or former team with an Olympic volleyball medal (indoor or beach, through Paris 2024)",
           "answer": "Peru",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:31:26.684Z",
+            "visiblePlayerBlock": [
+              "peru",
+              "Dinosaur",
+              "1074",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:31:31.908Z",
           "question": "Name a country or former team with an Olympic volleyball medal (indoor or beach, through Paris 2024)",
           "answer": "Bulgaria",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:31:32.250Z",
+            "visiblePlayerBlock": [
+              "bulgaria",
+              "Dinosaur",
+              "1074",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:31:47.703Z",
           "question": "Name a woodwind instrument",
           "answer": "Heckelphone",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:31:47.907Z",
+            "visiblePlayerBlock": [
+              "heckelphone",
+              "Dinosaur",
+              "1074",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:32:04.591Z",
           "question": "Name a woodwind instrument",
           "answer": "Contrabassoon",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:32:04.763Z",
+            "visiblePlayerBlock": [
+              "contrabassoon",
+              "Dinosaur",
+              "1074",
+              "RARE"
+            ]
+          }
         }
       ]
     },
@@ -105,6 +165,7 @@
       "bySource": {
         "answer-archive": 1
       },
+      "visibleTiers": {},
       "submissions": [
         {
           "at": "2026-10-23T20:33:31.137Z",
@@ -124,18 +185,43 @@
         "codex": 15,
         "answer-archive": 18
       },
+      "visibleTiers": {
+        "RARE": 13,
+        "DEEP CUT": 9,
+        "SCHOOLER": 2
+      },
       "submissions": [
         {
           "at": "2026-10-23T20:34:42.072Z",
           "question": "Name a nut or seed butter",
           "answer": "Pistachio butter",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:34:42.170Z",
+            "visiblePlayerBlock": [
+              "pistachio butter",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:34:56.039Z",
           "question": "Name a nut or seed butter",
           "answer": "Pumpkin seed butter",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:34:56.135Z",
+            "visiblePlayerBlock": [
+              "pumpkin seed butter",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:36:13.094Z",
@@ -159,13 +245,33 @@
           "at": "2026-10-23T20:36:58.841Z",
           "question": "Name an organ of the human body",
           "answer": "Bone marrow",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:36:59.096Z",
+            "visiblePlayerBlock": [
+              "bone marrow",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:37:29.852Z",
           "question": "Name an organ of the human body",
           "answer": "Lymph nodes",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:37:30.018Z",
+            "visiblePlayerBlock": [
+              "lymph nodes",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:37:48.623Z",
@@ -189,7 +295,17 @@
           "at": "2026-10-23T20:38:10.685Z",
           "question": "Name a block in Minecraft",
           "answer": "Crying Obsidian",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:38:10.836Z",
+            "visiblePlayerBlock": [
+              "crying obsidian",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:38:14.482Z",
@@ -201,13 +317,33 @@
           "at": "2026-10-23T20:38:17.851Z",
           "question": "Name a block in Minecraft",
           "answer": "Activator Rail",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:38:17.946Z",
+            "visiblePlayerBlock": [
+              "activator rail",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:38:24.238Z",
           "question": "Name a block in Minecraft",
           "answer": "Allium",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:38:24.423Z",
+            "visiblePlayerBlock": [
+              "allium",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:38:39.688Z",
@@ -219,19 +355,49 @@
           "at": "2026-10-23T20:38:48.646Z",
           "question": "Name a vitamin or dietary mineral",
           "answer": "Cobalt",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:38:48.745Z",
+            "visiblePlayerBlock": [
+              "cobalt",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:38:53.042Z",
           "question": "Name a vitamin or dietary mineral",
           "answer": "Pantothenic acid",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:38:53.165Z",
+            "visiblePlayerBlock": [
+              "pantothenic acid",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:39:05.026Z",
           "question": "Name a vitamin or dietary mineral",
           "answer": "Chloride",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:39:05.121Z",
+            "visiblePlayerBlock": [
+              "chloride",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:39:11.579Z",
@@ -243,85 +409,225 @@
           "at": "2026-10-23T20:39:16.647Z",
           "question": "Name a country whose name starts with C",
           "answer": "Cabo Verde",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:39:16.741Z",
+            "visiblePlayerBlock": [
+              "cabo verde",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:19.759Z",
           "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
           "answer": "Nintendo DSi XL",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:19.857Z",
+            "visiblePlayerBlock": [
+              "nintendo dsi xl",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:26.486Z",
           "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
           "answer": "Game Boy Micro",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:26.582Z",
+            "visiblePlayerBlock": [
+              "game boy micro",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:27.767Z",
           "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
           "answer": "New Nintendo 2DS XL",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:27.861Z",
+            "visiblePlayerBlock": [
+              "new nintendo 2ds xl",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:36.235Z",
           "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
           "answer": "Game Boy Light",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:36.333Z",
+            "visiblePlayerBlock": [
+              "game boy light",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:38.220Z",
           "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
           "answer": "Color TV-Game 6",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:38.317Z",
+            "visiblePlayerBlock": [
+              "color tv-game 6",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:40.842Z",
           "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
           "answer": "Color TV-Game 15",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:41.132Z",
+            "visiblePlayerBlock": [
+              "color tv-game 15",
+              "Dinosaur",
+              "1080",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:50.532Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "mightn't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:50.715Z",
+            "visiblePlayerBlock": [
+              "mightn't",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:40:59.651Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "mustn't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:40:59.833Z",
+            "visiblePlayerBlock": [
+              "mustn't",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:41:01.943Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "needn't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:41:02.176Z",
+            "visiblePlayerBlock": [
+              "needn't",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:41:05.138Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "shan't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:41:05.327Z",
+            "visiblePlayerBlock": [
+              "shan't",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:41:09.002Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "oughtn't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:41:09.103Z",
+            "visiblePlayerBlock": [
+              "oughtn't",
+              "Dinosaur",
+              "1080",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:41:12.820Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "weren't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T20:41:12.916Z",
+            "visiblePlayerBlock": [
+              "weren't",
+              "Dinosaur",
+              "1080",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:41:20.109Z",
           "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
           "answer": "hadn't",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T20:41:20.205Z",
+            "visiblePlayerBlock": [
+              "hadn't",
+              "Dinosaur",
+              "1080",
+              "SCHOOLER"
+            ]
+          }
         }
       ]
     },
@@ -334,18 +640,42 @@
       "bySource": {
         "codex": 2
       },
+      "visibleTiers": {
+        "DEEP CUT": 1,
+        "RARE": 1
+      },
       "submissions": [
         {
           "at": "2026-10-23T20:42:28.504Z",
           "question": "Name a country with a land border longer than 2,000 kilometres",
           "answer": "Mauritania",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:42:28.779Z",
+            "visiblePlayerBlock": [
+              "mauritania",
+              "Dinosaur",
+              "1106",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:42:46.034Z",
           "question": "Name a country with a land border longer than 2,000 kilometres",
           "answer": "Kazakhstan",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:42:46.324Z",
+            "visiblePlayerBlock": [
+              "kazakhstan",
+              "Dinosaur",
+              "1106",
+              "RARE"
+            ]
+          }
         }
       ]
     },
@@ -360,6 +690,11 @@
         "answer-archive": 4,
         "verified": 1,
         "bank": 5
+      },
+      "visibleTiers": {
+        "DEEP CUT": 1,
+        "RARE": 4,
+        "PLANKTON": 4
       },
       "submissions": [
         {
@@ -378,19 +713,49 @@
           "at": "2026-10-23T20:45:13.641Z",
           "question": "Name a type of cake",
           "answer": "Applesauce cake",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:45:14.222Z",
+            "visiblePlayerBlock": [
+              "applesauce cake",
+              "Dinosaur",
+              "1106",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:45:37.278Z",
           "question": "Name a part of a bicycle",
           "answer": "Derailleur",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:45:37.889Z",
+            "visiblePlayerBlock": [
+              "derailleur",
+              "Dinosaur",
+              "1106",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:45:43.863Z",
           "question": "Name a part of a bicycle",
           "answer": "Bottom bracket",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:45:44.500Z",
+            "visiblePlayerBlock": [
+              "bottom bracket",
+              "Dinosaur",
+              "1106",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:45:58.673Z",
@@ -402,7 +767,17 @@
           "at": "2026-10-23T20:46:27.526Z",
           "question": "Name a compound word ending in \u201cway\u201d",
           "answer": "Spillway",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:46:28.106Z",
+            "visiblePlayerBlock": [
+              "spillway",
+              "Dinosaur",
+              "1106",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:46:46.361Z",
@@ -420,19 +795,49 @@
           "at": "2026-10-23T20:47:11.168Z",
           "question": "Name a compound word starting with \u201csnow\u201d",
           "answer": "snowball",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T20:47:11.720Z",
+            "visiblePlayerBlock": [
+              "snowball",
+              "Dinosaur",
+              "1106",
+              "PLANKTON"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:47:46.802Z",
           "question": "Name an English word containing \u201csuper\u201d",
           "answer": "superfluid",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:47:47.373Z",
+            "visiblePlayerBlock": [
+              "superfluid",
+              "Dinosaur",
+              "1106",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:47:58.719Z",
           "question": "Name an English word containing \u201csuper\u201d",
           "answer": "superpowered",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T20:47:59.316Z",
+            "visiblePlayerBlock": [
+              "superpowered",
+              "Dinosaur",
+              "1106",
+              "PLANKTON"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:48:01.738Z",
@@ -444,13 +849,33 @@
           "at": "2026-10-23T20:48:02.391Z",
           "question": "Name an English word containing \u201csuper\u201d",
           "answer": "superfine",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T20:48:02.909Z",
+            "visiblePlayerBlock": [
+              "superfine",
+              "Dinosaur",
+              "1106",
+              "PLANKTON"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:48:08.235Z",
           "question": "Name an English word containing \u201csuper\u201d",
           "answer": "superimpose",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T20:48:08.746Z",
+            "visiblePlayerBlock": [
+              "superimpose",
+              "Dinosaur",
+              "1106",
+              "PLANKTON"
+            ]
+          }
         }
       ]
     },
@@ -464,6 +889,12 @@
         "answer-archive": 7,
         "codex": 16,
         "verified": 4
+      },
+      "visibleTiers": {
+        "DEEP CUT": 8,
+        "RARE": 5,
+        "SCHOOLER": 1,
+        "PLANKTON": 1
       },
       "submissions": [
         {
@@ -482,25 +913,65 @@
           "at": "2026-10-23T20:58:10.477Z",
           "question": "Name a nocturnal animal",
           "answer": "Bandicoot",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:58:10.737Z",
+            "visiblePlayerBlock": [
+              "bandicoot",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:58:15.353Z",
           "question": "Name a nocturnal animal",
           "answer": "Bilby",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:58:15.655Z",
+            "visiblePlayerBlock": [
+              "bilby",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:58:30.345Z",
           "question": "Name a school supply",
           "answer": "Protractor",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:58:30.591Z",
+            "visiblePlayerBlock": [
+              "protractor",
+              "Dinosaur",
+              "1129",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:58:34.868Z",
           "question": "Name a school supply",
           "answer": "Index cards",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T20:58:35.166Z",
+            "visiblePlayerBlock": [
+              "index cards",
+              "Dinosaur",
+              "1129",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:58:56.083Z",
@@ -512,7 +983,17 @@
           "at": "2026-10-23T20:58:59.794Z",
           "question": "Name a school supply",
           "answer": "Tracing paper",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:59:00.107Z",
+            "visiblePlayerBlock": [
+              "tracing paper",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:59:07.837Z",
@@ -530,31 +1011,81 @@
           "at": "2026-10-23T20:59:17.646Z",
           "question": "Name a school supply",
           "answer": "Book covers",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:59:18.023Z",
+            "visiblePlayerBlock": [
+              "book covers",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:59:29.003Z",
           "question": "Name a country with territory inside the Arctic Circle",
           "answer": "Finland",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T20:59:29.407Z",
+            "visiblePlayerBlock": [
+              "finland",
+              "Dinosaur",
+              "1129",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:59:37.975Z",
           "question": "Name a country with territory inside the Arctic Circle",
           "answer": "United States",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T20:59:38.277Z",
+            "visiblePlayerBlock": [
+              "united states",
+              "Dinosaur",
+              "1129",
+              "PLANKTON"
+            ]
+          }
         },
         {
           "at": "2026-10-23T20:59:53.811Z",
           "question": "Name a phase of the Moon",
           "answer": "Third quarter",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T20:59:54.417Z",
+            "visiblePlayerBlock": [
+              "third quarter",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:00:02.018Z",
           "question": "Name a phase of the Moon",
           "answer": "Waning gibbous",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:00:02.269Z",
+            "visiblePlayerBlock": [
+              "waning gibbous",
+              "Dinosaur",
+              "1129",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:00:25.242Z",
@@ -578,19 +1109,49 @@
           "at": "2026-10-23T21:01:02.568Z",
           "question": "Name a country where an Arabic-derived script has official use",
           "answer": "Djibouti",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:01:02.832Z",
+            "visiblePlayerBlock": [
+              "djibouti",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:01:11.841Z",
           "question": "Name a country where an Arabic-derived script has official use",
           "answer": "Chad",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:01:12.140Z",
+            "visiblePlayerBlock": [
+              "chad",
+              "Dinosaur",
+              "1129",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:01:15.980Z",
           "question": "Name a country where an Arabic-derived script has official use",
           "answer": "Brunei",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:01:16.310Z",
+            "visiblePlayerBlock": [
+              "brunei",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:01:18.341Z",
@@ -602,7 +1163,17 @@
           "at": "2026-10-23T21:01:19.100Z",
           "question": "Name a country where an Arabic-derived script has official use",
           "answer": "Somalia",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:01:19.355Z",
+            "visiblePlayerBlock": [
+              "somalia",
+              "Dinosaur",
+              "1129",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:01:24.515Z",
@@ -620,7 +1191,17 @@
           "at": "2026-10-23T21:01:35.871Z",
           "question": "Name a Star Wars character",
           "answer": "Plo Koon",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:01:36.128Z",
+            "visiblePlayerBlock": [
+              "plo koon",
+              "Dinosaur",
+              "1129",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:02:16.835Z",
@@ -639,6 +1220,10 @@
       "bySource": {
         "answer-archive": 8,
         "codex": 6
+      },
+      "visibleTiers": {
+        "RARE": 2,
+        "DEEP CUT": 6
       },
       "submissions": [
         {
@@ -663,25 +1248,65 @@
           "at": "2026-10-23T21:06:34.836Z",
           "question": "Name a character from The Wizard of Oz",
           "answer": "Uncle Henry",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:06:35.004Z",
+            "visiblePlayerBlock": [
+              "uncle henry",
+              "Dinosaur",
+              "1156",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:06:58.568Z",
           "question": "Name a city in Florida",
           "answer": "Palatka",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:06:58.682Z",
+            "visiblePlayerBlock": [
+              "palatka",
+              "Dinosaur",
+              "1156",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:07:01.909Z",
           "question": "Name a city in Florida",
           "answer": "Sebring",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:07:01.988Z",
+            "visiblePlayerBlock": [
+              "sebring",
+              "Dinosaur",
+              "1156",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:07:10.848Z",
           "question": "Name a city in Florida",
           "answer": "DeFuniak Springs",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:07:11.046Z",
+            "visiblePlayerBlock": [
+              "defuniak springs",
+              "Dinosaur",
+              "1156",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:07:27.260Z",
@@ -705,25 +1330,65 @@
           "at": "2026-10-23T21:07:46.718Z",
           "question": "Name a Bible character",
           "answer": "Abaddon",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:07:46.871Z",
+            "visiblePlayerBlock": [
+              "abaddon",
+              "Dinosaur",
+              "1156",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:08:01.456Z",
           "question": "Name a Bible character",
           "answer": "Abdon",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:08:01.613Z",
+            "visiblePlayerBlock": [
+              "abdon",
+              "Dinosaur",
+              "1156",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:08:04.876Z",
           "question": "Name a Bible character",
           "answer": "Abednego",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:08:05.060Z",
+            "visiblePlayerBlock": [
+              "abednego",
+              "Dinosaur",
+              "1156",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:08:18.485Z",
           "question": "Name a Bible character",
           "answer": "Abiathar",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:08:18.563Z",
+            "visiblePlayerBlock": [
+              "abiathar",
+              "Dinosaur",
+              "1156",
+              "DEEP CUT"
+            ]
+          }
         }
       ]
     },
@@ -737,6 +1402,9 @@
         "answer-archive": 5,
         "verified": 1
       },
+      "visibleTiers": {
+        "DEEP CUT": 3
+      },
       "submissions": [
         {
           "at": "2026-10-23T21:09:57.671Z",
@@ -748,7 +1416,17 @@
           "at": "2026-10-23T21:10:16.387Z",
           "question": "Name a Breaking Bad character",
           "answer": "Kenny",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:10:16.449Z",
+            "visiblePlayerBlock": [
+              "kenny",
+              "Dinosaur",
+              "1177",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:10:44.960Z",
@@ -766,13 +1444,33 @@
           "at": "2026-10-23T21:11:41.980Z",
           "question": "Name a type of skincare product",
           "answer": "Acne wash",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:11:42.078Z",
+            "visiblePlayerBlock": [
+              "acne wash",
+              "Dinosaur",
+              "1177",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:11:47.373Z",
           "question": "Name a type of skincare product",
           "answer": "Adapalene",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:11:47.564Z",
+            "visiblePlayerBlock": [
+              "adapalene",
+              "Dinosaur",
+              "1177",
+              "DEEP CUT"
+            ]
+          }
         }
       ]
     },
@@ -788,6 +1486,11 @@
         "codex": 3,
         "bank": 4
       },
+      "visibleTiers": {
+        "DEEP CUT": 14,
+        "RARE": 4,
+        "SCHOOLER": 1
+      },
       "submissions": [
         {
           "at": "2026-10-23T21:13:33.871Z",
@@ -799,25 +1502,65 @@
           "at": "2026-10-23T21:13:51.096Z",
           "question": "Name a citrus fruit",
           "answer": "Buddha's hand",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:13:51.323Z",
+            "visiblePlayerBlock": [
+              "buddha's hand",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:14:35.280Z",
           "question": "Name a U.S. state entirely west of the Mississippi River",
           "answer": "Idaho",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:14:35.482Z",
+            "visiblePlayerBlock": [
+              "idaho",
+              "Dinosaur",
+              "1201",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:15:05.165Z",
           "question": "Name a U.S. state entirely west of the Mississippi River",
           "answer": "Oregon",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:15:05.394Z",
+            "visiblePlayerBlock": [
+              "oregon",
+              "Dinosaur",
+              "1201",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:15:18.203Z",
           "question": "Name a machine or piece of equipment at the gym",
           "answer": "Glute-ham developer",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:15:18.343Z",
+            "visiblePlayerBlock": [
+              "glute-ham developer",
+              "Dinosaur",
+              "1201",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:15:23.200Z",
@@ -829,13 +1572,33 @@
           "at": "2026-10-23T21:15:29.960Z",
           "question": "Name a machine or piece of equipment at the gym",
           "answer": "Belt squat machine",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:15:30.159Z",
+            "visiblePlayerBlock": [
+              "belt squat machine",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:15:53.417Z",
           "question": "Name an English word containing \u201cauto\u201d",
           "answer": "automat",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:15:53.658Z",
+            "visiblePlayerBlock": [
+              "automat",
+              "Dinosaur",
+              "1201",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:16:11.816Z",
@@ -847,7 +1610,17 @@
           "at": "2026-10-23T21:16:20.053Z",
           "question": "Name an English word containing \u201cauto\u201d",
           "answer": "autochthonous",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:16:20.185Z",
+            "visiblePlayerBlock": [
+              "autochthonous",
+              "Dinosaur",
+              "1201",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:16:25.548Z",
@@ -865,13 +1638,33 @@
           "at": "2026-10-23T21:16:42.234Z",
           "question": "Name a chocolate brand",
           "answer": "5 Star",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:16:42.390Z",
+            "visiblePlayerBlock": [
+              "5 star",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:16:46.732Z",
           "question": "Name a chocolate brand",
           "answer": "5th Avenue",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:16:46.930Z",
+            "visiblePlayerBlock": [
+              "5th avenue",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:16:59.279Z",
@@ -883,49 +1676,129 @@
           "at": "2026-10-23T21:17:16.193Z",
           "question": "Name a breakfast food or drink",
           "answer": "Arepa",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:16.400Z",
+            "visiblePlayerBlock": [
+              "arepa",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:21.117Z",
           "question": "Name a breakfast food or drink",
           "answer": "Bircher muesli",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:21.299Z",
+            "visiblePlayerBlock": [
+              "bircher muesli",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:24.949Z",
           "question": "Name a breakfast food or drink",
           "answer": "Black pudding",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:25.042Z",
+            "visiblePlayerBlock": [
+              "black pudding",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:30.516Z",
           "question": "Name a breakfast food or drink",
           "answer": "Blintz",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:30.818Z",
+            "visiblePlayerBlock": [
+              "blintz",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:35.484Z",
           "question": "Name a breakfast food or drink",
           "answer": "Breakfast tamales",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:35.684Z",
+            "visiblePlayerBlock": [
+              "breakfast tamales",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:37.242Z",
           "question": "Name a breakfast food or drink",
           "answer": "Century egg",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:37.398Z",
+            "visiblePlayerBlock": [
+              "century egg",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:40.839Z",
           "question": "Name a breakfast food or drink",
           "answer": "Chia pudding",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:40.927Z",
+            "visiblePlayerBlock": [
+              "chia pudding",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:45.742Z",
           "question": "Name a breakfast food or drink",
           "answer": "Chilaquiles",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:17:45.877Z",
+            "visiblePlayerBlock": [
+              "chilaquiles",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:17:55.481Z",
@@ -937,13 +1810,33 @@
           "at": "2026-10-23T21:18:03.178Z",
           "question": "Name a horror movie franchise",
           "answer": "30 Days of Night",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:18:04.439Z",
+            "visiblePlayerBlock": [
+              "30 days of night",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:18:11.463Z",
           "question": "Name a horror movie franchise",
           "answer": "47 Meters Down",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:18:11.948Z",
+            "visiblePlayerBlock": [
+              "47 meters down",
+              "Dinosaur",
+              "1201",
+              "DEEP CUT"
+            ]
+          }
         }
       ]
     },
@@ -960,6 +1853,12 @@
         "bank": 4,
         "verified": 1
       },
+      "visibleTiers": {
+        "DEEP CUT": 11,
+        "SCHOOLER": 4,
+        "RARE": 9,
+        "PLANKTON": 2
+      },
       "submissions": [
         {
           "at": "2026-10-23T21:19:40.963Z",
@@ -971,7 +1870,17 @@
           "at": "2026-10-23T21:20:01.473Z",
           "question": "Name a Mario character",
           "answer": "13-Amp",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:20:01.663Z",
+            "visiblePlayerBlock": [
+              "13-amp",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:20:22.301Z",
@@ -983,13 +1892,33 @@
           "at": "2026-10-23T21:20:42.218Z",
           "question": "Name a disease that has a vaccine",
           "answer": "Adenovirus",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:20:42.312Z",
+            "visiblePlayerBlock": [
+              "adenovirus",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:21:00.031Z",
           "question": "Name the verb for a sound an animal makes",
           "answer": "Whinny",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:21:00.333Z",
+            "visiblePlayerBlock": [
+              "whinny",
+              "Dinosaur",
+              "1220",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:21:13.448Z",
@@ -1007,43 +1936,113 @@
           "at": "2026-10-23T21:21:38.598Z",
           "question": "Name a hot drink",
           "answer": "Acorn coffee",
-          "source": "regular-bank"
+          "source": "regular-bank",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:21:38.696Z",
+            "visiblePlayerBlock": [
+              "acorn coffee",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:21:45.905Z",
           "question": "Name a hot drink",
           "answer": "African dream root tea",
-          "source": "regular-bank"
+          "source": "regular-bank",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:21:46.168Z",
+            "visiblePlayerBlock": [
+              "african dream root tea",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:21:53.092Z",
           "question": "Name a hot drink",
           "answer": "Aguapanela",
-          "source": "regular-bank"
+          "source": "regular-bank",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:21:53.226Z",
+            "visiblePlayerBlock": [
+              "aguapanela",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:05.141Z",
           "question": "Name a hot drink",
           "answer": "Ajwain water",
-          "source": "regular-bank"
+          "source": "regular-bank",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:05.366Z",
+            "visiblePlayerBlock": [
+              "ajwain water",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:14.556Z",
           "question": "Name a term of endearment for a loved one",
           "answer": "Sweet pea",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:14.692Z",
+            "visiblePlayerBlock": [
+              "sweet pea",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:17.952Z",
           "question": "Name a term of endearment for a loved one",
           "answer": "Lovebug",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:18.122Z",
+            "visiblePlayerBlock": [
+              "lovebug",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:24.947Z",
           "question": "Name a term of endearment for a loved one",
           "answer": "Poppet",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:25.082Z",
+            "visiblePlayerBlock": [
+              "poppet",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:29.415Z",
@@ -1055,25 +2054,65 @@
           "at": "2026-10-23T21:22:40.529Z",
           "question": "Name an English word containing \u201cmicro\u201d",
           "answer": "microflora",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:40.758Z",
+            "visiblePlayerBlock": [
+              "microflora",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:47.520Z",
           "question": "Name an English word containing \u201cmicro\u201d",
           "answer": "microstructural",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:47.620Z",
+            "visiblePlayerBlock": [
+              "microstructural",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:22:56.211Z",
           "question": "Name an English word containing \u201cmicro\u201d",
           "answer": "micronutrient",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:22:56.426Z",
+            "visiblePlayerBlock": [
+              "micronutrient",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:03.808Z",
           "question": "Name an English word containing \u201cmicro\u201d",
           "answer": "microsecond",
-          "source": "bank"
+          "source": "bank",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:03.978Z",
+            "visiblePlayerBlock": [
+              "microsecond",
+              "Dinosaur",
+              "1220",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:17.478Z",
@@ -1091,49 +2130,123 @@
           "at": "2026-10-23T21:23:26.779Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Georgia",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:26.911Z",
+            "visiblePlayerBlock": [
+              "georgia",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:29.791Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Liechtenstein",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:29.940Z",
+            "visiblePlayerBlock": [
+              "liechtenstein",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:31.485Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Moldova",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:31.636Z",
+            "visiblePlayerBlock": [
+              "moldova",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:34.155Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Russia",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:34.425Z",
+            "visiblePlayerBlock": [
+              "russia",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:43.213Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Ukraine",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:43.308Z",
+            "visiblePlayerBlock": [
+              "ukraine",
+              "Dinosaur",
+              "1220",
+              "DEEP CUT"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:44.426Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Albania",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "ambiguousVisibleTiers": [
+            "DEEP CUT",
+            "RARE"
+          ]
         },
         {
           "at": "2026-10-23T21:23:46.585Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Algeria",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:46.740Z",
+            "visiblePlayerBlock": [
+              "algeria",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:23:49.939Z",
           "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
           "answer": "Andorra",
-          "source": "answer-archive"
+          "source": "answer-archive",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:23:50.068Z",
+            "visiblePlayerBlock": [
+              "andorra",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:24:00.964Z",
@@ -1145,7 +2258,17 @@
           "at": "2026-10-23T21:24:05.045Z",
           "question": "Name a term used in ice hockey",
           "answer": "Blocked shot",
-          "source": "verified"
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:24:05.266Z",
+            "visiblePlayerBlock": [
+              "blocked shot",
+              "Dinosaur",
+              "1220",
+              "RARE"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:24:07.423Z",
@@ -1157,13 +2280,27 @@
           "at": "2026-10-23T21:24:09.132Z",
           "question": "Name a term used in ice hockey",
           "answer": "Blue line",
-          "source": "codex"
+          "source": "codex",
+          "ambiguousVisibleTiers": [
+            "RARE",
+            "SCHOOLER"
+          ]
         },
         {
           "at": "2026-10-23T21:24:10.907Z",
           "question": "Name a term used in ice hockey",
           "answer": "Offside",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:24:11.144Z",
+            "visiblePlayerBlock": [
+              "offside",
+              "Dinosaur",
+              "1220",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:24:13.775Z",
@@ -1175,19 +2312,258 @@
           "at": "2026-10-23T21:24:16.691Z",
           "question": "Name a term used in ice hockey",
           "answer": "Power play",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T21:24:16.783Z",
+            "visiblePlayerBlock": [
+              "power play",
+              "Dinosaur",
+              "1220",
+              "PLANKTON"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:24:19.655Z",
           "question": "Name a term used in ice hockey",
           "answer": "Penalty kill",
-          "source": "codex"
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:24:19.825Z",
+            "visiblePlayerBlock": [
+              "penalty kill",
+              "Dinosaur",
+              "1220",
+              "SCHOOLER"
+            ]
+          }
         },
         {
           "at": "2026-10-23T21:24:26.617Z",
           "question": "Name a term used in ice hockey",
           "answer": "Hat trick",
+          "source": "codex",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-23T21:24:26.898Z",
+            "visiblePlayerBlock": [
+              "hat trick",
+              "Dinosaur",
+              "1220",
+              "PLANKTON"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "room": "SCNK",
+      "outcome": "win",
+      "submitted": 15,
+      "categoriesSubmitted": 7,
+      "bySource": {
+        "codex": 7,
+        "answer-archive": 7,
+        "verified": 1
+      },
+      "visibleTiers": {
+        "RARE": 3,
+        "DEEP CUT": 6,
+        "SCHOOLER": 1
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:30:11.907Z",
+          "question": "Name a term used in theater or on stage",
+          "answer": "Vomitorium",
           "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:30:55.404Z",
+          "question": "Name a device or object used to tell time",
+          "answer": "Water clock",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:30:55.524Z",
+            "visiblePlayerBlock": [
+              "water clock",
+              "Dinosaur",
+              "1238",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:31:17.026Z",
+          "question": "Name a device or object used to tell time",
+          "answer": "Candle clock",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:31:17.153Z",
+            "visiblePlayerBlock": [
+              "candle clock",
+              "Dinosaur",
+              "1238",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:31:46.680Z",
+          "question": "Name a country with a coastline on the Indian Ocean",
+          "answer": "Jordan",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:32:07.709Z",
+          "question": "Name a country with a coastline on the Indian Ocean",
+          "answer": "Comoros",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:32:08.050Z",
+            "visiblePlayerBlock": [
+              "comoros",
+              "Dinosaur",
+              "1238",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:32:29.591Z",
+          "question": "Name a country with three syllables (English pronunciation)",
+          "answer": "Kiribati",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:32:49.491Z",
+          "question": "Name a Michael Jackson song",
+          "answer": "Morphine",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:33:45.970Z",
+          "question": "Name a Grand Prix on the 2026 Formula 1 calendar",
+          "answer": "Azerbaijan Grand Prix",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:33:46.332Z",
+            "visiblePlayerBlock": [
+              "azerbaijan grand prix",
+              "Dinosaur",
+              "1238",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:33:56.419Z",
+          "question": "Name a Grand Prix on the 2026 Formula 1 calendar",
+          "answer": "Qatar Grand Prix",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:33:56.620Z",
+            "visiblePlayerBlock": [
+              "qatar grand prix",
+              "Dinosaur",
+              "1238",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:34:03.438Z",
+          "question": "Name a Grand Prix on the 2026 Formula 1 calendar",
+          "answer": "S\u00e3o Paulo Grand Prix",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:34:03.559Z",
+            "visiblePlayerBlock": [
+              "s\u00e3o paulo grand prix",
+              "Dinosaur",
+              "1238",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:34:21.004Z",
+          "question": "Name a Grand Prix on the 2026 Formula 1 calendar",
+          "answer": "Chinese Grand Prix",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:34:21.164Z",
+            "visiblePlayerBlock": [
+              "chinese grand prix",
+              "Dinosaur",
+              "1238",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:34:30.806Z",
+          "question": "Name a soda brand",
+          "answer": "Beverly",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:34:35.754Z",
+          "question": "Name a soda brand",
+          "answer": "Faygo",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:34:35.893Z",
+            "visiblePlayerBlock": [
+              "faygo",
+              "Dinosaur",
+              "1238",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:34:38.078Z",
+          "question": "Name a soda brand",
+          "answer": "Moxie",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:34:38.280Z",
+            "visiblePlayerBlock": [
+              "moxie",
+              "Dinosaur",
+              "1238",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:34:45.981Z",
+          "question": "Name a soda brand",
+          "answer": "Ale-8-One",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-23T21:34:46.096Z",
+            "visiblePlayerBlock": [
+              "ale-8-one",
+              "Dinosaur",
+              "1238",
+              "DEEP CUT"
+            ]
+          }
         }
       ]
     }

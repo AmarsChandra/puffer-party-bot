@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 0,
+  "current": 1,
   "best": 5,
   "records": [
     {
@@ -131,6 +131,15 @@
       "outcome": "inconclusive",
       "finishedAt": "2026-10-23T21:24:42.008Z",
       "reason": "Seat absent after table rollover; no result screen observed. Account counter later suggested an additional win, which is not used to establish the streak."
+    },
+    {
+      "number": 15,
+      "room": "SCNK",
+      "startedAt": "2026-10-23T21:29:46.062Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-23T21:34:55.485Z"
     }
   ],
   "active": null,
