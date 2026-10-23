@@ -1,0 +1,780 @@
+{
+  "method": "Counts are Enter-key submissions logged by the browser controller. They do not establish game acceptance or rarity. Source describes the local choice provider, not server verification in this ranked game.",
+  "matches": [
+    {
+      "number": 1,
+      "room": "KGUH",
+      "outcome": "loss",
+      "submitted": 0,
+      "categoriesSubmitted": 0,
+      "bySource": {},
+      "submissions": []
+    },
+    {
+      "number": 2,
+      "room": "QYPR",
+      "outcome": "loss",
+      "submitted": 0,
+      "categoriesSubmitted": 0,
+      "bySource": {},
+      "submissions": []
+    },
+    {
+      "number": 3,
+      "room": "FRLD",
+      "outcome": "loss",
+      "submitted": 0,
+      "categoriesSubmitted": 0,
+      "bySource": {},
+      "submissions": []
+    },
+    {
+      "number": 4,
+      "room": "XARR",
+      "outcome": "loss",
+      "submitted": 3,
+      "categoriesSubmitted": 3,
+      "bySource": {
+        "codex": 1,
+        "answer-archive": 2
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:28:36.799Z",
+          "question": "Name an instrument used to take measurements",
+          "answer": "Spherometer",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:29:16.637Z",
+          "question": "Name a shade of red (pinks don't count)",
+          "answer": "Falu red",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:29:35.194Z",
+          "question": "Name a tropical fruit",
+          "answer": "Miracle fruit",
+          "source": "answer-archive"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "room": "VHYD",
+      "outcome": "loss",
+      "submitted": 4,
+      "categoriesSubmitted": 2,
+      "bySource": {
+        "codex": 2,
+        "bank": 2
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:31:26.487Z",
+          "question": "Name a country or former team with an Olympic volleyball medal (indoor or beach, through Paris 2024)",
+          "answer": "Peru",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:31:31.908Z",
+          "question": "Name a country or former team with an Olympic volleyball medal (indoor or beach, through Paris 2024)",
+          "answer": "Bulgaria",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:31:47.703Z",
+          "question": "Name a woodwind instrument",
+          "answer": "Heckelphone",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T20:32:04.591Z",
+          "question": "Name a woodwind instrument",
+          "answer": "Contrabassoon",
+          "source": "bank"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "room": "WZPU",
+      "outcome": "loss",
+      "submitted": 1,
+      "categoriesSubmitted": 1,
+      "bySource": {
+        "answer-archive": 1
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:33:31.137Z",
+          "question": "Name a kitchen appliance (something powered)",
+          "answer": "Salamander broiler",
+          "source": "answer-archive"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "room": "DUEV",
+      "outcome": "win",
+      "submitted": 33,
+      "categoriesSubmitted": 9,
+      "bySource": {
+        "codex": 15,
+        "answer-archive": 18
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:34:42.072Z",
+          "question": "Name a nut or seed butter",
+          "answer": "Pistachio butter",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:34:56.039Z",
+          "question": "Name a nut or seed butter",
+          "answer": "Pumpkin seed butter",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:36:13.094Z",
+          "question": "Name a type of structure built underground (man-made)",
+          "answer": "Denehole",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:36:31.185Z",
+          "question": "Name a type of structure built underground (man-made)",
+          "answer": "Erdstall",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:36:46.328Z",
+          "question": "Name an organ of the human body",
+          "answer": "Hypothalamus",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:36:58.841Z",
+          "question": "Name an organ of the human body",
+          "answer": "Bone marrow",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:37:29.852Z",
+          "question": "Name an organ of the human body",
+          "answer": "Lymph nodes",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:37:48.623Z",
+          "question": "Name an Amazon product, service or company Amazon owns",
+          "answer": "A9.com",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:37:53.118Z",
+          "question": "Name an Amazon product, service or company Amazon owns",
+          "answer": "Amazon Auctions",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:05.471Z",
+          "question": "Name an Amazon product, service or company Amazon owns",
+          "answer": "1-Click",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:10.685Z",
+          "question": "Name a block in Minecraft",
+          "answer": "Crying Obsidian",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:14.482Z",
+          "question": "Name a block in Minecraft",
+          "answer": "Dragon Egg",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:17.851Z",
+          "question": "Name a block in Minecraft",
+          "answer": "Activator Rail",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:24.238Z",
+          "question": "Name a block in Minecraft",
+          "answer": "Allium",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:39.688Z",
+          "question": "Name a vitamin or dietary mineral",
+          "answer": "Choline",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:48.646Z",
+          "question": "Name a vitamin or dietary mineral",
+          "answer": "Cobalt",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:38:53.042Z",
+          "question": "Name a vitamin or dietary mineral",
+          "answer": "Pantothenic acid",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:39:05.026Z",
+          "question": "Name a vitamin or dietary mineral",
+          "answer": "Chloride",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:39:11.579Z",
+          "question": "Name a country whose name starts with C",
+          "answer": "Comoros",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:39:16.647Z",
+          "question": "Name a country whose name starts with C",
+          "answer": "Cabo Verde",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:40:19.759Z",
+          "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+          "answer": "Nintendo DSi XL",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:26.486Z",
+          "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+          "answer": "Game Boy Micro",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:27.767Z",
+          "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+          "answer": "New Nintendo 2DS XL",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:36.235Z",
+          "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+          "answer": "Game Boy Light",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:38.220Z",
+          "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+          "answer": "Color TV-Game 6",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:40.842Z",
+          "question": "Name a Nintendo home, handheld, hybrid, or dedicated video game console (including marketed revisions)",
+          "answer": "Color TV-Game 15",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:50.532Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "mightn't",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:40:59.651Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "mustn't",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:41:01.943Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "needn't",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:41:05.138Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "shan't",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:41:09.002Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "oughtn't",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:41:12.820Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "weren't",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:41:20.109Z",
+          "question": "Name a contraction (like \u201cdon\u2019t\u201d)",
+          "answer": "hadn't",
+          "source": "codex"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "room": "BFQF",
+      "outcome": "loss",
+      "submitted": 2,
+      "categoriesSubmitted": 1,
+      "bySource": {
+        "codex": 2
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:42:28.504Z",
+          "question": "Name a country with a land border longer than 2,000 kilometres",
+          "answer": "Mauritania",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:42:46.034Z",
+          "question": "Name a country with a land border longer than 2,000 kilometres",
+          "answer": "Kazakhstan",
+          "source": "codex"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "room": "HFBX",
+      "outcome": "win",
+      "submitted": 15,
+      "categoriesSubmitted": 7,
+      "bySource": {
+        "codex": 5,
+        "answer-archive": 4,
+        "verified": 1,
+        "bank": 5
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:44:49.412Z",
+          "question": "Name a stringed instrument",
+          "answer": "Nyckelharpa",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:44:56.251Z",
+          "question": "Name a type of cake",
+          "answer": "Prinzregententorte",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:45:13.641Z",
+          "question": "Name a type of cake",
+          "answer": "Applesauce cake",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:45:37.278Z",
+          "question": "Name a part of a bicycle",
+          "answer": "Derailleur",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:45:43.863Z",
+          "question": "Name a part of a bicycle",
+          "answer": "Bottom bracket",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:45:58.673Z",
+          "question": "Name a part of a bicycle",
+          "answer": "Headset",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:46:27.526Z",
+          "question": "Name a compound word ending in \u201cway\u201d",
+          "answer": "Spillway",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:46:46.361Z",
+          "question": "Name something sold in a tube",
+          "answer": "Kalles Kaviar",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:46:59.334Z",
+          "question": "Name something sold in a tube",
+          "answer": "Space food",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:47:11.168Z",
+          "question": "Name a compound word starting with \u201csnow\u201d",
+          "answer": "snowball",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T20:47:46.802Z",
+          "question": "Name an English word containing \u201csuper\u201d",
+          "answer": "superfluid",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T20:47:58.719Z",
+          "question": "Name an English word containing \u201csuper\u201d",
+          "answer": "superpowered",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T20:48:01.738Z",
+          "question": "Name an English word containing \u201csuper\u201d",
+          "answer": "supertramp",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T20:48:02.391Z",
+          "question": "Name an English word containing \u201csuper\u201d",
+          "answer": "superfine",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T20:48:08.235Z",
+          "question": "Name an English word containing \u201csuper\u201d",
+          "answer": "superimpose",
+          "source": "bank"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "room": "LSRE",
+      "outcome": "win",
+      "submitted": 27,
+      "categoriesSubmitted": 8,
+      "bySource": {
+        "answer-archive": 7,
+        "codex": 16,
+        "verified": 4
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T20:57:58.461Z",
+          "question": "Name a nocturnal animal",
+          "answer": "Aye-aye",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:58:03.145Z",
+          "question": "Name a nocturnal animal",
+          "answer": "Oilbird",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:58:10.477Z",
+          "question": "Name a nocturnal animal",
+          "answer": "Bandicoot",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:58:15.353Z",
+          "question": "Name a nocturnal animal",
+          "answer": "Bilby",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T20:58:30.345Z",
+          "question": "Name a school supply",
+          "answer": "Protractor",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:58:34.868Z",
+          "question": "Name a school supply",
+          "answer": "Index cards",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:58:56.083Z",
+          "question": "Name a school supply",
+          "answer": "Bristol board",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:58:59.794Z",
+          "question": "Name a school supply",
+          "answer": "Tracing paper",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:59:07.837Z",
+          "question": "Name a school supply",
+          "answer": "Binder dividers",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:59:17.243Z",
+          "question": "Name a school supply",
+          "answer": "Reinforcement labels",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:59:17.646Z",
+          "question": "Name a school supply",
+          "answer": "Book covers",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:59:29.003Z",
+          "question": "Name a country with territory inside the Arctic Circle",
+          "answer": "Finland",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:59:37.975Z",
+          "question": "Name a country with territory inside the Arctic Circle",
+          "answer": "United States",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T20:59:53.811Z",
+          "question": "Name a phase of the Moon",
+          "answer": "Third quarter",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:00:02.018Z",
+          "question": "Name a phase of the Moon",
+          "answer": "Waning gibbous",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:00:25.242Z",
+          "question": "Name a boxing movie",
+          "answer": "The Set-Up",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:00:47.138Z",
+          "question": "Name a boxing movie",
+          "answer": "Fat City",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:00:58.496Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Comoros",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:02.568Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Djibouti",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:11.841Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Chad",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:15.980Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Brunei",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:18.341Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Malaysia",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:19.100Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Somalia",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:24.515Z",
+          "question": "Name a country where an Arabic-derived script has official use",
+          "answer": "Syria",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:01:33.029Z",
+          "question": "Name a Star Wars character",
+          "answer": "Pong Krell",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:01:35.871Z",
+          "question": "Name a Star Wars character",
+          "answer": "Plo Koon",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:02:16.835Z",
+          "question": "Name a kind of license or permit a person can get",
+          "answer": "Letter of marque",
+          "source": "answer-archive"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "room": "ZBWY",
+      "outcome": "win",
+      "submitted": 14,
+      "categoriesSubmitted": 4,
+      "bySource": {
+        "answer-archive": 8,
+        "codex": 6
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:05:48.933Z",
+          "question": "Name a country that has a G in its name",
+          "answer": "Guinea-Bissau",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:06:04.741Z",
+          "question": "Name a country that has a G in its name",
+          "answer": "Kyrgyzstan",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:06:15.098Z",
+          "question": "Name a character from The Wizard of Oz",
+          "answer": "Aunt Em",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:06:34.836Z",
+          "question": "Name a character from The Wizard of Oz",
+          "answer": "Uncle Henry",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:06:58.568Z",
+          "question": "Name a city in Florida",
+          "answer": "Palatka",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:07:01.909Z",
+          "question": "Name a city in Florida",
+          "answer": "Sebring",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:07:10.848Z",
+          "question": "Name a city in Florida",
+          "answer": "DeFuniak Springs",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:07:27.260Z",
+          "question": "Name a city in Florida",
+          "answer": "Wauchula",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:07:37.700Z",
+          "question": "Name a Bible character",
+          "answer": "Eutychus",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:07:40.368Z",
+          "question": "Name a Bible character",
+          "answer": "Jael",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:07:46.718Z",
+          "question": "Name a Bible character",
+          "answer": "Abaddon",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:08:01.456Z",
+          "question": "Name a Bible character",
+          "answer": "Abdon",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:08:04.876Z",
+          "question": "Name a Bible character",
+          "answer": "Abednego",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:08:18.485Z",
+          "question": "Name a Bible character",
+          "answer": "Abiathar",
+          "source": "answer-archive"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "room": "SPZJ",
+      "outcome": "win",
+      "submitted": 6,
+      "categoriesSubmitted": 3,
+      "bySource": {
+        "answer-archive": 5,
+        "verified": 1
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:09:57.671Z",
+          "question": "Name a Breaking Bad character",
+          "answer": "Ken Wins",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:10:16.387Z",
+          "question": "Name a Breaking Bad character",
+          "answer": "Kenny",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:10:44.960Z",
+          "question": "Name a dinosaur",
+          "answer": "Megalosaurus",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:11:17.057Z",
+          "question": "Name a type of skincare product",
+          "answer": "Powder cleanser",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:11:41.980Z",
+          "question": "Name a type of skincare product",
+          "answer": "Acne wash",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:11:47.373Z",
+          "question": "Name a type of skincare product",
+          "answer": "Adapalene",
+          "source": "answer-archive"
+        }
+      ]
+    }
+  ]
+}
