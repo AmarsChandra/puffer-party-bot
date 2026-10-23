@@ -33,19 +33,21 @@ export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
   const room=/\b([A-HJ-NP-Z]{4})\s*\nCATEGORY|\b([A-HJ-NP-Z]{4})\s*\nGAME OVER/.exec(text)?.slice(1).find(Boolean);
   const rated=/RATED (?:4–6|1V1|3S|8–10)/.test(text)&&!/UNRATED/.test(text);
   if(room&&!rated)throw new Error('Refusing to play an unrated table in this ranked run');
-  if(room&&!run.state.active&&!run.state.records.some(r=>r.room===room)){
+  const ownNameVisible=text.split('\n').some(line=>line.trim()===run.state.name);
+  if(room&&ownNameVisible&&!run.state.active&&!run.state.records.some(r=>r.room===room)){
    run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
   }
-  const lost=s.answerInput?.disabled&&/you're out/.test(s.answerInput.placeholder)||/\bYOU (?:LOSE|LOST)\b/.test(text);
+  const lost=s.answerInput?.disabled&&/you['’]re out/i.test(s.answerInput.placeholder)||/\bYOU (?:LOSE|LOST)\b/.test(text);
   const won=/GAME OVER[\s\S]*\nYOU WIN\b/.test(text);
-  if(run.state.active&&(won||lost)){
-   await capture(run,tab,true);const record={...run.state.active,outcome:won&&run.state.active.rated?'win':lost?'loss':'inconclusive',finishedAt:new Date().toISOString()};
+  const interrupted=!ownNameVisible&&(s.answerInput?.disabled&&/spectating/i.test(s.answerInput.placeholder)||/GAME\s+\d+\s*[·•]\s*LOBBY/.test(text));
+  if(run.state.active&&(won||lost||interrupted)){
+   await capture(run,tab,true);const record={...run.state.active,outcome:won&&run.state.active.rated?'win':lost?'loss':'inconclusive',finishedAt:new Date().toISOString(),...(interrupted?{reason:'Seat absent after spectating or table rollover; no result screen observed'}:{})};
    run.state.records.push(record);run.state.current=record.outcome==='win'?run.state.current+1:0;run.state.best=Math.max(run.state.best,run.state.current);run.state.active=null;log(run,'match-end',{...record,current:run.state.current,best:run.state.best});save(run);
    if(run.state.current>=run.state.target)break;
    const leave=tab.playwright.getByRole('button',{name:'Leave room',exact:true});
    if(await leave.count())await leave.click();else if(await tab.playwright.getByRole('button',{name:'NEW TABLE',exact:true}).count())await tab.playwright.getByRole('button',{name:'NEW TABLE',exact:true}).click();
    const after=await observe(tab);log(run,'after-leave',{text:after.text});run.lastText=after.text;
-   if(won)break;
+   if(won||interrupted)break;
    await sleep(200);continue;
   }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];

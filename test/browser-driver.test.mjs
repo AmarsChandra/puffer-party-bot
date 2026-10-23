@@ -19,3 +19,13 @@ test('a finished room cannot be counted as two ranked wins',async t=>{
  const f=setup(t,{won:true});const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),count:async()=>0});await drive(f.run,f.tab,f.engine,{seconds:.1,queue:false});assert.equal(f.run.state.current,1);
  await drive(f.run,f.tab,f.engine,{seconds:.1,queue:false});assert.equal(f.run.state.current,1);assert.equal(f.run.state.records.length,1);
 });
+test('a lost seat with a spectating input exits and resets the streak without inventing a result',async t=>{
+ const f=setup(t);f.run.state.current=5;f.run.state.best=5;f.run.state.active={number:1,room:'ABCD',rated:true,name:'Dinosaur',startedAt:new Date().toISOString()};
+ f.tab.playwright.evaluate=async()=>({text:'Other player\nRATED 4–6\nABCD\nCATEGORY 1\nName a cooking method',answerInput:{disabled:true,placeholder:'spectating this game…'}});
+ await drive(f.run,f.tab,f.engine,{seconds:.1,queue:false});assert.equal(f.run.state.records[0].outcome,'inconclusive');assert.equal(f.run.state.current,0);assert.equal(f.run.state.best,5);assert.deepEqual(f.actions,[['click','Leave room']]);
+});
+test('a later-game lobby without the active player ends an interrupted attempt',async t=>{
+ const f=setup(t);f.run.state.active={number:1,room:'ABCD',rated:true,name:'Dinosaur',startedAt:new Date().toISOString()};
+ f.tab.playwright.evaluate=async()=>({text:'Other player\nRATED 4–6\nABCD\nGAME 2 · LOBBY\nJOIN NEXT GAME',answerInput:null});
+ await drive(f.run,f.tab,f.engine,{seconds:.1,queue:false});assert.equal(f.run.state.records[0].outcome,'inconclusive');assert.deepEqual(f.actions,[['click','Leave room']]);
+});

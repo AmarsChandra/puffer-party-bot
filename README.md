@@ -87,7 +87,7 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Ranked browser run — in progress
 
-The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **6 wins and 7 losses**, with a **current / best streak of 5 / 5** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
+The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **6 wins, 7 losses, and 1 inconclusive attempts**, with a **current / best streak of 0 / 5** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
 
 [Ranked clips and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
 
@@ -154,7 +154,7 @@ npm run audit
 npm run stats
 ```
 
-The latest regression run passed **65 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **67 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
 Source: `src/puffer-bot.mjs` handles the game connection; `src/answer-engine.mjs` ranks and learns answers; `src/codex-provider.mjs` manages generation; `src/adaptive-campaign.mjs` runs and records reviewed games; `src/statistics.mjs` derives publication statistics.
 

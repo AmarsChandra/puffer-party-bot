@@ -946,6 +946,250 @@
           "source": "answer-archive"
         }
       ]
+    },
+    {
+      "number": 14,
+      "room": "EZKG",
+      "outcome": "inconclusive",
+      "submitted": 38,
+      "categoriesSubmitted": 9,
+      "bySource": {
+        "answer-archive": 14,
+        "codex": 14,
+        "regular-bank": 5,
+        "bank": 4,
+        "verified": 1
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:19:40.963Z",
+          "question": "Name a Mario character",
+          "answer": "Tatanga",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:20:01.473Z",
+          "question": "Name a Mario character",
+          "answer": "13-Amp",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:20:22.301Z",
+          "question": "Name a disease that has a vaccine",
+          "answer": "Q fever",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:20:42.218Z",
+          "question": "Name a disease that has a vaccine",
+          "answer": "Adenovirus",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:21:00.031Z",
+          "question": "Name the verb for a sound an animal makes",
+          "answer": "Whinny",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:21:13.448Z",
+          "question": "Name the verb for a sound an animal makes",
+          "answer": "Bray",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:21:25.667Z",
+          "question": "Name a hot drink",
+          "answer": "Sahlab",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:21:38.598Z",
+          "question": "Name a hot drink",
+          "answer": "Acorn coffee",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:21:45.905Z",
+          "question": "Name a hot drink",
+          "answer": "African dream root tea",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:21:53.092Z",
+          "question": "Name a hot drink",
+          "answer": "Aguapanela",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:22:05.141Z",
+          "question": "Name a hot drink",
+          "answer": "Ajwain water",
+          "source": "regular-bank"
+        },
+        {
+          "at": "2026-10-23T21:22:14.556Z",
+          "question": "Name a term of endearment for a loved one",
+          "answer": "Sweet pea",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:22:17.952Z",
+          "question": "Name a term of endearment for a loved one",
+          "answer": "Lovebug",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:22:24.947Z",
+          "question": "Name a term of endearment for a loved one",
+          "answer": "Poppet",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:22:29.415Z",
+          "question": "Name a term of endearment for a loved one",
+          "answer": "Lambkin",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:22:40.529Z",
+          "question": "Name an English word containing \u201cmicro\u201d",
+          "answer": "microflora",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:22:47.520Z",
+          "question": "Name an English word containing \u201cmicro\u201d",
+          "answer": "microstructural",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:22:56.211Z",
+          "question": "Name an English word containing \u201cmicro\u201d",
+          "answer": "micronutrient",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:23:03.808Z",
+          "question": "Name an English word containing \u201cmicro\u201d",
+          "answer": "microsecond",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:23:17.478Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Saudi Arabia",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:23.361Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Slovakia",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:26.779Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Georgia",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:29.791Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Liechtenstein",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:31.485Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Moldova",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:34.155Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Russia",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:43.213Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Ukraine",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:44.426Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Albania",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:46.585Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Algeria",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:23:49.939Z",
+          "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+          "answer": "Andorra",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:24:00.964Z",
+          "question": "Name a word that means cold",
+          "answer": "Frigid",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:05.045Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Blocked shot",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:24:07.423Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Forechecking",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:09.132Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Blue line",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:10.907Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Offside",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:13.775Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Backchecking",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:16.691Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Power play",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:19.655Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Penalty kill",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:24:26.617Z",
+          "question": "Name a term used in ice hockey",
+          "answer": "Hat trick",
+          "source": "codex"
+        }
+      ]
     }
   ]
 }

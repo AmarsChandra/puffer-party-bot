@@ -198,6 +198,21 @@
       "bytes": 7041255,
       "sha256": "9ccb749d5c2a1aa7fc2c9439567bfc9ff06efd0459431f7dd22e178a92dd3cd3",
       "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    },
+    {
+      "number": 14,
+      "room": "EZKG",
+      "outcome": "inconclusive",
+      "frames": 390,
+      "firstFrameAt": 1792790381374,
+      "lastFrameAt": 1792790721648,
+      "maxGapSeconds": 14.479,
+      "gapsOverTwoSeconds": 6,
+      "gapsOverFiveSeconds": 2,
+      "video": "ranked-EZKG-inconclusive.mp4",
+      "bytes": 8396597,
+      "sha256": "5d047da2f57f3e4348b9b7b74b9c250050e456798ad3c95b5068f992fb53cd70",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     }
   ],
   "note": "Every completed retained attempt with captured frames has an encoded clip, including losses. Raw sampled frames remain local. Initial handoff and controller setup had capture gaps, which this report exposes."

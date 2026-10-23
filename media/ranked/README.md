@@ -23,3 +23,4 @@ All completed attempts with captured frames are linked below, including losses. 
 | 11 | ZBWY | win | [Clip](ranked-ZBWY-win.mp4) · [final capture](ranked-ZBWY-win.png) | 6.417 s |
 | 12 | SPZJ | win | [Clip](ranked-SPZJ-win.mp4) · [final capture](ranked-SPZJ-win.png) | 5.2 s |
 | 13 | ZRJN | win | [Clip](ranked-ZRJN-win.mp4) · [final capture](ranked-ZRJN-win.png) | 7.908 s |
+| 14 | EZKG | inconclusive | [Clip](ranked-EZKG-inconclusive.mp4) · [final capture](ranked-EZKG-inconclusive.png) | 14.479 s |

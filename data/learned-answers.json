@@ -36113,6 +36113,265 @@
           "rarityRequested": true
         }
       }
+    },
+    "english word containing auto": {
+      "question": "Name an English word containing “auto”",
+      "answers": {}
+    },
+    "chocolate brand": {
+      "question": "Name a chocolate brand",
+      "answers": {}
+    },
+    "breakfast food or drink": {
+      "question": "Name a breakfast food or drink",
+      "answers": {}
+    },
+    "horror movie franchise": {
+      "question": "Name a horror movie franchise",
+      "answers": {}
+    },
+    "mario character": {
+      "question": "Name a Mario character",
+      "answers": {}
+    },
+    "disease that has a vaccine": {
+      "question": "Name a disease that has a vaccine",
+      "answers": {}
+    },
+    "verb for a sound an animal makes": {
+      "question": "Name the verb for a sound an animal makes",
+      "answers": {
+        "whinny": {
+          "text": "Whinny",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bray": {
+          "text": "Bray",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chitter": {
+          "text": "Chitter",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "hot drink": {
+      "question": "Name a hot drink",
+      "answers": {}
+    },
+    "term of endearment for a loved one": {
+      "question": "Name a term of endearment for a loved one",
+      "answers": {
+        "sweetpea": {
+          "text": "Sweet pea",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lovebug": {
+          "text": "Lovebug",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "poppet": {
+          "text": "Poppet",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lambkin": {
+          "text": "Lambkin",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ducky": {
+          "text": "Ducky",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "petal": {
+          "text": "Petal",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "treasure": {
+          "text": "Treasure",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "precious": {
+          "text": "Precious",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dearest": {
+          "text": "Dearest",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "beloved": {
+          "text": "Beloved",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "darling": {
+          "text": "Darling",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sweetheart": {
+          "text": "Sweetheart",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "angel": {
+          "text": "Angel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dumpling": {
+          "text": "Dumpling",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pumpkin": {
+          "text": "Pumpkin",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "buttercup": {
+          "text": "Buttercup",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cupcake": {
+          "text": "Cupcake",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sugarplum": {
+          "text": "Sugarplum",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "peach": {
+          "text": "Peach",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sunshine": {
+          "text": "Sunshine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "english word containing micro": {
+      "question": "Name an English word containing “micro”",
+      "answers": {}
+    },
+    "modern country that was partly ruled by the roman empire constituent countries don t count": {
+      "question": "Name a modern country that was partly ruled by the Roman Empire (constituent countries don't count)",
+      "answers": {}
+    },
+    "word that means cold": {
+      "question": "Name a word that means cold",
+      "answers": {
+        "frigid": {
+          "text": "Frigid",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gelid": {
+          "text": "Gelid",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "glacial": {
+          "text": "Glacial",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }
