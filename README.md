@@ -69,16 +69,16 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Observed statistics
 
-Snapshot as of 2026-10-22T23:50:21.912Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
+Snapshot as of 2026-10-23T16:36:58.022Z. This campaign includes multiple source versions and the imported first seven party games. It excludes private tests and unrelated earlier attempts.
 
 | Metric | Result |
 | --- | --- |
-| Confirmed public wins / attempts | 17 / 18 (94.4%) |
+| Confirmed public wins / attempts | 18 / 19 (94.7%) |
 | Losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 8 / 9 |
-| Accepted submissions / acknowledgements | 286 / 301 (95.0%) |
-| Rare-or-better accepted answers | 110 / 286 (38.5%) |
-| Category first-answer availability, median | 3,775 ms |
+| Current / best consecutive wins | 9 / 9 |
+| Accepted submissions / acknowledgements | 312 / 327 (95.4%) |
+| Rare-or-better accepted answers | 134 / 312 (42.9%) |
+| Category first-answer availability, median | 3,727 ms |
 | First-turn wait, median | 82 ms |
 
 [Full statistics and methodology](statistics/README-snippet.md) · [Machine-readable summary](statistics/summary.json) · [Every public attempt as CSV](statistics/matches.csv)
@@ -88,7 +88,7 @@ Only the game’s acknowledgements establish acceptance and rarity. Imported ran
 ## How it improves
 
 - **Rare answers first:** verified tiers outrank guesses. Fresh generation targets niche, established answers; common-only local pools can request rare alternatives in the background.
-- **Fast first answers:** a persistent Codex worker starts before matchmaking. Unseen categories stream an initial three-answer burst, then fill more choices in the background. Known categories and spelling constraints answer locally.
+- **Fast first answers:** a persistent Codex worker starts before matchmaking. Uncovered categories stream an initial three-answer burst, then refill in the background when fewer than three useful choices remain. Known categories and spelling constraints answer locally.
 - **Learning:** the cache retains canonical accepted answers, server tiers, and misses for each category. Used names and reviewed aliases are excluded.
 - **Recovery:** reconnects preserve the bot’s guest identity. Usage-limit errors back off while local answers remain available.
 - **Evidence:** match reviews include rarity, first-answer readiness, first-turn wait, rejected answers, and player counts. Statistics regenerate after results and reviews.

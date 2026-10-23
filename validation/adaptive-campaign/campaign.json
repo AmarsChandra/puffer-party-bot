@@ -176,6 +176,26 @@
         "answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
         "english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c"
       }
+    },
+    {
+      "id": "42a71247079eed12",
+      "sources": {
+        "src/paths.mjs": "d7bdae38224ccc4501ae74303681e129db52e28c689523e39cf4f24fa910bba7",
+        "src/puffer-bot.mjs": "ea16595f817c4de2f20e149d2c30000283f230a41aaaee19f329d4d35343722c",
+        "src/answer-engine.mjs": "1818a4c8535f1ed74ec4966f3cd79a8b2db153cb39650dbf10732f75bfb57377",
+        "src/codex-provider.mjs": "bbb38e2d7e2faae7de9c4f15352e6c428ef54e6d1012eff840d04781404f05b9",
+        "src/answer-archive.mjs": "eaf3f00961ccee7510e2fce2ad2b5b63b03cdbba21210a23f6471f30575f96f4",
+        "src/regular-bank.mjs": "0b73290fb0ba8ad976de3b678890b6f92ac9829147fa5c0179c9d178fe35dae2",
+        "src/streak-runner.mjs": "d61e2a311965e5a3db604087b085a6949320bc7a7339270e39c53c7e16724469",
+        "src/game-screen.mjs": "057700354cec0b2a6048db875f3b7ddcabff2f7f1ae59a73293b8f05e3f7fcec",
+        "src/adaptive-campaign.mjs": "2879a73fe244f33a436d5a037593e0886c9624a2c5f28c1fe688d6edaa46553b",
+        "src/review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "src/statistics.mjs": "af9800b46d8af26bfe93cbda1c3eb8db9239661a95610514eddef488dd582fe0",
+        "src/self-play.mjs": "a34352fd9053e0aba6a36b9246e4c150654c8afab87cff818603746c3554cfcc",
+        "data/answers.json": "0fa92026ed83099586284fd7bf6bfeede3f38214ce1fcc5850ce94b76d4cc64a",
+        "data/english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c",
+        "data/answer-archive.json.gz": "56fd331148dd79dbaeccfbc369f639eed3ea4be8504c8613c6d4e3343adf6cc3"
+      }
     }
   ],
   "records": [
@@ -436,6 +456,21 @@
       "accepted": 19,
       "lives": 4,
       "finishedAt": "2026-10-22T23:50:21.912Z",
+      "reviewed": true
+    },
+    {
+      "number": 19,
+      "outcome": "win",
+      "gameId": "party:HMKJ-1792773098659-1",
+      "room": "HMKJ",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/019/result.json",
+      "reviewFile": "games/019/review.json",
+      "sourceVersion": "42a71247079eed12",
+      "accepted": 26,
+      "lives": 5,
+      "finishedAt": "2026-10-23T16:36:58.022Z",
       "reviewed": true
     }
   ],
@@ -1226,10 +1261,20 @@
         "historicalTierComparisons": 54,
         "historicalTierAgreements": 54
       }
+    },
+    {
+      "at": "2026-10-23T16:37:44.297Z",
+      "afterMatch": 19,
+      "summary": "Reviewed public six-player HMKJ win: 26/26 accepted, 8 krillion, 16 deepcut, 2 schooler, five hearts; archive covered 7/9 categories and all 21 archive predictions matched the game. Four fresh Codex requests served the two uncovered categories. Retained newly confirmed answers and reduced eager model refill while three useful local rare choices remain.",
+      "changes": [
+        "Preserved actual Puffer acknowledgements and rarity for all new answers.",
+        "Deferred long fallback refill after an initial three-answer burst until fewer than three useful choices remain; meaningful regression updated.",
+        "All 61 tests pass. Five-game cohort report now contains game 1 of 5; remaining outcomes will be retained."
+      ]
     }
   ],
   "progress": {
-    "current": 8,
+    "current": 9,
     "best": 9
   },
   "setupFailures": [

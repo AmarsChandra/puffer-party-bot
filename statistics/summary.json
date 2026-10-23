@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:30:33.714Z",
+  "generatedAt": "2026-10-23T16:37:44.303Z",
   "cohort": "Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.",
   "status": "awaiting-review",
   "activeMatch": null,
   "startedAt": "2026-10-22T17:45:39.910Z",
-  "lastResultAt": "2026-10-22T23:50:21.912Z",
+  "lastResultAt": "2026-10-23T16:36:58.022Z",
   "queue": "party",
   "outcomes": {
-    "attempts": 18,
-    "wins": 17,
+    "attempts": 19,
+    "wins": 18,
     "losses": 0,
     "inconclusive": 1,
-    "confirmedWinRate": 0.9444444444444444
+    "confirmedWinRate": 0.9473684210526315
   },
   "streak": {
-    "current": 8,
+    "current": 9,
     "best": 9,
     "target": 20
   },
@@ -29,8 +29,10 @@
     }
   ],
   "codexUsage": {
-    "measuredMatches": [],
-    "requests": 0,
+    "measuredMatches": [
+      19
+    ],
+    "requests": 4,
     "unmeasuredMatches": [
       1,
       2,
@@ -53,10 +55,10 @@
     ]
   },
   "submissions": {
-    "acceptedAcknowledgements": 286,
+    "acceptedAcknowledgements": 312,
     "rejections": 15,
-    "acknowledgements": 301,
-    "acceptanceRate": 0.9501661129568106,
+    "acknowledgements": 327,
+    "acceptanceRate": 0.9541284403669725,
     "misses": 4,
     "repeats": 11
   },
@@ -65,40 +67,41 @@
       "tooclever": 1,
       "plankton": 117,
       "rare": 44,
-      "deepcut": 57,
-      "schooler": 58,
-      "krillion": 9
+      "deepcut": 73,
+      "schooler": 60,
+      "krillion": 17
     },
-    "rareOrBetter": 110,
-    "acceptedAcknowledgements": 286,
-    "rareOrBetterRate": 0.38461538461538464
+    "rareOrBetter": 134,
+    "acceptedAcknowledgements": 312,
+    "rareOrBetterRate": 0.42948717948717946
   },
   "categoryReadiness": {
-    "samples": 111,
-    "medianMs": 3775,
-    "p95Ms": 8781,
+    "samples": 120,
+    "medianMs": 3727,
+    "p95Ms": 8589,
     "maxMs": 10491
   },
   "firstTurnWait": {
-    "samples": 109,
+    "samples": 118,
     "medianMs": 82,
     "p95Ms": 4226,
     "maxMs": 10472
   },
   "latencyCoverage": {
-    "attemptsWithTimings": 17,
+    "attemptsWithTimings": 18,
     "attemptsWithoutTimings": [
       10
     ],
-    "categoryObservations": 112,
+    "categoryObservations": 121,
     "unavailableCategories": 1,
     "firstTurnsWithoutSubmission": 1
   },
   "firstAnswerSources": {
-    "codex": 89,
-    "verified": 8,
+    "codex": 90,
+    "verified": 9,
     "bank": 13,
-    "example": 1
+    "example": 1,
+    "answer-archive": 7
   },
   "versions": [
     {
@@ -199,6 +202,15 @@
       "inconclusive": 0,
       "acceptedAcknowledgements": 19,
       "rareOrBetter": 19
+    },
+    {
+      "sourceVersion": "42a71247079eed12",
+      "attempts": 1,
+      "wins": 1,
+      "losses": 0,
+      "inconclusive": 0,
+      "acceptedAcknowledgements": 26,
+      "rareOrBetter": 24
     }
   ],
   "matches": [
@@ -945,6 +957,47 @@
       "archiveAccepted": 0,
       "archiveTierAgreements": 0,
       "timedCategories": 7,
+      "unavailableCategories": 0,
+      "firstTurnsWithoutSubmission": 0
+    },
+    {
+      "number": 19,
+      "gameId": "party:HMKJ-1792773098659-1",
+      "room": "HMKJ",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "42a71247079eed12",
+      "finishedAt": "2026-10-23T16:36:58.022Z",
+      "acceptedAcknowledgements": 26,
+      "rejections": 0,
+      "serverAccepted": 26,
+      "rarity": {
+        "tiers": {
+          "krillion": 8,
+          "deepcut": 16,
+          "schooler": 2
+        },
+        "rareOrBetter": 24,
+        "acceptedAcknowledgements": 26,
+        "rareOrBetterRate": 0.9230769230769231
+      },
+      "categoryReadiness": {
+        "samples": 9,
+        "medianMs": 10,
+        "p95Ms": 3295,
+        "maxMs": 3295
+      },
+      "firstTurnWait": {
+        "samples": 9,
+        "medianMs": 82,
+        "p95Ms": 83,
+        "maxMs": 83
+      },
+      "codexRequests": 4,
+      "archiveCoveredCategories": 7,
+      "archiveAccepted": 21,
+      "archiveTierAgreements": 21,
+      "timedCategories": 9,
       "unavailableCategories": 0,
       "firstTurnsWithoutSubmission": 0
     }

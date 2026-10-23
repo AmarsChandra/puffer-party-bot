@@ -184,6 +184,9 @@ export class AnswerEngine {
     const rareChoices=available.filter(a=>a.accepted&&(TIER[a.tier]??0)>=TIER.rare).length;
     const rareProposals=available.filter(a=>!a.accepted&&a.rarityRequested).length;
     const regularRare=available.some(a=>a.source==='regular-bank'&&(TIER[a.regularTier]??0)>=TIER.rare);
+    // Keep three useful choices ready without immediately generating a long
+    // refill after every initial burst. Refill as the available pool runs down.
+    if(!force&&available.length>=3&&(rareChoices||regularRare||rareProposals>=3))return Promise.resolve();
     // A large local pool can still consist entirely of common answers. Once the
     // server has shown that, prepare rare alternatives without delaying play.
     const untouchedLocalPool=available.some(a=>a.source==='bank')&&!this.records(question).some(a=>a.accepted);

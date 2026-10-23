@@ -252,14 +252,15 @@ test('rare-requested proposals can beat common answers but never verified rare a
   assert.equal(engine.answer(q,new Set(['verifieddeepcut'])).text,'Common');
 });
 
-test('a fresh category streams a three-answer burst and starts backfill without blocking',async t=>{
+test('a fresh category streams three choices and defers refill until the useful pool runs down',async t=>{
   const jobs=[],provider={generate(q,opts){return new Promise(resolve=>jobs.push({...opts,resolve}));},close(){}};
   const {engine}=fixture(t,provider),q='Name an African antelope';
   const first=engine.prime(q);assert.equal(jobs[0].count,3);
   jobs[0].onAnswer('Kudu');assert.equal(engine.answer(q,new Set()).text,'Kudu');
   jobs[0].resolve(['Kudu','Eland','Topi']);await first;
+  assert.equal(jobs.length,1);
+  const backfill=engine.prime(q,{exclude:new Set(['kudu'])});
   assert.equal(jobs.length,2);assert.equal(jobs[1].count,18);
-  const backfill=engine.inflight.get(questionKey(q)).promise;
   jobs[1].resolve(['Gnu','Oryx','Impala','Gerenuk','Springbok']);await backfill;
   assert.equal(engine.records(q).length,8);
 });

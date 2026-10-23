@@ -1,0 +1,183 @@
+{
+  "room": "HMKJ",
+  "gameId": "party:HMKJ-1792773098659-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name an app where you can video call",
+      "readyMs": 8,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a real-life language that uses a non-Latin writing system",
+      "readyMs": 10,
+      "firstTurnWaitMs": 81,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country in the European Union",
+      "readyMs": 11,
+      "firstTurnWaitMs": 82,
+      "accepted": 1,
+      "rarity": {
+        "tiers": {
+          "krillion": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a sauce",
+      "readyMs": 6,
+      "firstTurnWaitMs": 83,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a phase of the Moon",
+      "readyMs": 3295,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "schooler": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "readyMs": 3,
+      "firstTurnWaitMs": 83,
+      "accepted": 7,
+      "rarity": {
+        "tiers": {
+          "krillion": 2,
+          "deepcut": 5
+        },
+        "rareOrBetter": 7,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a Simpsons character",
+      "readyMs": 8,
+      "firstTurnWaitMs": 81,
+      "accepted": 5,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 4
+        },
+        "rareOrBetter": 5,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a cut of beef",
+      "readyMs": 10,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 1,
+          "deepcut": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word containing “inter”",
+      "readyMs": 19,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2,
+          "schooler": 1
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 0.6666666666666666
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 167,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "krillion": 8,
+      "deepcut": 16,
+      "schooler": 2
+    },
+    "rareOrBetter": 24,
+    "rareOrBetterRate": 0.9230769230769231
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 24,
+    "ownAccepted": 26,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

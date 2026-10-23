@@ -9727,12 +9727,12 @@
         },
         "interaction": {
           "text": "interaction",
-          "accepted": 2,
+          "accepted": 4,
           "misses": 0,
           "order": 3,
           "canonical": "interaction",
           "tier": "schooler",
-          "lastAccepted": "2026-10-22T17:23:02.628Z"
+          "lastAccepted": "2026-10-23T16:36:45.297Z"
         },
         "intercom": {
           "text": "intercom",
@@ -9754,12 +9754,12 @@
         },
         "interbatch": {
           "text": "interbatch",
-          "accepted": 1,
+          "accepted": 3,
           "misses": 0,
           "order": 6,
           "canonical": "interbatch",
           "tier": "deepcut",
-          "lastAccepted": "2026-10-22T17:23:17.773Z"
+          "lastAccepted": "2026-10-23T16:36:39.213Z"
         },
         "interject": {
           "text": "interject",
@@ -9790,12 +9790,177 @@
         },
         "international": {
           "text": "international",
-          "accepted": 1,
+          "accepted": 2,
           "misses": 0,
           "order": 10,
           "canonical": "international",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:23:22.035Z"
+          "lastAccepted": "2026-10-23T16:36:44.985Z"
+        },
+        "intersex": {
+          "text": "intersex",
+          "accepted": 1,
+          "misses": 0,
+          "order": 11,
+          "canonical": "intersex",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:36:38.906Z"
+        },
+        "intercalate": {
+          "text": "intercalate",
+          "accepted": 2,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "intercalate",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:36:50.045Z"
+        },
+        "intercalary": {
+          "text": "intercalary",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interdigitate": {
+          "text": "interdigitate",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interdigitation": {
+          "text": "interdigitation",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interdenominational": {
+          "text": "interdenominational",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interdisciplinary": {
+          "text": "interdisciplinary",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interlinear": {
+          "text": "interlinear",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interleukin": {
+          "text": "interleukin",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interferon": {
+          "text": "interferon",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "intermodal": {
+          "text": "intermodal",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interoperable": {
+          "text": "interoperable",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interoperability": {
+          "text": "interoperability",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interoception": {
+          "text": "interoception",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interoceptive": {
+          "text": "interoceptive",
+          "accepted": 0,
+          "misses": 0,
+          "order": 25,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interosseous": {
+          "text": "interosseous",
+          "accepted": 0,
+          "misses": 0,
+          "order": 26,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interpleural": {
+          "text": "interpleural",
+          "accepted": 0,
+          "misses": 0,
+          "order": 27,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interatrial": {
+          "text": "interatrial",
+          "accepted": 0,
+          "misses": 0,
+          "order": 28,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interventricular": {
+          "text": "interventricular",
+          "accepted": 0,
+          "misses": 0,
+          "order": 29,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interdimensional": {
+          "text": "interdimensional",
+          "accepted": 1,
+          "misses": 0,
+          "order": 30,
+          "canonical": "interdimensional",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:36:49.760Z"
         }
       }
     },
@@ -11849,10 +12014,13 @@
       "answers": {
         "france": {
           "text": "France",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 0,
-          "proposed": true
+          "proposed": true,
+          "canonical": "france",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:33:34.701Z"
         },
         "germany": {
           "text": "Germany",
@@ -11912,10 +12080,13 @@
         },
         "austria": {
           "text": "Austria",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 9,
-          "proposed": true
+          "proposed": true,
+          "canonical": "austria",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:33:29.840Z"
         },
         "poland": {
           "text": "Poland",
@@ -11926,10 +12097,13 @@
         },
         "sweden": {
           "text": "Sweden",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 11,
-          "proposed": true
+          "proposed": true,
+          "canonical": "sweden",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:33:31.818Z"
         },
         "finland": {
           "text": "Finland",
@@ -11968,10 +12142,13 @@
         },
         "malta": {
           "text": "Malta",
-          "accepted": 0,
+          "accepted": 2,
           "misses": 0,
           "order": 17,
-          "proposed": true
+          "proposed": true,
+          "canonical": "malta",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:33:29.410Z"
         }
       }
     },
@@ -29629,6 +29806,629 @@
           "order": 21,
           "proposed": true,
           "rarityRequested": true
+        }
+      }
+    },
+    "app where you can video call": {
+      "question": "Name an app where you can video call",
+      "answers": {
+        "skype": {
+          "text": "Skype",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "skype",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:31:51.833Z"
+        },
+        "zoom": {
+          "text": "Zoom",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "zoom",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:31:54.033Z"
+        },
+        "yahoolivetext": {
+          "text": "Yahoo Livetext",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "canonical": "yahoolivetext",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:31:54.333Z"
+        },
+        "botim": {
+          "text": "BOTIM",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "botim",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:31:54.496Z"
+        },
+        "houseparty": {
+          "text": "Houseparty",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "houseparty",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:31:56.864Z"
+        },
+        "instagram": {
+          "text": "Instagram",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "instagram",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:32:14.048Z"
+        },
+        "discord": {
+          "text": "Discord",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "discord",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:32:15.338Z"
+        },
+        "3cx": {
+          "text": "3CX",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "canonical": "3cx",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:32:15.620Z"
+        },
+        "slack": {
+          "text": "Slack",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "slack",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:32:17.378Z"
+        },
+        "googlemeet": {
+          "text": "Google Meet",
+          "accepted": 1,
+          "misses": 0,
+          "order": 9,
+          "canonical": "googlemeet",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:32:18.418Z"
+        }
+      }
+    },
+    "real life language that uses a non latin writing system": {
+      "question": "Name a real-life language that uses a non-Latin writing system",
+      "answers": {
+        "chinese": {
+          "text": "Chinese",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "chinese",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:32:35.090Z"
+        },
+        "japanese": {
+          "text": "Japanese",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "japanese",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:32:54.114Z"
+        },
+        "vai": {
+          "text": "Vai",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "canonical": "vai",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:32:54.406Z"
+        },
+        "tamil": {
+          "text": "Tamil",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "tamil",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:32:57.333Z"
+        },
+        "thai": {
+          "text": "Thai",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "thai",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:32:58.773Z"
+        },
+        "lao": {
+          "text": "Lao",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "canonical": "lao",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:33:03.513Z"
+        },
+        "hebrew": {
+          "text": "Hebrew",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "hebrew",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:33:04.337Z"
+        },
+        "ahmao": {
+          "text": "A-Hmao",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "canonical": "ahmao",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:33:04.623Z"
+        },
+        "korean": {
+          "text": "Korean",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "korean",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:33:04.989Z"
+        },
+        "balinese": {
+          "text": "Balinese",
+          "accepted": 1,
+          "misses": 0,
+          "order": 9,
+          "canonical": "balinese",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:33:06.333Z"
+        }
+      }
+    },
+    "sauce": {
+      "question": "Name a sauce",
+      "answers": {
+        "marinara": {
+          "text": "Marinara",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "marinara",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:33:38.787Z"
+        },
+        "saucenantua": {
+          "text": "Sauce nantua",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "saucenantua",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:33:39.196Z"
+        },
+        "tahini": {
+          "text": "Tahini",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "tahini",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:33:55.158Z"
+        },
+        "worcestershire": {
+          "text": "Worcestershire",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "worcestershire",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:33:56.140Z"
+        },
+        "tzatziki": {
+          "text": "Tzatziki",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "tzatziki",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:33:57.215Z"
+        },
+        "adobosauce": {
+          "text": "Adobo sauce",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "canonical": "adobosauce",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:33:57.515Z"
+        }
+      }
+    },
+    "phase of the moon": {
+      "question": "Name a phase of the Moon",
+      "answers": {
+        "waninggibbous": {
+          "text": "Waning gibbous",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "waninggibbous",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:34:14.111Z"
+        },
+        "waxingcrescent": {
+          "text": "Waxing crescent",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "waxingcrescent",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:34:14.392Z"
+        },
+        "thirdquarter": {
+          "text": "Third quarter",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "thirdquarter",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:34:28.987Z"
+        },
+        "fullmoon": {
+          "text": "Full moon",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "fullmoon",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:34:03.171Z",
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "crescent": {
+          "text": "Crescent",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "crescent",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:34:04.182Z"
+        },
+        "waningcrescent": {
+          "text": "Waning crescent",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "waningcrescent",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:34:28.702Z"
+        },
+        "waxinggibbous": {
+          "text": "Waxing gibbous",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "waxinggibbous",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:34:27.707Z"
+        },
+        "firstquarter": {
+          "text": "First quarter",
+          "accepted": 1,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "firstquarter",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:34:25.541Z"
+        },
+        "newmoon": {
+          "text": "New moon",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "gibbous": {
+          "text": "Gibbous",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "calisthenics exercise bodyweight exercises only": {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answers": {
+        "humanflag": {
+          "text": "Human flag",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "humanflag",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:34:49.919Z"
+        },
+        "chinup": {
+          "text": "Chin-up",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "chinup",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:34:50.769Z"
+        },
+        "icecreammaker": {
+          "text": "Ice cream maker",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "canonical": "icecreammaker",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:34:51.068Z"
+        },
+        "muscleup": {
+          "text": "Muscle-up",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "muscleup",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:34:54.661Z"
+        },
+        "handstand": {
+          "text": "Handstand",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "handstand",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:35:03.241Z"
+        },
+        "skinthecat": {
+          "text": "Skin the cat",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "canonical": "skinthecat",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:35:03.621Z"
+        },
+        "headstand": {
+          "text": "Headstand",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "headstand",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:35:08.369Z"
+        },
+        "180degreesquatjump": {
+          "text": "180-degree squat jump",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "canonical": "180degreesquatjump",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:18.455Z"
+        },
+        "handstandpushup": {
+          "text": "Handstand push-up",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "handstandpushup",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:35:19.683Z"
+        },
+        "360pushup": {
+          "text": "360 push-up",
+          "accepted": 2,
+          "misses": 0,
+          "order": 9,
+          "canonical": "360pushup",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:20.047Z"
+        },
+        "pushup": {
+          "text": "Push-up",
+          "accepted": 1,
+          "misses": 0,
+          "order": 10,
+          "canonical": "pushup",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:35:24.660Z"
+        },
+        "8countpushup": {
+          "text": "8-count push-up",
+          "accepted": 2,
+          "misses": 0,
+          "order": 11,
+          "canonical": "8countpushup",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:24.956Z"
+        },
+        "diamondpushup": {
+          "text": "Diamond push-up",
+          "accepted": 1,
+          "misses": 0,
+          "order": 12,
+          "canonical": "diamondpushup",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:35:30.054Z"
+        },
+        "90degreefrontleverraise": {
+          "text": "90-degree front lever raise",
+          "accepted": 2,
+          "misses": 0,
+          "order": 13,
+          "canonical": "90degreefrontleverraise",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:30.360Z"
+        },
+        "frogstand": {
+          "text": "Frog stand",
+          "accepted": 1,
+          "misses": 0,
+          "order": 14,
+          "canonical": "frogstand",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:35:38.075Z"
+        },
+        "90degreehandstandpushup": {
+          "text": "90-degree handstand push-up",
+          "accepted": 2,
+          "misses": 0,
+          "order": 15,
+          "canonical": "90degreehandstandpushup",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:38.703Z"
+        }
+      }
+    },
+    "simpsons character": {
+      "question": "Name a Simpsons character",
+      "answers": {
+        "marge": {
+          "text": "Marge",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "marge",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:35:43.290Z"
+        },
+        "gabbo": {
+          "text": "Gabbo",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "gabbo",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:35:43.595Z"
+        },
+        "lisa": {
+          "text": "Lisa",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "lisa",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:35:45.656Z"
+        },
+        "agnesskinner": {
+          "text": "Agnes Skinner",
+          "accepted": 2,
+          "misses": 0,
+          "order": 3,
+          "canonical": "agnesskinner",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:45.939Z"
+        },
+        "bart": {
+          "text": "Bart",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "bart",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:35:49.589Z"
+        },
+        "artieziff": {
+          "text": "Artie Ziff",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "canonical": "artieziff",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:49.881Z"
+        },
+        "apu": {
+          "text": "Apu",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "canonical": "apu",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:35:52.562Z"
+        },
+        "babygerald": {
+          "text": "Baby Gerald",
+          "accepted": 2,
+          "misses": 0,
+          "order": 7,
+          "canonical": "babygerald",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:35:53.009Z"
+        },
+        "milhouse": {
+          "text": "Milhouse",
+          "accepted": 1,
+          "misses": 0,
+          "order": 8,
+          "canonical": "milhouse",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:36:00.707Z"
+        },
+        "blinky": {
+          "text": "Blinky",
+          "accepted": 2,
+          "misses": 0,
+          "order": 9,
+          "canonical": "blinky",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:36:01.022Z"
+        }
+      }
+    },
+    "cut of beef": {
+      "question": "Name a cut of beef",
+      "answers": {
+        "spidersteak": {
+          "text": "Spider steak",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "canonical": "spidersteak",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:36:10.816Z"
+        },
+        "baseballsteak": {
+          "text": "Baseball steak",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "baseballsteak",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:36:23.783Z"
         }
       }
     }

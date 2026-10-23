@@ -1,0 +1,1404 @@
+{
+  "won": true,
+  "room": "HMKJ",
+  "playerId": "8f02c77d0c",
+  "winnerId": "8f02c77d0c",
+  "gameNumber": 1,
+  "gameId": "party:HMKJ-1792773098659-1",
+  "rated": false,
+  "player": {
+    "id": "8f02c77d0c",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 2,
+    "isHost": true,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 5,
+    "meter": 420,
+    "alive": true,
+    "answers": 26,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "intercalate",
+      "tier": "deepcut"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name an app where you can video call"
+    },
+    {
+      "index": 2,
+      "text": "Name a real-life language that uses a non-Latin writing system"
+    },
+    {
+      "index": 3,
+      "text": "Name a country in the European Union"
+    },
+    {
+      "index": 4,
+      "text": "Name a sauce"
+    },
+    {
+      "index": 5,
+      "text": "Name a phase of the Moon"
+    },
+    {
+      "index": 6,
+      "text": "Name a calisthenics exercise (bodyweight exercises only)"
+    },
+    {
+      "index": 7,
+      "text": "Name a Simpsons character"
+    },
+    {
+      "index": 8,
+      "text": "Name a cut of beef"
+    },
+    {
+      "index": 9,
+      "text": "Name an English word containing “inter”"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an app where you can video call",
+      "answer": "Yahoo Livetext",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-01",
+      "archiveDataHash": "417304cae33a2a3d7466b9d516440900b9f06e7732fd1207e7fee723931ab46e",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Yahoo Livetext",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name an app where you can video call",
+      "answer": "3CX",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-01",
+      "archiveDataHash": "417304cae33a2a3d7466b9d516440900b9f06e7732fd1207e7fee723931ab46e",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "3CX",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a real-life language that uses a non-Latin writing system",
+      "answer": "Vai",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-30",
+      "archiveDataHash": "3212d831cc89896f7d1976f8c5b1f0929ddb544a75d9228ae177267e09bfbdd5",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Vai",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a real-life language that uses a non-Latin writing system",
+      "answer": "A-Hmao",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-30",
+      "archiveDataHash": "3212d831cc89896f7d1976f8c5b1f0929ddb544a75d9228ae177267e09bfbdd5",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "A-Hmao",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country in the European Union",
+      "answer": "Malta",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-01",
+      "archiveDataHash": "da003e8c41665ccb524cc81a534492f0f46d2a1be9e804d34b6487776e913d3b",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Malta",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a sauce",
+      "answer": "Sauce nantua",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-20",
+      "archiveDataHash": "374bd4430aa85d98ccba08d1b58aad7ab036430219676e670c3a6ef0dbbb6d8c",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Sauce nantua",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a sauce",
+      "answer": "Adobo sauce",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-20",
+      "archiveDataHash": "374bd4430aa85d98ccba08d1b58aad7ab036430219676e670c3a6ef0dbbb6d8c",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Adobo sauce",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a phase of the Moon",
+      "answer": "Waxing crescent",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Waxing crescent",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name a phase of the Moon",
+      "answer": "Third quarter",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Third quarter",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "Ice cream maker",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Ice cream maker",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "Skin the cat",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Skin the cat",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "180-degree squat jump",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "180-degree squat jump",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "360 push-up",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "360 push-up",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "8-count push-up",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "8-count push-up",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "90-degree front lever raise",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "90-degree front lever raise",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a calisthenics exercise (bodyweight exercises only)",
+      "answer": "90-degree handstand push-up",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-17",
+      "archiveDataHash": "b37270f6e1707c4b8b72fa739bda4ebf9653170db476a7b0dba3d74cdf3afbe0",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "90-degree handstand push-up",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a Simpsons character",
+      "answer": "Gabbo",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-05",
+      "archiveDataHash": "716334c7f48f78ccfda1d1618330c14e9c43148a65ec42dd8ea48a5849319cdc",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Gabbo",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a Simpsons character",
+      "answer": "Agnes Skinner",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-05",
+      "archiveDataHash": "716334c7f48f78ccfda1d1618330c14e9c43148a65ec42dd8ea48a5849319cdc",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Agnes Skinner",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a Simpsons character",
+      "answer": "Artie Ziff",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-05",
+      "archiveDataHash": "716334c7f48f78ccfda1d1618330c14e9c43148a65ec42dd8ea48a5849319cdc",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "Artie Ziff",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a Simpsons character",
+      "answer": "Baby Gerald",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-05",
+      "archiveDataHash": "716334c7f48f78ccfda1d1618330c14e9c43148a65ec42dd8ea48a5849319cdc",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Baby Gerald",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a Simpsons character",
+      "answer": "Blinky",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-05",
+      "archiveDataHash": "716334c7f48f78ccfda1d1618330c14e9c43148a65ec42dd8ea48a5849319cdc",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Blinky",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a cut of beef",
+      "answer": "Spider steak",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-11",
+      "archiveDataHash": "1e6670e5759657fb10ae8880805093bf43c0592a0baf5150f607e739f8df43ba",
+      "reactionMs": 94,
+      "submit": {
+        "accepted": true,
+        "answer": "Spider steak",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a cut of beef",
+      "answer": "Baseball steak",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-08-11",
+      "archiveDataHash": "1e6670e5759657fb10ae8880805093bf43c0592a0baf5150f607e739f8df43ba",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Baseball steak",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an English word containing “inter”",
+      "answer": "interbatch",
+      "source": "verified",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "interbatch",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name an English word containing “inter”",
+      "answer": "interaction",
+      "source": "verified",
+      "reactionMs": 80,
+      "submit": {
+        "accepted": true,
+        "answer": "interaction",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name an English word containing “inter”",
+      "answer": "intercalate",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "intercalate",
+        "tier": "deepcut"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 26,
+    "accepted": 26,
+    "reactionMs": [
+      83,
+      81,
+      81,
+      84,
+      82,
+      84,
+      81,
+      82,
+      83,
+      83,
+      84,
+      82,
+      83,
+      83,
+      84,
+      84,
+      83,
+      82,
+      84,
+      82,
+      83,
+      94,
+      83,
+      82,
+      80,
+      81
+    ],
+    "sources": {
+      "answer-archive": 21,
+      "codex": 3,
+      "verified": 2
+    },
+    "unknownCategories": [],
+    "categoryLatency": [
+      {
+        "gameNumber": 1,
+        "index": 1,
+        "question": "Name an app where you can video call",
+        "archiveCovered": true,
+        "observedAt": 1792773106588,
+        "readyMs": 8,
+        "firstTurnAt": 1792773114034,
+        "firstSubmitMs": 7528,
+        "firstTurnWaitMs": 82,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 2,
+        "question": "Name a real-life language that uses a non-Latin writing system",
+        "archiveCovered": true,
+        "observedAt": 1792773138418,
+        "readyMs": 10,
+        "firstTurnAt": 1792773174115,
+        "firstSubmitMs": 35778,
+        "firstTurnWaitMs": 81,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 3,
+        "question": "Name a country in the European Union",
+        "archiveCovered": true,
+        "observedAt": 1792773194332,
+        "readyMs": 11,
+        "firstTurnAt": 1792773209121,
+        "firstSubmitMs": 14871,
+        "firstTurnWaitMs": 82,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 4,
+        "question": "Name a sauce",
+        "archiveCovered": true,
+        "observedAt": 1792773214701,
+        "readyMs": 6,
+        "firstTurnAt": 1792773218787,
+        "firstSubmitMs": 4169,
+        "firstTurnWaitMs": 83,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 5,
+        "question": "Name a phase of the Moon",
+        "archiveCovered": false,
+        "observedAt": 1792773237481,
+        "readyMs": 3295,
+        "firstTurnAt": 1792773254111,
+        "firstSubmitMs": 16712,
+        "firstTurnWaitMs": 82,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 6,
+        "question": "Name a calisthenics exercise (bodyweight exercises only)",
+        "archiveCovered": true,
+        "observedAt": 1792773281833,
+        "readyMs": 3,
+        "firstTurnAt": 1792773290770,
+        "firstSubmitMs": 9020,
+        "firstTurnWaitMs": 83,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 7,
+        "question": "Name a Simpsons character",
+        "archiveCovered": true,
+        "observedAt": 1792773338694,
+        "readyMs": 8,
+        "firstTurnAt": 1792773343291,
+        "firstSubmitMs": 4678,
+        "firstTurnWaitMs": 81,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 8,
+        "question": "Name a cut of beef",
+        "archiveCovered": true,
+        "observedAt": 1792773369007,
+        "readyMs": 10,
+        "firstTurnAt": 1792773370518,
+        "firstSubmitMs": 1593,
+        "firstTurnWaitMs": 82,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 9,
+        "question": "Name an English word containing “inter”",
+        "archiveCovered": false,
+        "observedAt": 1792773383750,
+        "readyMs": 19,
+        "firstTurnAt": 1792773398907,
+        "firstSubmitMs": 15238,
+        "firstTurnWaitMs": 81,
+        "firstSource": "verified"
+      }
+    ],
+    "codexRequests": 4
+  },
+  "startingRoom": {
+    "code": "HMKJ",
+    "chatEnabled": true,
+    "version": 8,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "41469c931a",
+    "players": [
+      {
+        "id": "41469c931a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Banker",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "8c1f8f350c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "dope smoka",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "8f02c77d0c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "864f0a984e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "hellobeeshees",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "80461ce272",
+        "chatMuted": false,
+        "removed": false,
+        "name": "odonn311",
+        "character": "schooler",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "28d00ebec4",
+        "chatMuted": false,
+        "removed": false,
+        "name": "salvajuan",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792773106571,
+    "winnerId": null,
+    "gameNumber": 1,
+    "gameId": "party:HMKJ-1792773098659-1",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "41469c931a",
+        "seq": 1,
+        "at": 1792773098659
+      },
+      {
+        "kind": "join",
+        "playerId": "8c1f8f350c",
+        "seq": 2,
+        "at": 1792773102870
+      },
+      {
+        "kind": "join",
+        "playerId": "8f02c77d0c",
+        "seq": 3,
+        "at": 1792773102978
+      },
+      {
+        "kind": "join",
+        "playerId": "864f0a984e",
+        "seq": 4,
+        "at": 1792773103268
+      },
+      {
+        "kind": "join",
+        "playerId": "80461ce272",
+        "seq": 5,
+        "at": 1792773103343
+      },
+      {
+        "kind": "join",
+        "playerId": "28d00ebec4",
+        "seq": 6,
+        "at": 1792773103571
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792773106571,
+        "seq": 7,
+        "at": 1792773103571
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792773098659,
+        "playerId": null,
+        "name": "Banker",
+        "text": "Banker joined"
+      },
+      {
+        "id": 2,
+        "at": 1792773102870,
+        "playerId": null,
+        "name": "dope smoka",
+        "text": "dope smoka joined"
+      },
+      {
+        "id": 3,
+        "at": 1792773102978,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 4,
+        "at": 1792773103268,
+        "playerId": null,
+        "name": "hellobeeshees",
+        "text": "hellobeeshees joined"
+      },
+      {
+        "id": 5,
+        "at": 1792773103343,
+        "playerId": null,
+        "name": "odonn311",
+        "text": "odonn311 joined"
+      },
+      {
+        "id": 6,
+        "at": 1792773103571,
+        "playerId": null,
+        "name": "salvajuan",
+        "text": "salvajuan joined"
+      }
+    ],
+    "now": 1792773105158
+  },
+  "finalRoom": {
+    "code": "HMKJ",
+    "chatEnabled": true,
+    "version": 421,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "8f02c77d0c",
+    "players": [
+      {
+        "id": "41469c931a",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Banker",
+        "character": "krill",
+        "seat": 0,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 150,
+        "alive": false,
+        "answers": 6,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Worcestershire",
+          "tier": "schooler"
+        },
+        "place": 5
+      },
+      {
+        "id": "8c1f8f350c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "dope smoka",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 330,
+        "alive": false,
+        "answers": 10,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Handstand",
+          "tier": "schooler"
+        },
+        "place": 3
+      },
+      {
+        "id": "8f02c77d0c",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 5,
+        "meter": 420,
+        "alive": true,
+        "answers": 26,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "intercalate",
+          "tier": "deepcut"
+        },
+        "place": 1
+      },
+      {
+        "id": "864f0a984e",
+        "chatMuted": false,
+        "removed": false,
+        "name": "hellobeeshees",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 290,
+        "alive": false,
+        "answers": 7,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "First quarter",
+          "tier": "rare"
+        },
+        "place": 4
+      },
+      {
+        "id": "80461ce272",
+        "chatMuted": false,
+        "removed": false,
+        "name": "odonn311",
+        "character": "schooler",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 155,
+        "alive": false,
+        "answers": 23,
+        "pops": 3,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "interdimensional",
+          "tier": "rare"
+        },
+        "place": 2
+      },
+      {
+        "id": "28d00ebec4",
+        "chatMuted": false,
+        "removed": false,
+        "name": "salvajuan",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 2,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 6
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 9,
+      "text": "Name an English word containing “inter”",
+      "threshold": 16,
+      "accepted": 6
+    },
+    "countdownEndsAt": null,
+    "winnerId": "8f02c77d0c",
+    "gameNumber": 1,
+    "gameId": "party:HMKJ-1792773098659-1",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Push-up",
+        "tier": "plankton",
+        "seq": 108,
+        "at": 1792773324644
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "8-count push-up",
+        "tier": "deepcut",
+        "seq": 109,
+        "at": 1792773324903
+      },
+      {
+        "kind": "spare",
+        "playerId": "8f02c77d0c",
+        "lives": 4,
+        "seq": 110,
+        "at": 1792773324903
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Diamond push-up",
+        "tier": "schooler",
+        "seq": 111,
+        "at": 1792773330039
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "90-degree front lever raise",
+        "tier": "deepcut",
+        "seq": 112,
+        "at": 1792773330308
+      },
+      {
+        "kind": "reject",
+        "playerId": "80461ce272",
+        "text": "crow",
+        "why": "miss",
+        "seq": 113,
+        "at": 1792773334721
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Frog stand",
+        "tier": "rare",
+        "seq": 114,
+        "at": 1792773338059
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "90-degree handstand push-up",
+        "tier": "deepcut",
+        "seq": 115,
+        "at": 1792773338621
+      },
+      {
+        "kind": "category",
+        "why": "cleared",
+        "index": 7,
+        "holderId": "80461ce272",
+        "seq": 116,
+        "at": 1792773338621
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Marge",
+        "tier": "plankton",
+        "seq": 117,
+        "at": 1792773343273
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Gabbo",
+        "tier": "krillion",
+        "seq": 118,
+        "at": 1792773343544
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Lisa",
+        "tier": "plankton",
+        "seq": 119,
+        "at": 1792773345631
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Agnes Skinner",
+        "tier": "deepcut",
+        "seq": 120,
+        "at": 1792773345885
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Bart",
+        "tier": "plankton",
+        "seq": 121,
+        "at": 1792773349574
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Artie Ziff",
+        "tier": "deepcut",
+        "seq": 122,
+        "at": 1792773349828
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Apu",
+        "tier": "schooler",
+        "seq": 123,
+        "at": 1792773352544
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Baby Gerald",
+        "tier": "deepcut",
+        "seq": 124,
+        "at": 1792773352815
+      },
+      {
+        "kind": "leave",
+        "playerId": "8c1f8f350c",
+        "seq": 125,
+        "at": 1792773358585
+      },
+      {
+        "kind": "host",
+        "playerId": "8f02c77d0c",
+        "seq": 126,
+        "at": 1792773358585
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "Milhouse",
+        "tier": "schooler",
+        "seq": 127,
+        "at": 1792773360691
+      },
+      {
+        "kind": "spare",
+        "playerId": "80461ce272",
+        "lives": 3,
+        "seq": 128,
+        "at": 1792773360691
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Blinky",
+        "tier": "deepcut",
+        "seq": 129,
+        "at": 1792773360969
+      },
+      {
+        "kind": "spare",
+        "playerId": "8f02c77d0c",
+        "lives": 5,
+        "seq": 130,
+        "at": 1792773360969
+      },
+      {
+        "kind": "pop",
+        "playerId": "80461ce272",
+        "livesLeft": 2,
+        "seq": 131,
+        "at": 1792773368970
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 8,
+        "holderId": "8f02c77d0c",
+        "seq": 132,
+        "at": 1792773368970
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Spider steak",
+        "tier": "krillion",
+        "seq": 133,
+        "at": 1792773370765
+      },
+      {
+        "kind": "reject",
+        "playerId": "80461ce272",
+        "text": "angus",
+        "why": "miss",
+        "seq": 134,
+        "at": 1792773379483
+      },
+      {
+        "kind": "pop",
+        "playerId": "80461ce272",
+        "livesLeft": 1,
+        "seq": 135,
+        "at": 1792773381975
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "Baseball steak",
+        "tier": "deepcut",
+        "seq": 136,
+        "at": 1792773383731
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 9,
+        "holderId": "80461ce272",
+        "seq": 137,
+        "at": 1792773383731
+      },
+      {
+        "kind": "reject",
+        "playerId": "80461ce272",
+        "text": "interex",
+        "why": "miss",
+        "seq": 138,
+        "at": 1792773395652
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "intersex",
+        "tier": "rare",
+        "seq": 139,
+        "at": 1792773398875
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "interbatch",
+        "tier": "deepcut",
+        "seq": 140,
+        "at": 1792773399163
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "international",
+        "tier": "plankton",
+        "seq": 141,
+        "at": 1792773404972
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "interaction",
+        "tier": "schooler",
+        "seq": 142,
+        "at": 1792773405243
+      },
+      {
+        "kind": "pass",
+        "from": "80461ce272",
+        "to": "8f02c77d0c",
+        "answer": "interdimensional",
+        "tier": "rare",
+        "seq": 143,
+        "at": 1792773409683
+      },
+      {
+        "kind": "pass",
+        "from": "8f02c77d0c",
+        "to": "80461ce272",
+        "answer": "intercalate",
+        "tier": "deepcut",
+        "seq": 144,
+        "at": 1792773409994
+      },
+      {
+        "kind": "pop",
+        "playerId": "80461ce272",
+        "livesLeft": 0,
+        "seq": 145,
+        "at": 1792773417994
+      },
+      {
+        "kind": "out",
+        "playerId": "80461ce272",
+        "place": 2,
+        "seq": 146,
+        "at": 1792773417994
+      },
+      {
+        "kind": "win",
+        "playerId": "8f02c77d0c",
+        "seq": 147,
+        "at": 1792773417994
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792773098659,
+        "playerId": null,
+        "name": "Banker",
+        "text": "Banker joined"
+      },
+      {
+        "id": 2,
+        "at": 1792773102870,
+        "playerId": null,
+        "name": "dope smoka",
+        "text": "dope smoka joined"
+      },
+      {
+        "id": 3,
+        "at": 1792773102978,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 4,
+        "at": 1792773103268,
+        "playerId": null,
+        "name": "hellobeeshees",
+        "text": "hellobeeshees joined"
+      },
+      {
+        "id": 5,
+        "at": 1792773103343,
+        "playerId": null,
+        "name": "odonn311",
+        "text": "odonn311 joined"
+      },
+      {
+        "id": 6,
+        "at": 1792773103571,
+        "playerId": null,
+        "name": "salvajuan",
+        "text": "salvajuan joined"
+      },
+      {
+        "id": 7,
+        "at": 1792773155668,
+        "playerId": null,
+        "name": "salvajuan",
+        "text": "salvajuan left"
+      },
+      {
+        "id": 8,
+        "at": 1792773255379,
+        "playerId": null,
+        "name": "Banker",
+        "text": "Banker left"
+      },
+      {
+        "id": 9,
+        "at": 1792773284430,
+        "playerId": null,
+        "name": "hellobeeshees",
+        "text": "hellobeeshees left"
+      },
+      {
+        "id": 10,
+        "at": 1792773358585,
+        "playerId": null,
+        "name": "dope smoka",
+        "text": "dope smoka was kicked for being idle"
+      },
+      {
+        "id": 11,
+        "at": 1792773417994,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792773417994
+  }
+}
