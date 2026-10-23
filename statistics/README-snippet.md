@@ -1,22 +1,22 @@
 # Puffer Party bot — observed public results
 
-As of 2026-10-23T16:42:49.036Z. Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.
+As of 2026-10-23T16:50:31.982Z. Public party-queue attempts retained in this adaptive campaign, including its imported first seven games. Private tests and unrelated earlier attempts are excluded.
 
 | Metric | Observed result |
 | --- | --- |
-| Public attempts | 20 |
-| Confirmed wins | 19 / 20 (95.0%) |
+| Public attempts | 21 |
+| Confirmed wins | 20 / 21 (95.2%) |
 | Confirmed losses / inconclusive interruptions | 0 / 1 |
-| Current / best consecutive wins | 10 / 10 |
-| Accepted gameplay acknowledgements | 325 / 341 (95.3%) |
+| Current / best consecutive wins | 11 / 11 |
+| Accepted gameplay acknowledgements | 343 / 359 (95.5%) |
 | Miss / repeat rejections | 4 / 12 |
-| Rare, deep-cut or Krillion answers | 146 / 325 (44.9%) |
-| Category first-answer availability, median / p95 | 3,712 ms / 8,589 ms (125 observations) |
-| First-turn wait, median / p95 | 82 ms / 4,074 ms (122 observations) |
+| Rare, deep-cut or Krillion answers | 159 / 343 (46.4%) |
+| Category first-answer availability, median / p95 | 3,611 ms / 8,589 ms (132 observations) |
+| First-turn wait, median / p95 | 82 ms / 4,074 ms (128 observations) |
 | Categories without an available answer / first turns without a submission | 1 / 1 |
 | Setup failures before participation | 1 |
 
-Rarity tiers are reported by the game: tooclever: 1, plankton: 117, rare: 47, deepcut: 78, schooler: 61, krillion: 21.
+Rarity tiers are reported by the game: tooclever: 1, plankton: 121, rare: 53, deepcut: 81, schooler: 62, krillion: 25.
 
 Inconclusive public attempts count as non-wins and break the streak. Setup failures before participation are listed separately.
 

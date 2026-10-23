@@ -1,0 +1,1222 @@
+{
+  "won": true,
+  "room": "YVBE",
+  "playerId": "4ab423311d",
+  "winnerId": "4ab423311d",
+  "gameNumber": 1,
+  "gameId": "party:YVBE-1792773796555-1",
+  "rated": false,
+  "player": {
+    "id": "4ab423311d",
+    "chatMuted": false,
+    "removed": false,
+    "name": "PufferBot",
+    "character": "krill",
+    "seat": 2,
+    "isHost": false,
+    "connected": true,
+    "ready": false,
+    "autoJoin": false,
+    "lives": 3,
+    "meter": 485,
+    "alive": true,
+    "answers": 18,
+    "pops": 0,
+    "best": "krillion",
+    "typing": null,
+    "lastAnswer": {
+      "text": "integument",
+      "tier": "rare"
+    },
+    "place": 1
+  },
+  "categories": [
+    {
+      "index": 1,
+      "text": "Name a food or drink made from corn"
+    },
+    {
+      "index": 2,
+      "text": "Name an English word containing “ink”"
+    },
+    {
+      "index": 3,
+      "text": "Name something at a kids' birthday party"
+    },
+    {
+      "index": 4,
+      "text": "Name a country that borders the Pacific Ocean"
+    },
+    {
+      "index": 5,
+      "text": "Name a product used to wash or style hair (product types, not brands)"
+    },
+    {
+      "index": 6,
+      "text": "Name something that uses a filter (physical filters, not photo filters)"
+    },
+    {
+      "index": 7,
+      "text": "Name an English word ending in “-ment”"
+    }
+  ],
+  "accepted": [
+    {
+      "question": "Name an English word containing “ink”",
+      "answer": "sink",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "sink",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word containing “ink”",
+      "answer": "inkstone",
+      "source": "codex",
+      "reactionMs": 84,
+      "submit": {
+        "accepted": true,
+        "answer": "inkstone",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name something at a kids' birthday party",
+      "answer": "Pinata",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Piñata",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name something at a kids' birthday party",
+      "answer": "Goodie bags",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Goodie bag",
+        "tier": "schooler"
+      }
+    },
+    {
+      "question": "Name something at a kids' birthday party",
+      "answer": "Bubble machine",
+      "source": "codex",
+      "reactionMs": 81,
+      "submit": {
+        "accepted": true,
+        "answer": "Bubbles",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name something at a kids' birthday party",
+      "answer": "Face paint",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Face painting",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a country that borders the Pacific Ocean",
+      "answer": "Nauru",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Nauru",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country that borders the Pacific Ocean",
+      "answer": "Tuvalu",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Tuvalu",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name a country that borders the Pacific Ocean",
+      "answer": "Kiribati",
+      "source": "codex",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Kiribati",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a country that borders the Pacific Ocean",
+      "answer": "Samoa",
+      "source": "codex",
+      "reactionMs": 85,
+      "submit": {
+        "accepted": true,
+        "answer": "Samoa",
+        "tier": "rare"
+      }
+    },
+    {
+      "question": "Name a product used to wash or style hair (product types, not brands)",
+      "answer": "Bandoline",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-29",
+      "archiveDataHash": "6d5e1afc8e2637710e20f64659dd4c26eb274908b4edc6a589141b9a2d72ad00",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Bandoline",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a product used to wash or style hair (product types, not brands)",
+      "answer": "Macassar oil",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-29",
+      "archiveDataHash": "6d5e1afc8e2637710e20f64659dd4c26eb274908b4edc6a589141b9a2d72ad00",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Macassar oil",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name a product used to wash or style hair (product types, not brands)",
+      "answer": "Acid rinse",
+      "source": "answer-archive",
+      "archiveTier": "deepcut",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-09-29",
+      "archiveDataHash": "6d5e1afc8e2637710e20f64659dd4c26eb274908b4edc6a589141b9a2d72ad00",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "Acid rinse",
+        "tier": "deepcut"
+      }
+    },
+    {
+      "question": "Name something that uses a filter (physical filters, not photo filters)",
+      "answer": "Bombilla",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-08",
+      "archiveDataHash": "935657bf4c650c15dde5f59dfa89e1a6c3a791aceded5131dc0189790488c110",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Bombilla",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name something that uses a filter (physical filters, not photo filters)",
+      "answer": "Mangrove",
+      "source": "answer-archive",
+      "archiveTier": "krillion",
+      "archiveSource": "https://www.linkedinpinpointanswer.today/krillion-answers/2026-10-08",
+      "archiveDataHash": "935657bf4c650c15dde5f59dfa89e1a6c3a791aceded5131dc0189790488c110",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "Mangrove",
+        "tier": "krillion"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-ment”",
+      "answer": "establishment",
+      "source": "bank",
+      "reactionMs": 85,
+      "submit": {
+        "accepted": true,
+        "answer": "establishment",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-ment”",
+      "answer": "amendment",
+      "source": "bank",
+      "reactionMs": 83,
+      "submit": {
+        "accepted": true,
+        "answer": "amendment",
+        "tier": "plankton"
+      }
+    },
+    {
+      "question": "Name an English word ending in “-ment”",
+      "answer": "integument",
+      "source": "codex",
+      "reactionMs": 82,
+      "submit": {
+        "accepted": true,
+        "answer": "integument",
+        "tier": "rare"
+      }
+    }
+  ],
+  "rejected": [],
+  "metrics": {
+    "attempts": 18,
+    "accepted": 18,
+    "reactionMs": [
+      83,
+      84,
+      82,
+      83,
+      81,
+      83,
+      82,
+      83,
+      83,
+      85,
+      82,
+      83,
+      83,
+      82,
+      82,
+      85,
+      83,
+      82
+    ],
+    "sources": {
+      "bank": 3,
+      "codex": 10,
+      "answer-archive": 5
+    },
+    "unknownCategories": [],
+    "categoryLatency": [
+      {
+        "gameNumber": 1,
+        "index": 1,
+        "question": "Name a food or drink made from corn",
+        "archiveCovered": false,
+        "observedAt": 1792773807242,
+        "readyMs": 3171,
+        "firstTurnAt": null,
+        "firstSubmitMs": null,
+        "firstTurnWaitMs": null,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 2,
+        "question": "Name an English word containing “ink”",
+        "archiveCovered": false,
+        "observedAt": 1792773848863,
+        "readyMs": 23,
+        "firstTurnAt": 1792773850386,
+        "firstSubmitMs": 1581,
+        "firstTurnWaitMs": 58,
+        "firstSource": "bank"
+      },
+      {
+        "gameNumber": 1,
+        "index": 3,
+        "question": "Name something at a kids' birthday party",
+        "archiveCovered": false,
+        "observedAt": 1792773906093,
+        "readyMs": 3610,
+        "firstTurnAt": 1792773923128,
+        "firstSubmitMs": 17116,
+        "firstTurnWaitMs": 81,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 4,
+        "question": "Name a country that borders the Pacific Ocean",
+        "archiveCovered": false,
+        "observedAt": 1792773977479,
+        "readyMs": 3389,
+        "firstTurnAt": 1792773995397,
+        "firstSubmitMs": 18001,
+        "firstTurnWaitMs": 83,
+        "firstSource": "codex"
+      },
+      {
+        "gameNumber": 1,
+        "index": 5,
+        "question": "Name a product used to wash or style hair (product types, not brands)",
+        "archiveCovered": true,
+        "observedAt": 1792774039809,
+        "readyMs": 13,
+        "firstTurnAt": 1792774060145,
+        "firstSubmitMs": 20417,
+        "firstTurnWaitMs": 81,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 6,
+        "question": "Name something that uses a filter (physical filters, not photo filters)",
+        "archiveCovered": true,
+        "observedAt": 1792774087221,
+        "readyMs": 12,
+        "firstTurnAt": 1792774095890,
+        "firstSubmitMs": 8751,
+        "firstTurnWaitMs": 82,
+        "firstSource": "answer-archive"
+      },
+      {
+        "gameNumber": 1,
+        "index": 7,
+        "question": "Name an English word ending in “-ment”",
+        "archiveCovered": false,
+        "observedAt": 1792774107818,
+        "readyMs": 12,
+        "firstTurnAt": 1792774112149,
+        "firstSubmitMs": 4414,
+        "firstTurnWaitMs": 83,
+        "firstSource": "bank"
+      }
+    ],
+    "codexRequests": 7
+  },
+  "startingRoom": {
+    "code": "YVBE",
+    "chatEnabled": true,
+    "version": 8,
+    "phase": "countdown",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "8989d219b5",
+    "players": [
+      {
+        "id": "8989d219b5",
+        "chatMuted": false,
+        "removed": false,
+        "name": "abi",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "e817871fbe",
+        "chatMuted": false,
+        "removed": false,
+        "name": "edloni",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "4ab423311d",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "4d7105e0f9",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Collincw",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "2014736174",
+        "chatMuted": false,
+        "removed": false,
+        "name": "theworstkrillion",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      },
+      {
+        "id": "fb3272160f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "lenny",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 2,
+        "meter": 0,
+        "alive": true,
+        "answers": 0,
+        "pops": 0,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": null
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": null,
+    "countdownEndsAt": 1792773807135,
+    "winnerId": null,
+    "gameNumber": 1,
+    "gameId": "party:YVBE-1792773796555-1",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "join",
+        "playerId": "8989d219b5",
+        "seq": 1,
+        "at": 1792773796555
+      },
+      {
+        "kind": "join",
+        "playerId": "e817871fbe",
+        "seq": 2,
+        "at": 1792773803791
+      },
+      {
+        "kind": "join",
+        "playerId": "4ab423311d",
+        "seq": 3,
+        "at": 1792773803910
+      },
+      {
+        "kind": "join",
+        "playerId": "4d7105e0f9",
+        "seq": 4,
+        "at": 1792773803960
+      },
+      {
+        "kind": "join",
+        "playerId": "2014736174",
+        "seq": 5,
+        "at": 1792773803995
+      },
+      {
+        "kind": "join",
+        "playerId": "fb3272160f",
+        "seq": 6,
+        "at": 1792773804135
+      },
+      {
+        "kind": "countdown",
+        "endsAt": 1792773807135,
+        "seq": 7,
+        "at": 1792773804135
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792773796555,
+        "playerId": null,
+        "name": "abi",
+        "text": "abi joined"
+      },
+      {
+        "id": 2,
+        "at": 1792773803791,
+        "playerId": null,
+        "name": "edloni",
+        "text": "edloni joined"
+      },
+      {
+        "id": 3,
+        "at": 1792773803910,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 4,
+        "at": 1792773803960,
+        "playerId": null,
+        "name": "Collincw",
+        "text": "Collincw joined"
+      },
+      {
+        "id": 5,
+        "at": 1792773803995,
+        "playerId": null,
+        "name": "theworstkrillion",
+        "text": "theworstkrillion joined"
+      },
+      {
+        "id": 6,
+        "at": 1792773804135,
+        "playerId": null,
+        "name": "lenny",
+        "text": "lenny joined"
+      }
+    ],
+    "now": 1792773804257
+  },
+  "finalRoom": {
+    "code": "YVBE",
+    "chatEnabled": true,
+    "version": 343,
+    "phase": "over",
+    "settings": {
+      "lives": 2,
+      "maxLives": 5,
+      "meterTarget": 600,
+      "minTurnMs": 8000,
+      "fuseMinMs": 10000,
+      "fuseMaxMs": 30000,
+      "maxPlayers": 6,
+      "isPrivate": false
+    },
+    "hostId": "8989d219b5",
+    "players": [
+      {
+        "id": "8989d219b5",
+        "chatMuted": false,
+        "removed": false,
+        "name": "abi",
+        "character": "krill",
+        "seat": 0,
+        "isHost": true,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 450,
+        "alive": false,
+        "answers": 17,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "statement",
+          "tier": "plankton"
+        },
+        "place": 2
+      },
+      {
+        "id": "e817871fbe",
+        "chatMuted": false,
+        "removed": false,
+        "name": "edloni",
+        "character": "krill",
+        "seat": 1,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 0,
+        "alive": false,
+        "answers": 0,
+        "pops": 2,
+        "best": null,
+        "typing": null,
+        "lastAnswer": null,
+        "place": 6
+      },
+      {
+        "id": "4ab423311d",
+        "chatMuted": false,
+        "removed": false,
+        "name": "PufferBot",
+        "character": "krill",
+        "seat": 2,
+        "isHost": false,
+        "connected": true,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 3,
+        "meter": 485,
+        "alive": true,
+        "answers": 18,
+        "pops": 0,
+        "best": "krillion",
+        "typing": null,
+        "lastAnswer": {
+          "text": "integument",
+          "tier": "rare"
+        },
+        "place": 1
+      },
+      {
+        "id": "4d7105e0f9",
+        "chatMuted": false,
+        "removed": false,
+        "name": "Collincw",
+        "character": "krill",
+        "seat": 3,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 325,
+        "alive": false,
+        "answers": 8,
+        "pops": 2,
+        "best": "deepcut",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Micronesia",
+          "tier": "rare"
+        },
+        "place": 4
+      },
+      {
+        "id": "2014736174",
+        "chatMuted": false,
+        "removed": false,
+        "name": "theworstkrillion",
+        "character": "krill",
+        "seat": 4,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 30,
+        "alive": false,
+        "answers": 3,
+        "pops": 2,
+        "best": "plankton",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Balloons",
+          "tier": "plankton"
+        },
+        "place": 5
+      },
+      {
+        "id": "fb3272160f",
+        "chatMuted": false,
+        "removed": false,
+        "name": "lenny",
+        "character": "krill",
+        "seat": 5,
+        "isHost": false,
+        "connected": false,
+        "ready": false,
+        "autoJoin": false,
+        "lives": 0,
+        "meter": 300,
+        "alive": false,
+        "answers": 12,
+        "pops": 2,
+        "best": "rare",
+        "typing": null,
+        "lastAnswer": {
+          "text": "Sea salt spray",
+          "tier": "schooler"
+        },
+        "place": 3
+      }
+    ],
+    "holderId": null,
+    "holderSince": null,
+    "category": {
+      "index": 7,
+      "text": "Name an English word ending in “-ment”",
+      "threshold": 14,
+      "accepted": 6
+    },
+    "countdownEndsAt": null,
+    "winnerId": "4ab423311d",
+    "gameNumber": 1,
+    "gameId": "party:YVBE-1792773796555-1",
+    "queue": "party",
+    "rated": false,
+    "gatherEndsAt": null,
+    "events": [
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "4d7105e0f9",
+        "answer": "Samoa",
+        "tier": "rare",
+        "seq": 76,
+        "at": 1792774031706
+      },
+      {
+        "kind": "reject",
+        "playerId": "4d7105e0f9",
+        "text": "japan",
+        "why": "repeat",
+        "seq": 77,
+        "at": 1792774039067
+      },
+      {
+        "kind": "pop",
+        "playerId": "4d7105e0f9",
+        "livesLeft": 0,
+        "seq": 78,
+        "at": 1792774039706
+      },
+      {
+        "kind": "out",
+        "playerId": "4d7105e0f9",
+        "place": 4,
+        "seq": 79,
+        "at": 1792774039706
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 5,
+        "holderId": "fb3272160f",
+        "seq": 80,
+        "at": 1792774039706
+      },
+      {
+        "kind": "leave",
+        "playerId": "4d7105e0f9",
+        "seq": 81,
+        "at": 1792774044758
+      },
+      {
+        "kind": "reject",
+        "playerId": "fb3272160f",
+        "text": "acid wash",
+        "why": "miss",
+        "seq": 82,
+        "at": 1792774050377
+      },
+      {
+        "kind": "reject",
+        "playerId": "fb3272160f",
+        "text": "condithion",
+        "why": "miss",
+        "seq": 83,
+        "at": 1792774055739
+      },
+      {
+        "kind": "pass",
+        "from": "fb3272160f",
+        "to": "8989d219b5",
+        "answer": "Conditioner",
+        "tier": "plankton",
+        "seq": 84,
+        "at": 1792774059049
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "Hair gel",
+        "tier": "plankton",
+        "seq": 85,
+        "at": 1792774060038
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "fb3272160f",
+        "answer": "Bandoline",
+        "tier": "krillion",
+        "seq": 86,
+        "at": 1792774060666
+      },
+      {
+        "kind": "spare",
+        "playerId": "4ab423311d",
+        "lives": 3,
+        "seq": 87,
+        "at": 1792774060666
+      },
+      {
+        "kind": "pass",
+        "from": "fb3272160f",
+        "to": "8989d219b5",
+        "answer": "Purple shampoo",
+        "tier": "rare",
+        "seq": 88,
+        "at": 1792774067740
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "Shampoo",
+        "tier": "plankton",
+        "seq": 89,
+        "at": 1792774069651
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "fb3272160f",
+        "answer": "Macassar oil",
+        "tier": "krillion",
+        "seq": 90,
+        "at": 1792774070282
+      },
+      {
+        "kind": "pass",
+        "from": "fb3272160f",
+        "to": "8989d219b5",
+        "answer": "Sea salt spray",
+        "tier": "schooler",
+        "seq": 91,
+        "at": 1792774077386
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "Hair wax",
+        "tier": "schooler",
+        "seq": 92,
+        "at": 1792774078449
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "fb3272160f",
+        "answer": "Acid rinse",
+        "tier": "deepcut",
+        "seq": 93,
+        "at": 1792774079119
+      },
+      {
+        "kind": "pop",
+        "playerId": "fb3272160f",
+        "livesLeft": 0,
+        "seq": 94,
+        "at": 1792774087119
+      },
+      {
+        "kind": "out",
+        "playerId": "fb3272160f",
+        "place": 3,
+        "seq": 95,
+        "at": 1792774087119
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 6,
+        "holderId": "8989d219b5",
+        "seq": 96,
+        "at": 1792774087119
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "Water filtration system",
+        "tier": "plankton",
+        "seq": 97,
+        "at": 1792774095793
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "8989d219b5",
+        "answer": "Bombilla",
+        "tier": "krillion",
+        "seq": 98,
+        "at": 1792774096539
+      },
+      {
+        "kind": "reject",
+        "playerId": "8989d219b5",
+        "text": "lamp",
+        "why": "miss",
+        "seq": 99,
+        "at": 1792774100374
+      },
+      {
+        "kind": "reject",
+        "playerId": "8989d219b5",
+        "text": "sifter",
+        "why": "miss",
+        "seq": 100,
+        "at": 1792774104509
+      },
+      {
+        "kind": "pop",
+        "playerId": "8989d219b5",
+        "livesLeft": 1,
+        "seq": 101,
+        "at": 1792774105424
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "8989d219b5",
+        "answer": "Mangrove",
+        "tier": "krillion",
+        "seq": 102,
+        "at": 1792774107719
+      },
+      {
+        "kind": "category",
+        "why": "pop",
+        "index": 7,
+        "holderId": "8989d219b5",
+        "seq": 103,
+        "at": 1792774107719
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "pavement",
+        "tier": "plankton",
+        "seq": 104,
+        "at": 1792774112053
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "8989d219b5",
+        "answer": "establishment",
+        "tier": "plankton",
+        "seq": 105,
+        "at": 1792774112638
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "parchment",
+        "tier": "plankton",
+        "seq": 106,
+        "at": 1792774114590
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "8989d219b5",
+        "answer": "amendment",
+        "tier": "plankton",
+        "seq": 107,
+        "at": 1792774115217
+      },
+      {
+        "kind": "pass",
+        "from": "8989d219b5",
+        "to": "4ab423311d",
+        "answer": "statement",
+        "tier": "plankton",
+        "seq": 108,
+        "at": 1792774120833
+      },
+      {
+        "kind": "pass",
+        "from": "4ab423311d",
+        "to": "8989d219b5",
+        "answer": "integument",
+        "tier": "rare",
+        "seq": 109,
+        "at": 1792774121422
+      },
+      {
+        "kind": "leave",
+        "playerId": "fb3272160f",
+        "seq": 110,
+        "at": 1792774125097
+      },
+      {
+        "kind": "reject",
+        "playerId": "8989d219b5",
+        "text": "pavement",
+        "why": "repeat",
+        "seq": 111,
+        "at": 1792774126612
+      },
+      {
+        "kind": "reject",
+        "playerId": "8989d219b5",
+        "text": "parchment",
+        "why": "repeat",
+        "seq": 112,
+        "at": 1792774128838
+      },
+      {
+        "kind": "pop",
+        "playerId": "8989d219b5",
+        "livesLeft": 0,
+        "seq": 113,
+        "at": 1792774129422
+      },
+      {
+        "kind": "out",
+        "playerId": "8989d219b5",
+        "place": 2,
+        "seq": 114,
+        "at": 1792774129422
+      },
+      {
+        "kind": "win",
+        "playerId": "4ab423311d",
+        "seq": 115,
+        "at": 1792774129422
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "at": 1792773796555,
+        "playerId": null,
+        "name": "abi",
+        "text": "abi joined"
+      },
+      {
+        "id": 2,
+        "at": 1792773803791,
+        "playerId": null,
+        "name": "edloni",
+        "text": "edloni joined"
+      },
+      {
+        "id": 3,
+        "at": 1792773803910,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot joined"
+      },
+      {
+        "id": 4,
+        "at": 1792773803960,
+        "playerId": null,
+        "name": "Collincw",
+        "text": "Collincw joined"
+      },
+      {
+        "id": 5,
+        "at": 1792773803995,
+        "playerId": null,
+        "name": "theworstkrillion",
+        "text": "theworstkrillion joined"
+      },
+      {
+        "id": 6,
+        "at": 1792773804135,
+        "playerId": null,
+        "name": "lenny",
+        "text": "lenny joined"
+      },
+      {
+        "id": 7,
+        "at": 1792773911002,
+        "playerId": null,
+        "name": "edloni",
+        "text": "edloni was kicked for being idle"
+      },
+      {
+        "id": 8,
+        "at": 1792773953631,
+        "playerId": null,
+        "name": "theworstkrillion",
+        "text": "theworstkrillion left"
+      },
+      {
+        "id": 9,
+        "at": 1792774044758,
+        "playerId": null,
+        "name": "Collincw",
+        "text": "Collincw left"
+      },
+      {
+        "id": 10,
+        "at": 1792774125097,
+        "playerId": null,
+        "name": "lenny",
+        "text": "lenny left"
+      },
+      {
+        "id": 11,
+        "at": 1792774129422,
+        "playerId": null,
+        "name": "PufferBot",
+        "text": "PufferBot won"
+      }
+    ],
+    "now": 1792774129422
+  }
+}

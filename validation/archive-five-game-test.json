@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T16:42:48.981603+00:00",
+  "generatedAt": "2026-10-23T16:50:31.929376+00:00",
   "status": "in-progress",
   "plannedMatches": [
     19,
@@ -9,30 +9,32 @@
     22,
     23
   ],
-  "completedMatches": 2,
-  "wins": 2,
+  "completedMatches": 3,
+  "wins": 3,
   "losses": 0,
   "inconclusive": 0,
-  "accepted": 39,
+  "accepted": 57,
   "rejected": 1,
-  "acceptanceRate": 0.975,
+  "acceptanceRate": 0.9827586206896551,
   "tiers": {
-    "krillion": 12,
-    "deepcut": 21,
-    "schooler": 3,
-    "rare": 3
+    "krillion": 16,
+    "deepcut": 24,
+    "schooler": 4,
+    "rare": 9,
+    "plankton": 4
   },
-  "rareOrBetter": 36,
+  "rareOrBetter": 49,
   "sources": {
-    "answer-archive": 28,
-    "codex": 8,
-    "verified": 3
+    "answer-archive": 33,
+    "codex": 18,
+    "verified": 3,
+    "bank": 3
   },
-  "archiveCoveredCategories": 9,
-  "observedCategories": 14,
-  "archiveAccepted": 28,
-  "archiveTierAgreements": 28,
-  "codexRequests": 9,
+  "archiveCoveredCategories": 11,
+  "observedCategories": 21,
+  "archiveAccepted": 33,
+  "archiveTierAgreements": 33,
+  "codexRequests": 16,
   "unmeasuredRequestCounts": [],
   "matches": [
     {
@@ -98,6 +100,37 @@
         12
       ],
       "codexRequests": 5
+    },
+    {
+      "number": 21,
+      "room": "YVBE",
+      "gameId": "party:YVBE-1792773796555-1",
+      "outcome": "win",
+      "players": 6,
+      "sourceVersion": "d0076e54f946f9fb",
+      "accepted": 18,
+      "rejected": 0,
+      "tiers": {
+        "plankton": 4,
+        "rare": 6,
+        "schooler": 1,
+        "deepcut": 3,
+        "krillion": 4
+      },
+      "sources": {
+        "bank": 3,
+        "codex": 10,
+        "answer-archive": 5
+      },
+      "observedCategories": 7,
+      "archiveCoveredCategories": 2,
+      "archiveAccepted": 5,
+      "archiveTierAgreements": 5,
+      "archiveReadinessMs": [
+        13,
+        12
+      ],
+      "codexRequests": 7
     }
   ],
   "interpretation": [

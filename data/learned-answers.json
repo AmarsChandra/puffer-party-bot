@@ -7757,33 +7757,33 @@
       "answers": {
         "shampoo": {
           "text": "Shampoo",
-          "accepted": 1,
+          "accepted": 2,
           "misses": 0,
           "order": 0,
           "proposed": true,
           "canonical": "shampoo",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:14:07.189Z"
+          "lastAccepted": "2026-10-23T16:47:49.754Z"
         },
         "conditioner": {
           "text": "Conditioner",
-          "accepted": 2,
+          "accepted": 3,
           "misses": 0,
           "order": 1,
           "proposed": true,
           "canonical": "conditioner",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:14:13.130Z"
+          "lastAccepted": "2026-10-23T16:47:39.154Z"
         },
         "hairgel": {
           "text": "Hair gel",
-          "accepted": 1,
+          "accepted": 2,
           "misses": 0,
           "order": 2,
           "proposed": true,
           "canonical": "hairgel",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:14:20.151Z"
+          "lastAccepted": "2026-10-23T16:47:40.144Z"
         },
         "hairmousse": {
           "text": "Mousse",
@@ -7807,10 +7807,13 @@
         },
         "hairwax": {
           "text": "Hair wax",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 5,
-          "proposed": true
+          "proposed": true,
+          "canonical": "hairwax",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:47:58.550Z"
         },
         "pomade": {
           "text": "Pomade",
@@ -7890,10 +7893,13 @@
         },
         "seasaltspray": {
           "text": "Sea salt spray",
-          "accepted": 0,
+          "accepted": 1,
           "misses": 0,
           "order": 16,
-          "proposed": true
+          "proposed": true,
+          "canonical": "seasaltspray",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:47:57.487Z"
         },
         "cowash": {
           "text": "Co-wash",
@@ -7946,6 +7952,42 @@
           "canonical": "toner",
           "tier": "rare",
           "lastAccepted": "2026-10-22T17:14:51.305Z"
+        },
+        "bandoline": {
+          "text": "Bandoline",
+          "accepted": 2,
+          "misses": 0,
+          "order": 23,
+          "canonical": "bandoline",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:47:40.836Z"
+        },
+        "purpleshampoo": {
+          "text": "Purple shampoo",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "purpleshampoo",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:47:47.898Z"
+        },
+        "macassaroil": {
+          "text": "Macassar oil",
+          "accepted": 2,
+          "misses": 0,
+          "order": 25,
+          "canonical": "macassaroil",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:47:50.399Z"
+        },
+        "acidrinse": {
+          "text": "Acid rinse",
+          "accepted": 2,
+          "misses": 0,
+          "order": 26,
+          "canonical": "acidrinse",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:47:59.236Z"
         }
       }
     },
@@ -9172,12 +9214,30 @@
         },
         "waterfiltrationsystem": {
           "text": "Water filtration system",
-          "accepted": 1,
+          "accepted": 2,
           "misses": 0,
           "order": 22,
           "canonical": "waterfiltrationsystem",
           "tier": "plankton",
-          "lastAccepted": "2026-10-22T17:20:47.125Z"
+          "lastAccepted": "2026-10-23T16:48:15.890Z"
+        },
+        "bombilla": {
+          "text": "Bombilla",
+          "accepted": 2,
+          "misses": 0,
+          "order": 23,
+          "canonical": "bombilla",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:48:16.670Z"
+        },
+        "mangrove": {
+          "text": "Mangrove",
+          "accepted": 2,
+          "misses": 0,
+          "order": 24,
+          "canonical": "mangrove",
+          "tier": "krillion",
+          "lastAccepted": "2026-10-23T16:48:27.887Z"
         }
       }
     },
@@ -31176,6 +31236,1006 @@
           "canonical": "slendergiantmoray",
           "tier": "krillion",
           "lastAccepted": "2026-10-23T16:41:48.185Z"
+        }
+      }
+    },
+    "food or drink made from corn": {
+      "question": "Name a food or drink made from corn",
+      "answers": {
+        "atole": {
+          "text": "Atole",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "huitlacoche": {
+          "text": "Huitlacoche",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hominy": {
+          "text": "Hominy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cornonthecob": {
+          "text": "Corn on the cob",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "cornonthecob",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:43:35.122Z"
+        },
+        "popcorn": {
+          "text": "Popcorn",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "popcorn",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:00.874Z"
+        }
+      }
+    },
+    "english word containing ink": {
+      "question": "Name an English word containing “ink”",
+      "answers": {
+        "sink": {
+          "text": "sink",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "canonical": "sink",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:10.959Z"
+        },
+        "stink": {
+          "text": "stink",
+          "accepted": 1,
+          "misses": 0,
+          "order": 1,
+          "canonical": "stink",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:19.134Z"
+        },
+        "inkstone": {
+          "text": "inkstone",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "inkstone",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:44:41.422Z"
+        },
+        "inkhorn": {
+          "text": "inkhorn",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "inkstand": {
+          "text": "inkstand",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "inkpot": {
+          "text": "inkpot",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "inkblot": {
+          "text": "inkblot",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "inkjet": {
+          "text": "inkjet",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bobolink": {
+          "text": "bobolink",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "stinkhorn": {
+          "text": "stinkhorn",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "stinkweed": {
+          "text": "stinkweed",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "countersink": {
+          "text": "countersink",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hyperlink": {
+          "text": "hyperlink",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ink": {
+          "text": "ink",
+          "accepted": 1,
+          "misses": 0,
+          "order": 13,
+          "canonical": "ink",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:22.689Z"
+        },
+        "hotlink": {
+          "text": "hotlink",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pinkroot": {
+          "text": "pinkroot",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pinkeye": {
+          "text": "pinkeye",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pinkness": {
+          "text": "pinkness",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rosepink": {
+          "text": "rosepink",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hoodwinked": {
+          "text": "hoodwinked",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "interlinked": {
+          "text": "interlinked",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sprinkle": {
+          "text": "sprinkle",
+          "accepted": 1,
+          "misses": 0,
+          "order": 21,
+          "canonical": "sprinkle",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:30.207Z"
+        },
+        "drink": {
+          "text": "drink",
+          "accepted": 1,
+          "misses": 0,
+          "order": 22,
+          "canonical": "drink",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:31.321Z"
+        },
+        "pink": {
+          "text": "pink",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "pink",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:44:58.117Z"
+        }
+      }
+    },
+    "something at a kids birthday party": {
+      "question": "Name something at a kids' birthday party",
+      "answers": {
+        "partyhats": {
+          "text": "Party hats",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "partyhats",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:45:23.128Z"
+        },
+        "pinata": {
+          "text": "Piñata",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "pinata",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:45:23.716Z"
+        },
+        "goodiebags": {
+          "text": "Goodie bag",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "goodiebag",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:45:34.451Z"
+        },
+        "clown": {
+          "text": "Clown",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "clown",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:45:20.745Z"
+        },
+        "birthdaycake": {
+          "text": "Birthday cake",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "birthdaycake",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:45:26.584Z",
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bubblemachine": {
+          "text": "Bubbles",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "bubbles",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:45:55.366Z"
+        },
+        "facepaint": {
+          "text": "Face painting",
+          "accepted": 1,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "facepainting",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:09.409Z"
+        },
+        "temporarytattoos": {
+          "text": "Temporary tattoos",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "balloonanimals": {
+          "text": "Balloon animals",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "treasurehunt": {
+          "text": "Treasure hunt",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "musicalchairs": {
+          "text": "Musical chairs",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "passtheparcel": {
+          "text": "Pass the parcel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cupcakestand": {
+          "text": "Cupcake stand",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "juiceboxes": {
+          "text": "Juice boxes",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "paperplates": {
+          "text": "Paper plates",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "birthdaycandles": {
+          "text": "Birthday candles",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "streamers": {
+          "text": "Streamers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "balloons": {
+          "text": "Balloons",
+          "accepted": 1,
+          "misses": 0,
+          "order": 17,
+          "canonical": "balloons",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:45:29.655Z",
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "confetti": {
+          "text": "Confetti",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bouncycastle": {
+          "text": "Bouncy castle",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "partyblowers": {
+          "text": "Party blowers",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "icecream": {
+          "text": "Ice cream",
+          "accepted": 1,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "icecream",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:45:33.857Z"
+        },
+        "presents": {
+          "text": "Presents",
+          "accepted": 1,
+          "misses": 0,
+          "order": 22,
+          "canonical": "presents",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:45:32.705Z"
+        },
+        "goodiebag": {
+          "text": "Goodie bag",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "goodiebag",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:45:34.435Z"
+        },
+        "bouncehouse": {
+          "text": "Bounce house",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "bouncehouse",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:45:40.196Z"
+        },
+        "candy": {
+          "text": "Candy",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "candy",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:45:53.619Z"
+        },
+        "slime": {
+          "text": "Slime",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "slime",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:45:54.746Z"
+        },
+        "bubbles": {
+          "text": "Bubbles",
+          "accepted": 1,
+          "misses": 0,
+          "order": 27,
+          "canonical": "bubbles",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:45:55.356Z"
+        },
+        "costumedcharacter": {
+          "text": "Costumed character",
+          "accepted": 1,
+          "misses": 0,
+          "order": 28,
+          "canonical": "costumedcharacter",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:00.942Z"
+        },
+        "invitations": {
+          "text": "Invitations",
+          "accepted": 1,
+          "misses": 0,
+          "order": 29,
+          "canonical": "invitations",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:46:07.632Z"
+        },
+        "music": {
+          "text": "Music",
+          "accepted": 1,
+          "misses": 0,
+          "order": 30,
+          "canonical": "music",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:46:08.824Z"
+        },
+        "facepainting": {
+          "text": "Face painting",
+          "accepted": 1,
+          "misses": 0,
+          "order": 31,
+          "canonical": "facepainting",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:09.391Z"
+        }
+      }
+    },
+    "country that borders the pacific ocean": {
+      "question": "Name a country that borders the Pacific Ocean",
+      "answers": {
+        "nauru": {
+          "text": "Nauru",
+          "accepted": 2,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "nauru",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:46:35.991Z"
+        },
+        "tuvalu": {
+          "text": "Tuvalu",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "tuvalu",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:46:48.302Z"
+        },
+        "kiribati": {
+          "text": "Kiribati",
+          "accepted": 2,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "kiribati",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:59.361Z"
+        },
+        "unitedstates": {
+          "text": "United States",
+          "accepted": 1,
+          "misses": 0,
+          "order": 3,
+          "canonical": "unitedstates",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:46:33.107Z"
+        },
+        "canada": {
+          "text": "Canada",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "canada",
+          "tier": "schooler",
+          "lastAccepted": "2026-10-23T16:46:35.397Z"
+        },
+        "tonga": {
+          "text": "Tonga",
+          "accepted": 1,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "tonga",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:42.570Z"
+        },
+        "samoa": {
+          "text": "Samoa",
+          "accepted": 2,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "samoa",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:47:11.824Z"
+        },
+        "vanuatu": {
+          "text": "Vanuatu",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "solomonislands": {
+          "text": "Solomon Islands",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "palau": {
+          "text": "Palau",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "micronesia": {
+          "text": "Micronesia",
+          "accepted": 1,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "micronesia",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:47:06.743Z"
+        },
+        "marshallislands": {
+          "text": "Marshall Islands",
+          "accepted": 1,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "marshallislands",
+          "tier": "deepcut",
+          "lastAccepted": "2026-10-23T16:46:52.601Z"
+        },
+        "fiji": {
+          "text": "Fiji",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "papuanewguinea": {
+          "text": "Papua New Guinea",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "newzealand": {
+          "text": "New Zealand",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chile": {
+          "text": "Chile",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "peru": {
+          "text": "Peru",
+          "accepted": 1,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "peru",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:47:10.215Z"
+        },
+        "ecuador": {
+          "text": "Ecuador",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "colombia": {
+          "text": "Colombia",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "panama": {
+          "text": "Panama",
+          "accepted": 1,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "panama",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:47.379Z"
+        },
+        "costarica": {
+          "text": "Costa Rica",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nicaragua": {
+          "text": "Nicaragua",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "elsalvador": {
+          "text": "El Salvador",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mexico": {
+          "text": "Mexico",
+          "accepted": 1,
+          "misses": 0,
+          "order": 23,
+          "canonical": "mexico",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:46:45.391Z"
+        },
+        "japan": {
+          "text": "Japan",
+          "accepted": 1,
+          "misses": 0,
+          "order": 24,
+          "canonical": "japan",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:46:57.683Z"
+        },
+        "guatemala": {
+          "text": "Guatemala",
+          "accepted": 1,
+          "misses": 0,
+          "order": 25,
+          "canonical": "guatemala",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:46:58.745Z"
+        },
+        "honduras": {
+          "text": "Honduras",
+          "accepted": 1,
+          "misses": 0,
+          "order": 26,
+          "canonical": "honduras",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:47:11.203Z"
+        }
+      }
+    },
+    "english word ending in ment": {
+      "question": "Name an English word ending in “-ment”",
+      "answers": {
+        "pavement": {
+          "text": "pavement",
+          "accepted": 1,
+          "misses": 0,
+          "order": 0,
+          "canonical": "pavement",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:48:32.147Z"
+        },
+        "establishment": {
+          "text": "establishment",
+          "accepted": 2,
+          "misses": 0,
+          "order": 1,
+          "canonical": "establishment",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:48:32.973Z"
+        },
+        "parchment": {
+          "text": "parchment",
+          "accepted": 1,
+          "misses": 0,
+          "order": 2,
+          "canonical": "parchment",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:48:34.689Z"
+        },
+        "amendment": {
+          "text": "amendment",
+          "accepted": 2,
+          "misses": 0,
+          "order": 3,
+          "canonical": "amendment",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:48:35.329Z"
+        },
+        "statement": {
+          "text": "statement",
+          "accepted": 1,
+          "misses": 0,
+          "order": 4,
+          "canonical": "statement",
+          "tier": "plankton",
+          "lastAccepted": "2026-10-23T16:48:40.927Z"
+        },
+        "integument": {
+          "text": "integument",
+          "accepted": 2,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true,
+          "canonical": "integument",
+          "tier": "rare",
+          "lastAccepted": "2026-10-23T16:48:41.534Z"
+        },
+        "tegument": {
+          "text": "tegument",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "accoutrement": {
+          "text": "accoutrement",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "habiliment": {
+          "text": "habiliment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "presentiment": {
+          "text": "presentiment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "arbitrament": {
+          "text": "arbitrament",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "muniment": {
+          "text": "muniment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hereditament": {
+          "text": "hereditament",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "emolument": {
+          "text": "emolument",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lodgment": {
+          "text": "lodgment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "battlement": {
+          "text": "battlement",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sediment": {
+          "text": "sediment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pigment": {
+          "text": "pigment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "vestment": {
+          "text": "vestment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ravishment": {
+          "text": "ravishment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "defrayment": {
+          "text": "defrayment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "temperament": {
+          "text": "temperament",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "judgment": {
+          "text": "judgment",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
         }
       }
     }

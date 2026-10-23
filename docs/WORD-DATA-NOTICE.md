@@ -1,6 +1,6 @@
 # English word list adaptation
 
-`english-words.json` was generated on October 22, 2026 from wordfreq 3.1.1 by Robyn Speer (<https://github.com/rspeer/wordfreq>), intersected with the public-domain Webster word list shipped in `/usr/share/dict/words` on macOS. Entries were restricted to 3–18 lowercase ASCII letters and reordered to favor moderately uncommon words. The adapted data is redistributed under CC BY-SA 4.0: <https://creativecommons.org/licenses/by-sa/4.0/>.
+`english-words.json` was generated on October 22, 2026 from wordfreq 3.1.1 by Robyn Speer (<https://github.com/rspeer/wordfreq>), intersected with the public-domain Webster word list shipped in `/usr/share/dict/words` on macOS. Entries were restricted to 3–18 lowercase ASCII letters and reordered on October 23, 2026 to favor words with wordfreq Zipf frequency near 2.0, with nine-letter words preferred among frequency ties. This changes ordering only: the same 34,006 Webster-backed words remain. Frequency is a fallback heuristic, not an assertion of Puffer rarity. The adapted data is redistributed under CC BY-SA 4.0: <https://creativecommons.org/licenses/by-sa/4.0/>.
 
 The original wordfreq attribution notice follows. SUBTLEX, by Marc Brysbaert and colleagues, is freely available data, as described below.
 

@@ -1,0 +1,147 @@
+{
+  "room": "YVBE",
+  "gameId": "party:YVBE-1792773796555-1",
+  "won": true,
+  "categories": [
+    {
+      "question": "Name a food or drink made from corn",
+      "readyMs": 3171,
+      "firstTurnWaitMs": null,
+      "accepted": 0,
+      "rarity": {
+        "tiers": {},
+        "rareOrBetter": 0,
+        "rareOrBetterRate": null
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word containing “ink”",
+      "readyMs": 23,
+      "firstTurnWaitMs": 58,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "plankton": 1,
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 98,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name something at a kids' birthday party",
+      "readyMs": 3610,
+      "firstTurnWaitMs": 81,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "plankton": 1,
+          "schooler": 1,
+          "rare": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 0.5
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a country that borders the Pacific Ocean",
+      "readyMs": 3389,
+      "firstTurnWaitMs": 83,
+      "accepted": 4,
+      "rarity": {
+        "tiers": {
+          "deepcut": 2,
+          "rare": 2
+        },
+        "rareOrBetter": 4,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name a product used to wash or style hair (product types, not brands)",
+      "readyMs": 13,
+      "firstTurnWaitMs": 81,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "krillion": 2,
+          "deepcut": 1
+        },
+        "rareOrBetter": 3,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name something that uses a filter (physical filters, not photo filters)",
+      "readyMs": 12,
+      "firstTurnWaitMs": 82,
+      "accepted": 2,
+      "rarity": {
+        "tiers": {
+          "krillion": 2
+        },
+        "rareOrBetter": 2,
+        "rareOrBetterRate": 1
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 0,
+      "modelWaitAvoidable": false
+    },
+    {
+      "question": "Name an English word ending in “-ment”",
+      "readyMs": 12,
+      "firstTurnWaitMs": 83,
+      "accepted": 3,
+      "rarity": {
+        "tiers": {
+          "plankton": 2,
+          "rare": 1
+        },
+        "rareOrBetter": 1,
+        "rareOrBetterRate": 0.3333333333333333
+      },
+      "misses": 0,
+      "repeats": 0,
+      "localCandidatesNow": 281,
+      "modelWaitAvoidable": false
+    }
+  ],
+  "rarity": {
+    "tiers": {
+      "plankton": 4,
+      "rare": 6,
+      "schooler": 1,
+      "deepcut": 3,
+      "krillion": 4
+    },
+    "rareOrBetter": 13,
+    "rareOrBetterRate": 0.7222222222222222
+  },
+  "learning": {
+    "serverConfirmedPassesObserved": 19,
+    "ownAccepted": 18,
+    "retiredMisses": 0
+  },
+  "findings": []
+}

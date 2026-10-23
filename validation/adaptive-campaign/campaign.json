@@ -216,6 +216,26 @@
         "data/english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c",
         "data/answer-archive.json.gz": "56fd331148dd79dbaeccfbc369f639eed3ea4be8504c8613c6d4e3343adf6cc3"
       }
+    },
+    {
+      "id": "d0076e54f946f9fb",
+      "sources": {
+        "src/paths.mjs": "d7bdae38224ccc4501ae74303681e129db52e28c689523e39cf4f24fa910bba7",
+        "src/puffer-bot.mjs": "ea16595f817c4de2f20e149d2c30000283f230a41aaaee19f329d4d35343722c",
+        "src/answer-engine.mjs": "5da013838f49c69f4105adbadc0787089d2367148ec5da1d1240f1a3fae0e6e9",
+        "src/codex-provider.mjs": "bbb38e2d7e2faae7de9c4f15352e6c428ef54e6d1012eff840d04781404f05b9",
+        "src/answer-archive.mjs": "eaf3f00961ccee7510e2fce2ad2b5b63b03cdbba21210a23f6471f30575f96f4",
+        "src/regular-bank.mjs": "0b73290fb0ba8ad976de3b678890b6f92ac9829147fa5c0179c9d178fe35dae2",
+        "src/streak-runner.mjs": "d61e2a311965e5a3db604087b085a6949320bc7a7339270e39c53c7e16724469",
+        "src/game-screen.mjs": "057700354cec0b2a6048db875f3b7ddcabff2f7f1ae59a73293b8f05e3f7fcec",
+        "src/adaptive-campaign.mjs": "2879a73fe244f33a436d5a037593e0886c9624a2c5f28c1fe688d6edaa46553b",
+        "src/review-match.mjs": "60600d0c9ff90b73700248e36f6df92eeb111d0c6503f6880fbb3af8163dfea7",
+        "src/statistics.mjs": "af9800b46d8af26bfe93cbda1c3eb8db9239661a95610514eddef488dd582fe0",
+        "src/self-play.mjs": "a34352fd9053e0aba6a36b9246e4c150654c8afab87cff818603746c3554cfcc",
+        "data/answers.json": "c89578a71e7c27d6043cc7c7f74c25f3d581554d04d84ec320c269862f748d6d",
+        "data/english-words.json": "c47f1222a2fc9eef3349341ba7fc83fe132d0ae67bda4d87ad9d5b55fcfb181c",
+        "data/answer-archive.json.gz": "56fd331148dd79dbaeccfbc369f639eed3ea4be8504c8613c6d4e3343adf6cc3"
+      }
     }
   ],
   "records": [
@@ -506,6 +526,21 @@
       "accepted": 13,
       "lives": 3,
       "finishedAt": "2026-10-23T16:42:04.933Z",
+      "reviewed": true
+    },
+    {
+      "number": 21,
+      "outcome": "win",
+      "gameId": "party:YVBE-1792773796555-1",
+      "room": "YVBE",
+      "gameNumber": 1,
+      "players": 6,
+      "resultFile": "games/021/result.json",
+      "reviewFile": "games/021/review.json",
+      "sourceVersion": "d0076e54f946f9fb",
+      "accepted": 18,
+      "lives": 3,
+      "finishedAt": "2026-10-23T16:48:49.559Z",
       "reviewed": true
     }
   ],
@@ -1316,11 +1351,21 @@
         "Added cafeteria-category Sloppy joes -> Sloppy joe exclusion alias, without asserting general plural equivalence.",
         "All 61 regression tests pass; five-game cohort now records both wins and the repeat rejection."
       ]
+    },
+    {
+      "at": "2026-10-23T16:50:31.975Z",
+      "afterMatch": 21,
+      "summary": "Reviewed public six-player YVBE win: 18/18 accepted, four krillion, three deepcut, six rare, one schooler, four plankton, three hearts. Archive covered two of seven categories, and all five archive submissions matched predictions. Seven Codex requests covered the other categories. Uncovered dictionary starts were too common; reordered the same Webster-backed words toward wordfreq Zipf 2.0 without changing the eligible set or overriding Puffer-confirmed tiers.",
+      "changes": [
+        "Retained newly confirmed answers and actual rarity, including the lower-tier fallback results.",
+        "Reordered 34,006 existing dictionary words toward lower frequency; set equality checked, all 61 regression tests pass.",
+        "Added transparent offline frequency comparison; it makes no claim of gameplay rarity for the new ordering."
+      ]
     }
   ],
   "progress": {
-    "current": 10,
-    "best": 10
+    "current": 11,
+    "best": 11
   },
   "setupFailures": [
     {

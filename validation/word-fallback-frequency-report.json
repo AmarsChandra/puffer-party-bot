@@ -1,0 +1,30 @@
+{
+  "words": 34006,
+  "sameWords": true,
+  "frequencyTarget": 2.0,
+  "source": "wordfreq 3.1.1 intersected with the public-domain Webster word list; existing bundled word set is unchanged.",
+  "samples": [
+    {
+      "constraint": "ink",
+      "oldFirst": "sink",
+      "oldZipf": 4.21,
+      "newFirst": "crinkly",
+      "newZipf": 2.0
+    },
+    {
+      "constraint": "ment",
+      "oldFirst": "establishment",
+      "oldZipf": 4.42,
+      "newFirst": "decrement",
+      "newZipf": 2.0
+    },
+    {
+      "constraint": "inter",
+      "oldFirst": "interaction",
+      "oldZipf": 4.29,
+      "newFirst": "interpolate",
+      "newZipf": 2.0
+    }
+  ],
+  "interpretation": "An offline ordering heuristic based on word frequency, not a claim of Puffer rarity. Actual gameplay awards take precedence."
+}
