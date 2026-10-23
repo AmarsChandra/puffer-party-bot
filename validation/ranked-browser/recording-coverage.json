@@ -183,6 +183,21 @@
       "bytes": 3480390,
       "sha256": "3863d27e3dbff316efd5b03fcb7768e7c75933aaa434a9a1260c6b2168767fff",
       "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    },
+    {
+      "number": 13,
+      "room": "ZRJN",
+      "outcome": "win",
+      "frames": 344,
+      "firstFrameAt": 1792790007579,
+      "lastFrameAt": 1792790302908,
+      "maxGapSeconds": 7.908,
+      "gapsOverTwoSeconds": 6,
+      "gapsOverFiveSeconds": 4,
+      "video": "ranked-ZRJN-win.mp4",
+      "bytes": 7041255,
+      "sha256": "9ccb749d5c2a1aa7fc2c9439567bfc9ff06efd0459431f7dd22e178a92dd3cd3",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     }
   ],
   "note": "Every completed retained attempt with captured frames has an encoded clip, including losses. Raw sampled frames remain local. Initial handoff and controller setup had capture gaps, which this report exposes."

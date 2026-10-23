@@ -35924,6 +35924,195 @@
           "rarityRequested": true
         }
       }
+    },
+    "bible character": {
+      "question": "Name a Bible character",
+      "answers": {}
+    },
+    "dinosaur": {
+      "question": "Name a dinosaur",
+      "answers": {}
+    },
+    "skincare product": {
+      "question": "Name a type of skincare product",
+      "answers": {}
+    },
+    "twitch streamer with more than 500k followers": {
+      "question": "Name a Twitch streamer with more than 500k followers",
+      "answers": {}
+    },
+    "machine or piece of equipment at the gym": {
+      "question": "Name a machine or piece of equipment at the gym",
+      "answers": {
+        "glutehamdeveloper": {
+          "text": "Glute-ham developer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "skiergometer": {
+          "text": "Ski ergometer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "beltsquatmachine": {
+          "text": "Belt squat machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "reversehyperextensionmachine": {
+          "text": "Reverse hyperextension machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pendulumsquatmachine": {
+          "text": "Pendulum squat machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seatedcalfraisemachine": {
+          "text": "Seated calf raise machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "standingcalfraisemachine": {
+          "text": "Standing calf raise machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hipadductormachine": {
+          "text": "Hip adductor machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hipabductormachine": {
+          "text": "Hip abductor machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "preachercurlbench": {
+          "text": "Preacher curl bench",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "pecdeck": {
+          "text": "Pec deck",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "assisteddipmachine": {
+          "text": "Assisted dip machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hacksquatmachine": {
+          "text": "Hack squat machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "smithmachine": {
+          "text": "Smith machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "cablecrossovermachine": {
+          "text": "Cable crossover machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "latpulldownmachine": {
+          "text": "Lat pulldown machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seatedrowmachine": {
+          "text": "Seated row machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "legextensionmachine": {
+          "text": "Leg extension machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lyinglegcurlmachine": {
+          "text": "Lying leg curl machine",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "abwheel": {
+          "text": "Ab wheel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "battleropes": {
+          "text": "Battle ropes",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
     }
   }
 }

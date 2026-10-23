@@ -775,6 +775,177 @@
           "source": "answer-archive"
         }
       ]
+    },
+    {
+      "number": 13,
+      "room": "ZRJN",
+      "outcome": "win",
+      "submitted": 26,
+      "categoriesSubmitted": 7,
+      "bySource": {
+        "answer-archive": 17,
+        "verified": 2,
+        "codex": 3,
+        "bank": 4
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:13:33.871Z",
+          "question": "Name a citrus fruit",
+          "answer": "Etrog",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:13:51.096Z",
+          "question": "Name a citrus fruit",
+          "answer": "Buddha's hand",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:14:35.280Z",
+          "question": "Name a U.S. state entirely west of the Mississippi River",
+          "answer": "Idaho",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:15:05.165Z",
+          "question": "Name a U.S. state entirely west of the Mississippi River",
+          "answer": "Oregon",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-23T21:15:18.203Z",
+          "question": "Name a machine or piece of equipment at the gym",
+          "answer": "Glute-ham developer",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:15:23.200Z",
+          "question": "Name a machine or piece of equipment at the gym",
+          "answer": "Ski ergometer",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:15:29.960Z",
+          "question": "Name a machine or piece of equipment at the gym",
+          "answer": "Belt squat machine",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-23T21:15:53.417Z",
+          "question": "Name an English word containing \u201cauto\u201d",
+          "answer": "automat",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:16:11.816Z",
+          "question": "Name an English word containing \u201cauto\u201d",
+          "answer": "tautological",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:16:20.053Z",
+          "question": "Name an English word containing \u201cauto\u201d",
+          "answer": "autochthonous",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:16:25.548Z",
+          "question": "Name an English word containing \u201cauto\u201d",
+          "answer": "autoimmunity",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-23T21:16:35.250Z",
+          "question": "Name a chocolate brand",
+          "answer": "Pump Street",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:16:42.234Z",
+          "question": "Name a chocolate brand",
+          "answer": "5 Star",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:16:46.732Z",
+          "question": "Name a chocolate brand",
+          "answer": "5th Avenue",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:16:59.279Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Tamagoyaki",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:16.193Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Arepa",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:21.117Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Bircher muesli",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:24.949Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Black pudding",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:30.516Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Blintz",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:35.484Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Breakfast tamales",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:37.242Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Century egg",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:40.839Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Chia pudding",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:45.742Z",
+          "question": "Name a breakfast food or drink",
+          "answer": "Chilaquiles",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:17:55.481Z",
+          "question": "Name a horror movie franchise",
+          "answer": "Sleepaway Camp",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:18:03.178Z",
+          "question": "Name a horror movie franchise",
+          "answer": "30 Days of Night",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-23T21:18:11.463Z",
+          "question": "Name a horror movie franchise",
+          "answer": "47 Meters Down",
+          "source": "answer-archive"
+        }
+      ]
     }
   ]
 }

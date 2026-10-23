@@ -22,3 +22,4 @@ All completed attempts with captured frames are linked below, including losses. 
 | 10 | LSRE | win | [Clip](ranked-LSRE-win.mp4) · [final capture](ranked-LSRE-win.png) | 22.138 s |
 | 11 | ZBWY | win | [Clip](ranked-ZBWY-win.mp4) · [final capture](ranked-ZBWY-win.png) | 6.417 s |
 | 12 | SPZJ | win | [Clip](ranked-SPZJ-win.mp4) · [final capture](ranked-SPZJ-win.png) | 5.2 s |
+| 13 | ZRJN | win | [Clip](ranked-ZRJN-win.mp4) · [final capture](ranked-ZRJN-win.png) | 7.908 s |
