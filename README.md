@@ -87,13 +87,13 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Ranked browser run — in progress
 
-The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **9 wins, 7 losses, and 2 inconclusive attempts**, with a **current / best streak of 0 / 5** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
+The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **10 wins, 7 losses, and 2 inconclusive attempts**, with a **current / best streak of 1 / 5** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
 
 [Ranked clips and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
 
-The experimental browser controller runs in bounded control batches, with observed capture gaps of up to 22 seconds in the later recorded sample. It can miss turns even when a local answer is ready. This differs from the continuous event-driven unrated runner. The draft retry fix preserves unsent answers when Send is temporarily disabled; it does not remove the gaps between browser calls. [Controller latency measurements](validation/ranked-browser/controller-latency.json).
+The rated controller now uses `playRatedMatch()` to keep one browser-control call running through an entire match. In its first live validation, Dinosaur won six-player rated game JNMB with four hearts remaining and a displayed +18 rating change: all 12 observed own turns had a submission, with a largest observation gap of 503 ms. Earlier short batches had capture gaps of up to 22 seconds. [Whole-match validation](validation/ranked-browser/whole-match-validation.json) · [Usage and remaining limits](docs/RATED-BROWSER.md) · [Earlier latency investigation](validation/ranked-browser/controller-latency.json).
 
-`src/browser-driver.mjs` is an experimental browser-session adapter. A caller supplies the documented browser tool interface; it uses rendered page text and normal textbox/button actions, with Enter for answer submission. It only queues with the Rated button, leaves immediately on visible elimination, and pauses in the lobby after a win to save evidence. It never reads browser credentials or session storage. Source-only CLI play remains the separate guest client described above.
+`src/browser-driver.mjs` is an experimental browser-session adapter. A caller supplies the documented browser tool interface; it uses rendered page text and normal textbox/button actions, with Enter for answer submission. It only queues with the Rated button, leaves immediately on visible elimination, and returns to the lobby after each match to save evidence. It never reads browser credentials or session storage. Source-only CLI play remains the separate guest client described above.
 
 ## Observed statistics
 
@@ -156,7 +156,7 @@ npm run audit
 npm run stats
 ```
 
-The latest regression run passed **70 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **75 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
 Source: `src/puffer-bot.mjs` handles the game connection; `src/answer-engine.mjs` ranks and learns answers; `src/codex-provider.mjs` manages generation; `src/adaptive-campaign.mjs` runs and records reviewed games; `src/statistics.mjs` derives publication statistics.
 

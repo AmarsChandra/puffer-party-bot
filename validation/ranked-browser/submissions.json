@@ -3508,6 +3508,249 @@
           }
         }
       ]
+    },
+    {
+      "number": 19,
+      "room": "JNMB",
+      "outcome": "win",
+      "submitted": 19,
+      "categoriesSubmitted": 6,
+      "bySource": {
+        "answer-archive": 7,
+        "codex": 7,
+        "verified": 5
+      },
+      "visibleTiers": {
+        "DEEP CUT": 4,
+        "RARE": 6,
+        "SCHOOLER": 1
+      },
+      "submissions": [
+        {
+          "at": "2026-10-24T17:31:42.042Z",
+          "question": "Name the capital city of a European country",
+          "answer": "Valletta",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:31:42.747Z",
+            "visiblePlayerBlock": [
+              "valletta",
+              "Dinosaur",
+              "1264",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:32:01.155Z",
+          "question": "Name the capital city of a European country",
+          "answer": "Andorra la Vella",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:32:01.785Z",
+            "visiblePlayerBlock": [
+              "andorra la vella",
+              "Dinosaur",
+              "1264",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:32:21.485Z",
+          "question": "Name the capital city of a European country",
+          "answer": "Astana",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:32:45.575Z",
+          "question": "Name a city that has hosted the Summer Olympics",
+          "answer": "Hong Kong",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:32:46.274Z",
+          "question": "Name a city that has hosted the Summer Olympics",
+          "answer": "Qingdao",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:32:47.000Z",
+          "question": "Name a city that has hosted the Summer Olympics",
+          "answer": "Kiel",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:32:47.971Z",
+          "question": "Name a city that has hosted the Summer Olympics",
+          "answer": "Antwerp",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:32:48.789Z",
+            "visiblePlayerBlock": [
+              "antwerp",
+              "Dinosaur",
+              "1264",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:33:15.106Z",
+          "question": "Name an app or service for paying or sending money (like PayPal; banks and card networks don't count)",
+          "answer": "DigiCash",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:33:29.412Z",
+          "question": "Name an app or service for paying or sending money (like PayPal; banks and card networks don't count)",
+          "answer": "Flooz",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:33:57.703Z",
+          "question": "Name an NBA player selected to at least nine All-Star Games",
+          "answer": "Dominique Wilkins",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-24T17:34:04.913Z",
+          "question": "Name an NBA player selected to at least nine All-Star Games",
+          "answer": "George Gervin",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:34:05.618Z",
+            "visiblePlayerBlock": [
+              "george gervin",
+              "Dinosaur",
+              "1264",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:34:16.493Z",
+          "question": "Name an NBA player selected to at least nine All-Star Games",
+          "answer": "Giannis Antetokounmpo",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:34:17.116Z",
+            "visiblePlayerBlock": [
+              "giannis antetokounmpo",
+              "Dinosaur",
+              "1264",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:34:28.160Z",
+          "question": "Name a country that shares a land or maritime border with Russia",
+          "answer": "United States",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:34:40.469Z",
+          "question": "Name a country that shares a land or maritime border with Russia",
+          "answer": "Lithuania",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:34:41.144Z",
+            "visiblePlayerBlock": [
+              "lithuania",
+              "Dinosaur",
+              "1264",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:34:46.085Z",
+          "question": "Name a country that shares a land or maritime border with Russia",
+          "answer": "Japan",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:34:46.725Z",
+            "visiblePlayerBlock": [
+              "japan",
+              "Dinosaur",
+              "1264",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:34:50.996Z",
+          "question": "Name a country that shares a land or maritime border with Russia",
+          "answer": "Georgia",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:34:51.574Z",
+            "visiblePlayerBlock": [
+              "georgia",
+              "Dinosaur",
+              "1264",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:35:07.066Z",
+          "question": "Name a word that means angry",
+          "answer": "Irate",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T17:35:07.731Z",
+            "visiblePlayerBlock": [
+              "irate",
+              "Dinosaur",
+              "1264",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:35:13.693Z",
+          "question": "Name a word that means angry",
+          "answer": "Incensed",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:35:14.248Z",
+            "visiblePlayerBlock": [
+              "incensed",
+              "Dinosaur",
+              "1264",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:35:18.041Z",
+          "question": "Name a word that means angry",
+          "answer": "Wrathful",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:35:18.658Z",
+            "visiblePlayerBlock": [
+              "wrathful",
+              "Dinosaur",
+              "1264",
+              "RARE"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

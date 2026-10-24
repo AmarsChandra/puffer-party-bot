@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 0,
+  "current": 1,
   "best": 5,
   "records": [
     {
@@ -168,6 +168,15 @@
       "outcome": "inconclusive",
       "finishedAt": "2026-10-23T21:48:51.564Z",
       "reason": "Browser connection closed before the result was observed. Recording stops at the last captured state; no win or loss is inferred."
+    },
+    {
+      "number": 19,
+      "room": "JNMB",
+      "startedAt": "2026-10-24T17:31:09.517Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-24T17:35:28.071Z"
     }
   ],
   "active": null,

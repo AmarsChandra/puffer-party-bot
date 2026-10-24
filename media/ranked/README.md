@@ -28,3 +28,4 @@ All completed attempts with captured frames are linked below, including losses. 
 | 16 | FXJP | win | [Clip](ranked-FXJP-win.mp4) · [final capture](ranked-FXJP-win.png) | 6.072 s |
 | 17 | FUYX | win | [Clip](ranked-FUYX-win.mp4) · [final capture](ranked-FUYX-win.png) | 5.927 s |
 | 18 | HXTG | inconclusive | [Clip](ranked-HXTG-inconclusive.mp4) · [final capture](ranked-HXTG-inconclusive.png) | 4.574 s |
+| 19 | JNMB | win | [Clip](ranked-JNMB-win.mp4) · [final capture](ranked-JNMB-win.png) | 0.924 s |

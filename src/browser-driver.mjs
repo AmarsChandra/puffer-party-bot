@@ -14,26 +14,37 @@ export function createRun(root){
  fs.mkdirSync(root,{recursive:true});
  let state={startedAt:new Date().toISOString(),target:100,current:0,best:0,records:[],active:null,recording:{method:'Timestamped browser screenshots',audio:false},name:'Dinosaur'};
  if(fs.existsSync(path.join(root,'run.json')))state=JSON.parse(fs.readFileSync(path.join(root,'run.json')));
- const frameSeq=fs.existsSync(path.join(root,'frames'))?fs.readdirSync(path.join(root,'frames')).filter(f=>/\.png$/.test(f)).length:0;
+ const frameSeq=fs.existsSync(path.join(root,'frames'))?Math.max(0,...fs.readdirSync(path.join(root,'frames')).filter(f=>/^\d+\.png$/.test(f)).map(f=>Number.parseInt(f,10))):0;
  return {root,state,seq:0,frameSeq,question:null,used:new Set(),submitted:new Set(),pending:null,lastFrame:0,lastSubmit:0};
 }
 function log(run,type,data={}){fs.appendFileSync(path.join(run.root,'events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');}
 function save(run){fs.writeFileSync(path.join(run.root,'run.json'),JSON.stringify(run.state,null,2));}
 async function capture(run,tab,force=false){
- if(!force&&Date.now()-run.lastFrame<650)return;
- const before=Date.now(),bytes=await tab.screenshot({fullPage:false});
+ if(!force&&Date.now()-run.lastFrame<(run.captureRetryMs??650))return;
+ const before=Date.now();let bytes;
+ try{bytes=await tab.screenshot({fullPage:false});}catch(e){
+  run.lastFrame=Date.now();run.captureRetryMs=2500;
+  if(run.windowMetrics)run.windowMetrics.recordingFailures++;
+  log(run,'recording-error',{message:String(e.message??e),retryAfterMs:2500});return;
+ }
  const rel=`frames/${String(++run.frameSeq).padStart(7,'0')}.png`;fs.mkdirSync(path.join(run.root,'frames'),{recursive:true});fs.writeFileSync(path.join(run.root,rel),bytes);
- fs.appendFileSync(path.join(run.root,'frames.jsonl'),JSON.stringify({file:rel,at:before,finishedAt:Date.now(),match:run.state.active?.number??null})+'\n');run.lastFrame=Date.now();
+ fs.appendFileSync(path.join(run.root,'frames.jsonl'),JSON.stringify({file:rel,at:before,finishedAt:Date.now(),match:run.state.active?.number??null})+'\n');run.lastFrame=Date.now();run.captureRetryMs=650;
+ if(run.windowMetrics)run.windowMetrics.maxRecordingMs=Math.max(run.windowMetrics.maxRecordingMs,run.lastFrame-before);
 }
-export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
+export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch=false,onProgress=()=>{},progressIntervalMs=30000}={}){
  const end=Date.now()+seconds*1000;let last;
  const windowStarted=Date.now();
+ run.windowMetrics={observations:0,maxObservationGapMs:0,maxRecordingMs:0,recordingFailures:0};
+ let lastObserved=null,lastProgress=windowStarted;
  log(run,'controller-window-start',{previousWindowGapMs:run.lastWindowEnd?windowStarted-run.lastWindowEnd:null});
  run.waitReason=null;
  const waiting=(question,reason)=>{if(run.waitReason!==reason){log(run,'turn-waiting',{question,reason});run.waitReason=reason;}};
  try{
  while(Date.now()<end&&run.state.current<run.state.target){
   const s=await observe(tab),text=s.text,lastText=run.lastText;last=s;run.lastText=text;
+  const observedAt=Date.now();run.windowMetrics.observations++;
+  if(lastObserved!==null)run.windowMetrics.maxObservationGapMs=Math.max(run.windowMetrics.maxObservationGapMs,observedAt-lastObserved);
+  lastObserved=observedAt;
   if(text!==lastText)log(run,'visible-state',{text});
   const room=/\b([A-HJ-NP-Z]{4})\s*\nCATEGORY|\b([A-HJ-NP-Z]{4})\s*\nGAME OVER/.exec(text)?.slice(1).find(Boolean);
   const rated=/RATED (?:4–6|1V1|3S|8–10)/.test(text)&&!/UNRATED/.test(text);
@@ -52,7 +63,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
    const leave=tab.playwright.getByRole('button',{name:'Leave room',exact:true});
    if(await leave.count())await leave.click();else if(await tab.playwright.getByRole('button',{name:'NEW TABLE',exact:true}).count())await tab.playwright.getByRole('button',{name:'NEW TABLE',exact:true}).click();
    const after=await observe(tab);log(run,'after-leave',{text:after.text});run.lastText=after.text;
-   if(won||interrupted)break;
+   if(won||interrupted||stopAfterMatch)break;
    await sleep(200);continue;
   }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];
@@ -83,12 +94,33 @@ export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
    if(await ratedButton.count()){await ratedButton.click();const after=await observe(tab);log(run,'ranked-queue',{text:after.text});run.lastText=after.text;}
   }
   await capture(run,tab);
+  if(Date.now()-lastProgress>=progressIntervalMs){
+   const progress={elapsedMs:Date.now()-windowStarted,current:run.state.current,best:run.state.best,active:run.state.active,question:run.question,waitReason:run.waitReason,metrics:{...run.windowMetrics}};
+   log(run,'controller-progress',progress);
+   try{await onProgress(progress);}catch(e){log(run,'progress-output-error',{message:String(e.message??e)});}
+   lastProgress=Date.now();
+  }
   await sleep(80);
  }
- save(run);return {current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,lastText:last?.text?.slice(0,1700),frames:run.frameSeq};
+ save(run);return {current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,lastText:last?.text?.slice(0,1700),frames:run.frameSeq,metrics:{...run.windowMetrics}};
  }finally{
-  run.lastWindowEnd=Date.now();log(run,'controller-window-end',{elapsedMs:run.lastWindowEnd-windowStarted});
+  run.lastWindowEnd=Date.now();log(run,'controller-window-end',{elapsedMs:run.lastWindowEnd-windowStarted,metrics:{...run.windowMetrics}});
  }
+}
+
+// Await this once for an entire match. Repeated short drive() calls create gaps
+// while their caller handles chat/tool results, even when answers are cached.
+export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,onProgress=()=>{},progressIntervalMs=30000}={}){
+ if(!Number.isFinite(maxSeconds)||maxSeconds<=0)throw new Error('maxSeconds must be positive');
+ const before=run.state.records.length;
+ const result=await drive(run,tab,engine,{seconds:maxSeconds,queue,stopAfterMatch:true,onProgress,progressIntervalMs});
+ if(run.state.active){
+  const record={...run.state.active,outcome:'inconclusive',finishedAt:new Date().toISOString(),reason:'Whole-match controller watchdog expired before a result was observed'};
+  run.state.records.push(record);run.state.current=0;run.state.active=null;save(run);log(run,'match-end',{...record,current:0,best:run.state.best});
+  const leave=tab.playwright.getByRole('button',{name:'Leave room',exact:true});
+  if(await leave.count()){await leave.click();const after=await observe(tab);log(run,'after-leave',{text:after.text});run.lastText=after.text;}
+ }
+ return {...result,current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,record:run.state.records[before]??null};
 }
 
 export async function createBrowserEngine(root,repo){

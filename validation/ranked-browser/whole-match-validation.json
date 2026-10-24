@@ -1,0 +1,192 @@
+{
+  "match": {
+    "number": 19,
+    "room": "JNMB",
+    "startedAt": "2026-10-24T17:31:09.517Z",
+    "rated": true,
+    "name": "Dinosaur",
+    "outcome": "win",
+    "finishedAt": "2026-10-24T17:35:28.071Z"
+  },
+  "sourceSha256": "ee925722d2c36cefd9c597a9ed088ff1d00c088ea4af21c5a15ed487ba8d1c43",
+  "testsPassed": 75,
+  "oneControllerWindow": {
+    "startedAt": "2026-10-24T17:31:01.864Z",
+    "endedAt": "2026-10-24T17:35:31.270Z",
+    "elapsedMs": 269406,
+    "metrics": {
+      "observations": 2220,
+      "maxObservationGapMs": 503,
+      "maxRecordingMs": 186,
+      "recordingFailures": 0
+    }
+  },
+  "recording": {
+    "frames": 335,
+    "maxFrameGapMs": 924,
+    "audio": false,
+    "method": "Timestamped sampled game-tab screenshots; no native screen-video claim"
+  },
+  "submissions": 19,
+  "submissionsBySource": {
+    "answer-archive": 7,
+    "codex": 7,
+    "verified": 5
+  },
+  "observedOwnTurns": 12,
+  "observedOwnTurnsWithSubmission": 12,
+  "choiceToEnterMs": {
+    "median": 72.0,
+    "max": 608.0
+  },
+  "turns": [
+    {
+      "startedAt": "2026-10-24T17:32:01.047Z",
+      "question": "Name the capital city of a European country",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:32:01.155Z",
+          "answer": "Andorra la Vella"
+        }
+      ],
+      "endedAt": "2026-10-24T17:32:01.785Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:32:21.456Z",
+      "question": "Name the capital city of a European country",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:32:21.485Z",
+          "answer": "Astana"
+        }
+      ],
+      "endedAt": "2026-10-24T17:32:22.066Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:32:46.420Z",
+      "question": "Name a city that has hosted the Summer Olympics",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:32:47.000Z",
+          "answer": "Kiel"
+        },
+        {
+          "at": "2026-10-24T17:32:47.971Z",
+          "answer": "Antwerp"
+        }
+      ],
+      "endedAt": "2026-10-24T17:32:48.789Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:33:29.338Z",
+      "question": "Name an app or service for paying or sending money (like PayPal; banks and card networks don't count)",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:33:29.412Z",
+          "answer": "Flooz"
+        }
+      ],
+      "endedAt": "2026-10-24T17:33:30.113Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:34:04.851Z",
+      "question": "Name an NBA player selected to at least nine All-Star Games",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:34:04.913Z",
+          "answer": "George Gervin"
+        }
+      ],
+      "endedAt": "2026-10-24T17:34:05.618Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:34:16.446Z",
+      "question": "Name an NBA player selected to at least nine All-Star Games",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:34:16.493Z",
+          "answer": "Giannis Antetokounmpo"
+        }
+      ],
+      "endedAt": "2026-10-24T17:34:17.116Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:34:40.434Z",
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:34:40.469Z",
+          "answer": "Lithuania"
+        }
+      ],
+      "endedAt": "2026-10-24T17:34:41.144Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:34:46.021Z",
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:34:46.085Z",
+          "answer": "Japan"
+        }
+      ],
+      "endedAt": "2026-10-24T17:34:46.725Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:34:50.967Z",
+      "question": "Name a country that shares a land or maritime border with Russia",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:34:50.996Z",
+          "answer": "Georgia"
+        }
+      ],
+      "endedAt": "2026-10-24T17:34:51.574Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:35:07.024Z",
+      "question": "Name a word that means angry",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:35:07.066Z",
+          "answer": "Irate"
+        }
+      ],
+      "endedAt": "2026-10-24T17:35:07.731Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:35:13.591Z",
+      "question": "Name a word that means angry",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:35:13.693Z",
+          "answer": "Incensed"
+        }
+      ],
+      "endedAt": "2026-10-24T17:35:14.248Z"
+    },
+    {
+      "startedAt": "2026-10-24T17:35:17.940Z",
+      "question": "Name a word that means angry",
+      "submissions": [
+        {
+          "at": "2026-10-24T17:35:18.041Z",
+          "answer": "Wrathful"
+        }
+      ],
+      "endedAt": "2026-10-24T17:35:18.658Z"
+    }
+  ],
+  "scope": "One six-player rated game, JNMB. Whole-match controller and browser observation cadence validated; no claim of 100 consecutive wins or universal reliability. Observed-own-turn counts do not include any turn absent from captured page states. UI submissions are separate from server acknowledgement acceptance statistics.",
+  "visibleResult": {
+    "won": true,
+    "startingPlayers": 6,
+    "remainingHearts": 4,
+    "ratingBefore": 1264,
+    "ratingAfter": 1282,
+    "ratingChange": 18,
+    "heartCountEvidence": "media/ranked/ranked-JNMB-score.png",
+    "winScreenEvidence": "media/ranked/ranked-JNMB-win.png",
+    "note": "Hearts counted from the rendered player card; the chat badge is not a heart count."
+  }
+}

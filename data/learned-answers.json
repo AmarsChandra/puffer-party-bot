@@ -164,6 +164,174 @@
           "misses": 0,
           "order": 22,
           "proposed": true
+        },
+        "hongkong": {
+          "text": "Hong Kong",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "qingdao": {
+          "text": "Qingdao",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kiel": {
+          "text": "Kiel",
+          "accepted": 0,
+          "misses": 0,
+          "order": 25,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tallinn": {
+          "text": "Tallinn",
+          "accepted": 0,
+          "misses": 0,
+          "order": 26,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "marseille": {
+          "text": "Marseille",
+          "accepted": 0,
+          "misses": 0,
+          "order": 27,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "busan": {
+          "text": "Busan",
+          "accepted": 0,
+          "misses": 0,
+          "order": 28,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "enoshima": {
+          "text": "Enoshima",
+          "accepted": 0,
+          "misses": 0,
+          "order": 29,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "acapulco": {
+          "text": "Acapulco",
+          "accepted": 0,
+          "misses": 0,
+          "order": 30,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "longbeach": {
+          "text": "Long Beach",
+          "accepted": 0,
+          "misses": 0,
+          "order": 31,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "savannah": {
+          "text": "Savannah",
+          "accepted": 0,
+          "misses": 0,
+          "order": 32,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "weymouth": {
+          "text": "Weymouth",
+          "accepted": 0,
+          "misses": 0,
+          "order": 33,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "portland": {
+          "text": "Portland",
+          "accepted": 0,
+          "misses": 0,
+          "order": 34,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "versailles": {
+          "text": "Versailles",
+          "accepted": 0,
+          "misses": 0,
+          "order": 35,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chateauroux": {
+          "text": "Chateauroux",
+          "accepted": 0,
+          "misses": 0,
+          "order": 36,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lille": {
+          "text": "Lille",
+          "accepted": 0,
+          "misses": 0,
+          "order": 37,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nantes": {
+          "text": "Nantes",
+          "accepted": 0,
+          "misses": 0,
+          "order": 38,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bordeaux": {
+          "text": "Bordeaux",
+          "accepted": 0,
+          "misses": 0,
+          "order": 39,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "lyon": {
+          "text": "Lyon",
+          "accepted": 0,
+          "misses": 0,
+          "order": 40,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nice": {
+          "text": "Nice",
+          "accepted": 0,
+          "misses": 0,
+          "order": 41,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "saintetienne": {
+          "text": "Saint-Etienne",
+          "accepted": 0,
+          "misses": 0,
+          "order": 42,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "saitama": {
+          "text": "Saitama",
+          "accepted": 0,
+          "misses": 0,
+          "order": 43,
+          "proposed": true,
+          "rarityRequested": true
         }
       }
     },
@@ -37527,6 +37695,187 @@
         },
         "nittaku": {
           "text": "Nittaku",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "capital city of a european country": {
+      "question": "Name the capital city of a European country",
+      "answers": {}
+    },
+    "app or service for paying or sending money like paypal banks and card networks don t count": {
+      "question": "Name an app or service for paying or sending money (like PayPal; banks and card networks don't count)",
+      "answers": {}
+    },
+    "word that means angry": {
+      "question": "Name a word that means angry",
+      "answers": {
+        "irate": {
+          "text": "Irate",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "incensed": {
+          "text": "Incensed",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wrathful": {
+          "text": "Wrathful",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wroth": {
+          "text": "Wroth",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "livid": {
+          "text": "Livid",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "irascible": {
+          "text": "Irascible",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "irritated": {
+          "text": "Irritated",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "indignant": {
+          "text": "Indignant",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "enraged": {
+          "text": "Enraged",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "infuriated": {
+          "text": "Infuriated",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "furious": {
+          "text": "Furious",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "ireful": {
+          "text": "Ireful",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "raging": {
+          "text": "Raging",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "seething": {
+          "text": "Seething",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "fuming": {
+          "text": "Fuming",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "outraged": {
+          "text": "Outraged",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "apoplectic": {
+          "text": "Apoplectic",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "angered": {
+          "text": "Angered",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "exasperated": {
+          "text": "Exasperated",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "riled": {
+          "text": "Riled",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "vexed": {
+          "text": "Vexed",
           "accepted": 0,
           "misses": 0,
           "order": 20,
