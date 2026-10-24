@@ -3460,6 +3460,54 @@
           }
         }
       ]
+    },
+    {
+      "number": 18,
+      "room": "HXTG",
+      "outcome": "inconclusive",
+      "submitted": 2,
+      "categoriesSubmitted": 1,
+      "bySource": {
+        "bank": 2
+      },
+      "visibleTiers": {
+        "RARE": 1,
+        "SCHOOLER": 1
+      },
+      "submissions": [
+        {
+          "at": "2026-10-23T21:48:15.769Z",
+          "question": "Name an English word containing \u201catch\u201d",
+          "answer": "nuthatch",
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-23T21:48:16.187Z",
+            "visiblePlayerBlock": [
+              "nuthatch",
+              "Dinosaur",
+              "1291",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-23T21:48:35.990Z",
+          "question": "Name an English word containing \u201catch\u201d",
+          "answer": "matchbook",
+          "source": "bank",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-23T21:48:36.256Z",
+            "visiblePlayerBlock": [
+              "matchbook",
+              "Dinosaur",
+              "1291",
+              "SCHOOLER"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

@@ -15,7 +15,7 @@ export function createRun(root){
  let state={startedAt:new Date().toISOString(),target:100,current:0,best:0,records:[],active:null,recording:{method:'Timestamped browser screenshots',audio:false},name:'Dinosaur'};
  if(fs.existsSync(path.join(root,'run.json')))state=JSON.parse(fs.readFileSync(path.join(root,'run.json')));
  const frameSeq=fs.existsSync(path.join(root,'frames'))?fs.readdirSync(path.join(root,'frames')).filter(f=>/\.png$/.test(f)).length:0;
- return {root,state,seq:0,frameSeq,question:null,used:new Set(),submitted:new Set(),lastFrame:0,lastSubmit:0};
+ return {root,state,seq:0,frameSeq,question:null,used:new Set(),submitted:new Set(),pending:null,lastFrame:0,lastSubmit:0};
 }
 function log(run,type,data={}){fs.appendFileSync(path.join(run.root,'events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');}
 function save(run){fs.writeFileSync(path.join(run.root,'run.json'),JSON.stringify(run.state,null,2));}
@@ -27,6 +27,11 @@ async function capture(run,tab,force=false){
 }
 export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
  const end=Date.now()+seconds*1000;let last;
+ const windowStarted=Date.now();
+ log(run,'controller-window-start',{previousWindowGapMs:run.lastWindowEnd?windowStarted-run.lastWindowEnd:null});
+ run.waitReason=null;
+ const waiting=(question,reason)=>{if(run.waitReason!==reason){log(run,'turn-waiting',{question,reason});run.waitReason=reason;}};
+ try{
  while(Date.now()<end&&run.state.current<run.state.target){
   const s=await observe(tab),text=s.text,lastText=run.lastText;last=s;run.lastText=text;
   if(text!==lastText)log(run,'visible-state',{text});
@@ -35,7 +40,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
   if(room&&!rated)throw new Error('Refusing to play an unrated table in this ranked run');
   const ownNameVisible=text.split('\n').some(line=>line.trim()===run.state.name);
   if(room&&ownNameVisible&&!run.state.active&&!run.state.records.some(r=>r.room===room)){
-   run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
+   run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.pending=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
   }
   const lost=s.answerInput?.disabled&&/you['’]re out/i.test(s.answerInput.placeholder)||/\bYOU (?:LOSE|LOST)\b/.test(text);
   const won=/GAME OVER[\s\S]*\nYOU WIN\b/.test(text);
@@ -52,23 +57,25 @@ export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
   }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];
   if(q){
-   if(run.question!==q){run.question=q;run.used.clear();run.submitted.clear();log(run,'category',{question:q});}
+   if(run.question!==q){run.question=q;run.pending=null;run.used.clear();run.submitted.clear();log(run,'category',{question:q});}
    // Visible answer bubbles precede RATED; include only observed answer strings.
    const prefix=text.split(/RATED (?:4–6|1V1|3S|8–10)/)[0];for(const line of prefix.split('\n'))if(line.trim())run.used.add(normalize(line));
-   void engine.prime(q,{exclude:new Set([...run.used,...run.submitted])});
+   void Promise.resolve(engine.prime(q,{exclude:new Set([...run.used,...run.submitted])})).catch(e=>log(run,'answer-prime-error',{question:q,message:String(e.message??e)}));
    const holder=/▸\s*([^\n]+?)\s+is up/.exec(text)?.[1]?.trim().replace(/^new category\s*[·•]\s*/i,'');
    if((holder===run.state.name||s.answerInput?.placeholder.toLowerCase().startsWith('your puffer'))&&s.answerInput&&!s.answerInput.disabled&&Date.now()-run.lastSubmit>350){
-    const choice=engine.answer(q,new Set([...run.used,...run.submitted]));
+    const choice=run.pending?.choice??engine.answer(q,new Set([...run.used,...run.submitted]));
     if(choice){
-     log(run,'turn-choice',{question:q,choice:choice.text,placeholder:s.answerInput.placeholder});
-     const input=tab.playwright.getByRole('textbox',{name:'Your answer',exact:true});await input.fill(choice.text);
+     if(!run.pending){run.pending={question:q,choice};log(run,'turn-choice',{question:q,choice:choice.text,placeholder:s.answerInput.placeholder});}
+     const input=tab.playwright.getByRole('textbox',{name:'Your answer',exact:true});if(s.answerInput.value!==choice.text)await input.fill(choice.text);
      const button=tab.playwright.getByRole('button',{name:/^Send answer$/i});
      const enabled=await button.isEnabled();log(run,'send-button',{enabled});
      if(enabled){
-      await input.press('Enter');run.lastSubmit=Date.now();run.submitted.add(normalize(choice.text));log(run,'submitted',{question:q,answer:choice.text,source:choice.source});
+      await input.press('Enter');run.lastSubmit=Date.now();run.submitted.add(normalize(choice.text));run.pending=null;run.waitReason=null;log(run,'submitted',{question:q,answer:choice.text,source:choice.source});
       const after=await observe(tab);log(run,'after-submit',{text:after.text});run.lastText=after.text;
-     }
-    }
+     }else waiting(q,'send-disabled');
+    }else waiting(q,'no-ready-answer');
+   }else if(holder!==run.state.name&&!s.answerInput?.placeholder.toLowerCase().startsWith('your puffer')){
+    run.pending=null;run.waitReason=null;
    }
   }
   if(queue&&!run.state.active&&/WHO'S PLAYING/.test(text)){
@@ -79,6 +86,9 @@ export async function drive(run,tab,engine,{seconds=35,queue=true}={}){
   await sleep(80);
  }
  save(run);return {current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,lastText:last?.text?.slice(0,1700),frames:run.frameSeq};
+ }finally{
+  run.lastWindowEnd=Date.now();log(run,'controller-window-end',{elapsedMs:run.lastWindowEnd-windowStarted});
+ }
 }
 
 export async function createBrowserEngine(root,repo){

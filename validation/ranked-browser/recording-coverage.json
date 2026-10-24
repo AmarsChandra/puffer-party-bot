@@ -258,6 +258,21 @@
       "bytes": 7107337,
       "sha256": "3e542c700f6f50ed137d05bd16c65255199b364e3d5c8a01d9b901fc4439b4b2",
       "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    },
+    {
+      "number": 18,
+      "room": "HXTG",
+      "outcome": "inconclusive",
+      "frames": 44,
+      "firstFrameAt": 1792792095998,
+      "lastFrameAt": 1792792136450,
+      "maxGapSeconds": 4.574,
+      "gapsOverTwoSeconds": 3,
+      "gapsOverFiveSeconds": 0,
+      "video": "ranked-HXTG-inconclusive.mp4",
+      "bytes": 1057589,
+      "sha256": "7faa5b8504bd5bb132a6156130d02155b7989a0e6dbd16fc3dc32b90194e426d",
+      "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
     }
   ],
   "note": "Every completed retained attempt with captured frames has an encoded clip, including losses. Raw sampled frames remain local. Initial handoff and controller setup had capture gaps, which this report exposes."

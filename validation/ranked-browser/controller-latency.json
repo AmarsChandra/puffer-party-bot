@@ -1,0 +1,28 @@
+{
+  "frameIntervalSeconds": {
+    "count": 2761,
+    "median": 0.806,
+    "p95": 0.86,
+    "max": 22.138
+  },
+  "frameGapsOverFiveSeconds": 24,
+  "screenshotCostMs": {
+    "count": 2771,
+    "median": 74,
+    "p95": 105,
+    "max": 1036
+  },
+  "readyChoiceToEnterMs": {
+    "count": 252,
+    "median": 63.0,
+    "p95": 116.0,
+    "max": 359.0
+  },
+  "fallbackFirstAnswerMs": {
+    "count": 50,
+    "median": 3814.5,
+    "p95": 9741,
+    "max": 13441
+  },
+  "methodology": "Frame intervals use retained attempts 9 onward and are a proxy for browser-controller availability, not a direct count of missed turns. Choice-to-Enter uses matching logged choices and submitted events from the full run. Fallback figures cover logged Codex first-answer events. These measurements do not include time spent waiting before a choice exists. New controller-window and turn-waiting events distinguish future batch gaps, disabled submission, and unavailable answers."
+}
