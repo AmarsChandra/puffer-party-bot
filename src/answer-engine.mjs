@@ -220,5 +220,6 @@ export class AnswerEngine {
     // Start the worker connection without spending a generation request.
     // Covered categories stay entirely local; generate() remains the fallback.
   }
-  close(){this.closed=true;for(const job of this.inflight.values())job.controller.abort();this.save();this.provider?.close();}
+  pauseGeneration(){this.activeKey=null;for(const job of this.inflight.values())job.controller.abort();}
+  close(){this.closed=true;this.pauseGeneration();this.save();this.provider?.close();}
 }

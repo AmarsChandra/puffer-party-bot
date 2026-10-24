@@ -1,11 +1,11 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
-import {drive,createRun,playRatedMatch} from '../src/browser-driver.mjs';
+import {drive,createRun,playRatedMatch,playRatedBatch} from '../src/browser-driver.mjs';
 import {normalize} from '../src/answer-engine.mjs';
 function setup(t,{rated=true,out=false,won=false}={}){
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'ranked-browser-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  let state={answerInput:{placeholder:out?"you're out · watching…":'your puffer — type!',disabled:out,value:''},text:`Dinosaur\n${rated?'RATED':'UNRATED'} 4–6\nABCD\n${won?'GAME OVER\nFLOATING\n1/6\nYOU WIN\nlast one floating':'CATEGORY 1\nName a type of sandwich\n▸ your puffer · type an answer\n2\nSEND'}`};
  const actions=[];const tab={screenshot:async()=>Buffer.from('fixture'),playwright:{evaluate:async()=>state,getByRole:(role,opts)=>({fill:async text=>actions.push(['fill',text]),isEnabled:async()=>true,press:async key=>{actions.push(['press',key]);state={...state,answerInput:{...state.answerInput,placeholder:'waiting…'},text:state.text.replace('your puffer · type an answer','someone is up')};},click:async()=>{actions.push(['click',opts.name]);state={text:'WHO\'S PLAYING',answerInput:null};},count:async()=>opts.name==='Leave room'?1:0})}};
- const engine={prime:async()=>{},answer:()=>({text:"Shooter's sandwich",source:'answer-archive'})};return {root,tab,engine,actions,run:createRun(root)};
+ const engine={prime:async()=>{},answer:()=>({text:"Shooter's sandwich",source:'answer-archive'})};const run=createRun(root);run.state.naturalInput=false;return {root,tab,engine,actions,run};
 }
 test('observed own-turn placeholder sends a ready choice with Enter, without mouse submission',async t=>{
  const f=setup(t);await drive(f.run,f.tab,f.engine,{seconds:.1,queue:false});assert.deepEqual(f.actions,[['fill',"Shooter's sandwich"],['press','Enter']]);
@@ -73,4 +73,52 @@ test('resuming frame numbers preserves later recordings when an earlier frame is
 test('disabling recording skips screenshots including the forced result capture',async t=>{
  const f=setup(t,{won:true});f.run.state.recording.enabled=false;let screenshots=0;f.tab.screenshot=async()=>{screenshots++;throw new Error('Recording must stay disabled');};
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:1,queue:false});assert.equal(result.record.outcome,'win');assert.equal(screenshots,0);assert.equal(f.run.frameSeq,0);
+});
+test('batch control advances through separate rated matches with analytics disabled',async t=>{
+ const f=setup(t);let index=0,pauses=0;f.run.state.recording.enabled=false;f.run.state.trackStats=false;
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\n${['ABCD','EFGH'][index]}\nGAME OVER\nYOU WIN`,answerInput:null});
+ f.tab.playwright.getByRole=()=>({count:async()=>1,click:async()=>{index++;}});f.engine.pauseGeneration=()=>pauses++;
+ const result=await playRatedBatch(f.run,f.tab,f.engine,{maxGames:2,maxSeconds:2,perMatchSeconds:1});
+ assert.equal(result.played,2);assert.equal(result.current,2);assert.equal(pauses,2);
+ const events=fs.readFileSync(path.join(f.root,'events.jsonl'),'utf8').trim().split('\n').map(JSON.parse);
+ assert.equal(events.filter(e=>e.type==='result-evidence').length,2);assert(!events.some(e=>['visible-state','after-leave','category'].includes(e.type)));
+});
+test('batch control respects a stop request before queuing another game',async t=>{
+ const f=setup(t);fs.writeFileSync(path.join(f.root,'control.json'),JSON.stringify({continue:false}));
+ const result=await playRatedBatch(f.run,f.tab,f.engine);assert.equal(result.played,0);assert.deepEqual(f.actions,[]);
+});
+test('a transient input deadline is retried after observing the current turn again',async t=>{
+ const f=setup(t);let attempts=0,sent=false;f.run.state.recording.enabled=false;
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a type of sandwich\n▸ your puffer · type an answer'}`,answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value:''}});
+ const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),press:async()=>{if(++attempts===1)throw new Error('Playwright selector deadline exceeded');sent=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:1,queue:false});assert.equal(result.record.outcome,'win');assert.equal(attempts,2);
+});
+test('an inactive spectator page leaves and returns to the rated queue without inventing a result',async t=>{
+ const f=setup(t);let left=false,queued=false;f.run.state.recording.enabled=false;
+ f.tab.playwright.evaluate=async()=>left?{text:queued?'Finding a rated table':"WHO'S PLAYING",answerInput:null}:{text:'Other player\nRATED 4–6\nABCD\nCATEGORY 13\nName a unit of mass',answerInput:{disabled:true,placeholder:'spectating this game…',value:''}};
+ f.tab.playwright.getByRole=(role,{name})=>({count:async()=>1,click:async()=>{f.actions.push(['click',name]);if(name==='Leave room')left=true;else if(name==='▶ RATED ◀')queued=true;}});
+ await drive(f.run,f.tab,f.engine,{seconds:.3});assert.equal(queued,true);assert.equal(f.run.state.records.length,0);assert.deepEqual(f.actions,[['click','Leave room'],['click','▶ RATED ◀']]);
+});
+test('a category outside the bot seat never requests fresh answers',async t=>{
+ const f=setup(t);let primes=0;f.run.state.recording.enabled=false;
+ f.tab.playwright.evaluate=async()=>({text:'Other player\nRATED 4–6\nABCD\nCATEGORY 1\nName a unit of mass',answerInput:null});f.engine.prime=async()=>{primes++;};
+ await drive(f.run,f.tab,f.engine,{seconds:.1,queue:false});assert.equal(primes,0);assert.equal(f.run.state.records.length,0);
+});
+test('natural typing submits only after the entire answer is in the field',async t=>{
+ const f=setup(t);let value='',sent=false,bursts=0;f.run.state.naturalInput=true;f.run.state.recording.enabled=false;f.engine.answer=()=>({text:'Quince',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n10\nSEND'}`,answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
+ const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),fill:async text=>{assert.equal(text,'');value=text;},pressSequentially:async text=>{assert.equal(Array.from(text).length,1);bursts++;value+=text;},press:async()=>{assert.equal(value,'Quince');sent=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:4,queue:false});assert.equal(result.record.outcome,'win');assert(bursts>1);assert.equal(f.run.naturalTypingObserved,true);
+});
+test('even a one-second clock types the answer character by character instead of filling it',async t=>{
+ const f=setup(t);let value='',sent=false;const letters=[];f.run.state.naturalInput=true;f.run.state.recording.enabled=false;f.engine.answer=()=>({text:'Quince',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n1\nSEND'}`,answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
+ const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),fill:async()=>{throw new Error('Whole-answer fill forbidden');},pressSequentially:async letter=>{letters.push(letter);value+=letter;},press:async()=>{assert.equal(value,'Quince');sent=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:2,queue:false});assert.equal(result.record.outcome,'win');assert.deepEqual(letters,Array.from('Quince'));
+});
+test('natural typing stops when the puffer moves to another player',async t=>{
+ const f=setup(t);let value='',moved=false,bursts=0,enters=0;f.run.state.naturalInput=true;f.run.state.recording.enabled=false;f.engine.answer=()=>({text:'Quince',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\nCATEGORY 1\nName a fruit\n▸ ${moved?'Other player is up':'your puffer · type an answer'}\n10\nSEND`,answerInput:{placeholder:moved?'waiting…':'your puffer — type!',disabled:false,value}});
+ const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),pressSequentially:async text=>{bursts++;value+=text;moved=true;},press:async()=>{enters++;}});
+ await drive(f.run,f.tab,f.engine,{seconds:1.3,queue:false});assert.equal(bursts,1);assert.equal(enters,0);assert.equal(f.run.pending,null);
 });

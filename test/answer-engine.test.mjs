@@ -6,6 +6,13 @@ import path from 'node:path';
 import {AnswerEngine,candidates,questionKey,normalize,answerFits,promptExample} from '../src/answer-engine.mjs';
 import {partialAnswers} from '../src/codex-provider.mjs';
 const bank=JSON.parse(fs.readFileSync(new URL('../data/answers.json',import.meta.url)));
+test('pausing unused generation cancels it while leaving the engine reusable',async t=>{
+ let requests=0;
+ const provider={generate(q,{signal}){requests++;return new Promise((resolve,reject)=>signal.addEventListener('abort',()=>reject(new Error('aborted')),{once:true}));},close(){}};
+ const {engine}=fixture(t,provider);const first=engine.prime('Name an unknown fixture answer');engine.pauseGeneration();await first;
+ assert.equal(engine.inflight.size,0);assert.equal(engine.closed,false);
+ const second=engine.prime('Name another unknown fixture answer');assert.equal(requests,2);engine.pauseGeneration();await second;
+});
 function fixture(t,provider=null,onReady=()=>{}){
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'puffer-engine-'));
   const opts={bankPath:new URL('../data/answers.json',import.meta.url),cachePath:path.join(dir,'learned.json'),provider,onReady};

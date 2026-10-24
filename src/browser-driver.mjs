@@ -2,22 +2,31 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {normalize,AnswerEngine} from './answer-engine.mjs';
 import {CodexProvider} from './codex-provider.mjs';
+import {NaturalTyper,turnSeconds} from './letter-typing.mjs';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 export async function observe(tab){
  return tab.playwright.evaluate(()=>{
-  const text=document.body.innerText;
+  const text=document.body?.innerText??'';
   const input=Array.from(document.querySelectorAll('input')).find(e=>e.getAttribute('aria-label')==='Your answer'||/you're out|watching/i.test(e.placeholder));
   return {text:text.slice(0,6500),answerInput:input?{placeholder:input.placeholder,disabled:input.disabled,value:input.value}:null};
  });
 }
 export function createRun(root){
  fs.mkdirSync(root,{recursive:true});
- let state={startedAt:new Date().toISOString(),target:100,current:0,best:0,records:[],active:null,recording:{method:'Timestamped browser screenshots',audio:false},name:'Dinosaur'};
+ let state={startedAt:new Date().toISOString(),target:100,current:0,best:0,records:[],active:null,recording:{method:'Timestamped browser screenshots',audio:false},name:'Dinosaur',naturalInput:true};
  if(fs.existsSync(path.join(root,'run.json')))state=JSON.parse(fs.readFileSync(path.join(root,'run.json')));
  const frameSeq=fs.existsSync(path.join(root,'frames'))?Math.max(0,...fs.readdirSync(path.join(root,'frames')).filter(f=>/^\d+\.png$/.test(f)).map(f=>Number.parseInt(f,10))):0;
  return {root,state,seq:0,frameSeq,question:null,used:new Set(),submitted:new Set(),pending:null,lastFrame:0,lastSubmit:0};
 }
-function log(run,type,data={}){fs.appendFileSync(path.join(run.root,'events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');}
+function log(run,type,data={}){
+ if(run.state.trackStats===false){
+  if(!['match-start','match-end','result-evidence','controller-window-start','controller-window-end','controller-progress'].includes(type))return;
+  if(type==='controller-progress')data={room:run.state.active?.room};
+  if(type==='controller-window-end')data={};
+  if(type==='controller-window-start')data={};
+ }
+ fs.appendFileSync(path.join(run.root,'events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');
+}
 function save(run){fs.writeFileSync(path.join(run.root,'run.json'),JSON.stringify(run.state,null,2));}
 async function capture(run,tab,force=false){
  if(run.state.recording?.enabled===false)return;
@@ -58,6 +67,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   const won=/GAME OVER[\s\S]*\nYOU WIN\b/.test(text);
   const interrupted=!ownNameVisible&&(s.answerInput?.disabled&&/spectating/i.test(s.answerInput.placeholder)||/GAME\s+\d+\s*[·•]\s*LOBBY/.test(text));
   if(run.state.active&&(won||lost||interrupted)){
+   log(run,'result-evidence',{room:run.state.active.room,text});
    await capture(run,tab,true);const record={...run.state.active,outcome:won&&run.state.active.rated?'win':lost?'loss':'inconclusive',finishedAt:new Date().toISOString(),...(interrupted?{reason:'Seat absent after spectating or table rollover; no result screen observed'}:{})};
    run.state.records.push(record);run.state.current=record.outcome==='win'?run.state.current+1:0;run.state.best=Math.max(run.state.best,run.state.current);run.state.active=null;log(run,'match-end',{...record,current:run.state.current,best:run.state.best});save(run);
    if(run.state.current>=run.state.target)break;
@@ -67,8 +77,14 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
    if(won||interrupted||stopAfterMatch)break;
    await sleep(200);continue;
   }
+  // A table can roll over or be revisited after its result was recorded.
+  // Leave an unowned spectator/result screen instead of waiting there forever.
+  if(!run.state.active&&(won||lost||s.answerInput?.disabled&&/spectating/i.test(s.answerInput.placeholder))){
+   const leave=tab.playwright.getByRole('button',{name:'Leave room',exact:true});
+   if(await leave.count()){await leave.click();run.lastText=(await observe(tab)).text;await sleep(80);continue;}
+  }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];
-  if(q){
+  if(q&&run.state.active&&ownNameVisible){
    if(run.question!==q){run.question=q;run.pending=null;run.used.clear();run.submitted.clear();log(run,'category',{question:q});}
    // Visible answer bubbles precede RATED; include only observed answer strings.
    const prefix=text.split(/RATED (?:4–6|1V1|3S|8–10)/)[0];for(const line of prefix.split('\n'))if(line.trim())run.used.add(normalize(line));
@@ -78,13 +94,27 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
     const choice=run.pending?.choice??engine.answer(q,new Set([...run.used,...run.submitted]));
     if(choice){
      if(!run.pending){run.pending={question:q,choice};log(run,'turn-choice',{question:q,choice:choice.text,placeholder:s.answerInput.placeholder});}
-     const input=tab.playwright.getByRole('textbox',{name:'Your answer',exact:true});if(s.answerInput.value!==choice.text)await input.fill(choice.text);
+     try{
+     const input=tab.playwright.getByRole('textbox',{name:'Your answer',exact:true});let ready=true;
+     if(run.state.naturalInput){
+      run.pending.typer??=new NaturalTyper(choice.text);
+      const step=run.pending.typer.next({value:s.answerInput.value,secondsLeft:turnSeconds(text)});
+      ready=step.kind==='submit';
+      if(step.kind==='type'){await input.pressSequentially(step.text,{});run.naturalTypingObserved=true;}
+      else if(step.kind==='clear')await input.fill('');
+     }else if(s.answerInput.value!==choice.text)await input.fill(choice.text);
+     if(ready){
      const button=tab.playwright.getByRole('button',{name:/^Send answer$/i});
      const enabled=await button.isEnabled();log(run,'send-button',{enabled});
      if(enabled){
       await input.press('Enter');run.lastSubmit=Date.now();run.submitted.add(normalize(choice.text));run.pending=null;run.waitReason=null;log(run,'submitted',{question:q,answer:choice.text,source:choice.source});
       const after=await observe(tab);log(run,'after-submit',{text:after.text});run.lastText=after.text;
      }else waiting(q,'send-disabled');
+     }
+     }catch(e){
+      if(!/selector deadline exceeded|element is not attached|element.*detached/i.test(String(e.message??e)))throw e;
+      log(run,'input-retry',{question:q,message:String(e.message??e)});
+     }
     }else waiting(q,'no-ready-answer');
    }else if(holder!==run.state.name&&!s.answerInput?.placeholder.toLowerCase().startsWith('your puffer')){
     run.pending=null;run.waitReason=null;
@@ -101,7 +131,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
    try{await onProgress(progress);}catch(e){log(run,'progress-output-error',{message:String(e.message??e)});}
    lastProgress=Date.now();
   }
-  await sleep(80);
+  await sleep(run.pending?.typer?15+Math.random()*40:80);
  }
  save(run);return {current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,lastText:last?.text?.slice(0,1700),frames:run.frameSeq,metrics:{...run.windowMetrics}};
  }finally{
@@ -124,9 +154,31 @@ export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,o
  return {...result,current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,record:run.state.records[before]??null};
 }
 
-export async function createBrowserEngine(root,repo){
- const provider=new CodexProvider({cwd:path.join(root,'answer-worker'),onLog:(type,data)=>fs.appendFileSync(path.join(root,'model-events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n')});
+// Multiple complete matches share one awaited call and a warm local cache.
+// The control file can stop new queues without interrupting an active match.
+export async function playRatedBatch(run,tab,engine,{maxGames=10,maxSeconds=2700,perMatchSeconds=1800}={}){
+ const before=run.state.records.length,end=Date.now()+maxSeconds*1000;
+ for(let i=0;i<maxGames&&Date.now()<end&&run.state.current<run.state.target;i++){
+  const controlFile=path.join(run.root,'control.json');
+  if(fs.existsSync(controlFile)&&JSON.parse(fs.readFileSync(controlFile,'utf8')).continue===false)break;
+  if(i>0&&run.state.naturalInput)await sleep(900+Math.random()*1600);
+  const result=await playRatedMatch(run,tab,engine,{maxSeconds:perMatchSeconds});
+  engine.pauseGeneration?.();
+  if(!result.record||result.record.outcome==='inconclusive')break;
+ }
+ return {played:run.state.records.length-before,current:run.state.current,best:run.state.best,active:run.state.active};
+}
+
+export async function createBrowserEngine(root,repo,{trackStats=true,localFirst=false}={}){
+ const provider=new CodexProvider({cwd:path.join(root,'answer-worker'),onLog:(type,data)=>{if(trackStats)fs.appendFileSync(path.join(root,'model-events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');}});
  const engine=new AnswerEngine({bankPath:path.join(repo,'data/answers.json'),cachePath:path.join(repo,'data/learned-answers.json'),provider});
+ if(localFirst){
+  const prime=engine.prime.bind(engine);
+  engine.prime=(question,options={})=>{
+   if(!options.force&&engine.records(question,options.exclude??new Set()).length>=2){engine.pauseGeneration();return Promise.resolve();}
+   return prime(question,options);
+  };
+ }
  engine.save=()=>{fs.mkdirSync(path.dirname(engine.cachePath),{recursive:true});fs.writeFileSync(engine.cachePath+'.browser-tmp',JSON.stringify(engine.data,null,2));fs.renameSync(engine.cachePath+'.browser-tmp',engine.cachePath);};
  await provider.start();return engine;
 }
