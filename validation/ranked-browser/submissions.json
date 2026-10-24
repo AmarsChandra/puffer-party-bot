@@ -3751,6 +3751,893 @@
           }
         }
       ]
+    },
+    {
+      "number": 20,
+      "room": "MXWT",
+      "outcome": "win",
+      "submitted": 66,
+      "categoriesSubmitted": 14,
+      "bySource": {
+        "bank": 11,
+        "answer-archive": 13,
+        "codex": 33,
+        "verified": 9
+      },
+      "visibleTiers": {
+        "RARE": 19,
+        "PLANKTON": 2,
+        "DEEP CUT": 20,
+        "SCHOOLER": 6
+      },
+      "submissions": [
+        {
+          "at": "2026-10-24T17:51:59.600Z",
+          "question": "Name something a cowboy wears or carries",
+          "answer": "Bolo tie",
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:52:00.064Z",
+            "visiblePlayerBlock": [
+              "bolo tie",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:52:10.992Z",
+          "question": "Name something a cowboy wears or carries",
+          "answer": "Bandolier",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-24T17:52:22.363Z",
+          "question": "Name something a cowboy wears or carries",
+          "answer": "Lasso",
+          "source": "bank",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-24T17:52:22.805Z",
+            "visiblePlayerBlock": [
+              "lasso",
+              "Dinosaur",
+              "1282",
+              "PLANKTON"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:52:46.874Z",
+          "question": "Name an English word containing \u201cx\u201d",
+          "answer": "flexural",
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:52:47.169Z",
+            "visiblePlayerBlock": [
+              "flexural",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:53:01.099Z",
+          "question": "Name an English word containing \u201cx\u201d",
+          "answer": "sixfold",
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:53:01.578Z",
+            "visiblePlayerBlock": [
+              "sixfold",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:53:19.026Z",
+          "question": "Name a song with over a billion streams on Spotify",
+          "answer": "Arcade",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:53:45.213Z",
+          "question": "Name a song with over a billion streams on Spotify",
+          "answer": "Snowman",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:53:51.886Z",
+          "question": "Name a song with over a billion streams on Spotify",
+          "answer": "...Ready for It?",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:53:52.359Z",
+            "visiblePlayerBlock": [
+              "...ready for it?",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:54:09.621Z",
+          "question": "Name a hoofed mammal",
+          "answer": "Takin",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:54:10.125Z",
+            "visiblePlayerBlock": [
+              "takin",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:54:14.150Z",
+          "question": "Name a hoofed mammal",
+          "answer": "Anoa",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:54:14.668Z",
+            "visiblePlayerBlock": [
+              "anoa",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:54:23.628Z",
+          "question": "Name a hoofed mammal",
+          "answer": "Bongo",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:54:24.045Z",
+            "visiblePlayerBlock": [
+              "bongo",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:54:41.492Z",
+          "question": "Name a NATO member country",
+          "answer": "North Macedonia",
+          "source": "verified"
+        },
+        {
+          "at": "2026-10-24T17:54:59.593Z",
+          "question": "Name a NATO member country",
+          "answer": "Montenegro",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:55:00.118Z",
+            "visiblePlayerBlock": [
+              "montenegro",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:55:08.765Z",
+          "question": "Name a NATO member country",
+          "answer": "Slovenia",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:55:09.249Z",
+            "visiblePlayerBlock": [
+              "slovenia",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:55:21.281Z",
+          "question": "Name a NATO member country",
+          "answer": "Albania",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:55:21.751Z",
+            "visiblePlayerBlock": [
+              "albania",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:55:31.613Z",
+          "question": "Name an English word containing \u201catter\u201d",
+          "answer": "natter",
+          "source": "bank",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:55:32.021Z",
+            "visiblePlayerBlock": [
+              "natter",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:55:38.568Z",
+          "question": "Name an English word containing \u201catter\u201d",
+          "answer": "chatterbox",
+          "source": "bank",
+          "visibleTier": "PLANKTON",
+          "tierEvidence": {
+            "at": "2026-10-24T17:55:39.067Z",
+            "visiblePlayerBlock": [
+              "chatterbox",
+              "Dinosaur",
+              "1282",
+              "PLANKTON"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:55:43.787Z",
+          "question": "Name an English word containing \u201catter\u201d",
+          "answer": "squatter",
+          "source": "bank",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T17:55:44.276Z",
+            "visiblePlayerBlock": [
+              "squatter",
+              "Dinosaur",
+              "1282",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:56:02.170Z",
+          "question": "Name a streaming service",
+          "answer": "Mubi",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:56:02.628Z",
+            "visiblePlayerBlock": [
+              "mubi",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:56:08.447Z",
+          "question": "Name a streaming service",
+          "answer": "BritBox",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:56:09.008Z",
+            "visiblePlayerBlock": [
+              "britbox",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:56:14.812Z",
+          "question": "Name a streaming service",
+          "answer": "Shudder",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:56:15.155Z",
+            "visiblePlayerBlock": [
+              "shudder",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:56:22.065Z",
+          "question": "Name a streaming service",
+          "answer": "Acorn TV",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:56:22.525Z",
+            "visiblePlayerBlock": [
+              "acorn tv",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:56:28.893Z",
+          "question": "Name a streaming service",
+          "answer": "The Criterion Channel",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:56:35.368Z",
+          "question": "Name a streaming service",
+          "answer": "Kanopy",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:56:40.807Z",
+          "question": "Name a streaming service",
+          "answer": "Hoopla",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:56:41.282Z",
+          "question": "Name a streaming service",
+          "answer": "OVID",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:56:41.813Z",
+          "question": "Name a streaming service",
+          "answer": "Fandor",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:56:42.410Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Cuba",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:56:50.091Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Mongolia",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:56:56.620Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Bahrain",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:56:57.052Z",
+            "visiblePlayerBlock": [
+              "bahrain",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:00.886Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Belarus",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:01.443Z",
+            "visiblePlayerBlock": [
+              "belarus",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:09.639Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Bolivia",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:10.076Z",
+            "visiblePlayerBlock": [
+              "bolivia",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:17.966Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Chile",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:18.371Z",
+            "visiblePlayerBlock": [
+              "chile",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:29.082Z",
+          "question": "Name a country that fought in World War II",
+          "answer": "Colombia",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:29.512Z",
+            "visiblePlayerBlock": [
+              "colombia",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:44.673Z",
+          "question": "Name an official language of at least one UN member country",
+          "answer": "Bislama",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:45.133Z",
+            "visiblePlayerBlock": [
+              "bislama",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:50.042Z",
+          "question": "Name an official language of at least one UN member country",
+          "answer": "Sango",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:50.508Z",
+            "visiblePlayerBlock": [
+              "sango",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:57:55.399Z",
+          "question": "Name an official language of at least one UN member country",
+          "answer": "Tetum",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:57:55.858Z",
+            "visiblePlayerBlock": [
+              "tetum",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:58:00.749Z",
+          "question": "Name an official language of at least one UN member country",
+          "answer": "Dzongkha",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:58:01.273Z",
+            "visiblePlayerBlock": [
+              "dzongkha",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:58:06.375Z",
+          "question": "Name an official language of at least one UN member country",
+          "answer": "Tsonga",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:58:06.680Z",
+            "visiblePlayerBlock": [
+              "tsonga",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:58:15.147Z",
+          "question": "Name an official language of at least one UN member country",
+          "answer": "Venda",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:58:15.571Z",
+            "visiblePlayerBlock": [
+              "venda",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:58:29.356Z",
+          "question": "Name a laptop brand",
+          "answer": "GRiD",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:58:31.563Z",
+          "question": "Name a laptop brand",
+          "answer": "OLPC",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:58:47.319Z",
+          "question": "Name a laptop brand",
+          "answer": "2AM",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T17:59:01.361Z",
+          "question": "Name a piece of bedding (mattresses and bed frames don't count)",
+          "answer": "Coverlet",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:01.846Z",
+            "visiblePlayerBlock": [
+              "coverlet",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:03.407Z",
+          "question": "Name a piece of bedding (mattresses and bed frames don't count)",
+          "answer": "Bed skirt",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:03.817Z",
+            "visiblePlayerBlock": [
+              "bed skirt",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:13.430Z",
+          "question": "Name a piece of bedding (mattresses and bed frames don't count)",
+          "answer": "Bolster",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:59:19.652Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Johnny Marzetti",
+          "source": "verified",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:20.116Z",
+            "visiblePlayerBlock": [
+              "johnny marzetti",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:25.347Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Chicken tetrazzini",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:25.773Z",
+            "visiblePlayerBlock": [
+              "chicken tetrazzini",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:29.351Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Walking taco",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:29.810Z",
+            "visiblePlayerBlock": [
+              "walking taco",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:31.465Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Fiestada",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:31.856Z",
+            "visiblePlayerBlock": [
+              "fiestada",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:37.375Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Egg roll",
+          "source": "verified",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:37.862Z",
+            "visiblePlayerBlock": [
+              "egg roll",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:44.798Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Pizza burgers",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:59:48.195Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Chili mac",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:48.652Z",
+            "visiblePlayerBlock": [
+              "chili mac",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:49.964Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Ham and beans",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:50.477Z",
+            "visiblePlayerBlock": [
+              "ham and beans",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:54.314Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Chicken a la king",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T17:59:54.854Z",
+            "visiblePlayerBlock": [
+              "chicken a la king",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T17:59:59.402Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Creamed turkey",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T17:59:59.870Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Beefaroni",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:00.261Z",
+            "visiblePlayerBlock": [
+              "beefaroni",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:03.527Z",
+          "question": "Name a classic American school-cafeteria lunch food",
+          "answer": "Fish sticks",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:03.993Z",
+            "visiblePlayerBlock": [
+              "fish sticks",
+              "Dinosaur",
+              "1282",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:09.853Z",
+          "question": "Name an English word ending in \u201c-bound\u201d",
+          "answer": "snowbound",
+          "source": "bank",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:10.256Z",
+            "visiblePlayerBlock": [
+              "snowbound",
+              "Dinosaur",
+              "1282",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:13.577Z",
+          "question": "Name an English word ending in \u201c-bound\u201d",
+          "answer": "housebound",
+          "source": "bank",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:13.996Z",
+            "visiblePlayerBlock": [
+              "housebound",
+              "Dinosaur",
+              "1282",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:23.589Z",
+          "question": "Name an English word ending in \u201c-bound\u201d",
+          "answer": "homebound",
+          "source": "bank"
+        },
+        {
+          "at": "2026-10-24T18:00:28.397Z",
+          "question": "Name something people keep in a wallet",
+          "answer": "Library card",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:28.851Z",
+            "visiblePlayerBlock": [
+              "library card",
+              "Dinosaur",
+              "1282",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:31.749Z",
+          "question": "Name something people keep in a wallet",
+          "answer": "Insurance card",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T18:00:40.609Z",
+          "question": "Name something people keep in a wallet",
+          "answer": "Business card",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:41.000Z",
+            "visiblePlayerBlock": [
+              "business card",
+              "Dinosaur",
+              "1282",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:46.549Z",
+          "question": "Name something people keep in a wallet",
+          "answer": "Blood donor card",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:46.951Z",
+            "visiblePlayerBlock": [
+              "blood donor card",
+              "Dinosaur",
+              "1282",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:00:51.650Z",
+          "question": "Name something people keep in a wallet",
+          "answer": "Fishing license",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T18:00:52.172Z",
+            "visiblePlayerBlock": [
+              "fishing license",
+              "Dinosaur",
+              "1282",
+              "RARE"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

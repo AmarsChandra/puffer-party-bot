@@ -1,7 +1,9 @@
 {
   "method": {
     "method": "Timestamped browser screenshots",
-    "audio": false
+    "audio": false,
+    "enabled": false,
+    "stoppedAt": "2026-10-24T18:01:01.778Z"
   },
   "matches": [
     {
@@ -288,7 +290,19 @@
       "bytes": 6981049,
       "sha256": "86c4c80ce5e82b36931138e0c571e3c21d07e975f6fd29638973cf067f64b386",
       "recordingMethod": "Timestamped game-tab screenshots, variable-frame-rate assembly, no audio. Durations preserve observed time gaps; these are sampled captures, not a smooth native screen recording."
+    },
+    {
+      "number": 20,
+      "room": "MXWT",
+      "outcome": "win",
+      "frames": 730,
+      "firstFrameAt": 1792864309565,
+      "lastFrameAt": 1792864861274,
+      "maxGapSeconds": 0.956,
+      "gapsOverTwoSeconds": 0,
+      "gapsOverFiveSeconds": 0,
+      "encodingStatus": "Raw frames retained locally; encoding stopped at user request"
     }
   ],
-  "note": "Every completed retained attempt with captured frames has an encoded clip, including losses. Raw sampled frames remain local. Initial handoff and controller setup had capture gaps, which this report exposes."
+  "note": "Existing clips include losses. Raw frames can remain local without encoding when recording is disabled by the user. Initial handoff and controller setup had capture gaps, which this report exposes."
 }

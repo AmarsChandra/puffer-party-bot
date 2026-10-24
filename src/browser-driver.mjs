@@ -20,6 +20,7 @@ export function createRun(root){
 function log(run,type,data={}){fs.appendFileSync(path.join(run.root,'events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');}
 function save(run){fs.writeFileSync(path.join(run.root,'run.json'),JSON.stringify(run.state,null,2));}
 async function capture(run,tab,force=false){
+ if(run.state.recording?.enabled===false)return;
  if(!force&&Date.now()-run.lastFrame<(run.captureRetryMs??650))return;
  const before=Date.now();let bytes;
  try{bytes=await tab.screenshot({fullPage:false});}catch(e){

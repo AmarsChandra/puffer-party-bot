@@ -87,9 +87,11 @@ Each match records source hashes and a complete source snapshot. The runner reta
 
 ## Ranked browser run — in progress
 
-The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **10 wins, 7 losses, and 2 inconclusive attempts**, with a **current / best streak of 1 / 5** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
+The separate signed-in ranked run uses the match display name Dinosaur and does not edit the account profile. Its current retained sample is **11 wins, 7 losses, and 2 inconclusive attempts**, with a **current / best streak of 2 / 5** toward the requested target of 100. Setup and controller failures remain in the log. These results are separate from the unrated campaign below.
 
 [Ranked clips and recording notes](media/ranked/README.md) · [Every ranked attempt](validation/ranked-browser/run.json) · [Capture coverage and gaps](validation/ranked-browser/recording-coverage.json)
+
+Recording is currently disabled at the user's request to conserve usage. The rated attempt continues with lightweight text logs; historical clips remain available.
 
 The rated controller now uses `playRatedMatch()` to keep one browser-control call running through an entire match. In its first live validation, Dinosaur won six-player rated game JNMB with four hearts remaining and a displayed +18 rating change: all 12 observed own turns had a submission, with a largest observation gap of 503 ms. Earlier short batches had capture gaps of up to 22 seconds. [Whole-match validation](validation/ranked-browser/whole-match-validation.json) · [Usage and remaining limits](docs/RATED-BROWSER.md) · [Earlier latency investigation](validation/ranked-browser/controller-latency.json).
 
@@ -156,7 +158,7 @@ npm run audit
 npm run stats
 ```
 
-The latest regression run passed **75 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
+The latest regression run passed **76 tests**. These tests use mocks and retained game evidence without entering games or using model allowance. The campaign audit verifies source snapshots, outcomes, unique game IDs, and streak accounting. `src/self-play.mjs` is available for private integration tests and is counted separately from public wins.
 
 Source: `src/puffer-bot.mjs` handles the game connection; `src/answer-engine.mjs` ranks and learns answers; `src/codex-provider.mjs` manages generation; `src/adaptive-campaign.mjs` runs and records reviewed games; `src/statistics.mjs` derives publication statistics.
 

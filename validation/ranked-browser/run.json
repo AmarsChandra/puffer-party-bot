@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 1,
+  "current": 2,
   "best": 5,
   "records": [
     {
@@ -177,12 +177,23 @@
       "name": "Dinosaur",
       "outcome": "win",
       "finishedAt": "2026-10-24T17:35:28.071Z"
+    },
+    {
+      "number": 20,
+      "room": "MXWT",
+      "startedAt": "2026-10-24T17:51:49.112Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-24T18:01:01.318Z"
     }
   ],
   "active": null,
   "recording": {
     "method": "Timestamped browser screenshots",
-    "audio": false
+    "audio": false,
+    "enabled": false,
+    "stoppedAt": "2026-10-24T18:01:01.778Z"
   },
   "name": "Dinosaur"
 }

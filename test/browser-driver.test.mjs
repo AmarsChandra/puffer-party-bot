@@ -70,3 +70,7 @@ test('the whole-match watchdog retains an inconclusive attempt and leaves rather
 test('resuming frame numbers preserves later recordings when an earlier frame is missing',async t=>{
  const f=setup(t);fs.mkdirSync(path.join(f.root,'frames'));fs.writeFileSync(path.join(f.root,'frames','0000001.png'),'one');fs.writeFileSync(path.join(f.root,'frames','0000003.png'),'three');assert.equal(createRun(f.root).frameSeq,3);
 });
+test('disabling recording skips screenshots including the forced result capture',async t=>{
+ const f=setup(t,{won:true});f.run.state.recording.enabled=false;let screenshots=0;f.tab.screenshot=async()=>{screenshots++;throw new Error('Recording must stay disabled');};
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:1,queue:false});assert.equal(result.record.outcome,'win');assert.equal(screenshots,0);assert.equal(f.run.frameSeq,0);
+});

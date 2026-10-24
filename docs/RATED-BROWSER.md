@@ -38,3 +38,7 @@ The controller uses the Rated queue, returns after a visible loss, and preserves
 | Recording failures | 0 |
 
 These measurements cover one live rated match. External browser interruptions, slow browser-tool calls, and generation for uncovered categories can still delay answers. Sampled screenshots have no audio and are separate from smooth native screen video. UI submission counts do not establish server acknowledgement acceptance or rarity.
+
+## Disabling screenshots
+
+Set `run.state.recording.enabled = false` before starting a match. The setting persists in `run.json` and skips both routine frames and result-screen captures. Text result and submission logs continue.
