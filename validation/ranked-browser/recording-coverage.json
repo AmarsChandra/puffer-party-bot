@@ -302,6 +302,17 @@
       "gapsOverTwoSeconds": 0,
       "gapsOverFiveSeconds": 0,
       "encodingStatus": "Raw frames retained locally; encoding stopped at user request"
+    },
+    {
+      "number": 21,
+      "room": "MTJL",
+      "outcome": "win",
+      "frames": 0,
+      "firstFrameAt": null,
+      "lastFrameAt": null,
+      "maxGapSeconds": null,
+      "gapsOverTwoSeconds": 0,
+      "gapsOverFiveSeconds": 0
     }
   ],
   "note": "Existing clips include losses. Raw frames can remain local without encoding when recording is disabled by the user. Initial handoff and controller setup had capture gaps, which this report exposes."

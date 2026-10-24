@@ -4638,6 +4638,431 @@
           }
         }
       ]
+    },
+    {
+      "number": 21,
+      "room": "MTJL",
+      "outcome": "win",
+      "submitted": 31,
+      "categoriesSubmitted": 8,
+      "bySource": {
+        "codex": 7,
+        "verified": 1,
+        "answer-archive": 23
+      },
+      "visibleTiers": {
+        "SCHOOLER": 2,
+        "DEEP CUT": 18,
+        "RARE": 2
+      },
+      "submissions": [
+        {
+          "at": "2026-10-24T18:08:07.275Z",
+          "question": "Name a compound word ending in \u201cstone\u201d",
+          "answer": "Touchstone",
+          "source": "codex",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:08:07.633Z",
+            "visiblePlayerBlock": [
+              "touchstone",
+              "Dinosaur",
+              "1299",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:08:58.914Z",
+          "question": "Name a word that means small",
+          "answer": "Miniature",
+          "source": "verified",
+          "visibleTier": "SCHOOLER",
+          "tierEvidence": {
+            "at": "2026-10-24T18:08:59.375Z",
+            "visiblePlayerBlock": [
+              "miniature",
+              "Dinosaur",
+              "1299",
+              "SCHOOLER"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:09:09.598Z",
+          "question": "Name a word that means small",
+          "answer": "Exiguous",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:09:10.063Z",
+            "visiblePlayerBlock": [
+              "exiguous",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:09:22.525Z",
+          "question": "Name a word that means small",
+          "answer": "Inconsiderable",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:09:22.986Z",
+            "visiblePlayerBlock": [
+              "inconsiderable",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:09:30.630Z",
+          "question": "Name a word that means small",
+          "answer": "Piddling",
+          "source": "codex",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:09:30.998Z",
+            "visiblePlayerBlock": [
+              "piddling",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:09:43.215Z",
+          "question": "Name a boxing weight class",
+          "answer": "Bridgerweight",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:09:52.481Z",
+          "question": "Name a boxing weight class",
+          "answer": "Atomweight",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:09:52.753Z",
+            "visiblePlayerBlock": [
+              "atomweight",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:10:06.307Z",
+          "question": "Name an aquatic mammal",
+          "answer": "Desman",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:10:13.807Z",
+          "question": "Name an aquatic mammal",
+          "answer": "Water Opossum",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:10:26.624Z",
+          "question": "Name an aquatic mammal",
+          "answer": "Acrophoca",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:10:26.992Z",
+            "visiblePlayerBlock": [
+              "acrophoca",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:10:32.746Z",
+          "question": "Name an aquatic mammal",
+          "answer": "Aegicetus",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:10:33.120Z",
+            "visiblePlayerBlock": [
+              "aegicetus",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:10:50.175Z",
+          "question": "Name an animal known for jumping or leaping",
+          "answer": "Klipspringer",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T18:10:50.637Z",
+            "visiblePlayerBlock": [
+              "klipspringer",
+              "Dinosaur",
+              "1299",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:10:55.482Z",
+          "question": "Name an animal known for jumping or leaping",
+          "answer": "Springhare",
+          "source": "codex"
+        },
+        {
+          "at": "2026-10-24T18:11:02.049Z",
+          "question": "Name an animal known for jumping or leaping",
+          "answer": "Jerboa",
+          "source": "codex",
+          "visibleTier": "RARE",
+          "tierEvidence": {
+            "at": "2026-10-24T18:11:02.516Z",
+            "visiblePlayerBlock": [
+              "jerboa",
+              "Dinosaur",
+              "1299",
+              "RARE"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:11:16.557Z",
+          "question": "Name a yellow fruit or vegetable",
+          "answer": "Canistel",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:11:25.746Z",
+          "question": "Name a yellow fruit or vegetable",
+          "answer": "Abiu",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:11:26.117Z",
+            "visiblePlayerBlock": [
+              "abiu",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:11:28.873Z",
+          "question": "Name a yellow fruit or vegetable",
+          "answer": "Ackee",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:11:29.150Z",
+            "visiblePlayerBlock": [
+              "ackee",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:11:33.962Z",
+          "question": "Name a yellow fruit or vegetable",
+          "answer": "Adajamir",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:11:34.324Z",
+            "visiblePlayerBlock": [
+              "adajamir",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:11:41.895Z",
+          "question": "Name a yellow fruit or vegetable",
+          "answer": "African custard-apple",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:11:42.209Z",
+            "visiblePlayerBlock": [
+              "african custard-apple",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:11:49.484Z",
+          "question": "Name a yellow fruit or vegetable",
+          "answer": "African locust bean",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:11:49.847Z",
+            "visiblePlayerBlock": [
+              "african locust bean",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:11:57.512Z",
+          "question": "Name a department in a company (like HR)",
+          "answer": "Ink and paint",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:12:00.432Z",
+          "question": "Name a department in a company (like HR)",
+          "answer": "1031 exchange",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:00.796Z",
+            "visiblePlayerBlock": [
+              "1031 exchange",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:12:07.724Z",
+          "question": "Name a department in a company (like HR)",
+          "answer": "Absence management",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:08.192Z",
+            "visiblePlayerBlock": [
+              "absence management",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:12:17.855Z",
+          "question": "Name a department in a company (like HR)",
+          "answer": "Academy",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:12:23.606Z",
+          "question": "Name a sports car brand",
+          "answer": "Bricklin",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:12:28.471Z",
+          "question": "Name a sports car brand",
+          "answer": "Crosley",
+          "source": "answer-archive"
+        },
+        {
+          "at": "2026-10-24T18:12:33.978Z",
+          "question": "Name a sports car brand",
+          "answer": "9ff",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:34.348Z",
+            "visiblePlayerBlock": [
+              "9ff",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:12:37.552Z",
+          "question": "Name a sports car brand",
+          "answer": "AAD",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:37.915Z",
+            "visiblePlayerBlock": [
+              "aad",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:12:40.483Z",
+          "question": "Name a sports car brand",
+          "answer": "AAT",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:40.848Z",
+            "visiblePlayerBlock": [
+              "aat",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:12:44.032Z",
+          "question": "Name a sports car brand",
+          "answer": "AB Performance",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:44.392Z",
+            "visiblePlayerBlock": [
+              "ab performance",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        },
+        {
+          "at": "2026-10-24T18:12:49.523Z",
+          "question": "Name a sports car brand",
+          "answer": "Abadal",
+          "source": "answer-archive",
+          "visibleTier": "DEEP CUT",
+          "tierEvidence": {
+            "at": "2026-10-24T18:12:49.912Z",
+            "visiblePlayerBlock": [
+              "abadal",
+              "Dinosaur",
+              "1299",
+              "DEEP CUT"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

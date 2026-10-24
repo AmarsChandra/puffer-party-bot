@@ -20540,6 +20540,150 @@
           "canonical": "ittybitty",
           "tier": "schooler",
           "lastAccepted": "2026-10-22T18:29:55.628Z"
+        },
+        "exiguous": {
+          "text": "Exiguous",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "inconsiderable": {
+          "text": "Inconsiderable",
+          "accepted": 0,
+          "misses": 0,
+          "order": 21,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "piddling": {
+          "text": "Piddling",
+          "accepted": 0,
+          "misses": 0,
+          "order": 22,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "trifling": {
+          "text": "Trifling",
+          "accepted": 0,
+          "misses": 0,
+          "order": 23,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "slight": {
+          "text": "Slight",
+          "accepted": 0,
+          "misses": 0,
+          "order": 24,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "scant": {
+          "text": "Scant",
+          "accepted": 0,
+          "misses": 0,
+          "order": 25,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "meager": {
+          "text": "Meager",
+          "accepted": 0,
+          "misses": 0,
+          "order": 26,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "paltry": {
+          "text": "Paltry",
+          "accepted": 0,
+          "misses": 0,
+          "order": 27,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "negligible": {
+          "text": "Negligible",
+          "accepted": 0,
+          "misses": 0,
+          "order": 28,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "modest": {
+          "text": "Modest",
+          "accepted": 0,
+          "misses": 0,
+          "order": 29,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "teensy": {
+          "text": "Teensy",
+          "accepted": 0,
+          "misses": 0,
+          "order": 30,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "dwarfish": {
+          "text": "Dwarfish",
+          "accepted": 0,
+          "misses": 0,
+          "order": 31,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "submicroscopic": {
+          "text": "Submicroscopic",
+          "accepted": 0,
+          "misses": 0,
+          "order": 32,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "nanoscopic": {
+          "text": "Nanoscopic",
+          "accepted": 0,
+          "misses": 0,
+          "order": 33,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bitty": {
+          "text": "Bitty",
+          "accepted": 0,
+          "misses": 0,
+          "order": 34,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "teenyweeny": {
+          "text": "Teeny-weeny",
+          "accepted": 0,
+          "misses": 0,
+          "order": 35,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bantam": {
+          "text": "Bantam",
+          "accepted": 0,
+          "misses": 0,
+          "order": 36,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "miniaturized": {
+          "text": "Miniaturized",
+          "accepted": 0,
+          "misses": 0,
+          "order": 37,
+          "proposed": true,
+          "rarityRequested": true
         }
       }
     },
@@ -38772,6 +38916,224 @@
           "rarityRequested": true
         }
       }
+    },
+    "compound word ending in stone": {
+      "question": "Name a compound word ending in “stone”",
+      "answers": {
+        "touchstone": {
+          "text": "Touchstone",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "whetstone": {
+          "text": "Whetstone",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "copingstone": {
+          "text": "Copingstone",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "boxing weight class": {
+      "question": "Name a boxing weight class",
+      "answers": {}
+    },
+    "animal known for jumping or leaping": {
+      "question": "Name an animal known for jumping or leaping",
+      "answers": {
+        "klipspringer": {
+          "text": "Klipspringer",
+          "accepted": 0,
+          "misses": 0,
+          "order": 0,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "springhare": {
+          "text": "Springhare",
+          "accepted": 0,
+          "misses": 0,
+          "order": 1,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "jerboa": {
+          "text": "Jerboa",
+          "accepted": 0,
+          "misses": 0,
+          "order": 2,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "sifaka": {
+          "text": "Sifaka",
+          "accepted": 0,
+          "misses": 0,
+          "order": 3,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "springbok": {
+          "text": "Springbok",
+          "accepted": 0,
+          "misses": 0,
+          "order": 4,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "impala": {
+          "text": "Impala",
+          "accepted": 0,
+          "misses": 0,
+          "order": 5,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "rockhopperpenguin": {
+          "text": "Rockhopper penguin",
+          "accepted": 0,
+          "misses": 0,
+          "order": 6,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "jumpingspider": {
+          "text": "Jumping spider",
+          "accepted": 0,
+          "misses": 0,
+          "order": 7,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "kangaroorat": {
+          "text": "Kangaroo rat",
+          "accepted": 0,
+          "misses": 0,
+          "order": 8,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "bharal": {
+          "text": "Bharal",
+          "accepted": 0,
+          "misses": 0,
+          "order": 9,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "chamois": {
+          "text": "Chamois",
+          "accepted": 0,
+          "misses": 0,
+          "order": 10,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "wallaby": {
+          "text": "Wallaby",
+          "accepted": 0,
+          "misses": 0,
+          "order": 11,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "tarsier": {
+          "text": "Tarsier",
+          "accepted": 0,
+          "misses": 0,
+          "order": 12,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "galago": {
+          "text": "Galago",
+          "accepted": 0,
+          "misses": 0,
+          "order": 13,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "coquerelssifaka": {
+          "text": "Coquerel's sifaka",
+          "accepted": 0,
+          "misses": 0,
+          "order": 14,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "spinnerdolphin": {
+          "text": "Spinner dolphin",
+          "accepted": 0,
+          "misses": 0,
+          "order": 15,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "mudskipper": {
+          "text": "Mudskipper",
+          "accepted": 0,
+          "misses": 0,
+          "order": 16,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "flyingfish": {
+          "text": "Flying fish",
+          "accepted": 0,
+          "misses": 0,
+          "order": 17,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "flea": {
+          "text": "Flea",
+          "accepted": 0,
+          "misses": 0,
+          "order": 18,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "locust": {
+          "text": "Locust",
+          "accepted": 0,
+          "misses": 0,
+          "order": 19,
+          "proposed": true,
+          "rarityRequested": true
+        },
+        "hare": {
+          "text": "Hare",
+          "accepted": 0,
+          "misses": 0,
+          "order": 20,
+          "proposed": true,
+          "rarityRequested": true
+        }
+      }
+    },
+    "yellow fruit or vegetable": {
+      "question": "Name a yellow fruit or vegetable",
+      "answers": {}
+    },
+    "department in a company like hr": {
+      "question": "Name a department in a company (like HR)",
+      "answers": {}
+    },
+    "sports car brand": {
+      "question": "Name a sports car brand",
+      "answers": {}
     }
   }
 }

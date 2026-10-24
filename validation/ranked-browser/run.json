@@ -1,7 +1,7 @@
 {
   "startedAt": "2026-10-23T17:15:30.131Z",
   "target": 100,
-  "current": 2,
+  "current": 3,
   "best": 5,
   "records": [
     {
@@ -186,6 +186,15 @@
       "name": "Dinosaur",
       "outcome": "win",
       "finishedAt": "2026-10-24T18:01:01.318Z"
+    },
+    {
+      "number": 21,
+      "room": "MTJL",
+      "startedAt": "2026-10-24T18:07:47.963Z",
+      "rated": true,
+      "name": "Dinosaur",
+      "outcome": "win",
+      "finishedAt": "2026-10-24T18:12:59.036Z"
     }
   ],
   "active": null,
