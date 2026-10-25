@@ -8,8 +8,28 @@ export async function observe(tab){
  return tab.playwright.evaluate(()=>{
   const text=document.body?.innerText??'';
   const input=Array.from(document.querySelectorAll('input')).find(e=>e.getAttribute('aria-label')==='Your answer'||/you're out|watching/i.test(e.placeholder));
-  return {text:text.slice(0,6500),answerInput:input?{placeholder:input.placeholder,disabled:input.disabled,value:input.value}:null};
+  const prompt=document.querySelector('.pf-root .ds-card:not(.pf-newcat):not(.cleared):not(.gone) .prompt');
+  let promptReady=false;
+  if(prompt&&/^Name\s/i.test(prompt.innerText??'')){
+   const card=prompt.parentElement;promptReady=null;
+   try{
+    if(typeof card.getAnimations==='function')promptReady=!card.getAnimations({subtree:true}).some(a=>(a.pending||a.playState==='running'||a.playState==='paused')&&a.effect?.getComputedTiming().iterations!==Infinity);
+   }catch{}
+   try{
+    if(typeof getComputedStyle==='function'){
+     const style=getComputedStyle(card);
+     if(style.display==='none'||style.visibility==='hidden'||style.visibility==='collapse'||Number(style.opacity)<.99)promptReady=false;
+    }
+   }catch{}
+   try{const rect=prompt.getBoundingClientRect();if(rect.width<=0||rect.height<=0)promptReady=false;}catch{}
+  }
+  return {text:text.slice(0,6500),promptReady,answerInput:input?{placeholder:input.placeholder,disabled:input.disabled,value:input.value}:null};
  });
+}
+export function promptIsReady(observation,seenAt,now=Date.now()){
+ // Some DOM bridges cannot expose animation timing. The public entrance CSS
+ // uses a 1.05s delay plus 0.7s animation; wait conservatively in that case.
+ return observation.promptReady===null?now-seenAt>=1800:observation.promptReady!==false;
 }
 export function createRun(root){
  fs.mkdirSync(root,{recursive:true});
@@ -85,12 +105,14 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];
   if(q&&run.state.active&&ownNameVisible){
-   if(run.question!==q){run.question=q;run.pending=null;run.used.clear();run.submitted.clear();log(run,'category',{question:q});}
+   if(run.question!==q){run.question=q;run.questionSeenAt=Date.now();run.pending=null;run.used.clear();run.submitted.clear();log(run,'category',{question:q});}
+   run.questionSeenAt??=Date.now();
    // Visible answer bubbles precede RATED; include only observed answer strings.
    const prefix=text.split(/RATED (?:4–6|1V1|3S|8–10)/)[0];for(const line of prefix.split('\n'))if(line.trim())run.used.add(normalize(line));
    void Promise.resolve(engine.prime(q,{exclude:new Set([...run.used,...run.submitted])})).catch(e=>log(run,'answer-prime-error',{question:q,message:String(e.message??e)}));
    const holder=/▸\s*([^\n]+?)\s+is up/.exec(text)?.[1]?.trim().replace(/^new category\s*[·•]\s*/i,'');
-   if((holder===run.state.name||s.answerInput?.placeholder.toLowerCase().startsWith('your puffer'))&&s.answerInput&&!s.answerInput.disabled&&Date.now()-run.lastSubmit>350){
+   if(!promptIsReady(s,run.questionSeenAt))waiting(q,'prompt-revealing');
+   else if((holder===run.state.name||s.answerInput?.placeholder.toLowerCase().startsWith('your puffer'))&&s.answerInput&&!s.answerInput.disabled&&Date.now()-run.lastSubmit>350){
     const choice=run.pending?.choice??engine.answer(q,new Set([...run.used,...run.submitted]));
     if(choice){
      if(!run.pending){run.pending={question:q,choice};log(run,'turn-choice',{question:q,choice:choice.text,placeholder:s.answerInput.placeholder});}

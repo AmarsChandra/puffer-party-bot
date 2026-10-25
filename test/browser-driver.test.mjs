@@ -1,5 +1,5 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
-import {drive,createRun,playRatedMatch,playRatedBatch} from '../src/browser-driver.mjs';
+import {drive,createRun,playRatedMatch,playRatedBatch,promptIsReady} from '../src/browser-driver.mjs';
 import {normalize} from '../src/answer-engine.mjs';
 function setup(t,{rated=true,out=false,won=false}={}){
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'ranked-browser-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
@@ -121,4 +121,20 @@ test('natural typing stops when the puffer moves to another player',async t=>{
  f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\nCATEGORY 1\nName a fruit\n▸ ${moved?'Other player is up':'your puffer · type an answer'}\n10\nSEND`,answerInput:{placeholder:moved?'waiting…':'your puffer — type!',disabled:false,value}});
  const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),pressSequentially:async text=>{bursts++;value+=text;moved=true;},press:async()=>{enters++;}});
  await drive(f.run,f.tab,f.engine,{seconds:1.3,queue:false});assert.equal(bursts,1);assert.equal(enters,0);assert.equal(f.run.pending,null);
+});
+test('the starting player does not touch the input until the prompt entrance finishes',async t=>{
+ const f=setup(t);let checks=0,ready=false,sent=false,primes=0;f.run.state.recording.enabled=false;
+ f.tab.playwright.evaluate=async()=>{ready=++checks>3;return {text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n1\nSEND'}`,promptReady:ready,answerInput:{placeholder:'your puffer — type!',disabled:false,value:''}};};
+ f.engine.prime=async()=>{primes++;};const original=f.tab.playwright.getByRole;
+ f.tab.playwright.getByRole=(...args)=>({...original(...args),fill:async()=>{assert(ready);assert(checks>3);},press:async()=>{assert(ready);sent=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:2,queue:false});assert.equal(result.record.outcome,'win');assert(primes>=4);
+});
+test('a low clock cannot bypass an unrevealed prompt',async t=>{
+ const f=setup(t);f.run.state.naturalInput=true;f.run.state.recording.enabled=false;
+ f.tab.playwright.evaluate=async()=>({text:'Dinosaur\nRATED 4–6\nABCD\nCATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n0\nSEND',promptReady:false,answerInput:{placeholder:'your puffer — type!',disabled:false,value:''}});
+ await drive(f.run,f.tab,f.engine,{seconds:.15,queue:false});assert.deepEqual(f.actions,[]);assert.equal(f.run.pending,null);
+});
+test('unsupported animation reads wait through the complete entrance instead of guessing from the clock',()=>{
+ assert.equal(promptIsReady({promptReady:null},0,1700),false);assert.equal(promptIsReady({promptReady:null},0,1800),true);
+ assert.equal(promptIsReady({promptReady:false},0,5000),false);assert.equal(promptIsReady({promptReady:true},0,10),true);
 });
