@@ -61,7 +61,7 @@ async function capture(run,tab,force=false){
  fs.appendFileSync(path.join(run.root,'frames.jsonl'),JSON.stringify({file:rel,at:before,finishedAt:Date.now(),match:run.state.active?.number??null})+'\n');run.lastFrame=Date.now();run.captureRetryMs=650;
  if(run.windowMetrics)run.windowMetrics.maxRecordingMs=Math.max(run.windowMetrics.maxRecordingMs,run.lastFrame-before);
 }
-export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch=false,onProgress=()=>{},progressIntervalMs=30000,roomClaims=null}={}){
+export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch=false,onProgress=()=>{},progressIntervalMs=30000,roomClaims=null,shouldStop=()=>false,canQueue=()=>true,onObservation=()=>{}}={}){
  const end=Date.now()+seconds*1000;let last;
  const windowStarted=Date.now();
  run.windowMetrics={observations:0,maxObservationGapMs:0,maxRecordingMs:0,recordingFailures:0};
@@ -70,10 +70,12 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
  run.waitReason=null;
  const waiting=(question,reason)=>{if(run.waitReason!==reason){log(run,'turn-waiting',{question,reason});run.waitReason=reason;}};
  try{
- while(Date.now()<end&&run.state.current<run.state.target){
+ while(Date.now()<end&&run.state.current<run.state.target&&!shouldStop()){
   const s=await observe(tab),text=s.text,lastText=run.lastText;last=s;run.lastText=text;
   const observedAt=Date.now();run.windowMetrics.observations++;
-  if(lastObserved!==null)run.windowMetrics.maxObservationGapMs=Math.max(run.windowMetrics.maxObservationGapMs,observedAt-lastObserved);
+  run.lastObservationGapMs=lastObserved===null?0:observedAt-lastObserved;
+  if(lastObserved!==null)run.windowMetrics.maxObservationGapMs=Math.max(run.windowMetrics.maxObservationGapMs,run.lastObservationGapMs);
+  run.lastObservedAt=observedAt;
   lastObserved=observedAt;
   if(text!==lastText)log(run,'visible-state',{text});
   const room=/\b([A-HJ-NP-Z]{4})\s*\nCATEGORY|\b([A-HJ-NP-Z]{4})\s*\nGAME OVER/.exec(text)?.slice(1).find(Boolean);
@@ -85,6 +87,8 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
    roomClaims?.set(room,run.root);
    run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.pending=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
   }
+  onObservation(s);
+  if(shouldStop())break;
   const lost=s.answerInput?.disabled&&/you['’]re out/i.test(s.answerInput.placeholder)||/\bYOU (?:LOSE|LOST)\b/.test(text);
   const won=/GAME OVER[\s\S]*\nYOU WIN\b/.test(text);
   const interrupted=!ownNameVisible&&(s.answerInput?.disabled&&/spectating/i.test(s.answerInput.placeholder)||/GAME\s+\d+\s*[·•]\s*LOBBY/.test(text));
@@ -144,7 +148,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
     run.pending=null;run.waitReason=null;
    }
   }
-  if(queue&&!run.state.active&&/WHO'S PLAYING/.test(text)){
+  if(queue&&!run.state.active&&/WHO'S PLAYING/.test(text)&&canQueue()){
    const ratedButton=tab.playwright.getByRole('button',{name:'▶ RATED ◀',exact:true});
    if(await ratedButton.count()){await ratedButton.click();const after=await observe(tab);log(run,'ranked-queue',{text:after.text});run.lastText=after.text;}
   }
@@ -165,12 +169,12 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
 
 // Await this once for an entire match. Repeated short drive() calls create gaps
 // while their caller handles chat/tool results, even when answers are cached.
-export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,onProgress=()=>{},progressIntervalMs=30000,roomClaims=null}={}){
+export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,onProgress=()=>{},progressIntervalMs=30000,roomClaims=null,shouldStop=()=>false,canQueue=()=>true,onObservation=()=>{}}={}){
  if(!Number.isFinite(maxSeconds)||maxSeconds<=0)throw new Error('maxSeconds must be positive');
  const before=run.state.records.length;
- const result=await drive(run,tab,engine,{seconds:maxSeconds,queue,stopAfterMatch:true,onProgress,progressIntervalMs,roomClaims});
+ const result=await drive(run,tab,engine,{seconds:maxSeconds,queue,stopAfterMatch:true,onProgress,progressIntervalMs,roomClaims,shouldStop,canQueue,onObservation});
  if(run.state.active){
-  const record={...run.state.active,outcome:'inconclusive',finishedAt:new Date().toISOString(),reason:'Whole-match controller watchdog expired before a result was observed'};
+  const record={...run.state.active,outcome:'inconclusive',finishedAt:new Date().toISOString(),reason:shouldStop()?'Controller stopped before a result was observed':'Whole-match controller watchdog expired before a result was observed'};
   run.state.records.push(record);run.state.current=0;run.state.active=null;save(run);log(run,'match-end',{...record,current:0,best:run.state.best});
   const leave=tab.playwright.getByRole('button',{name:'Leave room',exact:true});
   if(await leave.count()){await leave.click();const after=await observe(tab);log(run,'after-leave',{text:after.text});run.lastText=after.text;}

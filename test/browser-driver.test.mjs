@@ -169,3 +169,12 @@ test('shared browser learning survives alternating saves while generation state 
  const jobA={controller:new AbortController()},jobB={controller:new AbortController()};a.inflight.set('fruit',jobA);b.inflight.set('vegetable',jobB);
  a.pauseGeneration();assert.equal(jobA.controller.signal.aborted,true);assert.equal(jobB.controller.signal.aborted,false);assert.equal(b.closed,false);
 });
+test('a stop control interrupts a live controller before another key is typed',async t=>{
+ const f=setup(t);let stop=false;f.run.state.recording.enabled=false;
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:2,shouldStop:()=>stop,onObservation:()=>{stop=true;}});
+ assert.equal(result.record.outcome,'inconclusive');assert.match(result.record.reason,/stopped/);assert(!f.actions.some(a=>a[0]==='fill'||a[0]==='press'));
+});
+test('queue admission can hold a lobby without clicking Rated',async t=>{
+ const f=setup(t);f.run.state.recording.enabled=false;f.tab.playwright.evaluate=async()=>({text:"WHO'S PLAYING",answerInput:null});
+ await drive(f.run,f.tab,f.engine,{seconds:.1,canQueue:()=>false});assert.deepEqual(f.actions,[]);
+});

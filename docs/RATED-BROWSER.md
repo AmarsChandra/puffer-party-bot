@@ -68,3 +68,21 @@ try {
 The engines share learned answer data in the same JavaScript runtime, while keeping turn state and generation cancellation separate. The second queue starts after the first table is seated. If both tabs reach the same room, the second controller stops before typing or counting that room as another result. `overlapObserved` reports whether two distinct rooms were active together; it does not establish two wins or continued support by the game service.
 
 Disable screenshots on both runs before starting if recording is unwanted. Results remain in each run's local ledger. When tracking an account-wide streak, combine distinct match outcomes in completion order and reset on any loss or inconclusive result; do not add the two independent streak counters.
+
+## Continuous play
+
+`playRatedPool()` in `src/rated-pool.mjs` refills each supplied slot independently after its match finishes. With one slot it continuously plays one game at a time. It does not stop at the old per-table streak target.
+
+```js
+const {playRatedPool} = await import('/absolute/path/to/src/rated-pool.mjs');
+await playRatedPool([{run, tab, engine}], {
+  controlPath: '/absolute/path/to/control.json',
+  onStatus: status => saveLocalStatus(status),
+});
+```
+
+Create the control file with `{"continue":true}`. Set `{"continue":false}` to stop; the controller checks it during live play, stops typing, and leaves the current game. Keep the whole promise awaited in the browser-tool call, and close engines in the caller's `finally` block. Status callbacks must be fast and local.
+
+For multiple slots, the pool staggers queue admission and falls back to one healthy slot after controller errors, repeated observation delays, or a queue timeout. Other active games finish without replacement. An optional `retireLane` callback can close idle extra tabs to reduce browser load. A `recoverLane` callback can restore the retained tab after a failure.
+
+Two simultaneous rated wins were observed in the initial experiment. Later ten-tab preparation coincided with an account rating drop and an additional non-winning rated result, before the continuous pool entered games. The cause was not established. The live setup therefore uses one slot; the earlier two-tab result does not establish reliable account support for concurrent play.
