@@ -61,7 +61,7 @@ async function capture(run,tab,force=false){
  fs.appendFileSync(path.join(run.root,'frames.jsonl'),JSON.stringify({file:rel,at:before,finishedAt:Date.now(),match:run.state.active?.number??null})+'\n');run.lastFrame=Date.now();run.captureRetryMs=650;
  if(run.windowMetrics)run.windowMetrics.maxRecordingMs=Math.max(run.windowMetrics.maxRecordingMs,run.lastFrame-before);
 }
-export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch=false,onProgress=()=>{},progressIntervalMs=30000}={}){
+export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch=false,onProgress=()=>{},progressIntervalMs=30000,roomClaims=null}={}){
  const end=Date.now()+seconds*1000;let last;
  const windowStarted=Date.now();
  run.windowMetrics={observations:0,maxObservationGapMs:0,maxRecordingMs:0,recordingFailures:0};
@@ -81,6 +81,8 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   if(room&&!rated)throw new Error('Refusing to play an unrated table in this ranked run');
   const ownNameVisible=text.split('\n').some(line=>line.trim()===run.state.name);
   if(room&&ownNameVisible&&!run.state.active&&!run.state.records.some(r=>r.room===room)){
+   if(roomClaims?.has(room)&&roomClaims.get(room)!==run.root)throw new Error(`Parallel tables joined the same room ${room}; second controller stopped before input`);
+   roomClaims?.set(room,run.root);
    run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.pending=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
   }
   const lost=s.answerInput?.disabled&&/you['’]re out/i.test(s.answerInput.placeholder)||/\bYOU (?:LOSE|LOST)\b/.test(text);
@@ -163,10 +165,10 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
 
 // Await this once for an entire match. Repeated short drive() calls create gaps
 // while their caller handles chat/tool results, even when answers are cached.
-export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,onProgress=()=>{},progressIntervalMs=30000}={}){
+export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,onProgress=()=>{},progressIntervalMs=30000,roomClaims=null}={}){
  if(!Number.isFinite(maxSeconds)||maxSeconds<=0)throw new Error('maxSeconds must be positive');
  const before=run.state.records.length;
- const result=await drive(run,tab,engine,{seconds:maxSeconds,queue,stopAfterMatch:true,onProgress,progressIntervalMs});
+ const result=await drive(run,tab,engine,{seconds:maxSeconds,queue,stopAfterMatch:true,onProgress,progressIntervalMs,roomClaims});
  if(run.state.active){
   const record={...run.state.active,outcome:'inconclusive',finishedAt:new Date().toISOString(),reason:'Whole-match controller watchdog expired before a result was observed'};
   run.state.records.push(record);run.state.current=0;run.state.active=null;save(run);log(run,'match-end',{...record,current:0,best:run.state.best});
@@ -191,9 +193,42 @@ export async function playRatedBatch(run,tab,engine,{maxGames=10,maxSeconds=2700
  return {played:run.state.records.length-before,current:run.state.current,best:run.state.best,active:run.state.active};
 }
 
-export async function createBrowserEngine(root,repo,{trackStats=true,localFirst=false}={}){
+// Separate engines own their generation/turn state. Sharing only the learned
+// data object keeps synchronous cache saves from overwriting another table.
+export function shareBrowserCache(engine,source){
+ if(engine===source||engine.cachePath!==source.cachePath)throw new Error('Shared browser caches require distinct engines with the same cache path');
+ engine.data=source.data;
+}
+
+// One whole match per tab, fully awaited together. Seat the first table before
+// queuing the second so matchmaking does not pair our controllers together.
+export async function playParallelRatedMatches(lanes,{maxSeconds=3600,seatWaitSeconds=120,onProgress=()=>{},progressIntervalMs=30000}={}){
+ if(lanes.length!==2)throw new Error('The parallel trial requires exactly two tables');
+ if(new Set(lanes.map(l=>l.run.root)).size!==2||new Set(lanes.map(l=>l.tab.id??l.tab)).size!==2||new Set(lanes.map(l=>l.engine)).size!==2)throw new Error('Parallel tables require separate runs, tabs and engines');
+ const roomClaims=new Map();let firstFinished=false,overlapObserved=false;
+ for(const lane of lanes){const room=lane.run.state.active?.room;if(!room)continue;if(roomClaims.has(room))throw new Error('Parallel tables already share a room');roomClaims.set(room,lane.run.root);}
+ const report=()=>{
+  const active=lanes.map(l=>l.run.state.active?.room??null);
+  if(active.every(Boolean)&&new Set(active).size===2)overlapObserved=true;
+  return onProgress({active,overlapObserved,typed:lanes.map(l=>l.run.naturalTypingObserved===true)});
+ };
+ const play=lane=>playRatedMatch(lane.run,lane.tab,lane.engine,{maxSeconds,roomClaims,onProgress:report,progressIntervalMs}).finally(()=>{lane.engine.pauseGeneration?.();});
+ const first=play(lanes[0]).finally(()=>{firstFinished=true;});
+ const second=(async()=>{
+  const deadline=Date.now()+seatWaitSeconds*1000;
+  while(!firstFinished&&!lanes[0].run.state.active&&Date.now()<deadline)await sleep(50);
+  if(firstFinished||!lanes[0].run.state.active)return {skipped:'First table did not remain seated before the second queue'};
+  return play(lanes[1]);
+ })();
+ const settled=await Promise.allSettled([first,second]);
+ await report();
+ return {overlapObserved,results:settled.map(r=>r.status==='fulfilled'?r.value:{error:String(r.reason?.message??r.reason)})};
+}
+
+export async function createBrowserEngine(root,repo,{trackStats=true,localFirst=false,sharedCacheFrom=null}={}){
  const provider=new CodexProvider({cwd:path.join(root,'answer-worker'),onLog:(type,data)=>{if(trackStats)fs.appendFileSync(path.join(root,'model-events.jsonl'),JSON.stringify({at:new Date().toISOString(),type,...data})+'\n');}});
  const engine=new AnswerEngine({bankPath:path.join(repo,'data/answers.json'),cachePath:path.join(repo,'data/learned-answers.json'),provider});
+ if(sharedCacheFrom)shareBrowserCache(engine,sharedCacheFrom);
  if(localFirst){
   const prime=engine.prime.bind(engine);
   engine.prime=(question,options={})=>{

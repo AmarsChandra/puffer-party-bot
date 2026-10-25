@@ -1,6 +1,6 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
-import {drive,createRun,playRatedMatch,playRatedBatch,promptIsReady} from '../src/browser-driver.mjs';
-import {normalize} from '../src/answer-engine.mjs';
+import {drive,createRun,playRatedMatch,playRatedBatch,promptIsReady,playParallelRatedMatches,shareBrowserCache} from '../src/browser-driver.mjs';
+import {normalize,AnswerEngine} from '../src/answer-engine.mjs';
 function setup(t,{rated=true,out=false,won=false}={}){
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'ranked-browser-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  let state={answerInput:{placeholder:out?"you're out · watching…":'your puffer — type!',disabled:out,value:''},text:`Dinosaur\n${rated?'RATED':'UNRATED'} 4–6\nABCD\n${won?'GAME OVER\nFLOATING\n1/6\nYOU WIN\nlast one floating':'CATEGORY 1\nName a type of sandwich\n▸ your puffer · type an answer\n2\nSEND'}`};
@@ -137,4 +137,35 @@ test('a low clock cannot bypass an unrevealed prompt',async t=>{
 test('unsupported animation reads wait through the complete entrance instead of guessing from the clock',()=>{
  assert.equal(promptIsReady({promptReady:null},0,1700),false);assert.equal(promptIsReady({promptReady:null},0,1800),true);
  assert.equal(promptIsReady({promptReady:false},0,5000),false);assert.equal(promptIsReady({promptReady:true},0,10),true);
+});
+test('parallel tables type their own categories concurrently without mixing drafts',async t=>{
+ const fixtures=[setup(t),setup(t)],submitted=[false,false],letters=[[],[]];
+ const lanes=fixtures.map((f,i)=>{
+  f.run.state.naturalInput=true;f.run.state.recording.enabled=false;f.run.state.trackStats=false;
+  const answer=['Quince','Beet'][i],question=['Name a fruit','Name a vegetable'][i];let value='';
+  f.tab.id=String(i);
+  f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\n${['ABCD','EFGH'][i]}\n${submitted.every(Boolean)?'GAME OVER\nYOU WIN':`CATEGORY 1\n${question}\n▸ your puffer · type an answer\n1\nSEND`}`,promptReady:true,answerInput:{placeholder:submitted[i]?'waiting…':'your puffer — type!',disabled:false,value}});
+  f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async()=>assert.fail('Natural parallel input must not paste'),pressSequentially:async letter=>{letters[i].push(letter);value+=letter;},press:async()=>{assert.equal(value,answer);submitted[i]=true;}});
+  f.engine.answer=q=>{assert.equal(q,question);return {text:answer,source:'bank'};};
+  return {run:f.run,tab:f.tab,engine:f.engine};
+ });
+ const result=await playParallelRatedMatches(lanes,{maxSeconds:3,progressIntervalMs:0});
+ assert.equal(result.overlapObserved,true);assert(result.results.every(r=>r.record?.outcome==='win'));
+ assert.deepEqual(letters,[Array.from('Quince'),Array.from('Beet')]);
+});
+test('a second controller in the same room stops before typing or counting a duplicate win',async t=>{
+ const a=setup(t),b=setup(t);for(const f of [a,b])f.run.state.recording.enabled=false;
+ let checks=0;a.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${++checks>4?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit'}`,answerInput:null});
+ const result=await playParallelRatedMatches([a,b],{maxSeconds:2,progressIntervalMs:0});
+ assert.equal(result.overlapObserved,false);assert.equal(result.results[0].record.outcome,'win');assert.match(result.results[1].error,/same room/);
+ assert.deepEqual(b.actions,[]);assert.equal(b.run.state.records.length,0);
+});
+test('shared browser learning survives alternating saves while generation state stays independent',t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'parallel-cache-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
+ const options={bankPath:path.join(root,'answers.json'),cachePath:path.join(root,'learned.json')};
+ const a=new AnswerEngine(options),b=new AnswerEngine(options);shareBrowserCache(b,a);
+ a.learn('Name a fruit','Quince',{accepted:true});a.save();b.learn('Name a vegetable','Beet',{accepted:true});b.save();a.save();
+ const reloaded=new AnswerEngine(options);assert.equal(reloaded.entry('Name a fruit').answers.quince.accepted,1);assert.equal(reloaded.entry('Name a vegetable').answers.beet.accepted,1);
+ const jobA={controller:new AbortController()},jobB={controller:new AbortController()};a.inflight.set('fruit',jobA);b.inflight.set('vegetable',jobB);
+ a.pauseGeneration();assert.equal(jobA.controller.signal.aborted,true);assert.equal(jobB.controller.signal.aborted,false);assert.equal(b.closed,false);
 });

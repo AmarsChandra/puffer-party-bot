@@ -42,3 +42,29 @@ These measurements cover one live rated match. External browser interruptions, s
 ## Disabling screenshots
 
 Set `run.state.recording.enabled = false` before starting a match. The setting persists in `run.json` and skips both routine frames and result-screen captures. Text result and submission logs continue.
+
+## Experimental two-table play
+
+`playParallelRatedMatches()` controls one complete rated match in each of two existing tabs. Keep the whole call awaited in one browser-tool execution. Each table needs a separate run directory and answer engine; sharing an engine would let a category change on one table cancel answer generation on the other.
+
+```js
+const engineA = await driver.createBrowserEngine(rootA, repo, {
+  localFirst: true, trackStats: false,
+});
+const engineB = await driver.createBrowserEngine(rootB, repo, {
+  localFirst: true, trackStats: false, sharedCacheFrom: engineA,
+});
+try {
+  const result = await driver.playParallelRatedMatches([
+    {run: runA, tab: tabA, engine: engineA},
+    {run: runB, tab: tabB, engine: engineB},
+  ]);
+} finally {
+  engineA.close();
+  engineB.close();
+}
+```
+
+The engines share learned answer data in the same JavaScript runtime, while keeping turn state and generation cancellation separate. The second queue starts after the first table is seated. If both tabs reach the same room, the second controller stops before typing or counting that room as another result. `overlapObserved` reports whether two distinct rooms were active together; it does not establish two wins or continued support by the game service.
+
+Disable screenshots on both runs before starting if recording is unwanted. Results remain in each run's local ledger. When tracking an account-wide streak, combine distinct match outcomes in completion order and reset on any loss or inconclusive result; do not add the two independent streak counters.
