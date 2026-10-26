@@ -2,10 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {normalize,AnswerEngine} from './answer-engine.mjs';
 import {CodexProvider} from './codex-provider.mjs';
-import {NaturalTyper,turnSeconds} from './letter-typing.mjs';
+import {NaturalTyper,fuseLevelFromTransform} from './typing.mjs';
+import {TauntingTyper} from './taunting.mjs';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 export async function observe(tab){
- return tab.playwright.evaluate(()=>{
+ const observation=await tab.playwright.evaluate(()=>{
   const text=document.body?.innerText??'';
   const input=Array.from(document.querySelectorAll('input')).find(e=>e.getAttribute('aria-label')==='Your answer'||/you're out|watching/i.test(e.placeholder));
   const prompt=document.querySelector('.pf-root .ds-card:not(.pf-newcat):not(.cleared):not(.gone) .prompt');
@@ -23,8 +24,10 @@ export async function observe(tab){
    }catch{}
    try{const rect=prompt.getBoundingClientRect();if(rect.width<=0||rect.height<=0)promptReady=false;}catch{}
   }
-  return {text:text.slice(0,6500),promptReady,answerInput:input?{placeholder:input.placeholder,disabled:input.disabled,value:input.value}:null};
+  const fuse=document.querySelector('.ds-fuse-fill');
+  return {text:text.slice(0,6500),promptReady,fuseTransform:fuse?.getAttribute('style')??null,answerInput:input?{placeholder:input.placeholder,disabled:input.disabled,value:input.value}:null};
  });
+ return {...observation,fuseLevel:observation.fuseLevel??fuseLevelFromTransform(observation.fuseTransform)};
 }
 export function promptIsReady(observation,seenAt,now=Date.now()){
  // Some DOM bridges cannot expose animation timing. The public entrance CSS
@@ -124,9 +127,12 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
      if(!run.pending){run.pending={question:q,choice};log(run,'turn-choice',{question:q,choice:choice.text,placeholder:s.answerInput.placeholder});}
      try{
      const input=tab.playwright.getByRole('textbox',{name:'Your answer',exact:true});let ready=true;
-     if(run.state.naturalInput){
-      run.pending.typer??=new NaturalTyper(choice.text);
-      const step=run.pending.typer.next({value:s.answerInput.value,secondsLeft:turnSeconds(text)});
+     if(run.state.naturalInput||run.state.taunting){
+      run.pending.typer??=run.state.taunting?new TauntingTyper(choice.text,{enabled:true}):new NaturalTyper(choice.text);
+      run.lastFuseLevel=s.fuseLevel;
+      const step=run.pending.typer.next({value:s.answerInput.value,fuseLevel:s.fuseLevel,urgent:s.fuseLevel!==null&&s.fuseLevel>=4});
+      if(run.pending.typer.phase==='taunt'||run.pending.typer.phase==='hold')run.tauntAttempted=true;
+      if(step.tauntVisible)run.tauntDisplayed=true;
       ready=step.kind==='submit';
       if(step.kind==='type'){await input.pressSequentially(step.text,{});run.naturalTypingObserved=true;}
       else if(step.kind==='clear')await input.fill('');

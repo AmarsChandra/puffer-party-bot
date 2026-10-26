@@ -110,9 +110,9 @@ test('natural typing submits only after the entire answer is in the field',async
  const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),fill:async text=>{assert.equal(text,'');value=text;},pressSequentially:async text=>{assert.equal(Array.from(text).length,1);bursts++;value+=text;},press:async()=>{assert.equal(value,'Quince');sent=true;}});
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:4,queue:false});assert.equal(result.record.outcome,'win');assert(bursts>1);assert.equal(f.run.naturalTypingObserved,true);
 });
-test('even a one-second clock types the answer character by character instead of filling it',async t=>{
+test('even a hot visible fuse types the answer character by character instead of filling it',async t=>{
  const f=setup(t);let value='',sent=false;const letters=[];f.run.state.naturalInput=true;f.run.state.recording.enabled=false;f.engine.answer=()=>({text:'Quince',source:'bank'});
- f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n1\nSEND'}`,answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n1\nSEND'}`,fuseTransform:'transform: scaleX(0.80);',answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
  const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),fill:async()=>{throw new Error('Whole-answer fill forbidden');},pressSequentially:async letter=>{letters.push(letter);value+=letter;},press:async()=>{assert.equal(value,'Quince');sent=true;}});
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:2,queue:false});assert.equal(result.record.outcome,'win');assert.deepEqual(letters,Array.from('Quince'));
 });
@@ -177,4 +177,11 @@ test('a stop control interrupts a live controller before another key is typed',a
 test('queue admission can hold a lobby without clicking Rated',async t=>{
  const f=setup(t);f.run.state.recording.enabled=false;f.tab.playwright.evaluate=async()=>({text:"WHO'S PLAYING",answerInput:null});
  await drive(f.run,f.tab,f.engine,{seconds:.1,canQueue:()=>false});assert.deepEqual(f.actions,[]);
+});
+test('taunting only edits the draft and Enter sends the real answer after clearing it',async t=>{
+ const f=setup(t);let value='',sent=false,clears=0;f.run.state.recording.enabled=false;f.run.state.taunting=true;
+ f.engine.answer=()=>({text:'Fig',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Bobert\nDinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n2\nSEND'}`,promptReady:true,fuseTransform:'transform: scaleX(0.00);',answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
+ f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async text=>{assert.equal(text,'');value='';clears++;},pressSequentially:async letter=>{assert.equal(Array.from(letter).length,1);value+=letter;},press:async()=>{assert.equal(value,'Fig');sent=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:8,queue:false});assert.equal(result.record.outcome,'win');assert.equal(clears,1);assert.equal(f.run.tauntDisplayed,true);
 });

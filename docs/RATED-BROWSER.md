@@ -86,3 +86,9 @@ Create the control file with `{"continue":true}`. Set `{"continue":false}` to st
 For multiple slots, the pool staggers queue admission and falls back to one healthy slot after controller errors, repeated observation delays, or a queue timeout. Other active games finish without replacement. An optional `retireLane` callback can close idle extra tabs to reduce browser load. A `recoverLane` callback can restore the retained tab after a failure.
 
 Two simultaneous rated wins were observed in the initial experiment. Later ten-tab preparation coincided with an account rating drop and an additional non-winning rated result, before the continuous pool entered games. The cause was not established. The live setup therefore uses one slot; the earlier two-tab result does not establish reliable account support for concurrent play.
+
+## Optional taunting drafts
+
+Set `run.state.taunting = true` before a match to briefly type “I'm going to win” before the prepared answer. The phrase is typed one character at a time, held for one second, and cleared. Enter is reserved for the real answer.
+
+Taunts start only when the visible fuse bar is fresh. An inflated or unreadable bar skips them, and longer answers leave less room for a phrase. Rising inflation or a slow browser interrupts the taunt and moves to the answer. The number beside Send is lives, not a countdown. Prompt reveal and turn ownership checks still apply. This feature uses local timing and makes no model requests.

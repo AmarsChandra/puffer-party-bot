@@ -1,11 +1,16 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {NaturalTyper,turnSeconds} from '../src/letter-typing.mjs';
+import {NaturalTyper,turnSeconds,fuseLevelFromTransform} from '../src/letter-typing.mjs';
 
-test('the clock parser reads the turn countdown rather than ratings or player counts',()=>{
- assert.equal(turnSeconds('Dinosaur\n1502\nFLOATING\n2/6\n▸ your puffer · type an answer\n8\nSEND'),8);
- assert.equal(turnSeconds('▸ Dinosaur is up\n2.5\nSEND'),2.5);
+test('the clock parser never mistakes lives for a countdown',()=>{
+ for(const lives of [1,2,3,4,5])assert.equal(turnSeconds(`▸ your puffer · type an answer\n${lives}\nSEND`),null);
+ assert.equal(turnSeconds('Dinosaur\n1502\nFLOATING\n2/6\n▸ your puffer · type an answer\n8 seconds left\nSEND'),8);
+ assert.equal(turnSeconds('▸ Dinosaur is up\n2.5s\nSEND'),2.5);
  assert.equal(turnSeconds('FLOATING\n2/6\nSEND'),null);
+});
+test('the visible fuse transform maps to inflation levels',()=>{
+ for(const [scale,level] of [[0,0],[.2,1],[.6,3],[1,5]])assert.equal(fuseLevelFromTransform(`transform: scaleX(${scale.toFixed(2)});`),level);
+ for(const style of [null,'','scaleX(-0.2)','scaleX(1.2)'])assert.equal(fuseLevelFromTransform(style),null);
 });
 test('typing varies its initial pause, builds on the existing draft, and pauses before Enter',()=>{
  const slow=new NaturalTyper('Quince',{now:0,random:()=>.99});const fast=new NaturalTyper('Quince',{now:0,random:()=>0});
@@ -19,6 +24,11 @@ test('a short clock accelerates individual keystrokes without pasting the rest o
   const typer=new NaturalTyper('Quince',{now:0});assert.deepEqual(typer.next({value:'Qui',secondsLeft,now:1}),{kind:'type',text:'n'});
   assert.equal(typer.next({value:'Quince',secondsLeft,now:1}).kind,'submit');
  }
+});
+test('a hot visible fuse accelerates individual keys without needing a countdown',()=>{
+ const typer=new NaturalTyper('Quince',{now:0});
+ assert.deepEqual(typer.next({value:'Qui',urgent:true,now:1}),{kind:'type',text:'n'});
+ assert.equal(typer.next({value:'Quince',urgent:true,now:1}).kind,'submit');
 });
 test('slow browser calls accelerate typing but still emit only one character per action',()=>{
  const typer=new NaturalTyper('A long conventional answer',{now:0});
