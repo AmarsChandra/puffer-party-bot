@@ -185,3 +185,25 @@ test('taunting only edits the draft and Enter sends the real answer after cleari
  f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async text=>{assert.equal(text,'');value='';clears++;},pressSequentially:async letter=>{assert.equal(Array.from(letter).length,1);value+=letter;},press:async()=>{assert.equal(value,'Fig');sent=true;}});
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:8,queue:false});assert.equal(result.record.outcome,'win');assert.equal(clears,1);assert.equal(f.run.tauntDisplayed,true);
 });
+test('each rated match gets a new verified lobby name and result ownership follows it',async t=>{
+ const f=setup(t);f.run.state.rotateDisplayName=true;f.run.state.recording.enabled=false;
+ let lobby=true,value='Dinosaur',games=0;const renamed=[],queued=[];
+ f.tab.playwright.evaluate=async(fn,arg)=>typeof arg==='string'?value===arg:{text:lobby?"WHO'S PLAYING":`${value}\nRATED 4–6\n${['ABCD','EFGH'][games]}\nGAME OVER\nYOU WIN`,answerInput:null};
+ f.tab.playwright.getByRole=(role,{name})=>({
+  count:async()=>Number(lobby?name==='YOUR NAME'||name==='▶ RATED ◀':name==='Leave room'),
+  fill:async text=>{assert.equal(role,'textbox');assert.equal(name,'YOUR NAME');value=text;renamed.push(text);},
+  click:async()=>{if(name==='▶ RATED ◀'){assert.equal(value,f.run.state.name);queued.push(value);lobby=false;}else{assert.equal(name,'Leave room');lobby=true;games++;}},
+ });
+ for(let i=0;i<2;i++){
+  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:1});
+  assert.equal(result.record.outcome,'win');assert.equal(result.record.name,queued[i]);
+ }
+ assert.deepEqual(renamed,['Panda','Cloud']);assert.deepEqual(queued,renamed);
+});
+test('an unverified display name cannot enter the rated queue',async t=>{
+ const f=setup(t);f.run.state.rotateDisplayName=true;f.run.state.recording.enabled=false;let clicked=false;
+ f.tab.playwright.evaluate=async(fn,arg)=>typeof arg==='string'?false:{text:"WHO'S PLAYING",answerInput:null};
+ f.tab.playwright.getByRole=()=>({count:async()=>1,fill:async()=>{},click:async()=>{clicked=true;}});
+ await assert.rejects(drive(f.run,f.tab,f.engine,{seconds:.1}),/display name did not update/);
+ assert.equal(clicked,false);assert.equal(f.run.state.name,'Dinosaur');
+});

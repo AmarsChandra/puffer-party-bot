@@ -87,6 +87,10 @@ For multiple slots, the pool staggers queue admission and falls back to one heal
 
 Two simultaneous rated wins were observed in the initial experiment. Later ten-tab preparation coincided with an account rating drop and an additional non-winning rated result, before the continuous pool entered games. The cause was not established. The live setup therefore uses one slot; the earlier two-tab result does not establish reliable account support for concurrent play.
 
+## Optional display name rotation
+
+Set `run.state.rotateDisplayName = true` to change the game lobby display name before each rated match. Names rotate through a curated list of common, family-friendly words such as Panda, Cloud, and Maple. The change is verified before entering the queue, and match ownership follows the new display name. This never edits the account username.
+
 ## Optional taunting drafts
 
 Set `run.state.taunting = true` before a match to briefly type “I'm going to win” before the prepared answer. The phrase is typed one character at a time, held for one second, and cleared. Enter is reserved for the real answer.

@@ -4,6 +4,7 @@ import {normalize,AnswerEngine} from './answer-engine.mjs';
 import {CodexProvider} from './codex-provider.mjs';
 import {NaturalTyper,fuseLevelFromTransform} from './typing.mjs';
 import {TauntingTyper} from './taunting.mjs';
+import {prepareDisplayName} from './display-names.mjs';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 export async function observe(tab){
  const observation=await tab.playwright.evaluate(()=>{
@@ -156,7 +157,10 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   }
   if(queue&&!run.state.active&&/WHO'S PLAYING/.test(text)&&canQueue()){
    const ratedButton=tab.playwright.getByRole('button',{name:'▶ RATED ◀',exact:true});
-   if(await ratedButton.count()){await ratedButton.click();const after=await observe(tab);log(run,'ranked-queue',{text:after.text});run.lastText=after.text;}
+   if(await ratedButton.count()&&await prepareDisplayName(run,tab)){
+    save(run);if(shouldStop())break;
+    await ratedButton.click();const after=await observe(tab);log(run,'ranked-queue',{text:after.text});run.lastText=after.text;
+   }
   }
   await capture(run,tab);
   if(Date.now()-lastProgress>=progressIntervalMs){
