@@ -246,3 +246,9 @@ test('a scheduled category taunts once even when the bot gets another turn in th
  f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async text=>{assert.equal(text,'');value='';},pressSequentially:async letter=>{assert.equal(Array.from(letter).length,1);value+=letter;if(value==="I'm going to win")phrases++;},press:async key=>{assert.equal(key,'Enter');assert.equal(value,sent?'Lime':'Fig');sent++;}});
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:8,queue:false});assert.equal(result.record.outcome,'win');assert.equal(sent,2);assert.equal(phrases,1);assert.equal(f.run.state.tauntSchedule.rounds,5);assert.equal(f.run.state.tauntSchedule.lastUsed,5);
 });
+test('a manual room change counts a new category round even if its prompt and number repeat',async t=>{
+ const f=setup(t);f.run.state.recording.enabled=false;f.engine.answer=()=>null;let reads=0;
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\n${++reads>1?'EFGH':'ABCD'}\nCATEGORY 1\nName a fruit`,answerInput:null});
+ await drive(f.run,f.tab,f.engine,{seconds:.2,queue:false});
+ assert.equal(f.run.state.tauntSchedule.rounds,2);assert.equal(f.run.state.tauntSchedule.key,'EFGH:1');assert.deepEqual(f.actions,[]);
+});

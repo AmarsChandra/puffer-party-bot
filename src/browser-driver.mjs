@@ -128,7 +128,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];
   if(q&&run.state.active&&ownNameVisible){
-   const roundKey=run.state.active.room+':'+(/\bCATEGORY (\d+)\b/.exec(text)?.[1]??q);
+   const roundKey=(room??run.state.active.room)+':'+(/\bCATEGORY (\d+)\b/.exec(text)?.[1]??q);
    if(run.question!==q||run.roundKey!==roundKey){run.question=q;run.roundKey=roundKey;run.questionSeenAt=Date.now();run.pending=null;run.used.clear();run.submitted.clear();advanceTauntRound(run.state,roundKey);log(run,'category',{question:q});save(run);}
    run.questionSeenAt??=Date.now();
    // Visible answer bubbles precede RATED; include only observed answer strings.
