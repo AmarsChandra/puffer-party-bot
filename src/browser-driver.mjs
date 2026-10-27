@@ -167,7 +167,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
      }else waiting(q,'send-disabled');
      }
      }catch(e){
-      if(!/selector deadline exceeded|element is not attached|element.*detached/i.test(String(e.message??e)))throw e;
+      if(!/selector deadline exceeded|element is not attached|element.*detached|target token mismatch/i.test(String(e.message??e)))throw e;
       log(run,'input-retry',{question:q,message:String(e.message??e)});
      }
     }else waiting(q,'no-ready-answer');

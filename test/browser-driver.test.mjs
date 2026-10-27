@@ -93,6 +93,13 @@ test('a transient input deadline is retried after observing the current turn aga
  const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),press:async()=>{if(++attempts===1)throw new Error('Playwright selector deadline exceeded');sent=true;}});
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:1,queue:false});assert.equal(result.record.outcome,'win');assert.equal(attempts,2);
 });
+test('an input target mismatch retries only after a fresh observation and keeps the current seat',async t=>{
+ const f=setup(t);let attempts=0,reads=0,firstRead=0,sent=false;f.run.state.recording.enabled=false;
+ f.tab.playwright.evaluate=async()=>{reads++;return {text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer'}`,answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value:''}};};
+ const original=f.tab.playwright.getByRole;
+ f.tab.playwright.getByRole=(...args)=>({...original(...args),fill:async()=>{if(++attempts===1){firstRead=reads;throw new Error('Active element is no longer the expected input target: target token mismatch');}assert(reads>firstRead);assert(!f.actions.some(a=>a[0]==='click'));},press:async()=>{sent=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:1,queue:false});assert.equal(result.record.outcome,'win');assert.equal(attempts,2);
+});
 test('an inactive spectator page leaves and returns to the rated queue without inventing a result',async t=>{
  const f=setup(t);let left=false,queued=false;f.run.state.recording.enabled=false;
  f.tab.playwright.evaluate=async()=>left?{text:queued?'Finding a rated table':"WHO'S PLAYING",answerInput:null}:{text:'Other player\nRATED 4–6\nABCD\nCATEGORY 13\nName a unit of mass',answerInput:{disabled:true,placeholder:'spectating this game…',value:''}};
