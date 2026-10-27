@@ -7,7 +7,7 @@ const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 // Keep this entire promise awaited inside one browser-tool execution.
 export async function playRatedPool(lanes,{
  controlPath=null,shouldStop=()=>false,onStatus=()=>{},onMatch=()=>{},
- recoverLane=null,retireLane=null,playMatch=playRatedMatch,perMatchSeconds=3600,
+ recoverLane=null,retireLane=null,playMatch=playRatedMatch,perMatchSeconds=Infinity,
  queueWaitSeconds=120,maxObservationGapMs=2500,betweenMatchMs=1000,
  idleMs=250,statusIntervalMs=30000,
 }={}){

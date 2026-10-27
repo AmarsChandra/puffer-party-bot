@@ -207,3 +207,27 @@ test('an unverified display name cannot enter the rated queue',async t=>{
  await assert.rejects(drive(f.run,f.tab,f.engine,{seconds:.1}),/display name did not update/);
  assert.equal(clicked,false);assert.equal(f.run.state.name,'Dinosaur');
 });
+test('repeated DOM read deadlines after submission retain the seat until the visible result',async t=>{
+ const f=setup(t);f.run.state.recording.enabled=false;let submitted=false,failures=0;
+ f.tab.playwright.evaluate=async()=>{
+  if(submitted&&failures<3){failures++;assert.equal(f.run.state.active.room,'ABCD');assert.equal(f.run.state.records.length,0);throw new Error('playwright.evaluate exceeded its deadline');}
+  return {text:`Dinosaur\nRATED 4–6\nABCD\n${submitted?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer'}`,answerInput:{placeholder:submitted?'waiting…':'your puffer — type!',disabled:false,value:''}};
+ };
+ const original=f.tab.playwright.getByRole;f.tab.playwright.getByRole=(...args)=>({...original(...args),press:async()=>{submitted=true;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:5,queue:false});
+ assert.equal(failures,3);assert.equal(result.record.outcome,'win');assert.equal(f.run.state.records.length,1);
+ assert.deepEqual(f.actions.filter(a=>a[0]==='click'),[['click','Leave room']]);
+});
+test('a stop request still interrupts repeated observation deadlines',async t=>{
+ const f=setup(t);f.run.state.recording.enabled=false;let stop=false;
+ f.tab.playwright.evaluate=async()=>{stop=true;throw new Error('playwright.evaluate exceeded its deadline');};
+ await drive(f.run,f.tab,f.engine,{seconds:5,shouldStop:()=>stop});assert.deepEqual(f.actions,[]);
+});
+test('an unbounded match survives an hour of elapsed time without a watchdog forfeit',async t=>{
+ const f=setup(t);f.run.state.recording.enabled=false;let elapsed=0,observations=0;const baseline=Date.now();
+ t.mock.method(Date,'now',()=>baseline+elapsed);
+ f.engine.answer=()=>null;
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${observations?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit'}`,answerInput:null});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:Infinity,queue:false,onObservation:()=>{observations++;elapsed=61*60*1000;}});
+ assert.equal(result.record.outcome,'win');assert.equal(observations,2);assert.equal(f.run.state.records.length,1);
+});

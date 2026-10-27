@@ -19,7 +19,7 @@ const result = await driver.playRatedMatch(run, tab, engine, {
 
 Initialize the worker and recording paths before entering Rated. Keep the entire `playRatedMatch()` promise awaited in the same browser-tool call, with a tool timeout longer than `maxSeconds`. Do not start it in the background across separate REPL calls. Save evidence and publish updates between matches. The low-level `drive()` function remains available for bounded inspection and tests; repeatedly calling it for a live match reintroduces the handoff gaps.
 
-The controller uses the Rated queue, returns after a visible loss, and preserves interrupted attempts as inconclusive. The watchdog leaves an active table if its maximum duration expires. Unsent drafts survive temporary Send-button disablement. Failed screenshots are logged and retried with backoff, so that failure alone does not stop answer submission. Progress callbacks should be fast and local; a slow callback can delay the loop.
+The controller uses the Rated queue, returns after a visible loss, and preserves interrupted attempts as inconclusive. A finite maximum duration leaves an active table when it expires; use `maxSeconds: Infinity` to avoid that cutoff. Temporary DOM read deadlines retry with backoff while retaining the current seat, and stop controls remain active during retries. Unsent drafts survive temporary Send-button disablement. Failed screenshots are logged and retried with backoff, so that failure alone does not stop answer submission. Progress callbacks should be fast and local; a slow callback can delay the loop. Browser outages can still prevent answers, and an inconclusive local record does not establish a rating-neutral outcome.
 
 ## Observed live validation
 
@@ -71,7 +71,7 @@ Disable screenshots on both runs before starting if recording is unwanted. Resul
 
 ## Continuous play
 
-`playRatedPool()` in `src/rated-pool.mjs` refills each supplied slot independently after its match finishes. With one slot it continuously plays one game at a time. It does not stop at the old per-table streak target.
+`playRatedPool()` in `src/rated-pool.mjs` refills each supplied slot independently after its match finishes. With one slot it continuously plays one game at a time. Matches have no duration cutoff by default; callers can explicitly set a finite `perMatchSeconds` if they want the watchdog. It does not stop at the old per-table streak target.
 
 ```js
 const {playRatedPool} = await import('/absolute/path/to/src/rated-pool.mjs');
