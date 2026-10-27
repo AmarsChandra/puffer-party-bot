@@ -93,6 +93,10 @@ Set `run.state.rotateDisplayName = true` to change the game lobby display name b
 
 ## Optional taunting drafts
 
-Set `run.state.taunting = true` before a match to briefly type “I'm going to win” before the prepared answer. The phrase is typed one character at a time, held for one second, and cleared. Enter is reserved for the real answer.
+Set `run.state.taunting = true` before a match to briefly type “I'm going to win” before the prepared answer. By default only every fifth category round permits a taunt, at most once in that round. The cadence persists across matches and restarts. Set `run.state.tauntEveryRounds` to change the interval. The phrase is typed one character at a time, held for one second, and cleared. Enter is reserved for the real answer.
 
 Taunts start only when the visible fuse bar is fresh. An inflated or unreadable bar skips them, and longer answers leave less room for a phrase. Rising inflation or a slow browser interrupts the taunt and moves to the answer. The number beside Send is lives, not a countdown. Prompt reveal and turn ownership checks still apply. This feature uses local timing and makes no model requests.
+
+## Natural typing and corrected typos
+
+Natural input varies its pace between answers, uses short bursts, and pauses briefly at word boundaries. Set `run.state.minorTypos = true` to occasionally type one adjacent-key mistake on a short answer, pause briefly, then use Backspace and type the correct letter. About 6% of eligible answers are selected for a possible typo; a fresh, readable fuse and an early position in the answer are still required. Long answers, urgent turns, and answers following a taunt skip deliberate mistakes. A warming fuse accelerates correction. Enter is sent only after the draft exactly matches the prepared answer.

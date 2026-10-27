@@ -179,7 +179,7 @@ test('queue admission can hold a lobby without clicking Rated',async t=>{
  await drive(f.run,f.tab,f.engine,{seconds:.1,canQueue:()=>false});assert.deepEqual(f.actions,[]);
 });
 test('taunting only edits the draft and Enter sends the real answer after clearing it',async t=>{
- const f=setup(t);let value='',sent=false,clears=0;f.run.state.recording.enabled=false;f.run.state.taunting=true;
+ const f=setup(t);let value='',sent=false,clears=0;f.run.state.recording.enabled=false;f.run.state.taunting=true;f.run.state.tauntEveryRounds=1;
  f.engine.answer=()=>({text:'Fig',source:'bank'});
  f.tab.playwright.evaluate=async()=>({text:`Bobert\nDinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n2\nSEND'}`,promptReady:true,fuseTransform:'transform: scaleX(0.00);',answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
  f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async text=>{assert.equal(text,'');value='';clears++;},pressSequentially:async letter=>{assert.equal(Array.from(letter).length,1);value+=letter;},press:async()=>{assert.equal(value,'Fig');sent=true;}});
@@ -230,4 +230,19 @@ test('an unbounded match survives an hour of elapsed time without a watchdog for
  f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${observations?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit'}`,answerInput:null});
  const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:Infinity,queue:false,onObservation:()=>{observations++;elapsed=61*60*1000;}});
  assert.equal(result.record.outcome,'win');assert.equal(observations,2);assert.equal(f.run.state.records.length,1);
+});
+test('minor typos use one Backspace and Enter sends only the corrected answer',async t=>{
+ const f=setup(t);t.mock.method(Math,'random',()=>0);let value='',sent=false,backspaces=0;
+ f.run.state.recording.enabled=false;f.run.state.minorTypos=true;f.engine.answer=()=>({text:'Quince',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n2\nSEND'}`,promptReady:true,fuseTransform:'transform: scaleX(0.00);',answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value}});
+ f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async()=>assert.fail('Typo correction must not replace the input'),pressSequentially:async letter=>{assert.equal(Array.from(letter).length,1);value+=letter;},press:async key=>{if(key==='Backspace'){backspaces++;value=value.slice(0,-1);}else{assert.equal(key,'Enter');assert.equal(value,'Quince');sent=true;}}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:4,queue:false});assert.equal(result.record.outcome,'win');assert.equal(backspaces,1);
+});
+test('a scheduled category taunts once even when the bot gets another turn in that category',async t=>{
+ const f=setup(t);t.mock.method(Math,'random',()=>0);let value='',sent=0,phrases=0;
+ f.run.state.recording.enabled=false;f.run.state.taunting=true;f.run.state.tauntSchedule={rounds:4,key:'PREV:4',lastUsed:null};
+ f.engine.answer=()=>({text:sent?'Lime':'Fig',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nABCD\n${sent>=2?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer\n2\nSEND'}`,promptReady:true,fuseTransform:'transform: scaleX(0.00);',answerInput:{placeholder:sent>=2?'waiting…':'your puffer — type!',disabled:false,value}});
+ f.tab.playwright.getByRole=(role,{name})=>({count:async()=>name==='Leave room'?1:0,click:async()=>{},isEnabled:async()=>true,fill:async text=>{assert.equal(text,'');value='';},pressSequentially:async letter=>{assert.equal(Array.from(letter).length,1);value+=letter;if(value==="I'm going to win")phrases++;},press:async key=>{assert.equal(key,'Enter');assert.equal(value,sent?'Lime':'Fig');sent++;}});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:8,queue:false});assert.equal(result.record.outcome,'win');assert.equal(sent,2);assert.equal(phrases,1);assert.equal(f.run.state.tauntSchedule.rounds,5);assert.equal(f.run.state.tauntSchedule.lastUsed,5);
 });

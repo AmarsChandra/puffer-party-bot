@@ -3,9 +3,10 @@ import assert from 'node:assert/strict';
 import {TauntingTyper,TAUNTS} from '../src/taunting.mjs';
 
 test('a fresh fuse types a taunt one character at a time, holds a second, clears, then submits only the answer',()=>{
- const typer=new TauntingTyper('Quince',{enabled:true,random:()=>0});let value='',now=0,clears=0,holdStart=null,submitted=false;const typed=[];
+ const typer=new TauntingTyper('Quince',{enabled:true,minorTypos:true,random:()=>0});let value='',now=0,clears=0,holdStart=null,submitted=false;const typed=[];
  for(;now<7000;now+=50){
   const step=typer.next({value,fuseLevel:0,now});
+  assert(!step.typo);assert.notEqual(step.kind,'backspace');
   if(step.tauntVisible)holdStart??=now;
   if(step.kind==='type'){assert.equal(Array.from(step.text).length,1);typed.push(step.text);value+=step.text;}
   if(step.kind==='clear'){assert.equal(value,TAUNTS[0]);assert(now-holdStart>=1000);value='';clears++;}

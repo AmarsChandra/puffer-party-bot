@@ -2,8 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {normalize,AnswerEngine} from './answer-engine.mjs';
 import {CodexProvider} from './codex-provider.mjs';
-import {NaturalTyper,fuseLevelFromTransform} from './typing.mjs';
-import {TauntingTyper} from './taunting.mjs';
+import {fuseLevelFromTransform} from './typing.mjs';
+import {TauntingTyper} from './turn-typing.mjs';
+import {advanceTauntRound,tauntDue,consumeTaunt} from './taunt-schedule.mjs';
 import {prepareDisplayName} from './display-names.mjs';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 export async function observe(tab){
@@ -101,7 +102,7 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   if(room&&ownNameVisible&&!run.state.active&&!run.state.records.some(r=>r.room===room)){
    if(roomClaims?.has(room)&&roomClaims.get(room)!==run.root)throw new Error(`Parallel tables joined the same room ${room}; second controller stopped before input`);
    roomClaims?.set(room,run.root);
-   run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.pending=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
+   run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.roundKey=null;run.pending=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
   }
   onObservation(s);
   if(shouldStop())break;
@@ -127,7 +128,8 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   }
   const q=/\n(Name [^\n]+)/.exec(text)?.[1];
   if(q&&run.state.active&&ownNameVisible){
-   if(run.question!==q){run.question=q;run.questionSeenAt=Date.now();run.pending=null;run.used.clear();run.submitted.clear();log(run,'category',{question:q});}
+   const roundKey=run.state.active.room+':'+(/\bCATEGORY (\d+)\b/.exec(text)?.[1]??q);
+   if(run.question!==q||run.roundKey!==roundKey){run.question=q;run.roundKey=roundKey;run.questionSeenAt=Date.now();run.pending=null;run.used.clear();run.submitted.clear();advanceTauntRound(run.state,roundKey);log(run,'category',{question:q});save(run);}
    run.questionSeenAt??=Date.now();
    // Visible answer bubbles precede RATED; include only observed answer strings.
    const prefix=text.split(/RATED (?:4–6|1V1|3S|8–10)/)[0];for(const line of prefix.split('\n'))if(line.trim())run.used.add(normalize(line));
@@ -140,14 +142,16 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
      if(!run.pending){run.pending={question:q,choice};log(run,'turn-choice',{question:q,choice:choice.text,placeholder:s.answerInput.placeholder});}
      try{
      const input=tab.playwright.getByRole('textbox',{name:'Your answer',exact:true});let ready=true;
-     if(run.state.naturalInput||run.state.taunting){
-      run.pending.typer??=run.state.taunting?new TauntingTyper(choice.text,{enabled:true}):new NaturalTyper(choice.text);
+     if(run.state.naturalInput||run.state.taunting||run.state.minorTypos){
+      run.pending.typer??=new TauntingTyper(choice.text,{enabled:run.state.taunting&&tauntDue(run.state),minorTypos:run.state.minorTypos===true});
       run.lastFuseLevel=s.fuseLevel;
       const step=run.pending.typer.next({value:s.answerInput.value,fuseLevel:s.fuseLevel,urgent:s.fuseLevel!==null&&s.fuseLevel>=4});
       if(run.pending.typer.phase==='taunt'||run.pending.typer.phase==='hold')run.tauntAttempted=true;
+      if(run.pending.typer.tauntStarted&&!run.pending.typer.cadenceRecorded){consumeTaunt(run.state);run.pending.typer.cadenceRecorded=true;save(run);}
       if(step.tauntVisible)run.tauntDisplayed=true;
       ready=step.kind==='submit';
       if(step.kind==='type'){await input.pressSequentially(step.text,{});run.naturalTypingObserved=true;}
+      else if(step.kind==='backspace')await input.press('Backspace');
       else if(step.kind==='clear')await input.fill('');
      }else if(s.answerInput.value!==choice.text)await input.fill(choice.text);
      if(ready){
