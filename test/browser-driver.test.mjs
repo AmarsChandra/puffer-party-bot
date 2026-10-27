@@ -252,3 +252,19 @@ test('a manual room change counts a new category round even if its prompt and nu
  await drive(f.run,f.tab,f.engine,{seconds:.2,queue:false});
  assert.equal(f.run.state.tauntSchedule.rounds,2);assert.equal(f.run.state.tauntSchedule.key,'EFGH:1');assert.deepEqual(f.actions,[]);
 });
+test('manual requeue transfers control to the visible room without leaving its seat or keeping an old draft',async t=>{
+ const f=setup(t);let sent=false;f.run.state.recording.enabled=false;
+ f.run.state.active={number:1,room:'ABCD',rated:true,name:'Dinosaur',startedAt:new Date().toISOString()};
+ f.run.pending={choice:{text:'Old answer',source:'bank'}};f.engine.answer=()=>({text:'Quince',source:'bank'});
+ f.tab.playwright.evaluate=async()=>({text:`Dinosaur\nRATED 4–6\nEFGH\n${sent?'GAME OVER\nYOU WIN':'CATEGORY 1\nName a fruit\n▸ your puffer · type an answer'}`,answerInput:{placeholder:sent?'waiting…':'your puffer — type!',disabled:false,value:''}});
+ const original=f.tab.playwright.getByRole;
+ f.tab.playwright.getByRole=(...args)=>({...original(...args),press:async key=>{
+  const saved=JSON.parse(fs.readFileSync(path.join(f.root,'run.json'),'utf8'));
+  assert.equal(saved.active.room,'EFGH');assert.equal(saved.records[0].room,'ABCD');
+  assert(!f.actions.some(a=>a[0]==='click'));f.actions.push(['press',key]);sent=true;
+ }});
+ const result=await playRatedMatch(f.run,f.tab,f.engine,{maxSeconds:2,queue:false});
+ assert.equal(result.record.room,'EFGH');assert.equal(result.record.outcome,'win');
+ assert.deepEqual(f.run.state.records.map(r=>[r.room,r.outcome]),[['ABCD','inconclusive'],['EFGH','win']]);
+ assert.deepEqual(f.actions,[['fill','Quince'],['press','Enter'],['click','Leave room']]);
+});

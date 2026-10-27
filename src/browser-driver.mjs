@@ -99,8 +99,12 @@ export async function drive(run,tab,engine,{seconds=35,queue=true,stopAfterMatch
   const rated=/RATED (?:4–6|1V1|3S|8–10)/.test(text)&&!/UNRATED/.test(text);
   if(room&&!rated)throw new Error('Refusing to play an unrated table in this ranked run');
   const ownNameVisible=text.split('\n').some(line=>line.trim()===run.state.name);
-  if(room&&ownNameVisible&&!run.state.active&&!run.state.records.some(r=>r.room===room)){
+  if(room&&ownNameVisible&&run.state.active?.room!==room&&!run.state.records.some(r=>r.room===room)){
    if(roomClaims?.has(room)&&roomClaims.get(room)!==run.root)throw new Error(`Parallel tables joined the same room ${room}; second controller stopped before input`);
+   if(run.state.active){
+    const interrupted={...run.state.active,outcome:'inconclusive',finishedAt:new Date().toISOString(),reason:'Navigated to another rated room before its result was observed'};
+    run.state.records.push(interrupted);run.state.current=0;log(run,'match-end',{...interrupted,current:0,best:run.state.best});
+   }
    roomClaims?.set(room,run.root);
    run.state.active={number:run.state.records.length+1,room,startedAt:new Date().toISOString(),rated,name:run.state.name};run.question=null;run.roundKey=null;run.pending=null;run.used.clear();run.submitted.clear();log(run,'match-start',run.state.active);save(run);
   }
@@ -205,7 +209,7 @@ export async function playRatedMatch(run,tab,engine,{maxSeconds=900,queue=true,o
   const leave=tab.playwright.getByRole('button',{name:'Leave room',exact:true});
   if(await leave.count()){await leave.click();const after=await observe(tab);log(run,'after-leave',{text:after.text});run.lastText=after.text;}
  }
- return {...result,current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,record:run.state.records[before]??null};
+ return {...result,current:run.state.current,best:run.state.best,games:run.state.records.length,active:run.state.active,record:run.state.records.slice(before).at(-1)??null};
 }
 
 // Multiple complete matches share one awaited call and a warm local cache.
